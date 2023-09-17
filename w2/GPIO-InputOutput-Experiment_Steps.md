@@ -73,10 +73,10 @@ Result: <https://youtu.be/FwJsIexCTwQ>
 
 ## Bonus
 
-Objective: Control the RGB LED to illuminate in the sequence of blue, green, red, blue-green, blue-red, green-red and repeat.
+Objective: Control the RGB LED to illuminate repeatedly in the sequence of blue, green, red, blue-green, blue-red, green-red, white.
 
 Hint:
 
-1. Use pin PA0, PA1, PC2 to attach with JP17-RGB.
+1. Use pin PA0, PA1, PC2 to attach with JP17-BGR.
 
 Result: <https://youtu.be/_08Xz7Kt_68>
