@@ -31,6 +31,8 @@ Steps:
    7. 3V3 to JP24-4.
 3. After powering on, pressing key0/4 should turn LED off; pressing key1/5 should turn LED on.
 
+Result: <https://youtu.be/K46_xkXOUrc>
+
 ## Homework 2-3
 
 Objective: Make LED lights flash using the delay function.
@@ -56,10 +58,16 @@ Steps:
    3. PC14, PC15, PB0, PB1, PB2, PB3, PB4, PB5 to LED0~7.
 9. Connect ESK32-30501 development board to computer and load compiled code onto it.
 
+Result: <https://youtu.be/s0h11k8fy1w>
+
 ## Homework 2-4
 
 Objective: LED flickers when the button connected with PA0 is pressed.
 
+Result: <https://youtu.be/FwJsIexCTwQ>
+
 ## Bonus
 
 Objective: Control the RGB LED to illuminate in the sequence of blue, green, red, blue-green, blue-red, green-red and repeat.
+
+Result: <https://youtu.be/_08Xz7Kt_68>
