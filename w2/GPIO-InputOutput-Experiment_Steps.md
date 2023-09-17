@@ -64,10 +64,19 @@ Result: <https://youtu.be/s0h11k8fy1w>
 
 Objective: LED flickers when the button connected with PA0 is pressed.
 
+Hint:
+
+1. Use pin PC14, PC15, PB0, PB1, PB2, PB3, PB4, PB5 to attach with LED0~7.
+2. Use pin PD1 to connect with JP24-0.
+
 Result: <https://youtu.be/FwJsIexCTwQ>
 
 ## Bonus
 
 Objective: Control the RGB LED to illuminate in the sequence of blue, green, red, blue-green, blue-red, green-red and repeat.
+
+Hint:
+
+1. Use pin PA0, PA1, PC2 to attach with JP17-RGB.
 
 Result: <https://youtu.be/_08Xz7Kt_68>
