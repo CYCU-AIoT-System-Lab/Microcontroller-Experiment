@@ -16,3 +16,4 @@
 | 12  | 20230917 | Finished "./w2/GPIO-InputOutput-Code_Flow.md".                                 |
 | 13  | 20230921 | Finished "./w3/ADC-Continuous_Potentiometer-Experiment_Steps.md".              |
 | 14  | 20230921 | Update different pin setting for different class.                              |
+| 15  | 20230921 | Finished "./w3/ADC-Continuous_Potentiometer-Code_Flow.md".                     |
