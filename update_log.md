@@ -14,3 +14,4 @@
 | 10  | 20230917 | Add pin connection hint to "./w2/GPIO-InputOutput-Experiment_Steps.md".        |
 | 11  | 20230917 | Update detail in bonus section of "./w2/GPIO-InputOutput-Experiment_Steps.md". |
 | 12  | 20230917 | Finished "./w2/GPIO-InputOutput-Code_Flow.md".                                 |
+| 13  | 20230921 | Finished "./w3/ADC-Continuous_Potentiometer-Experiment_Steps.md".              |
