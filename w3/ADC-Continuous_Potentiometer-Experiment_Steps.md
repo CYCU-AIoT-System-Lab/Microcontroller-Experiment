@@ -12,7 +12,7 @@ Objective: Use potentiometer to display measured voltage.
 
 Hint:
 
-1. Use pin A6 to connect to JP16.
+1. Use pin A6(甲班)/A7(乙班) to connect to JP16.
 2. Reference formula in slide p. 16 ADC specifications.
 
 <details><summary>Experiment Steps:</summary>
@@ -21,7 +21,7 @@ Hint:
 2. Connect ESK32-30501 dev-board to ESK300 eval-board. (without power)
    1. VDD to 3V3.
    2. GND to GND.
-   3. PA6 to JP16.
+   3. PA6(甲班)/PA7(乙班) to JP16.
 3. After powering on and loading with modified code, turn the potentiometer on ESK300 eval-board. Tera Term should display current voltage value live.
 
 </details>
@@ -34,7 +34,7 @@ Objective: High voltage indicator. Measuring potentiometer level, turn red light
 
 Hint:
 
-1. Use pin A6 to connect to JP16.
+1. Use pin A6(甲班)/A7(乙班) to connect to JP16.
 2. Use pin C14/15 to connect to JP17.
 
 Result: <https://youtu.be/K4dNRj2S0x4>
