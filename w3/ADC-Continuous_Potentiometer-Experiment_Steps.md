@@ -8,7 +8,7 @@
 
 ## Homework 3-1
 
-Objective: Use potentiometer to change displaying measured voltage.
+Objective: Use potentiometer to display measured voltage.
 
 Hint:
 
