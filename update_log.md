@@ -17,3 +17,5 @@
 | 13  | 20230921 | Finished "./w3/ADC-Continuous_Potentiometer-Experiment_Steps.md".              |
 | 14  | 20230921 | Update different pin setting for different class.                              |
 | 15  | 20230921 | Finished "./w3/ADC-Continuous_Potentiometer-Code_Flow.md".                     |
+| 16  | 20230922 | Update weekly content in "./README.md".                                        |
+| 17  | 20230922 | Finished "./w3/TM-PWM_Buzzer-Experiment_Steps.md".                             |

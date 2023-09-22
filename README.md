@@ -10,4 +10,6 @@
 | Week No. | Content            |
 | :------: | ------------------ |
 |    1     | Environment setup. |
-|    2     | CKCU and GPIO.     |
+|    2     | CKCU + GPIO        |
+|    3     | ADC                |
+|    4     | TM                 |
