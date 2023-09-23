@@ -28,7 +28,7 @@ The following flow is written from the original state of the example.
 | 18  | buzzer_pwm.c |   148   | Apply timer output settings to CHCTR, CHPOLR, CHBPKCFR.                             |
 | 19  | buzzer_pwm.c | 150-153 | If MCTM is used, enable it.                                                         |
 | 20  | buzzer_pwm.c |   156   | Enable timer interrupt.                                                             |
-| 21  |    main.c    |   90    | Start buzzing with given parameters.                                                |
+| 21  |    main.c    |   89    | Start buzzing with given parameters.                                                |
 | 22  | buzzer_pwm.c |   169   | Same as No. 11.                                                                     |
 | 23  | buzzer_pwm.c |   170   | Calculate CCR comparing value.                                                      |
 | 24  | buzzer_pwm.c | 172-175 | Calculate variables used in interrupt function "HTCFG_BUZZER_IRQHandler".           |
