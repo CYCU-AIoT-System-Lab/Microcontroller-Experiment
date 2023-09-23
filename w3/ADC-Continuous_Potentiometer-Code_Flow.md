@@ -33,6 +33,15 @@ The following flow is written from the original state of the example.
 | 25  |     main.c      |   68    | Use software trigger to start ADC conversion by modifying ADCTSR.                                                                                                       |
 | 26  |     main.c      |   74    | Whenever ADC reaches EOC, print measured value. The flag parameter is updated with previously mentioned function "HTCFG_ADC_IRQHandler" defined in "ht32fxxxx_01_it.c". |
 
+## Interrupt function HTCFG_ADC_IRQHandler
+
+| No. |        File        |  Line   | Detail                                                                |
+| :-: | :----------------: | :-----: | --------------------------------------------------------------------- |
+|  1  | ht32f5xxxx_01_it.c | 120-121 | Access main.c declared variables.                                     |
+|  2  | ht32f5xxxx_01_it.c |   123   | Clear the ALC interrupt pending bits.                                 |
+|  3  | ht32f5xxxx_01_it.c |   124   | Retrieve measured potentiometer level from ADC data storing register. |
+|  4  | ht32f5xxxx_01_it.c |   125   | Set EOC flag to indicate it's EOC.                                    |
+
 ## Acronym Used
 
 | No. | Acronym | Full Word                                    |
@@ -49,3 +58,4 @@ The following flow is written from the original state of the example.
 | 10  | ADCIER  | ADC Interrupt Enable Register                |
 | 11  | ADCCR   | ADC Conversion Control Register              |
 | 12  | ADCTSR  | ADC Trigger Source Register                  |
+| 13  | ALC     |                                              |
