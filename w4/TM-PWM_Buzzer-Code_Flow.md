@@ -1,4 +1,4 @@
-# ADC / Continuous Potemtiometer | Code Flow
+# TM / Continuous Potemtiometer | Code Flow
 
 This file is co-written by [belongtothenight](https://github.com/belongtothenight) and [bh1319](https://github.com/bh1319).
 
