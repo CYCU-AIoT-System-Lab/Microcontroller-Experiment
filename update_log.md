@@ -24,3 +24,4 @@
 | 20  | 20230923 | Update "./w3/TM-PWM_Buzzer-Code_Flow.md" title.                                        |
 | 21  | 20230923 | Update "./w3/ADC-Continuous_Potentiometer-Code_Flow.md" title.                         |
 | 22  | 20230923 | Edit "./w3/TM-PWM_Buzzer-Code_Flow.md".                                                |
+| 23  | 20230923 | Update "./w2/GPIO-InputOutput-Code_Flow.md" with register detail.                      |
