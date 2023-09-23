@@ -4,6 +4,8 @@ This file is co-written by [belongtothenight](https://github.com/belongtothenigh
 
 The following flow is written from the original state of the example.
 
+## main.c
+
 | No. |      File       |  Line   | Detail                                                                                                                                                                  |
 | :-: | :-------------: | :-----: | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |  1  |     main.c      |  29-31  | Include essential libraries.                                                                                                                                            |
