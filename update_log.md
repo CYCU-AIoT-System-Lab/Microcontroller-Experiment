@@ -26,5 +26,6 @@
 | 22  | 20230923 | Edit "./w3/TM-PWM_Buzzer-Code_Flow.md".                                                |
 | 23  | 20230923 | Update "./w2/GPIO-InputOutput-Code_Flow.md" with register detail.                      |
 | 24  | 20230927 | Add "./c_template" folder to demonstrate c code used in library.                       |
-| 25  | 20230927 | Add "./c_template/test_1.c" and "./c_template/test_1.o".                               |
+| 25  | 20230927 | Add "./c_template/test_1.c", "./c_template/test_1", and "./c_template/test_1.exe".     |
 | 26  | 20230927 | Partially updated "./w5/I2C-EEPROM_Simulate-Code_Flow.md".                             |
+| 27  | 20230927 | Add "./c_template/test_2.c", "./c_template/test_2", and "./c_template/test_2.exe".     |

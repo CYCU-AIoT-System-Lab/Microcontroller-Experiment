@@ -1,6 +1,11 @@
 # C Template
 
+Compile and execute with ```gcc test_1.c -o ./executable/test_1 && ./executable/test_1``` (shell), ```gcc test_1.c -o ./executable/test_1 && ./executable/test_1.exe``` (powershell).
+
 ## test_1.c
 
-- Compile and execute with ```gcc test_1.c -o test_1.o && ./test_1.o```
-- Result: ![test_1.c](result_screenshot/test_1.png)
+![test_1.c](result_screenshot/test_1.png)
+
+## test_2.c
+
+![test_2.c](result_screenshot/test_2.png)
