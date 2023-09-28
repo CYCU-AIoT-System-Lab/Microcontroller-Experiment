@@ -1,6 +1,6 @@
 # C Template
 
-Compile and execute with ```gcc test_1.c -o ./executable/test_1 && ./executable/test_1``` (shell), ```gcc test_1.c -o ./executable/test_1 && ./executable/test_1.exe``` (powershell).
+Compile and execute with ```gcc test_1.c -o ./executable/test_1 && ./executable/test_1``` (shell), ```gcc test_1.c -o ./executable/test_1 && ./executable/test_1.exe``` (powershell), or make (```make help``` to see options).
 
 ## test_1.c
 
