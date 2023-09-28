@@ -91,33 +91,51 @@ The following flow is written from the original state of the example.
 
 ## Interrupt function I2C0_IRQHandler
 
-| No. | File | Line | Detail |
-| :-: | :--: | :--: | ------ |
-|     |      |      |        |
+| No. |        File        |  Line   | Detail                                                                                                                                                                                                    |
+| :-: | :----------------: | :-----: | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|  1  | ht32f5xxxx_01_it.c | 165-166 | ?? read and write to SR. ??                                                                                                                                                                               |
+|  2  | ht32f5xxxx_01_it.c | 169-173 | If I2C bus is encountering error, make its status as bus error and call handling function, which stops the entire I2C.                                                                                    |
+|  3  | ht32f5xxxx_01_it.c | 176-180 | If I2C has timed out, make its status as timeout and call handling function, which stops the entire I2C.                                                                                                  |
+|  4  | ht32f5xxxx_01_it.c | 183-187 | If I2C encounters arbitration loss condition, make its status as it is and call handling function, which stops the entire I2C.                                                                            |
+|  5  | ht32f5xxxx_01_it.c | 190-203 | If encountered NACK condition, keep retrying if no response is received until the retry counter ends.                                                                                                     |
+|  6  | ht32f5xxxx_01_it.c |   205   | If I2C master transfer buffer contains data, continue; else, udpate status as doesn't containing data.                                                                                                    |
+|  7  | ht32f5xxxx_01_it.c | 210-211 | If not being I2C master, and receive order from it to start transmitting, break out.                                                                                                                      |
+|  8  | ht32f5xxxx_01_it.c | 213-216 | If it's master transmitter mode, send the register address to I2C bus.                                                                                                                                    |
+|  9  | ht32f5xxxx_01_it.c | 218-230 | If I2C TX side is ready, and if it's output mode, send data chunk by chunk until all of it is done; if it's input mode, keep trying to become output mode.                                                |
+| 10  | ht32f5xxxx_01_it.c | 241-247 | If it's master receiving mode, keep receiving data until there is none by sending ACK back.                                                                                                               |
+| 11  | ht32f5xxxx_01_it.c | 249-266 | If I2C RX side is not ready, receive the data. Then if transfer is still not finished, disable ACK to prevent receiving next data. Then if transfer is finished, stop the I2C transmission and break out. |
+| 12  | ht32f5xxxx_01_it.c | 268-270 | If it's any other cases, break out.                                                                                                                                                                       |
 
 ## Interrupt function I2C1_IRQHandler
 
-| No. | File | Line | Detail |
-| :-: | :--: | :--: | ------ |
-|     |      |      |        |
+| No. |        File        |  Line   | Detail                                                                                                                                                                                               |
+| :-: | :----------------: | :-----: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|  1  | ht32f5xxxx_01_it.c |   296   | Switch cases based on value from I2C read register.                                                                                                                                                  |
+|  2  | ht32f5xxxx_01_it.c | 299-301 | If I2C is in slave mode and send ACK to master address, meaning received data, set write index as -1.                                                                                                |
+|  3  | ht32f5xxxx_01_it.c | 303-314 | If I2C is in slave mode and RX side is not empty, if write index is -1, load received data to memory and store its address to write index; if not -1, put data in simulated EEPROM pages bit by bit. |
+|  4  | ht32f5xxxx_01_it.c | 316-329 | If I2C is in slave mode and received stop signal, simulate writing data from memory to EEPROM. After finishing, re-enable I2C.                                                                       |
+|  5  | ht32f5xxxx_01_it.c | 331-332 | If I2C is in slave mode and send ACK to master address, or slave TX side is empty, send data in simulated EEPROM memory to master.                                                                   |
+|  6  | ht32f5xxxx_01_it.c | 341-344 | If I2C is in slave mode and received NACK and stopped, clear the NACK flag.                                                                                                                          |
 
 ## Acronym Used
 
-| No. | Acronym | Full Word |
-| :-: | ------- | --------- |
-|  1  | EEPROM  |           |
-|  2  | I2C     |           |
-|  3  | GPIO    |           |
-|  4  | AFIO    |           |
-|  5  | SRR     |           |
-|  6  | PUR     |           |
-|  7  | PDR     |           |
-|  8  | EXTI    |           |
-|  9  | ESSR    |           |
-| 10  | CR      |           |
-| 11  | ADDR    |           |
-| 12  | SHPGR   |           |
-| 13  | SLPGR   |           |
-| 14  | IER     |           |
-| 15  | TAR     |           |
-| 16  | SR      |           |
+| No. | Acronym | Full Word                                           |
+| :-: | ------- | --------------------------------------------------- |
+|  1  | EEPROM  | Electrically Erasable Programmable Read-Only Memory |
+|  2  | I2C     | Inter-Integrated Circuit Communication Protocol     |
+|  3  | GPIO    | General Purpose I/O                                 |
+|  4  | AFIO    | Alternate Function Input/Output Control Unit        |
+|  5  | SRR     | Set/Reset Control Register                          |
+|  6  | PUR     | Pull-Up Selection Register                          |
+|  7  | PDR     | Pull-Down Selection Register                        |
+|  8  | EXTI    | External Interrupt/Event Controller                 |
+|  9  | ESSR    | EXTI Source Selection Register                      |
+| 10  | CR      | EXTI Interrupt Control Register                     |
+| 11  | ADDR    | I2C Address Register                                |
+| 12  | SHPGR   | SCL High Period Generation Register                 |
+| 13  | SLPGR   | SCL Low Period Generation Register                  |
+| 14  | IER     | Interrupt Enable Register                           |
+| 15  | TAR     | Target Register                                     |
+| 16  | SR      | Status Register                                     |
+| 17  | ACK     | Acknowledge bit used in I2C                         |
+| 18  | NACK    | Not Acknowledge bit used in I2C                     |

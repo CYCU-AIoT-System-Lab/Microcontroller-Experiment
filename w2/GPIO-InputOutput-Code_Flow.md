@@ -32,7 +32,7 @@ The following flow is written from the original state of the example.
 | No. | Acronym | Full Word                                    |
 | :-: | ------- | -------------------------------------------- |
 |  1  | AHB     | ARM-designed high-performance bus            |
-|  2  | GPIO    | General Purpose I/O (GPIO)                   |
+|  2  | GPIO    | General Purpose I/O                          |
 |  3  | AFIO    | Alternate Function Input/Output Control Unit |
 |  4  | AHBCCR  | AHB Clock Control Register                   |
 |  5  | APBCCR  | APB Clock Control Register                   |
