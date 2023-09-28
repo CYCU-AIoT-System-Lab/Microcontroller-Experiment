@@ -13,3 +13,4 @@
 |    2     | CKCU + GPIO        |
 |    3     | ADC                |
 |    4     | TM                 |
+|    5     | I2C                |

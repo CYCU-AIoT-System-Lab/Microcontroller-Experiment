@@ -29,3 +29,8 @@
 | 25  | 20230927 | Add "./c_template/test_1.c", "./c_template/test_1", and "./c_template/test_1.exe".     |
 | 26  | 20230927 | Partially updated "./w5/I2C-EEPROM_Simulate-Code_Flow.md".                             |
 | 27  | 20230927 | Add "./c_template/test_2.c", "./c_template/test_2", and "./c_template/test_2.exe".     |
+| 28  | 20230928 | Add "./c_template/test_3.c", "./c_template/test_3", and "./c_template/test_3.exe".     |
+| 29  | 20230928 | Add "./c_template/makefile" to performing file actions.                                |
+| 30  | 20230928 | Fix acronym error in "./w2/GPIO-InputOutput-Code_Flow.md".                             |
+| 31  | 20230928 | Update weekly content in "./README.md".                                                |
+| 32  | 20230928 | Finished "./w5/I2C-EEPROM_Simulate-Code_Flow.md".                                      |
