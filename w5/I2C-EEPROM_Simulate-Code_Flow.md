@@ -72,15 +72,34 @@ The following flow is written from the original state of the example.
 | 62  |        main.c         |   186   | Enable EEPROM interrupts by modifying IER.                                                                       |
 | 63  |        main.c         |   190   | Enable NVIC to handle I2C interrupt.                                                                             |
 | 64  |        main.c         |   193   | Enable I2C settings.                                                                                             |
-| 65  |        main.c         |   82    |                                                                                                                  |
+| 65  |        main.c         |   82    | Call function to execute I2C read write test to EEPROM.                                                          |
+| 66  |        main.c         |   254   | Call I2C writing to buffer/EEPROM function. If succeed, continue; if fail, light up LED.                         |
+| 67  |        main.c         | 228-235 | Use pre-defined I2C variable (in "ht32f5xxxx_01_it.c") to set settings for data transfer.                        |
+| 68  |        main.c         |   238   | Configure I2C transmission by modifying CR, and TAR.                                                             |
+| 69  |        main.c         |   240   | Wait till I2C master side transfer lock is removed. (Check I2C0_IRQHandler for further details.)                 |
+| 70  |        main.c         |   241   | Wait till I2C master side status flag is not busy by reading SR.                                                 |
+| 71  |        main.c         |   243   | Empty I2C master transfer buffer.                                                                                |
+| 72  |        main.c         |   245   | Return the I2C master transfer status.                                                                           |
+| 73  |        main.c         |   260   | Call I2C reading to buffer/EEPROM function. If succeed, continue; if fail, light up LED.                         |
+| 74  |        main.c         | 202-209 | Use pre-defined I2C variable (in "ht32f5xxxx_01_it.c") to set settings for data transfer.                        |
+| 75  |        main.c         |   212   | Send I2C transfer start signal by modifying CR and TAR.                                                          |
+| 76  |        main.c         |   214   | Wait till I2C master side transfer lock is removed.                                                              |
+| 77  |        main.c         |   215   | Wait till I2C master side status flag is not busy by reading SR.                                                 |
+| 78  |        main.c         |   217   | Empty I2C master transfer buffer.                                                                                |
+| 79  |        main.c         |   219   | Return I2C master transfer status.                                                                               |
+| 80  |        main.c         |   100   | If read and write is finished without problem, light up LED.                                                     |
 
-
-## Interrupt function HTCFG_BUZZER_IRQHandler
+## Interrupt function I2C0_IRQHandler
 
 | No. | File | Line | Detail |
 | :-: | :--: | :--: | ------ |
 |     |      |      |        |
 
+## Interrupt function I2C1_IRQHandler
+
+| No. | File | Line | Detail |
+| :-: | :--: | :--: | ------ |
+|     |      |      |        |
 
 ## Acronym Used
 
@@ -100,4 +119,5 @@ The following flow is written from the original state of the example.
 | 12  | SHPGR   |           |
 | 13  | SLPGR   |           |
 | 14  | IER     |           |
-
+| 15  | TAR     |           |
+| 16  | SR      |           |
