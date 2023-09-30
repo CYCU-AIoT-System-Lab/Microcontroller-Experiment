@@ -58,7 +58,7 @@ Result: <https://youtu.be/1UompAHJZVU>
 
 ## Homework 4-3
 
-Objective: Display "\<student_number\>\_\<date\>"(甲班)/"\<date\>\_\<student_number\>"(乙班).
+Objective: Display "\<student_number\>\_\<date\>"(甲班)/"\<date\>\_\<student_number\>"(乙班), and explain how your code work.
 
 Hint:
 
