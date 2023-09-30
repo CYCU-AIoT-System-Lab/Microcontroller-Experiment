@@ -34,3 +34,4 @@
 | 30  | 20230928 | Fix acronym error in "./w2/GPIO-InputOutput-Code_Flow.md".                             |
 | 31  | 20230928 | Update weekly content in "./README.md".                                                |
 | 32  | 20230928 | Finished "./w5/I2C-EEPROM_Simulate-Code_Flow.md".                                      |
+| 33  | 20230930 | Finished "./w5/I2C-EEPROM_Simulate-Experiment_Steps.md".                               |
