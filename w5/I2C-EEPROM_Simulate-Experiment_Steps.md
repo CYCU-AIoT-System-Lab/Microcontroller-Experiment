@@ -6,7 +6,7 @@
 2. Execute "_CreateProject.bat".
 3. Launch 52352 project.
 
-## Homework 4-1
+## Homework 5-1
 
 Objective: Execute example project.
 
@@ -29,7 +29,7 @@ Hint:
 
 Result: <https://youtu.be/DjRtjLKtLHk>
 
-## Homework 4-2
+## Homework 5-2
 
 Objective: Display I2C transfer result with Tera Term.
 
@@ -56,7 +56,7 @@ Hint:
 
 Result: <https://youtu.be/1UompAHJZVU>
 
-## Homework 4-3
+## Homework 5-3
 
 Objective: Display "\<student_number\>\_\<date\>"(甲班)/"\<date\>\_\<student_number\>"(乙班), and explain how your code work.
 
@@ -82,7 +82,7 @@ Hint:
 
 Result: <https://youtu.be/qj5G9LuY0gQ>
 
-## Homework 4-4
+## Homework 5-4
 
 Objective: Explain what the following two lines of code means.
 
