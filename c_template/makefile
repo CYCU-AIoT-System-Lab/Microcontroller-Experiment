@@ -53,16 +53,18 @@ ca:
 
 help:
 	@echo ==========================================
-	@echo ! Make options
-	@echo ! WARN -- Cleaning only works on linux/WSL
-	@echo ! 1. test_1 -- compile test_1
-	@echo ! 2. ct1    -- clear test_1
-	@echo ! 3. test_2 -- compile test_2
-	@echo ! 4. ct2    -- clear test_2
-	@echo ! 5. test_3 -- compile test_3
-	@echo ! 6. ct3    -- clear test_3
-	@echo ! 7. all    -- compile all
-	@echo ! 8. ca     -- clear all
-	@echo ! 9. help   -- display make options
+	@echo + Make options
+	@echo + WARN -- Cleaning only works on linux/WSL
+	@echo +  1. test_1 -- compile test_1
+	@echo +  2. ct1    -- clear test_1
+	@echo +  3. test_2 -- compile test_2
+	@echo +  4. ct2    -- clear test_2
+	@echo +  5. test_3 -- compile test_3
+	@echo +  6. ct3    -- clear test_3
+	@echo +  7. test_4 -- compile test_4
+	@echo +  8. ct4    -- clear test_4
+	@echo +  9. all    -- compile all
+	@echo + 10. ca     -- clear all
+	@echo + 11. help   -- display make options
 	@echo ==========================================
 
