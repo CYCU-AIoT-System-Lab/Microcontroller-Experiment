@@ -16,84 +16,42 @@ Hint:
 2. Wire up. (p7)
 3. Edit code. (p26)
 
-<details><summary>Experiment Steps:</summary>
+<details><summary>Experiment Steps: (Click to see more)</summary>
 
 1. Connect ESK32-30501 dev-board to ESK300 eval-board and bread board. (not powered)
-   1. VDD to 3V3.
-   2. GND to GND.
-   3. ![SCL/SDA connection](./../multimedia/image.png)
-2. After powered on and loaded with modified code, only LED1/D7 should be on.
-   1. LED1/D7 off: Transfer failed.
-   2. LED2/D8 on: Transfer failed.
+   1. SPI0_SEL to SPI1_SEL.
+   2. SPI0_SCK to SPI1_SCK.
+   3. SPI0_MOSI to SPI1_MOSI.
+   4. SPI0_MISO to SPI1_MISO.
+2. After powered on and loaded with modified code, tera term should show message in the following picture.
+   1. ![hw6-1](../multimedia/hw6-1.png)
 
 </details>
 
-Result: <https://youtu.be/DjRtjLKtLHk>
+Result: <https://youtu.be/lA0dsZUfvKI>
 
-## Homework 5-2
+## Homework 6-2
 
-Objective: Display I2C transfer result with Tera Term.
+Objective: Use JP10 to read temperature from TC77.
 
 Hint:
 
-1. Add following two functions at appropriate location.
-   1. ```for (i=0;i<16;i++){ printf("test:%d\r\n", TestData[i]); printf("read:%d\r\n", ReadBuffer[i]);}```
-   2. ```RETARGET_Configuration();```
+1. Connect SCK, SEL and MISO pins.
+2. Modify code (P32, 33)
+3. Print results on Tera Term.
+   1. ![hw6-2](../multimedia/hw6-2.png)
 
-<details><summary>Experiment Steps:</summary>
+<details><summary>Experiment Steps: (Click to see more)</summary>
 
 1. Modify code.
-   1. Add code 2 to the start of "main" function.
-   2. Add code 1 to the end of "main" function and before infinite loop.
 2. Connect ESK32-30501 dev-board to ESK300 eval-board and bread board. (not powered)
    1. VDD to 3V3.
    2. GND to GND.
-   3. ![SCL/SDA connection](./../multimedia/image.png)
-2. After powered on and loaded with modified code, only LED1/D7 should be on. Test and read data should be displayed on Tera Term.
-   1. LED1/D7 off: Transfer failed.
-   2. LED2/D8 on: Transfer failed.
+   3. SCK to SCK.
+   4. SEL to CS.
+   5. MISO to SI/O
+3. After powered on and loaded with modified code, normal temperature should be displayed on Tera Term.
 
 </details>
 
-Result: <https://youtu.be/1UompAHJZVU>
-
-## Homework 5-3
-
-Objective: Display "\<student_number\>\_\<date\>"(甲班)/"\<date\>\_\<student_number\>"(乙班), and explain how your code work.
-
-Hint:
-
-1. Modify variable "TestData". Only numbers should be included.
-2. Print out the result by using combination of array elements.
-
-<details><summary>Experiment Steps:</summary>
-
-1. Modify code.
-   1. Edit "TestData" variable to contain your student number and date number.
-   2. Edit print function to print out words like "11278041_20230930"(甲班)/"20230930_11278041"(乙班).
-2. Connect ESK32-30501 dev-board to ESK300 eval-board and bread board. (not powered)
-   1. VDD to 3V3.
-   2. GND to GND.
-   3. ![SCL/SDA connection](./../multimedia/image.png)
-3. After powered on and loaded with modified code, only LED1/D7 should be on. Test and read data should be displayed on Tera Term.
-   1. LED1/D7 off: Transfer failed.
-   2. LED2/D8 on: Transfer failed.
-
-</details>
-
-Result: <https://youtu.be/qj5G9LuY0gQ>
-
-## Homework 5-4
-
-Objective: Explain what the following two lines of code means.
-
-```
-1.
-/* Enable EEPROM interrupts                                                                               */
-  I2C_IntConfig(HTCFG_I2C_EEPROM_PORT, I2C_INT_ADRS | I2C_INT_RXDNE | I2C_INT_TXDE | I2C_INT_RXNACK | I2C_INT_STO, ENABLE);
-
-2.
-/* Enable I2C interrupts                                                                                  */
-  I2C_IntConfig(HTCFG_I2C_MASTER_PORT, I2C_INT_STA | I2C_INT_ADRS | I2C_INT_RXDNE | I2C_INT_TXDE
-                    | I2C_INT_ARBLOS | I2C_INT_RXNACK | I2C_INT_BUSERR | I2C_INT_TOUT , ENABLE);
-```
+Result: <https://youtu.be/alLRYzyeQVI>
