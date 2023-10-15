@@ -1,4 +1,4 @@
-# I2C / EEPROM Simulate | Code Flow
+# SPI / Interrupt | Code Flow
 
 The following flow is written from the original state of the example.
 
