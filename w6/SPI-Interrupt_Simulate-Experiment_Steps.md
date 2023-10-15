@@ -1,19 +1,20 @@
-# I2C / EEPROM Simulate | Experiment Steps
+# SPI / Interrupt | Experiment Steps
 
 ## Preparation
 
-1. Go to "~/HT32_STD_5xxxx_FWLib_V1.5.1_7084/example/I2C/EEPROM_Simulate".
+1. Go to "~/HT32_STD_5xxxx_FWLib_V1.5.1_7084/example/SPI/Interrupt".
 2. Execute "_CreateProject.bat".
 3. Launch 52352 project.
 
-## Homework 5-1
+## Homework 6-1
 
-Objective: Execute example project.
+Objective: Connet circuit and edit the code.
 
 Hint:
 
 1. Use key "F12" to locate specified pins and connect them.
-2. Compile, download, execute example project.
+2. Wire up. (p7)
+3. Edit code. (p26)
 
 <details><summary>Experiment Steps:</summary>
 
