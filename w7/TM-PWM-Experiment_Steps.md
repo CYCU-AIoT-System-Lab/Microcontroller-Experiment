@@ -42,7 +42,7 @@ Hint:
 
 1. Modify code.
    1. pwm.h
-      1. Adjust ```HTCFG_PWM_TM_PRESCALER``` to make $\cfrac{48MHz}{50\times HTCFG\text{\_}PWM\text{\_}TM\text{\_}PRESCALER}<65536$.
+      1. Adjust ```HTCFG_PWM_TM_PRESCALER``` to make $\cfrac{48MHz}{50\times \text{HTCFG PWM TM PRESCALER}}<65536$.
       2. Adjust ```HTCFG_PWM_FREQ_HZ``` to 50.
       3. Add new macro ```PWM_DUTY_0``` ~ ```PWM_DUTY100``` according to PPT.
    2. main.c
