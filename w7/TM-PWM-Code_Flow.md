@@ -1,4 +1,4 @@
-# SPI / Interrupt | Code Flow
+# TM / PWM | Code Flow
 
 The following flow is written from the original state of the example.
 
