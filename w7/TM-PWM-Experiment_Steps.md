@@ -90,7 +90,8 @@ Objective: Use three buttons to control SG90 to rotate to 0, 90, and 180 degrees
 Hint:
 
 1. Connect ```CH0```(甲班)/```CH2```(乙班) to oscilloscope.
-2. Connect ```CH1```(甲班)/```CH3```(乙班) to servo motor SG90, and use user input to rotate it to 0, 90, and 180 degrees angle.
-3. Refer to week 2 example ```GPIO/InputOutput```.
+2. Connect ```CH1```(甲班)/```CH3```(乙班) to servo motor SG90.
+3. Use pin "A1, A2, A3"(甲班)/"B1, B2, B3"(乙班) to take GPIO input.
+4. Refer to week 2 example ```GPIO/InputOutput```.
 
 Result: <https://youtu.be/7Mu6fSOrbyc>
