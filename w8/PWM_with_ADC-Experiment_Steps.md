@@ -1,4 +1,4 @@
-# TM / PWM | Experiment Steps
+# PWM_with_ADC | Experiment Steps
 
 ## Preparation
 
