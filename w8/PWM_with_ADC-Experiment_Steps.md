@@ -2,96 +2,46 @@
 
 ## Preparation
 
-1. Go to "~/HT32_STD_5xxxx_FWLib_V1.5.1_7084/example/TM/PWM".
-2. Execute "_CreateProject.bat".
-3. Launch 52352 project.
+1. Go to "~/HT32_STD_5xxxx_FWLib_V1.5.1_7084/example/TM/".
+2. Duplicate project folder "PWM_Buzzer" as "PWM_with_ADC".
+3. Go to "~/HT32_STD_5xxxx_FWLib_V1.5.1_7084/example/TM/PWM_with_ADC".
+4. Launch 52352 project.
 
-## Homework 7-1
+## Homework 8-1
 
-Objective: Observe output signal with oscilloscope and explain the code.
+Objective:  Change the behavior of buzzer when gPotentiometerLevel>2000.
 
 Hint:
 
-1. Use key "F12" to locate specified pins and connect them.
-2. Increase the default delay time for result observation.
-3. Connect PWM ```CH0 & CH1```(甲班)/```CH2 & CH3```(乙班) to the oscilloscope.
+1. Ensure both "/TM/PWM_with_ADC" and "/ADC/Continuous_Potentiometer" projects are working.
+2. Add the required functions and files from "/ADC/Continuous_Potentiometer" to "/TM/PWM_with_ADC".
+3. Use ```A6```(甲班)/```A7```(乙班) for ADC, ```A10```(甲班)/```B0```(乙班) for Buzzer.
 
 <details><summary>Experiment Steps: (Click to see more)</summary>
 
-1. Modify code. (乙班)
-   1. Lines 58, 64, 74: ```PWM_CH0``` :arrow_right: ```PWM_CH2```
-   2. Lines 59, 65, 75: ```PWM_CH1``` :arrow_right: ```PWM_CH3```
-2. Connect ```CH0 & CH1```(甲班)/```CH2 & CH3```(乙班) to oscilloscope.
-3. After powered on and loaded with modified code, oscilloscope should display two PWM signals.
+1. Modify code. (follows instruction in PPT)
+2. Connect ```A6```(甲班)/```A7```(乙班) to JP16, ```A10```(甲班)/```B0```(乙班) to JP9.
+3. After powered on and loaded with modified code, beeping pattern of buzzer should change when gPotentiometerLevel crosses 2000.
 
 </details>
 
-Result: <https://youtu.be/36aacR8vptQ>
+Result: <https://youtu.be/OQTJE1XG47o>
 
-## Homework 7-2
+## Homework 8-2
 
-Objective: Modify code and connect ```CH0```(甲班)/```CH2```(乙班) to oscilloscope, and use ```CH1```(甲班)/```CH3```(乙班) to control SG90.
+Objective: Make buzzer play all the note in P26 with the control of variable resistor.
 
 Hint:
 
-1. Connect ```CH0```(甲班)/```CH2```(乙班) to oscilloscope.
-2. Connect ```CH1```(甲班)/```CH3```(乙班) to servo motor SG90, and rotate it to 0, 45, 90, 135, and 180 degrees angle.
-3. Edit code in files: ```main.c``` & ```PWM.h```.
+1. Modify main.c as shown in P27 in PPT.
+2. Finish the code in while loop and execute it.
+3. Use ```A6```(甲班)/```A7```(乙班) for ADC, ```A10```(甲班)/```B0```(乙班) for Buzzer.
 
 <details><summary>Experiment Steps: (Click to see more)</summary>
 
-1. Modify code.
-   1. pwm.h
-      1. Adjust ```HTCFG_PWM_TM_PRESCALER``` to make $\cfrac{48MHz}{50\times \text{HTCFG PWM TM PRESCALER}}<65536$.
-      2. Adjust ```HTCFG_PWM_FREQ_HZ``` to 50.
-      3. Add new macro ```PWM_DUTY_0``` ~ ```PWM_DUTY100``` according to PPT.
-   2. main.c
-      1. Modify code to switch to different ```PWM_DUTY``` one by one.
-2. Connect wires.
-   1. ```CH0```(甲班)/```CH2```(乙班) :arrow_right: oscilloscope.
-   2. ```CH1```(甲班)/```CH3```(乙班) :arrow_right: servo motor SG90 orange wire.
-   3. 5V :arrow_right: servo motor SG90 red wire.
-   4. GND :arrow_right: servo motor SG90 brown wire.
-3. After powered on and loaded with modified code, signal with different duty cycle should appear on oscilloscope and SG90 should rotate accordingly.
+1. Modify code. (follows instruction in PPT)
+2. After powered on and loaded with modified code, the beeping frequency should change whenever gPotentiometerLevel changes over 113.
 
 </details>
 
-Result: <https://youtu.be/L8faNfCOW4A>
-
-## Homework 7-3
-
-Objective: Use laptop keyboard (Tera Term) input Duty Cycle to control SG90.
-
-Hint:
-
-1. Connect ```CH0```(甲班)/```CH2```(乙班) to oscilloscope.
-2. Connect ```CH1```(甲班)/```CH3```(乙班) to servo motor SG90, and use user input to rotate it to 0, 45, 90, 135, and 180 degrees angle.
-3. Edit code.
-
-<details><summary>Experiment Steps: (Click to see more)</summary>
-
-1. Modify code.
-   1. Add code on PPT to your main.c.
-2. Connect wires.
-   1. ```CH0```(甲班)/```CH2```(乙班) :arrow_right: oscilloscope.
-   2. ```CH1```(甲班)/```CH3```(乙班) :arrow_right: servo motor SG90 orange wire.
-   3. 5V :arrow_right: servo motor SG90 red wire.
-   4. GND :arrow_right: servo motor SG90 brown wire.
-3. After powered on and loaded with modified code, you should be able to use input from Tera Term to control the rotation of SG90.
-
-</details>
-
-Result: <https://youtu.be/97nUNzzfz-c>
-
-## Homework 7-4 Bonus
-
-Objective: Use three buttons to control SG90 to rotate to 0, 90, and 180 degrees.
-
-Hint:
-
-1. Connect ```CH0```(甲班)/```CH2```(乙班) to oscilloscope.
-2. Connect ```CH1```(甲班)/```CH3```(乙班) to servo motor SG90.
-3. Use pin "A1, A2, A3"(甲班)/"B1, B2, B3"(乙班) to take GPIO input.
-4. Refer to week 2 example ```GPIO/InputOutput```.
-
-Result: <https://youtu.be/7Mu6fSOrbyc>
+Result: <https://youtu.be/m9Z_blktml4>
