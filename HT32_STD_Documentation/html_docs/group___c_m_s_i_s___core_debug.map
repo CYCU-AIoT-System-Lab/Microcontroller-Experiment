@@ -1,0 +1,5 @@
+<map id="Core Debug Registers (CoreDebug)" name="Core Debug Registers (CoreDebug)">
+<area shape="rect" id="Node000001" title="Type definitions for the Core Debug Registers." alt="" coords="182,5,330,48"/>
+<area shape="rect" id="Node000003" href="$group___c_m_s_i_s___d_c_b.html" title="Type definitions for the Debug Control Block Registers." alt="" coords="378,13,518,40"/>
+<area shape="rect" id="Node000002" href="$group___c_m_s_i_s___f_p_u.html" title="Type definitions for the Floating Point Unit (FPU)" alt="" coords="5,5,134,48"/>
+</map>

@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['flash_5fstate_0',['FLASH_State',['../group___f_l_a_s_h___exported___types.html#ga0e37414958b5f37d51f5c1b42d4c7edf',1,'ht32f5xxxx_flash.h']]],
-  ['flash_5fvector_1',['FLASH_Vector',['../group___f_l_a_s_h___exported___types.html#ga734aba5b7252cbd406850e925d318fee',1,'ht32f5xxxx_flash.h']]]
+  ['sbc_5fcbwstate_5fenum_0',['sbc_cbwstate_enum',['../group___h_i_d___keyboard___mass___storage.html#ga478940a0ca8876e0b655211db33c9244',1,'SBC_CBWState_Enum:&#160;usb_scsi_block_command.c'],['../group___mass___storage.html#ga478940a0ca8876e0b655211db33c9244',1,'SBC_CBWState_Enum:&#160;usb_scsi_block_command.c']]]
 ];

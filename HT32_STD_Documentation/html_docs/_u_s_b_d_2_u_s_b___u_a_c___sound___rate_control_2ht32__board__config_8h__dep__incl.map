@@ -1,0 +1,17 @@
+<map id="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/USBD/USB_UAC_Sound_RateControl/ht32_board_config.h" name="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/USBD/USB_UAC_Sound_RateControl/ht32_board_config.h">
+<area shape="rect" id="Node000001" title="The header file of board configuration." alt="" coords="432,5,730,112"/>
+<area shape="rect" id="Node000002" href="$_u_s_b_d_2_u_s_b___u_a_c___sound___rate_control_2ht32f5xxxx__01__it_8c.html" title="This file provides all interrupt service routine." alt="" coords="328,299,626,405"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="525,126,505,161,493,195,486,231,479,298,474,298,481,230,488,194,500,159,520,124"/>
+<area shape="rect" id="Node000003" href="$_u_s_b_d_2_u_s_b___u_a_c___sound___rate_control_2i2cm_8h.html" title="The header file of I2C master driver." alt="" coords="515,160,856,251"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="630,123,655,158,651,161,626,126"/>
+<area shape="rect" id="Node000004" href="$_u_s_b_d_2_u_s_b___u_a_c___sound___rate_control_2main_8c.html" title="The main program of USB Device Audio example." alt="" coords="651,307,992,397"/>
+<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="746,78,781,91,815,108,845,131,870,158,879,176,884,195,882,234,870,273,853,308,848,305,865,271,877,234,879,196,874,178,866,162,841,135,812,113,779,96,745,83"/>
+<area shape="rect" id="Node000005" href="$main_8h.html" title="The API between application and HT32FXXXX Firmware Library." alt="" coords="99,160,440,251"/>
+<area shape="poly" id="edge6_Node000001_Node000005" title=" " alt="" coords="455,121,367,162,365,157,452,117"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="610,262,555,300,552,296,607,257"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="739,260,781,304,777,308,735,264"/>
+<area shape="poly" id="edge8_Node000005_Node000002" title=" " alt="" coords="347,257,403,296,400,300,344,262"/>
+<area shape="poly" id="edge9_Node000005_Node000004" title=" " alt="" coords="456,249,639,296,667,303,665,309,638,301,455,254"/>
+<area shape="rect" id="Node000006" href="$_u_s_b_d_2_u_s_b___u_a_c___sound___rate_control_2ht32__usbd__class_8c.html" title="The USB Device Class." alt="" coords="5,299,304,405"/>
+<area shape="poly" id="edge7_Node000005_Node000006" title=" " alt="" coords="227,265,198,300,194,296,222,261"/>
+</map>

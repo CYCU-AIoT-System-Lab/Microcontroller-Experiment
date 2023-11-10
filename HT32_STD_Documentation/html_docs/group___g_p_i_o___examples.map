@@ -1,0 +1,8 @@
+<map id="GPIO" name="GPIO">
+<area shape="rect" id="Node000001" title=" " alt="" coords="229,81,282,108"/>
+<area shape="rect" id="Node000003" href="$group___input.html" title=" " alt="" coords="350,5,399,32"/>
+<area shape="rect" id="Node000004" href="$group___input_output.html" title=" " alt="" coords="330,56,418,83"/>
+<area shape="rect" id="Node000005" href="$group___output.html" title=" " alt="" coords="344,107,404,133"/>
+<area shape="rect" id="Node000006" href="$group___pin_lock.html" title=" " alt="" coords="340,157,408,184"/>
+<area shape="rect" id="Node000002" href="$group___h_t32___series___peripheral___examples.html" title=" " alt="" coords="5,81,181,108"/>
+</map>

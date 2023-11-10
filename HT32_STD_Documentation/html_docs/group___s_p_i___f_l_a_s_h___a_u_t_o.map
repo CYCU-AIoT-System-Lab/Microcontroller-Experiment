@@ -1,0 +1,13 @@
+<map id="SPI_FLASH_AUTO" name="SPI_FLASH_AUTO">
+<area shape="rect" id="Node000002" href="$group___common.html" title=" " alt="" coords="5,280,79,307"/>
+<area shape="rect" id="Node000001" title="The SPI Flash Driver with auto detection function." alt="" coords="127,280,260,307"/>
+<area shape="rect" id="Node000007" href="$group___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants.html" title=" " alt="" coords="308,5,495,48"/>
+<area shape="rect" id="Node000004" href="$group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html" title=" " alt="" coords="308,72,495,115"/>
+<area shape="rect" id="Node000008" href="$group___s_p_i___f_l_a_s_h___a_u_t_o___exported___macros.html" title=" " alt="" coords="308,139,495,181"/>
+<area shape="rect" id="Node000006" href="$group___s_p_i___f_l_a_s_h___a_u_t_o___exported___types.html" title=" " alt="" coords="308,205,495,248"/>
+<area shape="rect" id="Node000011" href="$group___s_p_i___f_l_a_s_h___a_u_t_o___exported___variables.html" title=" " alt="" coords="308,272,495,315"/>
+<area shape="rect" id="Node000010" href="$group___s_p_i___f_l_a_s_h___a_u_t_o___global___variable.html" title=" " alt="" coords="316,339,487,381"/>
+<area shape="rect" id="Node000009" href="$group___s_p_i___f_l_a_s_h___a_u_t_o___private___macro.html" title=" " alt="" coords="315,405,489,448"/>
+<area shape="rect" id="Node000003" href="$group___s_p_i___f_l_a_s_h___a_u_t_o___private___variable.html" title=" " alt="" coords="315,472,489,515"/>
+<area shape="rect" id="Node000005" href="$group___s_p_i___f_l_a_s_h___a_u_t_o___settings.html" title=" " alt="" coords="310,539,493,565"/>
+</map>

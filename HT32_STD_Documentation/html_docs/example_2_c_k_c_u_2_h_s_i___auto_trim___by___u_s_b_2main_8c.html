@@ -1,51 +1,63 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>HT32_STD_Documents: main.c File Reference</title>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>HT32_STD_Code_Documents: D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/CKCU/HSI_AutoTrim_By_USB/main.c File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<link href="navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="resize.js"></script>
-<script type="text/javascript" src="navtreedata.js"></script>
-<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(document).ready(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
-   <div id="projectname">HT32_STD_Documents<span id="projectnumber">&#160;1.0.0</span>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">HT32_STD_Code_Documents
+   &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">For HT32F52352</div>
+   <div id="projectbrief">Micro-controller Experiment</div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
@@ -57,23 +69,17 @@
 var searchBox = new SearchBox("searchBox", "search/",'.html');
 /* @license-end */
 </script>
-</div><!-- top -->
-<div id="side-nav" class="ui-resizable side-nav-resizable">
-  <div id="nav-tree">
-    <div id="nav-tree-contents">
-      <div id="nav-sync" class="sync"></div>
-    </div>
-  </div>
-  <div id="splitbar" style="-moz-user-select:none;" 
-       class="ui-resizable-handle">
-  </div>
-</div>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('example_2_c_k_c_u_2_h_s_i___auto_trim___by___u_s_b_2main_8c.html',''); initResizable(); });
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
 /* @license-end */
 </script>
-<div id="doc-content">
+<div id="main-nav"></div>
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -95,6 +101,11 @@ $(document).ready(function(){initNavTree('example_2_c_k_c_u_2_h_s_i___auto_trim_
 </div>
 </div>
 
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_275089585c7fc1b5fd5d7d42c69cb1da.html">D:</a></li><li class="navelem"><a class="el" href="dir_273f27263c611837868160ff0f82bfd9.html">Note_Database</a></li><li class="navelem"><a class="el" href="dir_e8282a48381dd1bcf012c1bae1dc741b.html">Subject</a></li><li class="navelem"><a class="el" href="dir_7583b43eec1d2788dd81e658186519d2.html">MCETA Microcontroller Experiment TA</a></li><li class="navelem"><a class="el" href="dir_3ca5c6b4c4a2c10c94024caf0df2e6bb.html">files</a></li><li class="navelem"><a class="el" href="dir_79e3244e27785f7ec158b45668f9e3ec.html">HT32_STD_5xxxx_FWLib_V1.5.1_7084b</a></li><li class="navelem"><a class="el" href="dir_59078eea5ff994e62a291bc736e60abc.html">example</a></li><li class="navelem"><a class="el" href="dir_4696b9ca433dc6366de8ae090cd3d0e7.html">CKCU</a></li><li class="navelem"><a class="el" href="dir_8406c49a8c46d1c72881837b6b1eedd2.html">HSI_AutoTrim_By_USB</a></li>  </ul>
+</div>
+</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Data Structures</a> &#124;
@@ -112,6 +123,11 @@ $(document).ready(function(){initNavTree('example_2_c_k_c_u_2_h_s_i___auto_trim_
 <code>#include &quot;<a class="el" href="ht32__usbd__core_8h_source.html">ht32_usbd_core.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="example_2_c_k_c_u_2_h_s_i___auto_trim___by___u_s_b_2ht32__usbd__class_8h_source.html">ht32_usbd_class.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="example_2_c_k_c_u_2_h_s_i___auto_trim___by___u_s_b_2ht32__usbd__descriptor_8h_source.html">ht32_usbd_descriptor.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for main.c:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="example_2_c_k_c_u_2_h_s_i___auto_trim___by___u_s_b_2main_8c__incl.svg" width="688" height="342"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Data Structures</h2></td></tr>
@@ -120,14 +136,11 @@ Data Structures</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:ga4a0e634339410345f0a442a0af6c2cf8" id="r_ga4a0e634339410345f0a442a0af6c2cf8"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>SAVE_AUTO_TRIM_ADDRESS</b>&#160;&#160;&#160;(0x1FF00050)</td></tr>
+<tr class="memitem:ga4a0e634339410345f0a442a0af6c2cf8" id="r_ga4a0e634339410345f0a442a0af6c2cf8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_s_i___auto_trim___by___u_s_b.html#ga4a0e634339410345f0a442a0af6c2cf8">SAVE_AUTO_TRIM_ADDRESS</a>&#160;&#160;&#160;(0x1FF00050)</td></tr>
 <tr class="separator:ga4a0e634339410345f0a442a0af6c2cf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga51ac85110f2c6935701af4b7bea2e2d2" id="r_ga51ac85110f2c6935701af4b7bea2e2d2"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>SAVE_AUTO_TRIM_HEAD_KEY</b>&#160;&#160;&#160;(0x5A5A)</td></tr>
+<tr class="memitem:ga51ac85110f2c6935701af4b7bea2e2d2" id="r_ga51ac85110f2c6935701af4b7bea2e2d2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_s_i___auto_trim___by___u_s_b.html#ga51ac85110f2c6935701af4b7bea2e2d2">SAVE_AUTO_TRIM_HEAD_KEY</a>&#160;&#160;&#160;(0x5A5A)</td></tr>
 <tr class="separator:ga51ac85110f2c6935701af4b7bea2e2d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga24060a94325ef92e844ef5a016a0572f" id="r_ga24060a94325ef92e844ef5a016a0572f"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>REMOTE_WAKEUP</b>&#160;&#160;&#160;(1)</td></tr>
+<tr class="memitem:ga24060a94325ef92e844ef5a016a0572f" id="r_ga24060a94325ef92e844ef5a016a0572f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_s_i___auto_trim___by___u_s_b.html#ga24060a94325ef92e844ef5a016a0572f">REMOTE_WAKEUP</a>&#160;&#160;&#160;(1)</td></tr>
 <tr class="separator:ga24060a94325ef92e844ef5a016a0572f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
@@ -141,13 +154,11 @@ Functions</h2></td></tr>
 <tr class="memitem:ga6943bead54f3242f1029b5983be82ae6" id="r_ga6943bead54f3242f1029b5983be82ae6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_s_i___auto_trim___by___u_s_b.html#ga6943bead54f3242f1029b5983be82ae6">USB_Configuration</a> (void)</td></tr>
 <tr class="memdesc:ga6943bead54f3242f1029b5983be82ae6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configure USB.  <br /></td></tr>
 <tr class="separator:ga6943bead54f3242f1029b5983be82ae6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga18780f78610ee65a7e74b268f8dba039" id="r_ga18780f78610ee65a7e74b268f8dba039"><td class="memItemLeft" align="right" valign="top">
-void&#160;</td><td class="memItemRight" valign="bottom"><b>USBPLL_Configuration</b> (void)</td></tr>
+<tr class="memitem:ga18780f78610ee65a7e74b268f8dba039" id="r_ga18780f78610ee65a7e74b268f8dba039"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_s_i___auto_trim___by___u_s_b.html#ga18780f78610ee65a7e74b268f8dba039">USBPLL_Configuration</a> (void)</td></tr>
 <tr class="separator:ga18780f78610ee65a7e74b268f8dba039"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga535d2e4c94937b288223b013e981253c" id="r_ga535d2e4c94937b288223b013e981253c"><td class="memItemLeft" align="right" valign="top">
-void&#160;</td><td class="memItemRight" valign="bottom"><b>USBVRG_Configuration</b> (void)</td></tr>
+<tr class="memitem:ga535d2e4c94937b288223b013e981253c" id="r_ga535d2e4c94937b288223b013e981253c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_s_i___auto_trim___by___u_s_b.html#ga535d2e4c94937b288223b013e981253c">USBVRG_Configuration</a> (void)</td></tr>
 <tr class="separator:ga535d2e4c94937b288223b013e981253c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga47665f906ebc599af4a676d3da2da054" id="r_ga47665f906ebc599af4a676d3da2da054"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_s_i___auto_trim___by___u_s_b.html#ga47665f906ebc599af4a676d3da2da054">Suspend</a> (u32 uPara)</td></tr>
+<tr class="memitem:ga47665f906ebc599af4a676d3da2da054" id="r_ga47665f906ebc599af4a676d3da2da054"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_s_i___auto_trim___by___u_s_b.html#ga47665f906ebc599af4a676d3da2da054">Suspend</a> (<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> uPara)</td></tr>
 <tr class="memdesc:ga47665f906ebc599af4a676d3da2da054"><td class="mdescLeft">&#160;</td><td class="mdescRight">Suspend call back function which enter DeepSleep1.  <br /></td></tr>
 <tr class="separator:ga47665f906ebc599af4a676d3da2da054"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga6550b75f875c2f39bcab5c54cbfa1ceb" id="r_ga6550b75f875c2f39bcab5c54cbfa1ceb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_s_i___auto_trim___by___u_s_b.html#ga6550b75f875c2f39bcab5c54cbfa1ceb">CKCU_LoadTrimValue</a> (void)</td></tr>
@@ -168,20 +179,15 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>USBVRG_Configuration<
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ga344f0000d6f9fa4897291e9c862c7465" id="r_ga344f0000d6f9fa4897291e9c862c7465"><td class="memItemLeft" align="right" valign="top">
-__ALIGN4 <a class="el" href="struct_u_s_b_d_core___type_def.html">USBDCore_TypeDef</a>&#160;</td><td class="memItemRight" valign="bottom"><b>gUSBCore</b></td></tr>
+<tr class="memitem:ga344f0000d6f9fa4897291e9c862c7465" id="r_ga344f0000d6f9fa4897291e9c862c7465"><td class="memItemLeft" align="right" valign="top">__ALIGN4 <a class="el" href="struct_u_s_b_d_core___type_def.html">USBDCore_TypeDef</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_s_i___auto_trim___by___u_s_b.html#ga344f0000d6f9fa4897291e9c862c7465">gUSBCore</a></td></tr>
 <tr class="separator:ga344f0000d6f9fa4897291e9c862c7465"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1c9e34b11b065489e862a1cbc1566f71" id="r_ga1c9e34b11b065489e862a1cbc1566f71"><td class="memItemLeft" align="right" valign="top">
-<a class="el" href="struct_u_s_b_d___driver___type_def.html">USBD_Driver_TypeDef</a>&#160;</td><td class="memItemRight" valign="bottom"><b>gUSBDriver</b></td></tr>
+<tr class="memitem:ga1c9e34b11b065489e862a1cbc1566f71" id="r_ga1c9e34b11b065489e862a1cbc1566f71"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_u_s_b_d___driver___type_def.html">USBD_Driver_TypeDef</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_s_i___auto_trim___by___u_s_b.html#ga1c9e34b11b065489e862a1cbc1566f71">gUSBDriver</a></td></tr>
 <tr class="separator:ga1c9e34b11b065489e862a1cbc1566f71"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga050cb2ffeeb79c9d78042160e9c9ab97" id="r_ga050cb2ffeeb79c9d78042160e9c9ab97"><td class="memItemLeft" align="right" valign="top">
-u32&#160;</td><td class="memItemRight" valign="bottom"><b>gIsLowPowerAllowed</b> = TRUE</td></tr>
+<tr class="memitem:ga050cb2ffeeb79c9d78042160e9c9ab97" id="r_ga050cb2ffeeb79c9d78042160e9c9ab97"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_s_i___auto_trim___by___u_s_b.html#ga050cb2ffeeb79c9d78042160e9c9ab97">gIsLowPowerAllowed</a> = <a class="el" href="group___exported___types.html#ggaf6a258d8f3ee5206d682d799316314b1aa82764c3079aea4e60c80e45befbb839">TRUE</a></td></tr>
 <tr class="separator:ga050cb2ffeeb79c9d78042160e9c9ab97"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf7143ea5f9623dd44c407a85c4e8d8ed" id="r_gaf7143ea5f9623dd44c407a85c4e8d8ed"><td class="memItemLeft" align="right" valign="top">
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>bISTrimSaved</b> = FALSE</td></tr>
+<tr class="memitem:gaf7143ea5f9623dd44c407a85c4e8d8ed" id="r_gaf7143ea5f9623dd44c407a85c4e8d8ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___exported___types.html#gaf6a258d8f3ee5206d682d799316314b1">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_s_i___auto_trim___by___u_s_b.html#gaf7143ea5f9623dd44c407a85c4e8d8ed">bISTrimSaved</a> = <a class="el" href="group___exported___types.html#ggaf6a258d8f3ee5206d682d799316314b1aa1e095cc966dbecf6a0d8aad75348d1a">FALSE</a></td></tr>
 <tr class="separator:gaf7143ea5f9623dd44c407a85c4e8d8ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gafc56dfc5824f0493d776baeb118b567d" id="r_gafc56dfc5824f0493d776baeb118b567d"><td class="memItemLeft" align="right" valign="top">
-u32&#160;</td><td class="memItemRight" valign="bottom"><b>gTrimValue</b></td></tr>
+<tr class="memitem:gafc56dfc5824f0493d776baeb118b567d" id="r_gafc56dfc5824f0493d776baeb118b567d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_s_i___auto_trim___by___u_s_b.html#gafc56dfc5824f0493d776baeb118b567d">gTrimValue</a></td></tr>
 <tr class="separator:gafc56dfc5824f0493d776baeb118b567d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -197,13 +203,9 @@ u32&#160;</td><td class="memItemRight" valign="bottom"><b>gTrimValue</b></td></t
 </ol>
 <h2><center>Copyright (C) Holtek Semiconductor Inc. All rights reserved</center></h2>
 </div></div><!-- contents -->
-</div><!-- doc-content -->
 <!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="navelem"><a class="el" href="dir_275089585c7fc1b5fd5d7d42c69cb1da.html">D:</a></li><li class="navelem"><a class="el" href="dir_273f27263c611837868160ff0f82bfd9.html">Note_Database</a></li><li class="navelem"><a class="el" href="dir_e8282a48381dd1bcf012c1bae1dc741b.html">Subject</a></li><li class="navelem"><a class="el" href="dir_7583b43eec1d2788dd81e658186519d2.html">MCETA Microcontroller Experiment TA</a></li><li class="navelem"><a class="el" href="dir_3ca5c6b4c4a2c10c94024caf0df2e6bb.html">files</a></li><li class="navelem"><a class="el" href="dir_79e3244e27785f7ec158b45668f9e3ec.html">HT32_STD_5xxxx_FWLib_V1.5.1_7084b</a></li><li class="navelem"><a class="el" href="dir_59078eea5ff994e62a291bc736e60abc.html">example</a></li><li class="navelem"><a class="el" href="dir_4696b9ca433dc6366de8ae090cd3d0e7.html">CKCU</a></li><li class="navelem"><a class="el" href="dir_8406c49a8c46d1c72881837b6b1eedd2.html">HSI_AutoTrim_By_USB</a></li><li class="navelem"><a class="el" href="example_2_c_k_c_u_2_h_s_i___auto_trim___by___u_s_b_2main_8c.html">main.c</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
-  </ul>
-</div>
+<hr class="footer"/><address class="footer"><small>
+Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+</small></address>
 </body>
 </html>

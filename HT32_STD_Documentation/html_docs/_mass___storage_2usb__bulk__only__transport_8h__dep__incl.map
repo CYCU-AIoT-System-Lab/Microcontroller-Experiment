@@ -1,0 +1,25 @@
+<map id="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/USBD/Mass_Storage/usb_bulk_only_transport.h" name="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/USBD/Mass_Storage/usb_bulk_only_transport.h">
+<area shape="rect" id="Node000001" title="The header file of Bulk Only Transport." alt="" coords="454,5,681,112"/>
+<area shape="rect" id="Node000002" href="$_u_s_b_d_2_mass___storage_2ht32__usbd__class_8c.html" title="The USB Device Class." alt="" coords="5,160,237,267"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="440,100,250,163,238,167,236,162,248,157,438,95"/>
+<area shape="rect" id="Node000003" href="$_mass___storage_2ram__disk_8h.html" title="The header file of RAM Disk." alt="" coords="261,168,531,259"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="499,124,448,170,444,166,496,120"/>
+<area shape="rect" id="Node000007" href="$_mass___storage_2usb__bulk__only__transport_8c.html" title="The Bulk Only Transport (BOT)." alt="" coords="353,315,580,421"/>
+<area shape="poly" id="edge11_Node000001_Node000007" title=" " alt="" coords="571,128,564,197,556,233,545,268,517,316,512,313,540,266,551,231,559,196,566,127"/>
+<area shape="rect" id="Node000008" href="$sd__disk_8h.html" title="The header file of SD Disk." alt="" coords="605,168,867,259"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="638,120,688,166,685,170,635,124"/>
+<area shape="rect" id="Node000010" href="$_mass___storage_2usb__scsi__block__command_8c.html" title="The SCSI Block Command (SBC&#45;3 &amp; SPC&#45;4)." alt="" coords="891,315,1119,421"/>
+<area shape="poly" id="edge12_Node000001_Node000010" title=" " alt="" coords="697,78,744,90,791,108,838,130,880,158,916,193,946,233,970,275,988,313,983,316,965,277,941,236,912,196,877,162,835,135,789,112,742,95,696,83"/>
+<area shape="rect" id="Node000004" href="$_mass___storage_2ram__disk_8c.html" title="The RAM Disk related function." alt="" coords="58,323,328,413"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="326,270,254,324,251,320,323,266"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="425,272,444,313,440,316,420,274"/>
+<area shape="rect" id="Node000005" href="$_u_s_b_d_2_mass___storage_2__ht32__project__source_8h.html" title="The project source code setting." alt="" coords="482,469,720,576"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="327,417,482,474,480,479,326,422"/>
+<area shape="rect" id="Node000006" href="$_u_s_b_d_2_mass___storage_2main_8c.html" title="The main program of USB Device Mass Storage example." alt="" coords="478,624,724,715"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="604,592,604,623,598,623,598,592"/>
+<area shape="poly" id="edge7_Node000007_Node000005" title=" " alt="" coords="525,431,557,467,553,471,521,435"/>
+<area shape="rect" id="Node000009" href="$sd__disk_8c.html" title="The SD Disk related function." alt="" coords="605,323,867,413"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="738,274,738,323,733,323,733,274"/>
+<area shape="poly" id="edge10_Node000009_Node000005" title=" " alt="" coords="688,427,649,471,645,467,684,423"/>
+<area shape="poly" id="edge13_Node000010_Node000005" title=" " alt="" coords="878,424,721,482,720,477,876,419"/>
+</map>

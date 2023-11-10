@@ -1,0 +1,39 @@
+<map id="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/USBD/HID_Keyboard_Mass_Storage/main.c" name="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/USBD/HID_Keyboard_Mass_Storage/main.c">
+<area shape="rect" id="Node000001" title="The main program of USB Device HID Keyboard + Mass Storage example." alt="" coords="319,5,559,112"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="92,400,149,427"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="319,75,237,93,152,124,112,145,74,171,40,201,12,236,9,247,8,262,14,300,28,351,51,374,79,392,76,396,48,378,24,353,9,302,3,263,3,246,8,233,36,197,71,166,109,140,150,119,236,88,318,70"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="602,475,698,501"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="560,67,652,86,698,100,741,120,778,144,808,175,828,211,835,254,835,340,832,364,822,386,808,406,791,423,749,451,706,471,704,466,746,447,787,419,804,402,818,384,827,363,830,340,830,255,823,213,804,178,775,148,738,124,696,105,651,91,559,72"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="249,325,373,352"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="429,113,403,193,385,237,364,279,337,316,332,312,360,276,381,235,398,191,424,112"/>
+<area shape="rect" id="Node000005" href="$_u_s_b_d_2_h_i_d___keyboard___mass___storage_2ht32__usbd__class_8h.html" title="The header file of USB Device Class." alt="" coords="426,160,556,187"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="466,111,481,145,477,147,461,113"/>
+<area shape="rect" id="Node000006" href="$_u_s_b_d_2_h_i_d___keyboard___mass___storage_2ht32__usbd__descriptor_8h.html" title="The USB descriptor." alt="" coords="581,160,737,187"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="543,110,622,150,620,155,541,115"/>
+<area shape="rect" id="Node000007" href="$_u_s_b_d_2_h_i_d___keyboard___mass___storage_2__ht32__project__source_8h.html" title="The project source code setting." alt="" coords="194,160,351,187"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="363,115,305,153,302,149,360,110"/>
+<area shape="rect" id="Node000008" href="$_h_i_d___keyboard___mass___storage_2_src___mass_storage_2ram__disk_8c.html" title="The RAM Disk related function." alt="" coords="22,235,174,277"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="246,190,158,230,156,225,244,185"/>
+<area shape="rect" id="Node000011" href="$_h_i_d___keyboard___mass___storage_2_src___mass_storage_2usb__bulk__only__transport_8c.html" title="The Bulk Only Transport (BOT)." alt="" coords="198,235,350,277"/>
+<area shape="poly" id="edge12_Node000007_Node000011" title=" " alt="" coords="275,187,276,219,271,220,270,187"/>
+<area shape="rect" id="Node000013" href="$_h_i_d___keyboard___mass___storage_2_src___mass_storage_2usb__scsi__block__command_8c.html" title="The SCSI Block Command (SBC&#45;3 &amp; SPC&#45;4)." alt="" coords="491,235,657,277"/>
+<area shape="poly" id="edge18_Node000007_Node000013" title=" " alt="" coords="321,185,482,228,481,233,319,190"/>
+<area shape="rect" id="Node000009" href="$_h_i_d___keyboard___mass___storage_2_src___mass_storage_2ram__disk_8h.html" title="The header file of RAM Disk." alt="" coords="38,325,123,352"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="96,278,89,310,84,309,91,277"/>
+<area shape="poly" id="edge9_Node000009_Node000002" title=" " alt="" coords="90,351,109,385,104,388,85,354"/>
+<area shape="rect" id="Node000010" href="$_h_i_d___keyboard___mass___storage_2_src___mass_storage_2usb__bulk__only__transport_8h.html" title="The header file of Bulk Only Transport." alt="" coords="381,400,554,427"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="124,345,385,394,384,399,123,351"/>
+<area shape="poly" id="edge11_Node000010_Node000003" title=" " alt="" coords="500,425,605,466,603,471,498,430"/>
+<area shape="poly" id="edge13_Node000011_Node000002" title=" " alt="" coords="249,280,194,327,141,390,137,386,191,323,245,276"/>
+<area shape="poly" id="edge14_Node000011_Node000004" title=" " alt="" coords="286,277,301,310,296,312,281,279"/>
+<area shape="poly" id="edge17_Node000011_Node000009" title=" " alt="" coords="225,280,126,321,124,316,223,275"/>
+<area shape="poly" id="edge15_Node000011_Node000010" title=" " alt="" coords="257,279,245,296,235,315,232,334,239,350,257,364,288,377,366,395,365,401,286,382,255,369,234,354,227,334,230,313,240,294,253,276"/>
+<area shape="rect" id="Node000012" href="$_h_i_d___keyboard___mass___storage_2_src___mass_storage_2usb__scsi__block__command_8h.html" title="The header file of SCSI Block Command (SBC&#45;3 &amp; SPC&#45;4)." alt="" coords="398,325,584,352"/>
+<area shape="poly" id="edge16_Node000011_Node000012" title=" " alt="" coords="331,275,444,317,442,322,329,280"/>
+<area shape="poly" id="edge19_Node000013_Node000002" title=" " alt="" coords="591,277,606,315,607,335,598,354,575,366,533,376,413,393,165,412,165,407,412,388,532,371,574,361,595,350,602,334,601,316,586,279"/>
+<area shape="poly" id="edge20_Node000013_Node000004" title=" " alt="" coords="507,280,368,323,366,318,505,275"/>
+<area shape="poly" id="edge21_Node000013_Node000010" title=" " alt="" coords="606,276,625,292,641,311,649,332,643,353,628,370,610,383,570,401,568,396,607,379,624,366,638,351,643,332,637,314,622,296,603,280"/>
+<area shape="poly" id="edge22_Node000013_Node000012" title=" " alt="" coords="554,280,517,316,513,312,551,276"/>
+<area shape="rect" id="Node000014" href="$_h_i_d___keyboard___mass___storage_2_src___mass_storage_2usb__scsi_8h.html" title="The header file of SCSI Block Command (SBC&#45;3 &amp; SPC&#45;4)." alt="" coords="710,325,795,352"/>
+<area shape="poly" id="edge23_Node000013_Node000014" title=" " alt="" coords="621,276,712,316,710,321,619,280"/>
+</map>

@@ -1,0 +1,26 @@
+<map id="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/USBD/USB_UAC_Sound_RateControl/main.c" name="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/USBD/USB_UAC_Sound_RateControl/main.c">
+<area shape="rect" id="Node000001" title="The main program of USB Device Audio example." alt="" coords="226,5,567,96"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,144,70,171"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="243,99,85,145,84,140,242,94"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="146,219,204,245"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="226,80,175,107,153,124,134,145,129,160,132,175,152,206,148,209,127,177,124,160,130,143,149,120,172,102,224,76"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="144,144,240,171"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="310,99,231,139,229,134,308,94"/>
+<area shape="rect" id="Node000005" href="$_u_s_b_d_2_u_s_b___u_a_c___sound___rate_control_2ht32__board__config_8h.html" title="The header file of board configuration." alt="" coords="294,219,432,245"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="390,97,371,204,365,203,385,96"/>
+<area shape="rect" id="Node000006" href="$main_8h.html" title="The API between application and HT32FXXXX Firmware Library." alt="" coords="265,144,325,171"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="355,98,319,135,315,131,351,94"/>
+<area shape="rect" id="Node000007" href="$_u_s_b_d_2_u_s_b___u_a_c___sound___rate_control_2i2cm_8h.html" title="The header file of I2C master driver." alt="" coords="401,144,461,171"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="413,95,425,129,419,130,408,97"/>
+<area shape="rect" id="Node000008" href="$_u_s_b_d_2_u_s_b___u_a_c___sound___rate_control_2wm8978_8h.html" title="The header file of wm8978 driver." alt="" coords="485,144,566,171"/>
+<area shape="poly" id="edge10_Node000001_Node000008" title=" " alt="" coords="453,94,500,132,497,136,450,98"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="590,144,714,171"/>
+<area shape="poly" id="edge11_Node000001_Node000009" title=" " alt="" coords="507,94,608,135,606,140,505,99"/>
+<area shape="rect" id="Node000010" href="$_u_s_b_d_2_u_s_b___u_a_c___sound___rate_control_2ht32__usbd__class_8h.html" title="The header file of USB Device Class." alt="" coords="739,144,869,171"/>
+<area shape="poly" id="edge12_Node000001_Node000010" title=" " alt="" coords="568,93,741,137,740,142,567,98"/>
+<area shape="rect" id="Node000011" href="$_u_s_b_d_2_u_s_b___u_a_c___sound___rate_control_2ht32__usbd__descriptor_8h.html" title="The USB descriptor." alt="" coords="894,144,1050,171"/>
+<area shape="poly" id="edge13_Node000001_Node000011" title=" " alt="" coords="568,80,888,138,887,143,567,86"/>
+<area shape="poly" id="edge6_Node000006_Node000003" title=" " alt="" coords="275,173,210,213,207,208,273,169"/>
+<area shape="poly" id="edge7_Node000006_Node000005" title=" " alt="" coords="309,169,343,205,339,209,305,173"/>
+<area shape="poly" id="edge9_Node000007_Node000005" title=" " alt="" coords="421,173,387,209,383,205,417,169"/>
+</map>

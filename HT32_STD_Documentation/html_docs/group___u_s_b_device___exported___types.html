@@ -1,29 +1,62 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>HT32_STD_Documents: USB Device exported types</title>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>HT32_STD_Code_Documents: USB Device exported types</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
-   <div id="projectname">HT32_STD_Documents<span id="projectnumber">&#160;1.0.0</span>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">HT32_STD_Code_Documents
+   &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">For HT32F52352</div>
+   <div id="projectbrief">Micro-controller Experiment</div>
   </td>
  </tr>
  </tbody>
@@ -71,15 +104,20 @@ $(function() {
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
+<a href="#nested-classes">Data Structures</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
 <a href="#enum-members">Enumerations</a>  </div>
   <div class="headertitle"><div class="title">USB Device exported types<div class="ingroups"><a class="el" href="group___h_t32_f5xxxx___peripheral___driver.html">HT32F5xxxx Peripheral Driver</a> &raquo; <a class="el" href="group___u_s_b_device.html">USB Device</a></div></div></div>
 </div><!--header-->
 <div class="contents">
+<div class="dynheader">
+Collaboration diagram for USB Device exported types:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="group___u_s_b_device___exported___types.svg" width="294" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
+Data Structures</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct___e_p_t_c_f_g_r___b_i_t.html">_EPTCFGR_BIT</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">union &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="union___e_p_t_c_f_g_r___t_y_p_e_d_e_f.html">_EPTCFGR_TYPEDEF</a></td></tr>
@@ -91,40 +129,129 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:gae3557455e1e911c9af4d4c32f4f27838" id="r_gae3557455e1e911c9af4d4c32f4f27838"><td class="memItemLeft" align="right" valign="top"><a id="gae3557455e1e911c9af4d4c32f4f27838" name="gae3557455e1e911c9af4d4c32f4f27838"></a>
-typedef struct <a class="el" href="struct___e_p_t_c_f_g_r___b_i_t.html">_EPTCFGR_BIT</a>&#160;</td><td class="memItemRight" valign="bottom"><b>USBD_EPTCFGR_Bit</b></td></tr>
+<tr class="memitem:gae3557455e1e911c9af4d4c32f4f27838" id="r_gae3557455e1e911c9af4d4c32f4f27838"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="struct___e_p_t_c_f_g_r___b_i_t.html">_EPTCFGR_BIT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b_device___exported___types.html#gae3557455e1e911c9af4d4c32f4f27838">USBD_EPTCFGR_Bit</a></td></tr>
 <tr class="separator:gae3557455e1e911c9af4d4c32f4f27838"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga99514f7a3894423609bbc101f5452cf8" id="r_ga99514f7a3894423609bbc101f5452cf8"><td class="memItemLeft" align="right" valign="top"><a id="ga99514f7a3894423609bbc101f5452cf8" name="ga99514f7a3894423609bbc101f5452cf8"></a>
-typedef union <a class="el" href="union___e_p_t_c_f_g_r___t_y_p_e_d_e_f.html">_EPTCFGR_TYPEDEF</a>&#160;</td><td class="memItemRight" valign="bottom"><b>USBD_EPTCFGR_TypeDef</b></td></tr>
+<tr class="memitem:ga99514f7a3894423609bbc101f5452cf8" id="r_ga99514f7a3894423609bbc101f5452cf8"><td class="memItemLeft" align="right" valign="top">typedef union <a class="el" href="union___e_p_t_c_f_g_r___t_y_p_e_d_e_f.html">_EPTCFGR_TYPEDEF</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b_device___exported___types.html#ga99514f7a3894423609bbc101f5452cf8">USBD_EPTCFGR_TypeDef</a></td></tr>
 <tr class="separator:ga99514f7a3894423609bbc101f5452cf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:ga623b7209c79a7dce7c24c36d5c78c047" id="r_ga623b7209c79a7dce7c24c36d5c78c047"><td class="memItemLeft" align="right" valign="top"><a id="ga623b7209c79a7dce7c24c36d5c78c047" name="ga623b7209c79a7dce7c24c36d5c78c047"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>USBD_EPTn_Enum</b> { <br />
-&#160;&#160;<b>USBD_EPT0</b> = 0
-, <b>USBD_EPT1</b> = 1
-, <b>USBD_EPT2</b> = 2
-, <b>USBD_EPT3</b> = 3
+<tr class="memitem:ga623b7209c79a7dce7c24c36d5c78c047" id="r_ga623b7209c79a7dce7c24c36d5c78c047"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b_device___exported___types.html#ga623b7209c79a7dce7c24c36d5c78c047">USBD_EPTn_Enum</a> { <br />
+&#160;&#160;<a class="el" href="group___u_s_b_device___exported___types.html#gga623b7209c79a7dce7c24c36d5c78c047a61be3456a882f5d6fd98aae4f18fdf1c">USBD_EPT0</a> = 0
+, <a class="el" href="group___u_s_b_device___exported___types.html#gga623b7209c79a7dce7c24c36d5c78c047a9dd91c808278bb8f25495f7da6a5d520">USBD_EPT1</a> = 1
+, <a class="el" href="group___u_s_b_device___exported___types.html#gga623b7209c79a7dce7c24c36d5c78c047ab2d90512722c1daa7a1adc7440fb1351">USBD_EPT2</a> = 2
+, <a class="el" href="group___u_s_b_device___exported___types.html#gga623b7209c79a7dce7c24c36d5c78c047a5d8df4430a61dcf9d53584ff3f2141a9">USBD_EPT3</a> = 3
 , <br />
-&#160;&#160;<b>USBD_EPT4</b> = 4
-, <b>USBD_EPT5</b> = 5
-, <b>USBD_EPT6</b> = 6
-, <b>USBD_EPT7</b> = 7
+&#160;&#160;<a class="el" href="group___u_s_b_device___exported___types.html#gga623b7209c79a7dce7c24c36d5c78c047a8a5869d92967d4674860baf83bc964b8">USBD_EPT4</a> = 4
+, <a class="el" href="group___u_s_b_device___exported___types.html#gga623b7209c79a7dce7c24c36d5c78c047a581e3ec5f1768d0574b3fbd2f6bf0ea9">USBD_EPT5</a> = 5
+, <a class="el" href="group___u_s_b_device___exported___types.html#gga623b7209c79a7dce7c24c36d5c78c047ad89b727478760328a033f70883b275f2">USBD_EPT6</a> = 6
+, <a class="el" href="group___u_s_b_device___exported___types.html#gga623b7209c79a7dce7c24c36d5c78c047abcc32f5e8e79f8e45762d150af879a05">USBD_EPT7</a> = 7
 , <br />
-&#160;&#160;<b>USBD_NOEPT</b> = -1
+&#160;&#160;<a class="el" href="group___u_s_b_device___exported___types.html#gga623b7209c79a7dce7c24c36d5c78c047a8c19473e9b8b08524ad4544fd4a79bda">USBD_NOEPT</a> = -1
 <br />
  }</td></tr>
 <tr class="separator:ga623b7209c79a7dce7c24c36d5c78c047"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad3fe10850d8897ce0441c1f2b3342723" id="r_gad3fe10850d8897ce0441c1f2b3342723"><td class="memItemLeft" align="right" valign="top"><a id="gad3fe10850d8897ce0441c1f2b3342723" name="gad3fe10850d8897ce0441c1f2b3342723"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>USBD_TCR_Enum</b> { <b>USBD_TCR_0</b> = 0
-, <b>USBD_TCR_1</b> = 16
+<tr class="memitem:gad3fe10850d8897ce0441c1f2b3342723" id="r_gad3fe10850d8897ce0441c1f2b3342723"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b_device___exported___types.html#gad3fe10850d8897ce0441c1f2b3342723">USBD_TCR_Enum</a> { <a class="el" href="group___u_s_b_device___exported___types.html#ggad3fe10850d8897ce0441c1f2b3342723aa22a828d179b673cb0bfa35f456c147a">USBD_TCR_0</a> = 0
+, <a class="el" href="group___u_s_b_device___exported___types.html#ggad3fe10850d8897ce0441c1f2b3342723a012d12d57c7fbf5eff817c261821b796">USBD_TCR_1</a> = 16
  }</td></tr>
 <tr class="separator:gad3fe10850d8897ce0441c1f2b3342723"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7ebaeed099230a53e4d3a4aef3390913" id="r_ga7ebaeed099230a53e4d3a4aef3390913"><td class="memItemLeft" align="right" valign="top"><a id="ga7ebaeed099230a53e4d3a4aef3390913" name="ga7ebaeed099230a53e4d3a4aef3390913"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>USBD_Handshake_Enum</b> { <b>USBD_NAK</b> = 0
-, <b>USBD_ACK</b> = 1
+<tr class="memitem:ga7ebaeed099230a53e4d3a4aef3390913" id="r_ga7ebaeed099230a53e4d3a4aef3390913"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b_device___exported___types.html#ga7ebaeed099230a53e4d3a4aef3390913">USBD_Handshake_Enum</a> { <a class="el" href="group___u_s_b_device___exported___types.html#gga7ebaeed099230a53e4d3a4aef3390913aa246684207f48bf1bb4c7e8cc19d2c44">USBD_NAK</a> = 0
+, <a class="el" href="group___u_s_b_device___exported___types.html#gga7ebaeed099230a53e4d3a4aef3390913a2aafa2ee77f9077979043ca5ef7236c7">USBD_ACK</a> = 1
  }</td></tr>
 <tr class="separator:ga7ebaeed099230a53e4d3a4aef3390913"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="gae3557455e1e911c9af4d4c32f4f27838" name="gae3557455e1e911c9af4d4c32f4f27838"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae3557455e1e911c9af4d4c32f4f27838">&#9670;&#160;</a></span>USBD_EPTCFGR_Bit</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="struct___e_p_t_c_f_g_r___b_i_t.html">_EPTCFGR_BIT</a> <a class="el" href="group___u_s_b_device___exported___types.html#gae3557455e1e911c9af4d4c32f4f27838">USBD_EPTCFGR_Bit</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga99514f7a3894423609bbc101f5452cf8" name="ga99514f7a3894423609bbc101f5452cf8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga99514f7a3894423609bbc101f5452cf8">&#9670;&#160;</a></span>USBD_EPTCFGR_TypeDef</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef union <a class="el" href="union___e_p_t_c_f_g_r___t_y_p_e_d_e_f.html">_EPTCFGR_TYPEDEF</a> <a class="el" href="group___u_s_b_device___exported___types.html#ga99514f7a3894423609bbc101f5452cf8">USBD_EPTCFGR_TypeDef</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="ga623b7209c79a7dce7c24c36d5c78c047" name="ga623b7209c79a7dce7c24c36d5c78c047"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga623b7209c79a7dce7c24c36d5c78c047">&#9670;&#160;</a></span>USBD_EPTn_Enum</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group___u_s_b_device___exported___types.html#ga623b7209c79a7dce7c24c36d5c78c047">USBD_EPTn_Enum</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga623b7209c79a7dce7c24c36d5c78c047a61be3456a882f5d6fd98aae4f18fdf1c" name="gga623b7209c79a7dce7c24c36d5c78c047a61be3456a882f5d6fd98aae4f18fdf1c"></a>USBD_EPT0&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga623b7209c79a7dce7c24c36d5c78c047a9dd91c808278bb8f25495f7da6a5d520" name="gga623b7209c79a7dce7c24c36d5c78c047a9dd91c808278bb8f25495f7da6a5d520"></a>USBD_EPT1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga623b7209c79a7dce7c24c36d5c78c047ab2d90512722c1daa7a1adc7440fb1351" name="gga623b7209c79a7dce7c24c36d5c78c047ab2d90512722c1daa7a1adc7440fb1351"></a>USBD_EPT2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga623b7209c79a7dce7c24c36d5c78c047a5d8df4430a61dcf9d53584ff3f2141a9" name="gga623b7209c79a7dce7c24c36d5c78c047a5d8df4430a61dcf9d53584ff3f2141a9"></a>USBD_EPT3&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga623b7209c79a7dce7c24c36d5c78c047a8a5869d92967d4674860baf83bc964b8" name="gga623b7209c79a7dce7c24c36d5c78c047a8a5869d92967d4674860baf83bc964b8"></a>USBD_EPT4&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga623b7209c79a7dce7c24c36d5c78c047a581e3ec5f1768d0574b3fbd2f6bf0ea9" name="gga623b7209c79a7dce7c24c36d5c78c047a581e3ec5f1768d0574b3fbd2f6bf0ea9"></a>USBD_EPT5&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga623b7209c79a7dce7c24c36d5c78c047ad89b727478760328a033f70883b275f2" name="gga623b7209c79a7dce7c24c36d5c78c047ad89b727478760328a033f70883b275f2"></a>USBD_EPT6&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga623b7209c79a7dce7c24c36d5c78c047abcc32f5e8e79f8e45762d150af879a05" name="gga623b7209c79a7dce7c24c36d5c78c047abcc32f5e8e79f8e45762d150af879a05"></a>USBD_EPT7&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga623b7209c79a7dce7c24c36d5c78c047a8c19473e9b8b08524ad4544fd4a79bda" name="gga623b7209c79a7dce7c24c36d5c78c047a8c19473e9b8b08524ad4544fd4a79bda"></a>USBD_NOEPT&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="ga7ebaeed099230a53e4d3a4aef3390913" name="ga7ebaeed099230a53e4d3a4aef3390913"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7ebaeed099230a53e4d3a4aef3390913">&#9670;&#160;</a></span>USBD_Handshake_Enum</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group___u_s_b_device___exported___types.html#ga7ebaeed099230a53e4d3a4aef3390913">USBD_Handshake_Enum</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga7ebaeed099230a53e4d3a4aef3390913aa246684207f48bf1bb4c7e8cc19d2c44" name="gga7ebaeed099230a53e4d3a4aef3390913aa246684207f48bf1bb4c7e8cc19d2c44"></a>USBD_NAK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga7ebaeed099230a53e4d3a4aef3390913a2aafa2ee77f9077979043ca5ef7236c7" name="gga7ebaeed099230a53e4d3a4aef3390913a2aafa2ee77f9077979043ca5ef7236c7"></a>USBD_ACK&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="gad3fe10850d8897ce0441c1f2b3342723" name="gad3fe10850d8897ce0441c1f2b3342723"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad3fe10850d8897ce0441c1f2b3342723">&#9670;&#160;</a></span>USBD_TCR_Enum</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group___u_s_b_device___exported___types.html#gad3fe10850d8897ce0441c1f2b3342723">USBD_TCR_Enum</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ggad3fe10850d8897ce0441c1f2b3342723aa22a828d179b673cb0bfa35f456c147a" name="ggad3fe10850d8897ce0441c1f2b3342723aa22a828d179b673cb0bfa35f456c147a"></a>USBD_TCR_0&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ggad3fe10850d8897ce0441c1f2b3342723a012d12d57c7fbf5eff817c261821b796" name="ggad3fe10850d8897ce0441c1f2b3342723a012d12d57c7fbf5eff817c261821b796"></a>USBD_TCR_1&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

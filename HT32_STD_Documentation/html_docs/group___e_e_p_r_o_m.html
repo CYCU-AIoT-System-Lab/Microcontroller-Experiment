@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>HT32_STD_Documents: EEPROM</title>
+<title>HT32_STD_Code_Documents: EEPROM</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,9 +21,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">HT32_STD_Documents<span id="projectnumber">&#160;1.0.0</span>
+   <div id="projectname">HT32_STD_Code_Documents<span id="projectnumber">&#160;1.0.0</span>
    </div>
-   <div id="projectbrief">For HT32F52352</div>
+   <div id="projectbrief">Micro-controller Experiment</div>
   </td>
  </tr>
  </tbody>
@@ -77,11 +77,15 @@ $(function() {
   <div class="headertitle"><div class="title">EEPROM<div class="ingroups"><a class="el" href="group___h_t32___series___peripheral___examples.html">HT32 Peripheral Examples</a> &raquo; <a class="el" href="group___i2_c___examples.html">I2C</a></div></div></div>
 </div><!--header-->
 <div class="contents">
+<div class="dynheader">
+Collaboration diagram for EEPROM:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="group___e_e_p_r_o_m.svg" width="178" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:gafebafeb0ae4741435437eb34250e38c1" id="r_gafebafeb0ae4741435437eb34250e38c1"><td class="memItemLeft" align="right" valign="top"><a id="gafebafeb0ae4741435437eb34250e38c1" name="gafebafeb0ae4741435437eb34250e38c1"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>EEPROM_PAGE_CNT</b>&#160;&#160;&#160;(<a class="el" href="group___i2_c___e_e_p_r_o_m___exported___constants.html#ga1ac6b801e974200be178a7e518c369d7">I2C_EEPROM_CAPACITY</a> / <a class="el" href="group___i2_c___e_e_p_r_o_m___exported___constants.html#ga8c0b6d3be23e96a5a94cd5720c81280b">I2C_EEPROM_PAGE_SIZE</a>)</td></tr>
+<tr class="memitem:gafebafeb0ae4741435437eb34250e38c1" id="r_gafebafeb0ae4741435437eb34250e38c1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___e_e_p_r_o_m.html#gafebafeb0ae4741435437eb34250e38c1">EEPROM_PAGE_CNT</a>&#160;&#160;&#160;(I2C_EEPROM_CAPACITY / I2C_EEPROM_PAGE_SIZE)</td></tr>
 <tr class="separator:gafebafeb0ae4741435437eb34250e38c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
@@ -110,14 +114,27 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:gafa6772888a3bffa1a4a9e47c0a457a12" id="r_gafa6772888a3bffa1a4a9e47c0a457a12"><td class="memItemLeft" align="right" valign="top"><a id="gafa6772888a3bffa1a4a9e47c0a457a12" name="gafa6772888a3bffa1a4a9e47c0a457a12"></a>
-__ALIGN4 u8&#160;</td><td class="memItemRight" valign="bottom"><b>gWriteBuf</b> [<a class="el" href="group___i2_c___e_e_p_r_o_m___exported___constants.html#ga8c0b6d3be23e96a5a94cd5720c81280b">I2C_EEPROM_PAGE_SIZE</a>]</td></tr>
+<tr class="memitem:gafa6772888a3bffa1a4a9e47c0a457a12" id="r_gafa6772888a3bffa1a4a9e47c0a457a12"><td class="memItemLeft" align="right" valign="top">__ALIGN4 u8&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___e_e_p_r_o_m.html#gafa6772888a3bffa1a4a9e47c0a457a12">gWriteBuf</a> [I2C_EEPROM_PAGE_SIZE]</td></tr>
 <tr class="separator:gafa6772888a3bffa1a4a9e47c0a457a12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5285acf4e8c5f1909d3397034e804e78" id="r_ga5285acf4e8c5f1909d3397034e804e78"><td class="memItemLeft" align="right" valign="top"><a id="ga5285acf4e8c5f1909d3397034e804e78" name="ga5285acf4e8c5f1909d3397034e804e78"></a>
-__ALIGN4 u8&#160;</td><td class="memItemRight" valign="bottom"><b>gReadBuf</b> [<a class="el" href="group___i2_c___e_e_p_r_o_m___exported___constants.html#ga8c0b6d3be23e96a5a94cd5720c81280b">I2C_EEPROM_PAGE_SIZE</a>]</td></tr>
+<tr class="memitem:ga5285acf4e8c5f1909d3397034e804e78" id="r_ga5285acf4e8c5f1909d3397034e804e78"><td class="memItemLeft" align="right" valign="top">__ALIGN4 u8&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___e_e_p_r_o_m.html#ga5285acf4e8c5f1909d3397034e804e78">gReadBuf</a> [I2C_EEPROM_PAGE_SIZE]</td></tr>
 <tr class="separator:ga5285acf4e8c5f1909d3397034e804e78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="gafebafeb0ae4741435437eb34250e38c1" name="gafebafeb0ae4741435437eb34250e38c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafebafeb0ae4741435437eb34250e38c1">&#9670;&#160;</a></span>EEPROM_PAGE_CNT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define EEPROM_PAGE_CNT&#160;&#160;&#160;(I2C_EEPROM_CAPACITY / I2C_EEPROM_PAGE_SIZE)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="ga0fb7d360f1a62aa1511ac2d2071f7096" name="ga0fb7d360f1a62aa1511ac2d2071f7096"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga0fb7d360f1a62aa1511ac2d2071f7096">&#9670;&#160;</a></span>EEPROM_WriteReadTest()</h2>
@@ -298,6 +315,35 @@ __ALIGN4 u8&#160;</td><td class="memItemRight" valign="bottom"><b>gReadBuf</b> [
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="ga5285acf4e8c5f1909d3397034e804e78" name="ga5285acf4e8c5f1909d3397034e804e78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5285acf4e8c5f1909d3397034e804e78">&#9670;&#160;</a></span>gReadBuf</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__ALIGN4 u8 gReadBuf[I2C_EEPROM_PAGE_SIZE]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gafa6772888a3bffa1a4a9e47c0a457a12" name="gafa6772888a3bffa1a4a9e47c0a457a12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafa6772888a3bffa1a4a9e47c0a457a12">&#9670;&#160;</a></span>gWriteBuf</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__ALIGN4 u8 gWriteBuf[I2C_EEPROM_PAGE_SIZE]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

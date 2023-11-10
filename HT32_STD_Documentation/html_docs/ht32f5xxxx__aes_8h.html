@@ -1,51 +1,63 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>HT32_STD_Documents: ht32f5xxxx_aes.h File Reference</title>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>HT32_STD_Code_Documents: D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/library/HT32F5xxxx_Driver/inc/ht32f5xxxx_aes.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<link href="navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="resize.js"></script>
-<script type="text/javascript" src="navtreedata.js"></script>
-<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(document).ready(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
-   <div id="projectname">HT32_STD_Documents<span id="projectnumber">&#160;1.0.0</span>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">HT32_STD_Code_Documents
+   &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">For HT32F52352</div>
+   <div id="projectbrief">Micro-controller Experiment</div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
@@ -57,23 +69,17 @@
 var searchBox = new SearchBox("searchBox", "search/",'.html');
 /* @license-end */
 </script>
-</div><!-- top -->
-<div id="side-nav" class="ui-resizable side-nav-resizable">
-  <div id="nav-tree">
-    <div id="nav-tree-contents">
-      <div id="nav-sync" class="sync"></div>
-    </div>
-  </div>
-  <div id="splitbar" style="-moz-user-select:none;" 
-       class="ui-resizable-handle">
-  </div>
-</div>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('ht32f5xxxx__aes_8h.html',''); initResizable(); });
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
 /* @license-end */
 </script>
-<div id="doc-content">
+<div id="main-nav"></div>
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -95,6 +101,11 @@ $(document).ready(function(){initNavTree('ht32f5xxxx__aes_8h.html',''); initResi
 </div>
 </div>
 
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_275089585c7fc1b5fd5d7d42c69cb1da.html">D:</a></li><li class="navelem"><a class="el" href="dir_273f27263c611837868160ff0f82bfd9.html">Note_Database</a></li><li class="navelem"><a class="el" href="dir_e8282a48381dd1bcf012c1bae1dc741b.html">Subject</a></li><li class="navelem"><a class="el" href="dir_7583b43eec1d2788dd81e658186519d2.html">MCETA Microcontroller Experiment TA</a></li><li class="navelem"><a class="el" href="dir_3ca5c6b4c4a2c10c94024caf0df2e6bb.html">files</a></li><li class="navelem"><a class="el" href="dir_79e3244e27785f7ec158b45668f9e3ec.html">HT32_STD_5xxxx_FWLib_V1.5.1_7084b</a></li><li class="navelem"><a class="el" href="dir_6965e01511015f2942f432da2d4a5bcb.html">library</a></li><li class="navelem"><a class="el" href="dir_a2f81702cb5fc8b133c02bd1d2044bc0.html">HT32F5xxxx_Driver</a></li><li class="navelem"><a class="el" href="dir_5295d97ccb3d03e3674380e8c26a1d02.html">inc</a></li>  </ul>
+</div>
+</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Data Structures</a> &#124;
@@ -108,6 +119,16 @@ $(document).ready(function(){initNavTree('ht32f5xxxx__aes_8h.html',''); initResi
 <p>The header file of the ADC library.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;<a class="el" href="ht32_8h_source.html">ht32.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for ht32f5xxxx_aes.h:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="ht32f5xxxx__aes_8h__incl.svg" width="436" height="342"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div><div class="textblock"><div class="dynheader">
+This graph shows which files directly or indirectly include this file:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="ht32f5xxxx__aes_8h__dep__incl.svg" width="239" height="272"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 <p><a href="ht32f5xxxx__aes_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -119,130 +140,91 @@ Data Structures</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:gad94b210e9a4d985f441cfbe177256d6a" id="r_gad94b210e9a4d985f441cfbe177256d6a"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>IS_AES</b>(AES)&#160;&#160;&#160;(AES == HT_AES)</td></tr>
+<tr class="memitem:gad94b210e9a4d985f441cfbe177256d6a" id="r_gad94b210e9a4d985f441cfbe177256d6a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___constants.html#gad94b210e9a4d985f441cfbe177256d6a">IS_AES</a>(AES)&#160;&#160;&#160;(AES == HT_AES)</td></tr>
 <tr class="separator:gad94b210e9a4d985f441cfbe177256d6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaea061120c325236cad3dee441f7d8ed6" id="r_gaea061120c325236cad3dee441f7d8ed6"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>AES_KEYSIZE_128B</b>&#160;&#160;&#160;((u32)0x00000000)</td></tr>
+<tr class="memitem:gaea061120c325236cad3dee441f7d8ed6" id="r_gaea061120c325236cad3dee441f7d8ed6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___constants.html#gaea061120c325236cad3dee441f7d8ed6">AES_KEYSIZE_128B</a>&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0x00000000)</td></tr>
 <tr class="separator:gaea061120c325236cad3dee441f7d8ed6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae1383a3d56ca57e43626af9837a377b1" id="r_gae1383a3d56ca57e43626af9837a377b1"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>IS_AES_KEY_SIZE1</b>(SIZE)&#160;&#160;&#160;(SIZE == AES_KEYSIZE_128B)</td></tr>
+<tr class="memitem:gae1383a3d56ca57e43626af9837a377b1" id="r_gae1383a3d56ca57e43626af9837a377b1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___constants.html#gae1383a3d56ca57e43626af9837a377b1">IS_AES_KEY_SIZE1</a>(SIZE)&#160;&#160;&#160;(SIZE == <a class="el" href="group___a_e_s___exported___constants.html#gaea061120c325236cad3dee441f7d8ed6">AES_KEYSIZE_128B</a>)</td></tr>
 <tr class="separator:gae1383a3d56ca57e43626af9837a377b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga85bde4e47de1cb9da406bb3562ea8113" id="r_ga85bde4e47de1cb9da406bb3562ea8113"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>IS_AES_KEY_SIZE2</b>(SIZE)&#160;&#160;&#160;(0)</td></tr>
+<tr class="memitem:ga85bde4e47de1cb9da406bb3562ea8113" id="r_ga85bde4e47de1cb9da406bb3562ea8113"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___constants.html#ga85bde4e47de1cb9da406bb3562ea8113">IS_AES_KEY_SIZE2</a>(SIZE)&#160;&#160;&#160;(0)</td></tr>
 <tr class="separator:ga85bde4e47de1cb9da406bb3562ea8113"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga548e2e8eeccb04551c4a402af2036c59" id="r_ga548e2e8eeccb04551c4a402af2036c59"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>IS_AES_KEY_SIZE</b>(SIZE)&#160;&#160;&#160;(IS_AES_KEY_SIZE1(SIZE) || IS_AES_KEY_SIZE2(SIZE))</td></tr>
+<tr class="memitem:ga548e2e8eeccb04551c4a402af2036c59" id="r_ga548e2e8eeccb04551c4a402af2036c59"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___constants.html#ga548e2e8eeccb04551c4a402af2036c59">IS_AES_KEY_SIZE</a>(SIZE)&#160;&#160;&#160;(<a class="el" href="group___a_e_s___exported___constants.html#gae1383a3d56ca57e43626af9837a377b1">IS_AES_KEY_SIZE1</a>(SIZE) || <a class="el" href="group___a_e_s___exported___constants.html#ga85bde4e47de1cb9da406bb3562ea8113">IS_AES_KEY_SIZE2</a>(SIZE))</td></tr>
 <tr class="separator:ga548e2e8eeccb04551c4a402af2036c59"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0246404ae7f44d4fc17c846bfbcd5ea8" id="r_ga0246404ae7f44d4fc17c846bfbcd5ea8"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>IS_AES_DIR</b>(DIR)&#160;&#160;&#160;((DIR == AES_DIR_ENCRYPT) || (DIR == AES_DIR_DECRYPT))</td></tr>
+<tr class="memitem:ga0246404ae7f44d4fc17c846bfbcd5ea8" id="r_ga0246404ae7f44d4fc17c846bfbcd5ea8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___constants.html#ga0246404ae7f44d4fc17c846bfbcd5ea8">IS_AES_DIR</a>(DIR)&#160;&#160;&#160;((DIR == <a class="el" href="group___a_e_s___exported___constants.html#gga24a649f8bb7dfd763fda07c0cf23b4f8a8e06002c98ed60c477553c8a654da25d">AES_DIR_ENCRYPT</a>) || (DIR == <a class="el" href="group___a_e_s___exported___constants.html#gga24a649f8bb7dfd763fda07c0cf23b4f8ac047f70a4d31cf3e7b7cf9351f82aea2">AES_DIR_DECRYPT</a>))</td></tr>
 <tr class="separator:ga0246404ae7f44d4fc17c846bfbcd5ea8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga80f586ff9d5f9d29ad835333ea22c8a9" id="r_ga80f586ff9d5f9d29ad835333ea22c8a9"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>AES_MODE_ECB</b>&#160;&#160;&#160;((u32)0x00000000)</td></tr>
+<tr class="memitem:ga80f586ff9d5f9d29ad835333ea22c8a9" id="r_ga80f586ff9d5f9d29ad835333ea22c8a9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___constants.html#ga80f586ff9d5f9d29ad835333ea22c8a9">AES_MODE_ECB</a>&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0x00000000)</td></tr>
 <tr class="separator:ga80f586ff9d5f9d29ad835333ea22c8a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7225765eac8a038c4b5ee829b06c431f" id="r_ga7225765eac8a038c4b5ee829b06c431f"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>AES_MODE_CBC</b>&#160;&#160;&#160;((u32)0x00000004)</td></tr>
+<tr class="memitem:ga7225765eac8a038c4b5ee829b06c431f" id="r_ga7225765eac8a038c4b5ee829b06c431f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___constants.html#ga7225765eac8a038c4b5ee829b06c431f">AES_MODE_CBC</a>&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0x00000004)</td></tr>
 <tr class="separator:ga7225765eac8a038c4b5ee829b06c431f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab86059d1ddc10b2befcd10d6272360f6" id="r_gab86059d1ddc10b2befcd10d6272360f6"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>AES_MODE_CTR</b>&#160;&#160;&#160;((u32)0x00000008)</td></tr>
+<tr class="memitem:gab86059d1ddc10b2befcd10d6272360f6" id="r_gab86059d1ddc10b2befcd10d6272360f6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___constants.html#gab86059d1ddc10b2befcd10d6272360f6">AES_MODE_CTR</a>&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0x00000008)</td></tr>
 <tr class="separator:gab86059d1ddc10b2befcd10d6272360f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga249faad05675f86f066b956fa8bca8ad" id="r_ga249faad05675f86f066b956fa8bca8ad"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>IS_AES_MODE</b>(MODE)&#160;&#160;&#160;((MODE == AES_MODE_ECB) || (MODE == AES_MODE_CBC) || (MODE == AES_MODE_CTR))</td></tr>
+<tr class="memitem:ga249faad05675f86f066b956fa8bca8ad" id="r_ga249faad05675f86f066b956fa8bca8ad"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___constants.html#ga249faad05675f86f066b956fa8bca8ad">IS_AES_MODE</a>(MODE)&#160;&#160;&#160;((MODE == <a class="el" href="group___a_e_s___exported___constants.html#ga80f586ff9d5f9d29ad835333ea22c8a9">AES_MODE_ECB</a>) || (MODE == <a class="el" href="group___a_e_s___exported___constants.html#ga7225765eac8a038c4b5ee829b06c431f">AES_MODE_CBC</a>) || (MODE == <a class="el" href="group___a_e_s___exported___constants.html#gab86059d1ddc10b2befcd10d6272360f6">AES_MODE_CTR</a>))</td></tr>
 <tr class="separator:ga249faad05675f86f066b956fa8bca8ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf49dc57db485275387d920d7da75b6b6" id="r_gaf49dc57db485275387d920d7da75b6b6"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>AES_KEYSTART_DISABLE</b>&#160;&#160;&#160;((u32)0x00000000)</td></tr>
+<tr class="memitem:gaf49dc57db485275387d920d7da75b6b6" id="r_gaf49dc57db485275387d920d7da75b6b6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___constants.html#gaf49dc57db485275387d920d7da75b6b6">AES_KEYSTART_DISABLE</a>&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0x00000000)</td></tr>
 <tr class="separator:gaf49dc57db485275387d920d7da75b6b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac5a0e43fd358abac33c19b7d484091e9" id="r_gac5a0e43fd358abac33c19b7d484091e9"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>AES_KEYSTART_ENABLE</b>&#160;&#160;&#160;((u32)0x00000010)</td></tr>
+<tr class="memitem:gac5a0e43fd358abac33c19b7d484091e9" id="r_gac5a0e43fd358abac33c19b7d484091e9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___constants.html#gac5a0e43fd358abac33c19b7d484091e9">AES_KEYSTART_ENABLE</a>&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0x00000010)</td></tr>
 <tr class="separator:gac5a0e43fd358abac33c19b7d484091e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2c15d843f077647e79a67f0eebb840fd" id="r_ga2c15d843f077647e79a67f0eebb840fd"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>IS_AES_KEYSTART</b>(KEYSTART)&#160;&#160;&#160;((KEYSTART == AES_KEYSTART_DISABLE) || (KEYSTART == AES_KEYSTART_ENABLE))</td></tr>
+<tr class="memitem:ga2c15d843f077647e79a67f0eebb840fd" id="r_ga2c15d843f077647e79a67f0eebb840fd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___constants.html#ga2c15d843f077647e79a67f0eebb840fd">IS_AES_KEYSTART</a>(KEYSTART)&#160;&#160;&#160;((KEYSTART == <a class="el" href="group___a_e_s___exported___constants.html#gaf49dc57db485275387d920d7da75b6b6">AES_KEYSTART_DISABLE</a>) || (KEYSTART == <a class="el" href="group___a_e_s___exported___constants.html#gac5a0e43fd358abac33c19b7d484091e9">AES_KEYSTART_ENABLE</a>))</td></tr>
 <tr class="separator:ga2c15d843f077647e79a67f0eebb840fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7e2f68dc861bbc05ad441e11ba648e00" id="r_ga7e2f68dc861bbc05ad441e11ba648e00"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>AES_SWAP_DISABLE</b>&#160;&#160;&#160;((u32)0x00000000)</td></tr>
+<tr class="memitem:ga7e2f68dc861bbc05ad441e11ba648e00" id="r_ga7e2f68dc861bbc05ad441e11ba648e00"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___constants.html#ga7e2f68dc861bbc05ad441e11ba648e00">AES_SWAP_DISABLE</a>&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0x00000000)</td></tr>
 <tr class="separator:ga7e2f68dc861bbc05ad441e11ba648e00"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae19a70c2614117eacc49da737de788d9" id="r_gae19a70c2614117eacc49da737de788d9"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>AES_SWAP_ENABLE</b>&#160;&#160;&#160;((u32)0x00000100)</td></tr>
+<tr class="memitem:gae19a70c2614117eacc49da737de788d9" id="r_gae19a70c2614117eacc49da737de788d9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___constants.html#gae19a70c2614117eacc49da737de788d9">AES_SWAP_ENABLE</a>&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0x00000100)</td></tr>
 <tr class="separator:gae19a70c2614117eacc49da737de788d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga81cf54b6b468c53e8751220a54bfc864" id="r_ga81cf54b6b468c53e8751220a54bfc864"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>IS_AES_SWAP</b>(SWAP)&#160;&#160;&#160;((SWAP == AES_SWAP_DISABLE) || (SWAP == AES_SWAP_ENABLE))</td></tr>
+<tr class="memitem:ga81cf54b6b468c53e8751220a54bfc864" id="r_ga81cf54b6b468c53e8751220a54bfc864"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___constants.html#ga81cf54b6b468c53e8751220a54bfc864">IS_AES_SWAP</a>(SWAP)&#160;&#160;&#160;((SWAP == <a class="el" href="group___a_e_s___exported___constants.html#ga7e2f68dc861bbc05ad441e11ba648e00">AES_SWAP_DISABLE</a>) || (SWAP == <a class="el" href="group___a_e_s___exported___constants.html#gae19a70c2614117eacc49da737de788d9">AES_SWAP_ENABLE</a>))</td></tr>
 <tr class="separator:ga81cf54b6b468c53e8751220a54bfc864"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0c75769c63ee88ff0b49126df8e28fb5" id="r_ga0c75769c63ee88ff0b49126df8e28fb5"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>AES_FLUSH_DISABLE</b>&#160;&#160;&#160;((u32)0x00000000)</td></tr>
+<tr class="memitem:ga0c75769c63ee88ff0b49126df8e28fb5" id="r_ga0c75769c63ee88ff0b49126df8e28fb5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___constants.html#ga0c75769c63ee88ff0b49126df8e28fb5">AES_FLUSH_DISABLE</a>&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0x00000000)</td></tr>
 <tr class="separator:ga0c75769c63ee88ff0b49126df8e28fb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga30a56b61ec11963a4ac40bbbc03ddb87" id="r_ga30a56b61ec11963a4ac40bbbc03ddb87"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>AES_FLUSH_ENABLE</b>&#160;&#160;&#160;((u32)0x00000400)</td></tr>
+<tr class="memitem:ga30a56b61ec11963a4ac40bbbc03ddb87" id="r_ga30a56b61ec11963a4ac40bbbc03ddb87"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___constants.html#ga30a56b61ec11963a4ac40bbbc03ddb87">AES_FLUSH_ENABLE</a>&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0x00000400)</td></tr>
 <tr class="separator:ga30a56b61ec11963a4ac40bbbc03ddb87"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6c3b8f570ca02cf6f394b62bc13e913f" id="r_ga6c3b8f570ca02cf6f394b62bc13e913f"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>IS_AES_FLUSH</b>(FLUSH)&#160;&#160;&#160;((FLUSH == AES_FLUSH_DISABLE) || (FLUSH == AES_FLUSH_ENABLE))</td></tr>
+<tr class="memitem:ga6c3b8f570ca02cf6f394b62bc13e913f" id="r_ga6c3b8f570ca02cf6f394b62bc13e913f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___constants.html#ga6c3b8f570ca02cf6f394b62bc13e913f">IS_AES_FLUSH</a>(FLUSH)&#160;&#160;&#160;((FLUSH == <a class="el" href="group___a_e_s___exported___constants.html#ga0c75769c63ee88ff0b49126df8e28fb5">AES_FLUSH_DISABLE</a>) || (FLUSH == <a class="el" href="group___a_e_s___exported___constants.html#ga30a56b61ec11963a4ac40bbbc03ddb87">AES_FLUSH_ENABLE</a>))</td></tr>
 <tr class="separator:ga6c3b8f570ca02cf6f394b62bc13e913f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1979b8a341590e5f414e7eabfd8cf07e" id="r_ga1979b8a341590e5f414e7eabfd8cf07e"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>AES_DISABLE</b>&#160;&#160;&#160;((u32)0x00000000)</td></tr>
+<tr class="memitem:ga1979b8a341590e5f414e7eabfd8cf07e" id="r_ga1979b8a341590e5f414e7eabfd8cf07e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___constants.html#ga1979b8a341590e5f414e7eabfd8cf07e">AES_DISABLE</a>&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0x00000000)</td></tr>
 <tr class="separator:ga1979b8a341590e5f414e7eabfd8cf07e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa7e111c93d28cd9ad5740f0bffa817ff" id="r_gaa7e111c93d28cd9ad5740f0bffa817ff"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>AES_ENABLE</b>&#160;&#160;&#160;((u32)0x00000001)</td></tr>
+<tr class="memitem:gaa7e111c93d28cd9ad5740f0bffa817ff" id="r_gaa7e111c93d28cd9ad5740f0bffa817ff"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___constants.html#gaa7e111c93d28cd9ad5740f0bffa817ff">AES_ENABLE</a>&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0x00000001)</td></tr>
 <tr class="separator:gaa7e111c93d28cd9ad5740f0bffa817ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0b26da210eae6133b6166430529e67f4" id="r_ga0b26da210eae6133b6166430529e67f4"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>IS_AES_CMD</b>(CMD)&#160;&#160;&#160;((CMD == AES_DISABLE) || (CMD == AES_ENABLE))</td></tr>
+<tr class="memitem:ga0b26da210eae6133b6166430529e67f4" id="r_ga0b26da210eae6133b6166430529e67f4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___constants.html#ga0b26da210eae6133b6166430529e67f4">IS_AES_CMD</a>(CMD)&#160;&#160;&#160;((CMD == <a class="el" href="group___a_e_s___exported___constants.html#ga1979b8a341590e5f414e7eabfd8cf07e">AES_DISABLE</a>) || (CMD == <a class="el" href="group___a_e_s___exported___constants.html#gaa7e111c93d28cd9ad5740f0bffa817ff">AES_ENABLE</a>))</td></tr>
 <tr class="separator:ga0b26da210eae6133b6166430529e67f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa022dda176618992588e0b553ae31be1" id="r_gaa022dda176618992588e0b553ae31be1"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>AES_SR_IFEMPTY</b>&#160;&#160;&#160;((u32)0x00000001)</td></tr>
+<tr class="memitem:gaa022dda176618992588e0b553ae31be1" id="r_gaa022dda176618992588e0b553ae31be1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___constants.html#gaa022dda176618992588e0b553ae31be1">AES_SR_IFEMPTY</a>&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0x00000001)</td></tr>
 <tr class="separator:gaa022dda176618992588e0b553ae31be1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3e99f09492c7db45f8965db305ec355e" id="r_ga3e99f09492c7db45f8965db305ec355e"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>AES_SR_IFNFULL</b>&#160;&#160;&#160;((u32)0x00000002)</td></tr>
+<tr class="memitem:ga3e99f09492c7db45f8965db305ec355e" id="r_ga3e99f09492c7db45f8965db305ec355e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___constants.html#ga3e99f09492c7db45f8965db305ec355e">AES_SR_IFNFULL</a>&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0x00000002)</td></tr>
 <tr class="separator:ga3e99f09492c7db45f8965db305ec355e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac8ef1a7b4255de6cc256f42a5b1fa2a0" id="r_gac8ef1a7b4255de6cc256f42a5b1fa2a0"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>AES_SR_OFNEMPTY</b>&#160;&#160;&#160;((u32)0x00000004)</td></tr>
+<tr class="memitem:gac8ef1a7b4255de6cc256f42a5b1fa2a0" id="r_gac8ef1a7b4255de6cc256f42a5b1fa2a0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___constants.html#gac8ef1a7b4255de6cc256f42a5b1fa2a0">AES_SR_OFNEMPTY</a>&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0x00000004)</td></tr>
 <tr class="separator:gac8ef1a7b4255de6cc256f42a5b1fa2a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9bb93e76a22b672aa2d1b1eb6f53b43e" id="r_ga9bb93e76a22b672aa2d1b1eb6f53b43e"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>AES_SR_OFFULL</b>&#160;&#160;&#160;((u32)0x00000008)</td></tr>
+<tr class="memitem:ga9bb93e76a22b672aa2d1b1eb6f53b43e" id="r_ga9bb93e76a22b672aa2d1b1eb6f53b43e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___constants.html#ga9bb93e76a22b672aa2d1b1eb6f53b43e">AES_SR_OFFULL</a>&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0x00000008)</td></tr>
 <tr class="separator:ga9bb93e76a22b672aa2d1b1eb6f53b43e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaaa296510b90277ca72a3dc0a609409ed" id="r_gaaa296510b90277ca72a3dc0a609409ed"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>AES_SR_BUSY</b>&#160;&#160;&#160;((u32)0x00000010)</td></tr>
+<tr class="memitem:gaaa296510b90277ca72a3dc0a609409ed" id="r_gaaa296510b90277ca72a3dc0a609409ed"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___constants.html#gaaa296510b90277ca72a3dc0a609409ed">AES_SR_BUSY</a>&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0x00000010)</td></tr>
 <tr class="separator:gaaa296510b90277ca72a3dc0a609409ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaaea8eda24d7d71d9a6009c52f5c7a397" id="r_gaaea8eda24d7d71d9a6009c52f5c7a397"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___constants.html#gaaea8eda24d7d71d9a6009c52f5c7a397">IS_AES_STATUS</a>(STATUS)</td></tr>
 <tr class="separator:gaaea8eda24d7d71d9a6009c52f5c7a397"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1c822b466b2db98ccecb48021654747d" id="r_ga1c822b466b2db98ccecb48021654747d"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>AES_PDMA_IFDMAEN</b>&#160;&#160;&#160;((u32)0x00000001)</td></tr>
+<tr class="memitem:ga1c822b466b2db98ccecb48021654747d" id="r_ga1c822b466b2db98ccecb48021654747d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___constants.html#ga1c822b466b2db98ccecb48021654747d">AES_PDMA_IFDMAEN</a>&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0x00000001)</td></tr>
 <tr class="separator:ga1c822b466b2db98ccecb48021654747d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4c390526b9c9cea654a67ddf7379802f" id="r_ga4c390526b9c9cea654a67ddf7379802f"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>AES_PDMA_OFDMAEN</b>&#160;&#160;&#160;((u32)0x00000002)</td></tr>
+<tr class="memitem:ga4c390526b9c9cea654a67ddf7379802f" id="r_ga4c390526b9c9cea654a67ddf7379802f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___constants.html#ga4c390526b9c9cea654a67ddf7379802f">AES_PDMA_OFDMAEN</a>&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0x00000002)</td></tr>
 <tr class="separator:ga4c390526b9c9cea654a67ddf7379802f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2dfebaee86792030cd2494faa9a89e55" id="r_ga2dfebaee86792030cd2494faa9a89e55"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>IS_AES_PDMA</b>(AES_PDMA)&#160;&#160;&#160;((AES_PDMA == AES_PDMA_IFDMAEN) || (AES_PDMA == AES_PDMA_OFDMAEN))</td></tr>
+<tr class="memitem:ga2dfebaee86792030cd2494faa9a89e55" id="r_ga2dfebaee86792030cd2494faa9a89e55"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___constants.html#ga2dfebaee86792030cd2494faa9a89e55">IS_AES_PDMA</a>(AES_PDMA)&#160;&#160;&#160;((AES_PDMA == <a class="el" href="group___a_e_s___exported___constants.html#ga1c822b466b2db98ccecb48021654747d">AES_PDMA_IFDMAEN</a>) || (AES_PDMA == <a class="el" href="group___a_e_s___exported___constants.html#ga4c390526b9c9cea654a67ddf7379802f">AES_PDMA_OFDMAEN</a>))</td></tr>
 <tr class="separator:ga2dfebaee86792030cd2494faa9a89e55"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga050108f45b5bba0557189aeb98ce6335" id="r_ga050108f45b5bba0557189aeb98ce6335"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>AES_INTSR_IFINT</b>&#160;&#160;&#160;((u32)0x00000001)</td></tr>
+<tr class="memitem:ga050108f45b5bba0557189aeb98ce6335" id="r_ga050108f45b5bba0557189aeb98ce6335"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___constants.html#ga050108f45b5bba0557189aeb98ce6335">AES_INTSR_IFINT</a>&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0x00000001)</td></tr>
 <tr class="separator:ga050108f45b5bba0557189aeb98ce6335"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gada1451b0726269d0cb7b0bb6494fc595" id="r_gada1451b0726269d0cb7b0bb6494fc595"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>AES_INTSR_OFINT</b>&#160;&#160;&#160;((u32)0x00000002)</td></tr>
+<tr class="memitem:gada1451b0726269d0cb7b0bb6494fc595" id="r_gada1451b0726269d0cb7b0bb6494fc595"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___constants.html#gada1451b0726269d0cb7b0bb6494fc595">AES_INTSR_OFINT</a>&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0x00000002)</td></tr>
 <tr class="separator:gada1451b0726269d0cb7b0bb6494fc595"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga24e255fc56832a3b3dad452c549e598a" id="r_ga24e255fc56832a3b3dad452c549e598a"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>IS_AES_INTSR</b>(AES_INSR)&#160;&#160;&#160;((AES_INSR == AES_INTSR_IFINT) || (AES_INSR == AES_INTSR_OFINT))</td></tr>
+<tr class="memitem:ga24e255fc56832a3b3dad452c549e598a" id="r_ga24e255fc56832a3b3dad452c549e598a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___constants.html#ga24e255fc56832a3b3dad452c549e598a">IS_AES_INTSR</a>(AES_INSR)&#160;&#160;&#160;((AES_INSR == <a class="el" href="group___a_e_s___exported___constants.html#ga050108f45b5bba0557189aeb98ce6335">AES_INTSR_IFINT</a>) || (AES_INSR == <a class="el" href="group___a_e_s___exported___constants.html#gada1451b0726269d0cb7b0bb6494fc595">AES_INTSR_OFINT</a>))</td></tr>
 <tr class="separator:ga24e255fc56832a3b3dad452c549e598a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf7e22b514bc781700860d8245b3f908a" id="r_gaf7e22b514bc781700860d8245b3f908a"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>AES_IER_IFINTEN</b>&#160;&#160;&#160;((u32)0x00000001)</td></tr>
+<tr class="memitem:gaf7e22b514bc781700860d8245b3f908a" id="r_gaf7e22b514bc781700860d8245b3f908a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___constants.html#gaf7e22b514bc781700860d8245b3f908a">AES_IER_IFINTEN</a>&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0x00000001)</td></tr>
 <tr class="separator:gaf7e22b514bc781700860d8245b3f908a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9c1df9250547c1014d7e00f027506791" id="r_ga9c1df9250547c1014d7e00f027506791"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>AES_IER_OFINTEN</b>&#160;&#160;&#160;((u32)0x00000002)</td></tr>
+<tr class="memitem:ga9c1df9250547c1014d7e00f027506791" id="r_ga9c1df9250547c1014d7e00f027506791"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___constants.html#ga9c1df9250547c1014d7e00f027506791">AES_IER_OFINTEN</a>&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0x00000002)</td></tr>
 <tr class="separator:ga9c1df9250547c1014d7e00f027506791"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab3673c158ece3120800c8425961aa4b2" id="r_gab3673c158ece3120800c8425961aa4b2"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>IS_AES_IER</b>(ARS_IER)&#160;&#160;&#160;((ARS_IER == AES_IER_IFINTEN) || (ARS_IER == AES_IER_OFINTEN))</td></tr>
+<tr class="memitem:gab3673c158ece3120800c8425961aa4b2" id="r_gab3673c158ece3120800c8425961aa4b2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___constants.html#gab3673c158ece3120800c8425961aa4b2">IS_AES_IER</a>(ARS_IER)&#160;&#160;&#160;((ARS_IER == <a class="el" href="group___a_e_s___exported___constants.html#gaf7e22b514bc781700860d8245b3f908a">AES_IER_IFINTEN</a>) || (ARS_IER == <a class="el" href="group___a_e_s___exported___constants.html#ga9c1df9250547c1014d7e00f027506791">AES_IER_OFINTEN</a>))</td></tr>
 <tr class="separator:gab3673c158ece3120800c8425961aa4b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac66a975d9da4e0d2dfe21a3a801fc665" id="r_gac66a975d9da4e0d2dfe21a3a801fc665"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>AES_ECB_CryptData</b>(a,  b,  c,  d,  e)&#160;&#160;&#160;<a class="el" href="group___a_e_s___exported___functions.html#gae70256ccbab085f3e653ed1feb8dd2c9">_AES_CryptData</a>(a, b, NULL, c, d, e)</td></tr>
+<tr class="memitem:gac66a975d9da4e0d2dfe21a3a801fc665" id="r_gac66a975d9da4e0d2dfe21a3a801fc665"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___functions.html#gac66a975d9da4e0d2dfe21a3a801fc665">AES_ECB_CryptData</a>(<a class="el" href="group___time_measure.html#ga1ec6887428eb7399e7222f7df7839a4e">a</a>,  <a class="el" href="group___time_measure.html#gac7a427f3be8277ddba4d96931806b67c">b</a>,  <a class="el" href="group___time_measure.html#ga79c1f2f1306e5e02189ae1781fe96324">c</a>,  d,  e)&#160;&#160;&#160;<a class="el" href="group___a_e_s___exported___functions.html#gae70256ccbab085f3e653ed1feb8dd2c9">_AES_CryptData</a>(<a class="el" href="group___time_measure.html#ga1ec6887428eb7399e7222f7df7839a4e">a</a>, <a class="el" href="group___time_measure.html#gac7a427f3be8277ddba4d96931806b67c">b</a>, NULL, <a class="el" href="group___time_measure.html#ga79c1f2f1306e5e02189ae1781fe96324">c</a>, d, e)</td></tr>
 <tr class="separator:gac66a975d9da4e0d2dfe21a3a801fc665"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga23641d8614c9b3b1d0b70b6c80f42a66" id="r_ga23641d8614c9b3b1d0b70b6c80f42a66"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>AES_CBC_CryptData</b>&#160;&#160;&#160;<a class="el" href="group___a_e_s___exported___functions.html#gae70256ccbab085f3e653ed1feb8dd2c9">_AES_CryptData</a></td></tr>
+<tr class="memitem:ga23641d8614c9b3b1d0b70b6c80f42a66" id="r_ga23641d8614c9b3b1d0b70b6c80f42a66"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___functions.html#ga23641d8614c9b3b1d0b70b6c80f42a66">AES_CBC_CryptData</a>&#160;&#160;&#160;<a class="el" href="group___a_e_s___exported___functions.html#gae70256ccbab085f3e653ed1feb8dd2c9">_AES_CryptData</a></td></tr>
 <tr class="separator:ga23641d8614c9b3b1d0b70b6c80f42a66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7639372c1cbb15f4dca0611e2d6455d2" id="r_ga7639372c1cbb15f4dca0611e2d6455d2"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>AES_CTR_CryptData</b>(a,  b,  c,  d,  e)&#160;&#160;&#160;<a class="el" href="group___a_e_s___exported___functions.html#gae70256ccbab085f3e653ed1feb8dd2c9">_AES_CryptData</a>(a, AES_DIR_ENCRYPT, b, c, d, e)</td></tr>
+<tr class="memitem:ga7639372c1cbb15f4dca0611e2d6455d2" id="r_ga7639372c1cbb15f4dca0611e2d6455d2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___functions.html#ga7639372c1cbb15f4dca0611e2d6455d2">AES_CTR_CryptData</a>(<a class="el" href="group___time_measure.html#ga1ec6887428eb7399e7222f7df7839a4e">a</a>,  <a class="el" href="group___time_measure.html#gac7a427f3be8277ddba4d96931806b67c">b</a>,  <a class="el" href="group___time_measure.html#ga79c1f2f1306e5e02189ae1781fe96324">c</a>,  d,  e)&#160;&#160;&#160;<a class="el" href="group___a_e_s___exported___functions.html#gae70256ccbab085f3e653ed1feb8dd2c9">_AES_CryptData</a>(<a class="el" href="group___time_measure.html#ga1ec6887428eb7399e7222f7df7839a4e">a</a>, <a class="el" href="group___a_e_s___exported___constants.html#gga24a649f8bb7dfd763fda07c0cf23b4f8a8e06002c98ed60c477553c8a654da25d">AES_DIR_ENCRYPT</a>, <a class="el" href="group___time_measure.html#gac7a427f3be8277ddba4d96931806b67c">b</a>, <a class="el" href="group___time_measure.html#ga79c1f2f1306e5e02189ae1781fe96324">c</a>, d, e)</td></tr>
 <tr class="separator:ga7639372c1cbb15f4dca0611e2d6455d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:ga24a649f8bb7dfd763fda07c0cf23b4f8" id="r_ga24a649f8bb7dfd763fda07c0cf23b4f8"><td class="memItemLeft" align="right" valign="top"><a id="ga24a649f8bb7dfd763fda07c0cf23b4f8" name="ga24a649f8bb7dfd763fda07c0cf23b4f8"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>AES_DIR_Enum</b> { <b>AES_DIR_ENCRYPT</b> =0
-, <b>AES_DIR_DECRYPT</b> =2
+<tr class="memitem:ga24a649f8bb7dfd763fda07c0cf23b4f8" id="r_ga24a649f8bb7dfd763fda07c0cf23b4f8"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___constants.html#ga24a649f8bb7dfd763fda07c0cf23b4f8">AES_DIR_Enum</a> { <a class="el" href="group___a_e_s___exported___constants.html#gga24a649f8bb7dfd763fda07c0cf23b4f8a8e06002c98ed60c477553c8a654da25d">AES_DIR_ENCRYPT</a> =0
+, <a class="el" href="group___a_e_s___exported___constants.html#gga24a649f8bb7dfd763fda07c0cf23b4f8ac047f70a4d31cf3e7b7cf9351f82aea2">AES_DIR_DECRYPT</a> =2
  }</td></tr>
 <tr class="separator:ga24a649f8bb7dfd763fda07c0cf23b4f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -257,10 +239,10 @@ Functions</h2></td></tr>
 <tr class="memitem:ga855206f5a04636b12c26f63b4d60414e" id="r_ga855206f5a04636b12c26f63b4d60414e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___functions.html#ga855206f5a04636b12c26f63b4d60414e">AES_CTR_Init</a> (<a class="el" href="struct_h_t___a_e_s___type_def.html">HT_AES_TypeDef</a> *HT_AESn, <a class="el" href="struct_a_e_s___init_type_def.html">AES_InitTypeDef</a> *AES_InitStruct)</td></tr>
 <tr class="memdesc:ga855206f5a04636b12c26f63b4d60414e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the AES peripheral on CTR mode according to the specified parameters in the AES_InitStruct.  <br /></td></tr>
 <tr class="separator:ga855206f5a04636b12c26f63b4d60414e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3029faf562ca8297c1f238d778f2a3fb" id="r_ga3029faf562ca8297c1f238d778f2a3fb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___functions.html#ga3029faf562ca8297c1f238d778f2a3fb">AES_SetKeyTable</a> (<a class="el" href="struct_h_t___a_e_s___type_def.html">HT_AES_TypeDef</a> *HT_AESn, <a class="el" href="group___exported___types.html#ga421cd0841ee90f7bcae38d46aba21180">uc8</a> *Key, u32 keySize)</td></tr>
+<tr class="memitem:ga3029faf562ca8297c1f238d778f2a3fb" id="r_ga3029faf562ca8297c1f238d778f2a3fb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___functions.html#ga3029faf562ca8297c1f238d778f2a3fb">AES_SetKeyTable</a> (<a class="el" href="struct_h_t___a_e_s___type_def.html">HT_AES_TypeDef</a> *HT_AESn, <a class="el" href="group___exported___types.html#ga421cd0841ee90f7bcae38d46aba21180">uc8</a> *Key, <a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> keySize)</td></tr>
 <tr class="memdesc:ga3029faf562ca8297c1f238d778f2a3fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the specified AES key table.  <br /></td></tr>
 <tr class="separator:ga3029faf562ca8297c1f238d778f2a3fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae70256ccbab085f3e653ed1feb8dd2c9" id="r_gae70256ccbab085f3e653ed1feb8dd2c9"><td class="memItemLeft" align="right" valign="top">ErrStatus&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___functions.html#gae70256ccbab085f3e653ed1feb8dd2c9">_AES_CryptData</a> (<a class="el" href="struct_h_t___a_e_s___type_def.html">HT_AES_TypeDef</a> *HT_AESn, AES_DIR_Enum dir, <a class="el" href="group___exported___types.html#ga421cd0841ee90f7bcae38d46aba21180">uc8</a> *iv, u32 length, <a class="el" href="group___exported___types.html#ga421cd0841ee90f7bcae38d46aba21180">uc8</a> *inputData, u8 *outputData)</td></tr>
+<tr class="memitem:gae70256ccbab085f3e653ed1feb8dd2c9" id="r_gae70256ccbab085f3e653ed1feb8dd2c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___exported___types.html#ga78237a6f4037207e320ec9412b20da19">ErrStatus</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___functions.html#gae70256ccbab085f3e653ed1feb8dd2c9">_AES_CryptData</a> (<a class="el" href="struct_h_t___a_e_s___type_def.html">HT_AES_TypeDef</a> *HT_AESn, <a class="el" href="group___a_e_s___exported___constants.html#ga24a649f8bb7dfd763fda07c0cf23b4f8">AES_DIR_Enum</a> dir, <a class="el" href="group___exported___types.html#ga421cd0841ee90f7bcae38d46aba21180">uc8</a> *iv, <a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> length, <a class="el" href="group___exported___types.html#ga421cd0841ee90f7bcae38d46aba21180">uc8</a> *inputData, <a class="el" href="group___exported___types.html#gaed742c436da53c1080638ce6ef7d13de">u8</a> *outputData)</td></tr>
 <tr class="memdesc:gae70256ccbab085f3e653ed1feb8dd2c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">AES Crypt Data.  <br /></td></tr>
 <tr class="separator:gae70256ccbab085f3e653ed1feb8dd2c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gabd87820cf939f258b4f0de7dbf7a4504" id="r_gabd87820cf939f258b4f0de7dbf7a4504"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___functions.html#gabd87820cf939f258b4f0de7dbf7a4504">AES_StartKey</a> (<a class="el" href="struct_h_t___a_e_s___type_def.html">HT_AES_TypeDef</a> *HT_AESn)</td></tr>
@@ -272,25 +254,25 @@ Functions</h2></td></tr>
 <tr class="memitem:ga1562c1c158a31c52de3273337927ddb5" id="r_ga1562c1c158a31c52de3273337927ddb5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___functions.html#ga1562c1c158a31c52de3273337927ddb5">AES_FIFOFlush</a> (<a class="el" href="struct_h_t___a_e_s___type_def.html">HT_AES_TypeDef</a> *HT_AESn)</td></tr>
 <tr class="memdesc:ga1562c1c158a31c52de3273337927ddb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flush the FIFO.  <br /></td></tr>
 <tr class="separator:ga1562c1c158a31c52de3273337927ddb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gadd2ac565086f305e31fcd84461faec28" id="r_gadd2ac565086f305e31fcd84461faec28"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___functions.html#gadd2ac565086f305e31fcd84461faec28">AES_Cmd</a> (<a class="el" href="struct_h_t___a_e_s___type_def.html">HT_AES_TypeDef</a> *HT_AESn, ControlStatus NewState)</td></tr>
+<tr class="memitem:gadd2ac565086f305e31fcd84461faec28" id="r_gadd2ac565086f305e31fcd84461faec28"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___functions.html#gadd2ac565086f305e31fcd84461faec28">AES_Cmd</a> (<a class="el" href="struct_h_t___a_e_s___type_def.html">HT_AES_TypeDef</a> *HT_AESn, <a class="el" href="group___exported___types.html#ga7e0a5efd47ffb7f58fcc2e1cb1e38dae">ControlStatus</a> NewState)</td></tr>
 <tr class="memdesc:gadd2ac565086f305e31fcd84461faec28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable or Disable the specified AES.  <br /></td></tr>
 <tr class="separator:gadd2ac565086f305e31fcd84461faec28"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf1c65ea2982a247a26d920267fa45c6d" id="r_gaf1c65ea2982a247a26d920267fa45c6d"><td class="memItemLeft" align="right" valign="top">FlagStatus&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___functions.html#gaf1c65ea2982a247a26d920267fa45c6d">AES_GetStatus</a> (<a class="el" href="struct_h_t___a_e_s___type_def.html">HT_AES_TypeDef</a> *HT_AESn, u32 AES_SR_x)</td></tr>
+<tr class="memitem:gaf1c65ea2982a247a26d920267fa45c6d" id="r_gaf1c65ea2982a247a26d920267fa45c6d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___exported___types.html#ga89136caac2e14c55151f527ac02daaff">FlagStatus</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___functions.html#gaf1c65ea2982a247a26d920267fa45c6d">AES_GetStatus</a> (<a class="el" href="struct_h_t___a_e_s___type_def.html">HT_AES_TypeDef</a> *HT_AESn, <a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> AES_SR_x)</td></tr>
 <tr class="memdesc:gaf1c65ea2982a247a26d920267fa45c6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check whether the specified AES status has been set.  <br /></td></tr>
 <tr class="separator:gaf1c65ea2982a247a26d920267fa45c6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8b3e62661ce39ec53856da9303d50925" id="r_ga8b3e62661ce39ec53856da9303d50925"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___functions.html#ga8b3e62661ce39ec53856da9303d50925">AES_PDMACmd</a> (<a class="el" href="struct_h_t___a_e_s___type_def.html">HT_AES_TypeDef</a> *HT_AESn, u32 AES_PDMA_xFDMAEN, ControlStatus NewState)</td></tr>
+<tr class="memitem:ga8b3e62661ce39ec53856da9303d50925" id="r_ga8b3e62661ce39ec53856da9303d50925"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___functions.html#ga8b3e62661ce39ec53856da9303d50925">AES_PDMACmd</a> (<a class="el" href="struct_h_t___a_e_s___type_def.html">HT_AES_TypeDef</a> *HT_AESn, <a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> AES_PDMA_xFDMAEN, <a class="el" href="group___exported___types.html#ga7e0a5efd47ffb7f58fcc2e1cb1e38dae">ControlStatus</a> NewState)</td></tr>
 <tr class="memdesc:ga8b3e62661ce39ec53856da9303d50925"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable or Disable the AES PDMA interface.  <br /></td></tr>
 <tr class="separator:ga8b3e62661ce39ec53856da9303d50925"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab43ce26cc20115fe12ba82637571cbff" id="r_gab43ce26cc20115fe12ba82637571cbff"><td class="memItemLeft" align="right" valign="top">FlagStatus&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___functions.html#gab43ce26cc20115fe12ba82637571cbff">AES_GetIntStatus</a> (<a class="el" href="struct_h_t___a_e_s___type_def.html">HT_AES_TypeDef</a> *HT_AESn, u32 AES_INTSR_x)</td></tr>
+<tr class="memitem:gab43ce26cc20115fe12ba82637571cbff" id="r_gab43ce26cc20115fe12ba82637571cbff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___exported___types.html#ga89136caac2e14c55151f527ac02daaff">FlagStatus</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___functions.html#gab43ce26cc20115fe12ba82637571cbff">AES_GetIntStatus</a> (<a class="el" href="struct_h_t___a_e_s___type_def.html">HT_AES_TypeDef</a> *HT_AESn, <a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> AES_INTSR_x)</td></tr>
 <tr class="memdesc:gab43ce26cc20115fe12ba82637571cbff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check whether the specified AES interrupt has occurred.  <br /></td></tr>
 <tr class="separator:gab43ce26cc20115fe12ba82637571cbff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6998f292632ecfca2342f42d91df8f27" id="r_ga6998f292632ecfca2342f42d91df8f27"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___functions.html#ga6998f292632ecfca2342f42d91df8f27">AES_IntConfig</a> (<a class="el" href="struct_h_t___a_e_s___type_def.html">HT_AES_TypeDef</a> *HT_AESn, u32 AES_IER_x, ControlStatus NewState)</td></tr>
+<tr class="memitem:ga6998f292632ecfca2342f42d91df8f27" id="r_ga6998f292632ecfca2342f42d91df8f27"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___functions.html#ga6998f292632ecfca2342f42d91df8f27">AES_IntConfig</a> (<a class="el" href="struct_h_t___a_e_s___type_def.html">HT_AES_TypeDef</a> *HT_AESn, <a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> AES_IER_x, <a class="el" href="group___exported___types.html#ga7e0a5efd47ffb7f58fcc2e1cb1e38dae">ControlStatus</a> NewState)</td></tr>
 <tr class="memdesc:ga6998f292632ecfca2342f42d91df8f27"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable or Disable the specified AES interrupts.  <br /></td></tr>
 <tr class="separator:ga6998f292632ecfca2342f42d91df8f27"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga3fc458078de9cc55840174a6c81e7150" id="r_ga3fc458078de9cc55840174a6c81e7150"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___functions.html#ga3fc458078de9cc55840174a6c81e7150">AES_SetInputData</a> (<a class="el" href="struct_h_t___a_e_s___type_def.html">HT_AES_TypeDef</a> *HT_AESn, <a class="el" href="group___exported___types.html#ga90bb277aebd2294ab3f871242e871144">uc32</a> AES_Data)</td></tr>
 <tr class="memdesc:ga3fc458078de9cc55840174a6c81e7150"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the specified AES Input data.  <br /></td></tr>
 <tr class="separator:ga3fc458078de9cc55840174a6c81e7150"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga80c77d66c0dbbb3a7df251109e0ff12d" id="r_ga80c77d66c0dbbb3a7df251109e0ff12d"><td class="memItemLeft" align="right" valign="top">u32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___functions.html#ga80c77d66c0dbbb3a7df251109e0ff12d">AES_GetOutputData</a> (<a class="el" href="struct_h_t___a_e_s___type_def.html">HT_AES_TypeDef</a> *HT_AESn)</td></tr>
+<tr class="memitem:ga80c77d66c0dbbb3a7df251109e0ff12d" id="r_ga80c77d66c0dbbb3a7df251109e0ff12d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___functions.html#ga80c77d66c0dbbb3a7df251109e0ff12d">AES_GetOutputData</a> (<a class="el" href="struct_h_t___a_e_s___type_def.html">HT_AES_TypeDef</a> *HT_AESn)</td></tr>
 <tr class="memdesc:ga80c77d66c0dbbb3a7df251109e0ff12d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the specified AES output data.  <br /></td></tr>
 <tr class="separator:ga80c77d66c0dbbb3a7df251109e0ff12d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga743a0e5400f979f3381295b2e9c1f7d1" id="r_ga743a0e5400f979f3381295b2e9c1f7d1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_e_s___exported___functions.html#ga743a0e5400f979f3381295b2e9c1f7d1">AES_SetVectorTable</a> (<a class="el" href="struct_h_t___a_e_s___type_def.html">HT_AES_TypeDef</a> *HT_AESn, <a class="el" href="group___exported___types.html#ga421cd0841ee90f7bcae38d46aba21180">uc8</a> *Vector)</td></tr>
@@ -313,13 +295,9 @@ Functions</h2></td></tr>
 </ol>
 <h2><center>Copyright (C) Holtek Semiconductor Inc. All rights reserved</center></h2>
 </div></div><!-- contents -->
-</div><!-- doc-content -->
 <!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="navelem"><a class="el" href="dir_275089585c7fc1b5fd5d7d42c69cb1da.html">D:</a></li><li class="navelem"><a class="el" href="dir_273f27263c611837868160ff0f82bfd9.html">Note_Database</a></li><li class="navelem"><a class="el" href="dir_e8282a48381dd1bcf012c1bae1dc741b.html">Subject</a></li><li class="navelem"><a class="el" href="dir_7583b43eec1d2788dd81e658186519d2.html">MCETA Microcontroller Experiment TA</a></li><li class="navelem"><a class="el" href="dir_3ca5c6b4c4a2c10c94024caf0df2e6bb.html">files</a></li><li class="navelem"><a class="el" href="dir_79e3244e27785f7ec158b45668f9e3ec.html">HT32_STD_5xxxx_FWLib_V1.5.1_7084b</a></li><li class="navelem"><a class="el" href="dir_6965e01511015f2942f432da2d4a5bcb.html">library</a></li><li class="navelem"><a class="el" href="dir_a2f81702cb5fc8b133c02bd1d2044bc0.html">HT32F5xxxx_Driver</a></li><li class="navelem"><a class="el" href="dir_5295d97ccb3d03e3674380e8c26a1d02.html">inc</a></li><li class="navelem"><a class="el" href="ht32f5xxxx__aes_8h.html">ht32f5xxxx_aes.h</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
-  </ul>
-</div>
+<hr class="footer"/><address class="footer"><small>
+Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+</small></address>
 </body>
 </html>

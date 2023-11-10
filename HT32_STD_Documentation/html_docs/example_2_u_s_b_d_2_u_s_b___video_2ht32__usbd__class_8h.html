@@ -1,51 +1,63 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>HT32_STD_Documents: ht32_usbd_class.h File Reference</title>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>HT32_STD_Code_Documents: D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/USBD/USB_Video/ht32_usbd_class.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<link href="navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="resize.js"></script>
-<script type="text/javascript" src="navtreedata.js"></script>
-<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(document).ready(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
-   <div id="projectname">HT32_STD_Documents<span id="projectnumber">&#160;1.0.0</span>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">HT32_STD_Code_Documents
+   &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">For HT32F52352</div>
+   <div id="projectbrief">Micro-controller Experiment</div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
@@ -57,23 +69,17 @@
 var searchBox = new SearchBox("searchBox", "search/",'.html');
 /* @license-end */
 </script>
-</div><!-- top -->
-<div id="side-nav" class="ui-resizable side-nav-resizable">
-  <div id="nav-tree">
-    <div id="nav-tree-contents">
-      <div id="nav-sync" class="sync"></div>
-    </div>
-  </div>
-  <div id="splitbar" style="-moz-user-select:none;" 
-       class="ui-resizable-handle">
-  </div>
-</div>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('example_2_u_s_b_d_2_u_s_b___video_2ht32__usbd__class_8h.html',''); initResizable(); });
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
 /* @license-end */
 </script>
-<div id="doc-content">
+<div id="main-nav"></div>
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -95,6 +101,11 @@ $(document).ready(function(){initNavTree('example_2_u_s_b_d_2_u_s_b___video_2ht3
 </div>
 </div>
 
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_275089585c7fc1b5fd5d7d42c69cb1da.html">D:</a></li><li class="navelem"><a class="el" href="dir_273f27263c611837868160ff0f82bfd9.html">Note_Database</a></li><li class="navelem"><a class="el" href="dir_e8282a48381dd1bcf012c1bae1dc741b.html">Subject</a></li><li class="navelem"><a class="el" href="dir_7583b43eec1d2788dd81e658186519d2.html">MCETA Microcontroller Experiment TA</a></li><li class="navelem"><a class="el" href="dir_3ca5c6b4c4a2c10c94024caf0df2e6bb.html">files</a></li><li class="navelem"><a class="el" href="dir_79e3244e27785f7ec158b45668f9e3ec.html">HT32_STD_5xxxx_FWLib_V1.5.1_7084b</a></li><li class="navelem"><a class="el" href="dir_59078eea5ff994e62a291bc736e60abc.html">example</a></li><li class="navelem"><a class="el" href="dir_43958ade10639ad8736747bf53220057.html">USBD</a></li><li class="navelem"><a class="el" href="dir_ddeebfd1a0cbc2bef656bebc44a89858.html">USB_Video</a></li>  </ul>
+</div>
+</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Data Structures</a> &#124;
@@ -108,6 +119,16 @@ $(document).ready(function(){initNavTree('example_2_u_s_b_d_2_u_s_b___video_2ht3
 <p>The header file of USB Device Class.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;<a class="el" href="ht32__usbd__core_8h_source.html">ht32_usbd_core.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for ht32_usbd_class.h:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="example_2_u_s_b_d_2_u_s_b___video_2ht32__usbd__class_8h__incl.svg" width="239" height="192"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div><div class="textblock"><div class="dynheader">
+This graph shows which files directly or indirectly include this file:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="example_2_u_s_b_d_2_u_s_b___video_2ht32__usbd__class_8h__dep__incl.svg" width="678" height="427"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 <p><a href="example_2_u_s_b_d_2_u_s_b___video_2ht32__usbd__class_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -122,253 +143,172 @@ Data Structures</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:gacbcf8e8f3d32d7f090bdf556a8d6a00b" id="r_gacbcf8e8f3d32d7f090bdf556a8d6a00b"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>COMMUNICATION_INF_CLASS</b>&#160;&#160;&#160;(0x0E)</td></tr>
+<tr class="memitem:gacbcf8e8f3d32d7f090bdf556a8d6a00b" id="r_gacbcf8e8f3d32d7f090bdf556a8d6a00b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#gacbcf8e8f3d32d7f090bdf556a8d6a00b">COMMUNICATION_INF_CLASS</a>&#160;&#160;&#160;(0x0E)</td></tr>
 <tr class="separator:gacbcf8e8f3d32d7f090bdf556a8d6a00b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0d3b9b22b864f9a623792e81e904141a" id="r_ga0d3b9b22b864f9a623792e81e904141a"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>COMMUNICATION_INF_SUBCLASS</b>&#160;&#160;&#160;(0x01)</td></tr>
+<tr class="memitem:ga0d3b9b22b864f9a623792e81e904141a" id="r_ga0d3b9b22b864f9a623792e81e904141a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#ga0d3b9b22b864f9a623792e81e904141a">COMMUNICATION_INF_SUBCLASS</a>&#160;&#160;&#160;(0x01)</td></tr>
 <tr class="separator:ga0d3b9b22b864f9a623792e81e904141a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga78d1890eeaac8c8460199a6e66271573" id="r_ga78d1890eeaac8c8460199a6e66271573"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>COMMUNICATION_INF_PTCO</b>&#160;&#160;&#160;(0x00)</td></tr>
+<tr class="memitem:ga78d1890eeaac8c8460199a6e66271573" id="r_ga78d1890eeaac8c8460199a6e66271573"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#ga78d1890eeaac8c8460199a6e66271573">COMMUNICATION_INF_PTCO</a>&#160;&#160;&#160;(0x00)</td></tr>
 <tr class="separator:ga78d1890eeaac8c8460199a6e66271573"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab19ead1a4826f36a5c0ba3285b4bf7c2" id="r_gab19ead1a4826f36a5c0ba3285b4bf7c2"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>DATA_INF_CLASS</b>&#160;&#160;&#160;DESC_CLASS_0A_CDC_DATA</td></tr>
+<tr class="memitem:gab19ead1a4826f36a5c0ba3285b4bf7c2" id="r_gab19ead1a4826f36a5c0ba3285b4bf7c2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#gab19ead1a4826f36a5c0ba3285b4bf7c2">DATA_INF_CLASS</a>&#160;&#160;&#160;<a class="el" href="group___u_s_b_d_core___descriptor.html#gae56b778699633c4c36c11d4b1e33f9c2">DESC_CLASS_0A_CDC_DATA</a></td></tr>
 <tr class="separator:gab19ead1a4826f36a5c0ba3285b4bf7c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga50b31756dcb6899b49d09929aee1c25a" id="r_ga50b31756dcb6899b49d09929aee1c25a"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>DATA_INF_SUBCLASS</b>&#160;&#160;&#160;CDC_SUBCLASS_NULL</td></tr>
+<tr class="memitem:ga50b31756dcb6899b49d09929aee1c25a" id="r_ga50b31756dcb6899b49d09929aee1c25a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#ga50b31756dcb6899b49d09929aee1c25a">DATA_INF_SUBCLASS</a>&#160;&#160;&#160;<a class="el" href="group___h_i_d___keyboard___virtual___c_o_m.html#ga4a4261a90abc0976d2f3700ff29189d1">CDC_SUBCLASS_NULL</a></td></tr>
 <tr class="separator:ga50b31756dcb6899b49d09929aee1c25a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga53e9f3341fb2d9619c006433e12385c6" id="r_ga53e9f3341fb2d9619c006433e12385c6"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>DATA_INF_PTCO</b>&#160;&#160;&#160;CDC_PROTOCOL_NULL</td></tr>
+<tr class="memitem:ga53e9f3341fb2d9619c006433e12385c6" id="r_ga53e9f3341fb2d9619c006433e12385c6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#ga53e9f3341fb2d9619c006433e12385c6">DATA_INF_PTCO</a>&#160;&#160;&#160;<a class="el" href="group___h_i_d___keyboard___virtual___c_o_m.html#ga094fc195d48a7ad32d63e3d06b5d575a">CDC_PROTOCOL_NULL</a></td></tr>
 <tr class="separator:ga53e9f3341fb2d9619c006433e12385c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7be1da3d8291f5d9b9dcc3badfc24866" id="r_ga7be1da3d8291f5d9b9dcc3badfc24866"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>IAD_LEN_INF</b>&#160;&#160;&#160;(0x08)</td></tr>
+<tr class="memitem:ga7be1da3d8291f5d9b9dcc3badfc24866" id="r_ga7be1da3d8291f5d9b9dcc3badfc24866"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#ga7be1da3d8291f5d9b9dcc3badfc24866">IAD_LEN_INF</a>&#160;&#160;&#160;(0x08)</td></tr>
 <tr class="separator:ga7be1da3d8291f5d9b9dcc3badfc24866"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gacf01b95916a6d7bb326d0ce84b06dd07" id="r_gacf01b95916a6d7bb326d0ce84b06dd07"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>UVC_LEN_INF</b>&#160;&#160;&#160;(0x0D)</td></tr>
+<tr class="memitem:gacf01b95916a6d7bb326d0ce84b06dd07" id="r_gacf01b95916a6d7bb326d0ce84b06dd07"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#gacf01b95916a6d7bb326d0ce84b06dd07">UVC_LEN_INF</a>&#160;&#160;&#160;(0x0D)</td></tr>
 <tr class="separator:gacf01b95916a6d7bb326d0ce84b06dd07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gadd450c91d762f569e67601a30f04e09e" id="r_gadd450c91d762f569e67601a30f04e09e"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>IT_LEN</b>&#160;&#160;&#160;(0x12)</td></tr>
+<tr class="memitem:gadd450c91d762f569e67601a30f04e09e" id="r_gadd450c91d762f569e67601a30f04e09e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#gadd450c91d762f569e67601a30f04e09e">IT_LEN</a>&#160;&#160;&#160;(0x12)</td></tr>
 <tr class="separator:gadd450c91d762f569e67601a30f04e09e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga37671b3d418196e2fdf4be2ea4101d79" id="r_ga37671b3d418196e2fdf4be2ea4101d79"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>OT_UNIT_LEN</b>&#160;&#160;&#160;(0x09)</td></tr>
+<tr class="memitem:ga37671b3d418196e2fdf4be2ea4101d79" id="r_ga37671b3d418196e2fdf4be2ea4101d79"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#ga37671b3d418196e2fdf4be2ea4101d79">OT_UNIT_LEN</a>&#160;&#160;&#160;(0x09)</td></tr>
 <tr class="separator:ga37671b3d418196e2fdf4be2ea4101d79"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac80679ca91223143302952a3a52a8870" id="r_gac80679ca91223143302952a3a52a8870"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>PU_LEN</b>&#160;&#160;&#160;(0x0B)</td></tr>
+<tr class="memitem:gac80679ca91223143302952a3a52a8870" id="r_gac80679ca91223143302952a3a52a8870"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#gac80679ca91223143302952a3a52a8870">PU_LEN</a>&#160;&#160;&#160;(0x0B)</td></tr>
 <tr class="separator:gac80679ca91223143302952a3a52a8870"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae378c392cb4e4f3cea61cbd79d83c653" id="r_gae378c392cb4e4f3cea61cbd79d83c653"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>UVC_LEN_EPT</b>&#160;&#160;&#160;(0x05)</td></tr>
+<tr class="memitem:gae378c392cb4e4f3cea61cbd79d83c653" id="r_gae378c392cb4e4f3cea61cbd79d83c653"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#gae378c392cb4e4f3cea61cbd79d83c653">UVC_LEN_EPT</a>&#160;&#160;&#160;(0x05)</td></tr>
 <tr class="separator:gae378c392cb4e4f3cea61cbd79d83c653"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae6968ce9db6d716b36f1f37bcec2425d" id="r_gae6968ce9db6d716b36f1f37bcec2425d"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>VS_HEADER_LEN</b>&#160;&#160;&#160;(0x0E)</td></tr>
+<tr class="memitem:gae6968ce9db6d716b36f1f37bcec2425d" id="r_gae6968ce9db6d716b36f1f37bcec2425d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#gae6968ce9db6d716b36f1f37bcec2425d">VS_HEADER_LEN</a>&#160;&#160;&#160;(0x0E)</td></tr>
 <tr class="separator:gae6968ce9db6d716b36f1f37bcec2425d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2408945435ae3a70095bf6af475087a9" id="r_ga2408945435ae3a70095bf6af475087a9"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>VS_FORMAT_LEN</b>&#160;&#160;&#160;(0x1B)</td></tr>
+<tr class="memitem:ga2408945435ae3a70095bf6af475087a9" id="r_ga2408945435ae3a70095bf6af475087a9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#ga2408945435ae3a70095bf6af475087a9">VS_FORMAT_LEN</a>&#160;&#160;&#160;(0x1B)</td></tr>
 <tr class="separator:ga2408945435ae3a70095bf6af475087a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga06d121f7891bb5e65bc092cb4097e68f" id="r_ga06d121f7891bb5e65bc092cb4097e68f"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>VS_FRAME_LEN</b>&#160;&#160;&#160;(0x1E)</td></tr>
+<tr class="memitem:ga06d121f7891bb5e65bc092cb4097e68f" id="r_ga06d121f7891bb5e65bc092cb4097e68f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#ga06d121f7891bb5e65bc092cb4097e68f">VS_FRAME_LEN</a>&#160;&#160;&#160;(0x1E)</td></tr>
 <tr class="separator:ga06d121f7891bb5e65bc092cb4097e68f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3b1da13bec3a966b04f21d2bd53710bc" id="r_ga3b1da13bec3a966b04f21d2bd53710bc"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>VS_STILL_ILEN</b>&#160;&#160;&#160;(0x0A)</td></tr>
+<tr class="memitem:ga3b1da13bec3a966b04f21d2bd53710bc" id="r_ga3b1da13bec3a966b04f21d2bd53710bc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#ga3b1da13bec3a966b04f21d2bd53710bc">VS_STILL_ILEN</a>&#160;&#160;&#160;(0x0A)</td></tr>
 <tr class="separator:ga3b1da13bec3a966b04f21d2bd53710bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0be5d03a495161cd457b08b522ab1503" id="r_ga0be5d03a495161cd457b08b522ab1503"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>VS_COLOR_FORMAT_LEN</b>&#160;&#160;&#160;(0x06)</td></tr>
+<tr class="memitem:ga0be5d03a495161cd457b08b522ab1503" id="r_ga0be5d03a495161cd457b08b522ab1503"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#ga0be5d03a495161cd457b08b522ab1503">VS_COLOR_FORMAT_LEN</a>&#160;&#160;&#160;(0x06)</td></tr>
 <tr class="separator:ga0be5d03a495161cd457b08b522ab1503"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga766de831733bed79bf15974da38cefcd" id="r_ga766de831733bed79bf15974da38cefcd"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>VC_TotalLength</b>&#160;&#160;&#160;(u16)(UVC_LEN_INF + IT_LEN + OT_UNIT_LEN + PU_LEN)</td></tr>
+<tr class="memitem:ga766de831733bed79bf15974da38cefcd" id="r_ga766de831733bed79bf15974da38cefcd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#ga766de831733bed79bf15974da38cefcd">VC_TotalLength</a>&#160;&#160;&#160;(<a class="el" href="group___exported___types.html#ga9e6c91d77e24643b888dbd1a1a590054">u16</a>)(<a class="el" href="group___u_s_b___video.html#gacf01b95916a6d7bb326d0ce84b06dd07">UVC_LEN_INF</a> + <a class="el" href="group___u_s_b___video.html#gadd450c91d762f569e67601a30f04e09e">IT_LEN</a> + <a class="el" href="group___u_s_b___video.html#ga37671b3d418196e2fdf4be2ea4101d79">OT_UNIT_LEN</a> + <a class="el" href="group___u_s_b___video.html#gac80679ca91223143302952a3a52a8870">PU_LEN</a>)</td></tr>
 <tr class="separator:ga766de831733bed79bf15974da38cefcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga0538cb833a42963e89fc8a17e68733aa" id="r_ga0538cb833a42963e89fc8a17e68733aa"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#ga0538cb833a42963e89fc8a17e68733aa">VS_TotalLength</a></td></tr>
 <tr class="separator:ga0538cb833a42963e89fc8a17e68733aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gafb0ac178a0acdc7f3d8faf3e3b7b26b6" id="r_gafb0ac178a0acdc7f3d8faf3e3b7b26b6"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>CONTROL_ID</b>&#160;&#160;&#160;(0x00)</td></tr>
+<tr class="memitem:gafb0ac178a0acdc7f3d8faf3e3b7b26b6" id="r_gafb0ac178a0acdc7f3d8faf3e3b7b26b6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#gafb0ac178a0acdc7f3d8faf3e3b7b26b6">CONTROL_ID</a>&#160;&#160;&#160;(0x00)</td></tr>
 <tr class="separator:gafb0ac178a0acdc7f3d8faf3e3b7b26b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2ed267067f34c65aba5e971910e3193f" id="r_ga2ed267067f34c65aba5e971910e3193f"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>IT_ID</b>&#160;&#160;&#160;(0x01)</td></tr>
+<tr class="memitem:ga2ed267067f34c65aba5e971910e3193f" id="r_ga2ed267067f34c65aba5e971910e3193f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#ga2ed267067f34c65aba5e971910e3193f">IT_ID</a>&#160;&#160;&#160;(0x01)</td></tr>
 <tr class="separator:ga2ed267067f34c65aba5e971910e3193f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad23722e564392ef2cc56c1ea8ff64408" id="r_gad23722e564392ef2cc56c1ea8ff64408"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>OT_ID</b>&#160;&#160;&#160;(0x05)</td></tr>
+<tr class="memitem:gad23722e564392ef2cc56c1ea8ff64408" id="r_gad23722e564392ef2cc56c1ea8ff64408"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#gad23722e564392ef2cc56c1ea8ff64408">OT_ID</a>&#160;&#160;&#160;(0x05)</td></tr>
 <tr class="separator:gad23722e564392ef2cc56c1ea8ff64408"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga70ba867d4540ef2dda2ce996a6a6c454" id="r_ga70ba867d4540ef2dda2ce996a6a6c454"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>PU_ID</b>&#160;&#160;&#160;(0x03)</td></tr>
+<tr class="memitem:ga70ba867d4540ef2dda2ce996a6a6c454" id="r_ga70ba867d4540ef2dda2ce996a6a6c454"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#ga70ba867d4540ef2dda2ce996a6a6c454">PU_ID</a>&#160;&#160;&#160;(0x03)</td></tr>
 <tr class="separator:ga70ba867d4540ef2dda2ce996a6a6c454"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga346f8e80d95891c318c20dceb0c5e580" id="r_ga346f8e80d95891c318c20dceb0c5e580"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>VC_INTERFACE_NUM</b>&#160;&#160;&#160;(0x00)</td></tr>
+<tr class="memitem:ga346f8e80d95891c318c20dceb0c5e580" id="r_ga346f8e80d95891c318c20dceb0c5e580"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#ga346f8e80d95891c318c20dceb0c5e580">VC_INTERFACE_NUM</a>&#160;&#160;&#160;(0x00)</td></tr>
 <tr class="separator:ga346f8e80d95891c318c20dceb0c5e580"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab9af05c0ee5ddbe46059e5f6370cf693" id="r_gab9af05c0ee5ddbe46059e5f6370cf693"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>VS_INTERFACE_NUM</b>&#160;&#160;&#160;(0x01)</td></tr>
+<tr class="memitem:gab9af05c0ee5ddbe46059e5f6370cf693" id="r_gab9af05c0ee5ddbe46059e5f6370cf693"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#gab9af05c0ee5ddbe46059e5f6370cf693">VS_INTERFACE_NUM</a>&#160;&#160;&#160;(0x01)</td></tr>
 <tr class="separator:gab9af05c0ee5ddbe46059e5f6370cf693"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf5160b65385e09ed625ee7365af3a9c2" id="r_gaf5160b65385e09ed625ee7365af3a9c2"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>CC_VIDEO</b>&#160;&#160;&#160;(0x0E)</td></tr>
+<tr class="memitem:gaf5160b65385e09ed625ee7365af3a9c2" id="r_gaf5160b65385e09ed625ee7365af3a9c2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#gaf5160b65385e09ed625ee7365af3a9c2">CC_VIDEO</a>&#160;&#160;&#160;(0x0E)</td></tr>
 <tr class="separator:gaf5160b65385e09ed625ee7365af3a9c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga813bcaea679a7b3e51f2da67d934a4c2" id="r_ga813bcaea679a7b3e51f2da67d934a4c2"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>SC_UNDEFINED</b>&#160;&#160;&#160;(0x00)</td></tr>
+<tr class="memitem:ga813bcaea679a7b3e51f2da67d934a4c2" id="r_ga813bcaea679a7b3e51f2da67d934a4c2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#ga813bcaea679a7b3e51f2da67d934a4c2">SC_UNDEFINED</a>&#160;&#160;&#160;(0x00)</td></tr>
 <tr class="separator:ga813bcaea679a7b3e51f2da67d934a4c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga667c0a20aef1e2747dc5acaaa1b523f2" id="r_ga667c0a20aef1e2747dc5acaaa1b523f2"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>SC_VIDEOCONTROL</b>&#160;&#160;&#160;(0x01)</td></tr>
+<tr class="memitem:ga667c0a20aef1e2747dc5acaaa1b523f2" id="r_ga667c0a20aef1e2747dc5acaaa1b523f2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#ga667c0a20aef1e2747dc5acaaa1b523f2">SC_VIDEOCONTROL</a>&#160;&#160;&#160;(0x01)</td></tr>
 <tr class="separator:ga667c0a20aef1e2747dc5acaaa1b523f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab41bcbad7ffaa2122ff56978c1d06e54" id="r_gab41bcbad7ffaa2122ff56978c1d06e54"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>SC_VIDEOSTREAMING</b>&#160;&#160;&#160;(0x02)</td></tr>
+<tr class="memitem:gab41bcbad7ffaa2122ff56978c1d06e54" id="r_gab41bcbad7ffaa2122ff56978c1d06e54"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#gab41bcbad7ffaa2122ff56978c1d06e54">SC_VIDEOSTREAMING</a>&#160;&#160;&#160;(0x02)</td></tr>
 <tr class="separator:gab41bcbad7ffaa2122ff56978c1d06e54"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf38b86073598799403a14746a2967422" id="r_gaf38b86073598799403a14746a2967422"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>SC_VIDEO_INTERFACE_COLLECTION</b>&#160;&#160;&#160;(0x03)</td></tr>
+<tr class="memitem:gaf38b86073598799403a14746a2967422" id="r_gaf38b86073598799403a14746a2967422"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#gaf38b86073598799403a14746a2967422">SC_VIDEO_INTERFACE_COLLECTION</a>&#160;&#160;&#160;(0x03)</td></tr>
 <tr class="separator:gaf38b86073598799403a14746a2967422"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga45ed365b28a2af425e6eac1018e2c745" id="r_ga45ed365b28a2af425e6eac1018e2c745"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>PC_PROTOCOL_UNDEFINED</b>&#160;&#160;&#160;(0x00)</td></tr>
+<tr class="memitem:ga45ed365b28a2af425e6eac1018e2c745" id="r_ga45ed365b28a2af425e6eac1018e2c745"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#ga45ed365b28a2af425e6eac1018e2c745">PC_PROTOCOL_UNDEFINED</a>&#160;&#160;&#160;(0x00)</td></tr>
 <tr class="separator:ga45ed365b28a2af425e6eac1018e2c745"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1aa521c4f60349d2234b0ffc0c3ad4cd" id="r_ga1aa521c4f60349d2234b0ffc0c3ad4cd"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>CS_UNDEFINED</b>&#160;&#160;&#160;(0x20)</td></tr>
+<tr class="memitem:ga1aa521c4f60349d2234b0ffc0c3ad4cd" id="r_ga1aa521c4f60349d2234b0ffc0c3ad4cd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#ga1aa521c4f60349d2234b0ffc0c3ad4cd">CS_UNDEFINED</a>&#160;&#160;&#160;(0x20)</td></tr>
 <tr class="separator:ga1aa521c4f60349d2234b0ffc0c3ad4cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga037dcaf5505c99a33d171928b443d377" id="r_ga037dcaf5505c99a33d171928b443d377"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>CS_DEVICE</b>&#160;&#160;&#160;(0x21)</td></tr>
+<tr class="memitem:ga037dcaf5505c99a33d171928b443d377" id="r_ga037dcaf5505c99a33d171928b443d377"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#ga037dcaf5505c99a33d171928b443d377">CS_DEVICE</a>&#160;&#160;&#160;(0x21)</td></tr>
 <tr class="separator:ga037dcaf5505c99a33d171928b443d377"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf848581cdc118f7e3ed4640463bdf607" id="r_gaf848581cdc118f7e3ed4640463bdf607"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>CS_CONFIGURATION</b>&#160;&#160;&#160;(0x22)</td></tr>
+<tr class="memitem:gaf848581cdc118f7e3ed4640463bdf607" id="r_gaf848581cdc118f7e3ed4640463bdf607"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#gaf848581cdc118f7e3ed4640463bdf607">CS_CONFIGURATION</a>&#160;&#160;&#160;(0x22)</td></tr>
 <tr class="separator:gaf848581cdc118f7e3ed4640463bdf607"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga79063a6087bc255f2c4b83158bcb041f" id="r_ga79063a6087bc255f2c4b83158bcb041f"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>CS_SRTING</b>&#160;&#160;&#160;(0x23)</td></tr>
+<tr class="memitem:ga79063a6087bc255f2c4b83158bcb041f" id="r_ga79063a6087bc255f2c4b83158bcb041f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#ga79063a6087bc255f2c4b83158bcb041f">CS_SRTING</a>&#160;&#160;&#160;(0x23)</td></tr>
 <tr class="separator:ga79063a6087bc255f2c4b83158bcb041f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga104f7f440633d5d270fba57dfa0666d0" id="r_ga104f7f440633d5d270fba57dfa0666d0"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>CS_INTERFACE</b>&#160;&#160;&#160;(0x24)</td></tr>
+<tr class="memitem:ga104f7f440633d5d270fba57dfa0666d0" id="r_ga104f7f440633d5d270fba57dfa0666d0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#ga104f7f440633d5d270fba57dfa0666d0">CS_INTERFACE</a>&#160;&#160;&#160;(0x24)</td></tr>
 <tr class="separator:ga104f7f440633d5d270fba57dfa0666d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad1e693ea4c24868e9bb48116ebc30d58" id="r_gad1e693ea4c24868e9bb48116ebc30d58"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>CS_ENDPOINT</b>&#160;&#160;&#160;(0x25)</td></tr>
+<tr class="memitem:gad1e693ea4c24868e9bb48116ebc30d58" id="r_gad1e693ea4c24868e9bb48116ebc30d58"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#gad1e693ea4c24868e9bb48116ebc30d58">CS_ENDPOINT</a>&#160;&#160;&#160;(0x25)</td></tr>
 <tr class="separator:gad1e693ea4c24868e9bb48116ebc30d58"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7d9ce58007135e5ac5f736b784112caa" id="r_ga7d9ce58007135e5ac5f736b784112caa"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>CLASS_REQ_00_RC_UNDEFINED</b>&#160;&#160;&#160;(0x00)</td></tr>
+<tr class="memitem:ga7d9ce58007135e5ac5f736b784112caa" id="r_ga7d9ce58007135e5ac5f736b784112caa"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#ga7d9ce58007135e5ac5f736b784112caa">CLASS_REQ_00_RC_UNDEFINED</a>&#160;&#160;&#160;(0x00)</td></tr>
 <tr class="separator:ga7d9ce58007135e5ac5f736b784112caa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga36edef410e5c979ea58cc8ddfe1f1023" id="r_ga36edef410e5c979ea58cc8ddfe1f1023"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>CLASS_REQ_01_SET_CUR</b>&#160;&#160;&#160;(0x01)</td></tr>
+<tr class="memitem:ga36edef410e5c979ea58cc8ddfe1f1023" id="r_ga36edef410e5c979ea58cc8ddfe1f1023"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#ga36edef410e5c979ea58cc8ddfe1f1023">CLASS_REQ_01_SET_CUR</a>&#160;&#160;&#160;(0x01)</td></tr>
 <tr class="separator:ga36edef410e5c979ea58cc8ddfe1f1023"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab518844a73f50e191ef992b2a94af076" id="r_gab518844a73f50e191ef992b2a94af076"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>CLASS_REQ_81_GET_CUR</b>&#160;&#160;&#160;(0x81)</td></tr>
+<tr class="memitem:gab518844a73f50e191ef992b2a94af076" id="r_gab518844a73f50e191ef992b2a94af076"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#gab518844a73f50e191ef992b2a94af076">CLASS_REQ_81_GET_CUR</a>&#160;&#160;&#160;(0x81)</td></tr>
 <tr class="separator:gab518844a73f50e191ef992b2a94af076"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga73b603fdeb3ceb3e8d0fed2d9a68f59a" id="r_ga73b603fdeb3ceb3e8d0fed2d9a68f59a"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>CLASS_REQ_82_GET_MIN</b>&#160;&#160;&#160;(0x82)</td></tr>
+<tr class="memitem:ga73b603fdeb3ceb3e8d0fed2d9a68f59a" id="r_ga73b603fdeb3ceb3e8d0fed2d9a68f59a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#ga73b603fdeb3ceb3e8d0fed2d9a68f59a">CLASS_REQ_82_GET_MIN</a>&#160;&#160;&#160;(0x82)</td></tr>
 <tr class="separator:ga73b603fdeb3ceb3e8d0fed2d9a68f59a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga59377c6027b480ca4a9e1a4390577225" id="r_ga59377c6027b480ca4a9e1a4390577225"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>CLASS_REQ_83_GET_MAX</b>&#160;&#160;&#160;(0x83)</td></tr>
+<tr class="memitem:ga59377c6027b480ca4a9e1a4390577225" id="r_ga59377c6027b480ca4a9e1a4390577225"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#ga59377c6027b480ca4a9e1a4390577225">CLASS_REQ_83_GET_MAX</a>&#160;&#160;&#160;(0x83)</td></tr>
 <tr class="separator:ga59377c6027b480ca4a9e1a4390577225"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2121a1fed91f0d50dc5e0df63eb14268" id="r_ga2121a1fed91f0d50dc5e0df63eb14268"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>CLASS_REQ_84_GET_RES</b>&#160;&#160;&#160;(0x84)</td></tr>
+<tr class="memitem:ga2121a1fed91f0d50dc5e0df63eb14268" id="r_ga2121a1fed91f0d50dc5e0df63eb14268"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#ga2121a1fed91f0d50dc5e0df63eb14268">CLASS_REQ_84_GET_RES</a>&#160;&#160;&#160;(0x84)</td></tr>
 <tr class="separator:ga2121a1fed91f0d50dc5e0df63eb14268"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac7396cbca3fcb094b5f3fe4fb6d59d90" id="r_gac7396cbca3fcb094b5f3fe4fb6d59d90"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>CLASS_REQ_85_GET_LEN</b>&#160;&#160;&#160;(0x85)</td></tr>
+<tr class="memitem:gac7396cbca3fcb094b5f3fe4fb6d59d90" id="r_gac7396cbca3fcb094b5f3fe4fb6d59d90"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#gac7396cbca3fcb094b5f3fe4fb6d59d90">CLASS_REQ_85_GET_LEN</a>&#160;&#160;&#160;(0x85)</td></tr>
 <tr class="separator:gac7396cbca3fcb094b5f3fe4fb6d59d90"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga09ea5c009052b615c0181b4a3d0c64a8" id="r_ga09ea5c009052b615c0181b4a3d0c64a8"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>CLASS_REQ_86_GET_INFO</b>&#160;&#160;&#160;(0x86)</td></tr>
+<tr class="memitem:ga09ea5c009052b615c0181b4a3d0c64a8" id="r_ga09ea5c009052b615c0181b4a3d0c64a8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#ga09ea5c009052b615c0181b4a3d0c64a8">CLASS_REQ_86_GET_INFO</a>&#160;&#160;&#160;(0x86)</td></tr>
 <tr class="separator:ga09ea5c009052b615c0181b4a3d0c64a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf5b3755a06f822db99c7cd6044f85afd" id="r_gaf5b3755a06f822db99c7cd6044f85afd"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>CLASS_REQ_87_GET_DEF</b>&#160;&#160;&#160;(0x87)</td></tr>
+<tr class="memitem:gaf5b3755a06f822db99c7cd6044f85afd" id="r_gaf5b3755a06f822db99c7cd6044f85afd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#gaf5b3755a06f822db99c7cd6044f85afd">CLASS_REQ_87_GET_DEF</a>&#160;&#160;&#160;(0x87)</td></tr>
 <tr class="separator:gaf5b3755a06f822db99c7cd6044f85afd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf07d520901970d63cb7c1b3eb205c094" id="r_gaf07d520901970d63cb7c1b3eb205c094"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>VC_CONTROL_UNDEFINED</b>&#160;&#160;&#160;(0x00)</td></tr>
+<tr class="memitem:gaf07d520901970d63cb7c1b3eb205c094" id="r_gaf07d520901970d63cb7c1b3eb205c094"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#gaf07d520901970d63cb7c1b3eb205c094">VC_CONTROL_UNDEFINED</a>&#160;&#160;&#160;(0x00)</td></tr>
 <tr class="separator:gaf07d520901970d63cb7c1b3eb205c094"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf4dee4fdb9850a03ff3ababbb735f3ed" id="r_gaf4dee4fdb9850a03ff3ababbb735f3ed"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>VC_VIDEO_POWER_MODE_CONTROL</b>&#160;&#160;&#160;(0x01)</td></tr>
+<tr class="memitem:gaf4dee4fdb9850a03ff3ababbb735f3ed" id="r_gaf4dee4fdb9850a03ff3ababbb735f3ed"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#gaf4dee4fdb9850a03ff3ababbb735f3ed">VC_VIDEO_POWER_MODE_CONTROL</a>&#160;&#160;&#160;(0x01)</td></tr>
 <tr class="separator:gaf4dee4fdb9850a03ff3ababbb735f3ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8254097adef80e170a485c1386ca02ec" id="r_ga8254097adef80e170a485c1386ca02ec"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>VC_REQUEST_ERROR_CODE_CONTROL</b>&#160;&#160;&#160;(0x02)</td></tr>
+<tr class="memitem:ga8254097adef80e170a485c1386ca02ec" id="r_ga8254097adef80e170a485c1386ca02ec"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#ga8254097adef80e170a485c1386ca02ec">VC_REQUEST_ERROR_CODE_CONTROL</a>&#160;&#160;&#160;(0x02)</td></tr>
 <tr class="separator:ga8254097adef80e170a485c1386ca02ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf53e51380ab436fa1e76323e9ea0ed91" id="r_gaf53e51380ab436fa1e76323e9ea0ed91"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>Reserved</b>&#160;&#160;&#160;(0x03)</td></tr>
+<tr class="memitem:gaf53e51380ab436fa1e76323e9ea0ed91" id="r_gaf53e51380ab436fa1e76323e9ea0ed91"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#gaf53e51380ab436fa1e76323e9ea0ed91">Reserved</a>&#160;&#160;&#160;(0x03)</td></tr>
 <tr class="separator:gaf53e51380ab436fa1e76323e9ea0ed91"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga16e4b59302ed21984a9f2ffef2ad3986" id="r_ga16e4b59302ed21984a9f2ffef2ad3986"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>SU_CONTROL_UNDEFINED</b>&#160;&#160;&#160;(0x00)</td></tr>
+<tr class="memitem:ga16e4b59302ed21984a9f2ffef2ad3986" id="r_ga16e4b59302ed21984a9f2ffef2ad3986"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#ga16e4b59302ed21984a9f2ffef2ad3986">SU_CONTROL_UNDEFINED</a>&#160;&#160;&#160;(0x00)</td></tr>
 <tr class="separator:ga16e4b59302ed21984a9f2ffef2ad3986"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga53be2b338fb0409b0ea76985909ef0c2" id="r_ga53be2b338fb0409b0ea76985909ef0c2"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>SU_INPUT_SELECT_CONTROL</b>&#160;&#160;&#160;(0x01)</td></tr>
+<tr class="memitem:ga53be2b338fb0409b0ea76985909ef0c2" id="r_ga53be2b338fb0409b0ea76985909ef0c2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#ga53be2b338fb0409b0ea76985909ef0c2">SU_INPUT_SELECT_CONTROL</a>&#160;&#160;&#160;(0x01)</td></tr>
 <tr class="separator:ga53be2b338fb0409b0ea76985909ef0c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1aa684f5b95375e5e3ac086edd056567" id="r_ga1aa684f5b95375e5e3ac086edd056567"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>PU_CONTROL_UNDEFINED</b>&#160;&#160;&#160;(0x00)</td></tr>
+<tr class="memitem:ga1aa684f5b95375e5e3ac086edd056567" id="r_ga1aa684f5b95375e5e3ac086edd056567"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#ga1aa684f5b95375e5e3ac086edd056567">PU_CONTROL_UNDEFINED</a>&#160;&#160;&#160;(0x00)</td></tr>
 <tr class="separator:ga1aa684f5b95375e5e3ac086edd056567"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gade5329ebb0e9d3766fa7138faf468951" id="r_gade5329ebb0e9d3766fa7138faf468951"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>PU_BRIGHTNESS_CONTROL</b>&#160;&#160;&#160;(0x02)</td></tr>
+<tr class="memitem:gade5329ebb0e9d3766fa7138faf468951" id="r_gade5329ebb0e9d3766fa7138faf468951"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#gade5329ebb0e9d3766fa7138faf468951">PU_BRIGHTNESS_CONTROL</a>&#160;&#160;&#160;(0x02)</td></tr>
 <tr class="separator:gade5329ebb0e9d3766fa7138faf468951"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0b91d68d0e78040b318c3d19e34b1c51" id="r_ga0b91d68d0e78040b318c3d19e34b1c51"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>VS_CONTROL_UNDEFINED</b>&#160;&#160;&#160;(0x00)</td></tr>
+<tr class="memitem:ga0b91d68d0e78040b318c3d19e34b1c51" id="r_ga0b91d68d0e78040b318c3d19e34b1c51"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#ga0b91d68d0e78040b318c3d19e34b1c51">VS_CONTROL_UNDEFINED</a>&#160;&#160;&#160;(0x00)</td></tr>
 <tr class="separator:ga0b91d68d0e78040b318c3d19e34b1c51"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6e9bcced9b6c3cc3b3bd79d18b558af7" id="r_ga6e9bcced9b6c3cc3b3bd79d18b558af7"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>VS_PROBE_CONTROL</b>&#160;&#160;&#160;(0x01)</td></tr>
+<tr class="memitem:ga6e9bcced9b6c3cc3b3bd79d18b558af7" id="r_ga6e9bcced9b6c3cc3b3bd79d18b558af7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#ga6e9bcced9b6c3cc3b3bd79d18b558af7">VS_PROBE_CONTROL</a>&#160;&#160;&#160;(0x01)</td></tr>
 <tr class="separator:ga6e9bcced9b6c3cc3b3bd79d18b558af7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gadec0d32e9f956204ca0a2edd3d8f64f2" id="r_gadec0d32e9f956204ca0a2edd3d8f64f2"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>VS_COMMIT_CONTROL</b>&#160;&#160;&#160;(0x02)</td></tr>
+<tr class="memitem:gadec0d32e9f956204ca0a2edd3d8f64f2" id="r_gadec0d32e9f956204ca0a2edd3d8f64f2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#gadec0d32e9f956204ca0a2edd3d8f64f2">VS_COMMIT_CONTROL</a>&#160;&#160;&#160;(0x02)</td></tr>
 <tr class="separator:gadec0d32e9f956204ca0a2edd3d8f64f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga258bb72419ef143530a2f8f55e7d57af" id="r_ga258bb72419ef143530a2f8f55e7d57af"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>NO_ERROR</b>&#160;&#160;&#160;(0x00)</td></tr>
+<tr class="memitem:ga258bb72419ef143530a2f8f55e7d57af" id="r_ga258bb72419ef143530a2f8f55e7d57af"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#ga258bb72419ef143530a2f8f55e7d57af">NO_ERROR</a>&#160;&#160;&#160;(0x00)</td></tr>
 <tr class="separator:ga258bb72419ef143530a2f8f55e7d57af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4eeea263034e2501cb1083a96a53e2d7" id="r_ga4eeea263034e2501cb1083a96a53e2d7"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>NOT_READY</b>&#160;&#160;&#160;(0x01)</td></tr>
+<tr class="memitem:ga4eeea263034e2501cb1083a96a53e2d7" id="r_ga4eeea263034e2501cb1083a96a53e2d7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#ga4eeea263034e2501cb1083a96a53e2d7">NOT_READY</a>&#160;&#160;&#160;(0x01)</td></tr>
 <tr class="separator:ga4eeea263034e2501cb1083a96a53e2d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6fb67b345221c1fd4421d869730f788a" id="r_ga6fb67b345221c1fd4421d869730f788a"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>WRONG_STATE</b>&#160;&#160;&#160;(0x02)</td></tr>
+<tr class="memitem:ga6fb67b345221c1fd4421d869730f788a" id="r_ga6fb67b345221c1fd4421d869730f788a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#ga6fb67b345221c1fd4421d869730f788a">WRONG_STATE</a>&#160;&#160;&#160;(0x02)</td></tr>
 <tr class="separator:ga6fb67b345221c1fd4421d869730f788a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0d5e23bac60070676b465522a140f5c7" id="r_ga0d5e23bac60070676b465522a140f5c7"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>POWER</b>&#160;&#160;&#160;(0x03)</td></tr>
+<tr class="memitem:ga0d5e23bac60070676b465522a140f5c7" id="r_ga0d5e23bac60070676b465522a140f5c7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#ga0d5e23bac60070676b465522a140f5c7">POWER</a>&#160;&#160;&#160;(0x03)</td></tr>
 <tr class="separator:ga0d5e23bac60070676b465522a140f5c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga494da497b677da05f7a302152fafd248" id="r_ga494da497b677da05f7a302152fafd248"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>OUT_OF_RANGE</b>&#160;&#160;&#160;(0x04)</td></tr>
+<tr class="memitem:ga494da497b677da05f7a302152fafd248" id="r_ga494da497b677da05f7a302152fafd248"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#ga494da497b677da05f7a302152fafd248">OUT_OF_RANGE</a>&#160;&#160;&#160;(0x04)</td></tr>
 <tr class="separator:ga494da497b677da05f7a302152fafd248"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf535adb2dfee5df0a24392ffeee214d4" id="r_gaf535adb2dfee5df0a24392ffeee214d4"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>INVALID_UNIT</b>&#160;&#160;&#160;(0x05)</td></tr>
+<tr class="memitem:gaf535adb2dfee5df0a24392ffeee214d4" id="r_gaf535adb2dfee5df0a24392ffeee214d4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#gaf535adb2dfee5df0a24392ffeee214d4">INVALID_UNIT</a>&#160;&#160;&#160;(0x05)</td></tr>
 <tr class="separator:gaf535adb2dfee5df0a24392ffeee214d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga52ddba78deb03e41dc679e999c0843b8" id="r_ga52ddba78deb03e41dc679e999c0843b8"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>INVALID_CONTROL</b>&#160;&#160;&#160;(0x06)</td></tr>
+<tr class="memitem:ga52ddba78deb03e41dc679e999c0843b8" id="r_ga52ddba78deb03e41dc679e999c0843b8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#ga52ddba78deb03e41dc679e999c0843b8">INVALID_CONTROL</a>&#160;&#160;&#160;(0x06)</td></tr>
 <tr class="separator:ga52ddba78deb03e41dc679e999c0843b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf7ff88d9c3b8010d512edaeeb9ff2ef5" id="r_gaf7ff88d9c3b8010d512edaeeb9ff2ef5"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>INVALID_REQUEST</b>&#160;&#160;&#160;(0x07)</td></tr>
+<tr class="memitem:gaf7ff88d9c3b8010d512edaeeb9ff2ef5" id="r_gaf7ff88d9c3b8010d512edaeeb9ff2ef5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#gaf7ff88d9c3b8010d512edaeeb9ff2ef5">INVALID_REQUEST</a>&#160;&#160;&#160;(0x07)</td></tr>
 <tr class="separator:gaf7ff88d9c3b8010d512edaeeb9ff2ef5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac1ae4add974b9cfc6b5aaf8a578f01ab" id="r_gac1ae4add974b9cfc6b5aaf8a578f01ab"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>UNKNOWN</b>&#160;&#160;&#160;(0xFF)</td></tr>
+<tr class="memitem:gac1ae4add974b9cfc6b5aaf8a578f01ab" id="r_gac1ae4add974b9cfc6b5aaf8a578f01ab"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#gac1ae4add974b9cfc6b5aaf8a578f01ab">UNKNOWN</a>&#160;&#160;&#160;(0xFF)</td></tr>
 <tr class="separator:gac1ae4add974b9cfc6b5aaf8a578f01ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac95d3068ac733239a66ff90c489951bc" id="r_gac95d3068ac733239a66ff90c489951bc"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>SUPPORTS_GET</b>&#160;&#160;&#160;(0x01)</td></tr>
+<tr class="memitem:gac95d3068ac733239a66ff90c489951bc" id="r_gac95d3068ac733239a66ff90c489951bc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#gac95d3068ac733239a66ff90c489951bc">SUPPORTS_GET</a>&#160;&#160;&#160;(0x01)</td></tr>
 <tr class="separator:gac95d3068ac733239a66ff90c489951bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga675347f3e7bea52ba7e911f060459003" id="r_ga675347f3e7bea52ba7e911f060459003"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>SUPPORTS_SET</b>&#160;&#160;&#160;(0x02)</td></tr>
+<tr class="memitem:ga675347f3e7bea52ba7e911f060459003" id="r_ga675347f3e7bea52ba7e911f060459003"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#ga675347f3e7bea52ba7e911f060459003">SUPPORTS_SET</a>&#160;&#160;&#160;(0x02)</td></tr>
 <tr class="separator:ga675347f3e7bea52ba7e911f060459003"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa18350015cc92658a3733d3b34bf6566" id="r_gaa18350015cc92658a3733d3b34bf6566"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>STATE_DISABLED</b>&#160;&#160;&#160;(0x04)</td></tr>
+<tr class="memitem:gaa18350015cc92658a3733d3b34bf6566" id="r_gaa18350015cc92658a3733d3b34bf6566"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#gaa18350015cc92658a3733d3b34bf6566">STATE_DISABLED</a>&#160;&#160;&#160;(0x04)</td></tr>
 <tr class="separator:gaa18350015cc92658a3733d3b34bf6566"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga386490c4ca018c936824c0ed4b6183ae" id="r_ga386490c4ca018c936824c0ed4b6183ae"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>AUTOUPDATE_CONTROL</b>&#160;&#160;&#160;(0x08)</td></tr>
+<tr class="memitem:ga386490c4ca018c936824c0ed4b6183ae" id="r_ga386490c4ca018c936824c0ed4b6183ae"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#ga386490c4ca018c936824c0ed4b6183ae">AUTOUPDATE_CONTROL</a>&#160;&#160;&#160;(0x08)</td></tr>
 <tr class="separator:ga386490c4ca018c936824c0ed4b6183ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaec66ac7ee7a22de644dce96376258715" id="r_gaec66ac7ee7a22de644dce96376258715"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ASYNCHRONOUS_CONTROL</b>&#160;&#160;&#160;(0x10)</td></tr>
+<tr class="memitem:gaec66ac7ee7a22de644dce96376258715" id="r_gaec66ac7ee7a22de644dce96376258715"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#gaec66ac7ee7a22de644dce96376258715">ASYNCHRONOUS_CONTROL</a>&#160;&#160;&#160;(0x10)</td></tr>
 <tr class="separator:gaec66ac7ee7a22de644dce96376258715"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga42da34930dd268cfa1c7cf0648b66b0b" id="r_ga42da34930dd268cfa1c7cf0648b66b0b"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>DESC_IMAGE_WIDTH</b>&#160;&#160;&#160;320</td></tr>
+<tr class="memitem:ga42da34930dd268cfa1c7cf0648b66b0b" id="r_ga42da34930dd268cfa1c7cf0648b66b0b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#ga42da34930dd268cfa1c7cf0648b66b0b">DESC_IMAGE_WIDTH</a>&#160;&#160;&#160;320</td></tr>
 <tr class="separator:ga42da34930dd268cfa1c7cf0648b66b0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2510311d0b5da9843a2c1f4c314ccebb" id="r_ga2510311d0b5da9843a2c1f4c314ccebb"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>DESC_IMAGE_HEIGHT</b>&#160;&#160;&#160;240</td></tr>
+<tr class="memitem:ga2510311d0b5da9843a2c1f4c314ccebb" id="r_ga2510311d0b5da9843a2c1f4c314ccebb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#ga2510311d0b5da9843a2c1f4c314ccebb">DESC_IMAGE_HEIGHT</a>&#160;&#160;&#160;240</td></tr>
 <tr class="separator:ga2510311d0b5da9843a2c1f4c314ccebb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaccb837d5da7075107addd3eebc215553" id="r_gaccb837d5da7075107addd3eebc215553"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>FRAME_FPS</b>&#160;&#160;&#160;(((_EP4LEN-12) * 1000) / (DESC_IMAGE_WIDTH * DESC_IMAGE_HEIGHT * 2))</td></tr>
+<tr class="memitem:gaccb837d5da7075107addd3eebc215553" id="r_gaccb837d5da7075107addd3eebc215553"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#gaccb837d5da7075107addd3eebc215553">FRAME_FPS</a>&#160;&#160;&#160;(((<a class="el" href="group___u_s_b_device.html#gab1828f804909fef73fad60a46f834f17">_EP4LEN</a>-12) * 1000) / (<a class="el" href="group___u_s_b___video.html#ga42da34930dd268cfa1c7cf0648b66b0b">DESC_IMAGE_WIDTH</a> * <a class="el" href="group___u_s_b___video.html#ga2510311d0b5da9843a2c1f4c314ccebb">DESC_IMAGE_HEIGHT</a> * 2))</td></tr>
 <tr class="separator:gaccb837d5da7075107addd3eebc215553"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5972887ecef45d0f475a30f0e65ef3f0" id="r_ga5972887ecef45d0f475a30f0e65ef3f0"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>DESC_IMAGE_MINBITRATE</b>&#160;&#160;&#160;DESC_IMAGE_WIDTH * DESC_IMAGE_HEIGHT * 2</td></tr>
+<tr class="memitem:ga5972887ecef45d0f475a30f0e65ef3f0" id="r_ga5972887ecef45d0f475a30f0e65ef3f0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#ga5972887ecef45d0f475a30f0e65ef3f0">DESC_IMAGE_MINBITRATE</a>&#160;&#160;&#160;<a class="el" href="group___u_s_b___video.html#ga42da34930dd268cfa1c7cf0648b66b0b">DESC_IMAGE_WIDTH</a> * <a class="el" href="group___u_s_b___video.html#ga2510311d0b5da9843a2c1f4c314ccebb">DESC_IMAGE_HEIGHT</a> * 2</td></tr>
 <tr class="separator:ga5972887ecef45d0f475a30f0e65ef3f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabff828cebc7873e2b584da749de1bd07" id="r_gabff828cebc7873e2b584da749de1bd07"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>DESC_IMAGE_MAXBITRATE</b>&#160;&#160;&#160;DESC_IMAGE_WIDTH * DESC_IMAGE_HEIGHT * 2 * 30</td></tr>
+<tr class="memitem:gabff828cebc7873e2b584da749de1bd07" id="r_gabff828cebc7873e2b584da749de1bd07"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#gabff828cebc7873e2b584da749de1bd07">DESC_IMAGE_MAXBITRATE</a>&#160;&#160;&#160;<a class="el" href="group___u_s_b___video.html#ga42da34930dd268cfa1c7cf0648b66b0b">DESC_IMAGE_WIDTH</a> * <a class="el" href="group___u_s_b___video.html#ga2510311d0b5da9843a2c1f4c314ccebb">DESC_IMAGE_HEIGHT</a> * 2 * 30</td></tr>
 <tr class="separator:gabff828cebc7873e2b584da749de1bd07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga69392992805ac3695808cce5c6103372" id="r_ga69392992805ac3695808cce5c6103372"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>DESC_FRAME_BUF_SIZE</b>&#160;&#160;&#160;DESC_IMAGE_WIDTH * DESC_IMAGE_HEIGHT * 2</td></tr>
+<tr class="memitem:ga69392992805ac3695808cce5c6103372" id="r_ga69392992805ac3695808cce5c6103372"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#ga69392992805ac3695808cce5c6103372">DESC_FRAME_BUF_SIZE</a>&#160;&#160;&#160;<a class="el" href="group___u_s_b___video.html#ga42da34930dd268cfa1c7cf0648b66b0b">DESC_IMAGE_WIDTH</a> * <a class="el" href="group___u_s_b___video.html#ga2510311d0b5da9843a2c1f4c314ccebb">DESC_IMAGE_HEIGHT</a> * 2</td></tr>
 <tr class="separator:ga69392992805ac3695808cce5c6103372"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3f9aa1bd205e347176e3db2e1159fd82" id="r_ga3f9aa1bd205e347176e3db2e1159fd82"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>DESC_FRAME_INTERVAL</b>&#160;&#160;&#160;(10000000 / FRAME_FPS)</td></tr>
+<tr class="memitem:ga3f9aa1bd205e347176e3db2e1159fd82" id="r_ga3f9aa1bd205e347176e3db2e1159fd82"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#ga3f9aa1bd205e347176e3db2e1159fd82">DESC_FRAME_INTERVAL</a>&#160;&#160;&#160;(10000000 / <a class="el" href="group___u_s_b___video.html#gaccb837d5da7075107addd3eebc215553">FRAME_FPS</a>)</td></tr>
 <tr class="separator:ga3f9aa1bd205e347176e3db2e1159fd82"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8b7015e72bb6bffc2935f0203c11b0bd" id="r_ga8b7015e72bb6bffc2935f0203c11b0bd"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>DESC_CLOCK_FREQUENCY</b>&#160;&#160;&#160;15000000UL</td></tr>
+<tr class="memitem:ga8b7015e72bb6bffc2935f0203c11b0bd" id="r_ga8b7015e72bb6bffc2935f0203c11b0bd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#ga8b7015e72bb6bffc2935f0203c11b0bd">DESC_CLOCK_FREQUENCY</a>&#160;&#160;&#160;15000000UL</td></tr>
 <tr class="separator:ga8b7015e72bb6bffc2935f0203c11b0bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:ga0442973f576590353438dd964177044a" id="r_ga0442973f576590353438dd964177044a"><td class="memItemLeft" align="right" valign="top">
-typedef __PACKED_H struct <a class="el" href="struct_____u_v_c___v_i_d_e_o___p_r_o_b_e___a_n_d_c_o_m_m_i_t___c_o_n_t_r_o_l.html">__UVC_VIDEO_PROBE_ANDCOMMIT_CONTROL</a>&#160;</td><td class="memItemRight" valign="bottom"><b>UVC_VIDEO_PROBE_AND_COMMIT_CONTROL</b></td></tr>
+<tr class="memitem:ga0442973f576590353438dd964177044a" id="r_ga0442973f576590353438dd964177044a"><td class="memItemLeft" align="right" valign="top">typedef __PACKED_H struct <a class="el" href="struct_____u_v_c___v_i_d_e_o___p_r_o_b_e___a_n_d_c_o_m_m_i_t___c_o_n_t_r_o_l.html">__UVC_VIDEO_PROBE_ANDCOMMIT_CONTROL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#ga0442973f576590353438dd964177044a">UVC_VIDEO_PROBE_AND_COMMIT_CONTROL</a></td></tr>
 <tr class="separator:ga0442973f576590353438dd964177044a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga93d936d2ee02b3c5be9732cf52b0d1c4" id="r_ga93d936d2ee02b3c5be9732cf52b0d1c4"><td class="memItemLeft" align="right" valign="top">
-typedef struct <a class="el" href="struct___u_v_c___r_e_q_u_e_s_t.html">_UVC_REQUEST</a>&#160;</td><td class="memItemRight" valign="bottom"><b>UVC_Request</b></td></tr>
+<tr class="memitem:ga93d936d2ee02b3c5be9732cf52b0d1c4" id="r_ga93d936d2ee02b3c5be9732cf52b0d1c4"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="struct___u_v_c___r_e_q_u_e_s_t.html">_UVC_REQUEST</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#ga93d936d2ee02b3c5be9732cf52b0d1c4">UVC_Request</a></td></tr>
 <tr class="separator:ga93d936d2ee02b3c5be9732cf52b0d1c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9117ec5c307a59b3baf858afb2fc83ae" id="r_ga9117ec5c307a59b3baf858afb2fc83ae"><td class="memItemLeft" align="right" valign="top">
-typedef struct <a class="el" href="struct___u_v_c___c_o_n_t_r_o_l.html">_UVC_CONTROL</a>&#160;</td><td class="memItemRight" valign="bottom"><b>USBDClass_UVC_Control</b></td></tr>
+<tr class="memitem:ga9117ec5c307a59b3baf858afb2fc83ae" id="r_ga9117ec5c307a59b3baf858afb2fc83ae"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="struct___u_v_c___c_o_n_t_r_o_l.html">_UVC_CONTROL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_b___video.html#ga9117ec5c307a59b3baf858afb2fc83ae">USBDClass_UVC_Control</a></td></tr>
 <tr class="separator:ga9117ec5c307a59b3baf858afb2fc83ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
@@ -390,13 +330,9 @@ Functions</h2></td></tr>
 </ol>
 <h2><center>Copyright (C) Holtek Semiconductor Inc. All rights reserved</center></h2>
 </div></div><!-- contents -->
-</div><!-- doc-content -->
 <!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="navelem"><a class="el" href="dir_275089585c7fc1b5fd5d7d42c69cb1da.html">D:</a></li><li class="navelem"><a class="el" href="dir_273f27263c611837868160ff0f82bfd9.html">Note_Database</a></li><li class="navelem"><a class="el" href="dir_e8282a48381dd1bcf012c1bae1dc741b.html">Subject</a></li><li class="navelem"><a class="el" href="dir_7583b43eec1d2788dd81e658186519d2.html">MCETA Microcontroller Experiment TA</a></li><li class="navelem"><a class="el" href="dir_3ca5c6b4c4a2c10c94024caf0df2e6bb.html">files</a></li><li class="navelem"><a class="el" href="dir_79e3244e27785f7ec158b45668f9e3ec.html">HT32_STD_5xxxx_FWLib_V1.5.1_7084b</a></li><li class="navelem"><a class="el" href="dir_59078eea5ff994e62a291bc736e60abc.html">example</a></li><li class="navelem"><a class="el" href="dir_43958ade10639ad8736747bf53220057.html">USBD</a></li><li class="navelem"><a class="el" href="dir_ddeebfd1a0cbc2bef656bebc44a89858.html">USB_Video</a></li><li class="navelem"><a class="el" href="example_2_u_s_b_d_2_u_s_b___video_2ht32__usbd__class_8h.html">ht32_usbd_class.h</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
-  </ul>
-</div>
+<hr class="footer"/><address class="footer"><small>
+Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+</small></address>
 </body>
 </html>

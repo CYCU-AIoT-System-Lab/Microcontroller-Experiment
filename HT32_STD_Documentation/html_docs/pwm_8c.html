@@ -5,22 +5,13 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>HT32_STD_Documents: pwm.c File Reference</title>
+<title>HT32_STD_Code_Documents: D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/TM/PWM/pwm.c File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<link href="navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="resize.js"></script>
-<script type="text/javascript" src="navtreedata.js"></script>
-<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(document).ready(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -30,22 +21,10 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">HT32_STD_Documents<span id="projectnumber">&#160;1.0.0</span>
+   <div id="projectname">HT32_STD_Code_Documents<span id="projectnumber">&#160;1.0.0</span>
    </div>
-   <div id="projectbrief">For HT32F52352</div>
+   <div id="projectbrief">Micro-controller Experiment</div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
@@ -57,23 +36,17 @@
 var searchBox = new SearchBox("searchBox", "search/",'.html');
 /* @license-end */
 </script>
-</div><!-- top -->
-<div id="side-nav" class="ui-resizable side-nav-resizable">
-  <div id="nav-tree">
-    <div id="nav-tree-contents">
-      <div id="nav-sync" class="sync"></div>
-    </div>
-  </div>
-  <div id="splitbar" style="-moz-user-select:none;" 
-       class="ui-resizable-handle">
-  </div>
-</div>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('pwm_8c.html',''); initResizable(); });
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
 /* @license-end */
 </script>
-<div id="doc-content">
+<div id="main-nav"></div>
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -95,6 +68,11 @@ $(document).ready(function(){initNavTree('pwm_8c.html',''); initResizable(); });
 </div>
 </div>
 
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_275089585c7fc1b5fd5d7d42c69cb1da.html">D:</a></li><li class="navelem"><a class="el" href="dir_273f27263c611837868160ff0f82bfd9.html">Note_Database</a></li><li class="navelem"><a class="el" href="dir_e8282a48381dd1bcf012c1bae1dc741b.html">Subject</a></li><li class="navelem"><a class="el" href="dir_7583b43eec1d2788dd81e658186519d2.html">MCETA Microcontroller Experiment TA</a></li><li class="navelem"><a class="el" href="dir_3ca5c6b4c4a2c10c94024caf0df2e6bb.html">files</a></li><li class="navelem"><a class="el" href="dir_79e3244e27785f7ec158b45668f9e3ec.html">HT32_STD_5xxxx_FWLib_V1.5.1_7084b</a></li><li class="navelem"><a class="el" href="dir_59078eea5ff994e62a291bc736e60abc.html">example</a></li><li class="navelem"><a class="el" href="dir_a5a21a03755a98b514dd2b01e9bf9ad6.html">TM</a></li><li class="navelem"><a class="el" href="dir_1277b964b93e68213a408e58c5fdd8c2.html">PWM</a></li>  </ul>
+</div>
+</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#define-members">Macros</a> &#124;
@@ -106,52 +84,46 @@ $(document).ready(function(){initNavTree('pwm_8c.html',''); initResizable(); });
 
 <p>The PWM functions.  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &quot;<a class="el" href="ht32_8h_source.html">ht32.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;ht32.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="_t_m_2_p_w_m_2ht32__board__config_8h_source.html">ht32_board_config.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="pwm_8h_source.html">pwm.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for pwm.c:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="pwm_8c__incl.svg" width="250" height="326"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a7af085f390f35af1c45ca34f2d9b3752" id="r_a7af085f390f35af1c45ca34f2d9b3752"><td class="memItemLeft" align="right" valign="top"><a id="a7af085f390f35af1c45ca34f2d9b3752" name="a7af085f390f35af1c45ca34f2d9b3752"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HTCFG_PWM_TM_AFIO_FUN</b>&#160;&#160;&#160;STRCAT2(AFIO_FUN_, HTCFG_PWM_TM_IPN)</td></tr>
+<tr class="memitem:a7af085f390f35af1c45ca34f2d9b3752" id="r_a7af085f390f35af1c45ca34f2d9b3752"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pwm_8c.html#a7af085f390f35af1c45ca34f2d9b3752">HTCFG_PWM_TM_AFIO_FUN</a>&#160;&#160;&#160;STRCAT2(AFIO_FUN_, HTCFG_PWM_TM_IPN)</td></tr>
 <tr class="separator:a7af085f390f35af1c45ca34f2d9b3752"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae170031d1af7043ab7985dcbec480efd" id="r_ae170031d1af7043ab7985dcbec480efd"><td class="memItemLeft" align="right" valign="top"><a id="ae170031d1af7043ab7985dcbec480efd" name="ae170031d1af7043ab7985dcbec480efd"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HTCFG_PWM_TM_IRQn</b>&#160;&#160;&#160;STRCAT2(HTCFG_PWM_TM_IPN,  _IRQn)</td></tr>
+<tr class="memitem:ae170031d1af7043ab7985dcbec480efd" id="r_ae170031d1af7043ab7985dcbec480efd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pwm_8c.html#ae170031d1af7043ab7985dcbec480efd">HTCFG_PWM_TM_IRQn</a>&#160;&#160;&#160;STRCAT2(HTCFG_PWM_TM_IPN,  _IRQn)</td></tr>
 <tr class="separator:ae170031d1af7043ab7985dcbec480efd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3fa22f7995a3bd7a296d7680fca4a939" id="r_a3fa22f7995a3bd7a296d7680fca4a939"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pwm_8c.html#a3fa22f7995a3bd7a296d7680fca4a939">HTCFG_PWM_TM_IRQHandler</a>(void)&#160;&#160;&#160;STRCAT2(HTCFG_PWM_TM_IPN,  _IRQHandler)</td></tr>
 <tr class="memdesc:a3fa22f7995a3bd7a296d7680fca4a939"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function handles TM interrupt.  <br /></td></tr>
 <tr class="separator:a3fa22f7995a3bd7a296d7680fca4a939"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81269789fa887c39c8911765ef776eec" id="r_a81269789fa887c39c8911765ef776eec"><td class="memItemLeft" align="right" valign="top"><a id="a81269789fa887c39c8911765ef776eec" name="a81269789fa887c39c8911765ef776eec"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HTCFG_PWM_IDLE_DUTY</b>&#160;&#160;&#160;PWM_DUTY_0</td></tr>
+<tr class="memitem:a81269789fa887c39c8911765ef776eec" id="r_a81269789fa887c39c8911765ef776eec"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pwm_8c.html#a81269789fa887c39c8911765ef776eec">HTCFG_PWM_IDLE_DUTY</a>&#160;&#160;&#160;<a class="el" href="pwm_8h.html#ac4c01165cb23148bd9ed70ce0274d7dd">PWM_DUTY_0</a></td></tr>
 <tr class="separator:a81269789fa887c39c8911765ef776eec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a89207fa39af9f0a37181a3d62957f0ed" id="r_a89207fa39af9f0a37181a3d62957f0ed"><td class="memItemLeft" align="right" valign="top"><a id="a89207fa39af9f0a37181a3d62957f0ed" name="a89207fa39af9f0a37181a3d62957f0ed"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HTCFG_PWM0_GPIO_ID</b>&#160;&#160;&#160;STRCAT2(GPIO_P,    HTCFG_PWM0_GPIOX)</td></tr>
+<tr class="memitem:a89207fa39af9f0a37181a3d62957f0ed" id="r_a89207fa39af9f0a37181a3d62957f0ed"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pwm_8c.html#a89207fa39af9f0a37181a3d62957f0ed">HTCFG_PWM0_GPIO_ID</a>&#160;&#160;&#160;STRCAT2(GPIO_P,    HTCFG_PWM0_GPIOX)</td></tr>
 <tr class="separator:a89207fa39af9f0a37181a3d62957f0ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af31bb0626baca2bb814167d28d85a532" id="r_af31bb0626baca2bb814167d28d85a532"><td class="memItemLeft" align="right" valign="top"><a id="af31bb0626baca2bb814167d28d85a532" name="af31bb0626baca2bb814167d28d85a532"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HTCFG_PWM0_AFIO_PIN</b>&#160;&#160;&#160;STRCAT2(AFIO_PIN_, HTCFG_PWM0_GPION)</td></tr>
+<tr class="memitem:af31bb0626baca2bb814167d28d85a532" id="r_af31bb0626baca2bb814167d28d85a532"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pwm_8c.html#af31bb0626baca2bb814167d28d85a532">HTCFG_PWM0_AFIO_PIN</a>&#160;&#160;&#160;STRCAT2(AFIO_PIN_, HTCFG_PWM0_GPION)</td></tr>
 <tr class="separator:af31bb0626baca2bb814167d28d85a532"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8205eae461b02e676d90f9a0116571da" id="r_a8205eae461b02e676d90f9a0116571da"><td class="memItemLeft" align="right" valign="top"><a id="a8205eae461b02e676d90f9a0116571da" name="a8205eae461b02e676d90f9a0116571da"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HTCFG_PWM1_GPIO_ID</b>&#160;&#160;&#160;STRCAT2(GPIO_P,    HTCFG_PWM1_GPIOX)</td></tr>
+<tr class="memitem:a8205eae461b02e676d90f9a0116571da" id="r_a8205eae461b02e676d90f9a0116571da"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pwm_8c.html#a8205eae461b02e676d90f9a0116571da">HTCFG_PWM1_GPIO_ID</a>&#160;&#160;&#160;STRCAT2(GPIO_P,    HTCFG_PWM1_GPIOX)</td></tr>
 <tr class="separator:a8205eae461b02e676d90f9a0116571da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abbe900d9536c9641199efb144a74035d" id="r_abbe900d9536c9641199efb144a74035d"><td class="memItemLeft" align="right" valign="top"><a id="abbe900d9536c9641199efb144a74035d" name="abbe900d9536c9641199efb144a74035d"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HTCFG_PWM1_AFIO_PIN</b>&#160;&#160;&#160;STRCAT2(AFIO_PIN_, HTCFG_PWM1_GPION)</td></tr>
+<tr class="memitem:abbe900d9536c9641199efb144a74035d" id="r_abbe900d9536c9641199efb144a74035d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pwm_8c.html#abbe900d9536c9641199efb144a74035d">HTCFG_PWM1_AFIO_PIN</a>&#160;&#160;&#160;STRCAT2(AFIO_PIN_, HTCFG_PWM1_GPION)</td></tr>
 <tr class="separator:abbe900d9536c9641199efb144a74035d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7545dac6f1a40bf5809f4c889c9328c" id="r_af7545dac6f1a40bf5809f4c889c9328c"><td class="memItemLeft" align="right" valign="top"><a id="af7545dac6f1a40bf5809f4c889c9328c" name="af7545dac6f1a40bf5809f4c889c9328c"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HTCFG_PWM2_GPIO_ID</b>&#160;&#160;&#160;STRCAT2(GPIO_P,    HTCFG_PWM2_GPIOX)</td></tr>
+<tr class="memitem:af7545dac6f1a40bf5809f4c889c9328c" id="r_af7545dac6f1a40bf5809f4c889c9328c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pwm_8c.html#af7545dac6f1a40bf5809f4c889c9328c">HTCFG_PWM2_GPIO_ID</a>&#160;&#160;&#160;STRCAT2(GPIO_P,    HTCFG_PWM2_GPIOX)</td></tr>
 <tr class="separator:af7545dac6f1a40bf5809f4c889c9328c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8bf2447225fe1c588e35ce9210517094" id="r_a8bf2447225fe1c588e35ce9210517094"><td class="memItemLeft" align="right" valign="top"><a id="a8bf2447225fe1c588e35ce9210517094" name="a8bf2447225fe1c588e35ce9210517094"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HTCFG_PWM2_AFIO_PIN</b>&#160;&#160;&#160;STRCAT2(AFIO_PIN_, HTCFG_PWM2_GPION)</td></tr>
+<tr class="memitem:a8bf2447225fe1c588e35ce9210517094" id="r_a8bf2447225fe1c588e35ce9210517094"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pwm_8c.html#a8bf2447225fe1c588e35ce9210517094">HTCFG_PWM2_AFIO_PIN</a>&#160;&#160;&#160;STRCAT2(AFIO_PIN_, HTCFG_PWM2_GPION)</td></tr>
 <tr class="separator:a8bf2447225fe1c588e35ce9210517094"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a122c3c42ef5bf3a66aef0dd2d6bac10b" id="r_a122c3c42ef5bf3a66aef0dd2d6bac10b"><td class="memItemLeft" align="right" valign="top"><a id="a122c3c42ef5bf3a66aef0dd2d6bac10b" name="a122c3c42ef5bf3a66aef0dd2d6bac10b"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HTCFG_PWM3_GPIO_ID</b>&#160;&#160;&#160;STRCAT2(GPIO_P,    HTCFG_PWM3_GPIOX)</td></tr>
+<tr class="memitem:a122c3c42ef5bf3a66aef0dd2d6bac10b" id="r_a122c3c42ef5bf3a66aef0dd2d6bac10b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pwm_8c.html#a122c3c42ef5bf3a66aef0dd2d6bac10b">HTCFG_PWM3_GPIO_ID</a>&#160;&#160;&#160;STRCAT2(GPIO_P,    HTCFG_PWM3_GPIOX)</td></tr>
 <tr class="separator:a122c3c42ef5bf3a66aef0dd2d6bac10b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a033bc6ea89328d0375f14d417f4699fc" id="r_a033bc6ea89328d0375f14d417f4699fc"><td class="memItemLeft" align="right" valign="top"><a id="a033bc6ea89328d0375f14d417f4699fc" name="a033bc6ea89328d0375f14d417f4699fc"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HTCFG_PWM3_AFIO_PIN</b>&#160;&#160;&#160;STRCAT2(AFIO_PIN_, HTCFG_PWM3_GPION)</td></tr>
+<tr class="memitem:a033bc6ea89328d0375f14d417f4699fc" id="r_a033bc6ea89328d0375f14d417f4699fc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pwm_8c.html#a033bc6ea89328d0375f14d417f4699fc">HTCFG_PWM3_AFIO_PIN</a>&#160;&#160;&#160;STRCAT2(AFIO_PIN_, HTCFG_PWM3_GPION)</td></tr>
 <tr class="separator:a033bc6ea89328d0375f14d417f4699fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aa25a942e40e583fe139f8fdc52b8f8f9" id="r_aa25a942e40e583fe139f8fdc52b8f8f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pwm_8c.html#aa25a942e40e583fe139f8fdc52b8f8f9">_PWM_CH_Init</a> (<a class="el" href="struct_h_t___t_m___type_def.html">HT_TM_TypeDef</a> *TMx, <a class="el" href="group___t_m___exported___types.html#gacc13bb36f82e3bc5e99056be22a5f266">TM_CH_Enum</a> TM_CH_n, <a class="el" href="struct_t_m___output_init_type_def.html">TM_OutputInitTypeDef</a> *OutInit)</td></tr>
+<tr class="memitem:aa25a942e40e583fe139f8fdc52b8f8f9" id="r_aa25a942e40e583fe139f8fdc52b8f8f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pwm_8c.html#aa25a942e40e583fe139f8fdc52b8f8f9">_PWM_CH_Init</a> (HT_TM_TypeDef *TMx, TM_CH_Enum TM_CH_n, TM_OutputInitTypeDef *OutInit)</td></tr>
 <tr class="memdesc:aa25a942e40e583fe139f8fdc52b8f8f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Init PWM Channel.  <br /></td></tr>
 <tr class="separator:aa25a942e40e583fe139f8fdc52b8f8f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c0e86960979f0c8d21b864925b06e71" id="r_a2c0e86960979f0c8d21b864925b06e71"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pwm_8c.html#a2c0e86960979f0c8d21b864925b06e71">PWM_Init</a> (void)</td></tr>
@@ -163,8 +135,7 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:abb5f71d680a315386ecd60907f834f61" id="r_abb5f71d680a315386ecd60907f834f61"><td class="memItemLeft" align="right" valign="top"><a id="abb5f71d680a315386ecd60907f834f61" name="abb5f71d680a315386ecd60907f834f61"></a>
-s32&#160;</td><td class="memItemRight" valign="bottom"><b>gIsTMStop</b> = 0</td></tr>
+<tr class="memitem:abb5f71d680a315386ecd60907f834f61" id="r_abb5f71d680a315386ecd60907f834f61"><td class="memItemLeft" align="right" valign="top">s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pwm_8c.html#abb5f71d680a315386ecd60907f834f61">gIsTMStop</a> = 0</td></tr>
 <tr class="separator:abb5f71d680a315386ecd60907f834f61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -180,6 +151,146 @@ s32&#160;</td><td class="memItemRight" valign="bottom"><b>gIsTMStop</b> = 0</td>
 </ol>
 <h2><center>Copyright (C) Holtek Semiconductor Inc. All rights reserved</center></h2>
 </div><h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="af31bb0626baca2bb814167d28d85a532" name="af31bb0626baca2bb814167d28d85a532"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af31bb0626baca2bb814167d28d85a532">&#9670;&#160;</a></span>HTCFG_PWM0_AFIO_PIN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define HTCFG_PWM0_AFIO_PIN&#160;&#160;&#160;STRCAT2(AFIO_PIN_, HTCFG_PWM0_GPION)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a89207fa39af9f0a37181a3d62957f0ed" name="a89207fa39af9f0a37181a3d62957f0ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89207fa39af9f0a37181a3d62957f0ed">&#9670;&#160;</a></span>HTCFG_PWM0_GPIO_ID</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define HTCFG_PWM0_GPIO_ID&#160;&#160;&#160;STRCAT2(GPIO_P,    HTCFG_PWM0_GPIOX)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abbe900d9536c9641199efb144a74035d" name="abbe900d9536c9641199efb144a74035d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abbe900d9536c9641199efb144a74035d">&#9670;&#160;</a></span>HTCFG_PWM1_AFIO_PIN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define HTCFG_PWM1_AFIO_PIN&#160;&#160;&#160;STRCAT2(AFIO_PIN_, HTCFG_PWM1_GPION)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8205eae461b02e676d90f9a0116571da" name="a8205eae461b02e676d90f9a0116571da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8205eae461b02e676d90f9a0116571da">&#9670;&#160;</a></span>HTCFG_PWM1_GPIO_ID</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define HTCFG_PWM1_GPIO_ID&#160;&#160;&#160;STRCAT2(GPIO_P,    HTCFG_PWM1_GPIOX)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8bf2447225fe1c588e35ce9210517094" name="a8bf2447225fe1c588e35ce9210517094"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8bf2447225fe1c588e35ce9210517094">&#9670;&#160;</a></span>HTCFG_PWM2_AFIO_PIN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define HTCFG_PWM2_AFIO_PIN&#160;&#160;&#160;STRCAT2(AFIO_PIN_, HTCFG_PWM2_GPION)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af7545dac6f1a40bf5809f4c889c9328c" name="af7545dac6f1a40bf5809f4c889c9328c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7545dac6f1a40bf5809f4c889c9328c">&#9670;&#160;</a></span>HTCFG_PWM2_GPIO_ID</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define HTCFG_PWM2_GPIO_ID&#160;&#160;&#160;STRCAT2(GPIO_P,    HTCFG_PWM2_GPIOX)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a033bc6ea89328d0375f14d417f4699fc" name="a033bc6ea89328d0375f14d417f4699fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a033bc6ea89328d0375f14d417f4699fc">&#9670;&#160;</a></span>HTCFG_PWM3_AFIO_PIN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define HTCFG_PWM3_AFIO_PIN&#160;&#160;&#160;STRCAT2(AFIO_PIN_, HTCFG_PWM3_GPION)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a122c3c42ef5bf3a66aef0dd2d6bac10b" name="a122c3c42ef5bf3a66aef0dd2d6bac10b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a122c3c42ef5bf3a66aef0dd2d6bac10b">&#9670;&#160;</a></span>HTCFG_PWM3_GPIO_ID</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define HTCFG_PWM3_GPIO_ID&#160;&#160;&#160;STRCAT2(GPIO_P,    HTCFG_PWM3_GPIOX)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a81269789fa887c39c8911765ef776eec" name="a81269789fa887c39c8911765ef776eec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81269789fa887c39c8911765ef776eec">&#9670;&#160;</a></span>HTCFG_PWM_IDLE_DUTY</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define HTCFG_PWM_IDLE_DUTY&#160;&#160;&#160;<a class="el" href="pwm_8h.html#ac4c01165cb23148bd9ed70ce0274d7dd">PWM_DUTY_0</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7af085f390f35af1c45ca34f2d9b3752" name="a7af085f390f35af1c45ca34f2d9b3752"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7af085f390f35af1c45ca34f2d9b3752">&#9670;&#160;</a></span>HTCFG_PWM_TM_AFIO_FUN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define HTCFG_PWM_TM_AFIO_FUN&#160;&#160;&#160;STRCAT2(AFIO_FUN_, HTCFG_PWM_TM_IPN)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a3fa22f7995a3bd7a296d7680fca4a939" name="a3fa22f7995a3bd7a296d7680fca4a939"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3fa22f7995a3bd7a296d7680fca4a939">&#9670;&#160;</a></span>HTCFG_PWM_TM_IRQHandler</h2>
 
@@ -206,6 +317,20 @@ s32&#160;</td><td class="memItemRight" valign="bottom"><b>gIsTMStop</b> = 0</td>
 
 </div>
 </div>
+<a id="ae170031d1af7043ab7985dcbec480efd" name="ae170031d1af7043ab7985dcbec480efd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae170031d1af7043ab7985dcbec480efd">&#9670;&#160;</a></span>HTCFG_PWM_TM_IRQn</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define HTCFG_PWM_TM_IRQn&#160;&#160;&#160;STRCAT2(HTCFG_PWM_TM_IPN,  _IRQn)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="aa25a942e40e583fe139f8fdc52b8f8f9" name="aa25a942e40e583fe139f8fdc52b8f8f9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa25a942e40e583fe139f8fdc52b8f8f9">&#9670;&#160;</a></span>_PWM_CH_Init()</h2>
@@ -216,19 +341,19 @@ s32&#160;</td><td class="memItemRight" valign="bottom"><b>gIsTMStop</b> = 0</td>
         <tr>
           <td class="memname">void _PWM_CH_Init </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_h_t___t_m___type_def.html">HT_TM_TypeDef</a> *&#160;</td>
+          <td class="paramtype">HT_TM_TypeDef *&#160;</td>
           <td class="paramname"><em>TMx</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group___t_m___exported___types.html#gacc13bb36f82e3bc5e99056be22a5f266">TM_CH_Enum</a>&#160;</td>
+          <td class="paramtype">TM_CH_Enum&#160;</td>
           <td class="paramname"><em>TM_CH_n</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="struct_t_m___output_init_type_def.html">TM_OutputInitTypeDef</a> *&#160;</td>
+          <td class="paramtype">TM_OutputInitTypeDef *&#160;</td>
           <td class="paramname"><em>OutInit</em>&#160;</td>
         </tr>
         <tr>
@@ -244,7 +369,7 @@ s32&#160;</td><td class="memItemRight" valign="bottom"><b>gIsTMStop</b> = 0</td>
   <table class="params">
     <tr><td class="paramname">TMx</td><td>where TMx is the selected TM from the TM peripheral. </td></tr>
     <tr><td class="paramname">TM_CH_n</td><td>Specify the TM channel. </td></tr>
-    <tr><td class="paramname">OutInit</td><td>Point to a <a class="el" href="struct_t_m___output_init_type_def.html" title="Definition of TM channel output init structure.">TM_OutputInitTypeDef</a> structure </td></tr>
+    <tr><td class="paramname">OutInit</td><td>Point to a TM_OutputInitTypeDef structure </td></tr>
   </table>
   </dd>
 </dl>
@@ -315,14 +440,25 @@ s32&#160;</td><td class="memItemRight" valign="bottom"><b>gIsTMStop</b> = 0</td>
 
 </div>
 </div>
-</div><!-- contents -->
-</div><!-- doc-content -->
-<!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="navelem"><a class="el" href="dir_275089585c7fc1b5fd5d7d42c69cb1da.html">D:</a></li><li class="navelem"><a class="el" href="dir_273f27263c611837868160ff0f82bfd9.html">Note_Database</a></li><li class="navelem"><a class="el" href="dir_e8282a48381dd1bcf012c1bae1dc741b.html">Subject</a></li><li class="navelem"><a class="el" href="dir_7583b43eec1d2788dd81e658186519d2.html">MCETA Microcontroller Experiment TA</a></li><li class="navelem"><a class="el" href="dir_3ca5c6b4c4a2c10c94024caf0df2e6bb.html">files</a></li><li class="navelem"><a class="el" href="dir_79e3244e27785f7ec158b45668f9e3ec.html">HT32_STD_5xxxx_FWLib_V1.5.1_7084b</a></li><li class="navelem"><a class="el" href="dir_59078eea5ff994e62a291bc736e60abc.html">example</a></li><li class="navelem"><a class="el" href="dir_a5a21a03755a98b514dd2b01e9bf9ad6.html">TM</a></li><li class="navelem"><a class="el" href="dir_1277b964b93e68213a408e58c5fdd8c2.html">PWM</a></li><li class="navelem"><a class="el" href="pwm_8c.html">pwm.c</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
-  </ul>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="abb5f71d680a315386ecd60907f834f61" name="abb5f71d680a315386ecd60907f834f61"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb5f71d680a315386ecd60907f834f61">&#9670;&#160;</a></span>gIsTMStop</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">s32 gIsTMStop = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
 </div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+</small></address>
 </body>
 </html>

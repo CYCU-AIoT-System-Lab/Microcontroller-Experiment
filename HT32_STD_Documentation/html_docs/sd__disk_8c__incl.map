@@ -1,0 +1,15 @@
+<map id="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/USBD/Mass_Storage/sd_disk.c" name="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/USBD/Mass_Storage/sd_disk.c">
+<area shape="rect" id="Node000001" title="The SD Disk related function." alt="" coords="91,5,353,96"/>
+<area shape="rect" id="Node000002" href="$sd__disk_8h.html" title="The header file of SD Disk." alt="" coords="135,144,213,171"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="204,97,189,131,184,129,199,95"/>
+<area shape="rect" id="Node000006" href="$spi__sd_8h.html" title="The header file of SD Memory card driver." alt="" coords="278,144,348,171"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="262,94,294,131,290,134,258,98"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,219,63,245"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="151,174,73,213,71,209,148,169"/>
+<area shape="rect" id="Node000004" href="$_mass___storage_2usb__bulk__only__transport_8h.html" title="The header file of Bulk Only Transport." alt="" coords="87,219,261,245"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="177,171,177,203,171,203,171,171"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="126,293,222,320"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="177,246,177,278,171,278,171,246"/>
+<area shape="rect" id="Node000007" href="$_u_s_b_d_2_mass___storage_2ht32__board__config_8h.html" title="The header file of board configuration." alt="" coords="285,219,423,245"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="322,170,342,204,337,207,318,173"/>
+</map>

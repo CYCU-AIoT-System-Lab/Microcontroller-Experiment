@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>HT32_STD_Documents: EEPROM_Simulate</title>
+<title>HT32_STD_Code_Documents: EEPROM_Simulate</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,9 +21,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">HT32_STD_Documents<span id="projectnumber">&#160;1.0.0</span>
+   <div id="projectname">HT32_STD_Code_Documents<span id="projectnumber">&#160;1.0.0</span>
    </div>
-   <div id="projectbrief">For HT32F52352</div>
+   <div id="projectbrief">Micro-controller Experiment</div>
   </td>
  </tr>
  </tbody>
@@ -71,23 +71,27 @@ $(function() {
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
+<a href="#nested-classes">Data Structures</a> &#124;
 <a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">EEPROM_Simulate<div class="ingroups"><a class="el" href="group___h_t32___series___peripheral___examples.html">HT32 Peripheral Examples</a> &raquo; <a class="el" href="group___i2_c___examples.html">I2C</a></div></div></div>
 </div><!--header-->
 <div class="contents">
+<div class="dynheader">
+Collaboration diagram for EEPROM_Simulate:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="group___e_e_p_r_o_m___simulate.svg" width="236" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
+Data Structures</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structs_i2_c_m___transfer.html">sI2CM_Transfer</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:gaaec29f323cca9ef2147826c1f2fbc275" id="r_gaaec29f323cca9ef2147826c1f2fbc275"><td class="memItemLeft" align="right" valign="top"><a id="gaaec29f323cca9ef2147826c1f2fbc275" name="gaaec29f323cca9ef2147826c1f2fbc275"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>EEPROM_PAGE_WRITE_SIZE</b>&#160;&#160;&#160;16</td></tr>
+<tr class="memitem:gaaec29f323cca9ef2147826c1f2fbc275" id="r_gaaec29f323cca9ef2147826c1f2fbc275"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___e_e_p_r_o_m___simulate.html#gaaec29f323cca9ef2147826c1f2fbc275">EEPROM_PAGE_WRITE_SIZE</a>&#160;&#160;&#160;16</td></tr>
 <tr class="separator:gaaec29f323cca9ef2147826c1f2fbc275"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga98f76f4e2a709d2b240a59a5458a48dd" id="r_ga98f76f4e2a709d2b240a59a5458a48dd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___e_e_p_r_o_m___simulate.html#ga98f76f4e2a709d2b240a59a5458a48dd">I2CM_DIRECTION_OUT</a>&#160;&#160;&#160;0</td></tr>
 <tr class="separator:ga98f76f4e2a709d2b240a59a5458a48dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -107,8 +111,7 @@ Macros</h2></td></tr>
 <tr class="separator:ga452259b92818714f404a09db8aca619f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gae453d92cdf6ab24e82de3ad3f4264455" id="r_gae453d92cdf6ab24e82de3ad3f4264455"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___e_e_p_r_o_m___simulate.html#gae453d92cdf6ab24e82de3ad3f4264455">I2CM_BUS_MAX_RETRY</a>&#160;&#160;&#160;(0xFF)</td></tr>
 <tr class="separator:gae453d92cdf6ab24e82de3ad3f4264455"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaaa6cf79c8db30749fdc1022ee5f673e5" id="r_gaaa6cf79c8db30749fdc1022ee5f673e5"><td class="memItemLeft" align="right" valign="top"><a id="gaaa6cf79c8db30749fdc1022ee5f673e5" name="gaaa6cf79c8db30749fdc1022ee5f673e5"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>EEPROM_ADDRESS</b>&#160;&#160;&#160;(0x61)</td></tr>
+<tr class="memitem:gaaa6cf79c8db30749fdc1022ee5f673e5" id="r_gaaa6cf79c8db30749fdc1022ee5f673e5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___e_e_p_r_o_m___simulate.html#gaaa6cf79c8db30749fdc1022ee5f673e5">EEPROM_ADDRESS</a>&#160;&#160;&#160;(0x61)</td></tr>
 <tr class="separator:gaaa6cf79c8db30749fdc1022ee5f673e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
@@ -167,27 +170,49 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:gaf682698a799d2ec643addd995bda89fd" id="r_gaf682698a799d2ec643addd995bda89fd"><td class="memItemLeft" align="right" valign="top"><a id="gaf682698a799d2ec643addd995bda89fd" name="gaf682698a799d2ec643addd995bda89fd"></a>
-<a class="el" href="structs_i2_c_m___transfer.html">sI2CM_Transfer</a>&#160;</td><td class="memItemRight" valign="bottom"><b>I2CM_Transfer</b></td></tr>
+<tr class="memitem:gaf682698a799d2ec643addd995bda89fd" id="r_gaf682698a799d2ec643addd995bda89fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structs_i2_c_m___transfer.html">sI2CM_Transfer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___e_e_p_r_o_m___simulate.html#gaf682698a799d2ec643addd995bda89fd">I2CM_Transfer</a></td></tr>
 <tr class="separator:gaf682698a799d2ec643addd995bda89fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga02cd84476a1f771e7c976049500f3de7" id="r_ga02cd84476a1f771e7c976049500f3de7"><td class="memItemLeft" align="right" valign="top"><a id="ga02cd84476a1f771e7c976049500f3de7" name="ga02cd84476a1f771e7c976049500f3de7"></a>
-u8&#160;</td><td class="memItemRight" valign="bottom"><b>EEPROM_Memory</b> [256]</td></tr>
+<tr class="memitem:ga02cd84476a1f771e7c976049500f3de7" id="r_ga02cd84476a1f771e7c976049500f3de7"><td class="memItemLeft" align="right" valign="top">u8&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___e_e_p_r_o_m___simulate.html#ga02cd84476a1f771e7c976049500f3de7">EEPROM_Memory</a> [256]</td></tr>
 <tr class="separator:ga02cd84476a1f771e7c976049500f3de7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2e5cd8705a7b14ed9bfd15bf89d19504" id="r_ga2e5cd8705a7b14ed9bfd15bf89d19504"><td class="memItemLeft" align="right" valign="top"><a id="ga2e5cd8705a7b14ed9bfd15bf89d19504" name="ga2e5cd8705a7b14ed9bfd15bf89d19504"></a>
-u8&#160;</td><td class="memItemRight" valign="bottom"><b>EEPROM_PageWriteBuffer</b> [EEPROM_PAGE_WRITE_SIZE]</td></tr>
+<tr class="memitem:ga2e5cd8705a7b14ed9bfd15bf89d19504" id="r_ga2e5cd8705a7b14ed9bfd15bf89d19504"><td class="memItemLeft" align="right" valign="top">u8&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___e_e_p_r_o_m___simulate.html#ga2e5cd8705a7b14ed9bfd15bf89d19504">EEPROM_PageWriteBuffer</a> [<a class="el" href="group___e_e_p_r_o_m___simulate.html#gaaec29f323cca9ef2147826c1f2fbc275">EEPROM_PAGE_WRITE_SIZE</a>]</td></tr>
 <tr class="separator:ga2e5cd8705a7b14ed9bfd15bf89d19504"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf682698a799d2ec643addd995bda89fd" id="r_gaf682698a799d2ec643addd995bda89fd"><td class="memItemLeft" align="right" valign="top"><a id="gaf682698a799d2ec643addd995bda89fd" name="gaf682698a799d2ec643addd995bda89fd"></a>
-<a class="el" href="structs_i2_c_m___transfer.html">sI2CM_Transfer</a>&#160;</td><td class="memItemRight" valign="bottom"><b>I2CM_Transfer</b></td></tr>
+<tr class="memitem:gaf682698a799d2ec643addd995bda89fd" id="r_gaf682698a799d2ec643addd995bda89fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structs_i2_c_m___transfer.html">sI2CM_Transfer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___e_e_p_r_o_m___simulate.html#gaf682698a799d2ec643addd995bda89fd">I2CM_Transfer</a></td></tr>
 <tr class="separator:gaf682698a799d2ec643addd995bda89fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga453cab23d5c65d50d1f89b41bbc8a513" id="r_ga453cab23d5c65d50d1f89b41bbc8a513"><td class="memItemLeft" align="right" valign="top"><a id="ga453cab23d5c65d50d1f89b41bbc8a513" name="ga453cab23d5c65d50d1f89b41bbc8a513"></a>
-<a class="el" href="group___exported___types.html#ga421cd0841ee90f7bcae38d46aba21180">uc8</a>&#160;</td><td class="memItemRight" valign="bottom"><b>TestData</b> [16] = {0x0, 0x1, 0x2, 0x3, 0x4, 0x5, 0x6, 0x7, 0x8, 0x9, 0x0A, 0xB, 0xC, 0xD, 0xE, 0xF}</td></tr>
+<tr class="memitem:ga453cab23d5c65d50d1f89b41bbc8a513" id="r_ga453cab23d5c65d50d1f89b41bbc8a513"><td class="memItemLeft" align="right" valign="top">uc8&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___e_e_p_r_o_m___simulate.html#ga453cab23d5c65d50d1f89b41bbc8a513">TestData</a> [16] = {0x0, 0x1, 0x2, 0x3, 0x4, 0x5, 0x6, 0x7, 0x8, 0x9, 0x0A, 0xB, 0xC, 0xD, 0xE, 0xF}</td></tr>
 <tr class="separator:ga453cab23d5c65d50d1f89b41bbc8a513"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac8a61801c7ac6dcd3454613e30682a6c" id="r_gac8a61801c7ac6dcd3454613e30682a6c"><td class="memItemLeft" align="right" valign="top"><a id="gac8a61801c7ac6dcd3454613e30682a6c" name="gac8a61801c7ac6dcd3454613e30682a6c"></a>
-u8&#160;</td><td class="memItemRight" valign="bottom"><b>ReadBuffer</b> [16]</td></tr>
+<tr class="memitem:gac8a61801c7ac6dcd3454613e30682a6c" id="r_gac8a61801c7ac6dcd3454613e30682a6c"><td class="memItemLeft" align="right" valign="top">u8&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___e_e_p_r_o_m___simulate.html#gac8a61801c7ac6dcd3454613e30682a6c">ReadBuffer</a> [16]</td></tr>
 <tr class="separator:gac8a61801c7ac6dcd3454613e30682a6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="gaaa6cf79c8db30749fdc1022ee5f673e5" name="gaaa6cf79c8db30749fdc1022ee5f673e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaaa6cf79c8db30749fdc1022ee5f673e5">&#9670;&#160;</a></span>EEPROM_ADDRESS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define EEPROM_ADDRESS&#160;&#160;&#160;(0x61)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gaaec29f323cca9ef2147826c1f2fbc275" name="gaaec29f323cca9ef2147826c1f2fbc275"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaaec29f323cca9ef2147826c1f2fbc275">&#9670;&#160;</a></span>EEPROM_PAGE_WRITE_SIZE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define EEPROM_PAGE_WRITE_SIZE&#160;&#160;&#160;16</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="gadfd5bb049bf236f46a7ecba459f8090b" name="gadfd5bb049bf236f46a7ecba459f8090b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gadfd5bb049bf236f46a7ecba459f8090b">&#9670;&#160;</a></span>I2CM_ARBLOS</h2>
 
@@ -816,6 +841,99 @@ u8&#160;</td><td class="memItemRight" valign="bottom"><b>ReadBuffer</b> [16]</td
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="ga02cd84476a1f771e7c976049500f3de7" name="ga02cd84476a1f771e7c976049500f3de7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga02cd84476a1f771e7c976049500f3de7">&#9670;&#160;</a></span>EEPROM_Memory</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">u8 EEPROM_Memory[256]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga2e5cd8705a7b14ed9bfd15bf89d19504" name="ga2e5cd8705a7b14ed9bfd15bf89d19504"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2e5cd8705a7b14ed9bfd15bf89d19504">&#9670;&#160;</a></span>EEPROM_PageWriteBuffer</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">u8 EEPROM_PageWriteBuffer[<a class="el" href="group___e_e_p_r_o_m___simulate.html#gaaec29f323cca9ef2147826c1f2fbc275">EEPROM_PAGE_WRITE_SIZE</a>]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gaf682698a799d2ec643addd995bda89fd" name="gaf682698a799d2ec643addd995bda89fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf682698a799d2ec643addd995bda89fd">&#9670;&#160;</a></span>I2CM_Transfer <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structs_i2_c_m___transfer.html">sI2CM_Transfer</a> I2CM_Transfer</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gaf682698a799d2ec643addd995bda89fd" name="gaf682698a799d2ec643addd995bda89fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf682698a799d2ec643addd995bda89fd">&#9670;&#160;</a></span>I2CM_Transfer <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structs_i2_c_m___transfer.html">sI2CM_Transfer</a> I2CM_Transfer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gac8a61801c7ac6dcd3454613e30682a6c" name="gac8a61801c7ac6dcd3454613e30682a6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac8a61801c7ac6dcd3454613e30682a6c">&#9670;&#160;</a></span>ReadBuffer</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">u8 ReadBuffer[16]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga453cab23d5c65d50d1f89b41bbc8a513" name="ga453cab23d5c65d50d1f89b41bbc8a513"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga453cab23d5c65d50d1f89b41bbc8a513">&#9670;&#160;</a></span>TestData</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uc8 TestData[16] = {0x0, 0x1, 0x2, 0x3, 0x4, 0x5, 0x6, 0x7, 0x8, 0x9, 0x0A, 0xB, 0xC, 0xD, 0xE, 0xF}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

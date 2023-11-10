@@ -1,29 +1,62 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>HT32_STD_Documents: SPI FLASH exported functions</title>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>HT32_STD_Code_Documents: SPI FLASH exported functions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
-   <div id="projectname">HT32_STD_Documents<span id="projectnumber">&#160;1.0.0</span>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">HT32_STD_Code_Documents
+   &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">For HT32F52352</div>
+   <div id="projectbrief">Micro-controller Experiment</div>
   </td>
  </tr>
  </tbody>
@@ -76,49 +109,52 @@ $(function() {
   <div class="headertitle"><div class="title">SPI FLASH exported functions<div class="ingroups"><a class="el" href="group___utilities.html">Utilities</a> &raquo; <a class="el" href="group___common.html">Common</a> &raquo; <a class="el" href="group___s_p_i___f_l_a_s_h.html">SPI_FLASH</a></div></div></div>
 </div><!--header-->
 <div class="contents">
+<div class="dynheader">
+Collaboration diagram for SPI FLASH exported functions:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="group___s_p_i___f_l_a_s_h___exported___functions.svg" width="292" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:gac161d25ee6b5bf590c367cfe0add929c" id="r_gac161d25ee6b5bf590c367cfe0add929c"><td class="memItemLeft" align="right" valign="top"><a id="gac161d25ee6b5bf590c367cfe0add929c" name="gac161d25ee6b5bf590c367cfe0add929c"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_FLASH_BufferWrite</b>(a,  b,  c)&#160;&#160;&#160;<a class="el" href="group___s_p_i___f_l_a_s_h___exported___functions.html#gaf7d28502d6ca9c5e7690b3e2deb567b7">SPI_FLASH_BufferWriteBy</a>(a,b,c,(pWriteFunction)<a class="el" href="group___s_p_i___f_l_a_s_h___exported___functions.html#gadbf8c780152fb9a51ef3b0b9f74ce38a">SPI_FLASH_PageWrite</a>);</td></tr>
+<tr class="memitem:gac161d25ee6b5bf590c367cfe0add929c" id="r_gac161d25ee6b5bf590c367cfe0add929c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_p_i___f_l_a_s_h___exported___functions.html#gac161d25ee6b5bf590c367cfe0add929c">SPI_FLASH_BufferWrite</a>(<a class="el" href="group___time_measure.html#ga1ec6887428eb7399e7222f7df7839a4e">a</a>,  <a class="el" href="group___time_measure.html#gac7a427f3be8277ddba4d96931806b67c">b</a>,  <a class="el" href="group___time_measure.html#ga79c1f2f1306e5e02189ae1781fe96324">c</a>)&#160;&#160;&#160;<a class="el" href="group___s_p_i___f_l_a_s_h___exported___functions.html#gaf7d28502d6ca9c5e7690b3e2deb567b7">SPI_FLASH_BufferWriteBy</a>(<a class="el" href="group___time_measure.html#ga1ec6887428eb7399e7222f7df7839a4e">a</a>,<a class="el" href="group___time_measure.html#gac7a427f3be8277ddba4d96931806b67c">b</a>,<a class="el" href="group___time_measure.html#ga79c1f2f1306e5e02189ae1781fe96324">c</a>,(<a class="el" href="group___s_p_i___f_l_a_s_h___exported___type.html#ga6c54c1410391f15383665532098bbccc">pWriteFunction</a>)<a class="el" href="group___s_p_i___f_l_a_s_h___exported___functions.html#gadbf8c780152fb9a51ef3b0b9f74ce38a">SPI_FLASH_PageWrite</a>);</td></tr>
 <tr class="separator:gac161d25ee6b5bf590c367cfe0add929c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5568ae807146985f1b144e4b97290564" id="r_ga5568ae807146985f1b144e4b97290564"><td class="memItemLeft" align="right" valign="top"><a id="ga5568ae807146985f1b144e4b97290564" name="ga5568ae807146985f1b144e4b97290564"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_FLASH_BufferWriteByDMA</b>(a,  b,  c)&#160;&#160;&#160;<a class="el" href="group___s_p_i___f_l_a_s_h___exported___functions.html#gaf7d28502d6ca9c5e7690b3e2deb567b7">SPI_FLASH_BufferWriteBy</a>(a,b,c,(pWriteFunction)SPI_FLASH_PageWriteByDMA);</td></tr>
+<tr class="memitem:ga5568ae807146985f1b144e4b97290564" id="r_ga5568ae807146985f1b144e4b97290564"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_p_i___f_l_a_s_h___exported___functions.html#ga5568ae807146985f1b144e4b97290564">SPI_FLASH_BufferWriteByDMA</a>(<a class="el" href="group___time_measure.html#ga1ec6887428eb7399e7222f7df7839a4e">a</a>,  <a class="el" href="group___time_measure.html#gac7a427f3be8277ddba4d96931806b67c">b</a>,  <a class="el" href="group___time_measure.html#ga79c1f2f1306e5e02189ae1781fe96324">c</a>)&#160;&#160;&#160;<a class="el" href="group___s_p_i___f_l_a_s_h___exported___functions.html#gaf7d28502d6ca9c5e7690b3e2deb567b7">SPI_FLASH_BufferWriteBy</a>(<a class="el" href="group___time_measure.html#ga1ec6887428eb7399e7222f7df7839a4e">a</a>,<a class="el" href="group___time_measure.html#gac7a427f3be8277ddba4d96931806b67c">b</a>,<a class="el" href="group___time_measure.html#ga79c1f2f1306e5e02189ae1781fe96324">c</a>,(<a class="el" href="group___s_p_i___f_l_a_s_h___exported___type.html#ga6c54c1410391f15383665532098bbccc">pWriteFunction</a>)SPI_FLASH_PageWriteByDMA);</td></tr>
 <tr class="separator:ga5568ae807146985f1b144e4b97290564"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga66d070f812c60cad561cfcc0c901be4f" id="r_ga66d070f812c60cad561cfcc0c901be4f"><td class="memItemLeft" align="right" valign="top">u32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_p_i___f_l_a_s_h___exported___functions.html#ga66d070f812c60cad561cfcc0c901be4f">SPI_FLASH_Init</a> (void)</td></tr>
+<tr class="memitem:ga66d070f812c60cad561cfcc0c901be4f" id="r_ga66d070f812c60cad561cfcc0c901be4f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_p_i___f_l_a_s_h___exported___functions.html#ga66d070f812c60cad561cfcc0c901be4f">SPI_FLASH_Init</a> (void)</td></tr>
 <tr class="memdesc:ga66d070f812c60cad561cfcc0c901be4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes peripherals used by the SPI flash driver.  <br /></td></tr>
 <tr class="separator:ga66d070f812c60cad561cfcc0c901be4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf5a1dcce2075fd237a66e44cf90d4643" id="r_gaf5a1dcce2075fd237a66e44cf90d4643"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_p_i___f_l_a_s_h___exported___functions.html#gaf5a1dcce2075fd237a66e44cf90d4643">SPI_FLASH_SectorErase</a> (u32 SectorAddr)</td></tr>
+<tr class="memitem:gaf5a1dcce2075fd237a66e44cf90d4643" id="r_gaf5a1dcce2075fd237a66e44cf90d4643"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_p_i___f_l_a_s_h___exported___functions.html#gaf5a1dcce2075fd237a66e44cf90d4643">SPI_FLASH_SectorErase</a> (<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> SectorAddr)</td></tr>
 <tr class="memdesc:gaf5a1dcce2075fd237a66e44cf90d4643"><td class="mdescLeft">&#160;</td><td class="mdescRight">Erases the specified FLASH sector.  <br /></td></tr>
 <tr class="separator:gaf5a1dcce2075fd237a66e44cf90d4643"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0ac0200e9a0a0eb05377a9a003ee99aa" id="r_ga0ac0200e9a0a0eb05377a9a003ee99aa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_p_i___f_l_a_s_h___exported___functions.html#ga0ac0200e9a0a0eb05377a9a003ee99aa">SPI_FLASH_BlockErase</a> (u32 BlockAddr)</td></tr>
+<tr class="memitem:ga0ac0200e9a0a0eb05377a9a003ee99aa" id="r_ga0ac0200e9a0a0eb05377a9a003ee99aa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_p_i___f_l_a_s_h___exported___functions.html#ga0ac0200e9a0a0eb05377a9a003ee99aa">SPI_FLASH_BlockErase</a> (<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> BlockAddr)</td></tr>
 <tr class="memdesc:ga0ac0200e9a0a0eb05377a9a003ee99aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Erases the specified FLASH block.  <br /></td></tr>
 <tr class="separator:ga0ac0200e9a0a0eb05377a9a003ee99aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga16992b5f1d1fe499a89afb04bdc951d0" id="r_ga16992b5f1d1fe499a89afb04bdc951d0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_p_i___f_l_a_s_h___exported___functions.html#ga16992b5f1d1fe499a89afb04bdc951d0">SPI_FLASH_ChipErase</a> (void)</td></tr>
 <tr class="memdesc:ga16992b5f1d1fe499a89afb04bdc951d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Erases the entire FLASH.  <br /></td></tr>
 <tr class="separator:ga16992b5f1d1fe499a89afb04bdc951d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gadbf8c780152fb9a51ef3b0b9f74ce38a" id="r_gadbf8c780152fb9a51ef3b0b9f74ce38a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_p_i___f_l_a_s_h___exported___functions.html#gadbf8c780152fb9a51ef3b0b9f74ce38a">SPI_FLASH_PageWrite</a> (u8 *WriteBuffer, u32 WriteAddr, u32 NumOfWriteByte)</td></tr>
+<tr class="memitem:gadbf8c780152fb9a51ef3b0b9f74ce38a" id="r_gadbf8c780152fb9a51ef3b0b9f74ce38a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_p_i___f_l_a_s_h___exported___functions.html#gadbf8c780152fb9a51ef3b0b9f74ce38a">SPI_FLASH_PageWrite</a> (<a class="el" href="group___exported___types.html#gaed742c436da53c1080638ce6ef7d13de">u8</a> *WriteBuffer, <a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> WriteAddr, <a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> NumOfWriteByte)</td></tr>
 <tr class="memdesc:gadbf8c780152fb9a51ef3b0b9f74ce38a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes block of data to the FLASH with a single WRITE cycle.  <br /></td></tr>
 <tr class="separator:gadbf8c780152fb9a51ef3b0b9f74ce38a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf7d28502d6ca9c5e7690b3e2deb567b7" id="r_gaf7d28502d6ca9c5e7690b3e2deb567b7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_p_i___f_l_a_s_h___exported___functions.html#gaf7d28502d6ca9c5e7690b3e2deb567b7">SPI_FLASH_BufferWriteBy</a> (u8 *WriteBuffer, u32 WriteAddr, u32 NumOfWriteByte, pWriteFunction pSPI_FLASH_PageWriteFun)</td></tr>
+<tr class="memitem:gaf7d28502d6ca9c5e7690b3e2deb567b7" id="r_gaf7d28502d6ca9c5e7690b3e2deb567b7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_p_i___f_l_a_s_h___exported___functions.html#gaf7d28502d6ca9c5e7690b3e2deb567b7">SPI_FLASH_BufferWriteBy</a> (<a class="el" href="group___exported___types.html#gaed742c436da53c1080638ce6ef7d13de">u8</a> *WriteBuffer, <a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> WriteAddr, <a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> NumOfWriteByte, <a class="el" href="group___s_p_i___f_l_a_s_h___exported___type.html#ga6c54c1410391f15383665532098bbccc">pWriteFunction</a> pSPI_FLASH_PageWriteFun)</td></tr>
 <tr class="memdesc:gaf7d28502d6ca9c5e7690b3e2deb567b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes block of data to the FLASH by CallBack function.  <br /></td></tr>
 <tr class="separator:gaf7d28502d6ca9c5e7690b3e2deb567b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1dd47d4bb96149b00b0bc0fa9176fb1d" id="r_ga1dd47d4bb96149b00b0bc0fa9176fb1d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_p_i___f_l_a_s_h___exported___functions.html#ga1dd47d4bb96149b00b0bc0fa9176fb1d">SPI_FLASH_BufferRead</a> (u8 *ReadBuffer, u32 ReadAddr, u32 NumOfReadByte)</td></tr>
+<tr class="memitem:ga1dd47d4bb96149b00b0bc0fa9176fb1d" id="r_ga1dd47d4bb96149b00b0bc0fa9176fb1d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_p_i___f_l_a_s_h___exported___functions.html#ga1dd47d4bb96149b00b0bc0fa9176fb1d">SPI_FLASH_BufferRead</a> (<a class="el" href="group___exported___types.html#gaed742c436da53c1080638ce6ef7d13de">u8</a> *<a class="el" href="group___e_e_p_r_o_m___simulate.html#gac8a61801c7ac6dcd3454613e30682a6c">ReadBuffer</a>, <a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> ReadAddr, <a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> NumOfReadByte)</td></tr>
 <tr class="memdesc:ga1dd47d4bb96149b00b0bc0fa9176fb1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads a block of data from the FLASH.  <br /></td></tr>
 <tr class="separator:ga1dd47d4bb96149b00b0bc0fa9176fb1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga564d82c835535f22ca6b0023df3278fd" id="r_ga564d82c835535f22ca6b0023df3278fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_p_i___f_l_a_s_h___exported___functions.html#ga564d82c835535f22ca6b0023df3278fd">SPI_FLASH_BufferDualRead</a> (u16 *ReadBuffer, u32 ReadAddr, u32 NumOfReadByte)</td></tr>
+<tr class="memitem:ga564d82c835535f22ca6b0023df3278fd" id="r_ga564d82c835535f22ca6b0023df3278fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_p_i___f_l_a_s_h___exported___functions.html#ga564d82c835535f22ca6b0023df3278fd">SPI_FLASH_BufferDualRead</a> (<a class="el" href="group___exported___types.html#ga9e6c91d77e24643b888dbd1a1a590054">u16</a> *<a class="el" href="group___e_e_p_r_o_m___simulate.html#gac8a61801c7ac6dcd3454613e30682a6c">ReadBuffer</a>, <a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> ReadAddr, <a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> NumOfReadByte)</td></tr>
 <tr class="memdesc:ga564d82c835535f22ca6b0023df3278fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads a block of data from the FLASH using Dual Output Mode.  <br /></td></tr>
 <tr class="separator:ga564d82c835535f22ca6b0023df3278fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab829f2c96f794e6700c4ec9b780bd283" id="r_gab829f2c96f794e6700c4ec9b780bd283"><td class="memItemLeft" align="right" valign="top">u32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_p_i___f_l_a_s_h___exported___functions.html#gab829f2c96f794e6700c4ec9b780bd283">SPI_FLASH_ReadJEDECID</a> (void)</td></tr>
+<tr class="memitem:gab829f2c96f794e6700c4ec9b780bd283" id="r_gab829f2c96f794e6700c4ec9b780bd283"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_p_i___f_l_a_s_h___exported___functions.html#gab829f2c96f794e6700c4ec9b780bd283">SPI_FLASH_ReadJEDECID</a> (void)</td></tr>
 <tr class="memdesc:gab829f2c96f794e6700c4ec9b780bd283"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads JEDEC ID.  <br /></td></tr>
 <tr class="separator:gab829f2c96f794e6700c4ec9b780bd283"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga32cdbf774c7a4b26ec32a4874085f605" id="r_ga32cdbf774c7a4b26ec32a4874085f605"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_p_i___f_l_a_s_h___exported___functions.html#ga32cdbf774c7a4b26ec32a4874085f605">SPI_FLASH_WriteStatus</a> (u32 Value)</td></tr>
+<tr class="memitem:ga32cdbf774c7a4b26ec32a4874085f605" id="r_ga32cdbf774c7a4b26ec32a4874085f605"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_p_i___f_l_a_s_h___exported___functions.html#ga32cdbf774c7a4b26ec32a4874085f605">SPI_FLASH_WriteStatus</a> (<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> Value)</td></tr>
 <tr class="memdesc:ga32cdbf774c7a4b26ec32a4874085f605"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes the new value to the Status Register.  <br /></td></tr>
 <tr class="separator:ga32cdbf774c7a4b26ec32a4874085f605"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaee4f172f60737998fe604c1437fef9ae" id="r_gaee4f172f60737998fe604c1437fef9ae"><td class="memItemLeft" align="right" valign="top">u16&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_p_i___f_l_a_s_h___exported___functions.html#gaee4f172f60737998fe604c1437fef9ae">SPI_FLASH_SendByte</a> (u8 byte)</td></tr>
+<tr class="memitem:gaee4f172f60737998fe604c1437fef9ae" id="r_gaee4f172f60737998fe604c1437fef9ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___exported___types.html#ga9e6c91d77e24643b888dbd1a1a590054">u16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_p_i___f_l_a_s_h___exported___functions.html#gaee4f172f60737998fe604c1437fef9ae">SPI_FLASH_SendByte</a> (<a class="el" href="group___exported___types.html#gaed742c436da53c1080638ce6ef7d13de">u8</a> byte)</td></tr>
 <tr class="memdesc:gaee4f172f60737998fe604c1437fef9ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends a byte through the SPI interface and return the byte received from the SPI bus.  <br /></td></tr>
 <tr class="separator:gaee4f172f60737998fe604c1437fef9ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga6f573a37c8e351c2f80ae24f7b763ce5" id="r_ga6f573a37c8e351c2f80ae24f7b763ce5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_p_i___f_l_a_s_h___exported___functions.html#ga6f573a37c8e351c2f80ae24f7b763ce5">SPI_FLASH_WriteEnable</a> (void)</td></tr>
@@ -127,11 +163,80 @@ Functions</h2></td></tr>
 <tr class="memitem:ga111ba233a500fc5e3e73ebc43eee34c7" id="r_ga111ba233a500fc5e3e73ebc43eee34c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_p_i___f_l_a_s_h___exported___functions.html#ga111ba233a500fc5e3e73ebc43eee34c7">SPI_FLASH_WriteDisable</a> (void)</td></tr>
 <tr class="memdesc:ga111ba233a500fc5e3e73ebc43eee34c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disables the write access to the FLASH.  <br /></td></tr>
 <tr class="separator:ga111ba233a500fc5e3e73ebc43eee34c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga35749d78c406e59b3f1234864b7d4a5d" id="r_ga35749d78c406e59b3f1234864b7d4a5d"><td class="memItemLeft" align="right" valign="top">u8&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_p_i___f_l_a_s_h___exported___functions.html#ga35749d78c406e59b3f1234864b7d4a5d">SPI_FLASH_WaitForWriteEnd</a> (void)</td></tr>
+<tr class="memitem:ga35749d78c406e59b3f1234864b7d4a5d" id="r_ga35749d78c406e59b3f1234864b7d4a5d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___exported___types.html#gaed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_p_i___f_l_a_s_h___exported___functions.html#ga35749d78c406e59b3f1234864b7d4a5d">SPI_FLASH_WaitForWriteEnd</a> (void)</td></tr>
 <tr class="memdesc:ga35749d78c406e59b3f1234864b7d4a5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Polls the status of the BUSY flag in the FLASH's status register and waits for the end of Flash writing.  <br /></td></tr>
 <tr class="separator:ga35749d78c406e59b3f1234864b7d4a5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="gac161d25ee6b5bf590c367cfe0add929c" name="gac161d25ee6b5bf590c367cfe0add929c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac161d25ee6b5bf590c367cfe0add929c">&#9670;&#160;</a></span>SPI_FLASH_BufferWrite</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SPI_FLASH_BufferWrite</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><a class="el" href="group___time_measure.html#ga1ec6887428eb7399e7222f7df7839a4e">a</a>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><a class="el" href="group___time_measure.html#gac7a427f3be8277ddba4d96931806b67c">b</a>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><a class="el" href="group___time_measure.html#ga79c1f2f1306e5e02189ae1781fe96324">c</a>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="group___s_p_i___f_l_a_s_h___exported___functions.html#gaf7d28502d6ca9c5e7690b3e2deb567b7">SPI_FLASH_BufferWriteBy</a>(<a class="el" href="group___time_measure.html#ga1ec6887428eb7399e7222f7df7839a4e">a</a>,<a class="el" href="group___time_measure.html#gac7a427f3be8277ddba4d96931806b67c">b</a>,<a class="el" href="group___time_measure.html#ga79c1f2f1306e5e02189ae1781fe96324">c</a>,(<a class="el" href="group___s_p_i___f_l_a_s_h___exported___type.html#ga6c54c1410391f15383665532098bbccc">pWriteFunction</a>)<a class="el" href="group___s_p_i___f_l_a_s_h___exported___functions.html#gadbf8c780152fb9a51ef3b0b9f74ce38a">SPI_FLASH_PageWrite</a>);</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga5568ae807146985f1b144e4b97290564" name="ga5568ae807146985f1b144e4b97290564"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5568ae807146985f1b144e4b97290564">&#9670;&#160;</a></span>SPI_FLASH_BufferWriteByDMA</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SPI_FLASH_BufferWriteByDMA</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><a class="el" href="group___time_measure.html#ga1ec6887428eb7399e7222f7df7839a4e">a</a>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><a class="el" href="group___time_measure.html#gac7a427f3be8277ddba4d96931806b67c">b</a>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><a class="el" href="group___time_measure.html#ga79c1f2f1306e5e02189ae1781fe96324">c</a>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="group___s_p_i___f_l_a_s_h___exported___functions.html#gaf7d28502d6ca9c5e7690b3e2deb567b7">SPI_FLASH_BufferWriteBy</a>(<a class="el" href="group___time_measure.html#ga1ec6887428eb7399e7222f7df7839a4e">a</a>,<a class="el" href="group___time_measure.html#gac7a427f3be8277ddba4d96931806b67c">b</a>,<a class="el" href="group___time_measure.html#ga79c1f2f1306e5e02189ae1781fe96324">c</a>,(<a class="el" href="group___s_p_i___f_l_a_s_h___exported___type.html#ga6c54c1410391f15383665532098bbccc">pWriteFunction</a>)SPI_FLASH_PageWriteByDMA);</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="ga0ac0200e9a0a0eb05377a9a003ee99aa" name="ga0ac0200e9a0a0eb05377a9a003ee99aa"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga0ac0200e9a0a0eb05377a9a003ee99aa">&#9670;&#160;</a></span>SPI_FLASH_BlockErase()</h2>
@@ -142,7 +247,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void SPI_FLASH_BlockErase </td>
           <td>(</td>
-          <td class="paramtype">u32&#160;</td>
+          <td class="paramtype"><a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td>
           <td class="paramname"><em>BlockAddr</em></td><td>)</td>
           <td></td>
         </tr>
@@ -174,19 +279,19 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void SPI_FLASH_BufferDualRead </td>
           <td>(</td>
-          <td class="paramtype">u16 *&#160;</td>
+          <td class="paramtype"><a class="el" href="group___exported___types.html#ga9e6c91d77e24643b888dbd1a1a590054">u16</a> *&#160;</td>
           <td class="paramname"><em>ReadBuffer</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">u32&#160;</td>
+          <td class="paramtype"><a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td>
           <td class="paramname"><em>ReadAddr</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">u32&#160;</td>
+          <td class="paramtype"><a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td>
           <td class="paramname"><em>NumOfReadByte</em>&#160;</td>
         </tr>
         <tr>
@@ -224,19 +329,19 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void SPI_FLASH_BufferRead </td>
           <td>(</td>
-          <td class="paramtype">u8 *&#160;</td>
+          <td class="paramtype"><a class="el" href="group___exported___types.html#gaed742c436da53c1080638ce6ef7d13de">u8</a> *&#160;</td>
           <td class="paramname"><em>ReadBuffer</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">u32&#160;</td>
+          <td class="paramtype"><a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td>
           <td class="paramname"><em>ReadAddr</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">u32&#160;</td>
+          <td class="paramtype"><a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td>
           <td class="paramname"><em>NumOfReadByte</em>&#160;</td>
         </tr>
         <tr>
@@ -274,25 +379,25 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void SPI_FLASH_BufferWriteBy </td>
           <td>(</td>
-          <td class="paramtype">u8 *&#160;</td>
+          <td class="paramtype"><a class="el" href="group___exported___types.html#gaed742c436da53c1080638ce6ef7d13de">u8</a> *&#160;</td>
           <td class="paramname"><em>WriteBuffer</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">u32&#160;</td>
+          <td class="paramtype"><a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td>
           <td class="paramname"><em>WriteAddr</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">u32&#160;</td>
+          <td class="paramtype"><a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td>
           <td class="paramname"><em>NumOfWriteByte</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">pWriteFunction&#160;</td>
+          <td class="paramtype"><a class="el" href="group___s_p_i___f_l_a_s_h___exported___type.html#ga6c54c1410391f15383665532098bbccc">pWriteFunction</a>&#160;</td>
           <td class="paramname"><em>pSPI_FLASH_PageWriteFun</em>&#160;</td>
         </tr>
         <tr>
@@ -355,7 +460,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">u32 SPI_FLASH_Init </td>
+          <td class="memname"><a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> SPI_FLASH_Init </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -383,19 +488,19 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void SPI_FLASH_PageWrite </td>
           <td>(</td>
-          <td class="paramtype">u8 *&#160;</td>
+          <td class="paramtype"><a class="el" href="group___exported___types.html#gaed742c436da53c1080638ce6ef7d13de">u8</a> *&#160;</td>
           <td class="paramname"><em>WriteBuffer</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">u32&#160;</td>
+          <td class="paramtype"><a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td>
           <td class="paramname"><em>WriteAddr</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">u32&#160;</td>
+          <td class="paramtype"><a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td>
           <td class="paramname"><em>NumOfWriteByte</em>&#160;</td>
         </tr>
         <tr>
@@ -431,7 +536,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">u32 SPI_FLASH_ReadJEDECID </td>
+          <td class="memname"><a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> SPI_FLASH_ReadJEDECID </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -459,7 +564,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void SPI_FLASH_SectorErase </td>
           <td>(</td>
-          <td class="paramtype">u32&#160;</td>
+          <td class="paramtype"><a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td>
           <td class="paramname"><em>SectorAddr</em></td><td>)</td>
           <td></td>
         </tr>
@@ -489,9 +594,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">u16 SPI_FLASH_SendByte </td>
+          <td class="memname"><a class="el" href="group___exported___types.html#ga9e6c91d77e24643b888dbd1a1a590054">u16</a> SPI_FLASH_SendByte </td>
           <td>(</td>
-          <td class="paramtype">u8&#160;</td>
+          <td class="paramtype"><a class="el" href="group___exported___types.html#gaed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td>
           <td class="paramname"><em>byte</em></td><td>)</td>
           <td></td>
         </tr>
@@ -521,7 +626,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">u8 SPI_FLASH_WaitForWriteEnd </td>
+          <td class="memname"><a class="el" href="group___exported___types.html#gaed742c436da53c1080638ce6ef7d13de">u8</a> SPI_FLASH_WaitForWriteEnd </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -601,7 +706,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void SPI_FLASH_WriteStatus </td>
           <td>(</td>
-          <td class="paramtype">u32&#160;</td>
+          <td class="paramtype"><a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td>
           <td class="paramname"><em>Value</em></td><td>)</td>
           <td></td>
         </tr>

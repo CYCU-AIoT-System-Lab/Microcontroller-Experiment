@@ -1,0 +1,12 @@
+<map id="SPI" name="SPI">
+<area shape="rect" id="Node000002" href="$group___h_t32_f5xxxx___peripheral___driver.html" title=" " alt="" coords="15,120,171,163"/>
+<area shape="rect" id="Node000001" title="SPI driver modules." alt="" coords="229,157,271,184"/>
+<area shape="rect" id="Node000003" href="$group___h_t32___series___peripheral___examples.html" title=" " alt="" coords="5,187,181,213"/>
+<area shape="rect" id="Node000009" href="$group___s_p_i___a_p_i.html" title=" " alt="" coords="364,5,431,32"/>
+<area shape="rect" id="Node000010" href="$group___s_p_i___c_o_n_f_i_g.html" title=" " alt="" coords="350,56,445,83"/>
+<area shape="rect" id="Node000005" href="$group___s_p_i___exported___constants.html" title=" " alt="" coords="319,107,476,133"/>
+<area shape="rect" id="Node000006" href="$group___s_p_i___exported___functions.html" title=" " alt="" coords="322,157,474,184"/>
+<area shape="rect" id="Node000004" href="$group___s_p_i___exported___types.html" title=" " alt="" coords="332,208,464,235"/>
+<area shape="rect" id="Node000007" href="$group___s_p_i___m_i_d_i___exported___types.html" title=" " alt="" coords="330,259,466,301"/>
+<area shape="rect" id="Node000008" href="$group___s_p_i___private___define.html" title=" " alt="" coords="325,325,470,352"/>
+</map>

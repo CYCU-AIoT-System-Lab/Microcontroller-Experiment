@@ -1,0 +1,16 @@
+<map id="ADC" name="ADC">
+<area shape="rect" id="Node000001" title=" " alt="" coords="229,320,277,347"/>
+<area shape="rect" id="Node000003" href="$group___analog_watchdog.html" title=" " alt="" coords="356,5,476,32"/>
+<area shape="rect" id="Node000004" href="$group___continuous___potentiometer.html" title=" " alt="" coords="329,56,503,83"/>
+<area shape="rect" id="Node000005" href="$group___discontinuous___e_x_t_i_trigger.html" title=" " alt="" coords="328,107,503,133"/>
+<area shape="rect" id="Node000006" href="$group___internal_reference_voltage___p_w_m_trigger.html" title=" " alt="" coords="333,157,498,200"/>
+<area shape="rect" id="Node000007" href="$group___internal_reference_voltage___s_w_trigger.html" title=" " alt="" coords="333,224,498,267"/>
+<area shape="rect" id="Node000008" href="$group___one_shot___p_w_m_trigger.html" title=" " alt="" coords="340,291,491,317"/>
+<area shape="rect" id="Node000009" href="$group___one_shot___p_w_m_trigger___dual___a_d_c.html" title=" " alt="" coords="340,341,491,384"/>
+<area shape="rect" id="Node000010" href="$group___one_shot___p_w_m_trigger__with___delay.html" title=" " alt="" coords="340,408,491,451"/>
+<area shape="rect" id="Node000011" href="$group___one_shot___s_w_trigger.html" title=" " alt="" coords="346,475,486,501"/>
+<area shape="rect" id="Node000012" href="$group___one_shot___s_w_trigger___by_t_m.html" title=" " alt="" coords="325,525,506,552"/>
+<area shape="rect" id="Node000013" href="$group___one_shot___t_m_trigger___p_d_m_a.html" title=" " alt="" coords="325,576,506,603"/>
+<area shape="rect" id="Node000014" href="$group___two___group___max_c_h.html" title=" " alt="" coords="348,627,484,653"/>
+<area shape="rect" id="Node000002" href="$group___h_t32___series___peripheral___examples.html" title=" " alt="" coords="5,320,181,347"/>
+</map>

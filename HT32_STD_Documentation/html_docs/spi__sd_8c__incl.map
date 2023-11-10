@@ -1,0 +1,9 @@
+<map id="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/USBD/Mass_Storage/spi_sd.c" name="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/USBD/Mass_Storage/spi_sd.c">
+<area shape="rect" id="Node000001" title="The SD Memory card driver. Supports both SD and SDHC." alt="" coords="5,5,261,96"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="60,144,118,171"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,97,103,131,98,129,112,95"/>
+<area shape="rect" id="Node000003" href="$spi__sd_8h.html" title="The header file of SD Memory card driver." alt="" coords="142,144,212,171"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="154,95,168,129,163,131,149,97"/>
+<area shape="rect" id="Node000004" href="$_u_s_b_d_2_mass___storage_2ht32__board__config_8h.html" title="The header file of board configuration." alt="" coords="108,219,246,245"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="180,171,180,203,174,203,174,171"/>
+</map>

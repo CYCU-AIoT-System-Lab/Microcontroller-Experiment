@@ -1,0 +1,9 @@
+<map id="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/Time/TimeFun_UserConf/ht32_time_conf.h" name="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/Time/TimeFun_UserConf/ht32_time_conf.h">
+<area shape="rect" id="Node000001" title="The configuration of HT32 Time function." alt="" coords="158,5,385,112"/>
+<area shape="rect" id="Node000002" href="$ht32__time_8h.html" title="The header file of time function." alt="" coords="158,160,385,267"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="274,127,274,160,269,160,269,127"/>
+<area shape="rect" id="Node000003" href="$example_2_time_2_time_fun___user_conf_2main_8c.html" title="Main program." alt="" coords="5,323,269,413"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="217,280,178,324,174,321,213,276"/>
+<area shape="rect" id="Node000004" href="$ht32__time_8c.html" title="The time functions." alt="" coords="293,315,520,421"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="330,277,362,312,358,316,326,280"/>
+</map>

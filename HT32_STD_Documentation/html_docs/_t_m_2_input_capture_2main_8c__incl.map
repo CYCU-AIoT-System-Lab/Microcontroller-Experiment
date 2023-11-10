@@ -1,0 +1,10 @@
+<map id="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/TM/InputCapture/main.c" name="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/TM/InputCapture/main.c">
+<area shape="rect" id="Node000001" title="Main program." alt="" coords="5,5,233,96"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="118,219,176,245"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="77,98,66,115,59,133,56,152,61,169,81,193,106,210,103,215,77,197,57,172,51,152,53,132,61,113,73,95"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="71,144,167,171"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="122,96,122,128,116,128,116,96"/>
+<area shape="rect" id="Node000004" href="$_t_m_2_input_capture_2ht32__board__config_8h.html" title="The header file of board configuration." alt="" coords="192,144,329,171"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="181,94,233,133,230,137,178,99"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="242,173,181,212,178,208,239,169"/>
+</map>

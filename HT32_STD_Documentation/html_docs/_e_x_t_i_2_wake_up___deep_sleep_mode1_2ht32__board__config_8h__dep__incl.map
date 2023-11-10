@@ -1,0 +1,7 @@
+<map id="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/EXTI/WakeUp_DeepSleepMode1/ht32_board_config.h" name="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/EXTI/WakeUp_DeepSleepMode1/ht32_board_config.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="161,5,429,112"/>
+<area shape="rect" id="Node000002" href="$_e_x_t_i_2_wake_up___deep_sleep_mode1_2ht32f5xxxx__01__it_8c.html" title="This file provides all interrupt service routine." alt="" coords="5,160,273,267"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="232,125,195,162,191,158,229,121"/>
+<area shape="rect" id="Node000003" href="$_e_x_t_i_2_wake_up___deep_sleep_mode1_2main_8c.html" title="Main program." alt="" coords="297,168,608,259"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="362,121,408,166,405,170,358,125"/>
+</map>

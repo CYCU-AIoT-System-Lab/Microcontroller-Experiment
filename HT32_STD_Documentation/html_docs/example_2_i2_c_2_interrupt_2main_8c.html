@@ -1,51 +1,63 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>HT32_STD_Documents: main.c File Reference</title>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>HT32_STD_Code_Documents: D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/I2C/Interrupt/main.c File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<link href="navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="resize.js"></script>
-<script type="text/javascript" src="navtreedata.js"></script>
-<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(document).ready(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
-   <div id="projectname">HT32_STD_Documents<span id="projectnumber">&#160;1.0.0</span>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">HT32_STD_Code_Documents
+   &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">For HT32F52352</div>
+   <div id="projectbrief">Micro-controller Experiment</div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
@@ -57,23 +69,17 @@
 var searchBox = new SearchBox("searchBox", "search/",'.html');
 /* @license-end */
 </script>
-</div><!-- top -->
-<div id="side-nav" class="ui-resizable side-nav-resizable">
-  <div id="nav-tree">
-    <div id="nav-tree-contents">
-      <div id="nav-sync" class="sync"></div>
-    </div>
-  </div>
-  <div id="splitbar" style="-moz-user-select:none;" 
-       class="ui-resizable-handle">
-  </div>
-</div>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('example_2_i2_c_2_interrupt_2main_8c.html',''); initResizable(); });
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
 /* @license-end */
 </script>
-<div id="doc-content">
+<div id="main-nav"></div>
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -95,6 +101,11 @@ $(document).ready(function(){initNavTree('example_2_i2_c_2_interrupt_2main_8c.ht
 </div>
 </div>
 
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_275089585c7fc1b5fd5d7d42c69cb1da.html">D:</a></li><li class="navelem"><a class="el" href="dir_273f27263c611837868160ff0f82bfd9.html">Note_Database</a></li><li class="navelem"><a class="el" href="dir_e8282a48381dd1bcf012c1bae1dc741b.html">Subject</a></li><li class="navelem"><a class="el" href="dir_7583b43eec1d2788dd81e658186519d2.html">MCETA Microcontroller Experiment TA</a></li><li class="navelem"><a class="el" href="dir_3ca5c6b4c4a2c10c94024caf0df2e6bb.html">files</a></li><li class="navelem"><a class="el" href="dir_79e3244e27785f7ec158b45668f9e3ec.html">HT32_STD_5xxxx_FWLib_V1.5.1_7084b</a></li><li class="navelem"><a class="el" href="dir_59078eea5ff994e62a291bc736e60abc.html">example</a></li><li class="navelem"><a class="el" href="dir_03e6e7cfb3f90acb0adedc8713f394a2.html">I2C</a></li><li class="navelem"><a class="el" href="dir_c85b6e95827568b1f762f6e9e03c2490.html">Interrupt</a></li>  </ul>
+</div>
+</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#define-members">Macros</a> &#124;
@@ -109,20 +120,21 @@ $(document).ready(function(){initNavTree('example_2_i2_c_2_interrupt_2main_8c.ht
 <div class="textblock"><code>#include &quot;<a class="el" href="ht32_8h_source.html">ht32.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="ht32__board_8h_source.html">ht32_board.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="_i2_c_2_interrupt_2ht32__board__config_8h_source.html">ht32_board_config.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for main.c:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="example_2_i2_c_2_interrupt_2main_8c__incl.svg" width="436" height="326"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:ga16a453f5d2f9ae75e127b01f54fd9fe2" id="r_ga16a453f5d2f9ae75e127b01f54fd9fe2"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>I2C_MASTER_ADDRESS</b>&#160;&#160;&#160;0x0A</td></tr>
+<tr class="memitem:ga16a453f5d2f9ae75e127b01f54fd9fe2" id="r_ga16a453f5d2f9ae75e127b01f54fd9fe2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c___interrupt.html#ga16a453f5d2f9ae75e127b01f54fd9fe2">I2C_MASTER_ADDRESS</a>&#160;&#160;&#160;0x0A</td></tr>
 <tr class="separator:ga16a453f5d2f9ae75e127b01f54fd9fe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2ec7e67680ed0484be8a3521db910f04" id="r_ga2ec7e67680ed0484be8a3521db910f04"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>I2C_SLAVE_ADDRESS</b>&#160;&#160;&#160;0x60</td></tr>
+<tr class="memitem:ga2ec7e67680ed0484be8a3521db910f04" id="r_ga2ec7e67680ed0484be8a3521db910f04"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c___interrupt.html#ga2ec7e67680ed0484be8a3521db910f04">I2C_SLAVE_ADDRESS</a>&#160;&#160;&#160;0x60</td></tr>
 <tr class="separator:ga2ec7e67680ed0484be8a3521db910f04"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa362edf6db9662acf6ef958a6db19c35" id="r_gaa362edf6db9662acf6ef958a6db19c35"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>BufferSize</b>&#160;&#160;&#160;4</td></tr>
+<tr class="memitem:gaa362edf6db9662acf6ef958a6db19c35" id="r_gaa362edf6db9662acf6ef958a6db19c35"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c___interrupt.html#gaa362edf6db9662acf6ef958a6db19c35">BufferSize</a>&#160;&#160;&#160;4</td></tr>
 <tr class="separator:gaa362edf6db9662acf6ef958a6db19c35"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga23f213504dda976b2652ade577f8bf10" id="r_ga23f213504dda976b2652ade577f8bf10"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ClockSpeed</b>&#160;&#160;&#160;100000</td></tr>
+<tr class="memitem:ga23f213504dda976b2652ade577f8bf10" id="r_ga23f213504dda976b2652ade577f8bf10"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c___interrupt.html#ga23f213504dda976b2652ade577f8bf10">ClockSpeed</a>&#160;&#160;&#160;100000</td></tr>
 <tr class="separator:ga23f213504dda976b2652ade577f8bf10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
@@ -136,7 +148,7 @@ Functions</h2></td></tr>
 <tr class="memitem:ga05fbe1a174e3529267decca0ad9c8016" id="r_ga05fbe1a174e3529267decca0ad9c8016"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c___interrupt.html#ga05fbe1a174e3529267decca0ad9c8016">I2C_Loopback</a> (void)</td></tr>
 <tr class="memdesc:ga05fbe1a174e3529267decca0ad9c8016"><td class="mdescLeft">&#160;</td><td class="mdescRight">The I2C master-slave state is checked by interrupt and data is sent from the master to the slave.  <br /></td></tr>
 <tr class="separator:ga05fbe1a174e3529267decca0ad9c8016"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3955bd9097285280c9a222a470422312" id="r_ga3955bd9097285280c9a222a470422312"><td class="memItemLeft" align="right" valign="top">ErrStatus&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c___interrupt.html#ga3955bd9097285280c9a222a470422312">CmpBuffer</a> (u8 *Buffer1, u8 *Buffer2, u32 BufferLength)</td></tr>
+<tr class="memitem:ga3955bd9097285280c9a222a470422312" id="r_ga3955bd9097285280c9a222a470422312"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___exported___types.html#ga78237a6f4037207e320ec9412b20da19">ErrStatus</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c___interrupt.html#ga3955bd9097285280c9a222a470422312">CmpBuffer</a> (<a class="el" href="group___exported___types.html#gaed742c436da53c1080638ce6ef7d13de">u8</a> *Buffer1, <a class="el" href="group___exported___types.html#gaed742c436da53c1080638ce6ef7d13de">u8</a> *Buffer2, <a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> BufferLength)</td></tr>
 <tr class="memdesc:ga3955bd9097285280c9a222a470422312"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare two buffers.  <br /></td></tr>
 <tr class="separator:ga3955bd9097285280c9a222a470422312"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga840291bc02cba5474a4cb46a9b9566fe" id="r_ga840291bc02cba5474a4cb46a9b9566fe"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c___interrupt.html#ga840291bc02cba5474a4cb46a9b9566fe">main</a> (void)</td></tr>
@@ -145,29 +157,21 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ga1ce7599d8777b17a9abedc976b4023eb" id="r_ga1ce7599d8777b17a9abedc976b4023eb"><td class="memItemLeft" align="right" valign="top">
-u8&#160;</td><td class="memItemRight" valign="bottom"><b>I2C0_Master_Buffer_Tx</b> [BufferSize] = {0x1, 0x2, 0x3, 0x4}</td></tr>
+<tr class="memitem:ga1ce7599d8777b17a9abedc976b4023eb" id="r_ga1ce7599d8777b17a9abedc976b4023eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___exported___types.html#gaed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c___interrupt.html#ga1ce7599d8777b17a9abedc976b4023eb">I2C0_Master_Buffer_Tx</a> [<a class="el" href="group___i2_c__10__bit__mode.html#gaa362edf6db9662acf6ef958a6db19c35">BufferSize</a>] = {0x1, 0x2, 0x3, 0x4}</td></tr>
 <tr class="separator:ga1ce7599d8777b17a9abedc976b4023eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7b3716e45fbd4ac3dec6ab7e0147212f" id="r_ga7b3716e45fbd4ac3dec6ab7e0147212f"><td class="memItemLeft" align="right" valign="top">
-u8&#160;</td><td class="memItemRight" valign="bottom"><b>I2C0_Master_Buffer_Rx</b> [BufferSize]</td></tr>
+<tr class="memitem:ga7b3716e45fbd4ac3dec6ab7e0147212f" id="r_ga7b3716e45fbd4ac3dec6ab7e0147212f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___exported___types.html#gaed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c___interrupt.html#ga7b3716e45fbd4ac3dec6ab7e0147212f">I2C0_Master_Buffer_Rx</a> [<a class="el" href="group___i2_c__10__bit__mode.html#gaa362edf6db9662acf6ef958a6db19c35">BufferSize</a>]</td></tr>
 <tr class="separator:ga7b3716e45fbd4ac3dec6ab7e0147212f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6dc30759ac7b3d1c582d7fd19ac5800b" id="r_ga6dc30759ac7b3d1c582d7fd19ac5800b"><td class="memItemLeft" align="right" valign="top">
-u8&#160;</td><td class="memItemRight" valign="bottom"><b>I2C1_Slave_Buffer_Rx</b> [BufferSize]</td></tr>
+<tr class="memitem:ga6dc30759ac7b3d1c582d7fd19ac5800b" id="r_ga6dc30759ac7b3d1c582d7fd19ac5800b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___exported___types.html#gaed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c___interrupt.html#ga6dc30759ac7b3d1c582d7fd19ac5800b">I2C1_Slave_Buffer_Rx</a> [<a class="el" href="group___i2_c__10__bit__mode.html#gaa362edf6db9662acf6ef958a6db19c35">BufferSize</a>]</td></tr>
 <tr class="separator:ga6dc30759ac7b3d1c582d7fd19ac5800b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga18e26acd2f5bc5133440bbf282acf2b9" id="r_ga18e26acd2f5bc5133440bbf282acf2b9"><td class="memItemLeft" align="right" valign="top">
-vu8&#160;</td><td class="memItemRight" valign="bottom"><b>I2C0_Master_Tx_Index</b> = 0</td></tr>
+<tr class="memitem:ga18e26acd2f5bc5133440bbf282acf2b9" id="r_ga18e26acd2f5bc5133440bbf282acf2b9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___exported___types.html#ga86ffb81daa2cd6aa2bd910d2acc00088">vu8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c___interrupt.html#ga18e26acd2f5bc5133440bbf282acf2b9">I2C0_Master_Tx_Index</a> = 0</td></tr>
 <tr class="separator:ga18e26acd2f5bc5133440bbf282acf2b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2ad95081c93a93792d4a64c4d87b7b92" id="r_ga2ad95081c93a93792d4a64c4d87b7b92"><td class="memItemLeft" align="right" valign="top">
-vu8&#160;</td><td class="memItemRight" valign="bottom"><b>I2C0_Master_Rx_Index</b> = 0</td></tr>
+<tr class="memitem:ga2ad95081c93a93792d4a64c4d87b7b92" id="r_ga2ad95081c93a93792d4a64c4d87b7b92"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___exported___types.html#ga86ffb81daa2cd6aa2bd910d2acc00088">vu8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c___interrupt.html#ga2ad95081c93a93792d4a64c4d87b7b92">I2C0_Master_Rx_Index</a> = 0</td></tr>
 <tr class="separator:ga2ad95081c93a93792d4a64c4d87b7b92"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa51b71e082042e5af3b0570a38565a1a" id="r_gaa51b71e082042e5af3b0570a38565a1a"><td class="memItemLeft" align="right" valign="top">
-vu8&#160;</td><td class="memItemRight" valign="bottom"><b>I2C1_Slave_Tx_Index</b> = 0</td></tr>
+<tr class="memitem:gaa51b71e082042e5af3b0570a38565a1a" id="r_gaa51b71e082042e5af3b0570a38565a1a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___exported___types.html#ga86ffb81daa2cd6aa2bd910d2acc00088">vu8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c___interrupt.html#gaa51b71e082042e5af3b0570a38565a1a">I2C1_Slave_Tx_Index</a> = 0</td></tr>
 <tr class="separator:gaa51b71e082042e5af3b0570a38565a1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gacdedb775843409540ffe55aa3a40417f" id="r_gacdedb775843409540ffe55aa3a40417f"><td class="memItemLeft" align="right" valign="top">
-vu8&#160;</td><td class="memItemRight" valign="bottom"><b>I2C1_Slave_Rx_Index</b> = 0</td></tr>
+<tr class="memitem:gacdedb775843409540ffe55aa3a40417f" id="r_gacdedb775843409540ffe55aa3a40417f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___exported___types.html#ga86ffb81daa2cd6aa2bd910d2acc00088">vu8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c___interrupt.html#gacdedb775843409540ffe55aa3a40417f">I2C1_Slave_Rx_Index</a> = 0</td></tr>
 <tr class="separator:gacdedb775843409540ffe55aa3a40417f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabe8d2ad2803fdb4ee8413331fd9aef2e" id="r_gabe8d2ad2803fdb4ee8413331fd9aef2e"><td class="memItemLeft" align="right" valign="top">
-vu32&#160;</td><td class="memItemRight" valign="bottom"><b>IsMasterRxFinish</b> = FALSE</td></tr>
+<tr class="memitem:gabe8d2ad2803fdb4ee8413331fd9aef2e" id="r_gabe8d2ad2803fdb4ee8413331fd9aef2e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___exported___types.html#ga92852311d9da2bd09b9bacf679e32486">vu32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c___interrupt.html#gabe8d2ad2803fdb4ee8413331fd9aef2e">IsMasterRxFinish</a> = <a class="el" href="group___exported___types.html#ggaf6a258d8f3ee5206d682d799316314b1aa1e095cc966dbecf6a0d8aad75348d1a">FALSE</a></td></tr>
 <tr class="separator:gabe8d2ad2803fdb4ee8413331fd9aef2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -183,13 +187,9 @@ vu32&#160;</td><td class="memItemRight" valign="bottom"><b>IsMasterRxFinish</b> 
 </ol>
 <h2><center>Copyright (C) Holtek Semiconductor Inc. All rights reserved</center></h2>
 </div></div><!-- contents -->
-</div><!-- doc-content -->
 <!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="navelem"><a class="el" href="dir_275089585c7fc1b5fd5d7d42c69cb1da.html">D:</a></li><li class="navelem"><a class="el" href="dir_273f27263c611837868160ff0f82bfd9.html">Note_Database</a></li><li class="navelem"><a class="el" href="dir_e8282a48381dd1bcf012c1bae1dc741b.html">Subject</a></li><li class="navelem"><a class="el" href="dir_7583b43eec1d2788dd81e658186519d2.html">MCETA Microcontroller Experiment TA</a></li><li class="navelem"><a class="el" href="dir_3ca5c6b4c4a2c10c94024caf0df2e6bb.html">files</a></li><li class="navelem"><a class="el" href="dir_79e3244e27785f7ec158b45668f9e3ec.html">HT32_STD_5xxxx_FWLib_V1.5.1_7084b</a></li><li class="navelem"><a class="el" href="dir_59078eea5ff994e62a291bc736e60abc.html">example</a></li><li class="navelem"><a class="el" href="dir_03e6e7cfb3f90acb0adedc8713f394a2.html">I2C</a></li><li class="navelem"><a class="el" href="dir_c85b6e95827568b1f762f6e9e03c2490.html">Interrupt</a></li><li class="navelem"><a class="el" href="example_2_i2_c_2_interrupt_2main_8c.html">main.c</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
-  </ul>
-</div>
+<hr class="footer"/><address class="footer"><small>
+Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+</small></address>
 </body>
 </html>

@@ -1,0 +1,11 @@
+<map id="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/I2S/CodecLoopback_PDMA/ht32_board_config.h" name="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/I2S/CodecLoopback_PDMA/ht32_board_config.h">
+<area shape="rect" id="Node000001" title="The header file of board configuration." alt="" coords="148,5,387,112"/>
+<area shape="rect" id="Node000002" href="$_i2_s_2_codec_loopback___p_d_m_a_2ht32f5xxxx__01__it_8c.html" title="This file provides all interrupt service routine." alt="" coords="5,299,245,405"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="147,124,130,141,117,161,105,194,101,230,104,265,110,298,105,299,99,266,96,230,100,193,112,159,126,138,143,120"/>
+<area shape="rect" id="Node000003" href="$_i2_s_2_codec_loopback___p_d_m_a_2i2cm_8h.html" title="The header file of I2C master driver." alt="" coords="127,160,409,251"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="270,128,270,159,265,159,265,128"/>
+<area shape="rect" id="Node000004" href="$_i2_s_2_codec_loopback___p_d_m_a_2main_8c.html" title="Main program." alt="" coords="287,307,569,397"/>
+<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="391,120,409,138,423,159,438,195,444,235,443,273,440,307,434,306,438,272,438,235,432,197,419,161,405,142,387,124"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="215,264,179,300,175,296,211,260"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="330,259,380,304,376,308,326,263"/>
+</map>

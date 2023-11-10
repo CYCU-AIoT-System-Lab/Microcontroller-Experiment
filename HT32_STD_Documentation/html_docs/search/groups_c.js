@@ -1,26 +1,10 @@
 var searchData=
 [
-  ['lcd_0',['lcd',['../group___l_c_d.html',1,'LCD'],['../group___l_c_d___examples.html',1,'LCD']]],
-  ['lcd_20exported_20constants_1',['lcd exported constants',['../group___e_b_i___l_c_d___exported___constants.html',1,'EBI LCD exported constants'],['../group___l_c_d___exported___constants.html',1,'LCD exported constants'],['../group___s_p_i___l_c_d___exported___constants.html',1,'SPI LCD exported constants']]],
-  ['lcd_20exported_20functions_2',['lcd exported functions',['../group___e_b_i___l_c_d___exported___functions.html',1,'EBI LCD exported functions'],['../group___l_c_d___exported___functions.html',1,'LCD exported functions'],['../group___s_p_i___l_c_d___exported___functions.html',1,'SPI LCD exported functions']]],
-  ['lcd_20exported_20macro_3',['SPI LCD exported macro',['../group___s_p_i___exported___macros.html',1,'']]],
-  ['lcd_20exported_20types_4',['lcd exported types',['../group___e_b_i___l_c_d___exported___types.html',1,'EBI LCD exported types'],['../group___l_c_d___exported___types.html',1,'LCD exported types']]],
-  ['lcd_20private_20definitions_5',['lcd private definitions',['../group___e_b_i___l_c_d___private___define.html',1,'EBI LCD private definitions'],['../group___s_p_i___l_c_d___private___define.html',1,'SPI LCD private definitions']]],
-  ['lcd_20private_20functions_6',['lcd private functions',['../group___e_b_i___l_c_d___private___functions.html',1,'EBI LCD private functions'],['../group___s_p_i___l_c_d___private___functions.html',1,'SPI LCD private functions']]],
-  ['lcd_20private_20variables_7',['lcd private variables',['../group___e_b_i___l_c_d___private___variable.html',1,'EBI LCD private variables'],['../group___s_p_i___l_c_d___private___variable.html',1,'SPI LCD private variables']]],
-  ['lcd28_8',['LCD28',['../group___l_c_d28.html',1,'']]],
-  ['lcd_5fmodule_9',['LCD_module',['../group___l_c_d__module.html',1,'']]],
-  ['ledc_10',['LEDC',['../group___l_e_d_c.html',1,'']]],
-  ['ledc_20exported_20constants_11',['LEDC exported constants',['../group___l_e_d_c___exported___constants.html',1,'']]],
-  ['ledc_20exported_20functions_12',['LEDC exported functions',['../group___l_e_d_c___exported___functions.html',1,'']]],
-  ['ledc_20exported_20types_13',['LEDC exported types',['../group___l_e_d_c___exported___types.html',1,'']]],
-  ['ledc_20private_20definitions_14',['LEDC private definitions',['../group___l_e_d_c___private___define.html',1,'']]],
-  ['length_15',['Definitions of USART word length',['../group___u_s_a_r_t___word___length.html',1,'']]],
-  ['level_20selection_16',['Definitions of MCTM lock level selection',['../group___m_c_t_m___l_o_c_k___l_e_v_e_l.html',1,'']]],
-  ['library_17',['HT32 USB Device Library',['../group___h_t32___u_s_b_d___library.html',1,'']]],
-  ['library_20observation_20registers_18',['Software Test Library Observation Registers',['../group___s_t_l___type.html',1,'']]],
-  ['library_5fconfiguration_5fsection_19',['Library_configuration_section',['../group___library__configuration__section.html',1,'']]],
-  ['lin_20',['Definitions of USART LIN',['../group___u_s_a_r_t___l_i_n.html',1,'']]],
-  ['lock_20level_20selection_21',['Definitions of MCTM lock level selection',['../group___m_c_t_m___l_o_c_k___l_e_v_e_l.html',1,'']]],
-  ['lsb_22',['Definitions of USART LSB',['../group___u_s_a_r_t___l_s_b.html',1,'']]]
+  ['mass_5fstorage_0',['Mass_Storage',['../group___mass___storage.html',1,'']]],
+  ['master_1',['Master',['../group___master.html',1,'']]],
+  ['master_20config_2',['I2C Master CONFIG',['../group___i2_c___master___c_o_n_f_i_g.html',1,'']]],
+  ['matchoutputactive_3',['MatchOutputActive',['../group___match_output_active.html',1,'']]],
+  ['matchoutputtoggle_4',['MatchOutputToggle',['../group___match_output_toggle.html',1,'']]],
+  ['mctm_5',['MCTM',['../group___m_c_t_m___examples.html',1,'']]],
+  ['mono_5flcd_6',['Mono_LCD',['../group___mono___l_c_d___examples.html',1,'']]]
 ];

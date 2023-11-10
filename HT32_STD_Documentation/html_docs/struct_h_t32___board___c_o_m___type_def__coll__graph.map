@@ -1,0 +1,7 @@
+<map id="HT32_Board_COM_TypeDef" name="HT32_Board_COM_TypeDef">
+<area shape="rect" id="Node000001" title=" " alt="" coords="78,112,261,139"/>
+<area shape="rect" id="Node000002" href="$struct_h_t___u_s_a_r_t___type_def.html" title="Universal Synchronous Asynchronous Receiver Transmitter." alt="" coords="5,5,147,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="99,42,160,110,156,113,95,45"/>
+<area shape="rect" id="Node000003" href="$struct_h_t32___board___g_p_i_o___type_def.html" title=" " alt="" coords="171,5,357,32"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="245,45,183,113,179,110,241,42"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/utilities/common/spi_lcd.c" name="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/utilities/common/spi_lcd.c">
+<area shape="rect" id="Node000001" title="This file provides a set of functions needed to manage the communication between SPI peripheral and L..." alt="" coords="33,5,260,96"/>
+<area shape="rect" id="Node000002" href="$spi__lcd_8h.html" title="The header file of spi_lcd.c module." alt="" coords="66,144,139,171"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="130,97,116,131,111,129,125,95"/>
+<area shape="rect" id="Node000006" href="$font_8h.html" title="This file contains the font information." alt="" coords="164,144,217,171"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="168,95,182,129,177,131,163,97"/>
+<area shape="rect" id="Node000003" href="$ht32__board_8h.html" title="HT32 target board definition file." alt="" coords="6,219,103,245"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="96,173,73,207,69,204,92,170"/>
+<area shape="rect" id="Node000005" href="$lcd_8h.html" title="The header file of lcd module." alt="" coords="127,219,177,245"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="113,170,137,204,133,207,109,173"/>
+<area shape="rect" id="Node000004" href="$ht32__config_8h.html" title="Configuration file of HT32." alt="" coords="5,293,104,320"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="57,246,57,278,52,278,52,246"/>
+</map>

@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['ebi_5finittypedef_0',['EBI_InitTypeDef',['../struct_e_b_i___init_type_def.html',1,'']]],
-  ['ebi_5flcd_5ftypedef_1',['EBI_LCD_TypeDef',['../struct_e_b_i___l_c_d___type_def.html',1,'']]],
-  ['emss_5ftype_2',['EMSS_Type',['../struct_e_m_s_s___type.html',1,'']]],
-  ['errbnk_5ftype_3',['ErrBnk_Type',['../struct_err_bnk___type.html',1,'']]],
-  ['ewic_5ftype_4',['EWIC_Type',['../struct_e_w_i_c___type.html',1,'']]],
-  ['exti_5finittypedef_5',['EXTI_InitTypeDef',['../struct_e_x_t_i___init_type_def.html',1,'']]]
+  ['saveautotrim_5ftypedef_0',['SaveAutoTrim_TypeDef',['../struct_save_auto_trim___type_def.html',1,'']]],
+  ['sbcinfo_5ftypedef_1',['SBCInfo_Typedef',['../struct_s_b_c_info___typedef.html',1,'']]],
+  ['sd_5fcid_5ftypedef_2',['SD_CID_TypeDef',['../struct_s_d___c_i_d___type_def.html',1,'']]],
+  ['sd_5fcsd_5ftypedef_3',['SD_CSD_TypeDef',['../struct_s_d___c_s_d___type_def.html',1,'']]],
+  ['si2cm_5ftransfer_4',['sI2CM_Transfer',['../structs_i2_c_m___transfer.html',1,'']]],
+  ['spulsecapturestructure_5',['sPulseCaptureStructure',['../structs_pulse_capture_structure.html',1,'']]]
 ];

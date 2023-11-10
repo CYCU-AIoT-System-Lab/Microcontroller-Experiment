@@ -1,51 +1,63 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>HT32_STD_Documents: ht32f5xxxx_usart.h Source File</title>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>HT32_STD_Code_Documents: D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/library/HT32F5xxxx_Driver/inc/ht32f5xxxx_usart.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<link href="navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="resize.js"></script>
-<script type="text/javascript" src="navtreedata.js"></script>
-<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(document).ready(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
-   <div id="projectname">HT32_STD_Documents<span id="projectnumber">&#160;1.0.0</span>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">HT32_STD_Code_Documents
+   &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">For HT32F52352</div>
+   <div id="projectbrief">Micro-controller Experiment</div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
@@ -57,23 +69,22 @@
 var searchBox = new SearchBox("searchBox", "search/",'.html');
 /* @license-end */
 </script>
-</div><!-- top -->
-<div id="side-nav" class="ui-resizable side-nav-resizable">
-  <div id="nav-tree">
-    <div id="nav-tree-contents">
-      <div id="nav-sync" class="sync"></div>
-    </div>
-  </div>
-  <div id="splitbar" style="-moz-user-select:none;" 
-       class="ui-resizable-handle">
-  </div>
-</div>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('ht32f5xxxx__usart_8h_source.html',''); initResizable(); });
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
 /* @license-end */
 </script>
-<div id="doc-content">
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function() { init_codefold(0); });
+/* @license-end */
+</script>
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -95,6 +106,11 @@ $(document).ready(function(){initNavTree('ht32f5xxxx__usart_8h_source.html','');
 </div>
 </div>
 
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_275089585c7fc1b5fd5d7d42c69cb1da.html">D:</a></li><li class="navelem"><a class="el" href="dir_273f27263c611837868160ff0f82bfd9.html">Note_Database</a></li><li class="navelem"><a class="el" href="dir_e8282a48381dd1bcf012c1bae1dc741b.html">Subject</a></li><li class="navelem"><a class="el" href="dir_7583b43eec1d2788dd81e658186519d2.html">MCETA Microcontroller Experiment TA</a></li><li class="navelem"><a class="el" href="dir_3ca5c6b4c4a2c10c94024caf0df2e6bb.html">files</a></li><li class="navelem"><a class="el" href="dir_79e3244e27785f7ec158b45668f9e3ec.html">HT32_STD_5xxxx_FWLib_V1.5.1_7084b</a></li><li class="navelem"><a class="el" href="dir_6965e01511015f2942f432da2d4a5bcb.html">library</a></li><li class="navelem"><a class="el" href="dir_a2f81702cb5fc8b133c02bd1d2044bc0.html">HT32F5xxxx_Driver</a></li><li class="navelem"><a class="el" href="dir_5295d97ccb3d03e3674380e8c26a1d02.html">inc</a></li>  </ul>
+</div>
+</div><!-- top -->
 <div class="header">
   <div class="headertitle"><div class="title">ht32f5xxxx_usart.h</div></div>
 </div><!--header-->
@@ -116,146 +132,170 @@ $(document).ready(function(){initNavTree('ht32f5xxxx__usart_8h_source.html','');
 <div class="foldopen" id="foldopen00053" data-start="{" data-end="};">
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="struct_u_s_a_r_t___init_type_def.html">   53</a></span><span class="keyword">typedef</span> <span class="keyword">struct</span></div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>{</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>  u32 USART_BaudRate;</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>  u16 USART_WordLength;</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>  u16 USART_StopBits;</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>  u16 USART_Parity;</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>  u32 USART_Mode;</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="struct_u_s_a_r_t___init_type_def.html#ac205846b76d8a31f1320a93db8e0598d">   55</a></span>  <a class="code hl_typedef" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> <a class="code hl_variable" href="struct_u_s_a_r_t___init_type_def.html#ac205846b76d8a31f1320a93db8e0598d">USART_BaudRate</a>;</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="struct_u_s_a_r_t___init_type_def.html#ad216f57c3f4fa80b3c19420c4f791cad">   56</a></span>  <a class="code hl_typedef" href="group___exported___types.html#ga9e6c91d77e24643b888dbd1a1a590054">u16</a> <a class="code hl_variable" href="struct_u_s_a_r_t___init_type_def.html#ad216f57c3f4fa80b3c19420c4f791cad">USART_WordLength</a>;</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="struct_u_s_a_r_t___init_type_def.html#a800f2b845a0c6948b0c6c91fbc3257d4">   57</a></span>  <a class="code hl_typedef" href="group___exported___types.html#ga9e6c91d77e24643b888dbd1a1a590054">u16</a> <a class="code hl_variable" href="struct_u_s_a_r_t___init_type_def.html#a800f2b845a0c6948b0c6c91fbc3257d4">USART_StopBits</a>;</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno"><a class="line" href="struct_u_s_a_r_t___init_type_def.html#a25b591b26592907581ddd1376a1d1f74">   58</a></span>  <a class="code hl_typedef" href="group___exported___types.html#ga9e6c91d77e24643b888dbd1a1a590054">u16</a> <a class="code hl_variable" href="struct_u_s_a_r_t___init_type_def.html#a25b591b26592907581ddd1376a1d1f74">USART_Parity</a>;</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="struct_u_s_a_r_t___init_type_def.html#aa00c2ec3942e459ba23f783256307cae">   59</a></span>  <a class="code hl_typedef" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> <a class="code hl_variable" href="struct_u_s_a_r_t___init_type_def.html#aa00c2ec3942e459ba23f783256307cae">USART_Mode</a>;</div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>} <a class="code hl_struct" href="struct_u_s_a_r_t___init_type_def.html">USART_InitTypeDef</a>;</div>
 </div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
 <div class="foldopen" id="foldopen00062" data-start="{" data-end="};">
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="struct_u_s_a_r_t___syn_clock___init_type_def.html">   62</a></span><span class="keyword">typedef</span> <span class="keyword">struct</span></div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>{</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>  u16 USART_ClockEnable;</div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>  u16 USART_ClockPhase;</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>  u16 USART_ClockPolarity;</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>  u16 USART_TransferSelectMode;</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno"><a class="line" href="struct_u_s_a_r_t___syn_clock___init_type_def.html#a981edc559a5c5abd49fda7f4fa815c09">   64</a></span>  <a class="code hl_typedef" href="group___exported___types.html#ga9e6c91d77e24643b888dbd1a1a590054">u16</a> <a class="code hl_variable" href="struct_u_s_a_r_t___syn_clock___init_type_def.html#a981edc559a5c5abd49fda7f4fa815c09">USART_ClockEnable</a>;</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="struct_u_s_a_r_t___syn_clock___init_type_def.html#ab40b67524871709df6e25b5a9e82e5a4">   65</a></span>  <a class="code hl_typedef" href="group___exported___types.html#ga9e6c91d77e24643b888dbd1a1a590054">u16</a> <a class="code hl_variable" href="struct_u_s_a_r_t___syn_clock___init_type_def.html#ab40b67524871709df6e25b5a9e82e5a4">USART_ClockPhase</a>;</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno"><a class="line" href="struct_u_s_a_r_t___syn_clock___init_type_def.html#a258bd8a73346aa49483050ea32bfe87c">   66</a></span>  <a class="code hl_typedef" href="group___exported___types.html#ga9e6c91d77e24643b888dbd1a1a590054">u16</a> <a class="code hl_variable" href="struct_u_s_a_r_t___syn_clock___init_type_def.html#a258bd8a73346aa49483050ea32bfe87c">USART_ClockPolarity</a>;</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno"><a class="line" href="struct_u_s_a_r_t___syn_clock___init_type_def.html#aa2adbdaa34707754801ab85016d20c55">   67</a></span>  <a class="code hl_typedef" href="group___exported___types.html#ga9e6c91d77e24643b888dbd1a1a590054">u16</a> <a class="code hl_variable" href="struct_u_s_a_r_t___syn_clock___init_type_def.html#aa2adbdaa34707754801ab85016d20c55">USART_TransferSelectMode</a>;</div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>} <a class="code hl_struct" href="struct_u_s_a_r_t___syn_clock___init_type_def.html">USART_SynClock_InitTypeDef</a>;</div>
 </div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span><span class="comment">/* Exported constants --------------------------------------------------------------------------------------*/</span></div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span><span class="preprocessor">#define USART_CMD_TX                  (0)</span></div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span><span class="preprocessor">#define USART_CMD_RX                  (1)</span></div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___exported___constants.html#gab9c66528c543014b84bff922b8196f6f">   78</a></span><span class="preprocessor">#define USART_CMD_TX                  (0)</span></div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___exported___constants.html#ga4fb005c94a25a2ca581ce1593f40efb3">   79</a></span><span class="preprocessor">#define USART_CMD_RX                  (1)</span></div>
 <div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span> </div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span><span class="preprocessor">#define USART_CMD_OUT                 (0)</span></div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span><span class="preprocessor">#define USART_CMD_IN                  (1)</span></div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___exported___constants.html#gaf9fdc66ac7e0055497b7d8d3b858078b">   81</a></span><span class="preprocessor">#define USART_CMD_OUT                 (0)</span></div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___exported___constants.html#gad981a41d308ce021b8af7dd33307d5d9">   82</a></span><span class="preprocessor">#define USART_CMD_IN                  (1)</span></div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span> </div>
 <div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span><span class="comment">/* USART Word Length ---------------------------------------------------------------------------------------*/</span></div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span><span class="preprocessor">#define USART_WORDLENGTH_7B           ((u32)0x00000000)</span></div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span><span class="preprocessor">#define USART_WORDLENGTH_8B           ((u32)0x00000100)</span></div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span><span class="preprocessor">#define USART_WORDLENGTH_9B           ((u32)0x00000200)</span></div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___word___length.html#gad04bee45e53dc860f3a52f6409dba7c1">   88</a></span><span class="preprocessor">#define USART_WORDLENGTH_7B           ((u32)0x00000000)</span></div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___word___length.html#gae2978458689a31bed9a8a3e66ed84f50">   89</a></span><span class="preprocessor">#define USART_WORDLENGTH_8B           ((u32)0x00000100)</span></div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___word___length.html#ga3a8363f7dccf85ccb52d698e0900f347">   90</a></span><span class="preprocessor">#define USART_WORDLENGTH_9B           ((u32)0x00000200)</span></div>
 <div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span> </div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span><span class="preprocessor">#define IS_USART_WORD_LENGTH(LENGTH)  ((LENGTH == USART_WORDLENGTH_9B) || \</span></div>
+<div class="foldopen" id="foldopen00092" data-start="" data-end="">
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___word___length.html#ga5b07b29ee91f0bea4c10ec0fd74fbc04">   92</a></span><span class="preprocessor">#define IS_USART_WORD_LENGTH(LENGTH)  ((LENGTH == USART_WORDLENGTH_9B) || \</span></div>
 <div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span><span class="preprocessor">                                       (LENGTH == USART_WORDLENGTH_8B) || \</span></div>
 <div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span><span class="preprocessor">                                       (LENGTH == USART_WORDLENGTH_7B))</span></div>
+</div>
 <div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span><span class="comment">/* USART Stop Bits -----------------------------------------------------------------------------------------*/</span></div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span><span class="preprocessor">#define USART_STOPBITS_1              ((u32)0x00000000)</span></div>
-<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span><span class="preprocessor">#define USART_STOPBITS_2              ((u32)0x00000400)</span></div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___stop___bit.html#ga82aae3118e9cd59bb270c028e21c23b4">  103</a></span><span class="preprocessor">#define USART_STOPBITS_1              ((u32)0x00000000)</span></div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___stop___bit.html#gaf8d022e62f55ceb7b5e03eea336b5c45">  104</a></span><span class="preprocessor">#define USART_STOPBITS_2              ((u32)0x00000400)</span></div>
 <div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span> </div>
 <div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span> </div>
-<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span><span class="preprocessor">#define IS_USART_STOPBITS(STOPBITS)   ((STOPBITS == USART_STOPBITS_1) || \</span></div>
+<div class="foldopen" id="foldopen00107" data-start="" data-end="">
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___stop___bit.html#ga6f9153c1fbee1058ba26ec88f0f20828">  107</a></span><span class="preprocessor">#define IS_USART_STOPBITS(STOPBITS)   ((STOPBITS == USART_STOPBITS_1) || \</span></div>
 <div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span><span class="preprocessor">                                       (STOPBITS == USART_STOPBITS_2))</span></div>
+</div>
 <div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span><span class="comment">/* USART Parity --------------------------------------------------------------------------------------------*/</span></div>
-<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span><span class="preprocessor">#define USART_PARITY_NO               ((u32)0x00000000)</span></div>
-<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span><span class="preprocessor">#define USART_PARITY_EVEN             ((u32)0x00001800)</span></div>
-<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span><span class="preprocessor">#define USART_PARITY_ODD              ((u32)0x00000800)</span></div>
-<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span><span class="preprocessor">#define USART_PARITY_MARK             ((u32)0x00002800)</span></div>
-<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span><span class="preprocessor">#define USART_PARITY_SPACE            ((u32)0x00003800)</span></div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___parity.html#ga78086636aec7900ae0f7b2f476e48230">  117</a></span><span class="preprocessor">#define USART_PARITY_NO               ((u32)0x00000000)</span></div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___parity.html#gae7630824c78a39366b7e5b4c55996200">  118</a></span><span class="preprocessor">#define USART_PARITY_EVEN             ((u32)0x00001800)</span></div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___parity.html#ga184f3e22cb30ea94b797b02e94e774a1">  119</a></span><span class="preprocessor">#define USART_PARITY_ODD              ((u32)0x00000800)</span></div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___parity.html#ga85d4f1ad4b26d00ff59e415bb0146749">  120</a></span><span class="preprocessor">#define USART_PARITY_MARK             ((u32)0x00002800)</span></div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___parity.html#gaf768bacf781888dfa7ee81f54bb6d6cb">  121</a></span><span class="preprocessor">#define USART_PARITY_SPACE            ((u32)0x00003800)</span></div>
 <div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span> </div>
-<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span><span class="preprocessor">#define IS_USART_PARITY(PARITY)       ((PARITY == USART_PARITY_NO)   || \</span></div>
+<div class="foldopen" id="foldopen00123" data-start="" data-end="">
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___parity.html#gaa87b2e338e0ccc42887d3c56901bee87">  123</a></span><span class="preprocessor">#define IS_USART_PARITY(PARITY)       ((PARITY == USART_PARITY_NO)   || \</span></div>
 <div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span><span class="preprocessor">                                       (PARITY == USART_PARITY_EVEN) || \</span></div>
 <div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span><span class="preprocessor">                                       (PARITY == USART_PARITY_ODD))</span></div>
+</div>
 <div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span><span class="comment">/* USART Mode ----------------------------------------------------------------------------------------------*/</span></div>
-<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span><span class="preprocessor">#define USART_MODE_NORMAL             ((u32)0x00000000)</span></div>
-<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span><span class="preprocessor">#define USART_MODE_IRDA               ((u32)0x00000001)</span></div>
-<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span><span class="preprocessor">#define USART_MODE_RS485              ((u32)0x00000002)</span></div>
-<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span><span class="preprocessor">#define USART_MODE_SYNCHRONOUS        ((u32)0x00000003)</span></div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___mode.html#gadcf25792248002bfc467859827b40c2a">  134</a></span><span class="preprocessor">#define USART_MODE_NORMAL             ((u32)0x00000000)</span></div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___mode.html#gae3e7ce1ee302ade431ad5f8eb99685c4">  135</a></span><span class="preprocessor">#define USART_MODE_IRDA               ((u32)0x00000001)</span></div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___mode.html#gaa2946a63275da85d3b578044a88bbd7d">  136</a></span><span class="preprocessor">#define USART_MODE_RS485              ((u32)0x00000002)</span></div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___mode.html#ga7dec7147c47cab81cbbf03d08a947959">  137</a></span><span class="preprocessor">#define USART_MODE_SYNCHRONOUS        ((u32)0x00000003)</span></div>
 <div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span><span class="preprocessor">#if (LIBCFG_USART_LIN)</span></div>
 <div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span><span class="preprocessor">#define USART_MODE_LIN                ((u32)0x00010000)</span></div>
 <div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span><span class="preprocessor">#define IS_MODE_LIN(x)                (x == USART_MODE_LIN)</span></div>
 <div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span><span class="preprocessor">#define IS_MODE_LIN(x)                (0)</span></div>
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___mode.html#gaac583a5d4a2ce328922ac2c726a0e222">  142</a></span><span class="preprocessor">#define IS_MODE_LIN(x)                (0)</span></div>
 <div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span><span class="preprocessor">#if (LIBCFG_USART_SINGLE_WIRE)</span></div>
 <div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span><span class="preprocessor">#define USART_MODE_SINGLE_WIRE        ((u32)0x00010001)</span></div>
 <div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span><span class="preprocessor">#define IS_MODE_SINGLE_WIRE(x)        (x == USART_MODE_SINGLE_WIRE)</span></div>
 <div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span><span class="preprocessor">#define IS_MODE_SINGLE_WIRE(x)        (0)</span></div>
+<div class="line"><a id="l00148" name="l00148"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___mode.html#ga13646551459c2dbacd25f65a669b1f37">  148</a></span><span class="preprocessor">#define IS_MODE_SINGLE_WIRE(x)        (0)</span></div>
 <div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span><span class="preprocessor">#define IS_USART_MODE(MODE)           ((MODE == USART_MODE_NORMAL)      || \</span></div>
+<div class="foldopen" id="foldopen00150" data-start="" data-end="">
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___mode.html#gae9140e5ca405d2377fe0e82c79e136a2">  150</a></span><span class="preprocessor">#define IS_USART_MODE(MODE)           ((MODE == USART_MODE_NORMAL)      || \</span></div>
 <div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span><span class="preprocessor">                                       (MODE == USART_MODE_IRDA)        || \</span></div>
 <div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span><span class="preprocessor">                                       (MODE == USART_MODE_RS485)       || \</span></div>
 <div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span><span class="preprocessor">                                       (MODE == USART_MODE_SYNCHRONOUS) || \</span></div>
 <div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span><span class="preprocessor">                                       IS_MODE_LIN(MODE)                || \</span></div>
 <div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span><span class="preprocessor">                                       IS_MODE_SINGLE_WIRE(MODE))</span></div>
+</div>
 <div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span><span class="comment">/* USART Transfer Select Mode ------------------------------------------------------------------------------*/</span></div>
-<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span><span class="preprocessor">#define USART_LSB_FIRST               ((u32)0x00000000)</span></div>
-<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span><span class="preprocessor">#define USART_MSB_FIRST               ((u32)0x00000004)</span></div>
+<div class="line"><a id="l00164" name="l00164"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___l_s_b.html#ga455322d2b8b2c4e115996f01eecc5201">  164</a></span><span class="preprocessor">#define USART_LSB_FIRST               ((u32)0x00000000)</span></div>
+<div class="line"><a id="l00165" name="l00165"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___l_s_b.html#ga84e0a2dbe7b5244d3d45dbf1b2e906b9">  165</a></span><span class="preprocessor">#define USART_MSB_FIRST               ((u32)0x00000004)</span></div>
 <div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span> </div>
-<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span><span class="preprocessor">#define IS_USART_TRANSFER_MODE(TMODE) ((TMODE == USART_LSB_FIRST) || \</span></div>
+<div class="foldopen" id="foldopen00167" data-start="" data-end="">
+<div class="line"><a id="l00167" name="l00167"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___l_s_b.html#ga1f1d0ea7b8c0551235e5dcb44dc636d1">  167</a></span><span class="preprocessor">#define IS_USART_TRANSFER_MODE(TMODE) ((TMODE == USART_LSB_FIRST) || \</span></div>
 <div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span><span class="preprocessor">                                       (TMODE == USART_MSB_FIRST))</span></div>
+</div>
 <div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span><span class="comment">/* USART Synchronous Clock ---------------------------------------------------------------------------------*/</span></div>
-<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span><span class="preprocessor">#define USART_SYN_CLOCK_DISABLE                 ((u32)0x00000000)</span></div>
-<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span><span class="preprocessor">#define USART_SYN_CLOCK_ENABLE                  ((u32)0x00000001)</span></div>
+<div class="line"><a id="l00178" name="l00178"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___synchronous___clock.html#ga126dd2a560c74b7121d32f70182825b9">  178</a></span><span class="preprocessor">#define USART_SYN_CLOCK_DISABLE                 ((u32)0x00000000)</span></div>
+<div class="line"><a id="l00179" name="l00179"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___synchronous___clock.html#gaf9a3bde4a2c40d441df24f78395fd086">  179</a></span><span class="preprocessor">#define USART_SYN_CLOCK_ENABLE                  ((u32)0x00000001)</span></div>
 <div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span> </div>
-<div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span><span class="preprocessor">#define IS_USART_SYNCHRONOUS_CLOCK(SYNCLOCK)    ((SYNCLOCK == USART_SYN_CLOCK_DISABLE) || \</span></div>
+<div class="foldopen" id="foldopen00181" data-start="" data-end="">
+<div class="line"><a id="l00181" name="l00181"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___synchronous___clock.html#gaeadf9de999d8f6eec65f2454a5eaa7d9">  181</a></span><span class="preprocessor">#define IS_USART_SYNCHRONOUS_CLOCK(SYNCLOCK)    ((SYNCLOCK == USART_SYN_CLOCK_DISABLE) || \</span></div>
 <div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span><span class="preprocessor">                                                 (SYNCLOCK == USART_SYN_CLOCK_ENABLE))</span></div>
+</div>
 <div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span><span class="comment">/* USART Synchronous Clock Phase ---------------------------------------------------------------------------*/</span></div>
-<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span><span class="preprocessor">#define USART_SYN_CLOCK_PHASE_FIRST             ((u32)0x00000000)</span></div>
-<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span><span class="preprocessor">#define USART_SYN_CLOCK_PHASE_SECOND            ((u32)0x00000004)</span></div>
+<div class="line"><a id="l00191" name="l00191"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___synchronous___clock___phase.html#ga0d8e411af58b2202dc87898be2c47a19">  191</a></span><span class="preprocessor">#define USART_SYN_CLOCK_PHASE_FIRST             ((u32)0x00000000)</span></div>
+<div class="line"><a id="l00192" name="l00192"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___synchronous___clock___phase.html#ga49d98727e7315e44ad7eb7651c0b514b">  192</a></span><span class="preprocessor">#define USART_SYN_CLOCK_PHASE_SECOND            ((u32)0x00000004)</span></div>
 <div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span> </div>
-<div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span><span class="preprocessor">#define IS_USART_SYNCHRONOUS_PHASE(PHASE)       ((PHASE == USART_SYN_CLOCK_PHASE_FIRST) || \</span></div>
+<div class="foldopen" id="foldopen00194" data-start="" data-end="">
+<div class="line"><a id="l00194" name="l00194"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___synchronous___clock___phase.html#ga3d48016cadf23ec363a547dfe9c26473">  194</a></span><span class="preprocessor">#define IS_USART_SYNCHRONOUS_PHASE(PHASE)       ((PHASE == USART_SYN_CLOCK_PHASE_FIRST) || \</span></div>
 <div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span><span class="preprocessor">                                                 (PHASE == USART_SYN_CLOCK_PHASE_SECOND))</span></div>
+</div>
 <div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span><span class="comment">/* USART Clock Polarity ------------------------------------------------------------------------------------*/</span></div>
-<div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span><span class="preprocessor">#define USART_SYN_CLOCK_POLARITY_LOW            ((u32)0x00000000)</span></div>
-<div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span><span class="preprocessor">#define USART_SYN_CLOCK_POLARITY_HIGH           ((u32)0x00000008)</span></div>
+<div class="line"><a id="l00204" name="l00204"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___clock___polarity.html#ga887963aa8fe221a39253dbef8aae7da3">  204</a></span><span class="preprocessor">#define USART_SYN_CLOCK_POLARITY_LOW            ((u32)0x00000000)</span></div>
+<div class="line"><a id="l00205" name="l00205"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___clock___polarity.html#ga8a80ec658cfd9f810f450d1449ce9025">  205</a></span><span class="preprocessor">#define USART_SYN_CLOCK_POLARITY_HIGH           ((u32)0x00000008)</span></div>
 <div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span> </div>
-<div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span><span class="preprocessor">#define IS_USART_SYNCHRONOUS_POLARITY(POLARITY) ((POLARITY == USART_SYN_CLOCK_POLARITY_LOW) || \</span></div>
+<div class="foldopen" id="foldopen00207" data-start="" data-end="">
+<div class="line"><a id="l00207" name="l00207"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___clock___polarity.html#ga3684c9ec028a1206f960c7b17ead290d">  207</a></span><span class="preprocessor">#define IS_USART_SYNCHRONOUS_POLARITY(POLARITY) ((POLARITY == USART_SYN_CLOCK_POLARITY_LOW) || \</span></div>
 <div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span><span class="preprocessor">                                                 (POLARITY == USART_SYN_CLOCK_POLARITY_HIGH))</span></div>
+</div>
 <div class="line"><a id="l00213" name="l00213"></a><span class="lineno">  213</span><span class="comment">/* USART IrDA  ---------------------------------------------------------------------------------------------*/</span></div>
-<div class="line"><a id="l00217" name="l00217"></a><span class="lineno">  217</span><span class="preprocessor">#define USART_IRDA_LOWPOWER                     ((u32)0x00000002)</span></div>
-<div class="line"><a id="l00218" name="l00218"></a><span class="lineno">  218</span><span class="preprocessor">#define USART_IRDA_NORMAL                       ((u32)0xFFFFFFFD)</span></div>
+<div class="line"><a id="l00217" name="l00217"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___ir_d_a.html#gaee56441513b68dc04524c543da90e7b1">  217</a></span><span class="preprocessor">#define USART_IRDA_LOWPOWER                     ((u32)0x00000002)</span></div>
+<div class="line"><a id="l00218" name="l00218"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___ir_d_a.html#ga7b14ee3cfaa15d5523126129f75ad252">  218</a></span><span class="preprocessor">#define USART_IRDA_NORMAL                       ((u32)0xFFFFFFFD)</span></div>
 <div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span> </div>
-<div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span><span class="preprocessor">#define IS_USART_IRDA_MODE(MODE)                ((MODE == USART_IRDA_LOWPOWER) || \</span></div>
+<div class="foldopen" id="foldopen00220" data-start="" data-end="">
+<div class="line"><a id="l00220" name="l00220"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___ir_d_a.html#ga7790838ff8ee71089da2c0e5bceee569">  220</a></span><span class="preprocessor">#define IS_USART_IRDA_MODE(MODE)                ((MODE == USART_IRDA_LOWPOWER) || \</span></div>
 <div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span><span class="preprocessor">                                                 (MODE == USART_IRDA_NORMAL))</span></div>
+</div>
 <div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span> </div>
-<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span><span class="preprocessor">#define USART_IRDA_TX                           ((u32)0x00000004)</span></div>
-<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span><span class="preprocessor">#define USART_IRDA_RX                           ((u32)0xFFFFFFFB)</span></div>
+<div class="line"><a id="l00223" name="l00223"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___ir_d_a.html#ga82fc61d94b6de391d90bb600cca4700c">  223</a></span><span class="preprocessor">#define USART_IRDA_TX                           ((u32)0x00000004)</span></div>
+<div class="line"><a id="l00224" name="l00224"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___ir_d_a.html#gaaeda7f22e9bfd3b08df1a44298195859">  224</a></span><span class="preprocessor">#define USART_IRDA_RX                           ((u32)0xFFFFFFFB)</span></div>
 <div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span> </div>
-<div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span><span class="preprocessor">#define IS_USART_IRDA_DIRECTION(DIRECTION)      ((DIRECTION == USART_IRDA_TX) || \</span></div>
+<div class="foldopen" id="foldopen00226" data-start="" data-end="">
+<div class="line"><a id="l00226" name="l00226"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___ir_d_a.html#gaad4e05c8869f918cb3fa3adb6623b477">  226</a></span><span class="preprocessor">#define IS_USART_IRDA_DIRECTION(DIRECTION)      ((DIRECTION == USART_IRDA_TX) || \</span></div>
 <div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span><span class="preprocessor">                                                 (DIRECTION == USART_IRDA_RX))</span></div>
-<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span><span class="preprocessor">#define IS_USART_TL(x)                (IS_USART_RXTL(x) || IS_USART_TXTL(x))</span></div>
+</div>
+<div class="line"><a id="l00232" name="l00232"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___exported___constants.html#ga1b861baf2229267e7a9adeea41e30158">  232</a></span><span class="preprocessor">#define IS_USART_TL(x)                (IS_USART_RXTL(x) || IS_USART_TXTL(x))</span></div>
 <div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span> </div>
 <div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span><span class="comment">/* USART Rx FIFO Interrupt Trigger Level -------------------------------------------------------------------*/</span></div>
-<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span><span class="preprocessor">#define USART_RXTL_01                 ((u32)0x00000000)</span></div>
-<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span><span class="preprocessor">#define USART_RXTL_02                 ((u32)0x00000010)</span></div>
-<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span><span class="preprocessor">#define USART_RXTL_04                 ((u32)0x00000020)</span></div>
-<div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span><span class="preprocessor">#define USART_RXTL_06                 ((u32)0x00000030)</span></div>
-<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span><span class="preprocessor">#define IS_USART_RXTL(RXTL)           ((RXTL == USART_RXTL_01) || \</span></div>
+<div class="line"><a id="l00238" name="l00238"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___r_x___f_i_f_o___trigger___level.html#gaa0fdd6a481d6b15e5da92409a44c30dd">  238</a></span><span class="preprocessor">#define USART_RXTL_01                 ((u32)0x00000000)</span></div>
+<div class="line"><a id="l00239" name="l00239"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___r_x___f_i_f_o___trigger___level.html#ga3d364d0eed1286669c53f633e16cda3b">  239</a></span><span class="preprocessor">#define USART_RXTL_02                 ((u32)0x00000010)</span></div>
+<div class="line"><a id="l00240" name="l00240"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___r_x___f_i_f_o___trigger___level.html#ga432c63d0d56021a63f27df416b5b33e9">  240</a></span><span class="preprocessor">#define USART_RXTL_04                 ((u32)0x00000020)</span></div>
+<div class="line"><a id="l00241" name="l00241"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___r_x___f_i_f_o___trigger___level.html#ga78804ab1878c0361b3815a489d021163">  241</a></span><span class="preprocessor">#define USART_RXTL_06                 ((u32)0x00000030)</span></div>
+<div class="foldopen" id="foldopen00242" data-start="" data-end="">
+<div class="line"><a id="l00242" name="l00242"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___r_x___f_i_f_o___trigger___level.html#ga265f7508cf12e17998e6ebd4d28fffe6">  242</a></span><span class="preprocessor">#define IS_USART_RXTL(RXTL)           ((RXTL == USART_RXTL_01) || \</span></div>
 <div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span><span class="preprocessor">                                       (RXTL == USART_RXTL_02) || \</span></div>
 <div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span><span class="preprocessor">                                       (RXTL == USART_RXTL_04) || \</span></div>
 <div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span><span class="preprocessor">                                       (RXTL == USART_RXTL_06))</span></div>
+</div>
 <div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span><span class="comment">/* USART Tx FIFO Interrupt Trigger Level -------------------------------------------------------------------*/</span></div>
-<div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span><span class="preprocessor">#define USART_TXTL_00                 ((u32)0x00000000)</span></div>
-<div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span><span class="preprocessor">#define USART_TXTL_02                 ((u32)0x00000010)</span></div>
-<div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span><span class="preprocessor">#define USART_TXTL_04                 ((u32)0x00000020)</span></div>
-<div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span><span class="preprocessor">#define USART_TXTL_06                 ((u32)0x00000030)</span></div>
+<div class="line"><a id="l00254" name="l00254"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___t_x___f_i_f_o___trigger___level.html#gad8b9cf455b2e17a2693957a1ef3ce66b">  254</a></span><span class="preprocessor">#define USART_TXTL_00                 ((u32)0x00000000)</span></div>
+<div class="line"><a id="l00255" name="l00255"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___t_x___f_i_f_o___trigger___level.html#gaf31d89b5c0c04cb6f193207d738af3f5">  255</a></span><span class="preprocessor">#define USART_TXTL_02                 ((u32)0x00000010)</span></div>
+<div class="line"><a id="l00256" name="l00256"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___t_x___f_i_f_o___trigger___level.html#ga3003a60f5cf0e224a662ac1d81c1e4ae">  256</a></span><span class="preprocessor">#define USART_TXTL_04                 ((u32)0x00000020)</span></div>
+<div class="line"><a id="l00257" name="l00257"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___t_x___f_i_f_o___trigger___level.html#ga88c0775259d0efa7a903190c8e2949ef">  257</a></span><span class="preprocessor">#define USART_TXTL_06                 ((u32)0x00000030)</span></div>
 <div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span> </div>
-<div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span><span class="preprocessor">#define IS_USART_TXTL(TXTL)           ((TXTL == USART_TXTL_00) || \</span></div>
+<div class="foldopen" id="foldopen00259" data-start="" data-end="">
+<div class="line"><a id="l00259" name="l00259"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___t_x___f_i_f_o___trigger___level.html#gab81e0e351cc94cacdc920a8a9d54d8cd">  259</a></span><span class="preprocessor">#define IS_USART_TXTL(TXTL)           ((TXTL == USART_TXTL_00) || \</span></div>
 <div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span><span class="preprocessor">                                       (TXTL == USART_TXTL_02) || \</span></div>
 <div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span><span class="preprocessor">                                       (TXTL == USART_TXTL_04) || \</span></div>
 <div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span><span class="preprocessor">                                       (TXTL == USART_TXTL_06))</span></div>
+</div>
 <div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span><span class="comment">/* USART Interrupt definition ------------------------------------------------------------------------------*/</span></div>
-<div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span><span class="preprocessor">#define USART_INT_RXDR                ((u32)0x00000001)</span></div>
-<div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span><span class="preprocessor">#define USART_INT_TXDE                ((u32)0x00000002)</span></div>
-<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span><span class="preprocessor">#define USART_INT_TXC                 ((u32)0x00000004)</span></div>
-<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span><span class="preprocessor">#define USART_INT_OE                  ((u32)0x00000008)</span></div>
-<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span><span class="preprocessor">#define USART_INT_PE                  ((u32)0x00000010)</span></div>
-<div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span><span class="preprocessor">#define USART_INT_FE                  ((u32)0x00000020)</span></div>
-<div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span><span class="preprocessor">#define USART_INT_BI                  ((u32)0x00000040)</span></div>
-<div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span><span class="preprocessor">#define USART_INT_RSADD               ((u32)0x00000080)</span></div>
-<div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span><span class="preprocessor">#define USART_INT_TOUT                ((u32)0x00000100)</span></div>
-<div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span><span class="preprocessor">#define USART_INT_CTS                 ((u32)0x00000200)</span></div>
+<div class="line"><a id="l00271" name="l00271"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___interrupt___enable.html#gae34401e9e86fd9f5d9af237439bec498">  271</a></span><span class="preprocessor">#define USART_INT_RXDR                ((u32)0x00000001)</span></div>
+<div class="line"><a id="l00272" name="l00272"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___interrupt___enable.html#gafa1a9053d95c1957f19b9362ae961528">  272</a></span><span class="preprocessor">#define USART_INT_TXDE                ((u32)0x00000002)</span></div>
+<div class="line"><a id="l00273" name="l00273"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___interrupt___enable.html#gabaada8cf84b31f749e9e2bd991c3bac9">  273</a></span><span class="preprocessor">#define USART_INT_TXC                 ((u32)0x00000004)</span></div>
+<div class="line"><a id="l00274" name="l00274"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___interrupt___enable.html#gad3975b50a7768d4b5fdf96ca18d02151">  274</a></span><span class="preprocessor">#define USART_INT_OE                  ((u32)0x00000008)</span></div>
+<div class="line"><a id="l00275" name="l00275"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___interrupt___enable.html#gaf9cd18ad8609f5ce8bc5ee706f3d85be">  275</a></span><span class="preprocessor">#define USART_INT_PE                  ((u32)0x00000010)</span></div>
+<div class="line"><a id="l00276" name="l00276"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___interrupt___enable.html#ga35d708b6c957bc8d6ff6c944f3d3a6bc">  276</a></span><span class="preprocessor">#define USART_INT_FE                  ((u32)0x00000020)</span></div>
+<div class="line"><a id="l00277" name="l00277"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___interrupt___enable.html#ga2736f9e2d48208240613c298411c27a5">  277</a></span><span class="preprocessor">#define USART_INT_BI                  ((u32)0x00000040)</span></div>
+<div class="line"><a id="l00278" name="l00278"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___interrupt___enable.html#gae865b70cd8242a32a399c43189a358d1">  278</a></span><span class="preprocessor">#define USART_INT_RSADD               ((u32)0x00000080)</span></div>
+<div class="line"><a id="l00279" name="l00279"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___interrupt___enable.html#gadfbc3db3adc69a4acc29e1eca1399148">  279</a></span><span class="preprocessor">#define USART_INT_TOUT                ((u32)0x00000100)</span></div>
+<div class="line"><a id="l00280" name="l00280"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___interrupt___enable.html#ga10652b2d9a849143cab44e4f720414ca">  280</a></span><span class="preprocessor">#define USART_INT_CTS                 ((u32)0x00000200)</span></div>
 <div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span><span class="preprocessor">#if (LIBCFG_USART_LIN)</span></div>
 <div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span><span class="preprocessor">#define USART_INT_LBD                 ((u32)0x00000400)</span></div>
 <div class="line"><a id="l00283" name="l00283"></a><span class="lineno">  283</span><span class="preprocessor">#endif</span></div>
@@ -263,46 +303,52 @@ $(document).ready(function(){initNavTree('ht32f5xxxx__usart_8h_source.html','');
 <div class="line"><a id="l00285" name="l00285"></a><span class="lineno">  285</span><span class="preprocessor">#if (LIBCFG_USART_LIN)</span></div>
 <div class="line"><a id="l00286" name="l00286"></a><span class="lineno">  286</span><span class="preprocessor">#define IS_USART_INT(INT)             ((((INT) &amp; 0xFFFFF800) == 0) &amp;&amp; ((INT) != 0))</span></div>
 <div class="line"><a id="l00287" name="l00287"></a><span class="lineno">  287</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00288" name="l00288"></a><span class="lineno">  288</span><span class="preprocessor">#define IS_USART_INT(INT)             ((((INT) &amp; 0xFFFFFC00) == 0) &amp;&amp; ((INT) != 0))</span></div>
+<div class="line"><a id="l00288" name="l00288"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___interrupt___enable.html#ga32e8dcef2c43c09587f099864b0dbf9c">  288</a></span><span class="preprocessor">#define IS_USART_INT(INT)             ((((INT) &amp; 0xFFFFFC00) == 0) &amp;&amp; ((INT) != 0))</span></div>
 <div class="line"><a id="l00289" name="l00289"></a><span class="lineno">  289</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span><span class="comment">/* USART Flags ---------------------------------------------------------------------------------------------*/</span></div>
-<div class="line"><a id="l00298" name="l00298"></a><span class="lineno">  298</span><span class="preprocessor">#define USART_FLAG_RXDNE              ((u32)0x00000001)</span></div>
-<div class="line"><a id="l00299" name="l00299"></a><span class="lineno">  299</span><span class="preprocessor">#define USART_FLAG_OE                 ((u32)0x00000002)</span></div>
-<div class="line"><a id="l00300" name="l00300"></a><span class="lineno">  300</span><span class="preprocessor">#define USART_FLAG_PE                 ((u32)0x00000004)</span></div>
-<div class="line"><a id="l00301" name="l00301"></a><span class="lineno">  301</span><span class="preprocessor">#define USART_FLAG_FE                 ((u32)0x00000008)</span></div>
-<div class="line"><a id="l00302" name="l00302"></a><span class="lineno">  302</span><span class="preprocessor">#define USART_FLAG_BI                 ((u32)0x00000010)</span></div>
-<div class="line"><a id="l00303" name="l00303"></a><span class="lineno">  303</span><span class="preprocessor">#define USART_FLAG_RXDR               ((u32)0x00000020)</span></div>
-<div class="line"><a id="l00304" name="l00304"></a><span class="lineno">  304</span><span class="preprocessor">#define USART_FLAG_TOUT               ((u32)0x00000040)</span></div>
-<div class="line"><a id="l00305" name="l00305"></a><span class="lineno">  305</span><span class="preprocessor">#define USART_FLAG_TXDE               ((u32)0x00000080)</span></div>
-<div class="line"><a id="l00306" name="l00306"></a><span class="lineno">  306</span><span class="preprocessor">#define USART_FLAG_TXC                ((u32)0x00000100)</span></div>
-<div class="line"><a id="l00307" name="l00307"></a><span class="lineno">  307</span><span class="preprocessor">#define USART_FLAG_RSADD              ((u32)0x00000200)</span></div>
-<div class="line"><a id="l00308" name="l00308"></a><span class="lineno">  308</span><span class="preprocessor">#define USART_FLAG_CTSC               ((u32)0x00000400)</span></div>
-<div class="line"><a id="l00309" name="l00309"></a><span class="lineno">  309</span><span class="preprocessor">#define USART_FLAG_CTSS               ((u32)0x00000800)</span></div>
+<div class="line"><a id="l00298" name="l00298"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___flag.html#ga092efaaa0a7699fc655b318bf47d7b34">  298</a></span><span class="preprocessor">#define USART_FLAG_RXDNE              ((u32)0x00000001)</span></div>
+<div class="line"><a id="l00299" name="l00299"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___flag.html#ga942fd81a8e01d3481acbb519ed1b7838">  299</a></span><span class="preprocessor">#define USART_FLAG_OE                 ((u32)0x00000002)</span></div>
+<div class="line"><a id="l00300" name="l00300"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___flag.html#ga5e87fde5704f27c75df25395e23404ad">  300</a></span><span class="preprocessor">#define USART_FLAG_PE                 ((u32)0x00000004)</span></div>
+<div class="line"><a id="l00301" name="l00301"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___flag.html#ga3551a32bac49a2ec040e5fdafcc9c4bd">  301</a></span><span class="preprocessor">#define USART_FLAG_FE                 ((u32)0x00000008)</span></div>
+<div class="line"><a id="l00302" name="l00302"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___flag.html#ga700708757413a21037a7067e701bc004">  302</a></span><span class="preprocessor">#define USART_FLAG_BI                 ((u32)0x00000010)</span></div>
+<div class="line"><a id="l00303" name="l00303"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___flag.html#ga827806148ea02f508765bedc0d29e093">  303</a></span><span class="preprocessor">#define USART_FLAG_RXDR               ((u32)0x00000020)</span></div>
+<div class="line"><a id="l00304" name="l00304"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___flag.html#ga22804f1883a1a6db24364f939b214be6">  304</a></span><span class="preprocessor">#define USART_FLAG_TOUT               ((u32)0x00000040)</span></div>
+<div class="line"><a id="l00305" name="l00305"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___flag.html#gaa77e0494a2f1f48507b5938e346a5ad9">  305</a></span><span class="preprocessor">#define USART_FLAG_TXDE               ((u32)0x00000080)</span></div>
+<div class="line"><a id="l00306" name="l00306"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___flag.html#ga014df850f88d328d21181e160644ce3e">  306</a></span><span class="preprocessor">#define USART_FLAG_TXC                ((u32)0x00000100)</span></div>
+<div class="line"><a id="l00307" name="l00307"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___flag.html#ga4aecfc71a9c023d802cdaa839bf87fe2">  307</a></span><span class="preprocessor">#define USART_FLAG_RSADD              ((u32)0x00000200)</span></div>
+<div class="line"><a id="l00308" name="l00308"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___flag.html#ga79df748c607f96a4030a953638c732ae">  308</a></span><span class="preprocessor">#define USART_FLAG_CTSC               ((u32)0x00000400)</span></div>
+<div class="line"><a id="l00309" name="l00309"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___flag.html#gab3dfb00e20374f8dc661daf8073b4fac">  309</a></span><span class="preprocessor">#define USART_FLAG_CTSS               ((u32)0x00000800)</span></div>
 <div class="line"><a id="l00310" name="l00310"></a><span class="lineno">  310</span><span class="preprocessor">#if (LIBCFG_USART_LIN)</span></div>
 <div class="line"><a id="l00311" name="l00311"></a><span class="lineno">  311</span><span class="preprocessor">#define USART_FLAG_LBD                ((u32)0x00001000)</span></div>
 <div class="line"><a id="l00312" name="l00312"></a><span class="lineno">  312</span><span class="preprocessor">#define IS_FLAG_LBD(x)                (x == USART_FLAG_LBD)</span></div>
 <div class="line"><a id="l00313" name="l00313"></a><span class="lineno">  313</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00314" name="l00314"></a><span class="lineno">  314</span><span class="preprocessor">#define IS_FLAG_LBD(x)                (0)</span></div>
+<div class="line"><a id="l00314" name="l00314"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___flag.html#ga86c23e117f23b4c9789152b6009e00c7">  314</a></span><span class="preprocessor">#define IS_FLAG_LBD(x)                (0)</span></div>
 <div class="line"><a id="l00315" name="l00315"></a><span class="lineno">  315</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00316" name="l00316"></a><span class="lineno">  316</span> </div>
-<div class="line"><a id="l00317" name="l00317"></a><span class="lineno">  317</span><span class="preprocessor">#define IS_USART_FLAG(FLAG)           ((FLAG == USART_FLAG_RXDNE) || (FLAG == USART_FLAG_OE)    || \</span></div>
+<div class="foldopen" id="foldopen00317" data-start="" data-end="">
+<div class="line"><a id="l00317" name="l00317"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___flag.html#ga3e20747ce7c97a36718933c0cb3dac29">  317</a></span><span class="preprocessor">#define IS_USART_FLAG(FLAG)           ((FLAG == USART_FLAG_RXDNE) || (FLAG == USART_FLAG_OE)    || \</span></div>
 <div class="line"><a id="l00318" name="l00318"></a><span class="lineno">  318</span><span class="preprocessor">                                       (FLAG == USART_FLAG_PE)    || (FLAG == USART_FLAG_FE)    || \</span></div>
 <div class="line"><a id="l00319" name="l00319"></a><span class="lineno">  319</span><span class="preprocessor">                                       (FLAG == USART_FLAG_BI)    || (FLAG == USART_FLAG_RXDR)  || \</span></div>
 <div class="line"><a id="l00320" name="l00320"></a><span class="lineno">  320</span><span class="preprocessor">                                       (FLAG == USART_FLAG_TOUT)  || (FLAG == USART_FLAG_TXDE)  || \</span></div>
 <div class="line"><a id="l00321" name="l00321"></a><span class="lineno">  321</span><span class="preprocessor">                                       (FLAG == USART_FLAG_TXC)   || (FLAG == USART_FLAG_RSADD) || \</span></div>
 <div class="line"><a id="l00322" name="l00322"></a><span class="lineno">  322</span><span class="preprocessor">                                       (FLAG == USART_FLAG_CTSC)  || (FLAG == USART_FLAG_CTSS)  || \</span></div>
 <div class="line"><a id="l00323" name="l00323"></a><span class="lineno">  323</span><span class="preprocessor">                                       IS_FLAG_LBD(FLAG))</span></div>
+</div>
 <div class="line"><a id="l00324" name="l00324"></a><span class="lineno">  324</span> </div>
-<div class="line"><a id="l00325" name="l00325"></a><span class="lineno">  325</span><span class="preprocessor">#define IS_USART_CLEAR_FLAG(FLAG)     ((FLAG == USART_FLAG_OE)    || (FLAG == USART_FLAG_PE)    || \</span></div>
+<div class="foldopen" id="foldopen00325" data-start="" data-end="">
+<div class="line"><a id="l00325" name="l00325"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___flag.html#gadc905fdce8defba31c00c95554a26bc3">  325</a></span><span class="preprocessor">#define IS_USART_CLEAR_FLAG(FLAG)     ((FLAG == USART_FLAG_OE)    || (FLAG == USART_FLAG_PE)    || \</span></div>
 <div class="line"><a id="l00326" name="l00326"></a><span class="lineno">  326</span><span class="preprocessor">                                       (FLAG == USART_FLAG_FE)    || (FLAG == USART_FLAG_BI)    || \</span></div>
 <div class="line"><a id="l00327" name="l00327"></a><span class="lineno">  327</span><span class="preprocessor">                                       (FLAG == USART_FLAG_TOUT)  || (FLAG == USART_FLAG_RSADD) || \</span></div>
 <div class="line"><a id="l00328" name="l00328"></a><span class="lineno">  328</span><span class="preprocessor">                                       (FLAG == USART_FLAG_CTSC)  || IS_FLAG_LBD(FLAG))</span></div>
+</div>
 <div class="line"><a id="l00333" name="l00333"></a><span class="lineno">  333</span><span class="comment">/* USART RS485 definition ----------------------------------------------------------------------------------*/</span></div>
-<div class="line"><a id="l00337" name="l00337"></a><span class="lineno">  337</span><span class="preprocessor">#define USART_RS485POLARITY_LOW                 ((u32)0x00000001)</span></div>
-<div class="line"><a id="l00338" name="l00338"></a><span class="lineno">  338</span><span class="preprocessor">#define USART_RS485POLARITY_HIGH                ((u32)0xFFFFFFFE)</span></div>
+<div class="line"><a id="l00337" name="l00337"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___r_s485.html#ga1f3b082620241b6c15381a63501c29c5">  337</a></span><span class="preprocessor">#define USART_RS485POLARITY_LOW                 ((u32)0x00000001)</span></div>
+<div class="line"><a id="l00338" name="l00338"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___r_s485.html#ga2f4d555fc8bf89ab5ed54b42c4df9b09">  338</a></span><span class="preprocessor">#define USART_RS485POLARITY_HIGH                ((u32)0xFFFFFFFE)</span></div>
 <div class="line"><a id="l00339" name="l00339"></a><span class="lineno">  339</span> </div>
-<div class="line"><a id="l00340" name="l00340"></a><span class="lineno">  340</span><span class="preprocessor">#define IS_USART_RS485_POLARITY(POLARITY)       ((POLARITY == USART_RS485POLARITY_LOW) || \</span></div>
+<div class="foldopen" id="foldopen00340" data-start="" data-end="">
+<div class="line"><a id="l00340" name="l00340"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___r_s485.html#ga6b9a2393e89e4dbd08c91fa84339ea65">  340</a></span><span class="preprocessor">#define IS_USART_RS485_POLARITY(POLARITY)       ((POLARITY == USART_RS485POLARITY_LOW) || \</span></div>
 <div class="line"><a id="l00341" name="l00341"></a><span class="lineno">  341</span><span class="preprocessor">                                                 (POLARITY == USART_RS485POLARITY_HIGH))</span></div>
+</div>
 <div class="line"><a id="l00346" name="l00346"></a><span class="lineno">  346</span><span class="comment">/*  USART LIN definition -----------------------------------------------------------------------------------*/</span></div>
 <div class="line"><a id="l00350" name="l00350"></a><span class="lineno">  350</span><span class="preprocessor">#if (LIBCFG_USART_LIN)</span></div>
 <div class="line"><a id="l00351" name="l00351"></a><span class="lineno">  351</span><span class="preprocessor">#define USART_LINSENDBREAK                      ((u32)0x00020000)</span></div>
@@ -313,16 +359,18 @@ $(document).ready(function(){initNavTree('ht32f5xxxx__usart_8h_source.html','');
 <div class="line"><a id="l00356" name="l00356"></a><span class="lineno">  356</span><span class="preprocessor">#define IS_USART_LINLENGTH(LENGTH)              ((LENGTH == USART_LINLENGTH_10BIT) || \</span></div>
 <div class="line"><a id="l00357" name="l00357"></a><span class="lineno">  357</span><span class="preprocessor">                                                 (LENGTH == USART_LINLENGTH_11BIT))</span></div>
 <div class="line"><a id="l00358" name="l00358"></a><span class="lineno">  358</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00363" name="l00363"></a><span class="lineno">  363</span><span class="preprocessor">#define USART_FIFO_TX                           ((u32)0x00000001)</span></div>
-<div class="line"><a id="l00364" name="l00364"></a><span class="lineno">  364</span><span class="preprocessor">#define USART_FIFO_RX                           ((u32)0x00000002)</span></div>
+<div class="line"><a id="l00363" name="l00363"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___exported___constants.html#ga283cb9265312c541db5c21634c3cbb2c">  363</a></span><span class="preprocessor">#define USART_FIFO_TX                           ((u32)0x00000001)</span></div>
+<div class="line"><a id="l00364" name="l00364"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___exported___constants.html#gae49cfa38cd9dcfdf38fb53fcedaa7b5b">  364</a></span><span class="preprocessor">#define USART_FIFO_RX                           ((u32)0x00000002)</span></div>
 <div class="line"><a id="l00365" name="l00365"></a><span class="lineno">  365</span> </div>
-<div class="line"><a id="l00366" name="l00366"></a><span class="lineno">  366</span><span class="preprocessor">#define IS_USART_FIFO_DIRECTION(DIRECTION)      ((DIRECTION == USART_FIFO_TX) || \</span></div>
+<div class="foldopen" id="foldopen00366" data-start="" data-end="">
+<div class="line"><a id="l00366" name="l00366"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___exported___constants.html#ga39ba9d06aa529255b0d6de2f17b46bcc">  366</a></span><span class="preprocessor">#define IS_USART_FIFO_DIRECTION(DIRECTION)      ((DIRECTION == USART_FIFO_TX) || \</span></div>
 <div class="line"><a id="l00367" name="l00367"></a><span class="lineno">  367</span><span class="preprocessor">                                                 (DIRECTION == USART_FIFO_RX))</span></div>
+</div>
 <div class="line"><a id="l00368" name="l00368"></a><span class="lineno">  368</span> </div>
-<div class="line"><a id="l00369" name="l00369"></a><span class="lineno">  369</span><span class="preprocessor">#define USART_STICK_LOW                         ((u32)0x00001000)</span></div>
-<div class="line"><a id="l00370" name="l00370"></a><span class="lineno">  370</span><span class="preprocessor">#define USART_STICK_HIGH                        ((u32)0xFFFFEFFF)</span></div>
+<div class="line"><a id="l00369" name="l00369"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___exported___constants.html#ga5ebc24b88de6f2fa2ea5e99e808c83f5">  369</a></span><span class="preprocessor">#define USART_STICK_LOW                         ((u32)0x00001000)</span></div>
+<div class="line"><a id="l00370" name="l00370"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___exported___constants.html#ga94e4ee5a35aa581b6aabb72a61647df8">  370</a></span><span class="preprocessor">#define USART_STICK_HIGH                        ((u32)0xFFFFEFFF)</span></div>
 <div class="line"><a id="l00371" name="l00371"></a><span class="lineno">  371</span> </div>
-<div class="line"><a id="l00372" name="l00372"></a><span class="lineno">  372</span><span class="preprocessor">#define IS_USART_STICK_PARITY(PARITY)           ((PARITY == USART_STICK_LOW) || (PARITY == USART_STICK_HIGH))</span></div>
+<div class="line"><a id="l00372" name="l00372"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___exported___constants.html#gaef72d1434b7526f72cf10a88291a24aa">  372</a></span><span class="preprocessor">#define IS_USART_STICK_PARITY(PARITY)           ((PARITY == USART_STICK_LOW) || (PARITY == USART_STICK_HIGH))</span></div>
 <div class="line"><a id="l00373" name="l00373"></a><span class="lineno">  373</span> </div>
 <div class="line"><a id="l00374" name="l00374"></a><span class="lineno">  374</span><span class="preprocessor">#if (LIBCFG_PDMA)</span></div>
 <div class="line"><a id="l00375" name="l00375"></a><span class="lineno">  375</span><span class="preprocessor">#define USART_PDMAREQ_TX                        ((u32)0x00000040)</span></div>
@@ -331,104 +379,111 @@ $(document).ready(function(){initNavTree('ht32f5xxxx__usart_8h_source.html','');
 <div class="line"><a id="l00378" name="l00378"></a><span class="lineno">  378</span><span class="preprocessor">#define IS_USART_PDMA_REQ(REQ)                  (((REQ &amp; 0xFFFFFF3F) == 0x0) &amp;&amp; (REQ != 0x0))</span></div>
 <div class="line"><a id="l00379" name="l00379"></a><span class="lineno">  379</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00380" name="l00380"></a><span class="lineno">  380</span> </div>
-<div class="line"><a id="l00381" name="l00381"></a><span class="lineno">  381</span><span class="preprocessor">#define IS_USART(x)                             (IS_USART0(x) || \</span></div>
+<div class="foldopen" id="foldopen00381" data-start="" data-end="">
+<div class="line"><a id="l00381" name="l00381"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___exported___constants.html#ga0050882cfe48f60b58c06dec6cccaab6">  381</a></span><span class="preprocessor">#define IS_USART(x)                             (IS_USART0(x) || \</span></div>
 <div class="line"><a id="l00382" name="l00382"></a><span class="lineno">  382</span><span class="preprocessor">                                                 IS_USART1(x) || \</span></div>
 <div class="line"><a id="l00383" name="l00383"></a><span class="lineno">  383</span><span class="preprocessor">                                                 IS_UART0(x)  || \</span></div>
 <div class="line"><a id="l00384" name="l00384"></a><span class="lineno">  384</span><span class="preprocessor">                                                 IS_UART1(x)  || \</span></div>
 <div class="line"><a id="l00385" name="l00385"></a><span class="lineno">  385</span><span class="preprocessor">                                                 IS_UART2(x)  || \</span></div>
 <div class="line"><a id="l00386" name="l00386"></a><span class="lineno">  386</span><span class="preprocessor">                                                 IS_UART3(x))</span></div>
+</div>
 <div class="line"><a id="l00387" name="l00387"></a><span class="lineno">  387</span><span class="preprocessor">#if (LIBCFG_NO_USART0)</span></div>
 <div class="line"><a id="l00388" name="l00388"></a><span class="lineno">  388</span><span class="preprocessor">#define IS_USART0(x)    (0)</span></div>
 <div class="line"><a id="l00389" name="l00389"></a><span class="lineno">  389</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00390" name="l00390"></a><span class="lineno">  390</span><span class="preprocessor">#define IS_USART0(x)    (x == HT_USART0)</span></div>
+<div class="line"><a id="l00390" name="l00390"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___exported___constants.html#ga0308f926cb770383bffbb7039e2d4c45">  390</a></span><span class="preprocessor">#define IS_USART0(x)    (x == HT_USART0)</span></div>
 <div class="line"><a id="l00391" name="l00391"></a><span class="lineno">  391</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00392" name="l00392"></a><span class="lineno">  392</span><span class="preprocessor">#define IS_UART0(x)     (x == HT_UART0)</span></div>
+<div class="line"><a id="l00392" name="l00392"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___exported___constants.html#ga37560c718c62f705d193c5795214e67e">  392</a></span><span class="preprocessor">#define IS_UART0(x)     (x == HT_UART0)</span></div>
 <div class="line"><a id="l00393" name="l00393"></a><span class="lineno">  393</span><span class="preprocessor">#if (LIBCFG_USART1)</span></div>
 <div class="line"><a id="l00394" name="l00394"></a><span class="lineno">  394</span><span class="preprocessor">#define IS_USART1(x)    (x == HT_USART1)</span></div>
 <div class="line"><a id="l00395" name="l00395"></a><span class="lineno">  395</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00396" name="l00396"></a><span class="lineno">  396</span><span class="preprocessor">#define IS_USART1(x)    (0)</span></div>
+<div class="line"><a id="l00396" name="l00396"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___exported___constants.html#gab94f07c0798f3f61bf29e97ee52f5399">  396</a></span><span class="preprocessor">#define IS_USART1(x)    (0)</span></div>
 <div class="line"><a id="l00397" name="l00397"></a><span class="lineno">  397</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00398" name="l00398"></a><span class="lineno">  398</span><span class="preprocessor">#if (LIBCFG_UART1)</span></div>
 <div class="line"><a id="l00399" name="l00399"></a><span class="lineno">  399</span><span class="preprocessor">#define IS_UART1(x)     (x == HT_UART1)</span></div>
 <div class="line"><a id="l00400" name="l00400"></a><span class="lineno">  400</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00401" name="l00401"></a><span class="lineno">  401</span><span class="preprocessor">#define IS_UART1(x)     (0)</span></div>
+<div class="line"><a id="l00401" name="l00401"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___exported___constants.html#ga6f1f6ccf02b1c1d1d2413a390ae4ced0">  401</a></span><span class="preprocessor">#define IS_UART1(x)     (0)</span></div>
 <div class="line"><a id="l00402" name="l00402"></a><span class="lineno">  402</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00403" name="l00403"></a><span class="lineno">  403</span><span class="preprocessor">#if (LIBCFG_UART2)</span></div>
 <div class="line"><a id="l00404" name="l00404"></a><span class="lineno">  404</span><span class="preprocessor">#define IS_UART2(x)     (x == HT_UART2)</span></div>
 <div class="line"><a id="l00405" name="l00405"></a><span class="lineno">  405</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00406" name="l00406"></a><span class="lineno">  406</span><span class="preprocessor">#define IS_UART2(x)     (0)</span></div>
+<div class="line"><a id="l00406" name="l00406"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___exported___constants.html#ga4ac0c12b54b535e5d0b12459b55a8ef1">  406</a></span><span class="preprocessor">#define IS_UART2(x)     (0)</span></div>
 <div class="line"><a id="l00407" name="l00407"></a><span class="lineno">  407</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00408" name="l00408"></a><span class="lineno">  408</span><span class="preprocessor">#if (LIBCFG_UART3)</span></div>
 <div class="line"><a id="l00409" name="l00409"></a><span class="lineno">  409</span><span class="preprocessor">#define IS_UART3(x)     (x == HT_UART3)</span></div>
 <div class="line"><a id="l00410" name="l00410"></a><span class="lineno">  410</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00411" name="l00411"></a><span class="lineno">  411</span><span class="preprocessor">#define IS_UART3(x)     (0)</span></div>
+<div class="line"><a id="l00411" name="l00411"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___exported___constants.html#gacd94b1d3142e12683b9ccee5d249120e">  411</a></span><span class="preprocessor">#define IS_UART3(x)     (0)</span></div>
 <div class="line"><a id="l00412" name="l00412"></a><span class="lineno">  412</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00413" name="l00413"></a><span class="lineno">  413</span><span class="preprocessor">#define IS_USART_BAUDRATE(BAUDRATE)             ((BAUDRATE &gt; 0) &amp;&amp; (BAUDRATE &lt; 0x0044AA21))</span></div>
-<div class="line"><a id="l00414" name="l00414"></a><span class="lineno">  414</span><span class="preprocessor">#define IS_USART_DATA(DATA)                     (DATA &lt;= 0x1FF)</span></div>
-<div class="line"><a id="l00415" name="l00415"></a><span class="lineno">  415</span><span class="preprocessor">#define IS_USART_GUARD_TIME(TIME)               (TIME &lt;= 0xFF)</span></div>
-<div class="line"><a id="l00416" name="l00416"></a><span class="lineno">  416</span><span class="preprocessor">#define IS_USART_IRDA_PRESCALER(PRESCALER)      (PRESCALER &lt;= 0xFF)</span></div>
-<div class="line"><a id="l00417" name="l00417"></a><span class="lineno">  417</span><span class="preprocessor">#define IS_USART_TIMEOUT(TIMEOUT)               (TIMEOUT &lt;= 0x7F)</span></div>
-<div class="line"><a id="l00418" name="l00418"></a><span class="lineno">  418</span><span class="preprocessor">#define IS_USART_ADDRESS_MATCH_VALUE(VALUE)     (VALUE &lt;= 0xFF)</span></div>
+<div class="line"><a id="l00413" name="l00413"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___exported___constants.html#ga9dc365e0a1e01031a8e0757a34b9d420">  413</a></span><span class="preprocessor">#define IS_USART_BAUDRATE(BAUDRATE)             ((BAUDRATE &gt; 0) &amp;&amp; (BAUDRATE &lt; 0x0044AA21))</span></div>
+<div class="line"><a id="l00414" name="l00414"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___exported___constants.html#gafd6307e41818e076d31f3c24cb5ba135">  414</a></span><span class="preprocessor">#define IS_USART_DATA(DATA)                     (DATA &lt;= 0x1FF)</span></div>
+<div class="line"><a id="l00415" name="l00415"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___exported___constants.html#ga7ba90fe3385132bf502c25ffec2fc522">  415</a></span><span class="preprocessor">#define IS_USART_GUARD_TIME(TIME)               (TIME &lt;= 0xFF)</span></div>
+<div class="line"><a id="l00416" name="l00416"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___exported___constants.html#ga8cc5b778e9585296600d26d476cb46aa">  416</a></span><span class="preprocessor">#define IS_USART_IRDA_PRESCALER(PRESCALER)      (PRESCALER &lt;= 0xFF)</span></div>
+<div class="line"><a id="l00417" name="l00417"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___exported___constants.html#ga461ed31144a08508ac2120d31e14e868">  417</a></span><span class="preprocessor">#define IS_USART_TIMEOUT(TIMEOUT)               (TIMEOUT &lt;= 0x7F)</span></div>
+<div class="line"><a id="l00418" name="l00418"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___exported___constants.html#gacddb0581f40931b7cd8f9ef92cfb8599">  418</a></span><span class="preprocessor">#define IS_USART_ADDRESS_MATCH_VALUE(VALUE)     (VALUE &lt;= 0xFF)</span></div>
 <div class="line"><a id="l00423" name="l00423"></a><span class="lineno">  423</span><span class="comment">/* Exported functions --------------------------------------------------------------------------------------*/</span></div>
-<div class="line"><a id="l00427" name="l00427"></a><span class="lineno">  427</span><span class="preprocessor">#define USART_TxCmd(USARTx, NewState)              USART_TxRxCmd(USARTx, USART_CMD_TX, NewState)</span></div>
-<div class="line"><a id="l00428" name="l00428"></a><span class="lineno">  428</span><span class="preprocessor">#define USART_RxCmd(USARTx, NewState)              USART_TxRxCmd(USARTx, USART_CMD_RX, NewState)</span></div>
+<div class="line"><a id="l00427" name="l00427"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___exported___functions.html#ga7be54abcbaef7adefa59cd5e318df383">  427</a></span><span class="preprocessor">#define USART_TxCmd(USARTx, NewState)              USART_TxRxCmd(USARTx, USART_CMD_TX, NewState)</span></div>
+<div class="line"><a id="l00428" name="l00428"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___exported___functions.html#ga39eb9ace16d82b7112e822283d5edd46">  428</a></span><span class="preprocessor">#define USART_RxCmd(USARTx, NewState)              USART_TxRxCmd(USARTx, USART_CMD_RX, NewState)</span></div>
 <div class="line"><a id="l00429" name="l00429"></a><span class="lineno">  429</span> </div>
-<div class="line"><a id="l00430" name="l00430"></a><span class="lineno">  430</span><span class="preprocessor">#define USART_TxPDMACmd(USARTx, NewState)          USART_PDMACmd(USARTx, USART_PDMAREQ_TX, NewState)</span></div>
-<div class="line"><a id="l00431" name="l00431"></a><span class="lineno">  431</span><span class="preprocessor">#define USART_RxPDMACmd(USARTx, NewState)          USART_PDMACmd(USARTx, USART_PDMAREQ_RX, NewState)</span></div>
+<div class="line"><a id="l00430" name="l00430"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___exported___functions.html#gad8fa61fa3a645ec6f9748c2505d1890c">  430</a></span><span class="preprocessor">#define USART_TxPDMACmd(USARTx, NewState)          USART_PDMACmd(USARTx, USART_PDMAREQ_TX, NewState)</span></div>
+<div class="line"><a id="l00431" name="l00431"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___exported___functions.html#ga1893639e78a7a2c29e1ed6b012ebb11f">  431</a></span><span class="preprocessor">#define USART_RxPDMACmd(USARTx, NewState)          USART_PDMACmd(USARTx, USART_PDMAREQ_RX, NewState)</span></div>
 <div class="line"><a id="l00432" name="l00432"></a><span class="lineno">  432</span> </div>
-<div class="line"><a id="l00433" name="l00433"></a><span class="lineno">  433</span><span class="preprocessor">#define USART_RXTLConfig(USARTx, USART_tl)         USART_TXRXTLConfig(USARTx, USART_CMD_RX, USART_tl)</span></div>
-<div class="line"><a id="l00434" name="l00434"></a><span class="lineno">  434</span><span class="preprocessor">#define USART_TXTLConfig(USARTx, USART_tl)         USART_TXRXTLConfig(USARTx, USART_CMD_TX, USART_tl)</span></div>
+<div class="line"><a id="l00433" name="l00433"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___exported___functions.html#ga1d6b078837550fa1bca9644d1ccfdf3b">  433</a></span><span class="preprocessor">#define USART_RXTLConfig(USARTx, USART_tl)         USART_TXRXTLConfig(USARTx, USART_CMD_RX, USART_tl)</span></div>
+<div class="line"><a id="l00434" name="l00434"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___exported___functions.html#gafcd3ed103237935e4ab75f0def3d81ed">  434</a></span><span class="preprocessor">#define USART_TXTLConfig(USARTx, USART_tl)         USART_TXRXTLConfig(USARTx, USART_CMD_TX, USART_tl)</span></div>
 <div class="line"><a id="l00435" name="l00435"></a><span class="lineno">  435</span> </div>
-<div class="line"><a id="l00436" name="l00436"></a><span class="lineno">  436</span><span class="preprocessor">#define USART_IrDAInvtOutputCmd(USARTx, NewState)  USART_IrDAInvtCmd(USARTx, USART_CMD_OUT, NewState)</span></div>
-<div class="line"><a id="l00437" name="l00437"></a><span class="lineno">  437</span><span class="preprocessor">#define USART_IrDAInvtInputCmd(USARTx, NewState)   USART_IrDAInvtCmd(USARTx, USART_CMD_IN, NewState)</span></div>
+<div class="line"><a id="l00436" name="l00436"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___exported___functions.html#gaeea890adcd3ecbea887e7efaa2dac41c">  436</a></span><span class="preprocessor">#define USART_IrDAInvtOutputCmd(USARTx, NewState)  USART_IrDAInvtCmd(USARTx, USART_CMD_OUT, NewState)</span></div>
+<div class="line"><a id="l00437" name="l00437"></a><span class="lineno"><a class="line" href="group___u_s_a_r_t___exported___functions.html#gadbfc20764df24c126f5bdb5f6bada19e">  437</a></span><span class="preprocessor">#define USART_IrDAInvtInputCmd(USARTx, NewState)   USART_IrDAInvtCmd(USARTx, USART_CMD_IN, NewState)</span></div>
 <div class="line"><a id="l00438" name="l00438"></a><span class="lineno">  438</span> </div>
 <div class="line"><a id="l00439" name="l00439"></a><span class="lineno">  439</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___u_s_a_r_t___exported___functions.html#ga24d558ac0234813f0400182c32ad7ff4">USART_DeInit</a>(<a class="code hl_struct" href="struct_h_t___u_s_a_r_t___type_def.html">HT_USART_TypeDef</a>* USARTx);</div>
 <div class="line"><a id="l00440" name="l00440"></a><span class="lineno">  440</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___u_s_a_r_t___exported___functions.html#ga0f3fa68e71801550f7a89b676231a6c2">USART_Init</a>(<a class="code hl_struct" href="struct_h_t___u_s_a_r_t___type_def.html">HT_USART_TypeDef</a>* USARTx, <a class="code hl_struct" href="struct_u_s_a_r_t___init_type_def.html">USART_InitTypeDef</a>* USART_InitStructure);</div>
 <div class="line"><a id="l00441" name="l00441"></a><span class="lineno">  441</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___u_s_a_r_t___exported___functions.html#ga34e1faa2f312496c16cfd05155f4c8b1">USART_StructInit</a>(<a class="code hl_struct" href="struct_u_s_a_r_t___init_type_def.html">USART_InitTypeDef</a>* USART_InitStructure);</div>
-<div class="line"><a id="l00442" name="l00442"></a><span class="lineno">  442</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___u_s_a_r_t___exported___functions.html#ga474f1faf0f97a9f6b212a946b6e288c8">USART_SendData</a>(<a class="code hl_struct" href="struct_h_t___u_s_a_r_t___type_def.html">HT_USART_TypeDef</a>* USARTx, u16 Data);</div>
-<div class="line"><a id="l00443" name="l00443"></a><span class="lineno">  443</span>u16 <a class="code hl_function" href="group___u_s_a_r_t___exported___functions.html#ga78ec7b6447ab95010b6bf12302b2459f">USART_ReceiveData</a>(<a class="code hl_struct" href="struct_h_t___u_s_a_r_t___type_def.html">HT_USART_TypeDef</a>* USARTx);</div>
-<div class="line"><a id="l00444" name="l00444"></a><span class="lineno">  444</span>FlagStatus <a class="code hl_function" href="group___u_s_a_r_t___exported___functions.html#ga48d55989364ab0040499ae0dcf5d8fc7">USART_GetFlagStatus</a>(<a class="code hl_struct" href="struct_h_t___u_s_a_r_t___type_def.html">HT_USART_TypeDef</a>* USARTx, u32 USART_FLAG_x);</div>
-<div class="line"><a id="l00445" name="l00445"></a><span class="lineno">  445</span>FlagStatus <a class="code hl_function" href="group___u_s_a_r_t___exported___functions.html#gaec5ef02657880fc95abceab3530e4ccd">USART_GetIntStatus</a>(<a class="code hl_struct" href="struct_h_t___u_s_a_r_t___type_def.html">HT_USART_TypeDef</a>* USARTx, u32 USART_FLAG_x);</div>
-<div class="line"><a id="l00446" name="l00446"></a><span class="lineno">  446</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___u_s_a_r_t___exported___functions.html#gaa582009ee9bd04ca9b4e3edbccc48fc3">USART_ClearFlag</a>(<a class="code hl_struct" href="struct_h_t___u_s_a_r_t___type_def.html">HT_USART_TypeDef</a>* USARTx, u32 USART_Flag);</div>
-<div class="line"><a id="l00447" name="l00447"></a><span class="lineno">  447</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___u_s_a_r_t___exported___functions.html#ga37e2777c796817c96f5b49f8b5bffb3f">USART_IntConfig</a>(<a class="code hl_struct" href="struct_h_t___u_s_a_r_t___type_def.html">HT_USART_TypeDef</a>* USARTx, u32 USART_INT_x, ControlStatus NewState);</div>
-<div class="line"><a id="l00448" name="l00448"></a><span class="lineno">  448</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___u_s_a_r_t___exported___functions.html#gaf9be1743235a3c04ff09fad7e2d7282d">USART_TxRxCmd</a>(<a class="code hl_struct" href="struct_h_t___u_s_a_r_t___type_def.html">HT_USART_TypeDef</a>* USARTx,u32 TxRx, ControlStatus NewState);</div>
+<div class="line"><a id="l00442" name="l00442"></a><span class="lineno">  442</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___u_s_a_r_t___exported___functions.html#ga474f1faf0f97a9f6b212a946b6e288c8">USART_SendData</a>(<a class="code hl_struct" href="struct_h_t___u_s_a_r_t___type_def.html">HT_USART_TypeDef</a>* USARTx, <a class="code hl_typedef" href="group___exported___types.html#ga9e6c91d77e24643b888dbd1a1a590054">u16</a> Data);</div>
+<div class="line"><a id="l00443" name="l00443"></a><span class="lineno">  443</span><a class="code hl_typedef" href="group___exported___types.html#ga9e6c91d77e24643b888dbd1a1a590054">u16</a> <a class="code hl_function" href="group___u_s_a_r_t___exported___functions.html#ga78ec7b6447ab95010b6bf12302b2459f">USART_ReceiveData</a>(<a class="code hl_struct" href="struct_h_t___u_s_a_r_t___type_def.html">HT_USART_TypeDef</a>* USARTx);</div>
+<div class="line"><a id="l00444" name="l00444"></a><span class="lineno">  444</span><a class="code hl_enumeration" href="group___exported___types.html#ga89136caac2e14c55151f527ac02daaff">FlagStatus</a> <a class="code hl_function" href="group___u_s_a_r_t___exported___functions.html#ga48d55989364ab0040499ae0dcf5d8fc7">USART_GetFlagStatus</a>(<a class="code hl_struct" href="struct_h_t___u_s_a_r_t___type_def.html">HT_USART_TypeDef</a>* USARTx, <a class="code hl_typedef" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> USART_FLAG_x);</div>
+<div class="line"><a id="l00445" name="l00445"></a><span class="lineno">  445</span><a class="code hl_enumeration" href="group___exported___types.html#ga89136caac2e14c55151f527ac02daaff">FlagStatus</a> <a class="code hl_function" href="group___u_s_a_r_t___exported___functions.html#gaec5ef02657880fc95abceab3530e4ccd">USART_GetIntStatus</a>(<a class="code hl_struct" href="struct_h_t___u_s_a_r_t___type_def.html">HT_USART_TypeDef</a>* USARTx, <a class="code hl_typedef" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> USART_FLAG_x);</div>
+<div class="line"><a id="l00446" name="l00446"></a><span class="lineno">  446</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___u_s_a_r_t___exported___functions.html#gaa582009ee9bd04ca9b4e3edbccc48fc3">USART_ClearFlag</a>(<a class="code hl_struct" href="struct_h_t___u_s_a_r_t___type_def.html">HT_USART_TypeDef</a>* USARTx, <a class="code hl_typedef" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> USART_Flag);</div>
+<div class="line"><a id="l00447" name="l00447"></a><span class="lineno">  447</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___u_s_a_r_t___exported___functions.html#ga37e2777c796817c96f5b49f8b5bffb3f">USART_IntConfig</a>(<a class="code hl_struct" href="struct_h_t___u_s_a_r_t___type_def.html">HT_USART_TypeDef</a>* USARTx, <a class="code hl_typedef" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> USART_INT_x, <a class="code hl_typedef" href="group___exported___types.html#ga7e0a5efd47ffb7f58fcc2e1cb1e38dae">ControlStatus</a> NewState);</div>
+<div class="line"><a id="l00448" name="l00448"></a><span class="lineno">  448</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___u_s_a_r_t___exported___functions.html#gaf9be1743235a3c04ff09fad7e2d7282d">USART_TxRxCmd</a>(<a class="code hl_struct" href="struct_h_t___u_s_a_r_t___type_def.html">HT_USART_TypeDef</a>* USARTx,<a class="code hl_typedef" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> TxRx, <a class="code hl_typedef" href="group___exported___types.html#ga7e0a5efd47ffb7f58fcc2e1cb1e38dae">ControlStatus</a> NewState);</div>
 <div class="line"><a id="l00449" name="l00449"></a><span class="lineno">  449</span><span class="preprocessor">#if (LIBCFG_PDMA)</span></div>
-<div class="line"><a id="l00450" name="l00450"></a><span class="lineno">  450</span><span class="keywordtype">void</span> USART_PDMACmd(<a class="code hl_struct" href="struct_h_t___u_s_a_r_t___type_def.html">HT_USART_TypeDef</a>* USARTx, u32 USART_PDMAREQ, ControlStatus NewState);</div>
+<div class="line"><a id="l00450" name="l00450"></a><span class="lineno">  450</span><span class="keywordtype">void</span> USART_PDMACmd(<a class="code hl_struct" href="struct_h_t___u_s_a_r_t___type_def.html">HT_USART_TypeDef</a>* USARTx, <a class="code hl_typedef" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> USART_PDMAREQ, <a class="code hl_typedef" href="group___exported___types.html#ga7e0a5efd47ffb7f58fcc2e1cb1e38dae">ControlStatus</a> NewState);</div>
 <div class="line"><a id="l00451" name="l00451"></a><span class="lineno">  451</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00452" name="l00452"></a><span class="lineno">  452</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___u_s_a_r_t___exported___functions.html#ga6a7c452e8df63c16d53faf9a860db9db">USART_ForceBreakCmd</a>(<a class="code hl_struct" href="struct_h_t___u_s_a_r_t___type_def.html">HT_USART_TypeDef</a>* USARTx, ControlStatus NewState);</div>
-<div class="line"><a id="l00453" name="l00453"></a><span class="lineno">  453</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___u_s_a_r_t___exported___functions.html#ga327ea5e9a24147ce02b8e1d490078e1e">USART_StickParityCmd</a>(<a class="code hl_struct" href="struct_h_t___u_s_a_r_t___type_def.html">HT_USART_TypeDef</a>* USARTx, ControlStatus NewState);</div>
-<div class="line"><a id="l00454" name="l00454"></a><span class="lineno">  454</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___u_s_a_r_t___exported___functions.html#gad70d1e79b7e3125aa7d52eaf8e56a1b1">USART_StickParityConfig</a>(<a class="code hl_struct" href="struct_h_t___u_s_a_r_t___type_def.html">HT_USART_TypeDef</a>* USARTx, u32 USART_StickParity);</div>
+<div class="line"><a id="l00452" name="l00452"></a><span class="lineno">  452</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___u_s_a_r_t___exported___functions.html#ga6a7c452e8df63c16d53faf9a860db9db">USART_ForceBreakCmd</a>(<a class="code hl_struct" href="struct_h_t___u_s_a_r_t___type_def.html">HT_USART_TypeDef</a>* USARTx, <a class="code hl_typedef" href="group___exported___types.html#ga7e0a5efd47ffb7f58fcc2e1cb1e38dae">ControlStatus</a> NewState);</div>
+<div class="line"><a id="l00453" name="l00453"></a><span class="lineno">  453</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___u_s_a_r_t___exported___functions.html#ga327ea5e9a24147ce02b8e1d490078e1e">USART_StickParityCmd</a>(<a class="code hl_struct" href="struct_h_t___u_s_a_r_t___type_def.html">HT_USART_TypeDef</a>* USARTx, <a class="code hl_typedef" href="group___exported___types.html#ga7e0a5efd47ffb7f58fcc2e1cb1e38dae">ControlStatus</a> NewState);</div>
+<div class="line"><a id="l00454" name="l00454"></a><span class="lineno">  454</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___u_s_a_r_t___exported___functions.html#gad70d1e79b7e3125aa7d52eaf8e56a1b1">USART_StickParityConfig</a>(<a class="code hl_struct" href="struct_h_t___u_s_a_r_t___type_def.html">HT_USART_TypeDef</a>* USARTx, <a class="code hl_typedef" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> USART_StickParity);</div>
 <div class="line"><a id="l00455" name="l00455"></a><span class="lineno">  455</span> </div>
-<div class="line"><a id="l00456" name="l00456"></a><span class="lineno">  456</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___u_s_a_r_t___exported___functions.html#gaa8c1829a61f79dba7a95c258d9462a0f">USART_SetGuardTime</a>(<a class="code hl_struct" href="struct_h_t___u_s_a_r_t___type_def.html">HT_USART_TypeDef</a>* USARTx, u32 USART_GuardTime);</div>
-<div class="line"><a id="l00457" name="l00457"></a><span class="lineno">  457</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___u_s_a_r_t___exported___functions.html#ga9ef5fe2d9cbda9caed1f9d46e85ec892">USART_TXRXTLConfig</a>(<a class="code hl_struct" href="struct_h_t___u_s_a_r_t___type_def.html">HT_USART_TypeDef</a>* USARTx, u32 TxRx, u32 USART_tl);</div>
-<div class="line"><a id="l00458" name="l00458"></a><span class="lineno">  458</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___u_s_a_r_t___exported___functions.html#ga2de831e8cae3e07b8cab79e187efd4c9">USART_SetTimeOutValue</a>(<a class="code hl_struct" href="struct_h_t___u_s_a_r_t___type_def.html">HT_USART_TypeDef</a>* USARTx, u32 USART_TimeOut);</div>
-<div class="line"><a id="l00459" name="l00459"></a><span class="lineno">  459</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___u_s_a_r_t___exported___functions.html#ga2ab82a0a0cb27c9973c2466984f09a7f">USART_FIFOReset</a>(<a class="code hl_struct" href="struct_h_t___u_s_a_r_t___type_def.html">HT_USART_TypeDef</a>* USARTx, u32 USART_FIFODirection);</div>
-<div class="line"><a id="l00460" name="l00460"></a><span class="lineno">  460</span>u8 <a class="code hl_function" href="group___u_s_a_r_t___exported___functions.html#ga27fab965f3702fc07c5dfd718364d2ea">USART_GetFIFOStatus</a>(<a class="code hl_struct" href="struct_h_t___u_s_a_r_t___type_def.html">HT_USART_TypeDef</a>* USARTx, u32 USART_FIFODirection);</div>
-<div class="line"><a id="l00461" name="l00461"></a><span class="lineno">  461</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___u_s_a_r_t___exported___functions.html#gaaa80d2c138013a15d72e300cd3043eec">USART_HardwareFlowControlCmd</a>(<a class="code hl_struct" href="struct_h_t___u_s_a_r_t___type_def.html">HT_USART_TypeDef</a>* USARTx, ControlStatus NewState);</div>
+<div class="line"><a id="l00456" name="l00456"></a><span class="lineno">  456</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___u_s_a_r_t___exported___functions.html#gaa8c1829a61f79dba7a95c258d9462a0f">USART_SetGuardTime</a>(<a class="code hl_struct" href="struct_h_t___u_s_a_r_t___type_def.html">HT_USART_TypeDef</a>* USARTx, <a class="code hl_typedef" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> USART_GuardTime);</div>
+<div class="line"><a id="l00457" name="l00457"></a><span class="lineno">  457</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___u_s_a_r_t___exported___functions.html#ga9ef5fe2d9cbda9caed1f9d46e85ec892">USART_TXRXTLConfig</a>(<a class="code hl_struct" href="struct_h_t___u_s_a_r_t___type_def.html">HT_USART_TypeDef</a>* USARTx, <a class="code hl_typedef" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> TxRx, <a class="code hl_typedef" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> USART_tl);</div>
+<div class="line"><a id="l00458" name="l00458"></a><span class="lineno">  458</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___u_s_a_r_t___exported___functions.html#ga2de831e8cae3e07b8cab79e187efd4c9">USART_SetTimeOutValue</a>(<a class="code hl_struct" href="struct_h_t___u_s_a_r_t___type_def.html">HT_USART_TypeDef</a>* USARTx, <a class="code hl_typedef" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> USART_TimeOut);</div>
+<div class="line"><a id="l00459" name="l00459"></a><span class="lineno">  459</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___u_s_a_r_t___exported___functions.html#ga2ab82a0a0cb27c9973c2466984f09a7f">USART_FIFOReset</a>(<a class="code hl_struct" href="struct_h_t___u_s_a_r_t___type_def.html">HT_USART_TypeDef</a>* USARTx, <a class="code hl_typedef" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> USART_FIFODirection);</div>
+<div class="line"><a id="l00460" name="l00460"></a><span class="lineno">  460</span><a class="code hl_typedef" href="group___exported___types.html#gaed742c436da53c1080638ce6ef7d13de">u8</a> <a class="code hl_function" href="group___u_s_a_r_t___exported___functions.html#ga27fab965f3702fc07c5dfd718364d2ea">USART_GetFIFOStatus</a>(<a class="code hl_struct" href="struct_h_t___u_s_a_r_t___type_def.html">HT_USART_TypeDef</a>* USARTx, <a class="code hl_typedef" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> USART_FIFODirection);</div>
+<div class="line"><a id="l00461" name="l00461"></a><span class="lineno">  461</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___u_s_a_r_t___exported___functions.html#gaaa80d2c138013a15d72e300cd3043eec">USART_HardwareFlowControlCmd</a>(<a class="code hl_struct" href="struct_h_t___u_s_a_r_t___type_def.html">HT_USART_TypeDef</a>* USARTx, <a class="code hl_typedef" href="group___exported___types.html#ga7e0a5efd47ffb7f58fcc2e1cb1e38dae">ControlStatus</a> NewState);</div>
 <div class="line"><a id="l00462" name="l00462"></a><span class="lineno">  462</span> </div>
-<div class="line"><a id="l00463" name="l00463"></a><span class="lineno">  463</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___u_s_a_r_t___exported___functions.html#gad32d896d1b47b00b0c431ad1c22cca79">USART_IrDACmd</a>(<a class="code hl_struct" href="struct_h_t___u_s_a_r_t___type_def.html">HT_USART_TypeDef</a>* USARTx, ControlStatus NewState);</div>
-<div class="line"><a id="l00464" name="l00464"></a><span class="lineno">  464</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___u_s_a_r_t___exported___functions.html#gacc3b13f1a39908d83f7c7773fd073af6">USART_IrDAConfig</a>(<a class="code hl_struct" href="struct_h_t___u_s_a_r_t___type_def.html">HT_USART_TypeDef</a>* USARTx, u32 USART_IrDAMode);</div>
-<div class="line"><a id="l00465" name="l00465"></a><span class="lineno">  465</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___u_s_a_r_t___exported___functions.html#ga620dc946ac36690faa1533ab6963ab36">USART_SetIrDAPrescaler</a>(<a class="code hl_struct" href="struct_h_t___u_s_a_r_t___type_def.html">HT_USART_TypeDef</a>* USARTx, u32 USART_IrDAPrescaler);</div>
-<div class="line"><a id="l00466" name="l00466"></a><span class="lineno">  466</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___u_s_a_r_t___exported___functions.html#gafa4c27d1cecf512c3a7c79191b8f438b">USART_IrDADirectionConfig</a>(<a class="code hl_struct" href="struct_h_t___u_s_a_r_t___type_def.html">HT_USART_TypeDef</a>* USARTx, u32 USART_IrDADirection);</div>
-<div class="line"><a id="l00467" name="l00467"></a><span class="lineno">  467</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___u_s_a_r_t___exported___functions.html#gacde3a8e7a021fc5a1a21f2529becc79e">USART_IrDAInvtCmd</a>(<a class="code hl_struct" href="struct_h_t___u_s_a_r_t___type_def.html">HT_USART_TypeDef</a>* USARTx, u32 inout, ControlStatus NewState);</div>
+<div class="line"><a id="l00463" name="l00463"></a><span class="lineno">  463</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___u_s_a_r_t___exported___functions.html#gad32d896d1b47b00b0c431ad1c22cca79">USART_IrDACmd</a>(<a class="code hl_struct" href="struct_h_t___u_s_a_r_t___type_def.html">HT_USART_TypeDef</a>* USARTx, <a class="code hl_typedef" href="group___exported___types.html#ga7e0a5efd47ffb7f58fcc2e1cb1e38dae">ControlStatus</a> NewState);</div>
+<div class="line"><a id="l00464" name="l00464"></a><span class="lineno">  464</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___u_s_a_r_t___exported___functions.html#gacc3b13f1a39908d83f7c7773fd073af6">USART_IrDAConfig</a>(<a class="code hl_struct" href="struct_h_t___u_s_a_r_t___type_def.html">HT_USART_TypeDef</a>* USARTx, <a class="code hl_typedef" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> USART_IrDAMode);</div>
+<div class="line"><a id="l00465" name="l00465"></a><span class="lineno">  465</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___u_s_a_r_t___exported___functions.html#ga620dc946ac36690faa1533ab6963ab36">USART_SetIrDAPrescaler</a>(<a class="code hl_struct" href="struct_h_t___u_s_a_r_t___type_def.html">HT_USART_TypeDef</a>* USARTx, <a class="code hl_typedef" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> USART_IrDAPrescaler);</div>
+<div class="line"><a id="l00466" name="l00466"></a><span class="lineno">  466</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___u_s_a_r_t___exported___functions.html#gafa4c27d1cecf512c3a7c79191b8f438b">USART_IrDADirectionConfig</a>(<a class="code hl_struct" href="struct_h_t___u_s_a_r_t___type_def.html">HT_USART_TypeDef</a>* USARTx, <a class="code hl_typedef" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> USART_IrDADirection);</div>
+<div class="line"><a id="l00467" name="l00467"></a><span class="lineno">  467</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___u_s_a_r_t___exported___functions.html#gacde3a8e7a021fc5a1a21f2529becc79e">USART_IrDAInvtCmd</a>(<a class="code hl_struct" href="struct_h_t___u_s_a_r_t___type_def.html">HT_USART_TypeDef</a>* USARTx, <a class="code hl_typedef" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> inout, <a class="code hl_typedef" href="group___exported___types.html#ga7e0a5efd47ffb7f58fcc2e1cb1e38dae">ControlStatus</a> NewState);</div>
 <div class="line"><a id="l00468" name="l00468"></a><span class="lineno">  468</span> </div>
-<div class="line"><a id="l00469" name="l00469"></a><span class="lineno">  469</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___u_s_a_r_t___exported___functions.html#gae405a396802fb7b810c441161a45a094">USART_RS485TxEnablePolarityConfig</a>(<a class="code hl_struct" href="struct_h_t___u_s_a_r_t___type_def.html">HT_USART_TypeDef</a>* USARTx, u32 USART_RS485Polarity);</div>
-<div class="line"><a id="l00470" name="l00470"></a><span class="lineno">  470</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___u_s_a_r_t___exported___functions.html#gae9c7f663adf21a3eb9cf1e73e2ba02b0">USART_RS485NMMCmd</a>(<a class="code hl_struct" href="struct_h_t___u_s_a_r_t___type_def.html">HT_USART_TypeDef</a>* USARTx, ControlStatus NewState);</div>
-<div class="line"><a id="l00471" name="l00471"></a><span class="lineno">  471</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___u_s_a_r_t___exported___functions.html#gaa6e0a5a746b7b9c2e4a0175054881a23">USART_RS485AADCmd</a>(<a class="code hl_struct" href="struct_h_t___u_s_a_r_t___type_def.html">HT_USART_TypeDef</a>* USARTx, ControlStatus NewState);</div>
-<div class="line"><a id="l00472" name="l00472"></a><span class="lineno">  472</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___u_s_a_r_t___exported___functions.html#ga3a3a17555cf991d1f2c7315e38a45089">USART_SetAddressMatchValue</a>(<a class="code hl_struct" href="struct_h_t___u_s_a_r_t___type_def.html">HT_USART_TypeDef</a>* USARTx, u32 USART_AddressMatchValue);</div>
+<div class="line"><a id="l00469" name="l00469"></a><span class="lineno">  469</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___u_s_a_r_t___exported___functions.html#gae405a396802fb7b810c441161a45a094">USART_RS485TxEnablePolarityConfig</a>(<a class="code hl_struct" href="struct_h_t___u_s_a_r_t___type_def.html">HT_USART_TypeDef</a>* USARTx, <a class="code hl_typedef" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> USART_RS485Polarity);</div>
+<div class="line"><a id="l00470" name="l00470"></a><span class="lineno">  470</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___u_s_a_r_t___exported___functions.html#gae9c7f663adf21a3eb9cf1e73e2ba02b0">USART_RS485NMMCmd</a>(<a class="code hl_struct" href="struct_h_t___u_s_a_r_t___type_def.html">HT_USART_TypeDef</a>* USARTx, <a class="code hl_typedef" href="group___exported___types.html#ga7e0a5efd47ffb7f58fcc2e1cb1e38dae">ControlStatus</a> NewState);</div>
+<div class="line"><a id="l00471" name="l00471"></a><span class="lineno">  471</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___u_s_a_r_t___exported___functions.html#gaa6e0a5a746b7b9c2e4a0175054881a23">USART_RS485AADCmd</a>(<a class="code hl_struct" href="struct_h_t___u_s_a_r_t___type_def.html">HT_USART_TypeDef</a>* USARTx, <a class="code hl_typedef" href="group___exported___types.html#ga7e0a5efd47ffb7f58fcc2e1cb1e38dae">ControlStatus</a> NewState);</div>
+<div class="line"><a id="l00472" name="l00472"></a><span class="lineno">  472</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___u_s_a_r_t___exported___functions.html#ga3a3a17555cf991d1f2c7315e38a45089">USART_SetAddressMatchValue</a>(<a class="code hl_struct" href="struct_h_t___u_s_a_r_t___type_def.html">HT_USART_TypeDef</a>* USARTx, <a class="code hl_typedef" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> USART_AddressMatchValue);</div>
 <div class="line"><a id="l00473" name="l00473"></a><span class="lineno">  473</span> </div>
 <div class="line"><a id="l00474" name="l00474"></a><span class="lineno">  474</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___u_s_a_r_t___exported___functions.html#gaba4f7b59317f423418415191b27cee56">USART_SynClockInit</a>(<a class="code hl_struct" href="struct_h_t___u_s_a_r_t___type_def.html">HT_USART_TypeDef</a>* USARTx, <a class="code hl_struct" href="struct_u_s_a_r_t___syn_clock___init_type_def.html">USART_SynClock_InitTypeDef</a>* USART_SynClock_InitStruct);</div>
 <div class="line"><a id="l00475" name="l00475"></a><span class="lineno">  475</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___u_s_a_r_t___exported___functions.html#gaa6df1c2a28f17b0164458d2b42721f6f">USART_SynClockStructInit</a>(<a class="code hl_struct" href="struct_u_s_a_r_t___syn_clock___init_type_def.html">USART_SynClock_InitTypeDef</a>* USART_SynClock_InitStruct);</div>
 <div class="line"><a id="l00476" name="l00476"></a><span class="lineno">  476</span> </div>
 <div class="line"><a id="l00477" name="l00477"></a><span class="lineno">  477</span><span class="preprocessor">#if (LIBCFG_USART_LIN)</span></div>
 <div class="line"><a id="l00478" name="l00478"></a><span class="lineno">  478</span><span class="keywordtype">void</span> USART_LIN_SendBreak(<a class="code hl_struct" href="struct_h_t___u_s_a_r_t___type_def.html">HT_USART_TypeDef</a>* USARTx);</div>
-<div class="line"><a id="l00479" name="l00479"></a><span class="lineno">  479</span><span class="keywordtype">void</span> USART_LIN_LengthSelect(<a class="code hl_struct" href="struct_h_t___u_s_a_r_t___type_def.html">HT_USART_TypeDef</a>* USARTx, u32 USART_LIN_Length);</div>
+<div class="line"><a id="l00479" name="l00479"></a><span class="lineno">  479</span><span class="keywordtype">void</span> USART_LIN_LengthSelect(<a class="code hl_struct" href="struct_h_t___u_s_a_r_t___type_def.html">HT_USART_TypeDef</a>* USARTx, <a class="code hl_typedef" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> USART_LIN_Length);</div>
 <div class="line"><a id="l00480" name="l00480"></a><span class="lineno">  480</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00494" name="l00494"></a><span class="lineno">  494</span><span class="preprocessor">#ifdef __cplusplus</span></div>
 <div class="line"><a id="l00495" name="l00495"></a><span class="lineno">  495</span>}</div>
 <div class="line"><a id="l00496" name="l00496"></a><span class="lineno">  496</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00497" name="l00497"></a><span class="lineno">  497</span> </div>
 <div class="line"><a id="l00498" name="l00498"></a><span class="lineno">  498</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="agroup___exported___types_html_ga10e94b422ef0c20dcdec20d31a1f5049"><div class="ttname"><a href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a></div><div class="ttdeci">unsigned int u32</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_01.h:493</div></div>
+<div class="ttc" id="agroup___exported___types_html_ga7e0a5efd47ffb7f58fcc2e1cb1e38dae"><div class="ttname"><a href="group___exported___types.html#ga7e0a5efd47ffb7f58fcc2e1cb1e38dae">ControlStatus</a></div><div class="ttdeci">enum EventStatus ControlStatus</div></div>
+<div class="ttc" id="agroup___exported___types_html_ga89136caac2e14c55151f527ac02daaff"><div class="ttname"><a href="group___exported___types.html#ga89136caac2e14c55151f527ac02daaff">FlagStatus</a></div><div class="ttdeci">FlagStatus</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_01.h:524</div></div>
+<div class="ttc" id="agroup___exported___types_html_ga9e6c91d77e24643b888dbd1a1a590054"><div class="ttname"><a href="group___exported___types.html#ga9e6c91d77e24643b888dbd1a1a590054">u16</a></div><div class="ttdeci">unsigned short u16</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_01.h:494</div></div>
+<div class="ttc" id="agroup___exported___types_html_gaed742c436da53c1080638ce6ef7d13de"><div class="ttname"><a href="group___exported___types.html#gaed742c436da53c1080638ce6ef7d13de">u8</a></div><div class="ttdeci">unsigned char u8</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_01.h:495</div></div>
 <div class="ttc" id="agroup___u_s_a_r_t___exported___functions_html_ga0f3fa68e71801550f7a89b676231a6c2"><div class="ttname"><a href="group___u_s_a_r_t___exported___functions.html#ga0f3fa68e71801550f7a89b676231a6c2">USART_Init</a></div><div class="ttdeci">void USART_Init(HT_USART_TypeDef *USARTx, USART_InitTypeDef *USART_InitStructure)</div><div class="ttdoc">Initialize the USART/UART peripheral according to the specified parameters in the USART_InitStruct.</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_usart.c:153</div></div>
 <div class="ttc" id="agroup___u_s_a_r_t___exported___functions_html_ga24d558ac0234813f0400182c32ad7ff4"><div class="ttname"><a href="group___u_s_a_r_t___exported___functions.html#ga24d558ac0234813f0400182c32ad7ff4">USART_DeInit</a></div><div class="ttdeci">void USART_DeInit(HT_USART_TypeDef *USARTx)</div><div class="ttdoc">Deinitialize the USART/UART peripheral registers to their default reset values.</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_usart.c:92</div></div>
 <div class="ttc" id="agroup___u_s_a_r_t___exported___functions_html_ga27fab965f3702fc07c5dfd718364d2ea"><div class="ttname"><a href="group___u_s_a_r_t___exported___functions.html#ga27fab965f3702fc07c5dfd718364d2ea">USART_GetFIFOStatus</a></div><div class="ttdeci">u8 USART_GetFIFOStatus(HT_USART_TypeDef *USARTx, u32 USART_FIFODirection)</div><div class="ttdoc">Return the status of specified USART FIFO.</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_usart.c:592</div></div>
@@ -462,15 +517,20 @@ $(document).ready(function(){initNavTree('ht32f5xxxx__usart_8h_source.html','');
 <div class="ttc" id="aht32_8h_html"><div class="ttname"><a href="ht32_8h.html">ht32.h</a></div><div class="ttdoc">The API between application and HT32FXXXX Firmware Library.</div></div>
 <div class="ttc" id="astruct_h_t___u_s_a_r_t___type_def_html"><div class="ttname"><a href="struct_h_t___u_s_a_r_t___type_def.html">HT_USART_TypeDef</a></div><div class="ttdoc">Universal Synchronous Asynchronous Receiver Transmitter.</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_01.h:619</div></div>
 <div class="ttc" id="astruct_u_s_a_r_t___init_type_def_html"><div class="ttname"><a href="struct_u_s_a_r_t___init_type_def.html">USART_InitTypeDef</a></div><div class="ttdef"><b>Definition</b> ht32f5xxxx_usart.h:54</div></div>
+<div class="ttc" id="astruct_u_s_a_r_t___init_type_def_html_a25b591b26592907581ddd1376a1d1f74"><div class="ttname"><a href="struct_u_s_a_r_t___init_type_def.html#a25b591b26592907581ddd1376a1d1f74">USART_InitTypeDef::USART_Parity</a></div><div class="ttdeci">u16 USART_Parity</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_usart.h:58</div></div>
+<div class="ttc" id="astruct_u_s_a_r_t___init_type_def_html_a800f2b845a0c6948b0c6c91fbc3257d4"><div class="ttname"><a href="struct_u_s_a_r_t___init_type_def.html#a800f2b845a0c6948b0c6c91fbc3257d4">USART_InitTypeDef::USART_StopBits</a></div><div class="ttdeci">u16 USART_StopBits</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_usart.h:57</div></div>
+<div class="ttc" id="astruct_u_s_a_r_t___init_type_def_html_aa00c2ec3942e459ba23f783256307cae"><div class="ttname"><a href="struct_u_s_a_r_t___init_type_def.html#aa00c2ec3942e459ba23f783256307cae">USART_InitTypeDef::USART_Mode</a></div><div class="ttdeci">u32 USART_Mode</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_usart.h:59</div></div>
+<div class="ttc" id="astruct_u_s_a_r_t___init_type_def_html_ac205846b76d8a31f1320a93db8e0598d"><div class="ttname"><a href="struct_u_s_a_r_t___init_type_def.html#ac205846b76d8a31f1320a93db8e0598d">USART_InitTypeDef::USART_BaudRate</a></div><div class="ttdeci">u32 USART_BaudRate</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_usart.h:55</div></div>
+<div class="ttc" id="astruct_u_s_a_r_t___init_type_def_html_ad216f57c3f4fa80b3c19420c4f791cad"><div class="ttname"><a href="struct_u_s_a_r_t___init_type_def.html#ad216f57c3f4fa80b3c19420c4f791cad">USART_InitTypeDef::USART_WordLength</a></div><div class="ttdeci">u16 USART_WordLength</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_usart.h:56</div></div>
 <div class="ttc" id="astruct_u_s_a_r_t___syn_clock___init_type_def_html"><div class="ttname"><a href="struct_u_s_a_r_t___syn_clock___init_type_def.html">USART_SynClock_InitTypeDef</a></div><div class="ttdef"><b>Definition</b> ht32f5xxxx_usart.h:63</div></div>
+<div class="ttc" id="astruct_u_s_a_r_t___syn_clock___init_type_def_html_a258bd8a73346aa49483050ea32bfe87c"><div class="ttname"><a href="struct_u_s_a_r_t___syn_clock___init_type_def.html#a258bd8a73346aa49483050ea32bfe87c">USART_SynClock_InitTypeDef::USART_ClockPolarity</a></div><div class="ttdeci">u16 USART_ClockPolarity</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_usart.h:66</div></div>
+<div class="ttc" id="astruct_u_s_a_r_t___syn_clock___init_type_def_html_a981edc559a5c5abd49fda7f4fa815c09"><div class="ttname"><a href="struct_u_s_a_r_t___syn_clock___init_type_def.html#a981edc559a5c5abd49fda7f4fa815c09">USART_SynClock_InitTypeDef::USART_ClockEnable</a></div><div class="ttdeci">u16 USART_ClockEnable</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_usart.h:64</div></div>
+<div class="ttc" id="astruct_u_s_a_r_t___syn_clock___init_type_def_html_aa2adbdaa34707754801ab85016d20c55"><div class="ttname"><a href="struct_u_s_a_r_t___syn_clock___init_type_def.html#aa2adbdaa34707754801ab85016d20c55">USART_SynClock_InitTypeDef::USART_TransferSelectMode</a></div><div class="ttdeci">u16 USART_TransferSelectMode</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_usart.h:67</div></div>
+<div class="ttc" id="astruct_u_s_a_r_t___syn_clock___init_type_def_html_ab40b67524871709df6e25b5a9e82e5a4"><div class="ttname"><a href="struct_u_s_a_r_t___syn_clock___init_type_def.html#ab40b67524871709df6e25b5a9e82e5a4">USART_SynClock_InitTypeDef::USART_ClockPhase</a></div><div class="ttdeci">u16 USART_ClockPhase</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_usart.h:65</div></div>
 </div><!-- fragment --></div><!-- contents -->
-</div><!-- doc-content -->
 <!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="navelem"><a class="el" href="dir_275089585c7fc1b5fd5d7d42c69cb1da.html">D:</a></li><li class="navelem"><a class="el" href="dir_273f27263c611837868160ff0f82bfd9.html">Note_Database</a></li><li class="navelem"><a class="el" href="dir_e8282a48381dd1bcf012c1bae1dc741b.html">Subject</a></li><li class="navelem"><a class="el" href="dir_7583b43eec1d2788dd81e658186519d2.html">MCETA Microcontroller Experiment TA</a></li><li class="navelem"><a class="el" href="dir_3ca5c6b4c4a2c10c94024caf0df2e6bb.html">files</a></li><li class="navelem"><a class="el" href="dir_79e3244e27785f7ec158b45668f9e3ec.html">HT32_STD_5xxxx_FWLib_V1.5.1_7084b</a></li><li class="navelem"><a class="el" href="dir_6965e01511015f2942f432da2d4a5bcb.html">library</a></li><li class="navelem"><a class="el" href="dir_a2f81702cb5fc8b133c02bd1d2044bc0.html">HT32F5xxxx_Driver</a></li><li class="navelem"><a class="el" href="dir_5295d97ccb3d03e3674380e8c26a1d02.html">inc</a></li><li class="navelem"><a class="el" href="ht32f5xxxx__usart_8h.html">ht32f5xxxx_usart.h</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
-  </ul>
-</div>
+<hr class="footer"/><address class="footer"><small>
+Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+</small></address>
 </body>
 </html>

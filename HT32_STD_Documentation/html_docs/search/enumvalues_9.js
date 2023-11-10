@@ -1,8 +1,16 @@
 var searchData=
 [
-  ['mctm0_5firqn_0',['MCTM0_IRQn',['../group___configuration__for___interrupt___number.html#gga666eb0caeb12ec0e281415592ae89083a84a17db90ca74ea0b75f52c2b46e1903',1,'ht32f5xxxx_01.h']]],
-  ['mctm_5fcomus_5fstioff_1',['MCTM_COMUS_STIOFF',['../group___t_m___exported___types.html#gga8d148788d8bb6814c04a661f0064cbeeacab2873b08ea3ee5a30579464ec94ba7',1,'ht32f5xxxx_tm_type.h']]],
-  ['mctm_5fcomus_5fstion_2',['MCTM_COMUS_STION',['../group___t_m___exported___types.html#gga8d148788d8bb6814c04a661f0064cbeea4ebe0a48a2b507db0d8b64ec41d879cb',1,'ht32f5xxxx_tm_type.h']]],
-  ['mctm_5fois_5fhigh_3',['MCTM_OIS_HIGH',['../group___t_m___exported___types.html#ggadfad16625170cfb28b86d2a870c27ea8a06098324ed229cd05b910ef76054a04c',1,'ht32f5xxxx_tm_type.h']]],
-  ['mctm_5fois_5flow_4',['MCTM_OIS_LOW',['../group___t_m___exported___types.html#ggadfad16625170cfb28b86d2a870c27ea8a243bb7c88411eb09279e9746c3041b53',1,'ht32f5xxxx_tm_type.h']]]
+  ['i2c0_5firqn_0',['I2C0_IRQn',['../group___configuration__for___interrupt___number.html#gga666eb0caeb12ec0e281415592ae89083a0f1945c7372a6de732306ea3801c8e2a',1,'ht32f5xxxx_01.h']]],
+  ['i2c1_5firqn_1',['I2C1_IRQn',['../group___configuration__for___interrupt___number.html#gga666eb0caeb12ec0e281415592ae89083af651b1769e03e4653b1a4a7c88132398',1,'ht32f5xxxx_01.h']]],
+  ['i2c_5fmaster_5fbuserr_2',['I2C_MASTER_BUSERR',['../group___i2_c___master.html#gga411030f43659bde8865acfe2a266efaeae8a40698ad733d50303a2778859c6033',1,'i2c_master.h']]],
+  ['i2c_5fmaster_5fcmd_5fread_3',['I2C_MASTER_CMD_READ',['../group___i2_c___master.html#gga9e07907937b5e78796348460944af770a7dd422e8c19dbc633d3c82a5ce711c7e',1,'i2c_master.h']]],
+  ['i2c_5fmaster_5fcmd_5fwrite_4',['I2C_MASTER_CMD_WRITE',['../group___i2_c___master.html#gga9e07907937b5e78796348460944af770a4501da7c91a7dcdbd242f3adca0a62b5',1,'i2c_master.h']]],
+  ['i2c_5fmaster_5fcmd_5fwriteread_5',['I2C_MASTER_CMD_WRITEREAD',['../group___i2_c___master.html#gga9e07907937b5e78796348460944af770a8597521b954fe754c8999a783b9421d4',1,'i2c_master.h']]],
+  ['i2c_5fmaster_5fcmd_5fwritestopread_6',['I2C_MASTER_CMD_WRITESTOPREAD',['../group___i2_c___master.html#gga9e07907937b5e78796348460944af770ac0c72fac9f664bb390e63bfb5ac57527',1,'i2c_master.h']]],
+  ['i2c_5fmaster_5ffinish_7',['I2C_MASTER_FINISH',['../group___i2_c___master.html#gga411030f43659bde8865acfe2a266efaea58d085792eca82e6b7f3619c4a558e6e',1,'i2c_master.h']]],
+  ['i2c_5fmaster_5fgoing_8',['I2C_MASTER_GOING',['../group___i2_c___master.html#gga411030f43659bde8865acfe2a266efaea8c1ed8127e50b8e5aa291e9fd07fc194',1,'i2c_master.h']]],
+  ['i2c_5fmaster_5fhw_5ftimeout_9',['I2C_MASTER_HW_TIMEOUT',['../group___i2_c___master.html#gga411030f43659bde8865acfe2a266efaea368b9815885f1f7f88323547e268e500',1,'i2c_master.h']]],
+  ['i2c_5fmaster_5fnack_10',['I2C_MASTER_NACK',['../group___i2_c___master.html#gga411030f43659bde8865acfe2a266efaeab187e50c7e487bd1e233f47794b778f6',1,'i2c_master.h']]],
+  ['i2c_5fmaster_5fsw_5ftimeout_11',['I2C_MASTER_SW_TIMEOUT',['../group___i2_c___master.html#gga411030f43659bde8865acfe2a266efaeac510b17f6abdd65e8403d9758e49fa5f',1,'i2c_master.h']]],
+  ['interface_12',['Interface',['../group___u_s_b_d_core___private___types_definitions.html#gga1ae8000e65eca39eea8469054df6921fa3db9de4a8a63c1d91ba7fbd8d9b9b131',1,'ht32_usbd_core.c']]]
 ];

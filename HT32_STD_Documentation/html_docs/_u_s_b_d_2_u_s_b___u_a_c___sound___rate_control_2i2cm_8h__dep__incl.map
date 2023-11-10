@@ -1,0 +1,7 @@
+<map id="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/USBD/USB_UAC_Sound_RateControl/i2cm.h" name="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/USBD/USB_UAC_Sound_RateControl/i2cm.h">
+<area shape="rect" id="Node000001" title="The header file of I2C master driver." alt="" coords="156,5,497,96"/>
+<area shape="rect" id="Node000002" href="$_u_s_b_d_2_u_s_b___u_a_c___sound___rate_control_2ht32f5xxxx__01__it_8c.html" title="This file provides all interrupt service routine." alt="" coords="5,144,304,251"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="264,108,219,145,216,141,260,104"/>
+<area shape="rect" id="Node000003" href="$_u_s_b_d_2_u_s_b___u_a_c___sound___rate_control_2main_8c.html" title="The main program of USB Device Audio example." alt="" coords="328,152,669,243"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="393,104,447,149,444,154,389,108"/>
+</map>

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>HT32_STD_Documents: I2C_Interrupt</title>
+<title>HT32_STD_Code_Documents: I2C_Interrupt</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,9 +21,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">HT32_STD_Documents<span id="projectnumber">&#160;1.0.0</span>
+   <div id="projectname">HT32_STD_Code_Documents<span id="projectnumber">&#160;1.0.0</span>
    </div>
-   <div id="projectbrief">For HT32F52352</div>
+   <div id="projectbrief">Micro-controller Experiment</div>
   </td>
  </tr>
  </tbody>
@@ -77,26 +77,25 @@ $(function() {
   <div class="headertitle"><div class="title">I2C_Interrupt<div class="ingroups"><a class="el" href="group___h_t32___series___peripheral___examples.html">HT32 Peripheral Examples</a> &raquo; <a class="el" href="group___i2_c___examples.html">I2C</a></div></div></div>
 </div><!--header-->
 <div class="contents">
+<div class="dynheader">
+Collaboration diagram for I2C_Interrupt:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="group___i2_c___interrupt.svg" width="194" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:ga5dd9ee2214d9638476c7aa3df5c1dda9" id="r_ga5dd9ee2214d9638476c7aa3df5c1dda9"><td class="memItemLeft" align="right" valign="top"><a id="ga5dd9ee2214d9638476c7aa3df5c1dda9" name="ga5dd9ee2214d9638476c7aa3df5c1dda9"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>I2C1_SLAVE_ADDRESS</b>&#160;&#160;&#160;0x60</td></tr>
+<tr class="memitem:ga5dd9ee2214d9638476c7aa3df5c1dda9" id="r_ga5dd9ee2214d9638476c7aa3df5c1dda9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c___interrupt.html#ga5dd9ee2214d9638476c7aa3df5c1dda9">I2C1_SLAVE_ADDRESS</a>&#160;&#160;&#160;0x60</td></tr>
 <tr class="separator:ga5dd9ee2214d9638476c7aa3df5c1dda9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa362edf6db9662acf6ef958a6db19c35" id="r_gaa362edf6db9662acf6ef958a6db19c35"><td class="memItemLeft" align="right" valign="top"><a id="gaa362edf6db9662acf6ef958a6db19c35" name="gaa362edf6db9662acf6ef958a6db19c35"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>BufferSize</b>&#160;&#160;&#160;4</td></tr>
+<tr class="memitem:gaa362edf6db9662acf6ef958a6db19c35" id="r_gaa362edf6db9662acf6ef958a6db19c35"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c___interrupt.html#gaa362edf6db9662acf6ef958a6db19c35">BufferSize</a>&#160;&#160;&#160;4</td></tr>
 <tr class="separator:gaa362edf6db9662acf6ef958a6db19c35"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga16a453f5d2f9ae75e127b01f54fd9fe2" id="r_ga16a453f5d2f9ae75e127b01f54fd9fe2"><td class="memItemLeft" align="right" valign="top"><a id="ga16a453f5d2f9ae75e127b01f54fd9fe2" name="ga16a453f5d2f9ae75e127b01f54fd9fe2"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>I2C_MASTER_ADDRESS</b>&#160;&#160;&#160;0x0A</td></tr>
+<tr class="memitem:ga16a453f5d2f9ae75e127b01f54fd9fe2" id="r_ga16a453f5d2f9ae75e127b01f54fd9fe2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c___interrupt.html#ga16a453f5d2f9ae75e127b01f54fd9fe2">I2C_MASTER_ADDRESS</a>&#160;&#160;&#160;0x0A</td></tr>
 <tr class="separator:ga16a453f5d2f9ae75e127b01f54fd9fe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2ec7e67680ed0484be8a3521db910f04" id="r_ga2ec7e67680ed0484be8a3521db910f04"><td class="memItemLeft" align="right" valign="top"><a id="ga2ec7e67680ed0484be8a3521db910f04" name="ga2ec7e67680ed0484be8a3521db910f04"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>I2C_SLAVE_ADDRESS</b>&#160;&#160;&#160;0x60</td></tr>
+<tr class="memitem:ga2ec7e67680ed0484be8a3521db910f04" id="r_ga2ec7e67680ed0484be8a3521db910f04"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c___interrupt.html#ga2ec7e67680ed0484be8a3521db910f04">I2C_SLAVE_ADDRESS</a>&#160;&#160;&#160;0x60</td></tr>
 <tr class="separator:ga2ec7e67680ed0484be8a3521db910f04"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa362edf6db9662acf6ef958a6db19c35" id="r_gaa362edf6db9662acf6ef958a6db19c35"><td class="memItemLeft" align="right" valign="top"><a id="gaa362edf6db9662acf6ef958a6db19c35" name="gaa362edf6db9662acf6ef958a6db19c35"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>BufferSize</b>&#160;&#160;&#160;4</td></tr>
+<tr class="memitem:gaa362edf6db9662acf6ef958a6db19c35" id="r_gaa362edf6db9662acf6ef958a6db19c35"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c___interrupt.html#gaa362edf6db9662acf6ef958a6db19c35">BufferSize</a>&#160;&#160;&#160;4</td></tr>
 <tr class="separator:gaa362edf6db9662acf6ef958a6db19c35"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga23f213504dda976b2652ade577f8bf10" id="r_ga23f213504dda976b2652ade577f8bf10"><td class="memItemLeft" align="right" valign="top"><a id="ga23f213504dda976b2652ade577f8bf10" name="ga23f213504dda976b2652ade577f8bf10"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ClockSpeed</b>&#160;&#160;&#160;100000</td></tr>
+<tr class="memitem:ga23f213504dda976b2652ade577f8bf10" id="r_ga23f213504dda976b2652ade577f8bf10"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c___interrupt.html#ga23f213504dda976b2652ade577f8bf10">ClockSpeed</a>&#160;&#160;&#160;100000</td></tr>
 <tr class="separator:ga23f213504dda976b2652ade577f8bf10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
@@ -140,56 +139,125 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ga2e8c1a254549159a20b7d5c6b38bcea4" id="r_ga2e8c1a254549159a20b7d5c6b38bcea4"><td class="memItemLeft" align="right" valign="top"><a id="ga2e8c1a254549159a20b7d5c6b38bcea4" name="ga2e8c1a254549159a20b7d5c6b38bcea4"></a>
-u8&#160;</td><td class="memItemRight" valign="bottom"><b>I2C0_Master_Buffer_Tx</b> []</td></tr>
+<tr class="memitem:ga2e8c1a254549159a20b7d5c6b38bcea4" id="r_ga2e8c1a254549159a20b7d5c6b38bcea4"><td class="memItemLeft" align="right" valign="top">u8&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c___interrupt.html#ga2e8c1a254549159a20b7d5c6b38bcea4">I2C0_Master_Buffer_Tx</a> []</td></tr>
 <tr class="separator:ga2e8c1a254549159a20b7d5c6b38bcea4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga238f2a67dba35b75e8af6218e85755f0" id="r_ga238f2a67dba35b75e8af6218e85755f0"><td class="memItemLeft" align="right" valign="top"><a id="ga238f2a67dba35b75e8af6218e85755f0" name="ga238f2a67dba35b75e8af6218e85755f0"></a>
-u8&#160;</td><td class="memItemRight" valign="bottom"><b>I2C0_Master_Buffer_Rx</b> []</td></tr>
+<tr class="memitem:ga238f2a67dba35b75e8af6218e85755f0" id="r_ga238f2a67dba35b75e8af6218e85755f0"><td class="memItemLeft" align="right" valign="top">u8&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c___interrupt.html#ga238f2a67dba35b75e8af6218e85755f0">I2C0_Master_Buffer_Rx</a> []</td></tr>
 <tr class="separator:ga238f2a67dba35b75e8af6218e85755f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf0063fc2d939c4eab6b5decc202c8293" id="r_gaf0063fc2d939c4eab6b5decc202c8293"><td class="memItemLeft" align="right" valign="top"><a id="gaf0063fc2d939c4eab6b5decc202c8293" name="gaf0063fc2d939c4eab6b5decc202c8293"></a>
-u8&#160;</td><td class="memItemRight" valign="bottom"><b>I2C1_Slave_Buffer_Rx</b> []</td></tr>
+<tr class="memitem:gaf0063fc2d939c4eab6b5decc202c8293" id="r_gaf0063fc2d939c4eab6b5decc202c8293"><td class="memItemLeft" align="right" valign="top">u8&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c___interrupt.html#gaf0063fc2d939c4eab6b5decc202c8293">I2C1_Slave_Buffer_Rx</a> []</td></tr>
 <tr class="separator:gaf0063fc2d939c4eab6b5decc202c8293"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga18e26acd2f5bc5133440bbf282acf2b9" id="r_ga18e26acd2f5bc5133440bbf282acf2b9"><td class="memItemLeft" align="right" valign="top"><a id="ga18e26acd2f5bc5133440bbf282acf2b9" name="ga18e26acd2f5bc5133440bbf282acf2b9"></a>
-vu8&#160;</td><td class="memItemRight" valign="bottom"><b>I2C0_Master_Tx_Index</b></td></tr>
+<tr class="memitem:ga18e26acd2f5bc5133440bbf282acf2b9" id="r_ga18e26acd2f5bc5133440bbf282acf2b9"><td class="memItemLeft" align="right" valign="top">vu8&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c___interrupt.html#ga18e26acd2f5bc5133440bbf282acf2b9">I2C0_Master_Tx_Index</a></td></tr>
 <tr class="separator:ga18e26acd2f5bc5133440bbf282acf2b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2ad95081c93a93792d4a64c4d87b7b92" id="r_ga2ad95081c93a93792d4a64c4d87b7b92"><td class="memItemLeft" align="right" valign="top"><a id="ga2ad95081c93a93792d4a64c4d87b7b92" name="ga2ad95081c93a93792d4a64c4d87b7b92"></a>
-vu8&#160;</td><td class="memItemRight" valign="bottom"><b>I2C0_Master_Rx_Index</b></td></tr>
+<tr class="memitem:ga2ad95081c93a93792d4a64c4d87b7b92" id="r_ga2ad95081c93a93792d4a64c4d87b7b92"><td class="memItemLeft" align="right" valign="top">vu8&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c___interrupt.html#ga2ad95081c93a93792d4a64c4d87b7b92">I2C0_Master_Rx_Index</a></td></tr>
 <tr class="separator:ga2ad95081c93a93792d4a64c4d87b7b92"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa51b71e082042e5af3b0570a38565a1a" id="r_gaa51b71e082042e5af3b0570a38565a1a"><td class="memItemLeft" align="right" valign="top"><a id="gaa51b71e082042e5af3b0570a38565a1a" name="gaa51b71e082042e5af3b0570a38565a1a"></a>
-vu8&#160;</td><td class="memItemRight" valign="bottom"><b>I2C1_Slave_Tx_Index</b></td></tr>
+<tr class="memitem:gaa51b71e082042e5af3b0570a38565a1a" id="r_gaa51b71e082042e5af3b0570a38565a1a"><td class="memItemLeft" align="right" valign="top">vu8&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c___interrupt.html#gaa51b71e082042e5af3b0570a38565a1a">I2C1_Slave_Tx_Index</a></td></tr>
 <tr class="separator:gaa51b71e082042e5af3b0570a38565a1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gacdedb775843409540ffe55aa3a40417f" id="r_gacdedb775843409540ffe55aa3a40417f"><td class="memItemLeft" align="right" valign="top"><a id="gacdedb775843409540ffe55aa3a40417f" name="gacdedb775843409540ffe55aa3a40417f"></a>
-vu8&#160;</td><td class="memItemRight" valign="bottom"><b>I2C1_Slave_Rx_Index</b></td></tr>
+<tr class="memitem:gacdedb775843409540ffe55aa3a40417f" id="r_gacdedb775843409540ffe55aa3a40417f"><td class="memItemLeft" align="right" valign="top">vu8&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c___interrupt.html#gacdedb775843409540ffe55aa3a40417f">I2C1_Slave_Rx_Index</a></td></tr>
 <tr class="separator:gacdedb775843409540ffe55aa3a40417f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga696caccb878b692a33e1187a909b4983" id="r_ga696caccb878b692a33e1187a909b4983"><td class="memItemLeft" align="right" valign="top"><a id="ga696caccb878b692a33e1187a909b4983" name="ga696caccb878b692a33e1187a909b4983"></a>
-u32&#160;</td><td class="memItemRight" valign="bottom"><b>IsMasterRxFinish</b></td></tr>
+<tr class="memitem:ga696caccb878b692a33e1187a909b4983" id="r_ga696caccb878b692a33e1187a909b4983"><td class="memItemLeft" align="right" valign="top">u32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c___interrupt.html#ga696caccb878b692a33e1187a909b4983">IsMasterRxFinish</a></td></tr>
 <tr class="separator:ga696caccb878b692a33e1187a909b4983"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1ce7599d8777b17a9abedc976b4023eb" id="r_ga1ce7599d8777b17a9abedc976b4023eb"><td class="memItemLeft" align="right" valign="top"><a id="ga1ce7599d8777b17a9abedc976b4023eb" name="ga1ce7599d8777b17a9abedc976b4023eb"></a>
-u8&#160;</td><td class="memItemRight" valign="bottom"><b>I2C0_Master_Buffer_Tx</b> [BufferSize] = {0x1, 0x2, 0x3, 0x4}</td></tr>
+<tr class="memitem:ga1ce7599d8777b17a9abedc976b4023eb" id="r_ga1ce7599d8777b17a9abedc976b4023eb"><td class="memItemLeft" align="right" valign="top">u8&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c___interrupt.html#ga1ce7599d8777b17a9abedc976b4023eb">I2C0_Master_Buffer_Tx</a> [<a class="el" href="group___i2_c__10__bit__mode.html#gaa362edf6db9662acf6ef958a6db19c35">BufferSize</a>] = {0x1, 0x2, 0x3, 0x4}</td></tr>
 <tr class="separator:ga1ce7599d8777b17a9abedc976b4023eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7b3716e45fbd4ac3dec6ab7e0147212f" id="r_ga7b3716e45fbd4ac3dec6ab7e0147212f"><td class="memItemLeft" align="right" valign="top"><a id="ga7b3716e45fbd4ac3dec6ab7e0147212f" name="ga7b3716e45fbd4ac3dec6ab7e0147212f"></a>
-u8&#160;</td><td class="memItemRight" valign="bottom"><b>I2C0_Master_Buffer_Rx</b> [BufferSize]</td></tr>
+<tr class="memitem:ga7b3716e45fbd4ac3dec6ab7e0147212f" id="r_ga7b3716e45fbd4ac3dec6ab7e0147212f"><td class="memItemLeft" align="right" valign="top">u8&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c___interrupt.html#ga7b3716e45fbd4ac3dec6ab7e0147212f">I2C0_Master_Buffer_Rx</a> [<a class="el" href="group___i2_c__10__bit__mode.html#gaa362edf6db9662acf6ef958a6db19c35">BufferSize</a>]</td></tr>
 <tr class="separator:ga7b3716e45fbd4ac3dec6ab7e0147212f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6dc30759ac7b3d1c582d7fd19ac5800b" id="r_ga6dc30759ac7b3d1c582d7fd19ac5800b"><td class="memItemLeft" align="right" valign="top"><a id="ga6dc30759ac7b3d1c582d7fd19ac5800b" name="ga6dc30759ac7b3d1c582d7fd19ac5800b"></a>
-u8&#160;</td><td class="memItemRight" valign="bottom"><b>I2C1_Slave_Buffer_Rx</b> [BufferSize]</td></tr>
+<tr class="memitem:ga6dc30759ac7b3d1c582d7fd19ac5800b" id="r_ga6dc30759ac7b3d1c582d7fd19ac5800b"><td class="memItemLeft" align="right" valign="top">u8&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c___interrupt.html#ga6dc30759ac7b3d1c582d7fd19ac5800b">I2C1_Slave_Buffer_Rx</a> [<a class="el" href="group___i2_c__10__bit__mode.html#gaa362edf6db9662acf6ef958a6db19c35">BufferSize</a>]</td></tr>
 <tr class="separator:ga6dc30759ac7b3d1c582d7fd19ac5800b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga18e26acd2f5bc5133440bbf282acf2b9" id="r_ga18e26acd2f5bc5133440bbf282acf2b9"><td class="memItemLeft" align="right" valign="top"><a id="ga18e26acd2f5bc5133440bbf282acf2b9" name="ga18e26acd2f5bc5133440bbf282acf2b9"></a>
-vu8&#160;</td><td class="memItemRight" valign="bottom"><b>I2C0_Master_Tx_Index</b> = 0</td></tr>
+<tr class="memitem:ga18e26acd2f5bc5133440bbf282acf2b9" id="r_ga18e26acd2f5bc5133440bbf282acf2b9"><td class="memItemLeft" align="right" valign="top">vu8&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c___interrupt.html#ga18e26acd2f5bc5133440bbf282acf2b9">I2C0_Master_Tx_Index</a> = 0</td></tr>
 <tr class="separator:ga18e26acd2f5bc5133440bbf282acf2b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2ad95081c93a93792d4a64c4d87b7b92" id="r_ga2ad95081c93a93792d4a64c4d87b7b92"><td class="memItemLeft" align="right" valign="top"><a id="ga2ad95081c93a93792d4a64c4d87b7b92" name="ga2ad95081c93a93792d4a64c4d87b7b92"></a>
-vu8&#160;</td><td class="memItemRight" valign="bottom"><b>I2C0_Master_Rx_Index</b> = 0</td></tr>
+<tr class="memitem:ga2ad95081c93a93792d4a64c4d87b7b92" id="r_ga2ad95081c93a93792d4a64c4d87b7b92"><td class="memItemLeft" align="right" valign="top">vu8&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c___interrupt.html#ga2ad95081c93a93792d4a64c4d87b7b92">I2C0_Master_Rx_Index</a> = 0</td></tr>
 <tr class="separator:ga2ad95081c93a93792d4a64c4d87b7b92"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa51b71e082042e5af3b0570a38565a1a" id="r_gaa51b71e082042e5af3b0570a38565a1a"><td class="memItemLeft" align="right" valign="top"><a id="gaa51b71e082042e5af3b0570a38565a1a" name="gaa51b71e082042e5af3b0570a38565a1a"></a>
-vu8&#160;</td><td class="memItemRight" valign="bottom"><b>I2C1_Slave_Tx_Index</b> = 0</td></tr>
+<tr class="memitem:gaa51b71e082042e5af3b0570a38565a1a" id="r_gaa51b71e082042e5af3b0570a38565a1a"><td class="memItemLeft" align="right" valign="top">vu8&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c___interrupt.html#gaa51b71e082042e5af3b0570a38565a1a">I2C1_Slave_Tx_Index</a> = 0</td></tr>
 <tr class="separator:gaa51b71e082042e5af3b0570a38565a1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gacdedb775843409540ffe55aa3a40417f" id="r_gacdedb775843409540ffe55aa3a40417f"><td class="memItemLeft" align="right" valign="top"><a id="gacdedb775843409540ffe55aa3a40417f" name="gacdedb775843409540ffe55aa3a40417f"></a>
-vu8&#160;</td><td class="memItemRight" valign="bottom"><b>I2C1_Slave_Rx_Index</b> = 0</td></tr>
+<tr class="memitem:gacdedb775843409540ffe55aa3a40417f" id="r_gacdedb775843409540ffe55aa3a40417f"><td class="memItemLeft" align="right" valign="top">vu8&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c___interrupt.html#gacdedb775843409540ffe55aa3a40417f">I2C1_Slave_Rx_Index</a> = 0</td></tr>
 <tr class="separator:gacdedb775843409540ffe55aa3a40417f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabe8d2ad2803fdb4ee8413331fd9aef2e" id="r_gabe8d2ad2803fdb4ee8413331fd9aef2e"><td class="memItemLeft" align="right" valign="top"><a id="gabe8d2ad2803fdb4ee8413331fd9aef2e" name="gabe8d2ad2803fdb4ee8413331fd9aef2e"></a>
-vu32&#160;</td><td class="memItemRight" valign="bottom"><b>IsMasterRxFinish</b> = FALSE</td></tr>
+<tr class="memitem:gabe8d2ad2803fdb4ee8413331fd9aef2e" id="r_gabe8d2ad2803fdb4ee8413331fd9aef2e"><td class="memItemLeft" align="right" valign="top">vu32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c___interrupt.html#gabe8d2ad2803fdb4ee8413331fd9aef2e">IsMasterRxFinish</a> = FALSE</td></tr>
 <tr class="separator:gabe8d2ad2803fdb4ee8413331fd9aef2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="gaa362edf6db9662acf6ef958a6db19c35" name="gaa362edf6db9662acf6ef958a6db19c35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa362edf6db9662acf6ef958a6db19c35">&#9670;&#160;</a></span>BufferSize <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define BufferSize&#160;&#160;&#160;4</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gaa362edf6db9662acf6ef958a6db19c35" name="gaa362edf6db9662acf6ef958a6db19c35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa362edf6db9662acf6ef958a6db19c35">&#9670;&#160;</a></span>BufferSize <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define BufferSize&#160;&#160;&#160;4</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga23f213504dda976b2652ade577f8bf10" name="ga23f213504dda976b2652ade577f8bf10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga23f213504dda976b2652ade577f8bf10">&#9670;&#160;</a></span>ClockSpeed</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ClockSpeed&#160;&#160;&#160;100000</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga5dd9ee2214d9638476c7aa3df5c1dda9" name="ga5dd9ee2214d9638476c7aa3df5c1dda9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5dd9ee2214d9638476c7aa3df5c1dda9">&#9670;&#160;</a></span>I2C1_SLAVE_ADDRESS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2C1_SLAVE_ADDRESS&#160;&#160;&#160;0x60</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga16a453f5d2f9ae75e127b01f54fd9fe2" name="ga16a453f5d2f9ae75e127b01f54fd9fe2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga16a453f5d2f9ae75e127b01f54fd9fe2">&#9670;&#160;</a></span>I2C_MASTER_ADDRESS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2C_MASTER_ADDRESS&#160;&#160;&#160;0x0A</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga2ec7e67680ed0484be8a3521db910f04" name="ga2ec7e67680ed0484be8a3521db910f04"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2ec7e67680ed0484be8a3521db910f04">&#9670;&#160;</a></span>I2C_SLAVE_ADDRESS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2C_SLAVE_ADDRESS&#160;&#160;&#160;0x60</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="ga3955bd9097285280c9a222a470422312" name="ga3955bd9097285280c9a222a470422312"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga3955bd9097285280c9a222a470422312">&#9670;&#160;</a></span>CmpBuffer()</h2>
@@ -523,6 +591,271 @@ vu32&#160;</td><td class="memItemRight" valign="bottom"><b>IsMasterRxFinish</b> 
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="ga238f2a67dba35b75e8af6218e85755f0" name="ga238f2a67dba35b75e8af6218e85755f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga238f2a67dba35b75e8af6218e85755f0">&#9670;&#160;</a></span>I2C0_Master_Buffer_Rx <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">u8 I2C0_Master_Buffer_Rx[]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga7b3716e45fbd4ac3dec6ab7e0147212f" name="ga7b3716e45fbd4ac3dec6ab7e0147212f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7b3716e45fbd4ac3dec6ab7e0147212f">&#9670;&#160;</a></span>I2C0_Master_Buffer_Rx <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">u8 I2C0_Master_Buffer_Rx[<a class="el" href="group___i2_c__10__bit__mode.html#gaa362edf6db9662acf6ef958a6db19c35">BufferSize</a>]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga2e8c1a254549159a20b7d5c6b38bcea4" name="ga2e8c1a254549159a20b7d5c6b38bcea4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2e8c1a254549159a20b7d5c6b38bcea4">&#9670;&#160;</a></span>I2C0_Master_Buffer_Tx <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">u8 I2C0_Master_Buffer_Tx[]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga1ce7599d8777b17a9abedc976b4023eb" name="ga1ce7599d8777b17a9abedc976b4023eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1ce7599d8777b17a9abedc976b4023eb">&#9670;&#160;</a></span>I2C0_Master_Buffer_Tx <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">u8 I2C0_Master_Buffer_Tx[<a class="el" href="group___i2_c__10__bit__mode.html#gaa362edf6db9662acf6ef958a6db19c35">BufferSize</a>] = {0x1, 0x2, 0x3, 0x4}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga2ad95081c93a93792d4a64c4d87b7b92" name="ga2ad95081c93a93792d4a64c4d87b7b92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2ad95081c93a93792d4a64c4d87b7b92">&#9670;&#160;</a></span>I2C0_Master_Rx_Index <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">vu8 I2C0_Master_Rx_Index</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga2ad95081c93a93792d4a64c4d87b7b92" name="ga2ad95081c93a93792d4a64c4d87b7b92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2ad95081c93a93792d4a64c4d87b7b92">&#9670;&#160;</a></span>I2C0_Master_Rx_Index <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">vu8 I2C0_Master_Rx_Index = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga18e26acd2f5bc5133440bbf282acf2b9" name="ga18e26acd2f5bc5133440bbf282acf2b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga18e26acd2f5bc5133440bbf282acf2b9">&#9670;&#160;</a></span>I2C0_Master_Tx_Index <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">vu8 I2C0_Master_Tx_Index</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga18e26acd2f5bc5133440bbf282acf2b9" name="ga18e26acd2f5bc5133440bbf282acf2b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga18e26acd2f5bc5133440bbf282acf2b9">&#9670;&#160;</a></span>I2C0_Master_Tx_Index <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">vu8 I2C0_Master_Tx_Index = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gaf0063fc2d939c4eab6b5decc202c8293" name="gaf0063fc2d939c4eab6b5decc202c8293"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf0063fc2d939c4eab6b5decc202c8293">&#9670;&#160;</a></span>I2C1_Slave_Buffer_Rx <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">u8 I2C1_Slave_Buffer_Rx[]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga6dc30759ac7b3d1c582d7fd19ac5800b" name="ga6dc30759ac7b3d1c582d7fd19ac5800b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6dc30759ac7b3d1c582d7fd19ac5800b">&#9670;&#160;</a></span>I2C1_Slave_Buffer_Rx <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">u8 I2C1_Slave_Buffer_Rx[<a class="el" href="group___i2_c__10__bit__mode.html#gaa362edf6db9662acf6ef958a6db19c35">BufferSize</a>]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gacdedb775843409540ffe55aa3a40417f" name="gacdedb775843409540ffe55aa3a40417f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gacdedb775843409540ffe55aa3a40417f">&#9670;&#160;</a></span>I2C1_Slave_Rx_Index <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">vu8 I2C1_Slave_Rx_Index</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gacdedb775843409540ffe55aa3a40417f" name="gacdedb775843409540ffe55aa3a40417f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gacdedb775843409540ffe55aa3a40417f">&#9670;&#160;</a></span>I2C1_Slave_Rx_Index <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">vu8 I2C1_Slave_Rx_Index = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gaa51b71e082042e5af3b0570a38565a1a" name="gaa51b71e082042e5af3b0570a38565a1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa51b71e082042e5af3b0570a38565a1a">&#9670;&#160;</a></span>I2C1_Slave_Tx_Index <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">vu8 I2C1_Slave_Tx_Index</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gaa51b71e082042e5af3b0570a38565a1a" name="gaa51b71e082042e5af3b0570a38565a1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa51b71e082042e5af3b0570a38565a1a">&#9670;&#160;</a></span>I2C1_Slave_Tx_Index <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">vu8 I2C1_Slave_Tx_Index = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga696caccb878b692a33e1187a909b4983" name="ga696caccb878b692a33e1187a909b4983"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga696caccb878b692a33e1187a909b4983">&#9670;&#160;</a></span>IsMasterRxFinish <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">u32 IsMasterRxFinish</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gabe8d2ad2803fdb4ee8413331fd9aef2e" name="gabe8d2ad2803fdb4ee8413331fd9aef2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabe8d2ad2803fdb4ee8413331fd9aef2e">&#9670;&#160;</a></span>IsMasterRxFinish <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">vu32 IsMasterRxFinish = FALSE</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

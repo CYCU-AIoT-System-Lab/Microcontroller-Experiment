@@ -1,0 +1,8 @@
+<map id="HT32F5xxxx_BOARD" name="HT32F5xxxx_BOARD">
+<area shape="rect" id="Node000001" title="Provides firmware functions to manage LEDs, push&#45;buttons and COM ports and is available on HT32F5xxxx..." alt="" coords="146,113,293,140"/>
+<area shape="rect" id="Node000005" href="$group___h_t32_f5xxxx___b_o_a_r_d___global___functions.html" title=" " alt="" coords="343,5,513,48"/>
+<area shape="rect" id="Node000004" href="$group___h_t32_f5xxxx___b_o_a_r_d___global___variable.html" title=" " alt="" coords="343,72,513,115"/>
+<area shape="rect" id="Node000006" href="$group___h_t32_f5xxxx___b_o_a_r_d___private___functions.html" title=" " alt="" coords="341,139,514,181"/>
+<area shape="rect" id="Node000003" href="$group___h_t32_f5xxxx___b_o_a_r_d___private___types_definitions.html" title=" " alt="" coords="341,205,514,248"/>
+<area shape="rect" id="Node000002" href="$group___h_t32___board.html" title=" " alt="" coords="5,113,98,140"/>
+</map>

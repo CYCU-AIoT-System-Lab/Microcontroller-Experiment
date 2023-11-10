@@ -1,7 +1,13 @@
 var searchData=
 [
-  ['nested_20vectored_20interrupt_20controller_20nvic_0',['Nested Vectored Interrupt Controller (NVIC)',['../group___c_m_s_i_s___n_v_i_c.html',1,'']]],
-  ['not_20in_20scb_20scnscb_1',['System Controls not in SCB (SCnSCB)',['../group___c_m_s_i_s___s_cn_s_c_b.html',1,'']]],
-  ['nvic_2',['nvic',['../group___c_m_s_i_s___n_v_i_c.html',1,'Nested Vectored Interrupt Controller (NVIC)'],['../group___n_v_i_c___examples.html',1,'NVIC']]],
-  ['nvic_20functions_3',['NVIC Functions',['../group___c_m_s_i_s___core___n_v_i_c_functions.html',1,'']]]
+  ['oneshot_0',['OneShot',['../group___one_shot.html',1,'']]],
+  ['oneshot_5fpwmtrigger_1',['OneShot_PWMTrigger',['../group___one_shot___p_w_m_trigger.html',1,'']]],
+  ['oneshot_5fpwmtrigger_5fdual_5fadc_2',['OneShot_PWMTrigger_Dual_ADC',['../group___one_shot___p_w_m_trigger___dual___a_d_c.html',1,'']]],
+  ['oneshot_5fpwmtrigger_5fwith_5fdelay_3',['OneShot_PWMTrigger_with_Delay',['../group___one_shot___p_w_m_trigger__with___delay.html',1,'']]],
+  ['oneshot_5fswtrigger_4',['OneShot_SWTrigger',['../group___one_shot___s_w_trigger.html',1,'']]],
+  ['oneshot_5fswtrigger_5fbytm_5',['OneShot_SWTrigger_ByTM',['../group___one_shot___s_w_trigger___by_t_m.html',1,'']]],
+  ['oneshot_5ftmtrigger_5fpdma_6',['OneShot_TMTrigger_PDMA',['../group___one_shot___t_m_trigger___p_d_m_a.html',1,'']]],
+  ['opa_7',['OPA',['../group___o_p_a___examples.html',1,'']]],
+  ['opa_5fenable_8',['OPA_Enable',['../group___o_p_a___enable.html',1,'']]],
+  ['output_9',['Output',['../group___output.html',1,'']]]
 ];

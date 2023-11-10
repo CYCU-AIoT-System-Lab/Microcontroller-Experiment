@@ -1,0 +1,7 @@
+<map id="USBDCore_Info_TypeDef" name="USBDCore_Info_TypeDef">
+<area shape="rect" id="Node000001" title="USB Device information." alt="" coords="5,187,171,213"/>
+<area shape="rect" id="Node000002" href="$union___f_e_a_t_u_r_e___t_y_p_e_d_e_f.html" title="For Set/ClearFeature and GetStatus request." alt="" coords="10,96,166,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,138,91,186,85,186,85,138"/>
+<area shape="rect" id="Node000003" href="$struct___f_e_a_t_u_r_e___t_y_p_e_b_i_t.html" title="Bit access for CurrentFeature." alt="" coords="14,5,162,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="91,48,91,95,85,95,85,48"/>
+</map>

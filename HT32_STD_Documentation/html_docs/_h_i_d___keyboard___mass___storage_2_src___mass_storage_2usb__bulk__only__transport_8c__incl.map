@@ -1,0 +1,17 @@
+<map id="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/USBD/HID_Keyboard_Mass_Storage/Src_MassStorage/usb_bulk_only_transport.c" name="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/USBD/HID_Keyboard_Mass_Storage/Src_MassStorage/usb_bulk_only_transport.c">
+<area shape="rect" id="Node000001" title="The Bulk Only Transport (BOT)." alt="" coords="94,5,335,128"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="94,251,151,277"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,108,49,137,29,156,13,177,9,189,9,199,24,218,50,234,80,247,78,252,47,239,20,222,4,201,3,188,8,175,25,152,45,133,92,103"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="23,176,147,203"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="151,130,111,167,108,163,148,126"/>
+<area shape="rect" id="Node000004" href="$_h_i_d___keyboard___mass___storage_2_src___mass_storage_2usb__bulk__only__transport_8h.html" title="The header file of Bulk Only Transport." alt="" coords="220,251,393,277"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="336,84,377,97,417,116,453,142,482,175,488,188,489,201,483,213,474,223,445,238,409,249,407,244,443,233,470,218,479,210,483,200,483,190,477,177,449,146,414,121,375,102,334,89"/>
+<area shape="rect" id="Node000006" href="$_h_i_d___keyboard___mass___storage_2_src___mass_storage_2usb__scsi__block__command_8h.html" title="The header file of SCSI Block Command (SBC&#45;3 &amp; SPC&#45;4)." alt="" coords="281,176,468,203"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="296,126,348,165,344,169,293,130"/>
+<area shape="rect" id="Node000007" href="$_h_i_d___keyboard___mass___storage_2_src___mass_storage_2ram__disk_8h.html" title="The header file of RAM Disk." alt="" coords="172,176,257,203"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="217,128,217,160,212,160,212,128"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="258,325,355,352"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="309,278,309,310,304,310,304,278"/>
+<area shape="poly" id="edge7_Node000007_Node000002" title=" " alt="" coords="200,205,152,243,148,239,197,201"/>
+<area shape="poly" id="edge8_Node000007_Node000004" title=" " alt="" coords="232,201,280,239,277,243,229,205"/>
+</map>

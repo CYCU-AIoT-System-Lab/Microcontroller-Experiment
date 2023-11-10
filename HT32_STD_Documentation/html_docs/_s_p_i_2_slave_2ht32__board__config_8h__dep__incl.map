@@ -1,0 +1,7 @@
+<map id="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/SPI/Slave/ht32_board_config.h" name="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/SPI/Slave/ht32_board_config.h">
+<area shape="rect" id="Node000001" title="The header file of board configuration." alt="" coords="133,5,387,96"/>
+<area shape="rect" id="Node000002" href="$_s_p_i_2_slave_2ht32f5xxxx__01__it_8c.html" title="This file provides all interrupt service routine." alt="" coords="5,144,253,235"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="208,109,174,145,170,142,205,105"/>
+<area shape="rect" id="Node000003" href="$_s_p_i_2_slave_2main_8c.html" title="Main program." alt="" coords="277,144,504,235"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="315,105,349,142,346,145,311,109"/>
+</map>

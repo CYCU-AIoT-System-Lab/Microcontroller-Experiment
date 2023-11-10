@@ -1,0 +1,24 @@
+<map id="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/USBD/Virtual_COM/main.c" name="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/USBD/Virtual_COM/main.c">
+<area shape="rect" id="Node000001" title="The main program of USB Device Virtual COM example." alt="" coords="224,5,459,96"/>
+<area shape="rect" id="Node000002" href="$ht32_8h.html" title="The API between application and HT32FXXXX Firmware Library." alt="" coords="231,144,289,171"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="309,98,281,133,277,130,305,94"/>
+<area shape="rect" id="Node000007" href="$ht32__board_8h.html" title="HT32 target board definition file." alt="" coords="41,219,137,245"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="280,99,121,212,117,207,277,94"/>
+<area shape="rect" id="Node000008" href="$ht32__usbd__core_8h.html" title="The header file of standard protocol related function for HT32 USB Device Library." alt="" coords="455,293,579,320"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="356,96,385,170,406,208,432,244,456,265,482,283,479,287,453,269,429,247,402,211,380,172,351,98"/>
+<area shape="rect" id="Node000009" href="$example_2_u_s_b_d_2_virtual___c_o_m_2ht32__usbd__class_8h.html" title="The header file of USB Device Class." alt="" coords="443,219,573,245"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="366,95,390,133,419,169,444,190,471,208,468,213,441,195,415,173,385,136,361,98"/>
+<area shape="rect" id="Node000010" href="$example_2_u_s_b_d_2_virtual___c_o_m_2ht32__usbd__descriptor_8h.html" title="The USB descriptor." alt="" coords="430,144,586,171"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="414,94,477,133,474,138,411,99"/>
+<area shape="rect" id="Node000003" href="$ht32f5xxxx__01_8h.html" title="CMSIS Cortex&#45;M0+ Device Peripheral Access Layer Header File." alt="" coords="179,219,295,245"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="258,172,248,205,243,203,253,170"/>
+<area shape="rect" id="Node000004" href="$ht32__config_8h.html" title="Configuration file of HT32." alt="" coords="5,293,104,320"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="206,248,102,290,100,285,204,243"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="127,293,241,320"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="230,247,204,282,200,279,226,244"/>
+<area shape="rect" id="Node000006" href="$system__ht32f5xxxx__01_8h.html" title="CMSIS Cortex&#45;M0+ Device Peripheral Access Layer System Header File for the Holtek HT32F5xxxx Device S..." alt="" coords="265,293,431,320"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="258,244,317,282,315,287,255,248"/>
+<area shape="poly" id="edge7_Node000007_Node000004" title=" " alt="" coords="86,247,69,280,65,278,81,245"/>
+<area shape="poly" id="edge10_Node000009_Node000008" title=" " alt="" coords="512,246,516,278,511,278,507,246"/>
+<area shape="poly" id="edge12_Node000010_Node000009" title=" " alt="" coords="511,171,511,203,505,203,505,171"/>
+</map>

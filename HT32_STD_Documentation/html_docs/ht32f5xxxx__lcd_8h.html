@@ -1,51 +1,63 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>HT32_STD_Documents: ht32f5xxxx_lcd.h File Reference</title>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>HT32_STD_Code_Documents: D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/library/HT32F5xxxx_Driver/inc/ht32f5xxxx_lcd.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<link href="navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="resize.js"></script>
-<script type="text/javascript" src="navtreedata.js"></script>
-<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(document).ready(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
-   <div id="projectname">HT32_STD_Documents<span id="projectnumber">&#160;1.0.0</span>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">HT32_STD_Code_Documents
+   &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">For HT32F52352</div>
+   <div id="projectbrief">Micro-controller Experiment</div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
@@ -57,23 +69,17 @@
 var searchBox = new SearchBox("searchBox", "search/",'.html');
 /* @license-end */
 </script>
-</div><!-- top -->
-<div id="side-nav" class="ui-resizable side-nav-resizable">
-  <div id="nav-tree">
-    <div id="nav-tree-contents">
-      <div id="nav-sync" class="sync"></div>
-    </div>
-  </div>
-  <div id="splitbar" style="-moz-user-select:none;" 
-       class="ui-resizable-handle">
-  </div>
-</div>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('ht32f5xxxx__lcd_8h.html',''); initResizable(); });
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
 /* @license-end */
 </script>
-<div id="doc-content">
+<div id="main-nav"></div>
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -95,6 +101,11 @@ $(document).ready(function(){initNavTree('ht32f5xxxx__lcd_8h.html',''); initResi
 </div>
 </div>
 
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_275089585c7fc1b5fd5d7d42c69cb1da.html">D:</a></li><li class="navelem"><a class="el" href="dir_273f27263c611837868160ff0f82bfd9.html">Note_Database</a></li><li class="navelem"><a class="el" href="dir_e8282a48381dd1bcf012c1bae1dc741b.html">Subject</a></li><li class="navelem"><a class="el" href="dir_7583b43eec1d2788dd81e658186519d2.html">MCETA Microcontroller Experiment TA</a></li><li class="navelem"><a class="el" href="dir_3ca5c6b4c4a2c10c94024caf0df2e6bb.html">files</a></li><li class="navelem"><a class="el" href="dir_79e3244e27785f7ec158b45668f9e3ec.html">HT32_STD_5xxxx_FWLib_V1.5.1_7084b</a></li><li class="navelem"><a class="el" href="dir_6965e01511015f2942f432da2d4a5bcb.html">library</a></li><li class="navelem"><a class="el" href="dir_a2f81702cb5fc8b133c02bd1d2044bc0.html">HT32F5xxxx_Driver</a></li><li class="navelem"><a class="el" href="dir_5295d97ccb3d03e3674380e8c26a1d02.html">inc</a></li>  </ul>
+</div>
+</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Data Structures</a> &#124;
@@ -108,6 +119,16 @@ $(document).ready(function(){initNavTree('ht32f5xxxx__lcd_8h.html',''); initResi
 <p>The header file of the LCD library.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;<a class="el" href="ht32_8h_source.html">ht32.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for ht32f5xxxx_lcd.h:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="ht32f5xxxx__lcd_8h__incl.svg" width="436" height="342"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div><div class="textblock"><div class="dynheader">
+This graph shows which files directly or indirectly include this file:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="ht32f5xxxx__lcd_8h__dep__incl.svg" width="239" height="272"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 <p><a href="ht32f5xxxx__lcd_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -119,43 +140,31 @@ Data Structures</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:ga3f1a7a7af367fe00664eba7720d490b1" id="r_ga3f1a7a7af367fe00664eba7720d490b1"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LCD_INT_UDD</b>&#160;&#160;&#160;((u32)0x00000002)</td></tr>
+<tr class="memitem:ga3f1a7a7af367fe00664eba7720d490b1" id="r_ga3f1a7a7af367fe00664eba7720d490b1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_c_d___exported___constants.html#ga3f1a7a7af367fe00664eba7720d490b1">LCD_INT_UDD</a>&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0x00000002)</td></tr>
 <tr class="separator:ga3f1a7a7af367fe00664eba7720d490b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga90a72cda485d4854c8bf71378a90789e" id="r_ga90a72cda485d4854c8bf71378a90789e"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LCD_INT_SOF</b>&#160;&#160;&#160;((u32)0x00000001)</td></tr>
+<tr class="memitem:ga90a72cda485d4854c8bf71378a90789e" id="r_ga90a72cda485d4854c8bf71378a90789e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_c_d___exported___constants.html#ga90a72cda485d4854c8bf71378a90789e">LCD_INT_SOF</a>&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0x00000001)</td></tr>
 <tr class="separator:ga90a72cda485d4854c8bf71378a90789e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac5d7d29fb07d6abca0b41863cb4dde53" id="r_gac5d7d29fb07d6abca0b41863cb4dde53"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>IS_LCD_INT</b>(INT)&#160;&#160;&#160;((((INT) &amp; 0xFFFFFFFC) == 0) &amp;&amp; ((INT) != 0))</td></tr>
+<tr class="memitem:gac5d7d29fb07d6abca0b41863cb4dde53" id="r_gac5d7d29fb07d6abca0b41863cb4dde53"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_c_d___exported___constants.html#gac5d7d29fb07d6abca0b41863cb4dde53">IS_LCD_INT</a>(INT)&#160;&#160;&#160;((((INT) &amp; 0xFFFFFFFC) == 0) &amp;&amp; ((INT) != 0))</td></tr>
 <tr class="separator:gac5d7d29fb07d6abca0b41863cb4dde53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaeeda42de43b62f273fb8f61bc4839e27" id="r_gaeeda42de43b62f273fb8f61bc4839e27"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LCD_FLAG_FCRSF</b>&#160;&#160;&#160;((u32)0x00000020)</td></tr>
+<tr class="memitem:gaeeda42de43b62f273fb8f61bc4839e27" id="r_gaeeda42de43b62f273fb8f61bc4839e27"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_c_d___exported___constants.html#gaeeda42de43b62f273fb8f61bc4839e27">LCD_FLAG_FCRSF</a>&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0x00000020)</td></tr>
 <tr class="separator:gaeeda42de43b62f273fb8f61bc4839e27"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1797dca2822b28bceee5ded794a73bf2" id="r_ga1797dca2822b28bceee5ded794a73bf2"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LCD_FLAG_RDY</b>&#160;&#160;&#160;((u32)0x00000010)</td></tr>
+<tr class="memitem:ga1797dca2822b28bceee5ded794a73bf2" id="r_ga1797dca2822b28bceee5ded794a73bf2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_c_d___exported___constants.html#ga1797dca2822b28bceee5ded794a73bf2">LCD_FLAG_RDY</a>&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0x00000010)</td></tr>
 <tr class="separator:ga1797dca2822b28bceee5ded794a73bf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa350a67df2cce66731653bcd4e09af16" id="r_gaa350a67df2cce66731653bcd4e09af16"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LCD_FLAG_UDD</b>&#160;&#160;&#160;((u32)0x00000008)</td></tr>
+<tr class="memitem:gaa350a67df2cce66731653bcd4e09af16" id="r_gaa350a67df2cce66731653bcd4e09af16"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_c_d___exported___constants.html#gaa350a67df2cce66731653bcd4e09af16">LCD_FLAG_UDD</a>&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0x00000008)</td></tr>
 <tr class="separator:gaa350a67df2cce66731653bcd4e09af16"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7d4d82f6feba79e2b772a12d82402e6c" id="r_ga7d4d82f6feba79e2b772a12d82402e6c"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LCD_FLAG_UDR</b>&#160;&#160;&#160;((u32)0x00000004)</td></tr>
+<tr class="memitem:ga7d4d82f6feba79e2b772a12d82402e6c" id="r_ga7d4d82f6feba79e2b772a12d82402e6c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_c_d___exported___constants.html#ga7d4d82f6feba79e2b772a12d82402e6c">LCD_FLAG_UDR</a>&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0x00000004)</td></tr>
 <tr class="separator:ga7d4d82f6feba79e2b772a12d82402e6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gacf4a7a09c85d7b3207ab8460a5fed7e5" id="r_gacf4a7a09c85d7b3207ab8460a5fed7e5"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LCD_FLAG_SOF</b>&#160;&#160;&#160;((u32)0x00000002)</td></tr>
+<tr class="memitem:gacf4a7a09c85d7b3207ab8460a5fed7e5" id="r_gacf4a7a09c85d7b3207ab8460a5fed7e5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_c_d___exported___constants.html#gacf4a7a09c85d7b3207ab8460a5fed7e5">LCD_FLAG_SOF</a>&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0x00000002)</td></tr>
 <tr class="separator:gacf4a7a09c85d7b3207ab8460a5fed7e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8f4de2218fe7ef6136e71ba0e52f7a13" id="r_ga8f4de2218fe7ef6136e71ba0e52f7a13"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LCD_FLAG_ENS</b>&#160;&#160;&#160;((u32)0x00000001)</td></tr>
+<tr class="memitem:ga8f4de2218fe7ef6136e71ba0e52f7a13" id="r_ga8f4de2218fe7ef6136e71ba0e52f7a13"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_c_d___exported___constants.html#ga8f4de2218fe7ef6136e71ba0e52f7a13">LCD_FLAG_ENS</a>&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0x00000001)</td></tr>
 <tr class="separator:ga8f4de2218fe7ef6136e71ba0e52f7a13"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga6ffab7b35cd006082e9468dfe9c00802" id="r_ga6ffab7b35cd006082e9468dfe9c00802"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_c_d___exported___constants.html#ga6ffab7b35cd006082e9468dfe9c00802">IS_LCD_FLAG</a>(FLAG)</td></tr>
 <tr class="separator:ga6ffab7b35cd006082e9468dfe9c00802"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga252c1c465531ce0c300262bbc2e2924a" id="r_ga252c1c465531ce0c300262bbc2e2924a"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LCD_CLR_UDD</b>&#160;&#160;&#160;((u32)0x00000002)</td></tr>
+<tr class="memitem:ga252c1c465531ce0c300262bbc2e2924a" id="r_ga252c1c465531ce0c300262bbc2e2924a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_c_d___exported___constants.html#ga252c1c465531ce0c300262bbc2e2924a">LCD_CLR_UDD</a>&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0x00000002)</td></tr>
 <tr class="separator:ga252c1c465531ce0c300262bbc2e2924a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3c17930a6f27ac077abf7e4b147bcef0" id="r_ga3c17930a6f27ac077abf7e4b147bcef0"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LCD_CLR_SOF</b>&#160;&#160;&#160;((u32)0x00000001)</td></tr>
+<tr class="memitem:ga3c17930a6f27ac077abf7e4b147bcef0" id="r_ga3c17930a6f27ac077abf7e4b147bcef0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_c_d___exported___constants.html#ga3c17930a6f27ac077abf7e4b147bcef0">LCD_CLR_SOF</a>&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0x00000001)</td></tr>
 <tr class="separator:ga3c17930a6f27ac077abf7e4b147bcef0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gacbca788d86f0ef3170d6147eee7604c3" id="r_gacbca788d86f0ef3170d6147eee7604c3"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>IS_LCD_CLEAR</b>(CLR)&#160;&#160;&#160;((((CLR) &amp; 0xFFFFFFFC) == 0) &amp;&amp; ((CLR) != 0))</td></tr>
+<tr class="memitem:gacbca788d86f0ef3170d6147eee7604c3" id="r_gacbca788d86f0ef3170d6147eee7604c3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_c_d___exported___constants.html#gacbca788d86f0ef3170d6147eee7604c3">IS_LCD_CLEAR</a>(CLR)&#160;&#160;&#160;((((CLR) &amp; 0xFFFFFFFC) == 0) &amp;&amp; ((CLR) != 0))</td></tr>
 <tr class="separator:gacbca788d86f0ef3170d6147eee7604c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
@@ -171,22 +180,22 @@ Enumerations</h2></td></tr>
 <tr class="memdesc:gad3ae0473f2baac3d0b8a2b56b109476a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumeration of LCD STATIC switch.  <a href="group___l_c_d___exported___types.html#gad3ae0473f2baac3d0b8a2b56b109476a">More...</a><br /></td></tr>
 <tr class="separator:gad3ae0473f2baac3d0b8a2b56b109476a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaaae86cb684b46d1425988db6b2867a92" id="r_gaaae86cb684b46d1425988db6b2867a92"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_c_d___exported___types.html#gaaae86cb684b46d1425988db6b2867a92">LCD_MUXCOM7_Enum</a> { <a class="el" href="group___l_c_d___exported___types.html#ggaaae86cb684b46d1425988db6b2867a92ae37a2661965315bd56eef110c49f4615">LCD_MUXCOM7_IS_COM7</a> = (0x00 &lt;&lt; 11)
-, <b>LCD_MUXCOM7_IS_SEGx</b> = (0x01 &lt;&lt; 11)
+, <a class="el" href="group___l_c_d___exported___types.html#ggaaae86cb684b46d1425988db6b2867a92a3f0a58eb2a2ebb1268c2fcb7ae2b4893">LCD_MUXCOM7_IS_SEGx</a> = (0x01 &lt;&lt; 11)
  }</td></tr>
 <tr class="memdesc:gaaae86cb684b46d1425988db6b2867a92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumeration of LCD MUXCOM7.  <a href="group___l_c_d___exported___types.html#gaaae86cb684b46d1425988db6b2867a92">More...</a><br /></td></tr>
 <tr class="separator:gaaae86cb684b46d1425988db6b2867a92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf2db8bbc620637c8b40ff72bd22ae83c" id="r_gaf2db8bbc620637c8b40ff72bd22ae83c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_c_d___exported___types.html#gaf2db8bbc620637c8b40ff72bd22ae83c">LCD_MUXCOM6_Enum</a> { <a class="el" href="group___l_c_d___exported___types.html#ggaf2db8bbc620637c8b40ff72bd22ae83caac704a64ec45199902ad2fb10efaca1b">LCD_MUXCOM6_IS_COM6</a> = (0x00 &lt;&lt; 10)
-, <b>LCD_MUXCOM6_IS_SEGx</b> = (0x01 &lt;&lt; 10)
+, <a class="el" href="group___l_c_d___exported___types.html#ggaf2db8bbc620637c8b40ff72bd22ae83cafde041f050cfe998cce86f6612fc8504">LCD_MUXCOM6_IS_SEGx</a> = (0x01 &lt;&lt; 10)
  }</td></tr>
 <tr class="memdesc:gaf2db8bbc620637c8b40ff72bd22ae83c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumeration of LCD MUXCOM6.  <a href="group___l_c_d___exported___types.html#gaf2db8bbc620637c8b40ff72bd22ae83c">More...</a><br /></td></tr>
 <tr class="separator:gaf2db8bbc620637c8b40ff72bd22ae83c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga1d5935b31a4257fc6ccc20fe7acbf78d" id="r_ga1d5935b31a4257fc6ccc20fe7acbf78d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_c_d___exported___types.html#ga1d5935b31a4257fc6ccc20fe7acbf78d">LCD_MUXCOM5_Enum</a> { <a class="el" href="group___l_c_d___exported___types.html#gga1d5935b31a4257fc6ccc20fe7acbf78da4c052ba17fafc276b022f41372fe340e">LCD_MUXCOM5_IS_COM5</a> = (0x00 &lt;&lt; 9)
-, <b>LCD_MUXCOM5_IS_SEGx</b> = (0x01 &lt;&lt; 9)
+, <a class="el" href="group___l_c_d___exported___types.html#gga1d5935b31a4257fc6ccc20fe7acbf78daa9ac631887ecddb90668852487e6563a">LCD_MUXCOM5_IS_SEGx</a> = (0x01 &lt;&lt; 9)
  }</td></tr>
 <tr class="memdesc:ga1d5935b31a4257fc6ccc20fe7acbf78d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumeration of LCD MUXCOM5.  <a href="group___l_c_d___exported___types.html#ga1d5935b31a4257fc6ccc20fe7acbf78d">More...</a><br /></td></tr>
 <tr class="separator:ga1d5935b31a4257fc6ccc20fe7acbf78d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga9c1ba92517003b9b3415e30f3706d3db" id="r_ga9c1ba92517003b9b3415e30f3706d3db"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_c_d___exported___types.html#ga9c1ba92517003b9b3415e30f3706d3db">LCD_MUXCOM4_Enum</a> { <a class="el" href="group___l_c_d___exported___types.html#gga9c1ba92517003b9b3415e30f3706d3dbaa8fad97893b1bd18497bea0349e071cf">LCD_MUXCOM4_IS_COM4</a> = (0x00 &lt;&lt; 8)
-, <b>LCD_MUXCOM4_IS_SEGx</b> = (0x01 &lt;&lt; 8)
+, <a class="el" href="group___l_c_d___exported___types.html#gga9c1ba92517003b9b3415e30f3706d3dba53e6e01cc7567818784400d4d87a0197">LCD_MUXCOM4_IS_SEGx</a> = (0x01 &lt;&lt; 8)
  }</td></tr>
 <tr class="memdesc:ga9c1ba92517003b9b3415e30f3706d3db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumeration of LCD MUXCOM4.  <a href="group___l_c_d___exported___types.html#ga9c1ba92517003b9b3415e30f3706d3db">More...</a><br /></td></tr>
 <tr class="separator:ga9c1ba92517003b9b3415e30f3706d3db"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -344,7 +353,7 @@ Functions</h2></td></tr>
 <tr class="memitem:ga289d6479864cd1228747f6d11137a6d3" id="r_ga289d6479864cd1228747f6d11137a6d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_c_d___exported___functions.html#ga289d6479864cd1228747f6d11137a6d3">LCD_MaskTimeConfig</a> (<a class="el" href="group___l_c_d___exported___types.html#gaf5aaff5716f115f2f4f74f8fc6c52992">LCD_MaskTime_Enum</a> Sel)</td></tr>
 <tr class="memdesc:ga289d6479864cd1228747f6d11137a6d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configure the MCONT mask time.  <br /></td></tr>
 <tr class="separator:ga289d6479864cd1228747f6d11137a6d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7841ebb364cfbaaf22e11fc7ceb79101" id="r_ga7841ebb364cfbaaf22e11fc7ceb79101"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_c_d___exported___functions.html#ga7841ebb364cfbaaf22e11fc7ceb79101">LCD_HalfRLCmd</a> (ControlStatus NewState)</td></tr>
+<tr class="memitem:ga7841ebb364cfbaaf22e11fc7ceb79101" id="r_ga7841ebb364cfbaaf22e11fc7ceb79101"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_c_d___exported___functions.html#ga7841ebb364cfbaaf22e11fc7ceb79101">LCD_HalfRLCmd</a> (<a class="el" href="group___exported___types.html#ga7e0a5efd47ffb7f58fcc2e1cb1e38dae">ControlStatus</a> NewState)</td></tr>
 <tr class="memdesc:ga7841ebb364cfbaaf22e11fc7ceb79101"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable or Disable half of the low value resistor (HRLEN).  <br /></td></tr>
 <tr class="separator:ga7841ebb364cfbaaf22e11fc7ceb79101"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gafc4ecf2d25b1dcc6f243e6a0f8434306" id="r_gafc4ecf2d25b1dcc6f243e6a0f8434306"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_c_d___exported___functions.html#gafc4ecf2d25b1dcc6f243e6a0f8434306">LCD_StaticSwitchConfig</a> (<a class="el" href="group___l_c_d___exported___types.html#gad3ae0473f2baac3d0b8a2b56b109476a">LCD_StaticSwitch_Enum</a> Sel)</td></tr>
@@ -374,7 +383,7 @@ Functions</h2></td></tr>
 <tr class="memitem:ga04c419243bfbc0d20c48943fedbb2ce9" id="r_ga04c419243bfbc0d20c48943fedbb2ce9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_c_d___exported___functions.html#ga04c419243bfbc0d20c48943fedbb2ce9">LCD_VoltageSourceConfig</a> (<a class="el" href="group___l_c_d___exported___types.html#ga07187dbb04f6a3c5a3b04f31f651d174">LCD_VoltageSource_Enum</a> Sel)</td></tr>
 <tr class="memdesc:ga04c419243bfbc0d20c48943fedbb2ce9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configure the LCD Power Selection.  <br /></td></tr>
 <tr class="separator:ga04c419243bfbc0d20c48943fedbb2ce9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa8d5500c5dce641dab69064b31b7133c" id="r_gaa8d5500c5dce641dab69064b31b7133c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_c_d___exported___functions.html#gaa8d5500c5dce641dab69064b31b7133c">LCD_Cmd</a> (ControlStatus NewState)</td></tr>
+<tr class="memitem:gaa8d5500c5dce641dab69064b31b7133c" id="r_gaa8d5500c5dce641dab69064b31b7133c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_c_d___exported___functions.html#gaa8d5500c5dce641dab69064b31b7133c">LCD_Cmd</a> (<a class="el" href="group___exported___types.html#ga7e0a5efd47ffb7f58fcc2e1cb1e38dae">ControlStatus</a> NewState)</td></tr>
 <tr class="memdesc:gaa8d5500c5dce641dab69064b31b7133c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable or Disable the LCD peripheral.  <br /></td></tr>
 <tr class="separator:gaa8d5500c5dce641dab69064b31b7133c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga4b790ba602072e56cd39cfb16ba88248" id="r_ga4b790ba602072e56cd39cfb16ba88248"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_c_d___exported___functions.html#ga4b790ba602072e56cd39cfb16ba88248">LCD_PrescalerConfig</a> (<a class="el" href="group___l_c_d___exported___types.html#ga174120c4d51e64ad66793b3265f26a56">LCD_Prescaler_Enum</a> Sel)</td></tr>
@@ -386,8 +395,7 @@ Functions</h2></td></tr>
 <tr class="memitem:gaa429d0b14db8cb4c79391acc80630fc8" id="r_gaa429d0b14db8cb4c79391acc80630fc8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_c_d___exported___functions.html#gaa429d0b14db8cb4c79391acc80630fc8">LCD_BlinkModeConfig</a> (<a class="el" href="group___l_c_d___exported___types.html#ga2a9cbf4e2aecfef50db825939c893890">LCD_BlinkMode_Enum</a> Sel)</td></tr>
 <tr class="memdesc:gaa429d0b14db8cb4c79391acc80630fc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configure the LCD Blink Mode Selection.  <br /></td></tr>
 <tr class="separator:gaa429d0b14db8cb4c79391acc80630fc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1525c55b02f5e2823545940829c8c3fe" id="r_ga1525c55b02f5e2823545940829c8c3fe"><td class="memItemLeft" align="right" valign="top">
-void&#160;</td><td class="memItemRight" valign="bottom"><b>LCD_BlinkFreqConfig</b> (<a class="el" href="group___l_c_d___exported___types.html#ga936365abf8e56fd6c8e9a5545e134d88">LCD_BlinkFrequency_Enum</a> Sel)</td></tr>
+<tr class="memitem:ga1525c55b02f5e2823545940829c8c3fe" id="r_ga1525c55b02f5e2823545940829c8c3fe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_c_d___exported___functions.html#ga1525c55b02f5e2823545940829c8c3fe">LCD_BlinkFreqConfig</a> (<a class="el" href="group___l_c_d___exported___types.html#ga936365abf8e56fd6c8e9a5545e134d88">LCD_BlinkFrequency_Enum</a> Sel)</td></tr>
 <tr class="separator:ga1525c55b02f5e2823545940829c8c3fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gacb311a3bcda7505d72fffaa686a5ec01" id="r_gacb311a3bcda7505d72fffaa686a5ec01"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_c_d___exported___functions.html#gacb311a3bcda7505d72fffaa686a5ec01">LCD_ChargePumpConfig</a> (<a class="el" href="group___l_c_d___exported___types.html#ga7e4d4ad8697efe61f8821db0d644c141">LCD_ChargePump_Enum</a> Sel)</td></tr>
 <tr class="memdesc:gacb311a3bcda7505d72fffaa686a5ec01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configure the LCD Charge Pump Voltage Selection.  <br /></td></tr>
@@ -398,16 +406,16 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>LCD_BlinkFreqConfig</
 <tr class="memitem:ga742dcc9562409c30a78bd3d48ce51d5f" id="r_ga742dcc9562409c30a78bd3d48ce51d5f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_c_d___exported___functions.html#ga742dcc9562409c30a78bd3d48ce51d5f">LCD_HighDriveConfig</a> (<a class="el" href="group___l_c_d___exported___types.html#ga76d6818d064a355b7cba3d816eb7ed32">LCD_HighDrive_Enum</a> Sel)</td></tr>
 <tr class="memdesc:ga742dcc9562409c30a78bd3d48ce51d5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configure the LCD High Drive Duration Selection.  <br /></td></tr>
 <tr class="separator:ga742dcc9562409c30a78bd3d48ce51d5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6cced7a908e2002e2e75af76a512096f" id="r_ga6cced7a908e2002e2e75af76a512096f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_c_d___exported___functions.html#ga6cced7a908e2002e2e75af76a512096f">LCD_IntConfig</a> (u32 LCD_INT, ControlStatus NewState)</td></tr>
+<tr class="memitem:ga6cced7a908e2002e2e75af76a512096f" id="r_ga6cced7a908e2002e2e75af76a512096f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_c_d___exported___functions.html#ga6cced7a908e2002e2e75af76a512096f">LCD_IntConfig</a> (<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> LCD_INT, <a class="el" href="group___exported___types.html#ga7e0a5efd47ffb7f58fcc2e1cb1e38dae">ControlStatus</a> NewState)</td></tr>
 <tr class="memdesc:ga6cced7a908e2002e2e75af76a512096f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable or Disable the specified LCD interrupts.  <br /></td></tr>
 <tr class="separator:ga6cced7a908e2002e2e75af76a512096f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa34da49fe7b5bd7e9f96706443e25535" id="r_gaa34da49fe7b5bd7e9f96706443e25535"><td class="memItemLeft" align="right" valign="top">FlagStatus&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_c_d___exported___functions.html#gaa34da49fe7b5bd7e9f96706443e25535">LCD_GetFlagStatus</a> (u32 LCD_FLAG)</td></tr>
+<tr class="memitem:gaa34da49fe7b5bd7e9f96706443e25535" id="r_gaa34da49fe7b5bd7e9f96706443e25535"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___exported___types.html#ga89136caac2e14c55151f527ac02daaff">FlagStatus</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_c_d___exported___functions.html#gaa34da49fe7b5bd7e9f96706443e25535">LCD_GetFlagStatus</a> (<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> LCD_FLAG)</td></tr>
 <tr class="memdesc:gaa34da49fe7b5bd7e9f96706443e25535"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check whether the specified LCD flag has been set.  <br /></td></tr>
 <tr class="separator:gaa34da49fe7b5bd7e9f96706443e25535"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga3a46564eec3a327d5e09701779ab0eed" id="r_ga3a46564eec3a327d5e09701779ab0eed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_c_d___exported___functions.html#ga3a46564eec3a327d5e09701779ab0eed">LCD_SetUpdateDisplayRequest</a> (void)</td></tr>
 <tr class="memdesc:ga3a46564eec3a327d5e09701779ab0eed"><td class="mdescLeft">&#160;</td><td class="mdescRight">SET LCD Update Display Request.  <br /></td></tr>
 <tr class="separator:ga3a46564eec3a327d5e09701779ab0eed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae1154f3364611d624811e41024560f55" id="r_gae1154f3364611d624811e41024560f55"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_c_d___exported___functions.html#gae1154f3364611d624811e41024560f55">LCD_ClearFlag</a> (u32 LCD_Flag)</td></tr>
+<tr class="memitem:gae1154f3364611d624811e41024560f55" id="r_gae1154f3364611d624811e41024560f55"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_c_d___exported___functions.html#gae1154f3364611d624811e41024560f55">LCD_ClearFlag</a> (<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> LCD_Flag)</td></tr>
 <tr class="memdesc:gae1154f3364611d624811e41024560f55"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear the specified LCD flag.  <br /></td></tr>
 <tr class="separator:gae1154f3364611d624811e41024560f55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -424,13 +432,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>LCD_BlinkFreqConfig</
 </ol>
 <h2><center>Copyright (C) Holtek Semiconductor Inc. All rights reserved</center></h2>
 </div></div><!-- contents -->
-</div><!-- doc-content -->
 <!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="navelem"><a class="el" href="dir_275089585c7fc1b5fd5d7d42c69cb1da.html">D:</a></li><li class="navelem"><a class="el" href="dir_273f27263c611837868160ff0f82bfd9.html">Note_Database</a></li><li class="navelem"><a class="el" href="dir_e8282a48381dd1bcf012c1bae1dc741b.html">Subject</a></li><li class="navelem"><a class="el" href="dir_7583b43eec1d2788dd81e658186519d2.html">MCETA Microcontroller Experiment TA</a></li><li class="navelem"><a class="el" href="dir_3ca5c6b4c4a2c10c94024caf0df2e6bb.html">files</a></li><li class="navelem"><a class="el" href="dir_79e3244e27785f7ec158b45668f9e3ec.html">HT32_STD_5xxxx_FWLib_V1.5.1_7084b</a></li><li class="navelem"><a class="el" href="dir_6965e01511015f2942f432da2d4a5bcb.html">library</a></li><li class="navelem"><a class="el" href="dir_a2f81702cb5fc8b133c02bd1d2044bc0.html">HT32F5xxxx_Driver</a></li><li class="navelem"><a class="el" href="dir_5295d97ccb3d03e3674380e8c26a1d02.html">inc</a></li><li class="navelem"><a class="el" href="ht32f5xxxx__lcd_8h.html">ht32f5xxxx_lcd.h</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
-  </ul>
-</div>
+<hr class="footer"/><address class="footer"><small>
+Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+</small></address>
 </body>
 </html>

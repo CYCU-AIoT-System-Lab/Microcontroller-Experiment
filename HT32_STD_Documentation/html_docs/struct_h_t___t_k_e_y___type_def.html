@@ -1,29 +1,62 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>HT32_STD_Documents: HT_TKEY_TypeDef Struct Reference</title>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>HT32_STD_Code_Documents: HT_TKEY_TypeDef Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
-   <div id="projectname">HT32_STD_Documents<span id="projectnumber">&#160;1.0.0</span>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">HT32_STD_Code_Documents
+   &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">For HT32F52352</div>
+   <div id="projectbrief">Micro-controller Experiment</div>
   </td>
  </tr>
  </tbody>
@@ -71,8 +104,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="struct_h_t___t_k_e_y___type_def-members.html">List of all members</a>  </div>
+<a href="#pub-attribs">Data Fields</a>  </div>
   <div class="headertitle"><div class="title">HT_TKEY_TypeDef Struct Reference<div class="ingroups"><a class="el" href="group___c_m_s_i_s.html">CMSIS</a> &raquo; <a class="el" href="group___h_t32_f5xxxx.html">HT32F5xxxx</a> &raquo; <a class="el" href="group___peripheral___registers___structures.html">Peripheral_Registers_Structures</a></div></div></div>
 </div><!--header-->
 <div class="contents">
@@ -81,45 +113,50 @@ $(function() {
  <a href="struct_h_t___t_k_e_y___type_def.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="ht32f5xxxx__01_8h_source.html">ht32f5xxxx_01.h</a>&gt;</code></p>
+<div class="dynheader">
+Collaboration diagram for HT_TKEY_TypeDef:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="struct_h_t___t_k_e_y___type_def__coll__graph.svg" width="143" height="208"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:a46af430bed87bbb2d9af1cfa44e66382" id="r_a46af430bed87bbb2d9af1cfa44e66382"><td class="memItemLeft" align="right" valign="top"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_h_t___t_k_e_y___type_def.html#a46af430bed87bbb2d9af1cfa44e66382">TKCR</a></td></tr>
-<tr class="separator:a46af430bed87bbb2d9af1cfa44e66382"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf2a9c1212c7cdceda8c65a8eb0c34c2" id="r_aaf2a9c1212c7cdceda8c65a8eb0c34c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_h_t___t_k_e_y___type_def.html#aaf2a9c1212c7cdceda8c65a8eb0c34c2">TKCNTR</a></td></tr>
-<tr class="separator:aaf2a9c1212c7cdceda8c65a8eb0c34c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a580fd5ea07eaf1ba6023cb1a13ec3f1d" id="r_a580fd5ea07eaf1ba6023cb1a13ec3f1d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_h_t___t_k_e_y___type_def.html#a580fd5ea07eaf1ba6023cb1a13ec3f1d">TKTSCRR</a></td></tr>
-<tr class="separator:a580fd5ea07eaf1ba6023cb1a13ec3f1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0973e2837405d1aba8a48ba35ab47be" id="r_ad0973e2837405d1aba8a48ba35ab47be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_h_t___t_k_e_y___type_def.html#ad0973e2837405d1aba8a48ba35ab47be">TKIER</a></td></tr>
-<tr class="separator:ad0973e2837405d1aba8a48ba35ab47be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a93bef45247abda1c7a8a524226e6037c" id="r_a93bef45247abda1c7a8a524226e6037c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_h_t___t_k_e_y___type_def.html#a93bef45247abda1c7a8a524226e6037c">TKSR</a></td></tr>
-<tr class="separator:a93bef45247abda1c7a8a524226e6037c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c8b3ba131dff07e9758d61fdc1e2527" id="r_a0c8b3ba131dff07e9758d61fdc1e2527"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_h_t___t_k_e_y___type_def.html#a0c8b3ba131dff07e9758d61fdc1e2527">RESERVED0</a> [59]</td></tr>
-<tr class="separator:a0c8b3ba131dff07e9758d61fdc1e2527"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7420be61d73cb5344ada3ec88c43ace6" id="r_a7420be61d73cb5344ada3ec88c43ace6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_h_t___t_k_m___type_def.html">HT_TKM_TypeDef</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_h_t___t_k_e_y___type_def.html#a7420be61d73cb5344ada3ec88c43ace6">TKM0</a></td></tr>
-<tr class="separator:a7420be61d73cb5344ada3ec88c43ace6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c9d6dc4b0575872d6166e50302e702e" id="r_a9c9d6dc4b0575872d6166e50302e702e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_h_t___t_k_m___type_def.html">HT_TKM_TypeDef</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_h_t___t_k_e_y___type_def.html#a9c9d6dc4b0575872d6166e50302e702e">TKM1</a></td></tr>
-<tr class="separator:a9c9d6dc4b0575872d6166e50302e702e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae13dbd39527d1431d8fb167f46db573e" id="r_ae13dbd39527d1431d8fb167f46db573e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_h_t___t_k_m___type_def.html">HT_TKM_TypeDef</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_h_t___t_k_e_y___type_def.html#ae13dbd39527d1431d8fb167f46db573e">TKM2</a></td></tr>
-<tr class="separator:ae13dbd39527d1431d8fb167f46db573e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b38c430440804f62000fff64310eb2e" id="r_a6b38c430440804f62000fff64310eb2e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_h_t___t_k_m___type_def.html">HT_TKM_TypeDef</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_h_t___t_k_e_y___type_def.html#a6b38c430440804f62000fff64310eb2e">TKM3</a></td></tr>
-<tr class="separator:a6b38c430440804f62000fff64310eb2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7abaaab72be1f07eb6672815c490c5ea" id="r_a7abaaab72be1f07eb6672815c490c5ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_h_t___t_k_m___type_def.html">HT_TKM_TypeDef</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_h_t___t_k_e_y___type_def.html#a7abaaab72be1f07eb6672815c490c5ea">TKM4</a></td></tr>
-<tr class="separator:a7abaaab72be1f07eb6672815c490c5ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeca4f940b977ea0ad3edae7f515d29d0" id="r_aeca4f940b977ea0ad3edae7f515d29d0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_h_t___t_k_m___type_def.html">HT_TKM_TypeDef</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_h_t___t_k_e_y___type_def.html#aeca4f940b977ea0ad3edae7f515d29d0">TKM5</a></td></tr>
-<tr class="separator:aeca4f940b977ea0ad3edae7f515d29d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+Data Fields</h2></td></tr>
+<tr class="memitem:af5ca8d927e469ad24e7627c682920729" id="r_af5ca8d927e469ad24e7627c682920729"><td class="memItemLeft" align="right" valign="top"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_h_t___t_k_e_y___type_def.html#af5ca8d927e469ad24e7627c682920729">TKCR</a></td></tr>
+<tr class="separator:af5ca8d927e469ad24e7627c682920729"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfec6f9aa05d98046a3f8a86f1b419cb" id="r_adfec6f9aa05d98046a3f8a86f1b419cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_h_t___t_k_e_y___type_def.html#adfec6f9aa05d98046a3f8a86f1b419cb">TKCNTR</a></td></tr>
+<tr class="separator:adfec6f9aa05d98046a3f8a86f1b419cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeca689e431cbfd3b5bc6fa16fd8c3ef3" id="r_aeca689e431cbfd3b5bc6fa16fd8c3ef3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_h_t___t_k_e_y___type_def.html#aeca689e431cbfd3b5bc6fa16fd8c3ef3">TKTSCRR</a></td></tr>
+<tr class="separator:aeca689e431cbfd3b5bc6fa16fd8c3ef3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcc67df47fc9392a440054b2eb2f5bc3" id="r_adcc67df47fc9392a440054b2eb2f5bc3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_h_t___t_k_e_y___type_def.html#adcc67df47fc9392a440054b2eb2f5bc3">TKIER</a></td></tr>
+<tr class="separator:adcc67df47fc9392a440054b2eb2f5bc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a963ebd844d93c4ff0abf0baf4d43133f" id="r_a963ebd844d93c4ff0abf0baf4d43133f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_h_t___t_k_e_y___type_def.html#a963ebd844d93c4ff0abf0baf4d43133f">TKSR</a></td></tr>
+<tr class="separator:a963ebd844d93c4ff0abf0baf4d43133f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b82258297d23b97d52b3470223489b4" id="r_a5b82258297d23b97d52b3470223489b4"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_h_t___t_k_e_y___type_def.html#a5b82258297d23b97d52b3470223489b4">RESERVED0</a> [59]</td></tr>
+<tr class="separator:a5b82258297d23b97d52b3470223489b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e8bf6e0abe86169d7f0ff6a078d904d" id="r_a5e8bf6e0abe86169d7f0ff6a078d904d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_h_t___t_k_m___type_def.html">HT_TKM_TypeDef</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_h_t___t_k_e_y___type_def.html#a5e8bf6e0abe86169d7f0ff6a078d904d">TKM0</a></td></tr>
+<tr class="separator:a5e8bf6e0abe86169d7f0ff6a078d904d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a759506d3cbe8349ade8c2a84f6345f7b" id="r_a759506d3cbe8349ade8c2a84f6345f7b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_h_t___t_k_m___type_def.html">HT_TKM_TypeDef</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_h_t___t_k_e_y___type_def.html#a759506d3cbe8349ade8c2a84f6345f7b">TKM1</a></td></tr>
+<tr class="separator:a759506d3cbe8349ade8c2a84f6345f7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0133098338d8035c28e4dcf3108f6f0a" id="r_a0133098338d8035c28e4dcf3108f6f0a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_h_t___t_k_m___type_def.html">HT_TKM_TypeDef</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_h_t___t_k_e_y___type_def.html#a0133098338d8035c28e4dcf3108f6f0a">TKM2</a></td></tr>
+<tr class="separator:a0133098338d8035c28e4dcf3108f6f0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60edff9e5077a10757d7225c3c6f56c8" id="r_a60edff9e5077a10757d7225c3c6f56c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_h_t___t_k_m___type_def.html">HT_TKM_TypeDef</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_h_t___t_k_e_y___type_def.html#a60edff9e5077a10757d7225c3c6f56c8">TKM3</a></td></tr>
+<tr class="separator:a60edff9e5077a10757d7225c3c6f56c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d0416a4e040ff9053d9ec4fcbd74ff6" id="r_a7d0416a4e040ff9053d9ec4fcbd74ff6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_h_t___t_k_m___type_def.html">HT_TKM_TypeDef</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_h_t___t_k_e_y___type_def.html#a7d0416a4e040ff9053d9ec4fcbd74ff6">TKM4</a></td></tr>
+<tr class="separator:a7d0416a4e040ff9053d9ec4fcbd74ff6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59312f55bc8bd7cfbbab948583ad930e" id="r_a59312f55bc8bd7cfbbab948583ad930e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_h_t___t_k_m___type_def.html">HT_TKM_TypeDef</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_h_t___t_k_e_y___type_def.html#a59312f55bc8bd7cfbbab948583ad930e">TKM5</a></td></tr>
+<tr class="separator:a59312f55bc8bd7cfbbab948583ad930e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Touch Key. </p>
-</div><h2 class="groupheader">Member Data Documentation</h2>
-<a id="a0c8b3ba131dff07e9758d61fdc1e2527" name="a0c8b3ba131dff07e9758d61fdc1e2527"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0c8b3ba131dff07e9758d61fdc1e2527">&#9670;&#160;</a></span>RESERVED0</h2>
+</div><h2 class="groupheader">Field Documentation</h2>
+<a id="a5b82258297d23b97d52b3470223489b4" name="a5b82258297d23b97d52b3470223489b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b82258297d23b97d52b3470223489b4">&#9670;&#160;</a></span>RESERVED0</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint32_t HT_TKEY_TypeDef::RESERVED0[59]</td>
+          <td class="memname">uint32_t RESERVED0[59]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -128,14 +165,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aaf2a9c1212c7cdceda8c65a8eb0c34c2" name="aaf2a9c1212c7cdceda8c65a8eb0c34c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaf2a9c1212c7cdceda8c65a8eb0c34c2">&#9670;&#160;</a></span>TKCNTR</h2>
+<a id="adfec6f9aa05d98046a3f8a86f1b419cb" name="adfec6f9aa05d98046a3f8a86f1b419cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adfec6f9aa05d98046a3f8a86f1b419cb">&#9670;&#160;</a></span>TKCNTR</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t HT_TKEY_TypeDef::TKCNTR</td>
+          <td class="memname"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t TKCNTR</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -144,14 +181,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a46af430bed87bbb2d9af1cfa44e66382" name="a46af430bed87bbb2d9af1cfa44e66382"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a46af430bed87bbb2d9af1cfa44e66382">&#9670;&#160;</a></span>TKCR</h2>
+<a id="af5ca8d927e469ad24e7627c682920729" name="af5ca8d927e469ad24e7627c682920729"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5ca8d927e469ad24e7627c682920729">&#9670;&#160;</a></span>TKCR</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t HT_TKEY_TypeDef::TKCR</td>
+          <td class="memname"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t TKCR</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -160,14 +197,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ad0973e2837405d1aba8a48ba35ab47be" name="ad0973e2837405d1aba8a48ba35ab47be"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad0973e2837405d1aba8a48ba35ab47be">&#9670;&#160;</a></span>TKIER</h2>
+<a id="adcc67df47fc9392a440054b2eb2f5bc3" name="adcc67df47fc9392a440054b2eb2f5bc3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adcc67df47fc9392a440054b2eb2f5bc3">&#9670;&#160;</a></span>TKIER</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t HT_TKEY_TypeDef::TKIER</td>
+          <td class="memname"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t TKIER</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -176,14 +213,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a7420be61d73cb5344ada3ec88c43ace6" name="a7420be61d73cb5344ada3ec88c43ace6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7420be61d73cb5344ada3ec88c43ace6">&#9670;&#160;</a></span>TKM0</h2>
+<a id="a5e8bf6e0abe86169d7f0ff6a078d904d" name="a5e8bf6e0abe86169d7f0ff6a078d904d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e8bf6e0abe86169d7f0ff6a078d904d">&#9670;&#160;</a></span>TKM0</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_h_t___t_k_m___type_def.html">HT_TKM_TypeDef</a> HT_TKEY_TypeDef::TKM0</td>
+          <td class="memname"><a class="el" href="struct_h_t___t_k_m___type_def.html">HT_TKM_TypeDef</a> TKM0</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -192,14 +229,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a9c9d6dc4b0575872d6166e50302e702e" name="a9c9d6dc4b0575872d6166e50302e702e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9c9d6dc4b0575872d6166e50302e702e">&#9670;&#160;</a></span>TKM1</h2>
+<a id="a759506d3cbe8349ade8c2a84f6345f7b" name="a759506d3cbe8349ade8c2a84f6345f7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a759506d3cbe8349ade8c2a84f6345f7b">&#9670;&#160;</a></span>TKM1</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_h_t___t_k_m___type_def.html">HT_TKM_TypeDef</a> HT_TKEY_TypeDef::TKM1</td>
+          <td class="memname"><a class="el" href="struct_h_t___t_k_m___type_def.html">HT_TKM_TypeDef</a> TKM1</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -208,14 +245,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ae13dbd39527d1431d8fb167f46db573e" name="ae13dbd39527d1431d8fb167f46db573e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae13dbd39527d1431d8fb167f46db573e">&#9670;&#160;</a></span>TKM2</h2>
+<a id="a0133098338d8035c28e4dcf3108f6f0a" name="a0133098338d8035c28e4dcf3108f6f0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0133098338d8035c28e4dcf3108f6f0a">&#9670;&#160;</a></span>TKM2</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_h_t___t_k_m___type_def.html">HT_TKM_TypeDef</a> HT_TKEY_TypeDef::TKM2</td>
+          <td class="memname"><a class="el" href="struct_h_t___t_k_m___type_def.html">HT_TKM_TypeDef</a> TKM2</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -224,14 +261,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a6b38c430440804f62000fff64310eb2e" name="a6b38c430440804f62000fff64310eb2e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6b38c430440804f62000fff64310eb2e">&#9670;&#160;</a></span>TKM3</h2>
+<a id="a60edff9e5077a10757d7225c3c6f56c8" name="a60edff9e5077a10757d7225c3c6f56c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60edff9e5077a10757d7225c3c6f56c8">&#9670;&#160;</a></span>TKM3</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_h_t___t_k_m___type_def.html">HT_TKM_TypeDef</a> HT_TKEY_TypeDef::TKM3</td>
+          <td class="memname"><a class="el" href="struct_h_t___t_k_m___type_def.html">HT_TKM_TypeDef</a> TKM3</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -240,14 +277,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a7abaaab72be1f07eb6672815c490c5ea" name="a7abaaab72be1f07eb6672815c490c5ea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7abaaab72be1f07eb6672815c490c5ea">&#9670;&#160;</a></span>TKM4</h2>
+<a id="a7d0416a4e040ff9053d9ec4fcbd74ff6" name="a7d0416a4e040ff9053d9ec4fcbd74ff6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d0416a4e040ff9053d9ec4fcbd74ff6">&#9670;&#160;</a></span>TKM4</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_h_t___t_k_m___type_def.html">HT_TKM_TypeDef</a> HT_TKEY_TypeDef::TKM4</td>
+          <td class="memname"><a class="el" href="struct_h_t___t_k_m___type_def.html">HT_TKM_TypeDef</a> TKM4</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -256,14 +293,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aeca4f940b977ea0ad3edae7f515d29d0" name="aeca4f940b977ea0ad3edae7f515d29d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeca4f940b977ea0ad3edae7f515d29d0">&#9670;&#160;</a></span>TKM5</h2>
+<a id="a59312f55bc8bd7cfbbab948583ad930e" name="a59312f55bc8bd7cfbbab948583ad930e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59312f55bc8bd7cfbbab948583ad930e">&#9670;&#160;</a></span>TKM5</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_h_t___t_k_m___type_def.html">HT_TKM_TypeDef</a> HT_TKEY_TypeDef::TKM5</td>
+          <td class="memname"><a class="el" href="struct_h_t___t_k_m___type_def.html">HT_TKM_TypeDef</a> TKM5</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -272,14 +309,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a93bef45247abda1c7a8a524226e6037c" name="a93bef45247abda1c7a8a524226e6037c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a93bef45247abda1c7a8a524226e6037c">&#9670;&#160;</a></span>TKSR</h2>
+<a id="a963ebd844d93c4ff0abf0baf4d43133f" name="a963ebd844d93c4ff0abf0baf4d43133f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a963ebd844d93c4ff0abf0baf4d43133f">&#9670;&#160;</a></span>TKSR</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t HT_TKEY_TypeDef::TKSR</td>
+          <td class="memname"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t TKSR</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -288,14 +325,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a580fd5ea07eaf1ba6023cb1a13ec3f1d" name="a580fd5ea07eaf1ba6023cb1a13ec3f1d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a580fd5ea07eaf1ba6023cb1a13ec3f1d">&#9670;&#160;</a></span>TKTSCRR</h2>
+<a id="aeca689e431cbfd3b5bc6fa16fd8c3ef3" name="aeca689e431cbfd3b5bc6fa16fd8c3ef3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeca689e431cbfd3b5bc6fa16fd8c3ef3">&#9670;&#160;</a></span>TKTSCRR</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t HT_TKEY_TypeDef::TKTSCRR</td>
+          <td class="memname"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t TKTSCRR</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -305,7 +342,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>HT32_STD_5xxxx_FWLib_V1.5.1_7084b/library/Device/Holtek/HT32F5xxxx/Include/<a class="el" href="ht32f5xxxx__01_8h_source.html">ht32f5xxxx_01.h</a></li>
+<li>D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/library/Device/Holtek/HT32F5xxxx/Include/<a class="el" href="ht32f5xxxx__01_8h_source.html">ht32f5xxxx_01.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

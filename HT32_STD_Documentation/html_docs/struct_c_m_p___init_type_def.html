@@ -1,29 +1,62 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>HT32_STD_Documents: CMP_InitTypeDef Struct Reference</title>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>HT32_STD_Code_Documents: CMP_InitTypeDef Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
-   <div id="projectname">HT32_STD_Documents<span id="projectnumber">&#160;1.0.0</span>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">HT32_STD_Code_Documents
+   &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">For HT32F52352</div>
+   <div id="projectbrief">Micro-controller Experiment</div>
   </td>
  </tr>
  </tbody>
@@ -71,47 +104,179 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="struct_c_m_p___init_type_def-members.html">List of all members</a>  </div>
+<a href="#pub-attribs">Data Fields</a>  </div>
   <div class="headertitle"><div class="title">CMP_InitTypeDef Struct Reference<div class="ingroups"><a class="el" href="group___h_t32_f5xxxx___peripheral___driver.html">HT32F5xxxx Peripheral Driver</a> &raquo; <a class="el" href="group___c_m_p.html">CMP</a> &raquo; <a class="el" href="group___c_m_p___exported___types.html">CMP exported types</a></div></div></div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="ht32f5xxxx__cmp_8h_source.html">ht32f5xxxx_cmp.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:ab52800f5af759f207e05952076b5123b" id="r_ab52800f5af759f207e05952076b5123b"><td class="memItemLeft" align="right" valign="top"><a id="ab52800f5af759f207e05952076b5123b" name="ab52800f5af759f207e05952076b5123b"></a>
-u32&#160;</td><td class="memItemRight" valign="bottom"><b>CMP_Wakeup</b></td></tr>
-<tr class="separator:ab52800f5af759f207e05952076b5123b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc5aa6f335c376477fde615df6940074" id="r_abc5aa6f335c376477fde615df6940074"><td class="memItemLeft" align="right" valign="top"><a id="abc5aa6f335c376477fde615df6940074" name="abc5aa6f335c376477fde615df6940074"></a>
-u32&#160;</td><td class="memItemRight" valign="bottom"><b>CMP_OutputSelection</b></td></tr>
-<tr class="separator:abc5aa6f335c376477fde615df6940074"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f9078b2cda3212b502c754499480899" id="r_a4f9078b2cda3212b502c754499480899"><td class="memItemLeft" align="right" valign="top"><a id="a4f9078b2cda3212b502c754499480899" name="a4f9078b2cda3212b502c754499480899"></a>
-u32&#160;</td><td class="memItemRight" valign="bottom"><b>CMP_ScalerSource</b></td></tr>
-<tr class="separator:a4f9078b2cda3212b502c754499480899"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae975f67e76a9a2d0a1fa7443ae15fdde" id="r_ae975f67e76a9a2d0a1fa7443ae15fdde"><td class="memItemLeft" align="right" valign="top"><a id="ae975f67e76a9a2d0a1fa7443ae15fdde" name="ae975f67e76a9a2d0a1fa7443ae15fdde"></a>
-u32&#160;</td><td class="memItemRight" valign="bottom"><b>CMP_ScalerOutputBuf</b></td></tr>
-<tr class="separator:ae975f67e76a9a2d0a1fa7443ae15fdde"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab8a72dc4f0288473433256dab3c1070c" id="r_ab8a72dc4f0288473433256dab3c1070c"><td class="memItemLeft" align="right" valign="top"><a id="ab8a72dc4f0288473433256dab3c1070c" name="ab8a72dc4f0288473433256dab3c1070c"></a>
-u32&#160;</td><td class="memItemRight" valign="bottom"><b>CMP_ScalerEnable</b></td></tr>
-<tr class="separator:ab8a72dc4f0288473433256dab3c1070c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45b1d4a55d5f9acb221380b4ffc3e98d" id="r_a45b1d4a55d5f9acb221380b4ffc3e98d"><td class="memItemLeft" align="right" valign="top"><a id="a45b1d4a55d5f9acb221380b4ffc3e98d" name="a45b1d4a55d5f9acb221380b4ffc3e98d"></a>
-u32&#160;</td><td class="memItemRight" valign="bottom"><b>CMP_CoutSync</b></td></tr>
-<tr class="separator:a45b1d4a55d5f9acb221380b4ffc3e98d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a0031d9ceebb4d9f774cf7f45a2ff18" id="r_a7a0031d9ceebb4d9f774cf7f45a2ff18"><td class="memItemLeft" align="right" valign="top"><a id="a7a0031d9ceebb4d9f774cf7f45a2ff18" name="a7a0031d9ceebb4d9f774cf7f45a2ff18"></a>
-u32&#160;</td><td class="memItemRight" valign="bottom"><b>CMP_OutputPol</b></td></tr>
-<tr class="separator:a7a0031d9ceebb4d9f774cf7f45a2ff18"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc358b4a91b28cebcde3126dc9e9bad1" id="r_adc358b4a91b28cebcde3126dc9e9bad1"><td class="memItemLeft" align="right" valign="top"><a id="adc358b4a91b28cebcde3126dc9e9bad1" name="adc358b4a91b28cebcde3126dc9e9bad1"></a>
-u32&#160;</td><td class="memItemRight" valign="bottom"><b>CMP_InvInputSelection</b></td></tr>
-<tr class="separator:adc358b4a91b28cebcde3126dc9e9bad1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70d51b7e88aef4d1bf90824b9592b04d" id="r_a70d51b7e88aef4d1bf90824b9592b04d"><td class="memItemLeft" align="right" valign="top"><a id="a70d51b7e88aef4d1bf90824b9592b04d" name="a70d51b7e88aef4d1bf90824b9592b04d"></a>
-u32&#160;</td><td class="memItemRight" valign="bottom"><b>CMP_Hysteresis</b></td></tr>
-<tr class="separator:a70d51b7e88aef4d1bf90824b9592b04d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a353aa77e0bf855d39a189d0f18a2de26" id="r_a353aa77e0bf855d39a189d0f18a2de26"><td class="memItemLeft" align="right" valign="top"><a id="a353aa77e0bf855d39a189d0f18a2de26" name="a353aa77e0bf855d39a189d0f18a2de26"></a>
-u32&#160;</td><td class="memItemRight" valign="bottom"><b>CMP_Speed</b></td></tr>
-<tr class="separator:a353aa77e0bf855d39a189d0f18a2de26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+Data Fields</h2></td></tr>
+<tr class="memitem:ac89f68752412a6c2c73b1b67fed1a0dc" id="r_ac89f68752412a6c2c73b1b67fed1a0dc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_m_p___init_type_def.html#ac89f68752412a6c2c73b1b67fed1a0dc">CMP_Wakeup</a></td></tr>
+<tr class="separator:ac89f68752412a6c2c73b1b67fed1a0dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98d65f46e5ffb76816bc87544131b2c3" id="r_a98d65f46e5ffb76816bc87544131b2c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_m_p___init_type_def.html#a98d65f46e5ffb76816bc87544131b2c3">CMP_OutputSelection</a></td></tr>
+<tr class="separator:a98d65f46e5ffb76816bc87544131b2c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99633a21997d2f72ebdbf677034a7f92" id="r_a99633a21997d2f72ebdbf677034a7f92"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_m_p___init_type_def.html#a99633a21997d2f72ebdbf677034a7f92">CMP_ScalerSource</a></td></tr>
+<tr class="separator:a99633a21997d2f72ebdbf677034a7f92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e769bde2d98a1707d0c1bebbe223f20" id="r_a5e769bde2d98a1707d0c1bebbe223f20"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_m_p___init_type_def.html#a5e769bde2d98a1707d0c1bebbe223f20">CMP_ScalerOutputBuf</a></td></tr>
+<tr class="separator:a5e769bde2d98a1707d0c1bebbe223f20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8b8ab06dc0cf465b1175a24effd13bd" id="r_af8b8ab06dc0cf465b1175a24effd13bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_m_p___init_type_def.html#af8b8ab06dc0cf465b1175a24effd13bd">CMP_ScalerEnable</a></td></tr>
+<tr class="separator:af8b8ab06dc0cf465b1175a24effd13bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a196c93ef7a6980e35fca2061c1633337" id="r_a196c93ef7a6980e35fca2061c1633337"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_m_p___init_type_def.html#a196c93ef7a6980e35fca2061c1633337">CMP_CoutSync</a></td></tr>
+<tr class="separator:a196c93ef7a6980e35fca2061c1633337"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8eef621cc227293fb6991736870a8fb" id="r_ad8eef621cc227293fb6991736870a8fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_m_p___init_type_def.html#ad8eef621cc227293fb6991736870a8fb">CMP_OutputPol</a></td></tr>
+<tr class="separator:ad8eef621cc227293fb6991736870a8fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a972257bf14eb96a2a1fc30524bdce4e3" id="r_a972257bf14eb96a2a1fc30524bdce4e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_m_p___init_type_def.html#a972257bf14eb96a2a1fc30524bdce4e3">CMP_InvInputSelection</a></td></tr>
+<tr class="separator:a972257bf14eb96a2a1fc30524bdce4e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d8b893cc585b0e5d76ae4e6a9764c1a" id="r_a5d8b893cc585b0e5d76ae4e6a9764c1a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_m_p___init_type_def.html#a5d8b893cc585b0e5d76ae4e6a9764c1a">CMP_Hysteresis</a></td></tr>
+<tr class="separator:a5d8b893cc585b0e5d76ae4e6a9764c1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af97e661150deb5028d4b9a04378be160" id="r_af97e661150deb5028d4b9a04378be160"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_m_p___init_type_def.html#af97e661150deb5028d4b9a04378be160">CMP_Speed</a></td></tr>
+<tr class="separator:af97e661150deb5028d4b9a04378be160"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Field Documentation</h2>
+<a id="a196c93ef7a6980e35fca2061c1633337" name="a196c93ef7a6980e35fca2061c1633337"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a196c93ef7a6980e35fca2061c1633337">&#9670;&#160;</a></span>CMP_CoutSync</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> CMP_CoutSync</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5d8b893cc585b0e5d76ae4e6a9764c1a" name="a5d8b893cc585b0e5d76ae4e6a9764c1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d8b893cc585b0e5d76ae4e6a9764c1a">&#9670;&#160;</a></span>CMP_Hysteresis</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> CMP_Hysteresis</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a972257bf14eb96a2a1fc30524bdce4e3" name="a972257bf14eb96a2a1fc30524bdce4e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a972257bf14eb96a2a1fc30524bdce4e3">&#9670;&#160;</a></span>CMP_InvInputSelection</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> CMP_InvInputSelection</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad8eef621cc227293fb6991736870a8fb" name="ad8eef621cc227293fb6991736870a8fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8eef621cc227293fb6991736870a8fb">&#9670;&#160;</a></span>CMP_OutputPol</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> CMP_OutputPol</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a98d65f46e5ffb76816bc87544131b2c3" name="a98d65f46e5ffb76816bc87544131b2c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98d65f46e5ffb76816bc87544131b2c3">&#9670;&#160;</a></span>CMP_OutputSelection</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> CMP_OutputSelection</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af8b8ab06dc0cf465b1175a24effd13bd" name="af8b8ab06dc0cf465b1175a24effd13bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8b8ab06dc0cf465b1175a24effd13bd">&#9670;&#160;</a></span>CMP_ScalerEnable</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> CMP_ScalerEnable</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5e769bde2d98a1707d0c1bebbe223f20" name="a5e769bde2d98a1707d0c1bebbe223f20"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e769bde2d98a1707d0c1bebbe223f20">&#9670;&#160;</a></span>CMP_ScalerOutputBuf</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> CMP_ScalerOutputBuf</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a99633a21997d2f72ebdbf677034a7f92" name="a99633a21997d2f72ebdbf677034a7f92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99633a21997d2f72ebdbf677034a7f92">&#9670;&#160;</a></span>CMP_ScalerSource</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> CMP_ScalerSource</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af97e661150deb5028d4b9a04378be160" name="af97e661150deb5028d4b9a04378be160"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af97e661150deb5028d4b9a04378be160">&#9670;&#160;</a></span>CMP_Speed</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> CMP_Speed</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac89f68752412a6c2c73b1b67fed1a0dc" name="ac89f68752412a6c2c73b1b67fed1a0dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac89f68752412a6c2c73b1b67fed1a0dc">&#9670;&#160;</a></span>CMP_Wakeup</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> CMP_Wakeup</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>HT32_STD_5xxxx_FWLib_V1.5.1_7084b/library/HT32F5xxxx_Driver/inc/<a class="el" href="ht32f5xxxx__cmp_8h_source.html">ht32f5xxxx_cmp.h</a></li>
+<li>D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/library/HT32F5xxxx_Driver/inc/<a class="el" href="ht32f5xxxx__cmp_8h_source.html">ht32f5xxxx_cmp.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

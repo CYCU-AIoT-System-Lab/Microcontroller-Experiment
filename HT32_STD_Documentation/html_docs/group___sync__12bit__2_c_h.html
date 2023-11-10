@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>HT32_STD_Documents: Sync_12bit_2CH</title>
+<title>HT32_STD_Code_Documents: Sync_12bit_2CH</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,9 +21,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">HT32_STD_Documents<span id="projectnumber">&#160;1.0.0</span>
+   <div id="projectname">HT32_STD_Code_Documents<span id="projectnumber">&#160;1.0.0</span>
    </div>
-   <div id="projectbrief">For HT32F52352</div>
+   <div id="projectbrief">Micro-controller Experiment</div>
   </td>
  </tr>
  </tbody>
@@ -76,23 +76,23 @@ $(function() {
   <div class="headertitle"><div class="title">Sync_12bit_2CH<div class="ingroups"><a class="el" href="group___h_t32___series___peripheral___examples.html">HT32 Peripheral Examples</a> &raquo; <a class="el" href="group___d_a_c__example.html">DAC</a></div></div></div>
 </div><!--header-->
 <div class="contents">
+<div class="dynheader">
+Collaboration diagram for Sync_12bit_2CH:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="group___sync__12bit__2_c_h.svg" width="226" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:gadf127601136bc87d155945d610e32368" id="r_gadf127601136bc87d155945d610e32368"><td class="memItemLeft" align="right" valign="top"><a id="gadf127601136bc87d155945d610e32368" name="gadf127601136bc87d155945d610e32368"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>CHANNEL0_OUT_MILLI_V</b>&#160;&#160;&#160;(1650)       /* 1.65V                                                   */</td></tr>
+<tr class="memitem:gadf127601136bc87d155945d610e32368" id="r_gadf127601136bc87d155945d610e32368"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___sync__12bit__2_c_h.html#gadf127601136bc87d155945d610e32368">CHANNEL0_OUT_MILLI_V</a>&#160;&#160;&#160;(1650)       /* 1.65V                                                   */</td></tr>
 <tr class="separator:gadf127601136bc87d155945d610e32368"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga25f56c7d1bb19ce3771bfd3a4e08eb3a" id="r_ga25f56c7d1bb19ce3771bfd3a4e08eb3a"><td class="memItemLeft" align="right" valign="top"><a id="ga25f56c7d1bb19ce3771bfd3a4e08eb3a" name="ga25f56c7d1bb19ce3771bfd3a4e08eb3a"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>CHANNEL1_OUT_MILLI_V</b>&#160;&#160;&#160;(1650)       /* 1.65V                                                   */</td></tr>
+<tr class="memitem:ga25f56c7d1bb19ce3771bfd3a4e08eb3a" id="r_ga25f56c7d1bb19ce3771bfd3a4e08eb3a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___sync__12bit__2_c_h.html#ga25f56c7d1bb19ce3771bfd3a4e08eb3a">CHANNEL1_OUT_MILLI_V</a>&#160;&#160;&#160;(1650)       /* 1.65V                                                   */</td></tr>
 <tr class="separator:ga25f56c7d1bb19ce3771bfd3a4e08eb3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga54afca2d8db94d2d48f2bcb1402b0d5e" id="r_ga54afca2d8db94d2d48f2bcb1402b0d5e"><td class="memItemLeft" align="right" valign="top"><a id="ga54afca2d8db94d2d48f2bcb1402b0d5e" name="ga54afca2d8db94d2d48f2bcb1402b0d5e"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>CHANNEL0_CONV_DATA</b>&#160;&#160;&#160;(CHANNEL0_OUT_MILLI_V * 4095 / 3300)</td></tr>
+<tr class="memitem:ga54afca2d8db94d2d48f2bcb1402b0d5e" id="r_ga54afca2d8db94d2d48f2bcb1402b0d5e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___sync__12bit__2_c_h.html#ga54afca2d8db94d2d48f2bcb1402b0d5e">CHANNEL0_CONV_DATA</a>&#160;&#160;&#160;(<a class="el" href="group___async__2_c_h.html#gadf127601136bc87d155945d610e32368">CHANNEL0_OUT_MILLI_V</a> * 4095 / 3300)</td></tr>
 <tr class="separator:ga54afca2d8db94d2d48f2bcb1402b0d5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab3b8b898096f30848d8e6c4c6bf62c14" id="r_gab3b8b898096f30848d8e6c4c6bf62c14"><td class="memItemLeft" align="right" valign="top"><a id="gab3b8b898096f30848d8e6c4c6bf62c14" name="gab3b8b898096f30848d8e6c4c6bf62c14"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>CHANNEL1_CONV_DATA</b>&#160;&#160;&#160;(CHANNEL1_OUT_MILLI_V * 4095 / 3300)</td></tr>
+<tr class="memitem:gab3b8b898096f30848d8e6c4c6bf62c14" id="r_gab3b8b898096f30848d8e6c4c6bf62c14"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___sync__12bit__2_c_h.html#gab3b8b898096f30848d8e6c4c6bf62c14">CHANNEL1_CONV_DATA</a>&#160;&#160;&#160;(<a class="el" href="group___async__2_c_h.html#ga25f56c7d1bb19ce3771bfd3a4e08eb3a">CHANNEL1_OUT_MILLI_V</a> * 4095 / 3300)</td></tr>
 <tr class="separator:gab3b8b898096f30848d8e6c4c6bf62c14"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga832b8719b3f4e84da57988d30b15e04c" id="r_ga832b8719b3f4e84da57988d30b15e04c"><td class="memItemLeft" align="right" valign="top"><a id="ga832b8719b3f4e84da57988d30b15e04c" name="ga832b8719b3f4e84da57988d30b15e04c"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>CH_CONV_DATA_ALL</b>&#160;&#160;&#160;((CHANNEL1_CONV_DATA &lt;&lt; 16) | (CHANNEL0_CONV_DATA))</td></tr>
+<tr class="memitem:ga832b8719b3f4e84da57988d30b15e04c" id="r_ga832b8719b3f4e84da57988d30b15e04c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___sync__12bit__2_c_h.html#ga832b8719b3f4e84da57988d30b15e04c">CH_CONV_DATA_ALL</a>&#160;&#160;&#160;((<a class="el" href="group___async__2_c_h.html#gab3b8b898096f30848d8e6c4c6bf62c14">CHANNEL1_CONV_DATA</a> &lt;&lt; 16) | (<a class="el" href="group___async__2_c_h.html#ga54afca2d8db94d2d48f2bcb1402b0d5e">CHANNEL0_CONV_DATA</a>))</td></tr>
 <tr class="separator:ga832b8719b3f4e84da57988d30b15e04c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
@@ -120,6 +120,77 @@ Functions</h2></td></tr>
 <tr class="separator:ga840291bc02cba5474a4cb46a9b9566fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="ga832b8719b3f4e84da57988d30b15e04c" name="ga832b8719b3f4e84da57988d30b15e04c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga832b8719b3f4e84da57988d30b15e04c">&#9670;&#160;</a></span>CH_CONV_DATA_ALL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CH_CONV_DATA_ALL&#160;&#160;&#160;((<a class="el" href="group___async__2_c_h.html#gab3b8b898096f30848d8e6c4c6bf62c14">CHANNEL1_CONV_DATA</a> &lt;&lt; 16) | (<a class="el" href="group___async__2_c_h.html#ga54afca2d8db94d2d48f2bcb1402b0d5e">CHANNEL0_CONV_DATA</a>))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga54afca2d8db94d2d48f2bcb1402b0d5e" name="ga54afca2d8db94d2d48f2bcb1402b0d5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga54afca2d8db94d2d48f2bcb1402b0d5e">&#9670;&#160;</a></span>CHANNEL0_CONV_DATA</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CHANNEL0_CONV_DATA&#160;&#160;&#160;(<a class="el" href="group___async__2_c_h.html#gadf127601136bc87d155945d610e32368">CHANNEL0_OUT_MILLI_V</a> * 4095 / 3300)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gadf127601136bc87d155945d610e32368" name="gadf127601136bc87d155945d610e32368"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gadf127601136bc87d155945d610e32368">&#9670;&#160;</a></span>CHANNEL0_OUT_MILLI_V</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CHANNEL0_OUT_MILLI_V&#160;&#160;&#160;(1650)       /* 1.65V                                                   */</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gab3b8b898096f30848d8e6c4c6bf62c14" name="gab3b8b898096f30848d8e6c4c6bf62c14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab3b8b898096f30848d8e6c4c6bf62c14">&#9670;&#160;</a></span>CHANNEL1_CONV_DATA</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CHANNEL1_CONV_DATA&#160;&#160;&#160;(<a class="el" href="group___async__2_c_h.html#ga25f56c7d1bb19ce3771bfd3a4e08eb3a">CHANNEL1_OUT_MILLI_V</a> * 4095 / 3300)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga25f56c7d1bb19ce3771bfd3a4e08eb3a" name="ga25f56c7d1bb19ce3771bfd3a4e08eb3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga25f56c7d1bb19ce3771bfd3a4e08eb3a">&#9670;&#160;</a></span>CHANNEL1_OUT_MILLI_V</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CHANNEL1_OUT_MILLI_V&#160;&#160;&#160;(1650)       /* 1.65V                                                   */</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="ga4dc1a2223f7808d0f53f6b1010d2d037" name="ga4dc1a2223f7808d0f53f6b1010d2d037"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga4dc1a2223f7808d0f53f6b1010d2d037">&#9670;&#160;</a></span>DAC_Configuration()</h2>

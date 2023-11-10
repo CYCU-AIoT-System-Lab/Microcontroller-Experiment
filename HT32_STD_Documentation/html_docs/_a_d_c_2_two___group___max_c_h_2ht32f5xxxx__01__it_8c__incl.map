@@ -1,0 +1,9 @@
+<map id="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/ADC/Two_Group_MaxCH/ht32f5xxxx_01_it.c" name="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/ADC/Two_Group_MaxCH/ht32f5xxxx_01_it.c">
+<area shape="rect" id="Node000001" title="This file provides all interrupt service routine." alt="" coords="42,5,269,112"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,160,63,187"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="100,114,60,151,57,147,97,110"/>
+<area shape="rect" id="Node000003" href="$_a_d_c_2_two___group___max_c_h_2ht32__board__config_8h.html" title="The header file of board configuration." alt="" coords="87,160,224,187"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="158,112,158,144,153,144,153,112"/>
+<area shape="rect" id="Node000004" href="$adc__group_8h.html" title="The header file of ADC Group." alt="" coords="248,160,340,187"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="222,110,269,148,265,152,219,114"/>
+</map>

@@ -1,0 +1,15 @@
+<map id="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/USBD/Mass_Storage/ht32_board_config.h" name="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/USBD/Mass_Storage/ht32_board_config.h">
+<area shape="rect" id="Node000001" title="The header file of board configuration." alt="" coords="12,5,244,112"/>
+<area shape="rect" id="Node000002" href="$_u_s_b_d_2_mass___storage_2main_8c.html" title="The main program of USB Device Mass Storage example." alt="" coords="5,592,251,683"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="88,127,75,161,51,267,46,311,45,352,57,437,84,543,104,591,99,593,79,545,52,438,40,352,40,310,45,266,69,159,83,125"/>
+<area shape="rect" id="Node000003" href="$spi__sd_8h.html" title="The header file of SD Memory card driver." alt="" coords="84,160,340,251"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="168,124,188,158,184,161,164,127"/>
+<area shape="rect" id="Node000004" href="$sd__disk_8c.html" title="The SD Disk related function." alt="" coords="81,299,343,389"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="215,266,215,298,209,298,209,266"/>
+<area shape="rect" id="Node000006" href="$spi__sd_8c.html" title="The SD Memory card driver. Supports both SD and SDHC." alt="" coords="367,299,622,389"/>
+<area shape="poly" id="edge6_Node000003_Node000006" title=" " alt="" coords="319,255,403,296,401,300,317,260"/>
+<area shape="rect" id="Node000005" href="$_u_s_b_d_2_mass___storage_2__ht32__project__source_8h.html" title="The project source code setting." alt="" coords="93,437,331,544"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="215,405,215,437,209,437,209,405"/>
+<area shape="poly" id="edge5_Node000005_Node000002" title=" " alt="" coords="176,559,156,593,152,590,172,556"/>
+<area shape="poly" id="edge7_Node000006_Node000005" title=" " alt="" coords="395,399,316,439,314,435,392,394"/>
+</map>

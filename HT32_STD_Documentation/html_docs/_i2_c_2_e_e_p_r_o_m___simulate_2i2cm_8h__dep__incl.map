@@ -1,0 +1,7 @@
+<map id="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/I2C/EEPROM_Simulate/i2cm.h" name="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/I2C/EEPROM_Simulate/i2cm.h">
+<area shape="rect" id="Node000001" title="The header file of the I2C library." alt="" coords="123,5,382,96"/>
+<area shape="rect" id="Node000002" href="$_i2_c_2_e_e_p_r_o_m___simulate_2ht32f5xxxx__01__it_8c.html" title="This file provides all interrupt service routine." alt="" coords="5,144,233,251"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="203,109,170,145,166,142,199,106"/>
+<area shape="rect" id="Node000003" href="$_i2_c_2_e_e_p_r_o_m___simulate_2main_8c.html" title="Main program." alt="" coords="257,152,517,243"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="306,106,347,150,343,153,302,109"/>
+</map>

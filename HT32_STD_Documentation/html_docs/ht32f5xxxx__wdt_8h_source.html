@@ -1,51 +1,63 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>HT32_STD_Documents: ht32f5xxxx_wdt.h Source File</title>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>HT32_STD_Code_Documents: D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/library/HT32F5xxxx_Driver/inc/ht32f5xxxx_wdt.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<link href="navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="resize.js"></script>
-<script type="text/javascript" src="navtreedata.js"></script>
-<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(document).ready(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
-   <div id="projectname">HT32_STD_Documents<span id="projectnumber">&#160;1.0.0</span>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">HT32_STD_Code_Documents
+   &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">For HT32F52352</div>
+   <div id="projectbrief">Micro-controller Experiment</div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
@@ -57,23 +69,22 @@
 var searchBox = new SearchBox("searchBox", "search/",'.html');
 /* @license-end */
 </script>
-</div><!-- top -->
-<div id="side-nav" class="ui-resizable side-nav-resizable">
-  <div id="nav-tree">
-    <div id="nav-tree-contents">
-      <div id="nav-sync" class="sync"></div>
-    </div>
-  </div>
-  <div id="splitbar" style="-moz-user-select:none;" 
-       class="ui-resizable-handle">
-  </div>
-</div>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('ht32f5xxxx__wdt_8h_source.html',''); initResizable(); });
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
 /* @license-end */
 </script>
-<div id="doc-content">
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function() { init_codefold(0); });
+/* @license-end */
+</script>
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -95,6 +106,11 @@ $(document).ready(function(){initNavTree('ht32f5xxxx__wdt_8h_source.html',''); i
 </div>
 </div>
 
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_275089585c7fc1b5fd5d7d42c69cb1da.html">D:</a></li><li class="navelem"><a class="el" href="dir_273f27263c611837868160ff0f82bfd9.html">Note_Database</a></li><li class="navelem"><a class="el" href="dir_e8282a48381dd1bcf012c1bae1dc741b.html">Subject</a></li><li class="navelem"><a class="el" href="dir_7583b43eec1d2788dd81e658186519d2.html">MCETA Microcontroller Experiment TA</a></li><li class="navelem"><a class="el" href="dir_3ca5c6b4c4a2c10c94024caf0df2e6bb.html">files</a></li><li class="navelem"><a class="el" href="dir_79e3244e27785f7ec158b45668f9e3ec.html">HT32_STD_5xxxx_FWLib_V1.5.1_7084b</a></li><li class="navelem"><a class="el" href="dir_6965e01511015f2942f432da2d4a5bcb.html">library</a></li><li class="navelem"><a class="el" href="dir_a2f81702cb5fc8b133c02bd1d2044bc0.html">HT32F5xxxx_Driver</a></li><li class="navelem"><a class="el" href="dir_5295d97ccb3d03e3674380e8c26a1d02.html">inc</a></li>  </ul>
+</div>
+</div><!-- top -->
 <div class="header">
   <div class="headertitle"><div class="title">ht32f5xxxx_wdt.h</div></div>
 </div><!--header-->
@@ -113,16 +129,17 @@ $(document).ready(function(){initNavTree('ht32f5xxxx__wdt_8h_source.html',''); i
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="comment">/* Exported constants --------------------------------------------------------------------------------------*/</span></div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="comment">/* WDT prescaler                                                                                            */</span></div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="preprocessor">#define WDT_PRESCALER_1                           ((u16)0x0000)</span></div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="preprocessor">#define WDT_PRESCALER_2                           ((u16)0x1000)</span></div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="preprocessor">#define WDT_PRESCALER_4                           ((u16)0x2000)</span></div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="preprocessor">#define WDT_PRESCALER_8                           ((u16)0x3000)</span></div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="preprocessor">#define WDT_PRESCALER_16                          ((u16)0x4000)</span></div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="preprocessor">#define WDT_PRESCALER_32                          ((u16)0x5000)</span></div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="preprocessor">#define WDT_PRESCALER_64                          ((u16)0x6000)</span></div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="preprocessor">#define WDT_PRESCALER_128                         ((u16)0x7000)</span></div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="group___w_d_t___exported___constants.html#ga516d12fd326c95c012ab0d299869cc65">   54</a></span><span class="preprocessor">#define WDT_PRESCALER_1                           ((u16)0x0000)</span></div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="group___w_d_t___exported___constants.html#gab1efb51e3d672cc446729bde2df47e93">   55</a></span><span class="preprocessor">#define WDT_PRESCALER_2                           ((u16)0x1000)</span></div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="group___w_d_t___exported___constants.html#ga4e85edc9c7aafc7845d10b19c33b7c68">   56</a></span><span class="preprocessor">#define WDT_PRESCALER_4                           ((u16)0x2000)</span></div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="group___w_d_t___exported___constants.html#ga4a4b5edcbb7db46a0940cf58c2d0be82">   57</a></span><span class="preprocessor">#define WDT_PRESCALER_8                           ((u16)0x3000)</span></div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno"><a class="line" href="group___w_d_t___exported___constants.html#gaf7e0493f2ed5dddb7c5729a383638386">   58</a></span><span class="preprocessor">#define WDT_PRESCALER_16                          ((u16)0x4000)</span></div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="group___w_d_t___exported___constants.html#gab1b37196936cf7ed3ebb60ffe5bcba61">   59</a></span><span class="preprocessor">#define WDT_PRESCALER_32                          ((u16)0x5000)</span></div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="group___w_d_t___exported___constants.html#ga406e671a547ea0189104264e8fe6b107">   60</a></span><span class="preprocessor">#define WDT_PRESCALER_64                          ((u16)0x6000)</span></div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="group___w_d_t___exported___constants.html#ga3f70476d3fc4adfe101002836d2ecc91">   61</a></span><span class="preprocessor">#define WDT_PRESCALER_128                         ((u16)0x7000)</span></div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span><span class="preprocessor">#define IS_WDT_PRESCALER(PRESCALER)               ((PRESCALER == WDT_PRESCALER_1) || \</span></div>
+<div class="foldopen" id="foldopen00063" data-start="" data-end="">
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno"><a class="line" href="group___w_d_t___exported___constants.html#ga54780d7d9d2c01403af9280d295d3cd8">   63</a></span><span class="preprocessor">#define IS_WDT_PRESCALER(PRESCALER)               ((PRESCALER == WDT_PRESCALER_1) || \</span></div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span><span class="preprocessor">                                                   (PRESCALER == WDT_PRESCALER_2) || \</span></div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><span class="preprocessor">                                                   (PRESCALER == WDT_PRESCALER_4) || \</span></div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span><span class="preprocessor">                                                   (PRESCALER == WDT_PRESCALER_8) || \</span></div>
@@ -130,32 +147,37 @@ $(document).ready(function(){initNavTree('ht32f5xxxx__wdt_8h_source.html',''); i
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span><span class="preprocessor">                                                   (PRESCALER == WDT_PRESCALER_32) || \</span></div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span><span class="preprocessor">                                                   (PRESCALER == WDT_PRESCALER_64) || \</span></div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span><span class="preprocessor">                                                   (PRESCALER == WDT_PRESCALER_128))</span></div>
+</div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span><span class="comment">/* WDT runs or halts in sleep and deep sleep1 mode                                                          */</span></div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span><span class="comment">/* WDT WDTSHLT mask                                                                                         */</span></div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span><span class="preprocessor">#define MODE0_WDTSHLT_BOTH                        ((u32)0x00000000)</span></div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span><span class="preprocessor">#define MODE0_WDTSHLT_SLEEP                       ((u32)0x00004000)</span></div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span><span class="preprocessor">#define MODE0_WDTSHLT_HALT                        ((u32)0x00008000)</span></div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno"><a class="line" href="group___w_d_t___exported___constants.html#gad02654e6f26a202e64553cd81d6ddc3b">   75</a></span><span class="preprocessor">#define MODE0_WDTSHLT_BOTH                        ((u32)0x00000000)</span></div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno"><a class="line" href="group___w_d_t___exported___constants.html#ga466cee916c607e93c9958ea3b0a07b9f">   76</a></span><span class="preprocessor">#define MODE0_WDTSHLT_SLEEP                       ((u32)0x00004000)</span></div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno"><a class="line" href="group___w_d_t___exported___constants.html#gac839776c5fa3206d7d79b2392874b781">   77</a></span><span class="preprocessor">#define MODE0_WDTSHLT_HALT                        ((u32)0x00008000)</span></div>
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span> </div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span><span class="preprocessor">#define IS_WDT_WDTSHLT_MODE(WDT_Mode)             ((WDT_Mode == MODE0_WDTSHLT_BOTH) || \</span></div>
+<div class="foldopen" id="foldopen00079" data-start="" data-end="">
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno"><a class="line" href="group___w_d_t___exported___constants.html#gadb4dcef0c602b352a4c4dfd2d8c05921">   79</a></span><span class="preprocessor">#define IS_WDT_WDTSHLT_MODE(WDT_Mode)             ((WDT_Mode == MODE0_WDTSHLT_BOTH) || \</span></div>
 <div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span><span class="preprocessor">                                                   (WDT_Mode == MODE0_WDTSHLT_SLEEP) || \</span></div>
 <div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span><span class="preprocessor">                                                   (WDT_Mode == MODE0_WDTSHLT_HALT))</span></div>
+</div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span> </div>
 <div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span> </div>
 <div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span><span class="comment">/* WDT Flag                                                                                                 */</span></div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span><span class="preprocessor">#define WDT_FLAG_UNDERFLOW                        ((u32)0x00000001)</span></div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span><span class="preprocessor">#define WDT_FLAG_ERROR                            ((u32)0x00000002)</span></div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno"><a class="line" href="group___w_d_t___exported___constants.html#ga2deea6e864ab6b35280cdace7ae270ef">   86</a></span><span class="preprocessor">#define WDT_FLAG_UNDERFLOW                        ((u32)0x00000001)</span></div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno"><a class="line" href="group___w_d_t___exported___constants.html#gaf18e25786578548c708620d2cb37bb1e">   87</a></span><span class="preprocessor">#define WDT_FLAG_ERROR                            ((u32)0x00000002)</span></div>
 <div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> </div>
 <div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span> </div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span><span class="preprocessor">#define IS_WDT_FLAG(WDT_FLAG)                     ((WDT_FLAG == WDT_FLAG_UNDERFLOW) || \</span></div>
+<div class="foldopen" id="foldopen00090" data-start="" data-end="">
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno"><a class="line" href="group___w_d_t___exported___constants.html#gadbd2f6d1c5641992da1352354209da7f">   90</a></span><span class="preprocessor">#define IS_WDT_FLAG(WDT_FLAG)                     ((WDT_FLAG == WDT_FLAG_UNDERFLOW) || \</span></div>
 <div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span><span class="preprocessor">                                                   (WDT_FLAG == WDT_FLAG_ERROR))</span></div>
+</div>
 <div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span> </div>
 <div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span> </div>
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span><span class="preprocessor">#define IS_WDT_RELOAD(WDTV)                       ((WDTV &lt;= 0xFFF))</span></div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno"><a class="line" href="group___w_d_t___exported___constants.html#gab5e1f0a3318cd9c7362fc46c1a0b56d8">   94</a></span><span class="preprocessor">#define IS_WDT_RELOAD(WDTV)                       ((WDTV &lt;= 0xFFF))</span></div>
 <div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span> </div>
-<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span><span class="preprocessor">#define IS_WDT_DELTA(WDTD)                        ((WDTD &lt;= 0xFFF))</span></div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno"><a class="line" href="group___w_d_t___exported___constants.html#gaf36c2e077b0b117a687ecab2dc907466">   96</a></span><span class="preprocessor">#define IS_WDT_DELTA(WDTD)                        ((WDTD &lt;= 0xFFF))</span></div>
 <div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span> </div>
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span><span class="preprocessor">#if (LIBCFG_LSE)</span></div>
 <div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span><span class="comment">/* WDT Source Select                                                                                        */</span></div>
@@ -168,28 +190,33 @@ $(document).ready(function(){initNavTree('ht32f5xxxx__wdt_8h_source.html',''); i
 <div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span><span class="comment">/* Exported functions --------------------------------------------------------------------------------------*/</span></div>
 <div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___w_d_t___exported___functions.html#ga5d8cfa4447306b3c27aa3451489086c1">WDT_DeInit</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___w_d_t___exported___functions.html#ga9fdd240e24cf8e1d7e4ebf7a30d8d8df">WDT_Cmd</a>(ControlStatus NewState);</div>
-<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___w_d_t___exported___functions.html#ga62d4dfeacae2a3e8ab3409bec250c365">WDT_HaltConfig</a>(u32 WDT_Mode);</div>
-<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___w_d_t___exported___functions.html#ga16e0fac0976723629915c608a491a6c9">WDT_ResetCmd</a>(ControlStatus NewState);</div>
-<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___w_d_t___exported___functions.html#ga4c81f18e7eb71795a8fdaed738b74eff">WDT_ProtectCmd</a>(ControlStatus NewState);</div>
-<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___w_d_t___exported___functions.html#ga6f4b11495397452f8059c0102103eb30">WDT_SetReloadValue</a>(u16 WDTV);</div>
-<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>u16 <a class="code hl_function" href="group___w_d_t___exported___functions.html#ga8d3e88a50aede9daa2c9bd196779a7ac">WDT_GetReloadValue</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___w_d_t___exported___functions.html#gac173301e02b74cee72e536835026ac57">WDT_SetDeltaValue</a>(u16 WDTD);</div>
-<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>u16 <a class="code hl_function" href="group___w_d_t___exported___functions.html#ga13077af9822c88907b5ba7db6eb4eb08">WDT_GetDeltaValue</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___w_d_t___exported___functions.html#gacda13c323906cde305bb615bc36887d4">WDT_SetPrescaler</a>(u16 <a class="code hl_define" href="group___h_t32_f5xxxx___system___private___defines.html#gacff01a05872ebbbd839c6e219d0104b7">WDT_PRESCALER</a>);</div>
-<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>u8 <a class="code hl_function" href="group___w_d_t___exported___functions.html#ga50f4cde94107f8271942aafcde2c159a">WDT_GetPrescaler</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___w_d_t___exported___functions.html#ga9fdd240e24cf8e1d7e4ebf7a30d8d8df">WDT_Cmd</a>(<a class="code hl_typedef" href="group___exported___types.html#ga7e0a5efd47ffb7f58fcc2e1cb1e38dae">ControlStatus</a> NewState);</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___w_d_t___exported___functions.html#ga62d4dfeacae2a3e8ab3409bec250c365">WDT_HaltConfig</a>(<a class="code hl_typedef" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> WDT_Mode);</div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___w_d_t___exported___functions.html#ga16e0fac0976723629915c608a491a6c9">WDT_ResetCmd</a>(<a class="code hl_typedef" href="group___exported___types.html#ga7e0a5efd47ffb7f58fcc2e1cb1e38dae">ControlStatus</a> NewState);</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___w_d_t___exported___functions.html#ga4c81f18e7eb71795a8fdaed738b74eff">WDT_ProtectCmd</a>(<a class="code hl_typedef" href="group___exported___types.html#ga7e0a5efd47ffb7f58fcc2e1cb1e38dae">ControlStatus</a> NewState);</div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___w_d_t___exported___functions.html#ga6f4b11495397452f8059c0102103eb30">WDT_SetReloadValue</a>(<a class="code hl_typedef" href="group___exported___types.html#ga9e6c91d77e24643b888dbd1a1a590054">u16</a> WDTV);</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span><a class="code hl_typedef" href="group___exported___types.html#ga9e6c91d77e24643b888dbd1a1a590054">u16</a> <a class="code hl_function" href="group___w_d_t___exported___functions.html#ga8d3e88a50aede9daa2c9bd196779a7ac">WDT_GetReloadValue</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___w_d_t___exported___functions.html#gac173301e02b74cee72e536835026ac57">WDT_SetDeltaValue</a>(<a class="code hl_typedef" href="group___exported___types.html#ga9e6c91d77e24643b888dbd1a1a590054">u16</a> WDTD);</div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span><a class="code hl_typedef" href="group___exported___types.html#ga9e6c91d77e24643b888dbd1a1a590054">u16</a> <a class="code hl_function" href="group___w_d_t___exported___functions.html#ga13077af9822c88907b5ba7db6eb4eb08">WDT_GetDeltaValue</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___w_d_t___exported___functions.html#gacda13c323906cde305bb615bc36887d4">WDT_SetPrescaler</a>(<a class="code hl_typedef" href="group___exported___types.html#ga9e6c91d77e24643b888dbd1a1a590054">u16</a> <a class="code hl_define" href="group___h_t32_f5xxxx___system___private___defines.html#gacff01a05872ebbbd839c6e219d0104b7">WDT_PRESCALER</a>);</div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span><a class="code hl_typedef" href="group___exported___types.html#gaed742c436da53c1080638ce6ef7d13de">u8</a> <a class="code hl_function" href="group___w_d_t___exported___functions.html#ga50f4cde94107f8271942aafcde2c159a">WDT_GetPrescaler</a>(<span class="keywordtype">void</span>);</div>
 <div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___w_d_t___exported___functions.html#gaf209b9f336a3d6304fb0e667d0f29963">WDT_Restart</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>FlagStatus <a class="code hl_function" href="group___w_d_t___exported___functions.html#gae8988c3fd32ee3c0e5158e0e82696cec">WDT_GetFlagStatus</a> (u32 WDT_FLAG);</div>
-<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___w_d_t___exported___functions.html#gaaaa36ef23804b2a60a6708137f5e3634">WDT_LockCmd</a>(ControlStatus NewState);</div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span><a class="code hl_enumeration" href="group___exported___types.html#ga89136caac2e14c55151f527ac02daaff">FlagStatus</a> <a class="code hl_function" href="group___w_d_t___exported___functions.html#gae8988c3fd32ee3c0e5158e0e82696cec">WDT_GetFlagStatus</a> (<a class="code hl_typedef" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> WDT_FLAG);</div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___w_d_t___exported___functions.html#gaaaa36ef23804b2a60a6708137f5e3634">WDT_LockCmd</a>(<a class="code hl_typedef" href="group___exported___types.html#ga7e0a5efd47ffb7f58fcc2e1cb1e38dae">ControlStatus</a> NewState);</div>
 <div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span><span class="preprocessor">#if (LIBCFG_LSE)</span></div>
-<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span><span class="keywordtype">void</span> WDT_SourceConfig(u32 WDT_SOURCE);</div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span><span class="keywordtype">void</span> WDT_SourceConfig(<a class="code hl_typedef" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> WDT_SOURCE);</div>
 <div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span><span class="preprocessor">#ifdef __cplusplus</span></div>
 <div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>}</div>
 <div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span> </div>
 <div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="agroup___h_t32_f5xxxx___system___private___defines_html_gacff01a05872ebbbd839c6e219d0104b7"><div class="ttname"><a href="group___h_t32_f5xxxx___system___private___defines.html#gacff01a05872ebbbd839c6e219d0104b7">WDT_PRESCALER</a></div><div class="ttdeci">#define WDT_PRESCALER</div><div class="ttdef"><b>Definition</b> system_ht32f0006.c:168</div></div>
+<div class="ttc" id="agroup___exported___types_html_ga10e94b422ef0c20dcdec20d31a1f5049"><div class="ttname"><a href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a></div><div class="ttdeci">unsigned int u32</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_01.h:493</div></div>
+<div class="ttc" id="agroup___exported___types_html_ga7e0a5efd47ffb7f58fcc2e1cb1e38dae"><div class="ttname"><a href="group___exported___types.html#ga7e0a5efd47ffb7f58fcc2e1cb1e38dae">ControlStatus</a></div><div class="ttdeci">enum EventStatus ControlStatus</div></div>
+<div class="ttc" id="agroup___exported___types_html_ga89136caac2e14c55151f527ac02daaff"><div class="ttname"><a href="group___exported___types.html#ga89136caac2e14c55151f527ac02daaff">FlagStatus</a></div><div class="ttdeci">FlagStatus</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_01.h:524</div></div>
+<div class="ttc" id="agroup___exported___types_html_ga9e6c91d77e24643b888dbd1a1a590054"><div class="ttname"><a href="group___exported___types.html#ga9e6c91d77e24643b888dbd1a1a590054">u16</a></div><div class="ttdeci">unsigned short u16</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_01.h:494</div></div>
+<div class="ttc" id="agroup___exported___types_html_gaed742c436da53c1080638ce6ef7d13de"><div class="ttname"><a href="group___exported___types.html#gaed742c436da53c1080638ce6ef7d13de">u8</a></div><div class="ttdeci">unsigned char u8</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_01.h:495</div></div>
+<div class="ttc" id="agroup___h_t32_f5xxxx___system___private___defines_html_gacff01a05872ebbbd839c6e219d0104b7"><div class="ttname"><a href="group___h_t32_f5xxxx___system___private___defines.html#gacff01a05872ebbbd839c6e219d0104b7">WDT_PRESCALER</a></div><div class="ttdeci">#define WDT_PRESCALER</div><div class="ttdef"><b>Definition</b> system_ht32f5xxxx_01.c:182</div></div>
 <div class="ttc" id="agroup___w_d_t___exported___functions_html_ga13077af9822c88907b5ba7db6eb4eb08"><div class="ttname"><a href="group___w_d_t___exported___functions.html#ga13077af9822c88907b5ba7db6eb4eb08">WDT_GetDeltaValue</a></div><div class="ttdeci">u16 WDT_GetDeltaValue(void)</div><div class="ttdoc">Get current delta value of the WDT.</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_wdt.c:206</div></div>
 <div class="ttc" id="agroup___w_d_t___exported___functions_html_ga16e0fac0976723629915c608a491a6c9"><div class="ttname"><a href="group___w_d_t___exported___functions.html#ga16e0fac0976723629915c608a491a6c9">WDT_ResetCmd</a></div><div class="ttdeci">void WDT_ResetCmd(ControlStatus NewState)</div><div class="ttdoc">Enable or Disable the WDT Reset when WDT meets underflow or error.</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_wdt.c:130</div></div>
 <div class="ttc" id="agroup___w_d_t___exported___functions_html_ga4c81f18e7eb71795a8fdaed738b74eff"><div class="ttname"><a href="group___w_d_t___exported___functions.html#ga4c81f18e7eb71795a8fdaed738b74eff">WDT_ProtectCmd</a></div><div class="ttdeci">void WDT_ProtectCmd(ControlStatus NewState)</div><div class="ttdoc">Enable or Disable protection mechanism of the WDT.</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_wdt.c:150</div></div>
@@ -206,13 +233,9 @@ $(document).ready(function(){initNavTree('ht32f5xxxx__wdt_8h_source.html',''); i
 <div class="ttc" id="agroup___w_d_t___exported___functions_html_gaf209b9f336a3d6304fb0e667d0f29963"><div class="ttname"><a href="group___w_d_t___exported___functions.html#gaf209b9f336a3d6304fb0e667d0f29963">WDT_Restart</a></div><div class="ttdeci">void WDT_Restart(void)</div><div class="ttdoc">WDT Restart (Reload WDT Counter)</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_wdt.c:250</div></div>
 <div class="ttc" id="aht32_8h_html"><div class="ttname"><a href="ht32_8h.html">ht32.h</a></div><div class="ttdoc">The API between application and HT32FXXXX Firmware Library.</div></div>
 </div><!-- fragment --></div><!-- contents -->
-</div><!-- doc-content -->
 <!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="navelem"><a class="el" href="dir_275089585c7fc1b5fd5d7d42c69cb1da.html">D:</a></li><li class="navelem"><a class="el" href="dir_273f27263c611837868160ff0f82bfd9.html">Note_Database</a></li><li class="navelem"><a class="el" href="dir_e8282a48381dd1bcf012c1bae1dc741b.html">Subject</a></li><li class="navelem"><a class="el" href="dir_7583b43eec1d2788dd81e658186519d2.html">MCETA Microcontroller Experiment TA</a></li><li class="navelem"><a class="el" href="dir_3ca5c6b4c4a2c10c94024caf0df2e6bb.html">files</a></li><li class="navelem"><a class="el" href="dir_79e3244e27785f7ec158b45668f9e3ec.html">HT32_STD_5xxxx_FWLib_V1.5.1_7084b</a></li><li class="navelem"><a class="el" href="dir_6965e01511015f2942f432da2d4a5bcb.html">library</a></li><li class="navelem"><a class="el" href="dir_a2f81702cb5fc8b133c02bd1d2044bc0.html">HT32F5xxxx_Driver</a></li><li class="navelem"><a class="el" href="dir_5295d97ccb3d03e3674380e8c26a1d02.html">inc</a></li><li class="navelem"><a class="el" href="ht32f5xxxx__wdt_8h.html">ht32f5xxxx_wdt.h</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
-  </ul>
-</div>
+<hr class="footer"/><address class="footer"><small>
+Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+</small></address>
 </body>
 </html>

@@ -1,29 +1,62 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>HT32_STD_Documents: PWRCU private definitions</title>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>HT32_STD_Code_Documents: PWRCU private definitions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
-   <div id="projectname">HT32_STD_Documents<span id="projectnumber">&#160;1.0.0</span>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">HT32_STD_Code_Documents
+   &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">For HT32F52352</div>
+   <div id="projectbrief">Micro-controller Experiment</div>
   </td>
  </tr>
  </tbody>
@@ -75,131 +108,573 @@ $(function() {
   <div class="headertitle"><div class="title">PWRCU private definitions<div class="ingroups"><a class="el" href="group___h_t32_f5xxxx___peripheral___driver.html">HT32F5xxxx Peripheral Driver</a> &raquo; <a class="el" href="group___p_w_r_c_u.html">PWRCU</a></div></div></div>
 </div><!--header-->
 <div class="contents">
+<div class="dynheader">
+Collaboration diagram for PWRCU private definitions:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="group___p_w_r_c_u___private___define.svg" width="303" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:gaf661bf2f179012adb13b329fcca8afbe" id="r_gaf661bf2f179012adb13b329fcca8afbe"><td class="memItemLeft" align="right" valign="top"><a id="gaf661bf2f179012adb13b329fcca8afbe" name="gaf661bf2f179012adb13b329fcca8afbe"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>Set_RTCEN</b>&#160;&#160;&#160;SetBit_BB((u32)&amp;HT_CKCU-&gt;APBCCR1, 6);</td></tr>
+<tr class="memitem:gaf661bf2f179012adb13b329fcca8afbe" id="r_gaf661bf2f179012adb13b329fcca8afbe"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_w_r_c_u___private___define.html#gaf661bf2f179012adb13b329fcca8afbe">Set_RTCEN</a>&#160;&#160;&#160;<a class="el" href="group___h_t32_f5xxxx.html#ga5d488b79989ef19f676a42c2fe9e062e">SetBit_BB</a>((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)&amp;<a class="el" href="group___c_m_s_i_s.html#ga320d00ca9ac4b58894fa6b17fa13b793">HT_CKCU</a>-&gt;APBCCR1, 6);</td></tr>
 <tr class="separator:gaf661bf2f179012adb13b329fcca8afbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga605f5470e300a452d5e07e25975f5f01" id="r_ga605f5470e300a452d5e07e25975f5f01"><td class="memItemLeft" align="right" valign="top"><a id="ga605f5470e300a452d5e07e25975f5f01" name="ga605f5470e300a452d5e07e25975f5f01"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>Reset_RTCEN</b>&#160;&#160;&#160;ResetBit_BB((u32)&amp;HT_CKCU-&gt;APBCCR1, 6);</td></tr>
+<tr class="memitem:ga605f5470e300a452d5e07e25975f5f01" id="r_ga605f5470e300a452d5e07e25975f5f01"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_w_r_c_u___private___define.html#ga605f5470e300a452d5e07e25975f5f01">Reset_RTCEN</a>&#160;&#160;&#160;<a class="el" href="group___h_t32_f5xxxx.html#ga879dc6b630f251008255b2d005d9ecef">ResetBit_BB</a>((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)&amp;<a class="el" href="group___c_m_s_i_s.html#ga320d00ca9ac4b58894fa6b17fa13b793">HT_CKCU</a>-&gt;APBCCR1, 6);</td></tr>
 <tr class="separator:ga605f5470e300a452d5e07e25975f5f01"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9397dabced9b62b75f35ba1c07d354a6" id="r_ga9397dabced9b62b75f35ba1c07d354a6"><td class="memItemLeft" align="right" valign="top"><a id="ga9397dabced9b62b75f35ba1c07d354a6" name="ga9397dabced9b62b75f35ba1c07d354a6"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>Get_RTCEN</b>&#160;&#160;&#160;GetBit_BB((u32)&amp;HT_CKCU-&gt;APBCCR1, 6)</td></tr>
+<tr class="memitem:ga9397dabced9b62b75f35ba1c07d354a6" id="r_ga9397dabced9b62b75f35ba1c07d354a6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_w_r_c_u___private___define.html#ga9397dabced9b62b75f35ba1c07d354a6">Get_RTCEN</a>&#160;&#160;&#160;<a class="el" href="group___h_t32_f5xxxx.html#gaf569ba5d9fd10b2bc72a9b854b2f3678">GetBit_BB</a>((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)&amp;<a class="el" href="group___c_m_s_i_s.html#ga320d00ca9ac4b58894fa6b17fa13b793">HT_CKCU</a>-&gt;APBCCR1, 6)</td></tr>
 <tr class="separator:ga9397dabced9b62b75f35ba1c07d354a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4853ff33248b9000504ead8b876abc9e" id="r_ga4853ff33248b9000504ead8b876abc9e"><td class="memItemLeft" align="right" valign="top"><a id="ga4853ff33248b9000504ead8b876abc9e" name="ga4853ff33248b9000504ead8b876abc9e"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>Set_LDOMODE</b>&#160;&#160;&#160;SetBit_BB((u32)&amp;HT_PWRCU-&gt;CR, 2)</td></tr>
+<tr class="memitem:ga4853ff33248b9000504ead8b876abc9e" id="r_ga4853ff33248b9000504ead8b876abc9e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_w_r_c_u___private___define.html#ga4853ff33248b9000504ead8b876abc9e">Set_LDOMODE</a>&#160;&#160;&#160;<a class="el" href="group___h_t32_f5xxxx.html#ga5d488b79989ef19f676a42c2fe9e062e">SetBit_BB</a>((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)&amp;<a class="el" href="group___c_m_s_i_s.html#gacfd38f85fd2ff178b7c5d400c9849315">HT_PWRCU</a>-&gt;CR, 2)</td></tr>
 <tr class="separator:ga4853ff33248b9000504ead8b876abc9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7d9373920e08d2607812a100ad15be4b" id="r_ga7d9373920e08d2607812a100ad15be4b"><td class="memItemLeft" align="right" valign="top"><a id="ga7d9373920e08d2607812a100ad15be4b" name="ga7d9373920e08d2607812a100ad15be4b"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>Reset_LDOMODE</b>&#160;&#160;&#160;ResetBit_BB((u32)&amp;HT_PWRCU-&gt;CR, 2)</td></tr>
+<tr class="memitem:ga7d9373920e08d2607812a100ad15be4b" id="r_ga7d9373920e08d2607812a100ad15be4b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_w_r_c_u___private___define.html#ga7d9373920e08d2607812a100ad15be4b">Reset_LDOMODE</a>&#160;&#160;&#160;<a class="el" href="group___h_t32_f5xxxx.html#ga879dc6b630f251008255b2d005d9ecef">ResetBit_BB</a>((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)&amp;<a class="el" href="group___c_m_s_i_s.html#gacfd38f85fd2ff178b7c5d400c9849315">HT_PWRCU</a>-&gt;CR, 2)</td></tr>
 <tr class="separator:ga7d9373920e08d2607812a100ad15be4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0b875245058330fb66981c7b406584f9" id="r_ga0b875245058330fb66981c7b406584f9"><td class="memItemLeft" align="right" valign="top"><a id="ga0b875245058330fb66981c7b406584f9" name="ga0b875245058330fb66981c7b406584f9"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>Set_LDOOFF</b>&#160;&#160;&#160;SetBit_BB((u32)&amp;HT_PWRCU-&gt;CR, 3)</td></tr>
+<tr class="memitem:ga0b875245058330fb66981c7b406584f9" id="r_ga0b875245058330fb66981c7b406584f9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_w_r_c_u___private___define.html#ga0b875245058330fb66981c7b406584f9">Set_LDOOFF</a>&#160;&#160;&#160;<a class="el" href="group___h_t32_f5xxxx.html#ga5d488b79989ef19f676a42c2fe9e062e">SetBit_BB</a>((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)&amp;<a class="el" href="group___c_m_s_i_s.html#gacfd38f85fd2ff178b7c5d400c9849315">HT_PWRCU</a>-&gt;CR, 3)</td></tr>
 <tr class="separator:ga0b875245058330fb66981c7b406584f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8d115d017374591e4e2ec2a59ae5577d" id="r_ga8d115d017374591e4e2ec2a59ae5577d"><td class="memItemLeft" align="right" valign="top"><a id="ga8d115d017374591e4e2ec2a59ae5577d" name="ga8d115d017374591e4e2ec2a59ae5577d"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>Reset_LDOOFF</b>&#160;&#160;&#160;ResetBit_BB((u32)&amp;HT_PWRCU-&gt;CR, 3)</td></tr>
+<tr class="memitem:ga8d115d017374591e4e2ec2a59ae5577d" id="r_ga8d115d017374591e4e2ec2a59ae5577d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_w_r_c_u___private___define.html#ga8d115d017374591e4e2ec2a59ae5577d">Reset_LDOOFF</a>&#160;&#160;&#160;<a class="el" href="group___h_t32_f5xxxx.html#ga879dc6b630f251008255b2d005d9ecef">ResetBit_BB</a>((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)&amp;<a class="el" href="group___c_m_s_i_s.html#gacfd38f85fd2ff178b7c5d400c9849315">HT_PWRCU</a>-&gt;CR, 3)</td></tr>
 <tr class="separator:ga8d115d017374591e4e2ec2a59ae5577d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab4b9ffe7a0843c0b6222fc99180d8168" id="r_gab4b9ffe7a0843c0b6222fc99180d8168"><td class="memItemLeft" align="right" valign="top"><a id="gab4b9ffe7a0843c0b6222fc99180d8168" name="gab4b9ffe7a0843c0b6222fc99180d8168"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>Set_DMOSON</b>&#160;&#160;&#160;SetBit_BB((u32)&amp;HT_PWRCU-&gt;CR, 7)</td></tr>
+<tr class="memitem:gab4b9ffe7a0843c0b6222fc99180d8168" id="r_gab4b9ffe7a0843c0b6222fc99180d8168"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_w_r_c_u___private___define.html#gab4b9ffe7a0843c0b6222fc99180d8168">Set_DMOSON</a>&#160;&#160;&#160;<a class="el" href="group___h_t32_f5xxxx.html#ga5d488b79989ef19f676a42c2fe9e062e">SetBit_BB</a>((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)&amp;<a class="el" href="group___c_m_s_i_s.html#gacfd38f85fd2ff178b7c5d400c9849315">HT_PWRCU</a>-&gt;CR, 7)</td></tr>
 <tr class="separator:gab4b9ffe7a0843c0b6222fc99180d8168"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8bcd35a3f77dfcef74344ffbd2adfa0f" id="r_ga8bcd35a3f77dfcef74344ffbd2adfa0f"><td class="memItemLeft" align="right" valign="top"><a id="ga8bcd35a3f77dfcef74344ffbd2adfa0f" name="ga8bcd35a3f77dfcef74344ffbd2adfa0f"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>Reset_DMOSON</b>&#160;&#160;&#160;ResetBit_BB((u32)&amp;HT_PWRCU-&gt;CR, 7)</td></tr>
+<tr class="memitem:ga8bcd35a3f77dfcef74344ffbd2adfa0f" id="r_ga8bcd35a3f77dfcef74344ffbd2adfa0f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_w_r_c_u___private___define.html#ga8bcd35a3f77dfcef74344ffbd2adfa0f">Reset_DMOSON</a>&#160;&#160;&#160;<a class="el" href="group___h_t32_f5xxxx.html#ga879dc6b630f251008255b2d005d9ecef">ResetBit_BB</a>((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)&amp;<a class="el" href="group___c_m_s_i_s.html#gacfd38f85fd2ff178b7c5d400c9849315">HT_PWRCU</a>-&gt;CR, 7)</td></tr>
 <tr class="separator:ga8bcd35a3f77dfcef74344ffbd2adfa0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9facfef8a871e3752c7555a863e6ec94" id="r_ga9facfef8a871e3752c7555a863e6ec94"><td class="memItemLeft" align="right" valign="top"><a id="ga9facfef8a871e3752c7555a863e6ec94" name="ga9facfef8a871e3752c7555a863e6ec94"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>Set_WUP0EN</b>&#160;&#160;&#160;SetBit_BB((u32)&amp;HT_PWRCU-&gt;CR, 8)</td></tr>
+<tr class="memitem:ga9facfef8a871e3752c7555a863e6ec94" id="r_ga9facfef8a871e3752c7555a863e6ec94"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_w_r_c_u___private___define.html#ga9facfef8a871e3752c7555a863e6ec94">Set_WUP0EN</a>&#160;&#160;&#160;<a class="el" href="group___h_t32_f5xxxx.html#ga5d488b79989ef19f676a42c2fe9e062e">SetBit_BB</a>((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)&amp;<a class="el" href="group___c_m_s_i_s.html#gacfd38f85fd2ff178b7c5d400c9849315">HT_PWRCU</a>-&gt;CR, 8)</td></tr>
 <tr class="separator:ga9facfef8a871e3752c7555a863e6ec94"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad7acd23924449ee3f02b7a0126cc86eb" id="r_gad7acd23924449ee3f02b7a0126cc86eb"><td class="memItemLeft" align="right" valign="top"><a id="gad7acd23924449ee3f02b7a0126cc86eb" name="gad7acd23924449ee3f02b7a0126cc86eb"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>Reset_WUP0EN</b>&#160;&#160;&#160;ResetBit_BB((u32)&amp;HT_PWRCU-&gt;CR, 8)</td></tr>
+<tr class="memitem:gad7acd23924449ee3f02b7a0126cc86eb" id="r_gad7acd23924449ee3f02b7a0126cc86eb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_w_r_c_u___private___define.html#gad7acd23924449ee3f02b7a0126cc86eb">Reset_WUP0EN</a>&#160;&#160;&#160;<a class="el" href="group___h_t32_f5xxxx.html#ga879dc6b630f251008255b2d005d9ecef">ResetBit_BB</a>((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)&amp;<a class="el" href="group___c_m_s_i_s.html#gacfd38f85fd2ff178b7c5d400c9849315">HT_PWRCU</a>-&gt;CR, 8)</td></tr>
 <tr class="separator:gad7acd23924449ee3f02b7a0126cc86eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaec6fa550910125ed3d4e3ad8f97c2254" id="r_gaec6fa550910125ed3d4e3ad8f97c2254"><td class="memItemLeft" align="right" valign="top"><a id="gaec6fa550910125ed3d4e3ad8f97c2254" name="gaec6fa550910125ed3d4e3ad8f97c2254"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>Set_DMOSSTS</b>&#160;&#160;&#160;SetBit_BB((u32)&amp;HT_PWRCU-&gt;CR, 15)</td></tr>
+<tr class="memitem:gaec6fa550910125ed3d4e3ad8f97c2254" id="r_gaec6fa550910125ed3d4e3ad8f97c2254"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_w_r_c_u___private___define.html#gaec6fa550910125ed3d4e3ad8f97c2254">Set_DMOSSTS</a>&#160;&#160;&#160;<a class="el" href="group___h_t32_f5xxxx.html#ga5d488b79989ef19f676a42c2fe9e062e">SetBit_BB</a>((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)&amp;<a class="el" href="group___c_m_s_i_s.html#gacfd38f85fd2ff178b7c5d400c9849315">HT_PWRCU</a>-&gt;CR, 15)</td></tr>
 <tr class="separator:gaec6fa550910125ed3d4e3ad8f97c2254"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2db8c3ec89a52640259f562c16c7ce3f" id="r_ga2db8c3ec89a52640259f562c16c7ce3f"><td class="memItemLeft" align="right" valign="top"><a id="ga2db8c3ec89a52640259f562c16c7ce3f" name="ga2db8c3ec89a52640259f562c16c7ce3f"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>Reset_DMOSSTS</b>&#160;&#160;&#160;ResetBit_BB((u32)&amp;HT_PWRCU-&gt;CR, 15)</td></tr>
+<tr class="memitem:ga2db8c3ec89a52640259f562c16c7ce3f" id="r_ga2db8c3ec89a52640259f562c16c7ce3f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_w_r_c_u___private___define.html#ga2db8c3ec89a52640259f562c16c7ce3f">Reset_DMOSSTS</a>&#160;&#160;&#160;<a class="el" href="group___h_t32_f5xxxx.html#ga879dc6b630f251008255b2d005d9ecef">ResetBit_BB</a>((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)&amp;<a class="el" href="group___c_m_s_i_s.html#gacfd38f85fd2ff178b7c5d400c9849315">HT_PWRCU</a>-&gt;CR, 15)</td></tr>
 <tr class="separator:ga2db8c3ec89a52640259f562c16c7ce3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5752e18a031363c4792845663d847501" id="r_ga5752e18a031363c4792845663d847501"><td class="memItemLeft" align="right" valign="top"><a id="ga5752e18a031363c4792845663d847501" name="ga5752e18a031363c4792845663d847501"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>Get_DMOSSTS</b>&#160;&#160;&#160;GetBit_BB((u32)&amp;HT_PWRCU-&gt;CR, 15)</td></tr>
+<tr class="memitem:ga5752e18a031363c4792845663d847501" id="r_ga5752e18a031363c4792845663d847501"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_w_r_c_u___private___define.html#ga5752e18a031363c4792845663d847501">Get_DMOSSTS</a>&#160;&#160;&#160;<a class="el" href="group___h_t32_f5xxxx.html#gaf569ba5d9fd10b2bc72a9b854b2f3678">GetBit_BB</a>((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)&amp;<a class="el" href="group___c_m_s_i_s.html#gacfd38f85fd2ff178b7c5d400c9849315">HT_PWRCU</a>-&gt;CR, 15)</td></tr>
 <tr class="separator:ga5752e18a031363c4792845663d847501"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga03b8979b0f951c7c78f35086d93fd03c" id="r_ga03b8979b0f951c7c78f35086d93fd03c"><td class="memItemLeft" align="right" valign="top"><a id="ga03b8979b0f951c7c78f35086d93fd03c" name="ga03b8979b0f951c7c78f35086d93fd03c"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>Set_BODEN</b>&#160;&#160;&#160;SetBit_BB((u32)&amp;HT_PWRCU-&gt;LVDCSR, 0)</td></tr>
+<tr class="memitem:ga03b8979b0f951c7c78f35086d93fd03c" id="r_ga03b8979b0f951c7c78f35086d93fd03c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_w_r_c_u___private___define.html#ga03b8979b0f951c7c78f35086d93fd03c">Set_BODEN</a>&#160;&#160;&#160;<a class="el" href="group___h_t32_f5xxxx.html#ga5d488b79989ef19f676a42c2fe9e062e">SetBit_BB</a>((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)&amp;<a class="el" href="group___c_m_s_i_s.html#gacfd38f85fd2ff178b7c5d400c9849315">HT_PWRCU</a>-&gt;LVDCSR, 0)</td></tr>
 <tr class="separator:ga03b8979b0f951c7c78f35086d93fd03c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae6cc78287c4145af17ac13194cea8ea5" id="r_gae6cc78287c4145af17ac13194cea8ea5"><td class="memItemLeft" align="right" valign="top"><a id="gae6cc78287c4145af17ac13194cea8ea5" name="gae6cc78287c4145af17ac13194cea8ea5"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>Reset_BODEN</b>&#160;&#160;&#160;ResetBit_BB((u32)&amp;HT_PWRCU-&gt;LVDCSR, 0)</td></tr>
+<tr class="memitem:gae6cc78287c4145af17ac13194cea8ea5" id="r_gae6cc78287c4145af17ac13194cea8ea5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_w_r_c_u___private___define.html#gae6cc78287c4145af17ac13194cea8ea5">Reset_BODEN</a>&#160;&#160;&#160;<a class="el" href="group___h_t32_f5xxxx.html#ga879dc6b630f251008255b2d005d9ecef">ResetBit_BB</a>((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)&amp;<a class="el" href="group___c_m_s_i_s.html#gacfd38f85fd2ff178b7c5d400c9849315">HT_PWRCU</a>-&gt;LVDCSR, 0)</td></tr>
 <tr class="separator:gae6cc78287c4145af17ac13194cea8ea5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8846a4bb567f894864e2d2265440e2f7" id="r_ga8846a4bb567f894864e2d2265440e2f7"><td class="memItemLeft" align="right" valign="top"><a id="ga8846a4bb567f894864e2d2265440e2f7" name="ga8846a4bb567f894864e2d2265440e2f7"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>Set_BODRIS</b>&#160;&#160;&#160;SetBit_BB((u32)&amp;HT_PWRCU-&gt;LVDCSR, 1)</td></tr>
+<tr class="memitem:ga8846a4bb567f894864e2d2265440e2f7" id="r_ga8846a4bb567f894864e2d2265440e2f7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_w_r_c_u___private___define.html#ga8846a4bb567f894864e2d2265440e2f7">Set_BODRIS</a>&#160;&#160;&#160;<a class="el" href="group___h_t32_f5xxxx.html#ga5d488b79989ef19f676a42c2fe9e062e">SetBit_BB</a>((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)&amp;<a class="el" href="group___c_m_s_i_s.html#gacfd38f85fd2ff178b7c5d400c9849315">HT_PWRCU</a>-&gt;LVDCSR, 1)</td></tr>
 <tr class="separator:ga8846a4bb567f894864e2d2265440e2f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga79017d30f825e2c3ad745637f1604a74" id="r_ga79017d30f825e2c3ad745637f1604a74"><td class="memItemLeft" align="right" valign="top"><a id="ga79017d30f825e2c3ad745637f1604a74" name="ga79017d30f825e2c3ad745637f1604a74"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>Reset_BODRIS</b>&#160;&#160;&#160;ResetBit_BB((u32)&amp;HT_PWRCU-&gt;LVDCSR, 1)</td></tr>
+<tr class="memitem:ga79017d30f825e2c3ad745637f1604a74" id="r_ga79017d30f825e2c3ad745637f1604a74"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_w_r_c_u___private___define.html#ga79017d30f825e2c3ad745637f1604a74">Reset_BODRIS</a>&#160;&#160;&#160;<a class="el" href="group___h_t32_f5xxxx.html#ga879dc6b630f251008255b2d005d9ecef">ResetBit_BB</a>((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)&amp;<a class="el" href="group___c_m_s_i_s.html#gacfd38f85fd2ff178b7c5d400c9849315">HT_PWRCU</a>-&gt;LVDCSR, 1)</td></tr>
 <tr class="separator:ga79017d30f825e2c3ad745637f1604a74"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gacffdc6df681961c01833e2edd24d0c62" id="r_gacffdc6df681961c01833e2edd24d0c62"><td class="memItemLeft" align="right" valign="top"><a id="gacffdc6df681961c01833e2edd24d0c62" name="gacffdc6df681961c01833e2edd24d0c62"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>Set_BODF</b>&#160;&#160;&#160;SetBit_BB((u32)&amp;HT_PWRCU-&gt;LVDCSR, 3)</td></tr>
+<tr class="memitem:gacffdc6df681961c01833e2edd24d0c62" id="r_gacffdc6df681961c01833e2edd24d0c62"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_w_r_c_u___private___define.html#gacffdc6df681961c01833e2edd24d0c62">Set_BODF</a>&#160;&#160;&#160;<a class="el" href="group___h_t32_f5xxxx.html#ga5d488b79989ef19f676a42c2fe9e062e">SetBit_BB</a>((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)&amp;<a class="el" href="group___c_m_s_i_s.html#gacfd38f85fd2ff178b7c5d400c9849315">HT_PWRCU</a>-&gt;LVDCSR, 3)</td></tr>
 <tr class="separator:gacffdc6df681961c01833e2edd24d0c62"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga00013f3eb83a0326331f3b310cd68f7b" id="r_ga00013f3eb83a0326331f3b310cd68f7b"><td class="memItemLeft" align="right" valign="top"><a id="ga00013f3eb83a0326331f3b310cd68f7b" name="ga00013f3eb83a0326331f3b310cd68f7b"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>Reset_BODF</b>&#160;&#160;&#160;ResetBit_BB((u32)&amp;HT_PWRCU-&gt;LVDCSR, 3)</td></tr>
+<tr class="memitem:ga00013f3eb83a0326331f3b310cd68f7b" id="r_ga00013f3eb83a0326331f3b310cd68f7b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_w_r_c_u___private___define.html#ga00013f3eb83a0326331f3b310cd68f7b">Reset_BODF</a>&#160;&#160;&#160;<a class="el" href="group___h_t32_f5xxxx.html#ga879dc6b630f251008255b2d005d9ecef">ResetBit_BB</a>((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)&amp;<a class="el" href="group___c_m_s_i_s.html#gacfd38f85fd2ff178b7c5d400c9849315">HT_PWRCU</a>-&gt;LVDCSR, 3)</td></tr>
 <tr class="separator:ga00013f3eb83a0326331f3b310cd68f7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga289730ce9c95cdbdffd3bb1cc9c72f18" id="r_ga289730ce9c95cdbdffd3bb1cc9c72f18"><td class="memItemLeft" align="right" valign="top"><a id="ga289730ce9c95cdbdffd3bb1cc9c72f18" name="ga289730ce9c95cdbdffd3bb1cc9c72f18"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>Get_BODF</b>&#160;&#160;&#160;GetBit_BB((u32)&amp;HT_PWRCU-&gt;LVDCSR, 3)</td></tr>
+<tr class="memitem:ga289730ce9c95cdbdffd3bb1cc9c72f18" id="r_ga289730ce9c95cdbdffd3bb1cc9c72f18"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_w_r_c_u___private___define.html#ga289730ce9c95cdbdffd3bb1cc9c72f18">Get_BODF</a>&#160;&#160;&#160;<a class="el" href="group___h_t32_f5xxxx.html#gaf569ba5d9fd10b2bc72a9b854b2f3678">GetBit_BB</a>((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)&amp;<a class="el" href="group___c_m_s_i_s.html#gacfd38f85fd2ff178b7c5d400c9849315">HT_PWRCU</a>-&gt;LVDCSR, 3)</td></tr>
 <tr class="separator:ga289730ce9c95cdbdffd3bb1cc9c72f18"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5401ddb13f39ded068d7a5d642fa01b9" id="r_ga5401ddb13f39ded068d7a5d642fa01b9"><td class="memItemLeft" align="right" valign="top"><a id="ga5401ddb13f39ded068d7a5d642fa01b9" name="ga5401ddb13f39ded068d7a5d642fa01b9"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>Set_LVDEN</b>&#160;&#160;&#160;SetBit_BB((u32)&amp;HT_PWRCU-&gt;LVDCSR, 16)</td></tr>
+<tr class="memitem:ga5401ddb13f39ded068d7a5d642fa01b9" id="r_ga5401ddb13f39ded068d7a5d642fa01b9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_w_r_c_u___private___define.html#ga5401ddb13f39ded068d7a5d642fa01b9">Set_LVDEN</a>&#160;&#160;&#160;<a class="el" href="group___h_t32_f5xxxx.html#ga5d488b79989ef19f676a42c2fe9e062e">SetBit_BB</a>((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)&amp;<a class="el" href="group___c_m_s_i_s.html#gacfd38f85fd2ff178b7c5d400c9849315">HT_PWRCU</a>-&gt;LVDCSR, 16)</td></tr>
 <tr class="separator:ga5401ddb13f39ded068d7a5d642fa01b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga29fe33367c0ea5ce1f97c6e19c89b820" id="r_ga29fe33367c0ea5ce1f97c6e19c89b820"><td class="memItemLeft" align="right" valign="top"><a id="ga29fe33367c0ea5ce1f97c6e19c89b820" name="ga29fe33367c0ea5ce1f97c6e19c89b820"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>Reset_LVDEN</b>&#160;&#160;&#160;ResetBit_BB((u32)&amp;HT_PWRCU-&gt;LVDCSR, 16)</td></tr>
+<tr class="memitem:ga29fe33367c0ea5ce1f97c6e19c89b820" id="r_ga29fe33367c0ea5ce1f97c6e19c89b820"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_w_r_c_u___private___define.html#ga29fe33367c0ea5ce1f97c6e19c89b820">Reset_LVDEN</a>&#160;&#160;&#160;<a class="el" href="group___h_t32_f5xxxx.html#ga879dc6b630f251008255b2d005d9ecef">ResetBit_BB</a>((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)&amp;<a class="el" href="group___c_m_s_i_s.html#gacfd38f85fd2ff178b7c5d400c9849315">HT_PWRCU</a>-&gt;LVDCSR, 16)</td></tr>
 <tr class="separator:ga29fe33367c0ea5ce1f97c6e19c89b820"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5cf85be3a9e892bd9449f0d9b30f9ba7" id="r_ga5cf85be3a9e892bd9449f0d9b30f9ba7"><td class="memItemLeft" align="right" valign="top"><a id="ga5cf85be3a9e892bd9449f0d9b30f9ba7" name="ga5cf85be3a9e892bd9449f0d9b30f9ba7"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>Set_LVDF</b>&#160;&#160;&#160;SetBit_BB((u32)&amp;HT_PWRCU-&gt;LVDCSR, 19)</td></tr>
+<tr class="memitem:ga5cf85be3a9e892bd9449f0d9b30f9ba7" id="r_ga5cf85be3a9e892bd9449f0d9b30f9ba7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_w_r_c_u___private___define.html#ga5cf85be3a9e892bd9449f0d9b30f9ba7">Set_LVDF</a>&#160;&#160;&#160;<a class="el" href="group___h_t32_f5xxxx.html#ga5d488b79989ef19f676a42c2fe9e062e">SetBit_BB</a>((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)&amp;<a class="el" href="group___c_m_s_i_s.html#gacfd38f85fd2ff178b7c5d400c9849315">HT_PWRCU</a>-&gt;LVDCSR, 19)</td></tr>
 <tr class="separator:ga5cf85be3a9e892bd9449f0d9b30f9ba7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga07ded1a21b24073be69d403fc17d9d99" id="r_ga07ded1a21b24073be69d403fc17d9d99"><td class="memItemLeft" align="right" valign="top"><a id="ga07ded1a21b24073be69d403fc17d9d99" name="ga07ded1a21b24073be69d403fc17d9d99"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>Reset_LVDF</b>&#160;&#160;&#160;ResetBit_BB((u32)&amp;HT_PWRCU-&gt;LVDCSR, 19)</td></tr>
+<tr class="memitem:ga07ded1a21b24073be69d403fc17d9d99" id="r_ga07ded1a21b24073be69d403fc17d9d99"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_w_r_c_u___private___define.html#ga07ded1a21b24073be69d403fc17d9d99">Reset_LVDF</a>&#160;&#160;&#160;<a class="el" href="group___h_t32_f5xxxx.html#ga879dc6b630f251008255b2d005d9ecef">ResetBit_BB</a>((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)&amp;<a class="el" href="group___c_m_s_i_s.html#gacfd38f85fd2ff178b7c5d400c9849315">HT_PWRCU</a>-&gt;LVDCSR, 19)</td></tr>
 <tr class="separator:ga07ded1a21b24073be69d403fc17d9d99"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaba6ffafd26e9c370833ff3d16bb0127c" id="r_gaba6ffafd26e9c370833ff3d16bb0127c"><td class="memItemLeft" align="right" valign="top"><a id="gaba6ffafd26e9c370833ff3d16bb0127c" name="gaba6ffafd26e9c370833ff3d16bb0127c"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>Get_LVDF</b>&#160;&#160;&#160;GetBit_BB((u32)&amp;HT_PWRCU-&gt;LVDCSR, 19)</td></tr>
+<tr class="memitem:gaba6ffafd26e9c370833ff3d16bb0127c" id="r_gaba6ffafd26e9c370833ff3d16bb0127c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_w_r_c_u___private___define.html#gaba6ffafd26e9c370833ff3d16bb0127c">Get_LVDF</a>&#160;&#160;&#160;<a class="el" href="group___h_t32_f5xxxx.html#gaf569ba5d9fd10b2bc72a9b854b2f3678">GetBit_BB</a>((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)&amp;<a class="el" href="group___c_m_s_i_s.html#gacfd38f85fd2ff178b7c5d400c9849315">HT_PWRCU</a>-&gt;LVDCSR, 19)</td></tr>
 <tr class="separator:gaba6ffafd26e9c370833ff3d16bb0127c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa66bfec27002f2b83ab6bc677b98e916" id="r_gaa66bfec27002f2b83ab6bc677b98e916"><td class="memItemLeft" align="right" valign="top"><a id="gaa66bfec27002f2b83ab6bc677b98e916" name="gaa66bfec27002f2b83ab6bc677b98e916"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>Set_LVDIWEN</b>&#160;&#160;&#160;SetBit_BB((u32)&amp;HT_PWRCU-&gt;LVDCSR, 20)</td></tr>
+<tr class="memitem:gaa66bfec27002f2b83ab6bc677b98e916" id="r_gaa66bfec27002f2b83ab6bc677b98e916"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_w_r_c_u___private___define.html#gaa66bfec27002f2b83ab6bc677b98e916">Set_LVDIWEN</a>&#160;&#160;&#160;<a class="el" href="group___h_t32_f5xxxx.html#ga5d488b79989ef19f676a42c2fe9e062e">SetBit_BB</a>((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)&amp;<a class="el" href="group___c_m_s_i_s.html#gacfd38f85fd2ff178b7c5d400c9849315">HT_PWRCU</a>-&gt;LVDCSR, 20)</td></tr>
 <tr class="separator:gaa66bfec27002f2b83ab6bc677b98e916"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga10e3754767a31a3903d9e0c00fc1bb44" id="r_ga10e3754767a31a3903d9e0c00fc1bb44"><td class="memItemLeft" align="right" valign="top"><a id="ga10e3754767a31a3903d9e0c00fc1bb44" name="ga10e3754767a31a3903d9e0c00fc1bb44"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>Reset_LVDIWEN</b>&#160;&#160;&#160;ResetBit_BB((u32)&amp;HT_PWRCU-&gt;LVDCSR, 20)</td></tr>
+<tr class="memitem:ga10e3754767a31a3903d9e0c00fc1bb44" id="r_ga10e3754767a31a3903d9e0c00fc1bb44"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_w_r_c_u___private___define.html#ga10e3754767a31a3903d9e0c00fc1bb44">Reset_LVDIWEN</a>&#160;&#160;&#160;<a class="el" href="group___h_t32_f5xxxx.html#ga879dc6b630f251008255b2d005d9ecef">ResetBit_BB</a>((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)&amp;<a class="el" href="group___c_m_s_i_s.html#gacfd38f85fd2ff178b7c5d400c9849315">HT_PWRCU</a>-&gt;LVDCSR, 20)</td></tr>
 <tr class="separator:ga10e3754767a31a3903d9e0c00fc1bb44"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga717c864da95255eb22e805b8ea9c7943" id="r_ga717c864da95255eb22e805b8ea9c7943"><td class="memItemLeft" align="right" valign="top"><a id="ga717c864da95255eb22e805b8ea9c7943" name="ga717c864da95255eb22e805b8ea9c7943"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>Set_LVDEWEN</b>&#160;&#160;&#160;SetBit_BB((u32)&amp;HT_PWRCU-&gt;LVDCSR, 21)</td></tr>
+<tr class="memitem:ga717c864da95255eb22e805b8ea9c7943" id="r_ga717c864da95255eb22e805b8ea9c7943"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_w_r_c_u___private___define.html#ga717c864da95255eb22e805b8ea9c7943">Set_LVDEWEN</a>&#160;&#160;&#160;<a class="el" href="group___h_t32_f5xxxx.html#ga5d488b79989ef19f676a42c2fe9e062e">SetBit_BB</a>((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)&amp;<a class="el" href="group___c_m_s_i_s.html#gacfd38f85fd2ff178b7c5d400c9849315">HT_PWRCU</a>-&gt;LVDCSR, 21)</td></tr>
 <tr class="separator:ga717c864da95255eb22e805b8ea9c7943"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga868136b0a3a5c734c657675eb17a7536" id="r_ga868136b0a3a5c734c657675eb17a7536"><td class="memItemLeft" align="right" valign="top"><a id="ga868136b0a3a5c734c657675eb17a7536" name="ga868136b0a3a5c734c657675eb17a7536"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>Reset_LVDEWEN</b>&#160;&#160;&#160;ResetBit_BB((u32)&amp;HT_PWRCU-&gt;LVDCSR, 21)</td></tr>
+<tr class="memitem:ga868136b0a3a5c734c657675eb17a7536" id="r_ga868136b0a3a5c734c657675eb17a7536"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_w_r_c_u___private___define.html#ga868136b0a3a5c734c657675eb17a7536">Reset_LVDEWEN</a>&#160;&#160;&#160;<a class="el" href="group___h_t32_f5xxxx.html#ga879dc6b630f251008255b2d005d9ecef">ResetBit_BB</a>((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)&amp;<a class="el" href="group___c_m_s_i_s.html#gacfd38f85fd2ff178b7c5d400c9849315">HT_PWRCU</a>-&gt;LVDCSR, 21)</td></tr>
 <tr class="separator:ga868136b0a3a5c734c657675eb17a7536"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gab97e05f988ec3797285cafaba24dc62d" id="r_gab97e05f988ec3797285cafaba24dc62d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_w_r_c_u___private___define.html#gab97e05f988ec3797285cafaba24dc62d">SLEEPDEEP_SET</a>&#160;&#160;&#160;0x04</td></tr>
 <tr class="separator:gab97e05f988ec3797285cafaba24dc62d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga953bfd5daa48b7e3cb4f5e5dcdcb6264" id="r_ga953bfd5daa48b7e3cb4f5e5dcdcb6264"><td class="memItemLeft" align="right" valign="top"><a id="ga953bfd5daa48b7e3cb4f5e5dcdcb6264" name="ga953bfd5daa48b7e3cb4f5e5dcdcb6264"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>PWRRST_SET</b>&#160;&#160;&#160;0x1</td></tr>
+<tr class="memitem:ga953bfd5daa48b7e3cb4f5e5dcdcb6264" id="r_ga953bfd5daa48b7e3cb4f5e5dcdcb6264"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_w_r_c_u___private___define.html#ga953bfd5daa48b7e3cb4f5e5dcdcb6264">PWRRST_SET</a>&#160;&#160;&#160;0x1</td></tr>
 <tr class="separator:ga953bfd5daa48b7e3cb4f5e5dcdcb6264"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga953bfd5daa48b7e3cb4f5e5dcdcb6264" id="r_ga953bfd5daa48b7e3cb4f5e5dcdcb6264"><td class="memItemLeft" align="right" valign="top"><a id="ga953bfd5daa48b7e3cb4f5e5dcdcb6264" name="ga953bfd5daa48b7e3cb4f5e5dcdcb6264"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>PWRRST_SET</b>&#160;&#160;&#160;0x1</td></tr>
+<tr class="memitem:ga953bfd5daa48b7e3cb4f5e5dcdcb6264" id="r_ga953bfd5daa48b7e3cb4f5e5dcdcb6264"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_w_r_c_u___private___define.html#ga953bfd5daa48b7e3cb4f5e5dcdcb6264">PWRRST_SET</a>&#160;&#160;&#160;0x1</td></tr>
 <tr class="separator:ga953bfd5daa48b7e3cb4f5e5dcdcb6264"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga946925404d00d2f6c4665050f3224f5b" id="r_ga946925404d00d2f6c4665050f3224f5b"><td class="memItemLeft" align="right" valign="top"><a id="ga946925404d00d2f6c4665050f3224f5b" name="ga946925404d00d2f6c4665050f3224f5b"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>PWRTEST_READY</b>&#160;&#160;&#160;0x27</td></tr>
+<tr class="memitem:ga946925404d00d2f6c4665050f3224f5b" id="r_ga946925404d00d2f6c4665050f3224f5b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_w_r_c_u___private___define.html#ga946925404d00d2f6c4665050f3224f5b">PWRTEST_READY</a>&#160;&#160;&#160;0x27</td></tr>
 <tr class="separator:ga946925404d00d2f6c4665050f3224f5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga799517031a8334a42807b119bb456c53" id="r_ga799517031a8334a42807b119bb456c53"><td class="memItemLeft" align="right" valign="top"><a id="ga799517031a8334a42807b119bb456c53" name="ga799517031a8334a42807b119bb456c53"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>TIME_OUT</b>&#160;&#160;&#160;24000000</td></tr>
+<tr class="memitem:ga799517031a8334a42807b119bb456c53" id="r_ga799517031a8334a42807b119bb456c53"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_w_r_c_u___private___define.html#ga799517031a8334a42807b119bb456c53">TIME_OUT</a>&#160;&#160;&#160;24000000</td></tr>
 <tr class="separator:ga799517031a8334a42807b119bb456c53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5a94fae69cce0dbe1621edde6d9e82ee" id="r_ga5a94fae69cce0dbe1621edde6d9e82ee"><td class="memItemLeft" align="right" valign="top"><a id="ga5a94fae69cce0dbe1621edde6d9e82ee" name="ga5a94fae69cce0dbe1621edde6d9e82ee"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>WUP0TYPE_MASK</b>&#160;&#160;&#160;0xFFFCFFFF</td></tr>
+<tr class="memitem:ga5a94fae69cce0dbe1621edde6d9e82ee" id="r_ga5a94fae69cce0dbe1621edde6d9e82ee"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_w_r_c_u___private___define.html#ga5a94fae69cce0dbe1621edde6d9e82ee">WUP0TYPE_MASK</a>&#160;&#160;&#160;0xFFFCFFFF</td></tr>
 <tr class="separator:ga5a94fae69cce0dbe1621edde6d9e82ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa010210d62022acf804dcc29552c36a6" id="r_gaa010210d62022acf804dcc29552c36a6"><td class="memItemLeft" align="right" valign="top"><a id="gaa010210d62022acf804dcc29552c36a6" name="gaa010210d62022acf804dcc29552c36a6"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>WUP1TYPE_MASK</b>&#160;&#160;&#160;0xFFF3FFFF</td></tr>
+<tr class="memitem:gaa010210d62022acf804dcc29552c36a6" id="r_gaa010210d62022acf804dcc29552c36a6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_w_r_c_u___private___define.html#gaa010210d62022acf804dcc29552c36a6">WUP1TYPE_MASK</a>&#160;&#160;&#160;0xFFF3FFFF</td></tr>
 <tr class="separator:gaa010210d62022acf804dcc29552c36a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga46adebe6c3e0ac81df6857aec0e1a01f" id="r_ga46adebe6c3e0ac81df6857aec0e1a01f"><td class="memItemLeft" align="right" valign="top"><a id="ga46adebe6c3e0ac81df6857aec0e1a01f" name="ga46adebe6c3e0ac81df6857aec0e1a01f"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LVDS_MASK</b>&#160;&#160;&#160;0xFFB9FFFF</td></tr>
+<tr class="memitem:ga46adebe6c3e0ac81df6857aec0e1a01f" id="r_ga46adebe6c3e0ac81df6857aec0e1a01f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_w_r_c_u___private___define.html#ga46adebe6c3e0ac81df6857aec0e1a01f">LVDS_MASK</a>&#160;&#160;&#160;0xFFB9FFFF</td></tr>
 <tr class="separator:ga46adebe6c3e0ac81df6857aec0e1a01f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab874094d6bf2782abfd3b694df92faa1" id="r_gab874094d6bf2782abfd3b694df92faa1"><td class="memItemLeft" align="right" valign="top"><a id="gab874094d6bf2782abfd3b694df92faa1" name="gab874094d6bf2782abfd3b694df92faa1"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>VREG_V_MASK</b>&#160;&#160;&#160;0xF3FFFFFF</td></tr>
+<tr class="memitem:gab874094d6bf2782abfd3b694df92faa1" id="r_gab874094d6bf2782abfd3b694df92faa1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_w_r_c_u___private___define.html#gab874094d6bf2782abfd3b694df92faa1">VREG_V_MASK</a>&#160;&#160;&#160;0xF3FFFFFF</td></tr>
 <tr class="separator:gab874094d6bf2782abfd3b694df92faa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3f6fc05fe5ae70116424cbe2e8175cf3" id="r_ga3f6fc05fe5ae70116424cbe2e8175cf3"><td class="memItemLeft" align="right" valign="top"><a id="ga3f6fc05fe5ae70116424cbe2e8175cf3" name="ga3f6fc05fe5ae70116424cbe2e8175cf3"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>VREG_M_MASK</b>&#160;&#160;&#160;0xFCFFFFFF</td></tr>
+<tr class="memitem:ga3f6fc05fe5ae70116424cbe2e8175cf3" id="r_ga3f6fc05fe5ae70116424cbe2e8175cf3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_w_r_c_u___private___define.html#ga3f6fc05fe5ae70116424cbe2e8175cf3">VREG_M_MASK</a>&#160;&#160;&#160;0xFCFFFFFF</td></tr>
 <tr class="separator:ga3f6fc05fe5ae70116424cbe2e8175cf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="ga289730ce9c95cdbdffd3bb1cc9c72f18" name="ga289730ce9c95cdbdffd3bb1cc9c72f18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga289730ce9c95cdbdffd3bb1cc9c72f18">&#9670;&#160;</a></span>Get_BODF</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define Get_BODF&#160;&#160;&#160;<a class="el" href="group___h_t32_f5xxxx.html#gaf569ba5d9fd10b2bc72a9b854b2f3678">GetBit_BB</a>((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)&amp;<a class="el" href="group___c_m_s_i_s.html#gacfd38f85fd2ff178b7c5d400c9849315">HT_PWRCU</a>-&gt;LVDCSR, 3)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga5752e18a031363c4792845663d847501" name="ga5752e18a031363c4792845663d847501"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5752e18a031363c4792845663d847501">&#9670;&#160;</a></span>Get_DMOSSTS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define Get_DMOSSTS&#160;&#160;&#160;<a class="el" href="group___h_t32_f5xxxx.html#gaf569ba5d9fd10b2bc72a9b854b2f3678">GetBit_BB</a>((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)&amp;<a class="el" href="group___c_m_s_i_s.html#gacfd38f85fd2ff178b7c5d400c9849315">HT_PWRCU</a>-&gt;CR, 15)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gaba6ffafd26e9c370833ff3d16bb0127c" name="gaba6ffafd26e9c370833ff3d16bb0127c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaba6ffafd26e9c370833ff3d16bb0127c">&#9670;&#160;</a></span>Get_LVDF</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define Get_LVDF&#160;&#160;&#160;<a class="el" href="group___h_t32_f5xxxx.html#gaf569ba5d9fd10b2bc72a9b854b2f3678">GetBit_BB</a>((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)&amp;<a class="el" href="group___c_m_s_i_s.html#gacfd38f85fd2ff178b7c5d400c9849315">HT_PWRCU</a>-&gt;LVDCSR, 19)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga9397dabced9b62b75f35ba1c07d354a6" name="ga9397dabced9b62b75f35ba1c07d354a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9397dabced9b62b75f35ba1c07d354a6">&#9670;&#160;</a></span>Get_RTCEN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define Get_RTCEN&#160;&#160;&#160;<a class="el" href="group___h_t32_f5xxxx.html#gaf569ba5d9fd10b2bc72a9b854b2f3678">GetBit_BB</a>((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)&amp;<a class="el" href="group___c_m_s_i_s.html#ga320d00ca9ac4b58894fa6b17fa13b793">HT_CKCU</a>-&gt;APBCCR1, 6)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga46adebe6c3e0ac81df6857aec0e1a01f" name="ga46adebe6c3e0ac81df6857aec0e1a01f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga46adebe6c3e0ac81df6857aec0e1a01f">&#9670;&#160;</a></span>LVDS_MASK</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LVDS_MASK&#160;&#160;&#160;0xFFB9FFFF</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga953bfd5daa48b7e3cb4f5e5dcdcb6264" name="ga953bfd5daa48b7e3cb4f5e5dcdcb6264"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga953bfd5daa48b7e3cb4f5e5dcdcb6264">&#9670;&#160;</a></span>PWRRST_SET <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define PWRRST_SET&#160;&#160;&#160;0x1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga953bfd5daa48b7e3cb4f5e5dcdcb6264" name="ga953bfd5daa48b7e3cb4f5e5dcdcb6264"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga953bfd5daa48b7e3cb4f5e5dcdcb6264">&#9670;&#160;</a></span>PWRRST_SET <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define PWRRST_SET&#160;&#160;&#160;0x1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga946925404d00d2f6c4665050f3224f5b" name="ga946925404d00d2f6c4665050f3224f5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga946925404d00d2f6c4665050f3224f5b">&#9670;&#160;</a></span>PWRTEST_READY</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define PWRTEST_READY&#160;&#160;&#160;0x27</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gae6cc78287c4145af17ac13194cea8ea5" name="gae6cc78287c4145af17ac13194cea8ea5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae6cc78287c4145af17ac13194cea8ea5">&#9670;&#160;</a></span>Reset_BODEN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define Reset_BODEN&#160;&#160;&#160;<a class="el" href="group___h_t32_f5xxxx.html#ga879dc6b630f251008255b2d005d9ecef">ResetBit_BB</a>((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)&amp;<a class="el" href="group___c_m_s_i_s.html#gacfd38f85fd2ff178b7c5d400c9849315">HT_PWRCU</a>-&gt;LVDCSR, 0)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga00013f3eb83a0326331f3b310cd68f7b" name="ga00013f3eb83a0326331f3b310cd68f7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga00013f3eb83a0326331f3b310cd68f7b">&#9670;&#160;</a></span>Reset_BODF</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define Reset_BODF&#160;&#160;&#160;<a class="el" href="group___h_t32_f5xxxx.html#ga879dc6b630f251008255b2d005d9ecef">ResetBit_BB</a>((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)&amp;<a class="el" href="group___c_m_s_i_s.html#gacfd38f85fd2ff178b7c5d400c9849315">HT_PWRCU</a>-&gt;LVDCSR, 3)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga79017d30f825e2c3ad745637f1604a74" name="ga79017d30f825e2c3ad745637f1604a74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga79017d30f825e2c3ad745637f1604a74">&#9670;&#160;</a></span>Reset_BODRIS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define Reset_BODRIS&#160;&#160;&#160;<a class="el" href="group___h_t32_f5xxxx.html#ga879dc6b630f251008255b2d005d9ecef">ResetBit_BB</a>((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)&amp;<a class="el" href="group___c_m_s_i_s.html#gacfd38f85fd2ff178b7c5d400c9849315">HT_PWRCU</a>-&gt;LVDCSR, 1)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga8bcd35a3f77dfcef74344ffbd2adfa0f" name="ga8bcd35a3f77dfcef74344ffbd2adfa0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8bcd35a3f77dfcef74344ffbd2adfa0f">&#9670;&#160;</a></span>Reset_DMOSON</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define Reset_DMOSON&#160;&#160;&#160;<a class="el" href="group___h_t32_f5xxxx.html#ga879dc6b630f251008255b2d005d9ecef">ResetBit_BB</a>((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)&amp;<a class="el" href="group___c_m_s_i_s.html#gacfd38f85fd2ff178b7c5d400c9849315">HT_PWRCU</a>-&gt;CR, 7)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga2db8c3ec89a52640259f562c16c7ce3f" name="ga2db8c3ec89a52640259f562c16c7ce3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2db8c3ec89a52640259f562c16c7ce3f">&#9670;&#160;</a></span>Reset_DMOSSTS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define Reset_DMOSSTS&#160;&#160;&#160;<a class="el" href="group___h_t32_f5xxxx.html#ga879dc6b630f251008255b2d005d9ecef">ResetBit_BB</a>((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)&amp;<a class="el" href="group___c_m_s_i_s.html#gacfd38f85fd2ff178b7c5d400c9849315">HT_PWRCU</a>-&gt;CR, 15)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga7d9373920e08d2607812a100ad15be4b" name="ga7d9373920e08d2607812a100ad15be4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7d9373920e08d2607812a100ad15be4b">&#9670;&#160;</a></span>Reset_LDOMODE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define Reset_LDOMODE&#160;&#160;&#160;<a class="el" href="group___h_t32_f5xxxx.html#ga879dc6b630f251008255b2d005d9ecef">ResetBit_BB</a>((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)&amp;<a class="el" href="group___c_m_s_i_s.html#gacfd38f85fd2ff178b7c5d400c9849315">HT_PWRCU</a>-&gt;CR, 2)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga8d115d017374591e4e2ec2a59ae5577d" name="ga8d115d017374591e4e2ec2a59ae5577d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8d115d017374591e4e2ec2a59ae5577d">&#9670;&#160;</a></span>Reset_LDOOFF</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define Reset_LDOOFF&#160;&#160;&#160;<a class="el" href="group___h_t32_f5xxxx.html#ga879dc6b630f251008255b2d005d9ecef">ResetBit_BB</a>((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)&amp;<a class="el" href="group___c_m_s_i_s.html#gacfd38f85fd2ff178b7c5d400c9849315">HT_PWRCU</a>-&gt;CR, 3)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga29fe33367c0ea5ce1f97c6e19c89b820" name="ga29fe33367c0ea5ce1f97c6e19c89b820"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga29fe33367c0ea5ce1f97c6e19c89b820">&#9670;&#160;</a></span>Reset_LVDEN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define Reset_LVDEN&#160;&#160;&#160;<a class="el" href="group___h_t32_f5xxxx.html#ga879dc6b630f251008255b2d005d9ecef">ResetBit_BB</a>((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)&amp;<a class="el" href="group___c_m_s_i_s.html#gacfd38f85fd2ff178b7c5d400c9849315">HT_PWRCU</a>-&gt;LVDCSR, 16)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga868136b0a3a5c734c657675eb17a7536" name="ga868136b0a3a5c734c657675eb17a7536"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga868136b0a3a5c734c657675eb17a7536">&#9670;&#160;</a></span>Reset_LVDEWEN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define Reset_LVDEWEN&#160;&#160;&#160;<a class="el" href="group___h_t32_f5xxxx.html#ga879dc6b630f251008255b2d005d9ecef">ResetBit_BB</a>((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)&amp;<a class="el" href="group___c_m_s_i_s.html#gacfd38f85fd2ff178b7c5d400c9849315">HT_PWRCU</a>-&gt;LVDCSR, 21)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga07ded1a21b24073be69d403fc17d9d99" name="ga07ded1a21b24073be69d403fc17d9d99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga07ded1a21b24073be69d403fc17d9d99">&#9670;&#160;</a></span>Reset_LVDF</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define Reset_LVDF&#160;&#160;&#160;<a class="el" href="group___h_t32_f5xxxx.html#ga879dc6b630f251008255b2d005d9ecef">ResetBit_BB</a>((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)&amp;<a class="el" href="group___c_m_s_i_s.html#gacfd38f85fd2ff178b7c5d400c9849315">HT_PWRCU</a>-&gt;LVDCSR, 19)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga10e3754767a31a3903d9e0c00fc1bb44" name="ga10e3754767a31a3903d9e0c00fc1bb44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga10e3754767a31a3903d9e0c00fc1bb44">&#9670;&#160;</a></span>Reset_LVDIWEN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define Reset_LVDIWEN&#160;&#160;&#160;<a class="el" href="group___h_t32_f5xxxx.html#ga879dc6b630f251008255b2d005d9ecef">ResetBit_BB</a>((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)&amp;<a class="el" href="group___c_m_s_i_s.html#gacfd38f85fd2ff178b7c5d400c9849315">HT_PWRCU</a>-&gt;LVDCSR, 20)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga605f5470e300a452d5e07e25975f5f01" name="ga605f5470e300a452d5e07e25975f5f01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga605f5470e300a452d5e07e25975f5f01">&#9670;&#160;</a></span>Reset_RTCEN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define Reset_RTCEN&#160;&#160;&#160;<a class="el" href="group___h_t32_f5xxxx.html#ga879dc6b630f251008255b2d005d9ecef">ResetBit_BB</a>((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)&amp;<a class="el" href="group___c_m_s_i_s.html#ga320d00ca9ac4b58894fa6b17fa13b793">HT_CKCU</a>-&gt;APBCCR1, 6);</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gad7acd23924449ee3f02b7a0126cc86eb" name="gad7acd23924449ee3f02b7a0126cc86eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad7acd23924449ee3f02b7a0126cc86eb">&#9670;&#160;</a></span>Reset_WUP0EN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define Reset_WUP0EN&#160;&#160;&#160;<a class="el" href="group___h_t32_f5xxxx.html#ga879dc6b630f251008255b2d005d9ecef">ResetBit_BB</a>((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)&amp;<a class="el" href="group___c_m_s_i_s.html#gacfd38f85fd2ff178b7c5d400c9849315">HT_PWRCU</a>-&gt;CR, 8)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga03b8979b0f951c7c78f35086d93fd03c" name="ga03b8979b0f951c7c78f35086d93fd03c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga03b8979b0f951c7c78f35086d93fd03c">&#9670;&#160;</a></span>Set_BODEN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define Set_BODEN&#160;&#160;&#160;<a class="el" href="group___h_t32_f5xxxx.html#ga5d488b79989ef19f676a42c2fe9e062e">SetBit_BB</a>((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)&amp;<a class="el" href="group___c_m_s_i_s.html#gacfd38f85fd2ff178b7c5d400c9849315">HT_PWRCU</a>-&gt;LVDCSR, 0)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gacffdc6df681961c01833e2edd24d0c62" name="gacffdc6df681961c01833e2edd24d0c62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gacffdc6df681961c01833e2edd24d0c62">&#9670;&#160;</a></span>Set_BODF</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define Set_BODF&#160;&#160;&#160;<a class="el" href="group___h_t32_f5xxxx.html#ga5d488b79989ef19f676a42c2fe9e062e">SetBit_BB</a>((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)&amp;<a class="el" href="group___c_m_s_i_s.html#gacfd38f85fd2ff178b7c5d400c9849315">HT_PWRCU</a>-&gt;LVDCSR, 3)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga8846a4bb567f894864e2d2265440e2f7" name="ga8846a4bb567f894864e2d2265440e2f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8846a4bb567f894864e2d2265440e2f7">&#9670;&#160;</a></span>Set_BODRIS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define Set_BODRIS&#160;&#160;&#160;<a class="el" href="group___h_t32_f5xxxx.html#ga5d488b79989ef19f676a42c2fe9e062e">SetBit_BB</a>((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)&amp;<a class="el" href="group___c_m_s_i_s.html#gacfd38f85fd2ff178b7c5d400c9849315">HT_PWRCU</a>-&gt;LVDCSR, 1)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gab4b9ffe7a0843c0b6222fc99180d8168" name="gab4b9ffe7a0843c0b6222fc99180d8168"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab4b9ffe7a0843c0b6222fc99180d8168">&#9670;&#160;</a></span>Set_DMOSON</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define Set_DMOSON&#160;&#160;&#160;<a class="el" href="group___h_t32_f5xxxx.html#ga5d488b79989ef19f676a42c2fe9e062e">SetBit_BB</a>((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)&amp;<a class="el" href="group___c_m_s_i_s.html#gacfd38f85fd2ff178b7c5d400c9849315">HT_PWRCU</a>-&gt;CR, 7)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gaec6fa550910125ed3d4e3ad8f97c2254" name="gaec6fa550910125ed3d4e3ad8f97c2254"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaec6fa550910125ed3d4e3ad8f97c2254">&#9670;&#160;</a></span>Set_DMOSSTS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define Set_DMOSSTS&#160;&#160;&#160;<a class="el" href="group___h_t32_f5xxxx.html#ga5d488b79989ef19f676a42c2fe9e062e">SetBit_BB</a>((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)&amp;<a class="el" href="group___c_m_s_i_s.html#gacfd38f85fd2ff178b7c5d400c9849315">HT_PWRCU</a>-&gt;CR, 15)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga4853ff33248b9000504ead8b876abc9e" name="ga4853ff33248b9000504ead8b876abc9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4853ff33248b9000504ead8b876abc9e">&#9670;&#160;</a></span>Set_LDOMODE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define Set_LDOMODE&#160;&#160;&#160;<a class="el" href="group___h_t32_f5xxxx.html#ga5d488b79989ef19f676a42c2fe9e062e">SetBit_BB</a>((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)&amp;<a class="el" href="group___c_m_s_i_s.html#gacfd38f85fd2ff178b7c5d400c9849315">HT_PWRCU</a>-&gt;CR, 2)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga0b875245058330fb66981c7b406584f9" name="ga0b875245058330fb66981c7b406584f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0b875245058330fb66981c7b406584f9">&#9670;&#160;</a></span>Set_LDOOFF</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define Set_LDOOFF&#160;&#160;&#160;<a class="el" href="group___h_t32_f5xxxx.html#ga5d488b79989ef19f676a42c2fe9e062e">SetBit_BB</a>((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)&amp;<a class="el" href="group___c_m_s_i_s.html#gacfd38f85fd2ff178b7c5d400c9849315">HT_PWRCU</a>-&gt;CR, 3)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga5401ddb13f39ded068d7a5d642fa01b9" name="ga5401ddb13f39ded068d7a5d642fa01b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5401ddb13f39ded068d7a5d642fa01b9">&#9670;&#160;</a></span>Set_LVDEN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define Set_LVDEN&#160;&#160;&#160;<a class="el" href="group___h_t32_f5xxxx.html#ga5d488b79989ef19f676a42c2fe9e062e">SetBit_BB</a>((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)&amp;<a class="el" href="group___c_m_s_i_s.html#gacfd38f85fd2ff178b7c5d400c9849315">HT_PWRCU</a>-&gt;LVDCSR, 16)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga717c864da95255eb22e805b8ea9c7943" name="ga717c864da95255eb22e805b8ea9c7943"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga717c864da95255eb22e805b8ea9c7943">&#9670;&#160;</a></span>Set_LVDEWEN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define Set_LVDEWEN&#160;&#160;&#160;<a class="el" href="group___h_t32_f5xxxx.html#ga5d488b79989ef19f676a42c2fe9e062e">SetBit_BB</a>((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)&amp;<a class="el" href="group___c_m_s_i_s.html#gacfd38f85fd2ff178b7c5d400c9849315">HT_PWRCU</a>-&gt;LVDCSR, 21)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga5cf85be3a9e892bd9449f0d9b30f9ba7" name="ga5cf85be3a9e892bd9449f0d9b30f9ba7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5cf85be3a9e892bd9449f0d9b30f9ba7">&#9670;&#160;</a></span>Set_LVDF</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define Set_LVDF&#160;&#160;&#160;<a class="el" href="group___h_t32_f5xxxx.html#ga5d488b79989ef19f676a42c2fe9e062e">SetBit_BB</a>((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)&amp;<a class="el" href="group___c_m_s_i_s.html#gacfd38f85fd2ff178b7c5d400c9849315">HT_PWRCU</a>-&gt;LVDCSR, 19)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gaa66bfec27002f2b83ab6bc677b98e916" name="gaa66bfec27002f2b83ab6bc677b98e916"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa66bfec27002f2b83ab6bc677b98e916">&#9670;&#160;</a></span>Set_LVDIWEN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define Set_LVDIWEN&#160;&#160;&#160;<a class="el" href="group___h_t32_f5xxxx.html#ga5d488b79989ef19f676a42c2fe9e062e">SetBit_BB</a>((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)&amp;<a class="el" href="group___c_m_s_i_s.html#gacfd38f85fd2ff178b7c5d400c9849315">HT_PWRCU</a>-&gt;LVDCSR, 20)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gaf661bf2f179012adb13b329fcca8afbe" name="gaf661bf2f179012adb13b329fcca8afbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf661bf2f179012adb13b329fcca8afbe">&#9670;&#160;</a></span>Set_RTCEN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define Set_RTCEN&#160;&#160;&#160;<a class="el" href="group___h_t32_f5xxxx.html#ga5d488b79989ef19f676a42c2fe9e062e">SetBit_BB</a>((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)&amp;<a class="el" href="group___c_m_s_i_s.html#ga320d00ca9ac4b58894fa6b17fa13b793">HT_CKCU</a>-&gt;APBCCR1, 6);</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga9facfef8a871e3752c7555a863e6ec94" name="ga9facfef8a871e3752c7555a863e6ec94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9facfef8a871e3752c7555a863e6ec94">&#9670;&#160;</a></span>Set_WUP0EN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define Set_WUP0EN&#160;&#160;&#160;<a class="el" href="group___h_t32_f5xxxx.html#ga5d488b79989ef19f676a42c2fe9e062e">SetBit_BB</a>((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)&amp;<a class="el" href="group___c_m_s_i_s.html#gacfd38f85fd2ff178b7c5d400c9849315">HT_PWRCU</a>-&gt;CR, 8)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="gab97e05f988ec3797285cafaba24dc62d" name="gab97e05f988ec3797285cafaba24dc62d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gab97e05f988ec3797285cafaba24dc62d">&#9670;&#160;</a></span>SLEEPDEEP_SET</h2>
 
@@ -213,6 +688,76 @@ Macros</h2></td></tr>
 </div><div class="memdoc">
 <p>Cortex SLEEPDEEP bit <br  />
  </p>
+
+</div>
+</div>
+<a id="ga799517031a8334a42807b119bb456c53" name="ga799517031a8334a42807b119bb456c53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga799517031a8334a42807b119bb456c53">&#9670;&#160;</a></span>TIME_OUT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TIME_OUT&#160;&#160;&#160;24000000</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga3f6fc05fe5ae70116424cbe2e8175cf3" name="ga3f6fc05fe5ae70116424cbe2e8175cf3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3f6fc05fe5ae70116424cbe2e8175cf3">&#9670;&#160;</a></span>VREG_M_MASK</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define VREG_M_MASK&#160;&#160;&#160;0xFCFFFFFF</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gab874094d6bf2782abfd3b694df92faa1" name="gab874094d6bf2782abfd3b694df92faa1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab874094d6bf2782abfd3b694df92faa1">&#9670;&#160;</a></span>VREG_V_MASK</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define VREG_V_MASK&#160;&#160;&#160;0xF3FFFFFF</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga5a94fae69cce0dbe1621edde6d9e82ee" name="ga5a94fae69cce0dbe1621edde6d9e82ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5a94fae69cce0dbe1621edde6d9e82ee">&#9670;&#160;</a></span>WUP0TYPE_MASK</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define WUP0TYPE_MASK&#160;&#160;&#160;0xFFFCFFFF</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gaa010210d62022acf804dcc29552c36a6" name="gaa010210d62022acf804dcc29552c36a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa010210d62022acf804dcc29552c36a6">&#9670;&#160;</a></span>WUP1TYPE_MASK</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define WUP1TYPE_MASK&#160;&#160;&#160;0xFFF3FFFF</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>HT32_STD_Documents: BOD_LVD</title>
+<title>HT32_STD_Code_Documents: BOD_LVD</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,9 +21,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">HT32_STD_Documents<span id="projectnumber">&#160;1.0.0</span>
+   <div id="projectname">HT32_STD_Code_Documents<span id="projectnumber">&#160;1.0.0</span>
    </div>
-   <div id="projectbrief">For HT32F52352</div>
+   <div id="projectbrief">Micro-controller Experiment</div>
   </td>
  </tr>
  </tbody>
@@ -75,11 +75,15 @@ $(function() {
   <div class="headertitle"><div class="title">BOD_LVD<div class="ingroups"><a class="el" href="group___h_t32___series___peripheral___examples.html">HT32 Peripheral Examples</a> &raquo; <a class="el" href="group___p_w_r_c_u___examples.html">PWRCU</a></div></div></div>
 </div><!--header-->
 <div class="contents">
+<div class="dynheader">
+Collaboration diagram for BOD_LVD:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="group___b_o_d___l_v_d.svg" width="211" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga4b9adc17ea1b331a196fc549e089022c" id="r_ga4b9adc17ea1b331a196fc549e089022c"><td class="memItemLeft" align="right" valign="top"><a id="ga4b9adc17ea1b331a196fc549e089022c" name="ga4b9adc17ea1b331a196fc549e089022c"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>delay</b> (vu32 counter)</td></tr>
+<tr class="memitem:ga4b9adc17ea1b331a196fc549e089022c" id="r_ga4b9adc17ea1b331a196fc549e089022c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___b_o_d___l_v_d.html#ga4b9adc17ea1b331a196fc549e089022c">delay</a> (vu32 counter)</td></tr>
 <tr class="separator:ga4b9adc17ea1b331a196fc549e089022c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga6ad7a5e3ee69cb6db6a6b9111ba898bc" id="r_ga6ad7a5e3ee69cb6db6a6b9111ba898bc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___b_o_d___l_v_d.html#ga6ad7a5e3ee69cb6db6a6b9111ba898bc">NMI_Handler</a> (void)</td></tr>
 <tr class="memdesc:ga6ad7a5e3ee69cb6db6a6b9111ba898bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function handles NMI exception.  <br /></td></tr>
@@ -169,6 +173,32 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>delay</b> (vu32 count
 
 </div>
 </div>
+<a id="ga4b9adc17ea1b331a196fc549e089022c" name="ga4b9adc17ea1b331a196fc549e089022c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4b9adc17ea1b331a196fc549e089022c">&#9670;&#160;</a></span>delay()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void delay </td>
+          <td>(</td>
+          <td class="paramtype">vu32&#160;</td>
+          <td class="paramname"><em>counter</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ga2bffc10d5bd4106753b7c30e86903bea" name="ga2bffc10d5bd4106753b7c30e86903bea"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga2bffc10d5bd4106753b7c30e86903bea">&#9670;&#160;</a></span>HardFault_Handler()</h2>
 
@@ -244,7 +274,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>delay</b> (vu32 count
   </table>
   </dd>
 </dl>
-<dl class="section note"><dt>Note</dt><dd>At this stage the microcontroller clock setting is already configured, this is done through <a class="el" href="group___h_t32_f0006___system___exported___functions.html#ga93f514700ccf00d08dbdcff7f1224eb2" title="Setup the microcontroller system. Initializes the system clocks and the embedded Flash.">SystemInit()</a> function which is called from startup file (startup_ht32fxxxx.s) before branching to application main. To reconfigure the default setting of <a class="el" href="group___h_t32_f0006___system___exported___functions.html#ga93f514700ccf00d08dbdcff7f1224eb2" title="Setup the microcontroller system. Initializes the system clocks and the embedded Flash.">SystemInit()</a> function, refer to system_ht32fxxxx.c file</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>At this stage the microcontroller clock setting is already configured, this is done through <a class="el" href="group___h_t32_f5xxxx___system___private___functions.html#ga93f514700ccf00d08dbdcff7f1224eb2" title="Setup the microcontroller system. Initializes the system clocks and the embedded Flash.">SystemInit()</a> function which is called from startup file (startup_ht32fxxxx.s) before branching to application main. To reconfigure the default setting of <a class="el" href="group___h_t32_f5xxxx___system___private___functions.html#ga93f514700ccf00d08dbdcff7f1224eb2" title="Setup the microcontroller system. Initializes the system clocks and the embedded Flash.">SystemInit()</a> function, refer to system_ht32fxxxx.c file</dd></dl>
 <p>Main program as following:</p><ul>
 <li>Init LED1, LED2 used to output state.</li>
 <li>Enable RTC PCLK.</li>

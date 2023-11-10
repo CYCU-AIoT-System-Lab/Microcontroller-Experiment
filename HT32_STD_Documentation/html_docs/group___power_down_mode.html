@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>HT32_STD_Documents: PowerDownMode</title>
+<title>HT32_STD_Code_Documents: PowerDownMode</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,9 +21,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">HT32_STD_Documents<span id="projectnumber">&#160;1.0.0</span>
+   <div id="projectname">HT32_STD_Code_Documents<span id="projectnumber">&#160;1.0.0</span>
    </div>
-   <div id="projectbrief">For HT32F52352</div>
+   <div id="projectbrief">Micro-controller Experiment</div>
   </td>
  </tr>
  </tbody>
@@ -76,11 +76,15 @@ $(function() {
   <div class="headertitle"><div class="title">PowerDownMode<div class="ingroups"><a class="el" href="group___h_t32___series___peripheral___examples.html">HT32 Peripheral Examples</a> &raquo; <a class="el" href="group___p_w_r_c_u___examples.html">PWRCU</a></div></div></div>
 </div><!--header-->
 <div class="contents">
+<div class="dynheader">
+Collaboration diagram for PowerDownMode:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="group___power_down_mode.svg" width="251" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:ga92f3e7943a508098d00689808bf21ecb" id="r_ga92f3e7943a508098d00689808bf21ecb"><td class="memItemLeft" align="right" valign="top"><a id="ga92f3e7943a508098d00689808bf21ecb" name="ga92f3e7943a508098d00689808bf21ecb"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>DISABLE_DEBUG_PIN</b>&#160;&#160;&#160;(0)</td></tr>
+<tr class="memitem:ga92f3e7943a508098d00689808bf21ecb" id="r_ga92f3e7943a508098d00689808bf21ecb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___power_down_mode.html#ga92f3e7943a508098d00689808bf21ecb">DISABLE_DEBUG_PIN</a>&#160;&#160;&#160;(0)</td></tr>
 <tr class="separator:ga92f3e7943a508098d00689808bf21ecb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
@@ -126,6 +130,21 @@ Functions</h2></td></tr>
 <tr class="separator:ga840291bc02cba5474a4cb46a9b9566fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="ga92f3e7943a508098d00689808bf21ecb" name="ga92f3e7943a508098d00689808bf21ecb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga92f3e7943a508098d00689808bf21ecb">&#9670;&#160;</a></span>DISABLE_DEBUG_PIN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DISABLE_DEBUG_PIN&#160;&#160;&#160;(0)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="ga3bad8f46ac816a43c71f8e924307c108" name="ga3bad8f46ac816a43c71f8e924307c108"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga3bad8f46ac816a43c71f8e924307c108">&#9670;&#160;</a></span>EVWUP_IRQHandler()</h2>
@@ -323,7 +342,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section note"><dt>Note</dt><dd>At this stage the microcontroller clock setting is already configured, this is done through <a class="el" href="group___h_t32_f0006___system___exported___functions.html#ga93f514700ccf00d08dbdcff7f1224eb2" title="Setup the microcontroller system. Initializes the system clocks and the embedded Flash.">SystemInit()</a> function which is called from startup file (startup_ht32fxxxx.s) before branching to application main. To reconfigure the default setting of <a class="el" href="group___h_t32_f0006___system___exported___functions.html#ga93f514700ccf00d08dbdcff7f1224eb2" title="Setup the microcontroller system. Initializes the system clocks and the embedded Flash.">SystemInit()</a> function, refer to system_ht32fxxxx.c file</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>At this stage the microcontroller clock setting is already configured, this is done through <a class="el" href="group___h_t32_f5xxxx___system___private___functions.html#ga93f514700ccf00d08dbdcff7f1224eb2" title="Setup the microcontroller system. Initializes the system clocks and the embedded Flash.">SystemInit()</a> function which is called from startup file (startup_ht32fxxxx.s) before branching to application main. To reconfigure the default setting of <a class="el" href="group___h_t32_f5xxxx___system___private___functions.html#ga93f514700ccf00d08dbdcff7f1224eb2" title="Setup the microcontroller system. Initializes the system clocks and the embedded Flash.">SystemInit()</a> function, refer to system_ht32fxxxx.c file</dd></dl>
 <p>The main program as following:</p><ul>
 <li>Initialize LEDs and turn on LED1.</li>
 <li>Check the backup domain(RTC &amp; PWRCU) is ready for access.</li>

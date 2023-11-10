@@ -1,29 +1,62 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>HT32_STD_Documents: TM_OutputInitTypeDef Struct Reference</title>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>HT32_STD_Code_Documents: TM_OutputInitTypeDef Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
-   <div id="projectname">HT32_STD_Documents<span id="projectnumber">&#160;1.0.0</span>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">HT32_STD_Code_Documents
+   &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">For HT32F52352</div>
+   <div id="projectbrief">Micro-controller Experiment</div>
   </td>
  </tr>
  </tbody>
@@ -71,8 +104,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="struct_t_m___output_init_type_def-members.html">List of all members</a>  </div>
+<a href="#pub-attribs">Data Fields</a>  </div>
   <div class="headertitle"><div class="title">TM_OutputInitTypeDef Struct Reference<div class="ingroups"><a class="el" href="group___h_t32_f5xxxx___peripheral___driver.html">HT32F5xxxx Peripheral Driver</a> &raquo; <a class="el" href="group___t_m.html">TM</a> &raquo; <a class="el" href="group___t_m___exported___types.html">TM exported types</a></div></div></div>
 </div><!--header-->
 <div class="contents">
@@ -83,39 +115,39 @@ $(function() {
 <p><code>#include &lt;<a class="el" href="ht32f5xxxx__tm_8h_source.html">ht32f5xxxx_tm.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:a159e40942d7da1152010b435267fd05b" id="r_a159e40942d7da1152010b435267fd05b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___t_m___exported___types.html#gacc13bb36f82e3bc5e99056be22a5f266">TM_CH_Enum</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_t_m___output_init_type_def.html#a159e40942d7da1152010b435267fd05b">Channel</a></td></tr>
-<tr class="separator:a159e40942d7da1152010b435267fd05b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae3029fca796c1c74028a200d5d8d20d8" id="r_ae3029fca796c1c74028a200d5d8d20d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___t_m___exported___types.html#gae6789f036f90ad9bc40e70bebecbe62d">TM_OM_Enum</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_t_m___output_init_type_def.html#ae3029fca796c1c74028a200d5d8d20d8">OutputMode</a></td></tr>
-<tr class="separator:ae3029fca796c1c74028a200d5d8d20d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65abd354d21561479f2eb852a8f27c6a" id="r_a65abd354d21561479f2eb852a8f27c6a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___t_m___exported___types.html#ga807ae019431e903fe5cb85138338d1d7">TM_CHCTL_Enum</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_t_m___output_init_type_def.html#a65abd354d21561479f2eb852a8f27c6a">Control</a></td></tr>
-<tr class="separator:a65abd354d21561479f2eb852a8f27c6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a32f1b4ea0d7bdfef3c9fae56d1663667" id="r_a32f1b4ea0d7bdfef3c9fae56d1663667"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___t_m___exported___types.html#ga807ae019431e903fe5cb85138338d1d7">TM_CHCTL_Enum</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_t_m___output_init_type_def.html#a32f1b4ea0d7bdfef3c9fae56d1663667">ControlN</a></td></tr>
-<tr class="separator:a32f1b4ea0d7bdfef3c9fae56d1663667"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac38e1995085eebfda1abbc2fc2035ba8" id="r_ac38e1995085eebfda1abbc2fc2035ba8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___t_m___exported___types.html#gab4008e4a352ef5c50dbd9d7fa7a59343">TM_CHP_Enum</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_t_m___output_init_type_def.html#ac38e1995085eebfda1abbc2fc2035ba8">Polarity</a></td></tr>
-<tr class="separator:ac38e1995085eebfda1abbc2fc2035ba8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb989916b43778cff8ad843817c0af21" id="r_afb989916b43778cff8ad843817c0af21"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___t_m___exported___types.html#gab4008e4a352ef5c50dbd9d7fa7a59343">TM_CHP_Enum</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_t_m___output_init_type_def.html#afb989916b43778cff8ad843817c0af21">PolarityN</a></td></tr>
-<tr class="separator:afb989916b43778cff8ad843817c0af21"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abf9d484ff443b9e5f85bd1360a909cdc" id="r_abf9d484ff443b9e5f85bd1360a909cdc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___t_m___exported___types.html#gadfad16625170cfb28b86d2a870c27ea8">MCTM_OIS_Enum</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_t_m___output_init_type_def.html#abf9d484ff443b9e5f85bd1360a909cdc">IdleState</a></td></tr>
-<tr class="separator:abf9d484ff443b9e5f85bd1360a909cdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a99bb0bdfe1725800cf0647afb14f260c" id="r_a99bb0bdfe1725800cf0647afb14f260c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___t_m___exported___types.html#gadfad16625170cfb28b86d2a870c27ea8">MCTM_OIS_Enum</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_t_m___output_init_type_def.html#a99bb0bdfe1725800cf0647afb14f260c">IdleStateN</a></td></tr>
-<tr class="separator:a99bb0bdfe1725800cf0647afb14f260c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05c14a0190727f8f88a26f2dc9196de9" id="r_a05c14a0190727f8f88a26f2dc9196de9"><td class="memItemLeft" align="right" valign="top">u16&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_t_m___output_init_type_def.html#a05c14a0190727f8f88a26f2dc9196de9">Compare</a></td></tr>
-<tr class="separator:a05c14a0190727f8f88a26f2dc9196de9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6fa87a3800d2808c4e7ff8e33bd63320" id="r_a6fa87a3800d2808c4e7ff8e33bd63320"><td class="memItemLeft" align="right" valign="top">u16&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_t_m___output_init_type_def.html#a6fa87a3800d2808c4e7ff8e33bd63320">AsymmetricCompare</a></td></tr>
-<tr class="separator:a6fa87a3800d2808c4e7ff8e33bd63320"><td class="memSeparator" colspan="2">&#160;</td></tr>
+Data Fields</h2></td></tr>
+<tr class="memitem:aaff96ce38a62a6c80f0f6a25f9b9ffdc" id="r_aaff96ce38a62a6c80f0f6a25f9b9ffdc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___t_m___exported___types.html#gacc13bb36f82e3bc5e99056be22a5f266">TM_CH_Enum</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_t_m___output_init_type_def.html#aaff96ce38a62a6c80f0f6a25f9b9ffdc">Channel</a></td></tr>
+<tr class="separator:aaff96ce38a62a6c80f0f6a25f9b9ffdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d57fe37465dda5fbe98810858cf6179" id="r_a2d57fe37465dda5fbe98810858cf6179"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___t_m___exported___types.html#gae6789f036f90ad9bc40e70bebecbe62d">TM_OM_Enum</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_t_m___output_init_type_def.html#a2d57fe37465dda5fbe98810858cf6179">OutputMode</a></td></tr>
+<tr class="separator:a2d57fe37465dda5fbe98810858cf6179"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8dbf8a1ead6c2f58d0bb525de3c9ec70" id="r_a8dbf8a1ead6c2f58d0bb525de3c9ec70"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___t_m___exported___types.html#ga807ae019431e903fe5cb85138338d1d7">TM_CHCTL_Enum</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_t_m___output_init_type_def.html#a8dbf8a1ead6c2f58d0bb525de3c9ec70">Control</a></td></tr>
+<tr class="separator:a8dbf8a1ead6c2f58d0bb525de3c9ec70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f8e743881879721c3dc88bc8db904d7" id="r_a6f8e743881879721c3dc88bc8db904d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___t_m___exported___types.html#ga807ae019431e903fe5cb85138338d1d7">TM_CHCTL_Enum</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_t_m___output_init_type_def.html#a6f8e743881879721c3dc88bc8db904d7">ControlN</a></td></tr>
+<tr class="separator:a6f8e743881879721c3dc88bc8db904d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7553bb6cfcdfa7d7e60ee02972617f28" id="r_a7553bb6cfcdfa7d7e60ee02972617f28"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___t_m___exported___types.html#gab4008e4a352ef5c50dbd9d7fa7a59343">TM_CHP_Enum</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_t_m___output_init_type_def.html#a7553bb6cfcdfa7d7e60ee02972617f28">Polarity</a></td></tr>
+<tr class="separator:a7553bb6cfcdfa7d7e60ee02972617f28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad72edce7a0390e674e3c68f127e13e5a" id="r_ad72edce7a0390e674e3c68f127e13e5a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___t_m___exported___types.html#gab4008e4a352ef5c50dbd9d7fa7a59343">TM_CHP_Enum</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_t_m___output_init_type_def.html#ad72edce7a0390e674e3c68f127e13e5a">PolarityN</a></td></tr>
+<tr class="separator:ad72edce7a0390e674e3c68f127e13e5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28442bb1f3a24cb144bd49fd272980a4" id="r_a28442bb1f3a24cb144bd49fd272980a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___t_m___exported___types.html#gadfad16625170cfb28b86d2a870c27ea8">MCTM_OIS_Enum</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_t_m___output_init_type_def.html#a28442bb1f3a24cb144bd49fd272980a4">IdleState</a></td></tr>
+<tr class="separator:a28442bb1f3a24cb144bd49fd272980a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf49c613edb194b2eba98aa83fbb9ee6" id="r_acf49c613edb194b2eba98aa83fbb9ee6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___t_m___exported___types.html#gadfad16625170cfb28b86d2a870c27ea8">MCTM_OIS_Enum</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_t_m___output_init_type_def.html#acf49c613edb194b2eba98aa83fbb9ee6">IdleStateN</a></td></tr>
+<tr class="separator:acf49c613edb194b2eba98aa83fbb9ee6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2d853ff83be170d7ede8239a4076f71" id="r_af2d853ff83be170d7ede8239a4076f71"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___exported___types.html#ga9e6c91d77e24643b888dbd1a1a590054">u16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_t_m___output_init_type_def.html#af2d853ff83be170d7ede8239a4076f71">Compare</a></td></tr>
+<tr class="separator:af2d853ff83be170d7ede8239a4076f71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed163106c4e8aa6707d95a1ac5b33018" id="r_aed163106c4e8aa6707d95a1ac5b33018"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___exported___types.html#ga9e6c91d77e24643b888dbd1a1a590054">u16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_t_m___output_init_type_def.html#aed163106c4e8aa6707d95a1ac5b33018">AsymmetricCompare</a></td></tr>
+<tr class="separator:aed163106c4e8aa6707d95a1ac5b33018"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Definition of TM channel output init structure. </p>
-</div><h2 class="groupheader">Member Data Documentation</h2>
-<a id="a6fa87a3800d2808c4e7ff8e33bd63320" name="a6fa87a3800d2808c4e7ff8e33bd63320"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6fa87a3800d2808c4e7ff8e33bd63320">&#9670;&#160;</a></span>AsymmetricCompare</h2>
+</div><h2 class="groupheader">Field Documentation</h2>
+<a id="aed163106c4e8aa6707d95a1ac5b33018" name="aed163106c4e8aa6707d95a1ac5b33018"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed163106c4e8aa6707d95a1ac5b33018">&#9670;&#160;</a></span>AsymmetricCompare</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">u16 TM_OutputInitTypeDef::AsymmetricCompare</td>
+          <td class="memname"><a class="el" href="group___exported___types.html#ga9e6c91d77e24643b888dbd1a1a590054">u16</a> AsymmetricCompare</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -124,14 +156,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a159e40942d7da1152010b435267fd05b" name="a159e40942d7da1152010b435267fd05b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a159e40942d7da1152010b435267fd05b">&#9670;&#160;</a></span>Channel</h2>
+<a id="aaff96ce38a62a6c80f0f6a25f9b9ffdc" name="aaff96ce38a62a6c80f0f6a25f9b9ffdc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaff96ce38a62a6c80f0f6a25f9b9ffdc">&#9670;&#160;</a></span>Channel</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group___t_m___exported___types.html#gacc13bb36f82e3bc5e99056be22a5f266">TM_CH_Enum</a> TM_OutputInitTypeDef::Channel</td>
+          <td class="memname"><a class="el" href="group___t_m___exported___types.html#gacc13bb36f82e3bc5e99056be22a5f266">TM_CH_Enum</a> Channel</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -140,14 +172,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a05c14a0190727f8f88a26f2dc9196de9" name="a05c14a0190727f8f88a26f2dc9196de9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a05c14a0190727f8f88a26f2dc9196de9">&#9670;&#160;</a></span>Compare</h2>
+<a id="af2d853ff83be170d7ede8239a4076f71" name="af2d853ff83be170d7ede8239a4076f71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2d853ff83be170d7ede8239a4076f71">&#9670;&#160;</a></span>Compare</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">u16 TM_OutputInitTypeDef::Compare</td>
+          <td class="memname"><a class="el" href="group___exported___types.html#ga9e6c91d77e24643b888dbd1a1a590054">u16</a> Compare</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -156,14 +188,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a65abd354d21561479f2eb852a8f27c6a" name="a65abd354d21561479f2eb852a8f27c6a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a65abd354d21561479f2eb852a8f27c6a">&#9670;&#160;</a></span>Control</h2>
+<a id="a8dbf8a1ead6c2f58d0bb525de3c9ec70" name="a8dbf8a1ead6c2f58d0bb525de3c9ec70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8dbf8a1ead6c2f58d0bb525de3c9ec70">&#9670;&#160;</a></span>Control</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group___t_m___exported___types.html#ga807ae019431e903fe5cb85138338d1d7">TM_CHCTL_Enum</a> TM_OutputInitTypeDef::Control</td>
+          <td class="memname"><a class="el" href="group___t_m___exported___types.html#ga807ae019431e903fe5cb85138338d1d7">TM_CHCTL_Enum</a> Control</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -172,14 +204,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a32f1b4ea0d7bdfef3c9fae56d1663667" name="a32f1b4ea0d7bdfef3c9fae56d1663667"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a32f1b4ea0d7bdfef3c9fae56d1663667">&#9670;&#160;</a></span>ControlN</h2>
+<a id="a6f8e743881879721c3dc88bc8db904d7" name="a6f8e743881879721c3dc88bc8db904d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f8e743881879721c3dc88bc8db904d7">&#9670;&#160;</a></span>ControlN</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group___t_m___exported___types.html#ga807ae019431e903fe5cb85138338d1d7">TM_CHCTL_Enum</a> TM_OutputInitTypeDef::ControlN</td>
+          <td class="memname"><a class="el" href="group___t_m___exported___types.html#ga807ae019431e903fe5cb85138338d1d7">TM_CHCTL_Enum</a> ControlN</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -188,14 +220,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="abf9d484ff443b9e5f85bd1360a909cdc" name="abf9d484ff443b9e5f85bd1360a909cdc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abf9d484ff443b9e5f85bd1360a909cdc">&#9670;&#160;</a></span>IdleState</h2>
+<a id="a28442bb1f3a24cb144bd49fd272980a4" name="a28442bb1f3a24cb144bd49fd272980a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28442bb1f3a24cb144bd49fd272980a4">&#9670;&#160;</a></span>IdleState</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group___t_m___exported___types.html#gadfad16625170cfb28b86d2a870c27ea8">MCTM_OIS_Enum</a> TM_OutputInitTypeDef::IdleState</td>
+          <td class="memname"><a class="el" href="group___t_m___exported___types.html#gadfad16625170cfb28b86d2a870c27ea8">MCTM_OIS_Enum</a> IdleState</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -204,14 +236,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a99bb0bdfe1725800cf0647afb14f260c" name="a99bb0bdfe1725800cf0647afb14f260c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a99bb0bdfe1725800cf0647afb14f260c">&#9670;&#160;</a></span>IdleStateN</h2>
+<a id="acf49c613edb194b2eba98aa83fbb9ee6" name="acf49c613edb194b2eba98aa83fbb9ee6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf49c613edb194b2eba98aa83fbb9ee6">&#9670;&#160;</a></span>IdleStateN</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group___t_m___exported___types.html#gadfad16625170cfb28b86d2a870c27ea8">MCTM_OIS_Enum</a> TM_OutputInitTypeDef::IdleStateN</td>
+          <td class="memname"><a class="el" href="group___t_m___exported___types.html#gadfad16625170cfb28b86d2a870c27ea8">MCTM_OIS_Enum</a> IdleStateN</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -220,14 +252,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ae3029fca796c1c74028a200d5d8d20d8" name="ae3029fca796c1c74028a200d5d8d20d8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae3029fca796c1c74028a200d5d8d20d8">&#9670;&#160;</a></span>OutputMode</h2>
+<a id="a2d57fe37465dda5fbe98810858cf6179" name="a2d57fe37465dda5fbe98810858cf6179"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d57fe37465dda5fbe98810858cf6179">&#9670;&#160;</a></span>OutputMode</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group___t_m___exported___types.html#gae6789f036f90ad9bc40e70bebecbe62d">TM_OM_Enum</a> TM_OutputInitTypeDef::OutputMode</td>
+          <td class="memname"><a class="el" href="group___t_m___exported___types.html#gae6789f036f90ad9bc40e70bebecbe62d">TM_OM_Enum</a> OutputMode</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -236,14 +268,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ac38e1995085eebfda1abbc2fc2035ba8" name="ac38e1995085eebfda1abbc2fc2035ba8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac38e1995085eebfda1abbc2fc2035ba8">&#9670;&#160;</a></span>Polarity</h2>
+<a id="a7553bb6cfcdfa7d7e60ee02972617f28" name="a7553bb6cfcdfa7d7e60ee02972617f28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7553bb6cfcdfa7d7e60ee02972617f28">&#9670;&#160;</a></span>Polarity</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group___t_m___exported___types.html#gab4008e4a352ef5c50dbd9d7fa7a59343">TM_CHP_Enum</a> TM_OutputInitTypeDef::Polarity</td>
+          <td class="memname"><a class="el" href="group___t_m___exported___types.html#gab4008e4a352ef5c50dbd9d7fa7a59343">TM_CHP_Enum</a> Polarity</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -252,14 +284,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="afb989916b43778cff8ad843817c0af21" name="afb989916b43778cff8ad843817c0af21"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afb989916b43778cff8ad843817c0af21">&#9670;&#160;</a></span>PolarityN</h2>
+<a id="ad72edce7a0390e674e3c68f127e13e5a" name="ad72edce7a0390e674e3c68f127e13e5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad72edce7a0390e674e3c68f127e13e5a">&#9670;&#160;</a></span>PolarityN</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group___t_m___exported___types.html#gab4008e4a352ef5c50dbd9d7fa7a59343">TM_CHP_Enum</a> TM_OutputInitTypeDef::PolarityN</td>
+          <td class="memname"><a class="el" href="group___t_m___exported___types.html#gab4008e4a352ef5c50dbd9d7fa7a59343">TM_CHP_Enum</a> PolarityN</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -269,7 +301,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>HT32_STD_5xxxx_FWLib_V1.5.1_7084b/library/HT32F5xxxx_Driver/inc/<a class="el" href="ht32f5xxxx__tm_8h_source.html">ht32f5xxxx_tm.h</a></li>
+<li>D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/library/HT32F5xxxx_Driver/inc/<a class="el" href="ht32f5xxxx__tm_8h_source.html">ht32f5xxxx_tm.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

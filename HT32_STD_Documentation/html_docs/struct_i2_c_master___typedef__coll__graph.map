@@ -1,0 +1,5 @@
+<map id="I2CMaster_Typedef" name="I2CMaster_Typedef">
+<area shape="rect" id="Node000001" title="I2C Master struct." alt="" coords="22,112,154,139"/>
+<area shape="rect" id="Node000002" href="$struct_i2_c_master___buffer_typedef.html" title="I2C Master buffer struct." alt="" coords="5,5,171,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,47,91,112,85,112,85,47"/>
+</map>

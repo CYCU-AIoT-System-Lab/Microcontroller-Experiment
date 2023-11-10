@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>HT32_STD_Documents: DelayMicrosecond</title>
+<title>HT32_STD_Code_Documents: DelayMicrosecond</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,9 +21,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">HT32_STD_Documents<span id="projectnumber">&#160;1.0.0</span>
+   <div id="projectname">HT32_STD_Code_Documents<span id="projectnumber">&#160;1.0.0</span>
    </div>
-   <div id="projectbrief">For HT32F52352</div>
+   <div id="projectbrief">Micro-controller Experiment</div>
   </td>
  </tr>
  </tbody>
@@ -76,17 +76,19 @@ $(function() {
   <div class="headertitle"><div class="title">DelayMicrosecond<div class="ingroups"><a class="el" href="group___h_t32___series___peripheral___examples.html">HT32 Peripheral Examples</a> &raquo; <a class="el" href="group___s_y_s_t_i_c_k___examples.html">SYSTICK</a></div></div></div>
 </div><!--header-->
 <div class="contents">
+<div class="dynheader">
+Collaboration diagram for DelayMicrosecond:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="group___delay_microsecond.svg" width="264" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:ga61e6b3f8f8ed1c25557e31ac7f891cc5" id="r_ga61e6b3f8f8ed1c25557e31ac7f891cc5"><td class="memItemLeft" align="right" valign="top"><a id="ga61e6b3f8f8ed1c25557e31ac7f891cc5" name="ga61e6b3f8f8ed1c25557e31ac7f891cc5"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>TICK_OFFSET</b>&#160;&#160;&#160;(13)</td></tr>
+<tr class="memitem:ga61e6b3f8f8ed1c25557e31ac7f891cc5" id="r_ga61e6b3f8f8ed1c25557e31ac7f891cc5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___delay_microsecond.html#ga61e6b3f8f8ed1c25557e31ac7f891cc5">TICK_OFFSET</a>&#160;&#160;&#160;(13)</td></tr>
 <tr class="separator:ga61e6b3f8f8ed1c25557e31ac7f891cc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6d6741257312d43ef5cebb5a181cf3c9" id="r_ga6d6741257312d43ef5cebb5a181cf3c9"><td class="memItemLeft" align="right" valign="top"><a id="ga6d6741257312d43ef5cebb5a181cf3c9" name="ga6d6741257312d43ef5cebb5a181cf3c9"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>TICK_US</b>&#160;&#160;&#160;(LIBCFG_MAX_SPEED / 1000000)</td></tr>
+<tr class="memitem:ga6d6741257312d43ef5cebb5a181cf3c9" id="r_ga6d6741257312d43ef5cebb5a181cf3c9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___delay_microsecond.html#ga6d6741257312d43ef5cebb5a181cf3c9">TICK_US</a>&#160;&#160;&#160;(LIBCFG_MAX_SPEED / 1000000)</td></tr>
 <tr class="separator:ga6d6741257312d43ef5cebb5a181cf3c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga01fc919d7b0c139acb763bd77d057d2e" id="r_ga01fc919d7b0c139acb763bd77d057d2e"><td class="memItemLeft" align="right" valign="top"><a id="ga01fc919d7b0c139acb763bd77d057d2e" name="ga01fc919d7b0c139acb763bd77d057d2e"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>US2TICK</b>(us)&#160;&#160;&#160;(us * TICK_US - TICK_OFFSET)</td></tr>
+<tr class="memitem:ga01fc919d7b0c139acb763bd77d057d2e" id="r_ga01fc919d7b0c139acb763bd77d057d2e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___delay_microsecond.html#ga01fc919d7b0c139acb763bd77d057d2e">US2TICK</a>(us)&#160;&#160;&#160;(us * <a class="el" href="group___delay_microsecond.html#ga6d6741257312d43ef5cebb5a181cf3c9">TICK_US</a> - <a class="el" href="group___delay_microsecond.html#ga61e6b3f8f8ed1c25557e31ac7f891cc5">TICK_OFFSET</a>)</td></tr>
 <tr class="separator:ga01fc919d7b0c139acb763bd77d057d2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga443c92d7d54a1c07ebc13ae2939559b1" id="r_ga443c92d7d54a1c07ebc13ae2939559b1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___delay_microsecond.html#ga443c92d7d54a1c07ebc13ae2939559b1">delayMicroseconds</a>(cnt)</td></tr>
 <tr class="separator:ga443c92d7d54a1c07ebc13ae2939559b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -129,11 +131,56 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">                                                   {<a class="code hl_define" href="group___c_m_s_i_s___c_o_r_e.html#gacd96c53beeaff8f603fcda425eb295de">SysTick</a>-&gt;LOAD = cnt;\</div>
-<div class="line">                                                   <a class="code hl_define" href="group___c_m_s_i_s___c_o_r_e.html#gacd96c53beeaff8f603fcda425eb295de">SysTick</a>-&gt;VAL = 0;\</div>
-<div class="line">                                                   while (<a class="code hl_define" href="group___c_m_s_i_s___c_o_r_e.html#gacd96c53beeaff8f603fcda425eb295de">SysTick</a>-&gt;CTRL == 5);}</div>
-<div class="ttc" id="agroup___c_m_s_i_s___c_o_r_e_html_gacd96c53beeaff8f603fcda425eb295de"><div class="ttname"><a href="group___c_m_s_i_s___c_o_r_e.html#gacd96c53beeaff8f603fcda425eb295de">SysTick</a></div><div class="ttdeci">#define SysTick</div><div class="ttdef"><b>Definition</b> core_armv81mml.h:3107</div></div>
+<b>Value:</b><div class="fragment"><div class="line">                                                   {SysTick-&gt;LOAD = cnt;\</div>
+<div class="line">                                                   SysTick-&gt;VAL = 0;\</div>
+<div class="line">                                                   while (SysTick-&gt;CTRL == 5);}</div>
 </div><!-- fragment -->
+</div>
+</div>
+<a id="ga61e6b3f8f8ed1c25557e31ac7f891cc5" name="ga61e6b3f8f8ed1c25557e31ac7f891cc5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga61e6b3f8f8ed1c25557e31ac7f891cc5">&#9670;&#160;</a></span>TICK_OFFSET</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TICK_OFFSET&#160;&#160;&#160;(13)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga6d6741257312d43ef5cebb5a181cf3c9" name="ga6d6741257312d43ef5cebb5a181cf3c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6d6741257312d43ef5cebb5a181cf3c9">&#9670;&#160;</a></span>TICK_US</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TICK_US&#160;&#160;&#160;(LIBCFG_MAX_SPEED / 1000000)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga01fc919d7b0c139acb763bd77d057d2e" name="ga01fc919d7b0c139acb763bd77d057d2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga01fc919d7b0c139acb763bd77d057d2e">&#9670;&#160;</a></span>US2TICK</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define US2TICK</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">us</td><td>)</td>
+          <td>&#160;&#160;&#160;(us * <a class="el" href="group___delay_microsecond.html#ga6d6741257312d43ef5cebb5a181cf3c9">TICK_US</a> - <a class="el" href="group___delay_microsecond.html#ga61e6b3f8f8ed1c25557e31ac7f891cc5">TICK_OFFSET</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>

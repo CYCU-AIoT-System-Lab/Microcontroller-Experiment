@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>HT32_STD_Documents: InputOutput</title>
+<title>HT32_STD_Code_Documents: InputOutput</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,9 +21,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">HT32_STD_Documents<span id="projectnumber">&#160;1.0.0</span>
+   <div id="projectname">HT32_STD_Code_Documents<span id="projectnumber">&#160;1.0.0</span>
    </div>
-   <div id="projectbrief">For HT32F52352</div>
+   <div id="projectbrief">Micro-controller Experiment</div>
   </td>
  </tr>
  </tbody>
@@ -76,6 +76,11 @@ $(function() {
   <div class="headertitle"><div class="title">InputOutput<div class="ingroups"><a class="el" href="group___h_t32___series___peripheral___examples.html">HT32 Peripheral Examples</a> &raquo; <a class="el" href="group___g_p_i_o___examples.html">GPIO</a></div></div></div>
 </div><!--header-->
 <div class="contents">
+<div class="dynheader">
+Collaboration diagram for InputOutput:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="group___input_output.svg" width="200" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -112,8 +117,7 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:gaa1453aefd0a920b604cbc5110542b6b0" id="r_gaa1453aefd0a920b604cbc5110542b6b0"><td class="memItemLeft" align="right" valign="top"><a id="gaa1453aefd0a920b604cbc5110542b6b0" name="gaa1453aefd0a920b604cbc5110542b6b0"></a>
-FlagStatus&#160;</td><td class="memItemRight" valign="bottom"><b>TmpStatus</b> = RESET</td></tr>
+<tr class="memitem:gaa1453aefd0a920b604cbc5110542b6b0" id="r_gaa1453aefd0a920b604cbc5110542b6b0"><td class="memItemLeft" align="right" valign="top">FlagStatus&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___input_output.html#gaa1453aefd0a920b604cbc5110542b6b0">TmpStatus</a> = RESET</td></tr>
 <tr class="separator:gaa1453aefd0a920b604cbc5110542b6b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -271,7 +275,7 @@ FlagStatus&#160;</td><td class="memItemRight" valign="bottom"><b>TmpStatus</b> =
   </table>
   </dd>
 </dl>
-<dl class="section note"><dt>Note</dt><dd>At this stage the microcontroller clock setting should has already been configured. This can be done through <a class="el" href="group___h_t32_f0006___system___exported___functions.html#ga93f514700ccf00d08dbdcff7f1224eb2" title="Setup the microcontroller system. Initializes the system clocks and the embedded Flash.">SystemInit()</a> function which is called from startup file (startup_ht32fxxxx.s) before branching to application <a class="el" href="group___input_output.html#ga840291bc02cba5474a4cb46a9b9566fe" title="Main program.">main()</a>. To reconfigure the default setting of <a class="el" href="group___h_t32_f0006___system___exported___functions.html#ga93f514700ccf00d08dbdcff7f1224eb2" title="Setup the microcontroller system. Initializes the system clocks and the embedded Flash.">SystemInit()</a> function, please refer to system_ht32fxxxx.c file</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>At this stage the microcontroller clock setting should has already been configured. This can be done through <a class="el" href="group___h_t32_f5xxxx___system___private___functions.html#ga93f514700ccf00d08dbdcff7f1224eb2" title="Setup the microcontroller system. Initializes the system clocks and the embedded Flash.">SystemInit()</a> function which is called from startup file (startup_ht32fxxxx.s) before branching to application <a class="el" href="group___input_output.html#ga840291bc02cba5474a4cb46a9b9566fe" title="Main program.">main()</a>. To reconfigure the default setting of <a class="el" href="group___h_t32_f5xxxx___system___private___functions.html#ga93f514700ccf00d08dbdcff7f1224eb2" title="Setup the microcontroller system. Initializes the system clocks and the embedded Flash.">SystemInit()</a> function, please refer to system_ht32fxxxx.c file</dd></dl>
 <p>The main function works as the following:</p><ul>
 <li>Check if the backup domain is ready for access so as to disable isolation. Because some GPIO pins are located in the backup domain.</li>
 <li>Enable AFIO peripheral clock</li>
@@ -397,6 +401,21 @@ FlagStatus&#160;</td><td class="memItemRight" valign="bottom"><b>TmpStatus</b> =
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="gaa1453aefd0a920b604cbc5110542b6b0" name="gaa1453aefd0a920b604cbc5110542b6b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa1453aefd0a920b604cbc5110542b6b0">&#9670;&#160;</a></span>TmpStatus</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">FlagStatus TmpStatus = RESET</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

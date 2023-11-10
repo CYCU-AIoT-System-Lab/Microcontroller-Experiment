@@ -1,29 +1,62 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>HT32_STD_Documents: I2C private definitions</title>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>HT32_STD_Code_Documents: I2C private definitions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
-   <div id="projectname">HT32_STD_Documents<span id="projectnumber">&#160;1.0.0</span>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">HT32_STD_Code_Documents
+   &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">For HT32F52352</div>
+   <div id="projectbrief">Micro-controller Experiment</div>
   </td>
  </tr>
  </tbody>
@@ -75,59 +108,273 @@ $(function() {
   <div class="headertitle"><div class="title">I2C private definitions<div class="ingroups"><a class="el" href="group___h_t32_f5xxxx___peripheral___driver.html">HT32F5xxxx Peripheral Driver</a> &#124; <a class="el" href="group___h_t32___series___peripheral___examples.html">HT32 Peripheral Examples</a> &raquo; <a class="el" href="group___i2_c.html">I2C</a></div></div></div>
 </div><!--header-->
 <div class="contents">
+<div class="dynheader">
+Collaboration diagram for I2C private definitions:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="group___i2_c___private___define.svg" width="243" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:gaacbf44dddb4e7bfcbe454fed2da39b9f" id="r_gaacbf44dddb4e7bfcbe454fed2da39b9f"><td class="memItemLeft" align="right" valign="top"><a id="gaacbf44dddb4e7bfcbe454fed2da39b9f" name="gaacbf44dddb4e7bfcbe454fed2da39b9f"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>CR_ENI2C_SET</b>&#160;&#160;&#160;((u32)0x00000008)</td></tr>
+<tr class="memitem:gaacbf44dddb4e7bfcbe454fed2da39b9f" id="r_gaacbf44dddb4e7bfcbe454fed2da39b9f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c___private___define.html#gaacbf44dddb4e7bfcbe454fed2da39b9f">CR_ENI2C_SET</a>&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0x00000008)</td></tr>
 <tr class="separator:gaacbf44dddb4e7bfcbe454fed2da39b9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga009a82cabb32026c7bac01450a2f62cb" id="r_ga009a82cabb32026c7bac01450a2f62cb"><td class="memItemLeft" align="right" valign="top"><a id="ga009a82cabb32026c7bac01450a2f62cb" name="ga009a82cabb32026c7bac01450a2f62cb"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>CR_ENI2C_RESET</b>&#160;&#160;&#160;((u32)0xFFFFFFF7)</td></tr>
+<tr class="memitem:ga009a82cabb32026c7bac01450a2f62cb" id="r_ga009a82cabb32026c7bac01450a2f62cb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c___private___define.html#ga009a82cabb32026c7bac01450a2f62cb">CR_ENI2C_RESET</a>&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0xFFFFFFF7)</td></tr>
 <tr class="separator:ga009a82cabb32026c7bac01450a2f62cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gadee56177e6bd30594c4e6fdeb280c7ca" id="r_gadee56177e6bd30594c4e6fdeb280c7ca"><td class="memItemLeft" align="right" valign="top"><a id="gadee56177e6bd30594c4e6fdeb280c7ca" name="gadee56177e6bd30594c4e6fdeb280c7ca"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>CR_ENGC_SET</b>&#160;&#160;&#160;((u32)0x00000004)</td></tr>
+<tr class="memitem:gadee56177e6bd30594c4e6fdeb280c7ca" id="r_gadee56177e6bd30594c4e6fdeb280c7ca"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c___private___define.html#gadee56177e6bd30594c4e6fdeb280c7ca">CR_ENGC_SET</a>&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0x00000004)</td></tr>
 <tr class="separator:gadee56177e6bd30594c4e6fdeb280c7ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4458d1d1ad8d5ba98f314e67fa9f582c" id="r_ga4458d1d1ad8d5ba98f314e67fa9f582c"><td class="memItemLeft" align="right" valign="top"><a id="ga4458d1d1ad8d5ba98f314e67fa9f582c" name="ga4458d1d1ad8d5ba98f314e67fa9f582c"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>CR_ENGC_RESET</b>&#160;&#160;&#160;((u32)0xFFFFFFFB)</td></tr>
+<tr class="memitem:ga4458d1d1ad8d5ba98f314e67fa9f582c" id="r_ga4458d1d1ad8d5ba98f314e67fa9f582c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c___private___define.html#ga4458d1d1ad8d5ba98f314e67fa9f582c">CR_ENGC_RESET</a>&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0xFFFFFFFB)</td></tr>
 <tr class="separator:ga4458d1d1ad8d5ba98f314e67fa9f582c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad61799c11a78ae6549bfd22b76776f02" id="r_gad61799c11a78ae6549bfd22b76776f02"><td class="memItemLeft" align="right" valign="top"><a id="gad61799c11a78ae6549bfd22b76776f02" name="gad61799c11a78ae6549bfd22b76776f02"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>CR_ACK_SET</b>&#160;&#160;&#160;((u32)0x00000001)</td></tr>
+<tr class="memitem:gad61799c11a78ae6549bfd22b76776f02" id="r_gad61799c11a78ae6549bfd22b76776f02"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c___private___define.html#gad61799c11a78ae6549bfd22b76776f02">CR_ACK_SET</a>&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0x00000001)</td></tr>
 <tr class="separator:gad61799c11a78ae6549bfd22b76776f02"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga90dca2c561962032650219038a784888" id="r_ga90dca2c561962032650219038a784888"><td class="memItemLeft" align="right" valign="top"><a id="ga90dca2c561962032650219038a784888" name="ga90dca2c561962032650219038a784888"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>CR_ACK_RESET</b>&#160;&#160;&#160;((u32)0xFFFFFFFE)</td></tr>
+<tr class="memitem:ga90dca2c561962032650219038a784888" id="r_ga90dca2c561962032650219038a784888"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c___private___define.html#ga90dca2c561962032650219038a784888">CR_ACK_RESET</a>&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0xFFFFFFFE)</td></tr>
 <tr class="separator:ga90dca2c561962032650219038a784888"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga17741662edb2a30a125965d489543c64" id="r_ga17741662edb2a30a125965d489543c64"><td class="memItemLeft" align="right" valign="top"><a id="ga17741662edb2a30a125965d489543c64" name="ga17741662edb2a30a125965d489543c64"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>CR_PDMANACK_SET</b>&#160;&#160;&#160;((u32)0x00000400)</td></tr>
+<tr class="memitem:ga17741662edb2a30a125965d489543c64" id="r_ga17741662edb2a30a125965d489543c64"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c___private___define.html#ga17741662edb2a30a125965d489543c64">CR_PDMANACK_SET</a>&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0x00000400)</td></tr>
 <tr class="separator:ga17741662edb2a30a125965d489543c64"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga31ae2caa10263a320f9caf15c1ac64fe" id="r_ga31ae2caa10263a320f9caf15c1ac64fe"><td class="memItemLeft" align="right" valign="top"><a id="ga31ae2caa10263a320f9caf15c1ac64fe" name="ga31ae2caa10263a320f9caf15c1ac64fe"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>CR_PDMANACK_RESET</b>&#160;&#160;&#160;((u32)0xFFFFFBFF)</td></tr>
+<tr class="memitem:ga31ae2caa10263a320f9caf15c1ac64fe" id="r_ga31ae2caa10263a320f9caf15c1ac64fe"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c___private___define.html#ga31ae2caa10263a320f9caf15c1ac64fe">CR_PDMANACK_RESET</a>&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0xFFFFFBFF)</td></tr>
 <tr class="separator:ga31ae2caa10263a320f9caf15c1ac64fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab5c9bb83b656af7b6795240e97925324" id="r_gab5c9bb83b656af7b6795240e97925324"><td class="memItemLeft" align="right" valign="top"><a id="gab5c9bb83b656af7b6795240e97925324" name="gab5c9bb83b656af7b6795240e97925324"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>CR_ENTOUT_SET</b>&#160;&#160;&#160;((u32)0x00001000)</td></tr>
+<tr class="memitem:gab5c9bb83b656af7b6795240e97925324" id="r_gab5c9bb83b656af7b6795240e97925324"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c___private___define.html#gab5c9bb83b656af7b6795240e97925324">CR_ENTOUT_SET</a>&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0x00001000)</td></tr>
 <tr class="separator:gab5c9bb83b656af7b6795240e97925324"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7cff15e0b7bec79d2bac31d281b1d67f" id="r_ga7cff15e0b7bec79d2bac31d281b1d67f"><td class="memItemLeft" align="right" valign="top"><a id="ga7cff15e0b7bec79d2bac31d281b1d67f" name="ga7cff15e0b7bec79d2bac31d281b1d67f"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>CR_ENTOUT_RESET</b>&#160;&#160;&#160;((u32)0xFFFFEFFF)</td></tr>
+<tr class="memitem:ga7cff15e0b7bec79d2bac31d281b1d67f" id="r_ga7cff15e0b7bec79d2bac31d281b1d67f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c___private___define.html#ga7cff15e0b7bec79d2bac31d281b1d67f">CR_ENTOUT_RESET</a>&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0xFFFFEFFF)</td></tr>
 <tr class="separator:ga7cff15e0b7bec79d2bac31d281b1d67f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga225801de1ea479dea5be7557202309fc" id="r_ga225801de1ea479dea5be7557202309fc"><td class="memItemLeft" align="right" valign="top"><a id="ga225801de1ea479dea5be7557202309fc" name="ga225801de1ea479dea5be7557202309fc"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>CR_COMBFILTER_SET</b>&#160;&#160;&#160;((u32)0x00002000)</td></tr>
+<tr class="memitem:ga225801de1ea479dea5be7557202309fc" id="r_ga225801de1ea479dea5be7557202309fc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c___private___define.html#ga225801de1ea479dea5be7557202309fc">CR_COMBFILTER_SET</a>&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0x00002000)</td></tr>
 <tr class="separator:ga225801de1ea479dea5be7557202309fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae982ce9dc5a64aabf6f35d1c2b8d74d2" id="r_gae982ce9dc5a64aabf6f35d1c2b8d74d2"><td class="memItemLeft" align="right" valign="top"><a id="gae982ce9dc5a64aabf6f35d1c2b8d74d2" name="gae982ce9dc5a64aabf6f35d1c2b8d74d2"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>CR_COMBFILTER_RESET</b>&#160;&#160;&#160;((u32)0xFFFFDFFF)</td></tr>
+<tr class="memitem:gae982ce9dc5a64aabf6f35d1c2b8d74d2" id="r_gae982ce9dc5a64aabf6f35d1c2b8d74d2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c___private___define.html#gae982ce9dc5a64aabf6f35d1c2b8d74d2">CR_COMBFILTER_RESET</a>&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0xFFFFDFFF)</td></tr>
 <tr class="separator:gae982ce9dc5a64aabf6f35d1c2b8d74d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3950d1188d8e0f720bb3ba10152b2d18" id="r_ga3950d1188d8e0f720bb3ba10152b2d18"><td class="memItemLeft" align="right" valign="top"><a id="ga3950d1188d8e0f720bb3ba10152b2d18" name="ga3950d1188d8e0f720bb3ba10152b2d18"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ADDR_DEVADDR0_SET</b>&#160;&#160;&#160;((u32)0x00008000)</td></tr>
+<tr class="memitem:ga3950d1188d8e0f720bb3ba10152b2d18" id="r_ga3950d1188d8e0f720bb3ba10152b2d18"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c___private___define.html#ga3950d1188d8e0f720bb3ba10152b2d18">ADDR_DEVADDR0_SET</a>&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0x00008000)</td></tr>
 <tr class="separator:ga3950d1188d8e0f720bb3ba10152b2d18"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga39584d1c3236774103b676444ffb933c" id="r_ga39584d1c3236774103b676444ffb933c"><td class="memItemLeft" align="right" valign="top"><a id="ga39584d1c3236774103b676444ffb933c" name="ga39584d1c3236774103b676444ffb933c"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ADDR_DEVADDR0_RESET</b>&#160;&#160;&#160;((u32)0xFFFF7FFF)</td></tr>
+<tr class="memitem:ga39584d1c3236774103b676444ffb933c" id="r_ga39584d1c3236774103b676444ffb933c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c___private___define.html#ga39584d1c3236774103b676444ffb933c">ADDR_DEVADDR0_RESET</a>&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0xFFFF7FFF)</td></tr>
 <tr class="separator:ga39584d1c3236774103b676444ffb933c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa56412b54f9f8d8c186048f21de15fc5" id="r_gaa56412b54f9f8d8c186048f21de15fc5"><td class="memItemLeft" align="right" valign="top"><a id="gaa56412b54f9f8d8c186048f21de15fc5" name="gaa56412b54f9f8d8c186048f21de15fc5"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ADDR_DEVADDR1_SET</b>&#160;&#160;&#160;((u32)0x80000000)</td></tr>
+<tr class="memitem:gaa56412b54f9f8d8c186048f21de15fc5" id="r_gaa56412b54f9f8d8c186048f21de15fc5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c___private___define.html#gaa56412b54f9f8d8c186048f21de15fc5">ADDR_DEVADDR1_SET</a>&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0x80000000)</td></tr>
 <tr class="separator:gaa56412b54f9f8d8c186048f21de15fc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad4de00e5f1115213ffdeb7d6769213ba" id="r_gad4de00e5f1115213ffdeb7d6769213ba"><td class="memItemLeft" align="right" valign="top"><a id="gad4de00e5f1115213ffdeb7d6769213ba" name="gad4de00e5f1115213ffdeb7d6769213ba"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ADDR_DEVADDR1_RESET</b>&#160;&#160;&#160;((u32)0x7FFFFFFF)</td></tr>
+<tr class="memitem:gad4de00e5f1115213ffdeb7d6769213ba" id="r_gad4de00e5f1115213ffdeb7d6769213ba"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c___private___define.html#gad4de00e5f1115213ffdeb7d6769213ba">ADDR_DEVADDR1_RESET</a>&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0x7FFFFFFF)</td></tr>
 <tr class="separator:gad4de00e5f1115213ffdeb7d6769213ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="ga39584d1c3236774103b676444ffb933c" name="ga39584d1c3236774103b676444ffb933c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga39584d1c3236774103b676444ffb933c">&#9670;&#160;</a></span>ADDR_DEVADDR0_RESET</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ADDR_DEVADDR0_RESET&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0xFFFF7FFF)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga3950d1188d8e0f720bb3ba10152b2d18" name="ga3950d1188d8e0f720bb3ba10152b2d18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3950d1188d8e0f720bb3ba10152b2d18">&#9670;&#160;</a></span>ADDR_DEVADDR0_SET</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ADDR_DEVADDR0_SET&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0x00008000)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gad4de00e5f1115213ffdeb7d6769213ba" name="gad4de00e5f1115213ffdeb7d6769213ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad4de00e5f1115213ffdeb7d6769213ba">&#9670;&#160;</a></span>ADDR_DEVADDR1_RESET</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ADDR_DEVADDR1_RESET&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0x7FFFFFFF)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gaa56412b54f9f8d8c186048f21de15fc5" name="gaa56412b54f9f8d8c186048f21de15fc5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa56412b54f9f8d8c186048f21de15fc5">&#9670;&#160;</a></span>ADDR_DEVADDR1_SET</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ADDR_DEVADDR1_SET&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0x80000000)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga90dca2c561962032650219038a784888" name="ga90dca2c561962032650219038a784888"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga90dca2c561962032650219038a784888">&#9670;&#160;</a></span>CR_ACK_RESET</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CR_ACK_RESET&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0xFFFFFFFE)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gad61799c11a78ae6549bfd22b76776f02" name="gad61799c11a78ae6549bfd22b76776f02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad61799c11a78ae6549bfd22b76776f02">&#9670;&#160;</a></span>CR_ACK_SET</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CR_ACK_SET&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0x00000001)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gae982ce9dc5a64aabf6f35d1c2b8d74d2" name="gae982ce9dc5a64aabf6f35d1c2b8d74d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae982ce9dc5a64aabf6f35d1c2b8d74d2">&#9670;&#160;</a></span>CR_COMBFILTER_RESET</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CR_COMBFILTER_RESET&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0xFFFFDFFF)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga225801de1ea479dea5be7557202309fc" name="ga225801de1ea479dea5be7557202309fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga225801de1ea479dea5be7557202309fc">&#9670;&#160;</a></span>CR_COMBFILTER_SET</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CR_COMBFILTER_SET&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0x00002000)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga4458d1d1ad8d5ba98f314e67fa9f582c" name="ga4458d1d1ad8d5ba98f314e67fa9f582c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4458d1d1ad8d5ba98f314e67fa9f582c">&#9670;&#160;</a></span>CR_ENGC_RESET</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CR_ENGC_RESET&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0xFFFFFFFB)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gadee56177e6bd30594c4e6fdeb280c7ca" name="gadee56177e6bd30594c4e6fdeb280c7ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gadee56177e6bd30594c4e6fdeb280c7ca">&#9670;&#160;</a></span>CR_ENGC_SET</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CR_ENGC_SET&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0x00000004)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga009a82cabb32026c7bac01450a2f62cb" name="ga009a82cabb32026c7bac01450a2f62cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga009a82cabb32026c7bac01450a2f62cb">&#9670;&#160;</a></span>CR_ENI2C_RESET</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CR_ENI2C_RESET&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0xFFFFFFF7)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gaacbf44dddb4e7bfcbe454fed2da39b9f" name="gaacbf44dddb4e7bfcbe454fed2da39b9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaacbf44dddb4e7bfcbe454fed2da39b9f">&#9670;&#160;</a></span>CR_ENI2C_SET</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CR_ENI2C_SET&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0x00000008)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga7cff15e0b7bec79d2bac31d281b1d67f" name="ga7cff15e0b7bec79d2bac31d281b1d67f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7cff15e0b7bec79d2bac31d281b1d67f">&#9670;&#160;</a></span>CR_ENTOUT_RESET</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CR_ENTOUT_RESET&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0xFFFFEFFF)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gab5c9bb83b656af7b6795240e97925324" name="gab5c9bb83b656af7b6795240e97925324"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab5c9bb83b656af7b6795240e97925324">&#9670;&#160;</a></span>CR_ENTOUT_SET</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CR_ENTOUT_SET&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0x00001000)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga31ae2caa10263a320f9caf15c1ac64fe" name="ga31ae2caa10263a320f9caf15c1ac64fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga31ae2caa10263a320f9caf15c1ac64fe">&#9670;&#160;</a></span>CR_PDMANACK_RESET</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CR_PDMANACK_RESET&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0xFFFFFBFF)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga17741662edb2a30a125965d489543c64" name="ga17741662edb2a30a125965d489543c64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga17741662edb2a30a125965d489543c64">&#9670;&#160;</a></span>CR_PDMANACK_SET</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CR_PDMANACK_SET&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0x00000400)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

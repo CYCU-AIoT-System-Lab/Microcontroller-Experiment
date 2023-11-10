@@ -1,0 +1,10 @@
+<map id="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/library/CMSIS/Core/Include/core_sc300.h" name="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/library/CMSIS/Core/Include/core_sc300.h">
+<area shape="rect" id="Node000001" title="CMSIS SC300 Core Peripheral Access Layer Header File." alt="" coords="5,5,269,96"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="129,219,193,245"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="89,98,76,115,68,133,65,151,70,169,90,193,116,211,113,215,87,197,65,172,60,152,63,132,72,112,85,95"/>
+<area shape="rect" id="Node000003" href="$_core_2_include_2cmsis__version_8h.html" title="CMSIS Core(M) Version definitions." alt="" coords="80,144,194,171"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="140,96,140,128,134,128,134,96"/>
+<area shape="rect" id="Node000004" href="$_core_2_include_2cmsis__compiler_8h.html" title="CMSIS compiler generic header file." alt="" coords="218,144,341,171"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="199,94,252,133,249,137,196,99"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="260,173,196,213,193,208,258,169"/>
+</map>

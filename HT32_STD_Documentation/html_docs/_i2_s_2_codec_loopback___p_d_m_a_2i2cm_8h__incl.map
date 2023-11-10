@@ -1,0 +1,7 @@
+<map id="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/I2S/CodecLoopback_PDMA/i2cm.h" name="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/I2S/CodecLoopback_PDMA/i2cm.h">
+<area shape="rect" id="Node000001" title="The header file of I2C master driver." alt="" coords="5,5,288,96"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="58,144,115,171"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="123,97,104,132,99,129,119,95"/>
+<area shape="rect" id="Node000003" href="$_i2_s_2_codec_loopback___p_d_m_a_2ht32__board__config_8h.html" title="The header file of board configuration." alt="" coords="139,144,277,171"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="175,95,195,129,191,132,170,97"/>
+</map>

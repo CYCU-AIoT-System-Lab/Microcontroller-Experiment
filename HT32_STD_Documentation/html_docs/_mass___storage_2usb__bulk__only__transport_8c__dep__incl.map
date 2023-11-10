@@ -1,0 +1,7 @@
+<map id="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/USBD/Mass_Storage/usb_bulk_only_transport.c" name="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/USBD/Mass_Storage/usb_bulk_only_transport.c">
+<area shape="rect" id="Node000001" title="The Bulk Only Transport (BOT)." alt="" coords="14,5,242,112"/>
+<area shape="rect" id="Node000002" href="$_u_s_b_d_2_mass___storage_2__ht32__project__source_8h.html" title="The project source code setting." alt="" coords="9,160,247,267"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="131,127,131,160,125,160,125,127"/>
+<area shape="rect" id="Node000003" href="$_u_s_b_d_2_mass___storage_2main_8c.html" title="The main program of USB Device Mass Storage example." alt="" coords="5,315,251,405"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="131,282,131,314,125,314,125,282"/>
+</map>

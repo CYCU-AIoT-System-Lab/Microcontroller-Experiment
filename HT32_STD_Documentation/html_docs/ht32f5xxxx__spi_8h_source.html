@@ -1,51 +1,63 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>HT32_STD_Documents: ht32f5xxxx_spi.h Source File</title>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>HT32_STD_Code_Documents: D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/library/HT32F5xxxx_Driver/inc/ht32f5xxxx_spi.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<link href="navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="resize.js"></script>
-<script type="text/javascript" src="navtreedata.js"></script>
-<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(document).ready(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
-   <div id="projectname">HT32_STD_Documents<span id="projectnumber">&#160;1.0.0</span>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">HT32_STD_Code_Documents
+   &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">For HT32F52352</div>
+   <div id="projectbrief">Micro-controller Experiment</div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
@@ -57,23 +69,22 @@
 var searchBox = new SearchBox("searchBox", "search/",'.html');
 /* @license-end */
 </script>
-</div><!-- top -->
-<div id="side-nav" class="ui-resizable side-nav-resizable">
-  <div id="nav-tree">
-    <div id="nav-tree-contents">
-      <div id="nav-sync" class="sync"></div>
-    </div>
-  </div>
-  <div id="splitbar" style="-moz-user-select:none;" 
-       class="ui-resizable-handle">
-  </div>
-</div>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('ht32f5xxxx__spi_8h_source.html',''); initResizable(); });
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
 /* @license-end */
 </script>
-<div id="doc-content">
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function() { init_codefold(0); });
+/* @license-end */
+</script>
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -95,6 +106,11 @@ $(document).ready(function(){initNavTree('ht32f5xxxx__spi_8h_source.html',''); i
 </div>
 </div>
 
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_275089585c7fc1b5fd5d7d42c69cb1da.html">D:</a></li><li class="navelem"><a class="el" href="dir_273f27263c611837868160ff0f82bfd9.html">Note_Database</a></li><li class="navelem"><a class="el" href="dir_e8282a48381dd1bcf012c1bae1dc741b.html">Subject</a></li><li class="navelem"><a class="el" href="dir_7583b43eec1d2788dd81e658186519d2.html">MCETA Microcontroller Experiment TA</a></li><li class="navelem"><a class="el" href="dir_3ca5c6b4c4a2c10c94024caf0df2e6bb.html">files</a></li><li class="navelem"><a class="el" href="dir_79e3244e27785f7ec158b45668f9e3ec.html">HT32_STD_5xxxx_FWLib_V1.5.1_7084b</a></li><li class="navelem"><a class="el" href="dir_6965e01511015f2942f432da2d4a5bcb.html">library</a></li><li class="navelem"><a class="el" href="dir_a2f81702cb5fc8b133c02bd1d2044bc0.html">HT32F5xxxx_Driver</a></li><li class="navelem"><a class="el" href="dir_5295d97ccb3d03e3674380e8c26a1d02.html">inc</a></li>  </ul>
+</div>
+</div><!-- top -->
 <div class="header">
   <div class="headertitle"><div class="title">ht32f5xxxx_spi.h</div></div>
 </div><!--header-->
@@ -117,31 +133,31 @@ $(document).ready(function(){initNavTree('ht32f5xxxx__spi_8h_source.html',''); i
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="comment">/* Exported types ------------------------------------------------------------------------------------------*/</span></div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="preprocessor">#if (LIBCFG_SPI_DATA_LENGTH_V01)</span></div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="keyword">typedef</span> u8 SPI_DataTypeDef;</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="keyword">typedef</span> <a class="code hl_typedef" href="group___exported___types.html#gaed742c436da53c1080638ce6ef7d13de">u8</a> <a class="code hl_typedef" href="group___s_p_i___exported___types.html#gac45e9e9b6e07f41ad440c530e3a547b6">SPI_DataTypeDef</a>;</div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="keyword">typedef</span> u16 SPI_DataTypeDef;</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___types.html#gac45e9e9b6e07f41ad440c530e3a547b6">   60</a></span><span class="keyword">typedef</span> <a class="code hl_typedef" href="group___exported___types.html#ga9e6c91d77e24643b888dbd1a1a590054">u16</a> <a class="code hl_typedef" href="group___s_p_i___exported___types.html#gac45e9e9b6e07f41ad440c530e3a547b6">SPI_DataTypeDef</a>;</div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span><span class="preprocessor">#if (LIBCFG_SPI_TIMEOUT_LENGTH_V01)</span></div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span><span class="keyword">typedef</span> u8 SPI_TimeoutTypeDef;</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span><span class="keyword">typedef</span> <a class="code hl_typedef" href="group___exported___types.html#gaed742c436da53c1080638ce6ef7d13de">u8</a> <a class="code hl_typedef" href="group___s_p_i___exported___types.html#ga98b598ad41f81495c309b9268579c5e8">SPI_TimeoutTypeDef</a>;</div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span><span class="keyword">typedef</span> u16 SPI_TimeoutTypeDef;</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___types.html#ga98b598ad41f81495c309b9268579c5e8">   66</a></span><span class="keyword">typedef</span> <a class="code hl_typedef" href="group___exported___types.html#ga9e6c91d77e24643b888dbd1a1a590054">u16</a> <a class="code hl_typedef" href="group___s_p_i___exported___types.html#ga98b598ad41f81495c309b9268579c5e8">SPI_TimeoutTypeDef</a>;</div>
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
 <div class="foldopen" id="foldopen00069" data-start="{" data-end="};">
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno"><a class="line" href="struct_s_p_i___init_type_def.html">   69</a></span><span class="keyword">typedef</span> <span class="keyword">struct</span></div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>{</div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>  u32 SPI_Mode;</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>  u32 SPI_FIFO;</div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>  u32 SPI_DataLength;</div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>  u32 SPI_SELMode;</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>  u32 SPI_SELPolarity;</div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>  u32 SPI_CPOL;</div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>  u32 SPI_CPHA;</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>  u32 SPI_FirstBit;</div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>  u32 SPI_RxFIFOTriggerLevel;</div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>  u32 SPI_TxFIFOTriggerLevel;</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>  u32 SPI_ClockPrescaler;</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno"><a class="line" href="struct_s_p_i___init_type_def.html#aa0162694466eca3e0de4da273e5d1d73">   71</a></span>  <a class="code hl_typedef" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> <a class="code hl_variable" href="struct_s_p_i___init_type_def.html#aa0162694466eca3e0de4da273e5d1d73">SPI_Mode</a>;</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno"><a class="line" href="struct_s_p_i___init_type_def.html#afc805e2bfeeee025ebeff953eab738af">   72</a></span>  <a class="code hl_typedef" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> <a class="code hl_variable" href="struct_s_p_i___init_type_def.html#afc805e2bfeeee025ebeff953eab738af">SPI_FIFO</a>;</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno"><a class="line" href="struct_s_p_i___init_type_def.html#ad03147d07672778c49342028085b2708">   73</a></span>  <a class="code hl_typedef" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> <a class="code hl_variable" href="struct_s_p_i___init_type_def.html#ad03147d07672778c49342028085b2708">SPI_DataLength</a>;</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno"><a class="line" href="struct_s_p_i___init_type_def.html#a3f67bb46b77b12f3b6d4c89107c64566">   74</a></span>  <a class="code hl_typedef" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> <a class="code hl_variable" href="struct_s_p_i___init_type_def.html#a3f67bb46b77b12f3b6d4c89107c64566">SPI_SELMode</a>;</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno"><a class="line" href="struct_s_p_i___init_type_def.html#ab9d8ee4f9ecba9f4450f885a8b8b7b96">   75</a></span>  <a class="code hl_typedef" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> <a class="code hl_variable" href="struct_s_p_i___init_type_def.html#ab9d8ee4f9ecba9f4450f885a8b8b7b96">SPI_SELPolarity</a>;</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno"><a class="line" href="struct_s_p_i___init_type_def.html#a34b1d8bf98c09eaec30675c7770fde68">   76</a></span>  <a class="code hl_typedef" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> <a class="code hl_variable" href="struct_s_p_i___init_type_def.html#a34b1d8bf98c09eaec30675c7770fde68">SPI_CPOL</a>;</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno"><a class="line" href="struct_s_p_i___init_type_def.html#a49372dab5177b68ff8c332ccc356c97f">   77</a></span>  <a class="code hl_typedef" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> <a class="code hl_variable" href="struct_s_p_i___init_type_def.html#a49372dab5177b68ff8c332ccc356c97f">SPI_CPHA</a>;</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno"><a class="line" href="struct_s_p_i___init_type_def.html#a87a6c5edb473014c53439573ed5ce3c2">   78</a></span>  <a class="code hl_typedef" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> <a class="code hl_variable" href="struct_s_p_i___init_type_def.html#a87a6c5edb473014c53439573ed5ce3c2">SPI_FirstBit</a>;</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno"><a class="line" href="struct_s_p_i___init_type_def.html#a193db6d35151eb5f409655abc51ce0e8">   79</a></span>  <a class="code hl_typedef" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> <a class="code hl_variable" href="struct_s_p_i___init_type_def.html#a193db6d35151eb5f409655abc51ce0e8">SPI_RxFIFOTriggerLevel</a>;</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno"><a class="line" href="struct_s_p_i___init_type_def.html#a096df1166d8470c1c5e94cfed82a80db">   80</a></span>  <a class="code hl_typedef" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> <a class="code hl_variable" href="struct_s_p_i___init_type_def.html#a096df1166d8470c1c5e94cfed82a80db">SPI_TxFIFOTriggerLevel</a>;</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno"><a class="line" href="struct_s_p_i___init_type_def.html#a384c494b054041dcd8211872f46b3d15">   81</a></span>  <a class="code hl_typedef" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> <a class="code hl_variable" href="struct_s_p_i___init_type_def.html#a384c494b054041dcd8211872f46b3d15">SPI_ClockPrescaler</a>;</div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>} <a class="code hl_struct" href="struct_s_p_i___init_type_def.html">SPI_InitTypeDef</a>;</div>
 </div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span> </div>
@@ -153,103 +169,120 @@ $(document).ready(function(){initNavTree('ht32f5xxxx__spi_8h_source.html',''); i
 <div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>} SIO_DIR_Enum;</div>
 <div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span><span class="comment">/* Exported constants --------------------------------------------------------------------------------------*/</span></div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span><span class="preprocessor">#define SPI_FIFO_ENABLE                             ((u32)0x00000400)</span></div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span><span class="preprocessor">#define SPI_FIFO_DISABLE                            ((u32)0x00000000)</span></div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#gafa0d25abeec588de1f2e2a812af51759">  102</a></span><span class="preprocessor">#define SPI_FIFO_ENABLE                             ((u32)0x00000400)</span></div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga03ae05c2d3b8b8d8ef42321a89f64256">  103</a></span><span class="preprocessor">#define SPI_FIFO_DISABLE                            ((u32)0x00000000)</span></div>
 <div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span> </div>
-<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span><span class="preprocessor">#define IS_SPI_FIFO_SET(FIFO)                       ((FIFO == SPI_FIFO_ENABLE) || \</span></div>
+<div class="foldopen" id="foldopen00105" data-start="" data-end="">
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#gabf3688bc98c9093465f2fbfb0097c203">  105</a></span><span class="preprocessor">#define IS_SPI_FIFO_SET(FIFO)                       ((FIFO == SPI_FIFO_ENABLE) || \</span></div>
 <div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span><span class="preprocessor">                                                     (FIFO == SPI_FIFO_DISABLE))</span></div>
+</div>
 <div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span> </div>
-<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span><span class="preprocessor">#define SPI_DATALENGTH_1                            ((u32)0x00000001)</span></div>
-<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span><span class="preprocessor">#define SPI_DATALENGTH_2                            ((u32)0x00000002)</span></div>
-<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span><span class="preprocessor">#define SPI_DATALENGTH_3                            ((u32)0x00000003)</span></div>
-<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span><span class="preprocessor">#define SPI_DATALENGTH_4                            ((u32)0x00000004)</span></div>
-<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span><span class="preprocessor">#define SPI_DATALENGTH_5                            ((u32)0x00000005)</span></div>
-<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span><span class="preprocessor">#define SPI_DATALENGTH_6                            ((u32)0x00000006)</span></div>
-<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span><span class="preprocessor">#define SPI_DATALENGTH_7                            ((u32)0x00000007)</span></div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#gae881455120d0cec2b134a3df091080da">  108</a></span><span class="preprocessor">#define SPI_DATALENGTH_1                            ((u32)0x00000001)</span></div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#gafc838467e71d52b8fcae84471aca2544">  109</a></span><span class="preprocessor">#define SPI_DATALENGTH_2                            ((u32)0x00000002)</span></div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga1416666f6d9f255c7e65b119f6224195">  110</a></span><span class="preprocessor">#define SPI_DATALENGTH_3                            ((u32)0x00000003)</span></div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#gad6ef80e061d3f2d9dc00e8f84d19ba82">  111</a></span><span class="preprocessor">#define SPI_DATALENGTH_4                            ((u32)0x00000004)</span></div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#gad73cfebf0e1d354ba0450257ad03cce5">  112</a></span><span class="preprocessor">#define SPI_DATALENGTH_5                            ((u32)0x00000005)</span></div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga864b3f3560e93f82c92eda9d3511a078">  113</a></span><span class="preprocessor">#define SPI_DATALENGTH_6                            ((u32)0x00000006)</span></div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga5d84877c9ac6cb5f478aea7125ea7960">  114</a></span><span class="preprocessor">#define SPI_DATALENGTH_7                            ((u32)0x00000007)</span></div>
 <div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span> </div>
 <div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span><span class="preprocessor">#if (LIBCFG_SPI_DATA_LENGTH_V01)</span></div>
 <div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span><span class="preprocessor">#define SPI_DATALENGTH_8                            ((u32)0x00000000)</span></div>
 <div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span> </div>
 <div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span><span class="preprocessor">#define IS_SPI_DATALENGTH(DATALENGTH)               ((DATALENGTH &lt;= 0x07))</span></div>
 <div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span><span class="preprocessor">#define SPI_DATALENGTH_8                            ((u32)0x00000008)</span></div>
-<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span><span class="preprocessor">#define SPI_DATALENGTH_9                            ((u32)0x00000009)</span></div>
-<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span><span class="preprocessor">#define SPI_DATALENGTH_10                           ((u32)0x0000000A)</span></div>
-<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span><span class="preprocessor">#define SPI_DATALENGTH_11                           ((u32)0x0000000B)</span></div>
-<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span><span class="preprocessor">#define SPI_DATALENGTH_12                           ((u32)0x0000000C)</span></div>
-<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span><span class="preprocessor">#define SPI_DATALENGTH_13                           ((u32)0x0000000D)</span></div>
-<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span><span class="preprocessor">#define SPI_DATALENGTH_14                           ((u32)0x0000000E)</span></div>
-<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span><span class="preprocessor">#define SPI_DATALENGTH_15                           ((u32)0x0000000F)</span></div>
-<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span><span class="preprocessor">#define SPI_DATALENGTH_16                           ((u32)0x00000000)</span></div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga145517c0b8b1c72f5bb16ec84c221c45">  121</a></span><span class="preprocessor">#define SPI_DATALENGTH_8                            ((u32)0x00000008)</span></div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga1f5d87d3343b607b9b11a79fa9b73724">  122</a></span><span class="preprocessor">#define SPI_DATALENGTH_9                            ((u32)0x00000009)</span></div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga5204cef725c4c2f8d993213e8bb2249b">  123</a></span><span class="preprocessor">#define SPI_DATALENGTH_10                           ((u32)0x0000000A)</span></div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga82f467a8426531c4ec2055dd54cffc8b">  124</a></span><span class="preprocessor">#define SPI_DATALENGTH_11                           ((u32)0x0000000B)</span></div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#gae1b929e09ec9b4a6510aeaae3f177d33">  125</a></span><span class="preprocessor">#define SPI_DATALENGTH_12                           ((u32)0x0000000C)</span></div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga22ecca07ae3c659c8f6cc61128a05955">  126</a></span><span class="preprocessor">#define SPI_DATALENGTH_13                           ((u32)0x0000000D)</span></div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga787f60125fc2e2d98b9ff7c8fa823604">  127</a></span><span class="preprocessor">#define SPI_DATALENGTH_14                           ((u32)0x0000000E)</span></div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga0b75e922c72ed9360cd97297766b56d8">  128</a></span><span class="preprocessor">#define SPI_DATALENGTH_15                           ((u32)0x0000000F)</span></div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga6d4cfdd5a5c541143af95b3c126b64c4">  129</a></span><span class="preprocessor">#define SPI_DATALENGTH_16                           ((u32)0x00000000)</span></div>
 <div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span> </div>
-<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span><span class="preprocessor">#define IS_SPI_DATALENGTH(DATALENGTH)               ((DATALENGTH &lt;= 0xF))</span></div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#gaefb6d52ff946bf20612ccb9d660b5b8f">  131</a></span><span class="preprocessor">#define IS_SPI_DATALENGTH(DATALENGTH)               ((DATALENGTH &lt;= 0xF))</span></div>
 <div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span> </div>
-<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span><span class="preprocessor">#define SPI_MASTER                                  ((u32)0x00004000)</span></div>
-<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span><span class="preprocessor">#define SPI_SLAVE                                   ((u32)0x00000000)</span></div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#gae09a2779c2d141aa6a8f8be6d78fe210">  134</a></span><span class="preprocessor">#define SPI_MASTER                                  ((u32)0x00004000)</span></div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga943af7f8a98cf5a3f2107ed593215a4b">  135</a></span><span class="preprocessor">#define SPI_SLAVE                                   ((u32)0x00000000)</span></div>
 <div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span> </div>
-<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span><span class="preprocessor">#define IS_SPI_MODE(MODE)                           ((MODE == SPI_MASTER) || \</span></div>
+<div class="foldopen" id="foldopen00137" data-start="" data-end="">
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#gad5135300763c75dbb446861536359f12">  137</a></span><span class="preprocessor">#define IS_SPI_MODE(MODE)                           ((MODE == SPI_MASTER) || \</span></div>
 <div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span><span class="preprocessor">                                                     (MODE == SPI_SLAVE))</span></div>
+</div>
 <div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span> </div>
 <div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span> </div>
-<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span><span class="preprocessor">#define SPI_SEL_HARDWARE                            ((u32)0x00002000)</span></div>
-<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span><span class="preprocessor">#define SPI_SEL_SOFTWARE                            ((u32)0x00000000)</span></div>
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga81065a5ae5c7dbd9bd196c9196efdea0">  141</a></span><span class="preprocessor">#define SPI_SEL_HARDWARE                            ((u32)0x00002000)</span></div>
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga5db674d73f55a2e25d8c686f54f4b4db">  142</a></span><span class="preprocessor">#define SPI_SEL_SOFTWARE                            ((u32)0x00000000)</span></div>
 <div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span> </div>
-<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span><span class="preprocessor">#define IS_SPI_SEL_MODE(SELMODE)                    ((SELMODE == SPI_SEL_HARDWARE) || \</span></div>
+<div class="foldopen" id="foldopen00144" data-start="" data-end="">
+<div class="line"><a id="l00144" name="l00144"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#gae643cfd1ae8608228e29651e71cf0abd">  144</a></span><span class="preprocessor">#define IS_SPI_SEL_MODE(SELMODE)                    ((SELMODE == SPI_SEL_HARDWARE) || \</span></div>
 <div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span><span class="preprocessor">                                                     (SELMODE == SPI_SEL_SOFTWARE))</span></div>
+</div>
 <div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span> </div>
 <div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span> </div>
-<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span><span class="preprocessor">#define SPI_SEL_ACTIVE                              ((u32)0x00000010)</span></div>
-<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span><span class="preprocessor">#define SPI_SEL_INACTIVE                            ((u32)0xFFFFFFEF)</span></div>
+<div class="line"><a id="l00148" name="l00148"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga3dc6de2f6d6fe2f50327ed7f4b0eb464">  148</a></span><span class="preprocessor">#define SPI_SEL_ACTIVE                              ((u32)0x00000010)</span></div>
+<div class="line"><a id="l00149" name="l00149"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#gab023e2c1d85df87886617227673d7810">  149</a></span><span class="preprocessor">#define SPI_SEL_INACTIVE                            ((u32)0xFFFFFFEF)</span></div>
 <div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span> </div>
-<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span><span class="preprocessor">#define IS_SPI_SOFTWARE_SEL(SEL)                    ((SEL == SPI_SEL_ACTIVE) || \</span></div>
+<div class="foldopen" id="foldopen00151" data-start="" data-end="">
+<div class="line"><a id="l00151" name="l00151"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#gab35c44aa50f38f9798f8b90ee4c8afe5">  151</a></span><span class="preprocessor">#define IS_SPI_SOFTWARE_SEL(SEL)                    ((SEL == SPI_SEL_ACTIVE) || \</span></div>
 <div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span><span class="preprocessor">                                                     (SEL == SPI_SEL_INACTIVE))</span></div>
+</div>
 <div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span> </div>
 <div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span> </div>
-<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span><span class="preprocessor">#define SPI_SELPOLARITY_HIGH                        ((u32)0x00000800)</span></div>
-<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span><span class="preprocessor">#define SPI_SELPOLARITY_LOW                         ((u32)0x00000000)</span></div>
+<div class="line"><a id="l00155" name="l00155"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga418e3935a2c24d5d1fa286536d2f58a0">  155</a></span><span class="preprocessor">#define SPI_SELPOLARITY_HIGH                        ((u32)0x00000800)</span></div>
+<div class="line"><a id="l00156" name="l00156"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga1a76d2e8a166ce0a5816b66066741c0c">  156</a></span><span class="preprocessor">#define SPI_SELPOLARITY_LOW                         ((u32)0x00000000)</span></div>
 <div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span> </div>
-<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span><span class="preprocessor">#define IS_SPI_SEL_POLARITY(POLARITY)               ((POLARITY == SPI_SELPOLARITY_HIGH) || \</span></div>
+<div class="foldopen" id="foldopen00158" data-start="" data-end="">
+<div class="line"><a id="l00158" name="l00158"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga75bb622f3723832b382121db3d03a7a2">  158</a></span><span class="preprocessor">#define IS_SPI_SEL_POLARITY(POLARITY)               ((POLARITY == SPI_SELPOLARITY_HIGH) || \</span></div>
 <div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span><span class="preprocessor">                                                     (POLARITY == SPI_SELPOLARITY_LOW))</span></div>
+</div>
 <div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span> </div>
 <div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span> </div>
-<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span><span class="preprocessor">#define SPI_CPOL_HIGH                               ((u32)0x00000400)</span></div>
-<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span><span class="preprocessor">#define SPI_CPOL_LOW                                ((u32)0x00000000)</span></div>
+<div class="line"><a id="l00162" name="l00162"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#gaf5161f1e7fb512ef0e58612267db52d6">  162</a></span><span class="preprocessor">#define SPI_CPOL_HIGH                               ((u32)0x00000400)</span></div>
+<div class="line"><a id="l00163" name="l00163"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga83a0541021071c7e33997d3affc0c8d4">  163</a></span><span class="preprocessor">#define SPI_CPOL_LOW                                ((u32)0x00000000)</span></div>
 <div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span> </div>
-<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span><span class="preprocessor">#define IS_SPI_CPOL(CPOL)                           ((CPOL == SPI_CPOL_HIGH) || \</span></div>
+<div class="foldopen" id="foldopen00165" data-start="" data-end="">
+<div class="line"><a id="l00165" name="l00165"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#gafc1cc5b1ff7e801a409a7a1e6047acf9">  165</a></span><span class="preprocessor">#define IS_SPI_CPOL(CPOL)                           ((CPOL == SPI_CPOL_HIGH) || \</span></div>
 <div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span><span class="preprocessor">                                                     (CPOL == SPI_CPOL_LOW))</span></div>
+</div>
 <div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span> </div>
 <div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span> </div>
-<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span><span class="preprocessor">#define SPI_CPHA_FIRST                              ((u32)0x00000000)</span></div>
-<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span><span class="preprocessor">#define SPI_CPHA_SECOND                             ((u32)0x00000001)</span></div>
+<div class="line"><a id="l00169" name="l00169"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#gab7c5fc382a31cde4a337edc1f71da83b">  169</a></span><span class="preprocessor">#define SPI_CPHA_FIRST                              ((u32)0x00000000)</span></div>
+<div class="line"><a id="l00170" name="l00170"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#gaab7e4e7320cf5ce4bbd3c8ac57441626">  170</a></span><span class="preprocessor">#define SPI_CPHA_SECOND                             ((u32)0x00000001)</span></div>
 <div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span> </div>
-<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span><span class="preprocessor">#define IS_SPI_CPHA(CPHA)                           ((CPHA == SPI_CPHA_FIRST) || \</span></div>
+<div class="foldopen" id="foldopen00172" data-start="" data-end="">
+<div class="line"><a id="l00172" name="l00172"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga6441f08edf79dd5b243c54b888d3cbf7">  172</a></span><span class="preprocessor">#define IS_SPI_CPHA(CPHA)                           ((CPHA == SPI_CPHA_FIRST) || \</span></div>
 <div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span><span class="preprocessor">                                                     (CPHA == SPI_CPHA_SECOND))</span></div>
+</div>
 <div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span> </div>
 <div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span> </div>
-<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span><span class="preprocessor">#define SPI_FIRSTBIT_LSB                            ((u32)0x00001000)</span></div>
-<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span><span class="preprocessor">#define SPI_FIRSTBIT_MSB                            ((u32)0x00000000)</span></div>
+<div class="line"><a id="l00176" name="l00176"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga8b608690a1adf9df40f271c228a479a3">  176</a></span><span class="preprocessor">#define SPI_FIRSTBIT_LSB                            ((u32)0x00001000)</span></div>
+<div class="line"><a id="l00177" name="l00177"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga2280ac1a6ed587b516419b5df6a8ea55">  177</a></span><span class="preprocessor">#define SPI_FIRSTBIT_MSB                            ((u32)0x00000000)</span></div>
 <div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span> </div>
-<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span><span class="preprocessor">#define IS_SPI_FIRST_BIT(BIT)                       ((BIT == SPI_FIRSTBIT_LSB) || \</span></div>
+<div class="foldopen" id="foldopen00179" data-start="" data-end="">
+<div class="line"><a id="l00179" name="l00179"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#gabee8e0302741f4a5c41b96af640c63ad">  179</a></span><span class="preprocessor">#define IS_SPI_FIRST_BIT(BIT)                       ((BIT == SPI_FIRSTBIT_LSB) || \</span></div>
 <div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span><span class="preprocessor">                                                     (BIT == SPI_FIRSTBIT_MSB))</span></div>
+</div>
 <div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span> </div>
 <div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span> </div>
-<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span><span class="preprocessor">#define SPI_FLAG_TXBE                               ((u32)0x00000001)</span></div>
-<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span><span class="preprocessor">#define SPI_FLAG_TXE                                ((u32)0x00000002)</span></div>
-<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span><span class="preprocessor">#define SPI_FLAG_RXBNE                              ((u32)0x00000004)</span></div>
-<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span><span class="preprocessor">#define SPI_FLAG_WC                                 ((u32)0x00000008)</span></div>
-<div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span><span class="preprocessor">#define SPI_FLAG_RO                                 ((u32)0x00000010)</span></div>
+<div class="line"><a id="l00183" name="l00183"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#gab3aa1d3f2501fd5d967e1eccf9f7c405">  183</a></span><span class="preprocessor">#define SPI_FLAG_TXBE                               ((u32)0x00000001)</span></div>
+<div class="line"><a id="l00184" name="l00184"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#gaf84a1e6af2739a6be58e1b23d9e6b914">  184</a></span><span class="preprocessor">#define SPI_FLAG_TXE                                ((u32)0x00000002)</span></div>
+<div class="line"><a id="l00185" name="l00185"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga8e1006897777894d3e02628ae1965deb">  185</a></span><span class="preprocessor">#define SPI_FLAG_RXBNE                              ((u32)0x00000004)</span></div>
+<div class="line"><a id="l00186" name="l00186"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga193aa27082d6efc5455be2a968e7f8c0">  186</a></span><span class="preprocessor">#define SPI_FLAG_WC                                 ((u32)0x00000008)</span></div>
+<div class="line"><a id="l00187" name="l00187"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#gaaa4c4f5f90a717a03a31e9d7920742fe">  187</a></span><span class="preprocessor">#define SPI_FLAG_RO                                 ((u32)0x00000010)</span></div>
 <div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span><span class="preprocessor">#if (LIBCFG_SPI_NO_MULTI_MASTER)</span></div>
 <div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span><span class="preprocessor">#define IS_FLAG_MF(x)                               (0)</span></div>
 <div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span><span class="preprocessor">#define SPI_FLAG_MF                                 ((u32)0x00000020)</span></div>
-<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span><span class="preprocessor">#define IS_FLAG_MF(x)                               (x ==  SPI_FLAG_MF)</span></div>
+<div class="line"><a id="l00191" name="l00191"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga65a1013f597e64e7342c0bcfa5dca454">  191</a></span><span class="preprocessor">#define SPI_FLAG_MF                                 ((u32)0x00000020)</span></div>
+<div class="line"><a id="l00192" name="l00192"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#gae36b4c7b72a7c1986cfd185977c810c7">  192</a></span><span class="preprocessor">#define IS_FLAG_MF(x)                               (x ==  SPI_FLAG_MF)</span></div>
 <div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span><span class="preprocessor">#define SPI_FLAG_SA                                 ((u32)0x00000040)</span></div>
-<div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span><span class="preprocessor">#define SPI_FLAG_TOUT                               ((u32)0x00000080)</span></div>
-<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span><span class="preprocessor">#define SPI_FLAG_BUSY                               ((u32)0x00000100)</span></div>
+<div class="line"><a id="l00194" name="l00194"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#gadd4049bbe9a13dd4e77e34a15d9992fd">  194</a></span><span class="preprocessor">#define SPI_FLAG_SA                                 ((u32)0x00000040)</span></div>
+<div class="line"><a id="l00195" name="l00195"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga5d406c1a27675ea5f84920ccfc6ef6c6">  195</a></span><span class="preprocessor">#define SPI_FLAG_TOUT                               ((u32)0x00000080)</span></div>
+<div class="line"><a id="l00196" name="l00196"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#gafaec3d4a7c1949a99bd3345acfae30cf">  196</a></span><span class="preprocessor">#define SPI_FLAG_BUSY                               ((u32)0x00000100)</span></div>
 <div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span> </div>
-<div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span><span class="preprocessor">#define IS_SPI_FLAG(FLAG)                           ((FLAG ==  SPI_FLAG_TXBE)  || \</span></div>
+<div class="foldopen" id="foldopen00198" data-start="" data-end="">
+<div class="line"><a id="l00198" name="l00198"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga30100b200f06119850a759ef1385321d">  198</a></span><span class="preprocessor">#define IS_SPI_FLAG(FLAG)                           ((FLAG ==  SPI_FLAG_TXBE)  || \</span></div>
 <div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span><span class="preprocessor">                                                     (FLAG ==  SPI_FLAG_TXE)   || \</span></div>
 <div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span><span class="preprocessor">                                                     (FLAG ==  SPI_FLAG_RXBNE) || \</span></div>
 <div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span><span class="preprocessor">                                                     (FLAG ==  SPI_FLAG_WC)    || \</span></div>
@@ -258,38 +291,41 @@ $(document).ready(function(){initNavTree('ht32f5xxxx__spi_8h_source.html',''); i
 <div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span><span class="preprocessor">                                                     (FLAG ==  SPI_FLAG_SA)    || \</span></div>
 <div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span><span class="preprocessor">                                                     (FLAG ==  SPI_FLAG_TOUT)  || \</span></div>
 <div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span><span class="preprocessor">                                                     (FLAG ==  SPI_FLAG_BUSY))</span></div>
+</div>
 <div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span> </div>
-<div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span><span class="preprocessor">#define IS_SPI_FLAG_CLEAR(CLEAR)                    ((CLEAR ==  SPI_FLAG_WC) || \</span></div>
+<div class="foldopen" id="foldopen00208" data-start="" data-end="">
+<div class="line"><a id="l00208" name="l00208"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga81b0d48cfedf559708ad29254c078fad">  208</a></span><span class="preprocessor">#define IS_SPI_FLAG_CLEAR(CLEAR)                    ((CLEAR ==  SPI_FLAG_WC) || \</span></div>
 <div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span><span class="preprocessor">                                                     (CLEAR ==  SPI_FLAG_RO) || \</span></div>
 <div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span><span class="preprocessor">                                                     IS_FLAG_MF(CLEAR)       || \</span></div>
 <div class="line"><a id="l00211" name="l00211"></a><span class="lineno">  211</span><span class="preprocessor">                                                     (CLEAR ==  SPI_FLAG_SA) || \</span></div>
 <div class="line"><a id="l00212" name="l00212"></a><span class="lineno">  212</span><span class="preprocessor">                                                     (CLEAR ==  SPI_FLAG_TOUT))</span></div>
+</div>
 <div class="line"><a id="l00213" name="l00213"></a><span class="lineno">  213</span> </div>
 <div class="line"><a id="l00214" name="l00214"></a><span class="lineno">  214</span> </div>
-<div class="line"><a id="l00215" name="l00215"></a><span class="lineno">  215</span><span class="preprocessor">#define SPI_INT_TXBE                                ((u32)0x00000001)</span></div>
-<div class="line"><a id="l00216" name="l00216"></a><span class="lineno">  216</span><span class="preprocessor">#define SPI_INT_TXE                                 ((u32)0x00000002)</span></div>
-<div class="line"><a id="l00217" name="l00217"></a><span class="lineno">  217</span><span class="preprocessor">#define SPI_INT_RXBNE                               ((u32)0x00000004)</span></div>
-<div class="line"><a id="l00218" name="l00218"></a><span class="lineno">  218</span><span class="preprocessor">#define SPI_INT_WC                                  ((u32)0x00000008)</span></div>
-<div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span><span class="preprocessor">#define SPI_INT_RO                                  ((u32)0x00000010)</span></div>
+<div class="line"><a id="l00215" name="l00215"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga83ef9770f23848f7cad5648b1c10c8e4">  215</a></span><span class="preprocessor">#define SPI_INT_TXBE                                ((u32)0x00000001)</span></div>
+<div class="line"><a id="l00216" name="l00216"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#gaa1d565246767e5ef256f094ba4b5f814">  216</a></span><span class="preprocessor">#define SPI_INT_TXE                                 ((u32)0x00000002)</span></div>
+<div class="line"><a id="l00217" name="l00217"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#gadb7f07c350fcf1c00c52204628149687">  217</a></span><span class="preprocessor">#define SPI_INT_RXBNE                               ((u32)0x00000004)</span></div>
+<div class="line"><a id="l00218" name="l00218"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga0e0965ccdc35669fdde22d9a3dce2324">  218</a></span><span class="preprocessor">#define SPI_INT_WC                                  ((u32)0x00000008)</span></div>
+<div class="line"><a id="l00219" name="l00219"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga570a97ff7a99d7cf2f1990599113b055">  219</a></span><span class="preprocessor">#define SPI_INT_RO                                  ((u32)0x00000010)</span></div>
 <div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span><span class="preprocessor">#if (!LIBCFG_SPI_NO_MULTI_MASTER)</span></div>
-<div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span><span class="preprocessor">#define SPI_INT_MF                                  ((u32)0x00000020)</span></div>
+<div class="line"><a id="l00221" name="l00221"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#gacc0bb1364e53d947616ca64112e3398c">  221</a></span><span class="preprocessor">#define SPI_INT_MF                                  ((u32)0x00000020)</span></div>
 <div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span><span class="preprocessor">#define SPI_INT_SA                                  ((u32)0x00000040)</span></div>
-<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span><span class="preprocessor">#define SPI_INT_TOUT                                ((u32)0x00000080)</span></div>
+<div class="line"><a id="l00223" name="l00223"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga03876ec5098a6cb8ba9e3ff12a29ec70">  223</a></span><span class="preprocessor">#define SPI_INT_SA                                  ((u32)0x00000040)</span></div>
+<div class="line"><a id="l00224" name="l00224"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#gaaf5e4de4139f940614cc1ca9089ac6e7">  224</a></span><span class="preprocessor">#define SPI_INT_TOUT                                ((u32)0x00000080)</span></div>
 <div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span><span class="preprocessor">#if (LIBCFG_SPI_NO_MULTI_MASTER)</span></div>
 <div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span><span class="preprocessor">#define SPI_INT_ALL                                 ((u32)0x000000DF)</span></div>
 <div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span><span class="preprocessor">#define SPI_INT_ALL                                 ((u32)0x000000FF)</span></div>
+<div class="line"><a id="l00228" name="l00228"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga93340bd1c1ee49bcfe8b64b5566d401b">  228</a></span><span class="preprocessor">#define SPI_INT_ALL                                 ((u32)0x000000FF)</span></div>
 <div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span> </div>
-<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span><span class="preprocessor">#define IS_SPI_INT(SPI_INT)                         (((SPI_INT &amp; 0xFFFFFF00) == 0x0) &amp;&amp; (SPI_INT != 0x0))</span></div>
+<div class="line"><a id="l00231" name="l00231"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#gaa2b5c045b57fb8bb3c55455189d69391">  231</a></span><span class="preprocessor">#define IS_SPI_INT(SPI_INT)                         (((SPI_INT &amp; 0xFFFFFF00) == 0x0) &amp;&amp; (SPI_INT != 0x0))</span></div>
 <div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span> </div>
 <div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span> </div>
 <div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span> </div>
-<div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span><span class="preprocessor">#define SPI_FIFO_TX                                 ((u32)0x00000100)</span></div>
-<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span><span class="preprocessor">#define SPI_FIFO_RX                                 ((u32)0x00000200)</span></div>
+<div class="line"><a id="l00235" name="l00235"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga2d6b73fa5b73ad4d7eaeb8c7040f3318">  235</a></span><span class="preprocessor">#define SPI_FIFO_TX                                 ((u32)0x00000100)</span></div>
+<div class="line"><a id="l00236" name="l00236"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga165fa9371a1a7efa1cab1b5c1b59a2dd">  236</a></span><span class="preprocessor">#define SPI_FIFO_RX                                 ((u32)0x00000200)</span></div>
 <div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span> </div>
-<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span><span class="preprocessor">#define IS_SPI_FIFO_DIRECTION(DIRECTION)            (((DIRECTION &amp; 0xFFFFFCFF) == 0) &amp;&amp; (DIRECTION != 0))</span></div>
+<div class="line"><a id="l00238" name="l00238"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga211763f6d40bc35d6d7d6011276c768a">  238</a></span><span class="preprocessor">#define IS_SPI_FIFO_DIRECTION(DIRECTION)            (((DIRECTION &amp; 0xFFFFFCFF) == 0) &amp;&amp; (DIRECTION != 0))</span></div>
 <div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span> </div>
 <div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span> </div>
 <div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span><span class="preprocessor">#if (LIBCFG_PDMA)</span></div>
@@ -304,102 +340,102 @@ $(document).ready(function(){initNavTree('ht32f5xxxx__spi_8h_source.html',''); i
 <div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span><span class="preprocessor">#define IS_SIO_DIR(x)                               (((x) == SIO_DIR_IN) || ((x) == SIO_DIR_OUT))</span></div>
 <div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span> </div>
-<div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span><span class="preprocessor">#define IS_SPI(x)                                   (IS_SPI0(x) || IS_SPI1(x))</span></div>
-<div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span><span class="preprocessor">#define IS_SPI0(x)                                  (x == HT_SPI0)</span></div>
+<div class="line"><a id="l00253" name="l00253"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#gafb4c730251ba24a49a749e4dd8b7603f">  253</a></span><span class="preprocessor">#define IS_SPI(x)                                   (IS_SPI0(x) || IS_SPI1(x))</span></div>
+<div class="line"><a id="l00254" name="l00254"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga848bd4ed3c6bfe6861f62daf84b77ae9">  254</a></span><span class="preprocessor">#define IS_SPI0(x)                                  (x == HT_SPI0)</span></div>
 <div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span><span class="preprocessor">#if (LIBCFG_SPI1)</span></div>
 <div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span><span class="preprocessor">#define IS_SPI1(x)                                  (x == HT_SPI1)</span></div>
 <div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span><span class="preprocessor">#define IS_SPI1(x)                                  (0)</span></div>
+<div class="line"><a id="l00258" name="l00258"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga447dd1a529842ea753e4df96d428538e">  258</a></span><span class="preprocessor">#define IS_SPI1(x)                                  (0)</span></div>
 <div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span><span class="preprocessor">#if (LIBCFG_QSPI)</span></div>
 <div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span><span class="preprocessor">#define IS_QSPI(x)                                  (x == HT_QSPI)</span></div>
 <div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span><span class="preprocessor">#define IS_QSPI(x)                                  (0)</span></div>
+<div class="line"><a id="l00263" name="l00263"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#gae76fa417183c6001227bb1ecbf93893b">  263</a></span><span class="preprocessor">#define IS_QSPI(x)                                  (0)</span></div>
 <div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span> </div>
 <div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span><span class="preprocessor">#if (LIBCFG_SPI_DATA_LENGTH_V01)</span></div>
 <div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span><span class="preprocessor">#define IS_SPI_DATA(DATA)                           (DATA &lt;= 0xff)</span></div>
 <div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span><span class="preprocessor">#define IS_SPI_DATA(DATA)                           (DATA &lt;= 0xffff)</span></div>
+<div class="line"><a id="l00269" name="l00269"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga03e9f6e5a944a97784348dbe30ffd102">  269</a></span><span class="preprocessor">#define IS_SPI_DATA(DATA)                           (DATA &lt;= 0xffff)</span></div>
 <div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span> </div>
 <div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span><span class="preprocessor">#if (LIBCFG_SPI_FIFO_DEPTH_V01)</span></div>
 <div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span><span class="preprocessor">#define IS_SPI_FIFO_LEVEL(LEVEL)                    (LEVEL &lt;= 4)</span></div>
 <div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span><span class="preprocessor">#define IS_SPI_FIFO_LEVEL(LEVEL)                    (LEVEL &lt;= 8)</span></div>
+<div class="line"><a id="l00275" name="l00275"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga76ecadeefd733c227833c2707507f936">  275</a></span><span class="preprocessor">#define IS_SPI_FIFO_LEVEL(LEVEL)                    (LEVEL &lt;= 8)</span></div>
 <div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span> </div>
-<div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span><span class="preprocessor">#define IS_SPI_CLOCK_PRESCALER(PRESCALER)           (PRESCALER &gt;= 2)</span></div>
+<div class="line"><a id="l00278" name="l00278"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga2203a84cc86ebea7aeec1f07341f2a51">  278</a></span><span class="preprocessor">#define IS_SPI_CLOCK_PRESCALER(PRESCALER)           (PRESCALER &gt;= 2)</span></div>
 <div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span> </div>
-<div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span><span class="preprocessor">#define SPI_GUADTIME_1_SCK                          ((u16)0x0000)</span></div>
-<div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span><span class="preprocessor">#define SPI_GUADTIME_2_SCK                          ((u16)0x0001)</span></div>
-<div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span><span class="preprocessor">#define SPI_GUADTIME_3_SCK                          ((u16)0x0002)</span></div>
-<div class="line"><a id="l00283" name="l00283"></a><span class="lineno">  283</span><span class="preprocessor">#define SPI_GUADTIME_4_SCK                          ((u16)0x0003)</span></div>
-<div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span><span class="preprocessor">#define SPI_GUADTIME_5_SCK                          ((u16)0x0004)</span></div>
-<div class="line"><a id="l00285" name="l00285"></a><span class="lineno">  285</span><span class="preprocessor">#define SPI_GUADTIME_6_SCK                          ((u16)0x0005)</span></div>
-<div class="line"><a id="l00286" name="l00286"></a><span class="lineno">  286</span><span class="preprocessor">#define SPI_GUADTIME_7_SCK                          ((u16)0x0006)</span></div>
-<div class="line"><a id="l00287" name="l00287"></a><span class="lineno">  287</span><span class="preprocessor">#define SPI_GUADTIME_8_SCK                          ((u16)0x0007)</span></div>
-<div class="line"><a id="l00288" name="l00288"></a><span class="lineno">  288</span><span class="preprocessor">#define SPI_GUADTIME_9_SCK                          ((u16)0x0008)</span></div>
-<div class="line"><a id="l00289" name="l00289"></a><span class="lineno">  289</span><span class="preprocessor">#define SPI_GUADTIME_10_SCK                         ((u16)0x0009)</span></div>
-<div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span><span class="preprocessor">#define SPI_GUADTIME_11_SCK                         ((u16)0x000A)</span></div>
-<div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span><span class="preprocessor">#define SPI_GUADTIME_12_SCK                         ((u16)0x000B)</span></div>
-<div class="line"><a id="l00292" name="l00292"></a><span class="lineno">  292</span><span class="preprocessor">#define SPI_GUADTIME_13_SCK                         ((u16)0x000C)</span></div>
-<div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span><span class="preprocessor">#define SPI_GUADTIME_14_SCK                         ((u16)0x000D)</span></div>
-<div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span><span class="preprocessor">#define SPI_GUADTIME_15_SCK                         ((u16)0x000E)</span></div>
-<div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span><span class="preprocessor">#define SPI_GUADTIME_16_SCK                         ((u16)0x000F)</span></div>
+<div class="line"><a id="l00280" name="l00280"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#gabb73c5cc6f0782ccc222e643509a40f0">  280</a></span><span class="preprocessor">#define SPI_GUADTIME_1_SCK                          ((u16)0x0000)</span></div>
+<div class="line"><a id="l00281" name="l00281"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga5d9e3ea2b3392f860cb63783c9badb33">  281</a></span><span class="preprocessor">#define SPI_GUADTIME_2_SCK                          ((u16)0x0001)</span></div>
+<div class="line"><a id="l00282" name="l00282"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#gab511529b5b95b5c732f2ff47dfc4846e">  282</a></span><span class="preprocessor">#define SPI_GUADTIME_3_SCK                          ((u16)0x0002)</span></div>
+<div class="line"><a id="l00283" name="l00283"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga28a3bbf9056e971a782dc8cc396966ad">  283</a></span><span class="preprocessor">#define SPI_GUADTIME_4_SCK                          ((u16)0x0003)</span></div>
+<div class="line"><a id="l00284" name="l00284"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga283c7501561ead46bccd84b37f24db12">  284</a></span><span class="preprocessor">#define SPI_GUADTIME_5_SCK                          ((u16)0x0004)</span></div>
+<div class="line"><a id="l00285" name="l00285"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga03ba250834c7c27371b52c1dd2b2e513">  285</a></span><span class="preprocessor">#define SPI_GUADTIME_6_SCK                          ((u16)0x0005)</span></div>
+<div class="line"><a id="l00286" name="l00286"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#gacf34127017070e74ece51af8e329bae8">  286</a></span><span class="preprocessor">#define SPI_GUADTIME_7_SCK                          ((u16)0x0006)</span></div>
+<div class="line"><a id="l00287" name="l00287"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#gaa8f7e4af30231c1eb23412ea074821ed">  287</a></span><span class="preprocessor">#define SPI_GUADTIME_8_SCK                          ((u16)0x0007)</span></div>
+<div class="line"><a id="l00288" name="l00288"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga38004483651b6d734e3d08ae735f35d6">  288</a></span><span class="preprocessor">#define SPI_GUADTIME_9_SCK                          ((u16)0x0008)</span></div>
+<div class="line"><a id="l00289" name="l00289"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#gafe98a9f69e6208a5f44616df0a43dab1">  289</a></span><span class="preprocessor">#define SPI_GUADTIME_10_SCK                         ((u16)0x0009)</span></div>
+<div class="line"><a id="l00290" name="l00290"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga692d2ddef015f8e75c7cd6b868dfbd5c">  290</a></span><span class="preprocessor">#define SPI_GUADTIME_11_SCK                         ((u16)0x000A)</span></div>
+<div class="line"><a id="l00291" name="l00291"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga9ae42e68a882531496a9b31ebb5598f5">  291</a></span><span class="preprocessor">#define SPI_GUADTIME_12_SCK                         ((u16)0x000B)</span></div>
+<div class="line"><a id="l00292" name="l00292"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#gaa298ab96ced2ce68d22ae9f3bf8899d2">  292</a></span><span class="preprocessor">#define SPI_GUADTIME_13_SCK                         ((u16)0x000C)</span></div>
+<div class="line"><a id="l00293" name="l00293"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#gac99630e98ac4e21d2dd47e649f84a114">  293</a></span><span class="preprocessor">#define SPI_GUADTIME_14_SCK                         ((u16)0x000D)</span></div>
+<div class="line"><a id="l00294" name="l00294"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga413ec0a222fe0c9750f11dd3dfbdf7b0">  294</a></span><span class="preprocessor">#define SPI_GUADTIME_15_SCK                         ((u16)0x000E)</span></div>
+<div class="line"><a id="l00295" name="l00295"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga702c61edf4dffde8cc9d2c1f9a20b08a">  295</a></span><span class="preprocessor">#define SPI_GUADTIME_16_SCK                         ((u16)0x000F)</span></div>
 <div class="line"><a id="l00296" name="l00296"></a><span class="lineno">  296</span> </div>
-<div class="line"><a id="l00297" name="l00297"></a><span class="lineno">  297</span><span class="preprocessor">#define IS_SPI_GUADTIME(GUADTIMEPERIOD)             ((GUADTIMEPERIOD &lt;= 0x000F))</span></div>
+<div class="line"><a id="l00297" name="l00297"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#gabb870e0f6c2063fd0ddf16f9a7d38b20">  297</a></span><span class="preprocessor">#define IS_SPI_GUADTIME(GUADTIMEPERIOD)             ((GUADTIMEPERIOD &lt;= 0x000F))</span></div>
 <div class="line"><a id="l00298" name="l00298"></a><span class="lineno">  298</span> </div>
 <div class="line"><a id="l00299" name="l00299"></a><span class="lineno">  299</span> </div>
-<div class="line"><a id="l00300" name="l00300"></a><span class="lineno">  300</span><span class="preprocessor">#define SPI_SELHOLDTIME_HALF_SCK                    ((u16)0x0000)</span></div>
-<div class="line"><a id="l00301" name="l00301"></a><span class="lineno">  301</span><span class="preprocessor">#define SPI_SELHOLDTIME_1_SCK                       ((u16)0x0001)</span></div>
-<div class="line"><a id="l00302" name="l00302"></a><span class="lineno">  302</span><span class="preprocessor">#define SPI_SELHOLDTIME_1_HALF_SCK                  ((u16)0x0002)</span></div>
-<div class="line"><a id="l00303" name="l00303"></a><span class="lineno">  303</span><span class="preprocessor">#define SPI_SELHOLDTIME_2_SCK                       ((u16)0x0003)</span></div>
-<div class="line"><a id="l00304" name="l00304"></a><span class="lineno">  304</span><span class="preprocessor">#define SPI_SELHOLDTIME_2_HALF_SCK                  ((u16)0x0004)</span></div>
-<div class="line"><a id="l00305" name="l00305"></a><span class="lineno">  305</span><span class="preprocessor">#define SPI_SELHOLDTIME_3_SCK                       ((u16)0x0005)</span></div>
-<div class="line"><a id="l00306" name="l00306"></a><span class="lineno">  306</span><span class="preprocessor">#define SPI_SELHOLDTIME_3_HALF_SCK                  ((u16)0x0006)</span></div>
-<div class="line"><a id="l00307" name="l00307"></a><span class="lineno">  307</span><span class="preprocessor">#define SPI_SELHOLDTIME_4_SCK                       ((u16)0x0007)</span></div>
-<div class="line"><a id="l00308" name="l00308"></a><span class="lineno">  308</span><span class="preprocessor">#define SPI_SELHOLDTIME_4_HALF_SCK                  ((u16)0x0008)</span></div>
-<div class="line"><a id="l00309" name="l00309"></a><span class="lineno">  309</span><span class="preprocessor">#define SPI_SELHOLDTIME_5_SCK                       ((u16)0x0009)</span></div>
-<div class="line"><a id="l00310" name="l00310"></a><span class="lineno">  310</span><span class="preprocessor">#define SPI_SELHOLDTIME_5_HALF_SCK                  ((u16)0x000A)</span></div>
-<div class="line"><a id="l00311" name="l00311"></a><span class="lineno">  311</span><span class="preprocessor">#define SPI_SELHOLDTIME_6_SCK                       ((u16)0x000B)</span></div>
-<div class="line"><a id="l00312" name="l00312"></a><span class="lineno">  312</span><span class="preprocessor">#define SPI_SELHOLDTIME_6_HALF_SCK                  ((u16)0x000C)</span></div>
-<div class="line"><a id="l00313" name="l00313"></a><span class="lineno">  313</span><span class="preprocessor">#define SPI_SELHOLDTIME_7_SCK                       ((u16)0x000D)</span></div>
-<div class="line"><a id="l00314" name="l00314"></a><span class="lineno">  314</span><span class="preprocessor">#define SPI_SELHOLDTIME_7_HALF_SCK                  ((u16)0x000E)</span></div>
-<div class="line"><a id="l00315" name="l00315"></a><span class="lineno">  315</span><span class="preprocessor">#define SPI_SELHOLDTIME_8_SCK                       ((u16)0x000F)</span></div>
+<div class="line"><a id="l00300" name="l00300"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga77d6fe0a95f99b8432b36a1b29d9a63a">  300</a></span><span class="preprocessor">#define SPI_SELHOLDTIME_HALF_SCK                    ((u16)0x0000)</span></div>
+<div class="line"><a id="l00301" name="l00301"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga433105055a1b1ff0a20b920cb444d1bf">  301</a></span><span class="preprocessor">#define SPI_SELHOLDTIME_1_SCK                       ((u16)0x0001)</span></div>
+<div class="line"><a id="l00302" name="l00302"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga8882ddd96749f230ec0b2d73b8ea46bc">  302</a></span><span class="preprocessor">#define SPI_SELHOLDTIME_1_HALF_SCK                  ((u16)0x0002)</span></div>
+<div class="line"><a id="l00303" name="l00303"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga1d02069c35d103e6b06136f18bdbbbd2">  303</a></span><span class="preprocessor">#define SPI_SELHOLDTIME_2_SCK                       ((u16)0x0003)</span></div>
+<div class="line"><a id="l00304" name="l00304"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga327095d337b5d901098e91e0f75a0407">  304</a></span><span class="preprocessor">#define SPI_SELHOLDTIME_2_HALF_SCK                  ((u16)0x0004)</span></div>
+<div class="line"><a id="l00305" name="l00305"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#gad02fe1d46cd91801cd68a8513b120971">  305</a></span><span class="preprocessor">#define SPI_SELHOLDTIME_3_SCK                       ((u16)0x0005)</span></div>
+<div class="line"><a id="l00306" name="l00306"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga70e22fd7860f0957f29494542e36eab2">  306</a></span><span class="preprocessor">#define SPI_SELHOLDTIME_3_HALF_SCK                  ((u16)0x0006)</span></div>
+<div class="line"><a id="l00307" name="l00307"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga2cf01eaca8bc972aa2061eff34228580">  307</a></span><span class="preprocessor">#define SPI_SELHOLDTIME_4_SCK                       ((u16)0x0007)</span></div>
+<div class="line"><a id="l00308" name="l00308"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga58cd3e263666ed0cb68a841d37f72c75">  308</a></span><span class="preprocessor">#define SPI_SELHOLDTIME_4_HALF_SCK                  ((u16)0x0008)</span></div>
+<div class="line"><a id="l00309" name="l00309"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#gaf7739167844cf8c4db37b1f74dc07b6a">  309</a></span><span class="preprocessor">#define SPI_SELHOLDTIME_5_SCK                       ((u16)0x0009)</span></div>
+<div class="line"><a id="l00310" name="l00310"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga2771b5f460a87a6e66e4d962f1554674">  310</a></span><span class="preprocessor">#define SPI_SELHOLDTIME_5_HALF_SCK                  ((u16)0x000A)</span></div>
+<div class="line"><a id="l00311" name="l00311"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga4e4411f2267deb4f27e1d3d685f407f1">  311</a></span><span class="preprocessor">#define SPI_SELHOLDTIME_6_SCK                       ((u16)0x000B)</span></div>
+<div class="line"><a id="l00312" name="l00312"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga494440243d81108cd801a48c66bda748">  312</a></span><span class="preprocessor">#define SPI_SELHOLDTIME_6_HALF_SCK                  ((u16)0x000C)</span></div>
+<div class="line"><a id="l00313" name="l00313"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga8817181d5cd51d5315b645c7f401e3b8">  313</a></span><span class="preprocessor">#define SPI_SELHOLDTIME_7_SCK                       ((u16)0x000D)</span></div>
+<div class="line"><a id="l00314" name="l00314"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga23b1030a53f8ababb76050b90f49aaf6">  314</a></span><span class="preprocessor">#define SPI_SELHOLDTIME_7_HALF_SCK                  ((u16)0x000E)</span></div>
+<div class="line"><a id="l00315" name="l00315"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#gaad55584d150cc17aa4fca2b456db8ab4">  315</a></span><span class="preprocessor">#define SPI_SELHOLDTIME_8_SCK                       ((u16)0x000F)</span></div>
 <div class="line"><a id="l00316" name="l00316"></a><span class="lineno">  316</span> </div>
-<div class="line"><a id="l00317" name="l00317"></a><span class="lineno">  317</span><span class="preprocessor">#define IS_SPI_SELHOLDTIME(SELHOLDTIME)             ((SELHOLDTIME &lt;= 0x000F))</span></div>
+<div class="line"><a id="l00317" name="l00317"></a><span class="lineno"><a class="line" href="group___s_p_i___exported___constants.html#ga30684701d88dde0386b32863ad679ece">  317</a></span><span class="preprocessor">#define IS_SPI_SELHOLDTIME(SELHOLDTIME)             ((SELHOLDTIME &lt;= 0x000F))</span></div>
 <div class="line"><a id="l00322" name="l00322"></a><span class="lineno">  322</span><span class="comment">/* Exported functions --------------------------------------------------------------------------------------*/</span></div>
 <div class="line"><a id="l00326" name="l00326"></a><span class="lineno">  326</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___s_p_i___exported___functions.html#gaf951b9caad80b7122e5794efdb3e446a">SPI_DeInit</a>(<a class="code hl_struct" href="struct_h_t___s_p_i___type_def.html">HT_SPI_TypeDef</a>* SPIx);</div>
 <div class="line"><a id="l00327" name="l00327"></a><span class="lineno">  327</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___s_p_i___exported___functions.html#gaa1184f90ba0bc43110d66030def0eab7">SPI_Init</a>(<a class="code hl_struct" href="struct_h_t___s_p_i___type_def.html">HT_SPI_TypeDef</a>* SPIx, <a class="code hl_struct" href="struct_s_p_i___init_type_def.html">SPI_InitTypeDef</a>* SPI_InitStruct);</div>
 <div class="line"><a id="l00328" name="l00328"></a><span class="lineno">  328</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___s_p_i___exported___functions.html#ga9a0116f88cc2c4478c270f05608703f1">SPI_StructInit</a>(<a class="code hl_struct" href="struct_s_p_i___init_type_def.html">SPI_InitTypeDef</a>* SPI_InitStruct);</div>
-<div class="line"><a id="l00329" name="l00329"></a><span class="lineno">  329</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___s_p_i___exported___functions.html#ga4e2dcc29339ca1f003f12509d2de13a9">SPI_Cmd</a>(<a class="code hl_struct" href="struct_h_t___s_p_i___type_def.html">HT_SPI_TypeDef</a>* SPIx, ControlStatus NewState);</div>
+<div class="line"><a id="l00329" name="l00329"></a><span class="lineno">  329</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___s_p_i___exported___functions.html#ga4e2dcc29339ca1f003f12509d2de13a9">SPI_Cmd</a>(<a class="code hl_struct" href="struct_h_t___s_p_i___type_def.html">HT_SPI_TypeDef</a>* SPIx, <a class="code hl_typedef" href="group___exported___types.html#ga7e0a5efd47ffb7f58fcc2e1cb1e38dae">ControlStatus</a> NewState);</div>
 <div class="line"><a id="l00330" name="l00330"></a><span class="lineno">  330</span><span class="preprocessor">#if (!LIBCFG_SPI_NO_MULTI_MASTER)</span></div>
-<div class="line"><a id="l00331" name="l00331"></a><span class="lineno">  331</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___s_p_i___exported___functions.html#gaeefce392a1062697051668097de6e718">SPI_SELOutputCmd</a>(<a class="code hl_struct" href="struct_h_t___s_p_i___type_def.html">HT_SPI_TypeDef</a>* SPIx, ControlStatus NewState);</div>
+<div class="line"><a id="l00331" name="l00331"></a><span class="lineno">  331</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___s_p_i___exported___functions.html#gaeefce392a1062697051668097de6e718">SPI_SELOutputCmd</a>(<a class="code hl_struct" href="struct_h_t___s_p_i___type_def.html">HT_SPI_TypeDef</a>* SPIx, <a class="code hl_typedef" href="group___exported___types.html#ga7e0a5efd47ffb7f58fcc2e1cb1e38dae">ControlStatus</a> NewState);</div>
 <div class="line"><a id="l00332" name="l00332"></a><span class="lineno">  332</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00333" name="l00333"></a><span class="lineno">  333</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___s_p_i___exported___functions.html#ga35289deaec32a1e495fb0f1ec107bc80">SPI_FIFOCmd</a>(<a class="code hl_struct" href="struct_h_t___s_p_i___type_def.html">HT_SPI_TypeDef</a>* SPIx, ControlStatus NewState);</div>
-<div class="line"><a id="l00334" name="l00334"></a><span class="lineno">  334</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___s_p_i___exported___functions.html#ga7d2b668fee3bf97977296cdcb7b0467d">SPI_SetDataLength</a>(<a class="code hl_struct" href="struct_h_t___s_p_i___type_def.html">HT_SPI_TypeDef</a>* SPIx, u16 SPI_DataLength);</div>
-<div class="line"><a id="l00335" name="l00335"></a><span class="lineno">  335</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___s_p_i___exported___functions.html#gaf571557bb530ae6089e615afadac4fe6">SPI_SELModeConfig</a>(<a class="code hl_struct" href="struct_h_t___s_p_i___type_def.html">HT_SPI_TypeDef</a>* SPIx, u32 SPI_SELMode);</div>
-<div class="line"><a id="l00336" name="l00336"></a><span class="lineno">  336</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___s_p_i___exported___functions.html#ga49c64dc206992ef19b8c300eb63c2aa7">SPI_SoftwareSELCmd</a>(<a class="code hl_struct" href="struct_h_t___s_p_i___type_def.html">HT_SPI_TypeDef</a>* SPIx, u32 SPI_SoftwareSEL);</div>
-<div class="line"><a id="l00337" name="l00337"></a><span class="lineno">  337</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___s_p_i___exported___functions.html#gad1fb0b99362bd6cd516470c53a05c4b6">SPI_SendData</a>(<a class="code hl_struct" href="struct_h_t___s_p_i___type_def.html">HT_SPI_TypeDef</a>* SPIx, SPI_DataTypeDef SPI_Data);</div>
-<div class="line"><a id="l00338" name="l00338"></a><span class="lineno">  338</span>SPI_DataTypeDef <a class="code hl_function" href="group___s_p_i___exported___functions.html#ga9db5cff37e6f1bc165333f756cf4753f">SPI_ReceiveData</a>(<a class="code hl_struct" href="struct_h_t___s_p_i___type_def.html">HT_SPI_TypeDef</a>* SPIx);</div>
-<div class="line"><a id="l00339" name="l00339"></a><span class="lineno">  339</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___s_p_i___exported___functions.html#gad7dfe170c4cc7701edc89f24c984fae8">SPI_SetTimeOutValue</a>(<a class="code hl_struct" href="struct_h_t___s_p_i___type_def.html">HT_SPI_TypeDef</a>* SPIx, SPI_TimeoutTypeDef SPI_Timeout);</div>
-<div class="line"><a id="l00340" name="l00340"></a><span class="lineno">  340</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___s_p_i___exported___functions.html#gabd64fa5aa7f3527da485082f999fb61b">SPI_IntConfig</a>(<a class="code hl_struct" href="struct_h_t___s_p_i___type_def.html">HT_SPI_TypeDef</a>* SPIx, u32 SPI_Int, ControlStatus NewState);</div>
-<div class="line"><a id="l00341" name="l00341"></a><span class="lineno">  341</span>FlagStatus <a class="code hl_function" href="group___s_p_i___exported___functions.html#gaede36fe763cb6cf7d25819e08f0040ae">SPI_GetFlagStatus</a>(<a class="code hl_struct" href="struct_h_t___s_p_i___type_def.html">HT_SPI_TypeDef</a>* SPIx, u32 SPI_Flag);</div>
-<div class="line"><a id="l00342" name="l00342"></a><span class="lineno">  342</span>u8 <a class="code hl_function" href="group___s_p_i___exported___functions.html#ga73ecd07e43e2cf798cd70fcf467a85c2">SPI_GetFIFOStatus</a>(<a class="code hl_struct" href="struct_h_t___s_p_i___type_def.html">HT_SPI_TypeDef</a>* SPIx, u32 SPI_FIFODirection);</div>
-<div class="line"><a id="l00343" name="l00343"></a><span class="lineno">  343</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___s_p_i___exported___functions.html#gafc7576993df0aabd036c5f4d57ccc13d">SPI_ClearFlag</a>(<a class="code hl_struct" href="struct_h_t___s_p_i___type_def.html">HT_SPI_TypeDef</a>* SPIx, u32 SPI_FlagClear);</div>
-<div class="line"><a id="l00344" name="l00344"></a><span class="lineno">  344</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___s_p_i___exported___functions.html#ga2591be74520eef5ae71f1dfbac922ac9">SPI_FIFOTriggerLevelConfig</a>(<a class="code hl_struct" href="struct_h_t___s_p_i___type_def.html">HT_SPI_TypeDef</a>* SPIx, u32 SPI_FIFODirection, u8 SPI_FIFOLevel);</div>
+<div class="line"><a id="l00333" name="l00333"></a><span class="lineno">  333</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___s_p_i___exported___functions.html#ga35289deaec32a1e495fb0f1ec107bc80">SPI_FIFOCmd</a>(<a class="code hl_struct" href="struct_h_t___s_p_i___type_def.html">HT_SPI_TypeDef</a>* SPIx, <a class="code hl_typedef" href="group___exported___types.html#ga7e0a5efd47ffb7f58fcc2e1cb1e38dae">ControlStatus</a> NewState);</div>
+<div class="line"><a id="l00334" name="l00334"></a><span class="lineno">  334</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___s_p_i___exported___functions.html#ga7d2b668fee3bf97977296cdcb7b0467d">SPI_SetDataLength</a>(<a class="code hl_struct" href="struct_h_t___s_p_i___type_def.html">HT_SPI_TypeDef</a>* SPIx, <a class="code hl_typedef" href="group___exported___types.html#ga9e6c91d77e24643b888dbd1a1a590054">u16</a> SPI_DataLength);</div>
+<div class="line"><a id="l00335" name="l00335"></a><span class="lineno">  335</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___s_p_i___exported___functions.html#gaf571557bb530ae6089e615afadac4fe6">SPI_SELModeConfig</a>(<a class="code hl_struct" href="struct_h_t___s_p_i___type_def.html">HT_SPI_TypeDef</a>* SPIx, <a class="code hl_typedef" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> SPI_SELMode);</div>
+<div class="line"><a id="l00336" name="l00336"></a><span class="lineno">  336</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___s_p_i___exported___functions.html#ga49c64dc206992ef19b8c300eb63c2aa7">SPI_SoftwareSELCmd</a>(<a class="code hl_struct" href="struct_h_t___s_p_i___type_def.html">HT_SPI_TypeDef</a>* SPIx, <a class="code hl_typedef" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> SPI_SoftwareSEL);</div>
+<div class="line"><a id="l00337" name="l00337"></a><span class="lineno">  337</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___s_p_i___exported___functions.html#gad1fb0b99362bd6cd516470c53a05c4b6">SPI_SendData</a>(<a class="code hl_struct" href="struct_h_t___s_p_i___type_def.html">HT_SPI_TypeDef</a>* SPIx, <a class="code hl_typedef" href="group___s_p_i___exported___types.html#gac45e9e9b6e07f41ad440c530e3a547b6">SPI_DataTypeDef</a> SPI_Data);</div>
+<div class="line"><a id="l00338" name="l00338"></a><span class="lineno">  338</span><a class="code hl_typedef" href="group___s_p_i___exported___types.html#gac45e9e9b6e07f41ad440c530e3a547b6">SPI_DataTypeDef</a> <a class="code hl_function" href="group___s_p_i___exported___functions.html#ga9db5cff37e6f1bc165333f756cf4753f">SPI_ReceiveData</a>(<a class="code hl_struct" href="struct_h_t___s_p_i___type_def.html">HT_SPI_TypeDef</a>* SPIx);</div>
+<div class="line"><a id="l00339" name="l00339"></a><span class="lineno">  339</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___s_p_i___exported___functions.html#gad7dfe170c4cc7701edc89f24c984fae8">SPI_SetTimeOutValue</a>(<a class="code hl_struct" href="struct_h_t___s_p_i___type_def.html">HT_SPI_TypeDef</a>* SPIx, <a class="code hl_typedef" href="group___s_p_i___exported___types.html#ga98b598ad41f81495c309b9268579c5e8">SPI_TimeoutTypeDef</a> SPI_Timeout);</div>
+<div class="line"><a id="l00340" name="l00340"></a><span class="lineno">  340</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___s_p_i___exported___functions.html#gabd64fa5aa7f3527da485082f999fb61b">SPI_IntConfig</a>(<a class="code hl_struct" href="struct_h_t___s_p_i___type_def.html">HT_SPI_TypeDef</a>* SPIx, <a class="code hl_typedef" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> SPI_Int, <a class="code hl_typedef" href="group___exported___types.html#ga7e0a5efd47ffb7f58fcc2e1cb1e38dae">ControlStatus</a> NewState);</div>
+<div class="line"><a id="l00341" name="l00341"></a><span class="lineno">  341</span><a class="code hl_enumeration" href="group___exported___types.html#ga89136caac2e14c55151f527ac02daaff">FlagStatus</a> <a class="code hl_function" href="group___s_p_i___exported___functions.html#gaede36fe763cb6cf7d25819e08f0040ae">SPI_GetFlagStatus</a>(<a class="code hl_struct" href="struct_h_t___s_p_i___type_def.html">HT_SPI_TypeDef</a>* SPIx, <a class="code hl_typedef" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> SPI_Flag);</div>
+<div class="line"><a id="l00342" name="l00342"></a><span class="lineno">  342</span><a class="code hl_typedef" href="group___exported___types.html#gaed742c436da53c1080638ce6ef7d13de">u8</a> <a class="code hl_function" href="group___s_p_i___exported___functions.html#ga73ecd07e43e2cf798cd70fcf467a85c2">SPI_GetFIFOStatus</a>(<a class="code hl_struct" href="struct_h_t___s_p_i___type_def.html">HT_SPI_TypeDef</a>* SPIx, <a class="code hl_typedef" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> SPI_FIFODirection);</div>
+<div class="line"><a id="l00343" name="l00343"></a><span class="lineno">  343</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___s_p_i___exported___functions.html#gafc7576993df0aabd036c5f4d57ccc13d">SPI_ClearFlag</a>(<a class="code hl_struct" href="struct_h_t___s_p_i___type_def.html">HT_SPI_TypeDef</a>* SPIx, <a class="code hl_typedef" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> SPI_FlagClear);</div>
+<div class="line"><a id="l00344" name="l00344"></a><span class="lineno">  344</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___s_p_i___exported___functions.html#ga2591be74520eef5ae71f1dfbac922ac9">SPI_FIFOTriggerLevelConfig</a>(<a class="code hl_struct" href="struct_h_t___s_p_i___type_def.html">HT_SPI_TypeDef</a>* SPIx, <a class="code hl_typedef" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> SPI_FIFODirection, <a class="code hl_typedef" href="group___exported___types.html#gaed742c436da53c1080638ce6ef7d13de">u8</a> SPI_FIFOLevel);</div>
 <div class="line"><a id="l00345" name="l00345"></a><span class="lineno">  345</span><span class="preprocessor">#if (LIBCFG_PDMA)</span></div>
-<div class="line"><a id="l00346" name="l00346"></a><span class="lineno">  346</span><span class="keywordtype">void</span> SPI_PDMACmd(<a class="code hl_struct" href="struct_h_t___s_p_i___type_def.html">HT_SPI_TypeDef</a>* SPIx, u32 SPI_PDMAREQ, ControlStatus NewState);</div>
+<div class="line"><a id="l00346" name="l00346"></a><span class="lineno">  346</span><span class="keywordtype">void</span> SPI_PDMACmd(<a class="code hl_struct" href="struct_h_t___s_p_i___type_def.html">HT_SPI_TypeDef</a>* SPIx, <a class="code hl_typedef" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> SPI_PDMAREQ, <a class="code hl_typedef" href="group___exported___types.html#ga7e0a5efd47ffb7f58fcc2e1cb1e38dae">ControlStatus</a> NewState);</div>
 <div class="line"><a id="l00347" name="l00347"></a><span class="lineno">  347</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00348" name="l00348"></a><span class="lineno">  348</span><span class="preprocessor">#if (!LIBCFG_SPI_NO_DUAL)</span></div>
-<div class="line"><a id="l00349" name="l00349"></a><span class="lineno">  349</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___s_p_i___exported___functions.html#ga3ccfcb59338d0f9df5e01aae04033823">SPI_DUALCmd</a>(<a class="code hl_struct" href="struct_h_t___s_p_i___type_def.html">HT_SPI_TypeDef</a>* SPIx, ControlStatus NewState);</div>
+<div class="line"><a id="l00349" name="l00349"></a><span class="lineno">  349</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___s_p_i___exported___functions.html#ga3ccfcb59338d0f9df5e01aae04033823">SPI_DUALCmd</a>(<a class="code hl_struct" href="struct_h_t___s_p_i___type_def.html">HT_SPI_TypeDef</a>* SPIx, <a class="code hl_typedef" href="group___exported___types.html#ga7e0a5efd47ffb7f58fcc2e1cb1e38dae">ControlStatus</a> NewState);</div>
 <div class="line"><a id="l00350" name="l00350"></a><span class="lineno">  350</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00351" name="l00351"></a><span class="lineno">  351</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___s_p_i___exported___functions.html#gadfff15f012113ff43c7b526f172d8c66">SPI_GUARDTCmd</a>(<a class="code hl_struct" href="struct_h_t___s_p_i___type_def.html">HT_SPI_TypeDef</a>* SPIx, ControlStatus NewState);</div>
-<div class="line"><a id="l00352" name="l00352"></a><span class="lineno">  352</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___s_p_i___exported___functions.html#gab250cdfb760de7e4759ad7aaae284f61">SPI_GUARDTConfig</a>(<a class="code hl_struct" href="struct_h_t___s_p_i___type_def.html">HT_SPI_TypeDef</a>* SPIx, u32 Guard_Time);</div>
-<div class="line"><a id="l00353" name="l00353"></a><span class="lineno">  353</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___s_p_i___exported___functions.html#ga221aa55d24af09e728808146a6a311f7">SPI_SELHTConfig</a>(<a class="code hl_struct" href="struct_h_t___s_p_i___type_def.html">HT_SPI_TypeDef</a>* SPIx, u32 CS_Hold_Time);</div>
+<div class="line"><a id="l00351" name="l00351"></a><span class="lineno">  351</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___s_p_i___exported___functions.html#gadfff15f012113ff43c7b526f172d8c66">SPI_GUARDTCmd</a>(<a class="code hl_struct" href="struct_h_t___s_p_i___type_def.html">HT_SPI_TypeDef</a>* SPIx, <a class="code hl_typedef" href="group___exported___types.html#ga7e0a5efd47ffb7f58fcc2e1cb1e38dae">ControlStatus</a> NewState);</div>
+<div class="line"><a id="l00352" name="l00352"></a><span class="lineno">  352</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___s_p_i___exported___functions.html#gab250cdfb760de7e4759ad7aaae284f61">SPI_GUARDTConfig</a>(<a class="code hl_struct" href="struct_h_t___s_p_i___type_def.html">HT_SPI_TypeDef</a>* SPIx, <a class="code hl_typedef" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> Guard_Time);</div>
+<div class="line"><a id="l00353" name="l00353"></a><span class="lineno">  353</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___s_p_i___exported___functions.html#ga221aa55d24af09e728808146a6a311f7">SPI_SELHTConfig</a>(<a class="code hl_struct" href="struct_h_t___s_p_i___type_def.html">HT_SPI_TypeDef</a>* SPIx, <a class="code hl_typedef" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> CS_Hold_Time);</div>
 <div class="line"><a id="l00354" name="l00354"></a><span class="lineno">  354</span><span class="preprocessor">#if (LIBCFG_QSPI)</span></div>
-<div class="line"><a id="l00355" name="l00355"></a><span class="lineno">  355</span><span class="keywordtype">void</span> QSPI_QuadCmd(<a class="code hl_struct" href="struct_h_t___s_p_i___type_def.html">HT_SPI_TypeDef</a>* SPIx, ControlStatus NewState);</div>
+<div class="line"><a id="l00355" name="l00355"></a><span class="lineno">  355</span><span class="keywordtype">void</span> QSPI_QuadCmd(<a class="code hl_struct" href="struct_h_t___s_p_i___type_def.html">HT_SPI_TypeDef</a>* SPIx, <a class="code hl_typedef" href="group___exported___types.html#ga7e0a5efd47ffb7f58fcc2e1cb1e38dae">ControlStatus</a> NewState);</div>
 <div class="line"><a id="l00356" name="l00356"></a><span class="lineno">  356</span><span class="keywordtype">void</span> QSPI_DirectionConfig(<a class="code hl_struct" href="struct_h_t___s_p_i___type_def.html">HT_SPI_TypeDef</a>* SPIx, SIO_DIR_Enum SIO_DIR_INorOUT);</div>
 <div class="line"><a id="l00357" name="l00357"></a><span class="lineno">  357</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00371" name="l00371"></a><span class="lineno">  371</span><span class="preprocessor">#ifdef __cplusplus</span></div>
@@ -407,6 +443,11 @@ $(document).ready(function(){initNavTree('ht32f5xxxx__spi_8h_source.html',''); i
 <div class="line"><a id="l00373" name="l00373"></a><span class="lineno">  373</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00374" name="l00374"></a><span class="lineno">  374</span> </div>
 <div class="line"><a id="l00375" name="l00375"></a><span class="lineno">  375</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="agroup___exported___types_html_ga10e94b422ef0c20dcdec20d31a1f5049"><div class="ttname"><a href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a></div><div class="ttdeci">unsigned int u32</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_01.h:493</div></div>
+<div class="ttc" id="agroup___exported___types_html_ga7e0a5efd47ffb7f58fcc2e1cb1e38dae"><div class="ttname"><a href="group___exported___types.html#ga7e0a5efd47ffb7f58fcc2e1cb1e38dae">ControlStatus</a></div><div class="ttdeci">enum EventStatus ControlStatus</div></div>
+<div class="ttc" id="agroup___exported___types_html_ga89136caac2e14c55151f527ac02daaff"><div class="ttname"><a href="group___exported___types.html#ga89136caac2e14c55151f527ac02daaff">FlagStatus</a></div><div class="ttdeci">FlagStatus</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_01.h:524</div></div>
+<div class="ttc" id="agroup___exported___types_html_ga9e6c91d77e24643b888dbd1a1a590054"><div class="ttname"><a href="group___exported___types.html#ga9e6c91d77e24643b888dbd1a1a590054">u16</a></div><div class="ttdeci">unsigned short u16</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_01.h:494</div></div>
+<div class="ttc" id="agroup___exported___types_html_gaed742c436da53c1080638ce6ef7d13de"><div class="ttname"><a href="group___exported___types.html#gaed742c436da53c1080638ce6ef7d13de">u8</a></div><div class="ttdeci">unsigned char u8</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_01.h:495</div></div>
 <div class="ttc" id="agroup___s_p_i___exported___functions_html_ga221aa55d24af09e728808146a6a311f7"><div class="ttname"><a href="group___s_p_i___exported___functions.html#ga221aa55d24af09e728808146a6a311f7">SPI_SELHTConfig</a></div><div class="ttdeci">void SPI_SELHTConfig(HT_SPI_TypeDef *SPIx, u32 CS_Hold_Time)</div><div class="ttdoc">Set the SPIx chip select hold time.</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_spi.c:693</div></div>
 <div class="ttc" id="agroup___s_p_i___exported___functions_html_ga2591be74520eef5ae71f1dfbac922ac9"><div class="ttname"><a href="group___s_p_i___exported___functions.html#ga2591be74520eef5ae71f1dfbac922ac9">SPI_FIFOTriggerLevelConfig</a></div><div class="ttdeci">void SPI_FIFOTriggerLevelConfig(HT_SPI_TypeDef *SPIx, u32 SPI_FIFODirection, u8 SPI_FIFOLevel)</div><div class="ttdoc">Set the trigger level of SPI FIFO.</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_spi.c:546</div></div>
 <div class="ttc" id="agroup___s_p_i___exported___functions_html_ga35289deaec32a1e495fb0f1ec107bc80"><div class="ttname"><a href="group___s_p_i___exported___functions.html#ga35289deaec32a1e495fb0f1ec107bc80">SPI_FIFOCmd</a></div><div class="ttdeci">void SPI_FIFOCmd(HT_SPI_TypeDef *SPIx, ControlStatus NewState)</div><div class="ttdoc">Enable or Disable SPI FIFO.</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_spi.c:282</div></div>
@@ -428,18 +469,27 @@ $(document).ready(function(){initNavTree('ht32f5xxxx__spi_8h_source.html',''); i
 <div class="ttc" id="agroup___s_p_i___exported___functions_html_gaf571557bb530ae6089e615afadac4fe6"><div class="ttname"><a href="group___s_p_i___exported___functions.html#gaf571557bb530ae6089e615afadac4fe6">SPI_SELModeConfig</a></div><div class="ttdeci">void SPI_SELModeConfig(HT_SPI_TypeDef *SPIx, u32 SPI_SELMode)</div><div class="ttdoc">SEL pin is configured to be driven by hardware or software.</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_spi.c:330</div></div>
 <div class="ttc" id="agroup___s_p_i___exported___functions_html_gaf951b9caad80b7122e5794efdb3e446a"><div class="ttname"><a href="group___s_p_i___exported___functions.html#gaf951b9caad80b7122e5794efdb3e446a">SPI_DeInit</a></div><div class="ttdeci">void SPI_DeInit(HT_SPI_TypeDef *SPIx)</div><div class="ttdoc">Deinitialize the SPI peripheral registers to their default reset values.</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_spi.c:106</div></div>
 <div class="ttc" id="agroup___s_p_i___exported___functions_html_gafc7576993df0aabd036c5f4d57ccc13d"><div class="ttname"><a href="group___s_p_i___exported___functions.html#gafc7576993df0aabd036c5f4d57ccc13d">SPI_ClearFlag</a></div><div class="ttdeci">void SPI_ClearFlag(HT_SPI_TypeDef *SPIx, u32 SPI_FlagClear)</div><div class="ttdoc">Clear the specified SPI flag.</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_spi.c:527</div></div>
+<div class="ttc" id="agroup___s_p_i___exported___types_html_ga98b598ad41f81495c309b9268579c5e8"><div class="ttname"><a href="group___s_p_i___exported___types.html#ga98b598ad41f81495c309b9268579c5e8">SPI_TimeoutTypeDef</a></div><div class="ttdeci">u16 SPI_TimeoutTypeDef</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_spi.h:66</div></div>
+<div class="ttc" id="agroup___s_p_i___exported___types_html_gac45e9e9b6e07f41ad440c530e3a547b6"><div class="ttname"><a href="group___s_p_i___exported___types.html#gac45e9e9b6e07f41ad440c530e3a547b6">SPI_DataTypeDef</a></div><div class="ttdeci">u16 SPI_DataTypeDef</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_spi.h:60</div></div>
 <div class="ttc" id="aht32_8h_html"><div class="ttname"><a href="ht32_8h.html">ht32.h</a></div><div class="ttdoc">The API between application and HT32FXXXX Firmware Library.</div></div>
 <div class="ttc" id="aht32f5xxxx__spi__midi_8h_html"><div class="ttname"><a href="ht32f5xxxx__spi__midi_8h.html">ht32f5xxxx_spi_midi.h</a></div><div class="ttdoc">The header file of SPI library (MIDI Control).</div></div>
 <div class="ttc" id="astruct_h_t___s_p_i___type_def_html"><div class="ttname"><a href="struct_h_t___s_p_i___type_def.html">HT_SPI_TypeDef</a></div><div class="ttdoc">SPI.</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_01.h:644</div></div>
 <div class="ttc" id="astruct_s_p_i___init_type_def_html"><div class="ttname"><a href="struct_s_p_i___init_type_def.html">SPI_InitTypeDef</a></div><div class="ttdef"><b>Definition</b> ht32f5xxxx_spi.h:70</div></div>
+<div class="ttc" id="astruct_s_p_i___init_type_def_html_a096df1166d8470c1c5e94cfed82a80db"><div class="ttname"><a href="struct_s_p_i___init_type_def.html#a096df1166d8470c1c5e94cfed82a80db">SPI_InitTypeDef::SPI_TxFIFOTriggerLevel</a></div><div class="ttdeci">u32 SPI_TxFIFOTriggerLevel</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_spi.h:80</div></div>
+<div class="ttc" id="astruct_s_p_i___init_type_def_html_a193db6d35151eb5f409655abc51ce0e8"><div class="ttname"><a href="struct_s_p_i___init_type_def.html#a193db6d35151eb5f409655abc51ce0e8">SPI_InitTypeDef::SPI_RxFIFOTriggerLevel</a></div><div class="ttdeci">u32 SPI_RxFIFOTriggerLevel</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_spi.h:79</div></div>
+<div class="ttc" id="astruct_s_p_i___init_type_def_html_a34b1d8bf98c09eaec30675c7770fde68"><div class="ttname"><a href="struct_s_p_i___init_type_def.html#a34b1d8bf98c09eaec30675c7770fde68">SPI_InitTypeDef::SPI_CPOL</a></div><div class="ttdeci">u32 SPI_CPOL</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_spi.h:76</div></div>
+<div class="ttc" id="astruct_s_p_i___init_type_def_html_a384c494b054041dcd8211872f46b3d15"><div class="ttname"><a href="struct_s_p_i___init_type_def.html#a384c494b054041dcd8211872f46b3d15">SPI_InitTypeDef::SPI_ClockPrescaler</a></div><div class="ttdeci">u32 SPI_ClockPrescaler</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_spi.h:81</div></div>
+<div class="ttc" id="astruct_s_p_i___init_type_def_html_a3f67bb46b77b12f3b6d4c89107c64566"><div class="ttname"><a href="struct_s_p_i___init_type_def.html#a3f67bb46b77b12f3b6d4c89107c64566">SPI_InitTypeDef::SPI_SELMode</a></div><div class="ttdeci">u32 SPI_SELMode</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_spi.h:74</div></div>
+<div class="ttc" id="astruct_s_p_i___init_type_def_html_a49372dab5177b68ff8c332ccc356c97f"><div class="ttname"><a href="struct_s_p_i___init_type_def.html#a49372dab5177b68ff8c332ccc356c97f">SPI_InitTypeDef::SPI_CPHA</a></div><div class="ttdeci">u32 SPI_CPHA</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_spi.h:77</div></div>
+<div class="ttc" id="astruct_s_p_i___init_type_def_html_a87a6c5edb473014c53439573ed5ce3c2"><div class="ttname"><a href="struct_s_p_i___init_type_def.html#a87a6c5edb473014c53439573ed5ce3c2">SPI_InitTypeDef::SPI_FirstBit</a></div><div class="ttdeci">u32 SPI_FirstBit</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_spi.h:78</div></div>
+<div class="ttc" id="astruct_s_p_i___init_type_def_html_aa0162694466eca3e0de4da273e5d1d73"><div class="ttname"><a href="struct_s_p_i___init_type_def.html#aa0162694466eca3e0de4da273e5d1d73">SPI_InitTypeDef::SPI_Mode</a></div><div class="ttdeci">u32 SPI_Mode</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_spi.h:71</div></div>
+<div class="ttc" id="astruct_s_p_i___init_type_def_html_ab9d8ee4f9ecba9f4450f885a8b8b7b96"><div class="ttname"><a href="struct_s_p_i___init_type_def.html#ab9d8ee4f9ecba9f4450f885a8b8b7b96">SPI_InitTypeDef::SPI_SELPolarity</a></div><div class="ttdeci">u32 SPI_SELPolarity</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_spi.h:75</div></div>
+<div class="ttc" id="astruct_s_p_i___init_type_def_html_ad03147d07672778c49342028085b2708"><div class="ttname"><a href="struct_s_p_i___init_type_def.html#ad03147d07672778c49342028085b2708">SPI_InitTypeDef::SPI_DataLength</a></div><div class="ttdeci">u32 SPI_DataLength</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_spi.h:73</div></div>
+<div class="ttc" id="astruct_s_p_i___init_type_def_html_afc805e2bfeeee025ebeff953eab738af"><div class="ttname"><a href="struct_s_p_i___init_type_def.html#afc805e2bfeeee025ebeff953eab738af">SPI_InitTypeDef::SPI_FIFO</a></div><div class="ttdeci">u32 SPI_FIFO</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_spi.h:72</div></div>
 </div><!-- fragment --></div><!-- contents -->
-</div><!-- doc-content -->
 <!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="navelem"><a class="el" href="dir_275089585c7fc1b5fd5d7d42c69cb1da.html">D:</a></li><li class="navelem"><a class="el" href="dir_273f27263c611837868160ff0f82bfd9.html">Note_Database</a></li><li class="navelem"><a class="el" href="dir_e8282a48381dd1bcf012c1bae1dc741b.html">Subject</a></li><li class="navelem"><a class="el" href="dir_7583b43eec1d2788dd81e658186519d2.html">MCETA Microcontroller Experiment TA</a></li><li class="navelem"><a class="el" href="dir_3ca5c6b4c4a2c10c94024caf0df2e6bb.html">files</a></li><li class="navelem"><a class="el" href="dir_79e3244e27785f7ec158b45668f9e3ec.html">HT32_STD_5xxxx_FWLib_V1.5.1_7084b</a></li><li class="navelem"><a class="el" href="dir_6965e01511015f2942f432da2d4a5bcb.html">library</a></li><li class="navelem"><a class="el" href="dir_a2f81702cb5fc8b133c02bd1d2044bc0.html">HT32F5xxxx_Driver</a></li><li class="navelem"><a class="el" href="dir_5295d97ccb3d03e3674380e8c26a1d02.html">inc</a></li><li class="navelem"><a class="el" href="ht32f5xxxx__spi_8h.html">ht32f5xxxx_spi.h</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
-  </ul>
-</div>
+<hr class="footer"/><address class="footer"><small>
+Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+</small></address>
 </body>
 </html>

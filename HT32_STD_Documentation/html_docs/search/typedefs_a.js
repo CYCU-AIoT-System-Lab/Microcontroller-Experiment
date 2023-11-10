@@ -1,0 +1,24 @@
+var searchData=
+[
+  ['s16_0',['s16',['../group___exported___types.html#ga5ffa4f640862b25ba6d4f635b78bdbe1',1,'ht32f5xxxx_01.h']]],
+  ['s32_1',['s32',['../group___exported___types.html#ga0ce6887c26c1c49ad3be5710dd42bfd6',1,'ht32f5xxxx_01.h']]],
+  ['s64_2',['s64',['../group___exported___types.html#ga4258bfb2c3a440d06c4aaa3c2b450dde',1,'ht32f5xxxx_01.h']]],
+  ['s8_3',['s8',['../group___exported___types.html#ga151f780fb455885061d3b77ec1c90c03',1,'ht32f5xxxx_01.h']]],
+  ['sbc_5fcapacity10data_5ftypedef_4',['sbc_capacity10data_typedef',['../group___h_i_d___keyboard___mass___storage.html#ga9baa0f392972f72a5145f56361960b91',1,'SBC_Capacity10Data_TypeDef:&#160;usb_scsi.h'],['../group___mass___storage.html#gaa14d5a54478b7259d1b8446fce721548',1,'SBC_Capacity10Data_TypeDef:&#160;usb_scsi.h']]],
+  ['sbc_5fcmdinquiry_5ftypedef_5',['sbc_cmdinquiry_typedef',['../group___h_i_d___keyboard___mass___storage.html#gaa332a40aa43a4ecc5bca193f49d339d3',1,'SBC_CMDInquiry_TypeDef:&#160;usb_scsi.h'],['../group___mass___storage.html#ga7d5df44928df084e3b26b099a3d7ab3b',1,'SBC_CMDInquiry_TypeDef:&#160;usb_scsi.h']]],
+  ['sbc_5fcmdmodesecse6_5ftypedef_6',['sbc_cmdmodesecse6_typedef',['../group___h_i_d___keyboard___mass___storage.html#ga7c492cb7e9a430dff8303c04c2f67074',1,'SBC_CMDModeSecse6_TypeDef:&#160;usb_scsi.h'],['../group___mass___storage.html#gac57d63e40e4bafc01f85593b744b6111',1,'SBC_CMDModeSecse6_TypeDef:&#160;usb_scsi.h']]],
+  ['sbc_5fcmdread10_5ftypedef_7',['sbc_cmdread10_typedef',['../group___h_i_d___keyboard___mass___storage.html#gac34f433e15ebd322ddde49c77dfabe55',1,'SBC_CMDRead10_TypeDef:&#160;usb_scsi.h'],['../group___mass___storage.html#ga6ac9b34302edbbc6d549892adfbf5221',1,'SBC_CMDRead10_TypeDef:&#160;usb_scsi.h']]],
+  ['sbc_5fcmdrequestsense_5ftypedef_8',['sbc_cmdrequestsense_typedef',['../group___h_i_d___keyboard___mass___storage.html#gaa992e8b2fe5d7f420898c8ddcbee3789',1,'SBC_CMDRequestSense_TypeDef:&#160;usb_scsi.h'],['../group___mass___storage.html#gaec210e1c5c40c99b4208f21ab2fcadb4',1,'SBC_CMDRequestSense_TypeDef:&#160;usb_scsi.h']]],
+  ['sbc_5fcmdtypical_5ftypedef_9',['sbc_cmdtypical_typedef',['../group___h_i_d___keyboard___mass___storage.html#gaca0b361e3c01f622151f959512196854',1,'SBC_CMDTypical_TypeDef:&#160;usb_scsi.h'],['../group___mass___storage.html#ga75b7ad07f838acb10cb7bec647b217b3',1,'SBC_CMDTypical_TypeDef:&#160;usb_scsi.h']]],
+  ['sbc_5fcmdwrite10_5ftypedef_10',['sbc_cmdwrite10_typedef',['../group___h_i_d___keyboard___mass___storage.html#gac09852400f940ed0a65918c742816cf8',1,'SBC_CMDWrite10_TypeDef:&#160;usb_scsi.h'],['../group___mass___storage.html#gac49e3cf5877141640e308aa12c5303ec',1,'SBC_CMDWrite10_TypeDef:&#160;usb_scsi.h']]],
+  ['sbc_5finquirydata_5ftypedef_11',['sbc_inquirydata_typedef',['../group___h_i_d___keyboard___mass___storage.html#gae5ec3b5d17136516ec7d4ccc2c43d962',1,'SBC_InquiryData_TypeDef:&#160;usb_scsi.h'],['../group___mass___storage.html#gabbede2cc0ac2842862fc05fe60572f29',1,'SBC_InquiryData_TypeDef:&#160;usb_scsi.h']]],
+  ['sbc_5fsensedata_5ftypedef_12',['sbc_sensedata_typedef',['../group___h_i_d___keyboard___mass___storage.html#gadb1652ae68cb7ef56dbc44d385edf0ef',1,'SBC_SenseData_TypeDef:&#160;usb_scsi.h'],['../group___mass___storage.html#ga95672cd283550f6b481289918032a107',1,'SBC_SenseData_TypeDef:&#160;usb_scsi.h']]],
+  ['sc16_13',['sc16',['../group___exported___types.html#ga9ac8f0d7516ca36411ed629e8f0dbaf3',1,'ht32f5xxxx_01.h']]],
+  ['sc32_14',['sc32',['../group___exported___types.html#ga46d2d7df4c6508bee439c1dfc6df5b55',1,'ht32f5xxxx_01.h']]],
+  ['sc64_15',['sc64',['../group___exported___types.html#ga83911999076384c93d4bd812bef8ffe0',1,'ht32f5xxxx_01.h']]],
+  ['sc8_16',['sc8',['../group___exported___types.html#ga5e864408bdbac8f11276dd5285e6c638',1,'ht32f5xxxx_01.h']]],
+  ['scnscb_5ftype_17',['SCnSCB_Type',['../group___c_m_s_i_s__register__aliases.html#gab518efb7ebfe2dfcb1e821d554a935f6',1,'core_cm55.h']]],
+  ['sectorerase_5ftypedef_18',['SectorErase_TypeDef',['../group___s_p_i___f_l_a_s_h___a_u_t_o___exported___types.html#ga71beb3a0c94b90765e4c00d891c8c574',1,'spi_flash_auto.h']]],
+  ['spi_5fdatatypedef_19',['SPI_DataTypeDef',['../group___s_p_i___exported___types.html#gac45e9e9b6e07f41ad440c530e3a547b6',1,'ht32f5xxxx_spi.h']]],
+  ['spi_5ftimeouttypedef_20',['SPI_TimeoutTypeDef',['../group___s_p_i___exported___types.html#ga98b598ad41f81495c309b9268579c5e8',1,'ht32f5xxxx_spi.h']]]
+];

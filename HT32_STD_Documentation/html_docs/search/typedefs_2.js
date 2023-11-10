@@ -1,11 +1,4 @@
 var searchData=
 [
-  ['vsc16_0',['vsc16',['../group___exported___types.html#ga90e410da6791a6bfaf83b15bb2157a4d',1,'ht32f5xxxx_01.h']]],
-  ['vsc32_1',['vsc32',['../group___exported___types.html#ga89ffa4495b7f818143ef3114b4b3e4e0',1,'ht32f5xxxx_01.h']]],
-  ['vsc64_2',['vsc64',['../group___exported___types.html#gab5603e193765d623b52e5bf5d7581fbe',1,'ht32f5xxxx_01.h']]],
-  ['vsc8_3',['vsc8',['../group___exported___types.html#gad2c17cd367dc3d9d99ca823eb2cec3d7',1,'ht32f5xxxx_01.h']]],
-  ['vuc16_4',['vuc16',['../group___exported___types.html#ga7698888608d7a2ec0e7a5a069c00de4d',1,'ht32f5xxxx_01.h']]],
-  ['vuc32_5',['vuc32',['../group___exported___types.html#ga7eeba28e2eb6f9c6bae0ecb49b2ce1bf',1,'ht32f5xxxx_01.h']]],
-  ['vuc64_6',['vuc64',['../group___exported___types.html#gaa40b520af32b9aba592041217ff6cd00',1,'ht32f5xxxx_01.h']]],
-  ['vuc8_7',['vuc8',['../group___exported___types.html#ga6b3e74bf6da8545ce97b2e1d59626378',1,'ht32f5xxxx_01.h']]]
+  ['keyboardreport_5ftypedef_0',['keyboardreport_typedef',['../group___h_i_d___keyboard.html#gac8f1a41d93b50b4aee8e31d17dd2e454',1,'KeyboardReport_TypeDef:&#160;ht32_usbd_class.c'],['../group___h_i_d___keyboard___joystick.html#ga54cb83a9a2849db0440ef9baa826f14e',1,'KeyboardReport_TypeDef:&#160;ht32_usbd_class.c'],['../group___h_i_d___keyboard___mass___storage.html#ga003be388df177d03cd4aa5d6bbf167de',1,'KeyboardReport_TypeDef:&#160;ht32_usbd_class.c'],['../group___h_i_d___keyboard___virtual___c_o_m.html#ga657763ac40e1efb47ef9460f64f90bd5',1,'KeyboardReport_TypeDef:&#160;ht32_usbd_class.c']]]
 ];

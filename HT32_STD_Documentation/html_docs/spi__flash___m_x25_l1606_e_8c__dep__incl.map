@@ -1,0 +1,7 @@
+<map id="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/utilities/common/spi_flash_MX25L1606E.c" name="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/utilities/common/spi_flash_MX25L1606E.c">
+<area shape="rect" id="Node000001" title="This file provides a set of functions needed to manage the communication between SPI peripheral and S..." alt="" coords="5,5,275,96"/>
+<area shape="rect" id="Node000002" href="$spi__flash__common_8c.html" title="This file provides a set of functions needed to manage the communication between SPI peripheral and S..." alt="" coords="18,144,262,235"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="143,112,143,143,137,143,137,112"/>
+<area shape="rect" id="Node000003" href="$spi__flash__auto_8c.html" title="The SPI Flash Driver with auto detection function." alt="" coords="26,283,254,373"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="143,250,143,282,137,282,137,250"/>
+</map>

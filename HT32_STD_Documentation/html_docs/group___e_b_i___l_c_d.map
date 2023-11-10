@@ -1,0 +1,10 @@
+<map id="EBI_LCD" name="EBI_LCD">
+<area shape="rect" id="Node000002" href="$group___common.html" title=" " alt="" coords="5,132,79,159"/>
+<area shape="rect" id="Node000001" title="This file provides a set of functions needed to manage the communication between EBI peripheral and L..." alt="" coords="127,132,201,159"/>
+<area shape="rect" id="Node000008" href="$group___e_b_i___l_c_d___exported___constants.html" title=" " alt="" coords="249,5,435,32"/>
+<area shape="rect" id="Node000005" href="$group___e_b_i___l_c_d___exported___functions.html" title=" " alt="" coords="252,56,433,83"/>
+<area shape="rect" id="Node000007" href="$group___e_b_i___l_c_d___exported___types.html" title=" " alt="" coords="262,107,423,133"/>
+<area shape="rect" id="Node000003" href="$group___e_b_i___l_c_d___private___define.html" title=" " alt="" coords="255,157,429,184"/>
+<area shape="rect" id="Node000006" href="$group___e_b_i___l_c_d___private___functions.html" title=" " alt="" coords="258,208,426,235"/>
+<area shape="rect" id="Node000004" href="$group___e_b_i___l_c_d___private___variable.html" title=" " alt="" coords="259,259,425,285"/>
+</map>

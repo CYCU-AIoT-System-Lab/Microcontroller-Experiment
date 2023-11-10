@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>HT32_STD_Documents: RGB</title>
+<title>HT32_STD_Code_Documents: RGB</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,9 +21,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">HT32_STD_Documents<span id="projectnumber">&#160;1.0.0</span>
+   <div id="projectname">HT32_STD_Code_Documents<span id="projectnumber">&#160;1.0.0</span>
    </div>
-   <div id="projectbrief">For HT32F52352</div>
+   <div id="projectbrief">Micro-controller Experiment</div>
   </td>
  </tr>
  </tbody>
@@ -77,17 +77,19 @@ $(function() {
   <div class="headertitle"><div class="title">RGB<div class="ingroups"><a class="el" href="group___h_t32___series___peripheral___examples.html">HT32 Peripheral Examples</a> &raquo; <a class="el" href="group___s_l_e_d___examples.html">SLED</a></div></div></div>
 </div><!--header-->
 <div class="contents">
+<div class="dynheader">
+Collaboration diagram for RGB:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="group___r_g_b.svg" width="164" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:ga9fd22bc19f6f5a461e6b68b552bef4cd" id="r_ga9fd22bc19f6f5a461e6b68b552bef4cd"><td class="memItemLeft" align="right" valign="top"><a id="ga9fd22bc19f6f5a461e6b68b552bef4cd" name="ga9fd22bc19f6f5a461e6b68b552bef4cd"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LED_STRIP_DISP_LEN</b>&#160;&#160;&#160;(44)    /* 44 LEDs on the LED Strip                                   */</td></tr>
+<tr class="memitem:ga9fd22bc19f6f5a461e6b68b552bef4cd" id="r_ga9fd22bc19f6f5a461e6b68b552bef4cd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___r_g_b.html#ga9fd22bc19f6f5a461e6b68b552bef4cd">LED_STRIP_DISP_LEN</a>&#160;&#160;&#160;(44)    /* 44 LEDs on the LED Strip                                   */</td></tr>
 <tr class="separator:ga9fd22bc19f6f5a461e6b68b552bef4cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0ef369cc741b830cebaa9f89cac1bae2" id="r_ga0ef369cc741b830cebaa9f89cac1bae2"><td class="memItemLeft" align="right" valign="top"><a id="ga0ef369cc741b830cebaa9f89cac1bae2" name="ga0ef369cc741b830cebaa9f89cac1bae2"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LED_GRB_DATA_LEN</b>&#160;&#160;&#160;(3)     /* 3 bytes                                                    */</td></tr>
+<tr class="memitem:ga0ef369cc741b830cebaa9f89cac1bae2" id="r_ga0ef369cc741b830cebaa9f89cac1bae2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___r_g_b.html#ga0ef369cc741b830cebaa9f89cac1bae2">LED_GRB_DATA_LEN</a>&#160;&#160;&#160;(3)     /* 3 bytes                                                    */</td></tr>
 <tr class="separator:ga0ef369cc741b830cebaa9f89cac1bae2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa1dc865c300e65c459d9adce953ff014" id="r_gaa1dc865c300e65c459d9adce953ff014"><td class="memItemLeft" align="right" valign="top"><a id="gaa1dc865c300e65c459d9adce953ff014" name="gaa1dc865c300e65c459d9adce953ff014"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LED_NUMBER_OF_COLOR_TYPES</b>&#160;&#160;&#160;(8)     /* 8 color type                                               */</td></tr>
+<tr class="memitem:gaa1dc865c300e65c459d9adce953ff014" id="r_gaa1dc865c300e65c459d9adce953ff014"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___r_g_b.html#gaa1dc865c300e65c459d9adce953ff014">LED_NUMBER_OF_COLOR_TYPES</a>&#160;&#160;&#160;(8)     /* 8 color type                                               */</td></tr>
 <tr class="separator:gaa1dc865c300e65c459d9adce953ff014"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
@@ -119,19 +121,59 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ga88a8edbd325750af593343d8faf644f8" id="r_ga88a8edbd325750af593343d8faf644f8"><td class="memItemLeft" align="right" valign="top">u8 __ALIGN4&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___r_g_b.html#ga88a8edbd325750af593343d8faf644f8">gGRBTable</a> [LED_NUMBER_OF_COLOR_TYPES][LED_GRB_DATA_LEN]</td></tr>
+<tr class="memitem:ga88a8edbd325750af593343d8faf644f8" id="r_ga88a8edbd325750af593343d8faf644f8"><td class="memItemLeft" align="right" valign="top">u8 __ALIGN4&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___r_g_b.html#ga88a8edbd325750af593343d8faf644f8">gGRBTable</a> [<a class="el" href="group___a_r_g_b___get_l_e_d_num.html#gaa1dc865c300e65c459d9adce953ff014">LED_NUMBER_OF_COLOR_TYPES</a>][<a class="el" href="group___a_r_g_b___get_l_e_d_num.html#ga0ef369cc741b830cebaa9f89cac1bae2">LED_GRB_DATA_LEN</a>]</td></tr>
 <tr class="separator:ga88a8edbd325750af593343d8faf644f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5c615f9a32f907aa9ed26dbbbff59cfb" id="r_ga5c615f9a32f907aa9ed26dbbbff59cfb"><td class="memItemLeft" align="right" valign="top"><a id="ga5c615f9a32f907aa9ed26dbbbff59cfb" name="ga5c615f9a32f907aa9ed26dbbbff59cfb"></a>
-u32&#160;</td><td class="memItemRight" valign="bottom"><b>i</b></td></tr>
+<tr class="memitem:ga5c615f9a32f907aa9ed26dbbbff59cfb" id="r_ga5c615f9a32f907aa9ed26dbbbff59cfb"><td class="memItemLeft" align="right" valign="top">u32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___r_g_b.html#ga5c615f9a32f907aa9ed26dbbbff59cfb">i</a></td></tr>
 <tr class="separator:ga5c615f9a32f907aa9ed26dbbbff59cfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gacefd7d6675052a0532918ce77ef61bbe" id="r_gacefd7d6675052a0532918ce77ef61bbe"><td class="memItemLeft" align="right" valign="top"><a id="gacefd7d6675052a0532918ce77ef61bbe" name="gacefd7d6675052a0532918ce77ef61bbe"></a>
-u32&#160;</td><td class="memItemRight" valign="bottom"><b>j</b></td></tr>
+<tr class="memitem:gacefd7d6675052a0532918ce77ef61bbe" id="r_gacefd7d6675052a0532918ce77ef61bbe"><td class="memItemLeft" align="right" valign="top">u32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___r_g_b.html#gacefd7d6675052a0532918ce77ef61bbe">j</a></td></tr>
 <tr class="separator:gacefd7d6675052a0532918ce77ef61bbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4c58f38ab53c8cb7ab5a10bb6d60fe0f" id="r_ga4c58f38ab53c8cb7ab5a10bb6d60fe0f"><td class="memItemLeft" align="right" valign="top"><a id="ga4c58f38ab53c8cb7ab5a10bb6d60fe0f" name="ga4c58f38ab53c8cb7ab5a10bb6d60fe0f"></a>
-u32&#160;</td><td class="memItemRight" valign="bottom"><b>k</b></td></tr>
+<tr class="memitem:ga4c58f38ab53c8cb7ab5a10bb6d60fe0f" id="r_ga4c58f38ab53c8cb7ab5a10bb6d60fe0f"><td class="memItemLeft" align="right" valign="top">u32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___r_g_b.html#ga4c58f38ab53c8cb7ab5a10bb6d60fe0f">k</a></td></tr>
 <tr class="separator:ga4c58f38ab53c8cb7ab5a10bb6d60fe0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="ga0ef369cc741b830cebaa9f89cac1bae2" name="ga0ef369cc741b830cebaa9f89cac1bae2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0ef369cc741b830cebaa9f89cac1bae2">&#9670;&#160;</a></span>LED_GRB_DATA_LEN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LED_GRB_DATA_LEN&#160;&#160;&#160;(3)     /* 3 bytes                                                    */</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gaa1dc865c300e65c459d9adce953ff014" name="gaa1dc865c300e65c459d9adce953ff014"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa1dc865c300e65c459d9adce953ff014">&#9670;&#160;</a></span>LED_NUMBER_OF_COLOR_TYPES</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LED_NUMBER_OF_COLOR_TYPES&#160;&#160;&#160;(8)     /* 8 color type                                               */</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga9fd22bc19f6f5a461e6b68b552bef4cd" name="ga9fd22bc19f6f5a461e6b68b552bef4cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9fd22bc19f6f5a461e6b68b552bef4cd">&#9670;&#160;</a></span>LED_STRIP_DISP_LEN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LED_STRIP_DISP_LEN&#160;&#160;&#160;(44)    /* 44 LEDs on the LED Strip                                   */</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="ga2bffc10d5bd4106753b7c30e86903bea" name="ga2bffc10d5bd4106753b7c30e86903bea"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga2bffc10d5bd4106753b7c30e86903bea">&#9670;&#160;</a></span>HardFault_Handler()</h2>
@@ -349,7 +391,7 @@ u32&#160;</td><td class="memItemRight" valign="bottom"><b>k</b></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">u8 __ALIGN4 gGRBTable[LED_NUMBER_OF_COLOR_TYPES][LED_GRB_DATA_LEN]</td>
+          <td class="memname">u8 __ALIGN4 gGRBTable[<a class="el" href="group___a_r_g_b___get_l_e_d_num.html#gaa1dc865c300e65c459d9adce953ff014">LED_NUMBER_OF_COLOR_TYPES</a>][<a class="el" href="group___a_r_g_b___get_l_e_d_num.html#ga0ef369cc741b830cebaa9f89cac1bae2">LED_GRB_DATA_LEN</a>]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -364,6 +406,48 @@ u32&#160;</td><td class="memItemRight" valign="bottom"><b>k</b></td></tr>
 <div class="line">  { 0x08, 0x80, 0x80 },     </div>
 <div class="line">}</div>
 </div><!-- fragment -->
+</div>
+</div>
+<a id="ga5c615f9a32f907aa9ed26dbbbff59cfb" name="ga5c615f9a32f907aa9ed26dbbbff59cfb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5c615f9a32f907aa9ed26dbbbff59cfb">&#9670;&#160;</a></span>i</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">u32 i</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gacefd7d6675052a0532918ce77ef61bbe" name="gacefd7d6675052a0532918ce77ef61bbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gacefd7d6675052a0532918ce77ef61bbe">&#9670;&#160;</a></span>j</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">u32 j</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga4c58f38ab53c8cb7ab5a10bb6d60fe0f" name="ga4c58f38ab53c8cb7ab5a10bb6d60fe0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4c58f38ab53c8cb7ab5a10bb6d60fe0f">&#9670;&#160;</a></span>k</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">u32 k</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
 </div>
 </div>
 </div><!-- contents -->

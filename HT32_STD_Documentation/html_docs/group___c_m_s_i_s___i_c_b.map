@@ -1,0 +1,5 @@
+<map id="Implementation Control Block register (ICB)" name="Implementation Control Block register (ICB)">
+<area shape="rect" id="Node000001" title="Type definitions for the Implementation Control Block Register." alt="" coords="202,5,356,48"/>
+<area shape="rect" id="Node000003" href="$group___c_m_s_i_s___sys_tick.html" title="Type definitions for the System Timer Registers." alt="" coords="404,5,538,48"/>
+<area shape="rect" id="Node000002" href="$group___c_m_s_i_s___s_c_b.html" title="Type definitions for the System Control Block Registers." alt="" coords="5,5,154,48"/>
+</map>

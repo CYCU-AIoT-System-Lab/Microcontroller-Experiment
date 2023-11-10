@@ -1,0 +1,7 @@
+<map id="HT32 Peripheral Driver" name="HT32 Peripheral Driver">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,81,155,108"/>
+<area shape="rect" id="Node000002" href="$group___m_i_s_c.html" title="MISC driver modules." alt="" coords="254,5,308,32"/>
+<area shape="rect" id="Node000003" href="$group___p_r_i_n_t_f.html" title="printf related functions" alt="" coords="203,56,359,83"/>
+<area shape="rect" id="Node000005" href="$group___s_e_r_i_a_l.html" title="Serial related functions." alt="" coords="247,107,315,133"/>
+<area shape="rect" id="Node000004" href="$group___s_y_s_c_a_l_l_s.html" title="System call functions for GNU toolchain." alt="" coords="208,157,354,184"/>
+</map>

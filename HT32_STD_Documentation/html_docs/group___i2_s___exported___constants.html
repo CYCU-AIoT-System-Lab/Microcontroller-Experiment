@@ -1,29 +1,62 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>HT32_STD_Documents: I2S exported constants</title>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>HT32_STD_Code_Documents: I2S exported constants</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
-   <div id="projectname">HT32_STD_Documents<span id="projectnumber">&#160;1.0.0</span>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">HT32_STD_Code_Documents
+   &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">For HT32F52352</div>
+   <div id="projectbrief">Micro-controller Experiment</div>
   </td>
  </tr>
  </tbody>
@@ -75,185 +108,717 @@ $(function() {
   <div class="headertitle"><div class="title">I2S exported constants<div class="ingroups"><a class="el" href="group___h_t32_f5xxxx___peripheral___driver.html">HT32F5xxxx Peripheral Driver</a> &raquo; <a class="el" href="group___i2_s.html">I2S</a></div></div></div>
 </div><!--header-->
 <div class="contents">
+<div class="dynheader">
+Collaboration diagram for I2S exported constants:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="group___i2_s___exported___constants.svg" width="255" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:gaa96a65b6ed9173bf73d45212d2381311" id="r_gaa96a65b6ed9173bf73d45212d2381311"><td class="memItemLeft" align="right" valign="top"><a id="gaa96a65b6ed9173bf73d45212d2381311" name="gaa96a65b6ed9173bf73d45212d2381311"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>I2S_MASTER_TX</b>&#160;&#160;&#160;(1UL &lt;&lt; 1)</td></tr>
+<tr class="memitem:gaa96a65b6ed9173bf73d45212d2381311" id="r_gaa96a65b6ed9173bf73d45212d2381311"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___constants.html#gaa96a65b6ed9173bf73d45212d2381311">I2S_MASTER_TX</a>&#160;&#160;&#160;(1UL &lt;&lt; 1)</td></tr>
 <tr class="separator:gaa96a65b6ed9173bf73d45212d2381311"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7abe8ad353ad8ab3816a1e267caf3cb5" id="r_ga7abe8ad353ad8ab3816a1e267caf3cb5"><td class="memItemLeft" align="right" valign="top"><a id="ga7abe8ad353ad8ab3816a1e267caf3cb5" name="ga7abe8ad353ad8ab3816a1e267caf3cb5"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>I2S_MASTER_RX</b>&#160;&#160;&#160;(1UL &lt;&lt; 2)</td></tr>
+<tr class="memitem:ga7abe8ad353ad8ab3816a1e267caf3cb5" id="r_ga7abe8ad353ad8ab3816a1e267caf3cb5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___constants.html#ga7abe8ad353ad8ab3816a1e267caf3cb5">I2S_MASTER_RX</a>&#160;&#160;&#160;(1UL &lt;&lt; 2)</td></tr>
 <tr class="separator:ga7abe8ad353ad8ab3816a1e267caf3cb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5a648f26e28e199a4db856782e865562" id="r_ga5a648f26e28e199a4db856782e865562"><td class="memItemLeft" align="right" valign="top"><a id="ga5a648f26e28e199a4db856782e865562" name="ga5a648f26e28e199a4db856782e865562"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>I2S_MASTER_TX_RX</b>&#160;&#160;&#160;((1UL &lt;&lt; 1) | (1UL &lt;&lt; 2))</td></tr>
+<tr class="memitem:ga5a648f26e28e199a4db856782e865562" id="r_ga5a648f26e28e199a4db856782e865562"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___constants.html#ga5a648f26e28e199a4db856782e865562">I2S_MASTER_TX_RX</a>&#160;&#160;&#160;((1UL &lt;&lt; 1) | (1UL &lt;&lt; 2))</td></tr>
 <tr class="separator:ga5a648f26e28e199a4db856782e865562"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab98bc2a0e6eb5c774ba4fd79d3a1d7a0" id="r_gab98bc2a0e6eb5c774ba4fd79d3a1d7a0"><td class="memItemLeft" align="right" valign="top"><a id="gab98bc2a0e6eb5c774ba4fd79d3a1d7a0" name="gab98bc2a0e6eb5c774ba4fd79d3a1d7a0"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>I2S_SLAVE_TX</b>&#160;&#160;&#160;((1UL &lt;&lt; 3) | (1UL &lt;&lt; 1))</td></tr>
+<tr class="memitem:gab98bc2a0e6eb5c774ba4fd79d3a1d7a0" id="r_gab98bc2a0e6eb5c774ba4fd79d3a1d7a0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___constants.html#gab98bc2a0e6eb5c774ba4fd79d3a1d7a0">I2S_SLAVE_TX</a>&#160;&#160;&#160;((1UL &lt;&lt; 3) | (1UL &lt;&lt; 1))</td></tr>
 <tr class="separator:gab98bc2a0e6eb5c774ba4fd79d3a1d7a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6241ba5bd5ce4407933049539683b6d8" id="r_ga6241ba5bd5ce4407933049539683b6d8"><td class="memItemLeft" align="right" valign="top"><a id="ga6241ba5bd5ce4407933049539683b6d8" name="ga6241ba5bd5ce4407933049539683b6d8"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>I2S_SLAVE_RX</b>&#160;&#160;&#160;((1UL &lt;&lt; 3) | (1UL &lt;&lt; 2))</td></tr>
+<tr class="memitem:ga6241ba5bd5ce4407933049539683b6d8" id="r_ga6241ba5bd5ce4407933049539683b6d8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___constants.html#ga6241ba5bd5ce4407933049539683b6d8">I2S_SLAVE_RX</a>&#160;&#160;&#160;((1UL &lt;&lt; 3) | (1UL &lt;&lt; 2))</td></tr>
 <tr class="separator:ga6241ba5bd5ce4407933049539683b6d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabc25311939b777242336b76f8a6625ca" id="r_gabc25311939b777242336b76f8a6625ca"><td class="memItemLeft" align="right" valign="top"><a id="gabc25311939b777242336b76f8a6625ca" name="gabc25311939b777242336b76f8a6625ca"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>I2S_SLAVE_TX_RX</b>&#160;&#160;&#160;((1UL &lt;&lt; 3) | (1UL &lt;&lt; 1) | (1UL &lt;&lt; 2))</td></tr>
+<tr class="memitem:gabc25311939b777242336b76f8a6625ca" id="r_gabc25311939b777242336b76f8a6625ca"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___constants.html#gabc25311939b777242336b76f8a6625ca">I2S_SLAVE_TX_RX</a>&#160;&#160;&#160;((1UL &lt;&lt; 3) | (1UL &lt;&lt; 1) | (1UL &lt;&lt; 2))</td></tr>
 <tr class="separator:gabc25311939b777242336b76f8a6625ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga014b210a6f4d253f623eb7d8c6f0dd4a" id="r_ga014b210a6f4d253f623eb7d8c6f0dd4a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___constants.html#ga014b210a6f4d253f623eb7d8c6f0dd4a">IS_I2S_MODE</a>(MOD)</td></tr>
 <tr class="separator:ga014b210a6f4d253f623eb7d8c6f0dd4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8f8887f639493fbe3e16c98bb3416d7a" id="r_ga8f8887f639493fbe3e16c98bb3416d7a"><td class="memItemLeft" align="right" valign="top"><a id="ga8f8887f639493fbe3e16c98bb3416d7a" name="ga8f8887f639493fbe3e16c98bb3416d7a"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>I2S_JUSTIFIED_STEREO</b>&#160;&#160;&#160;(0)</td></tr>
+<tr class="memitem:ga8f8887f639493fbe3e16c98bb3416d7a" id="r_ga8f8887f639493fbe3e16c98bb3416d7a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___constants.html#ga8f8887f639493fbe3e16c98bb3416d7a">I2S_JUSTIFIED_STEREO</a>&#160;&#160;&#160;(0)</td></tr>
 <tr class="separator:ga8f8887f639493fbe3e16c98bb3416d7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8bc0012c36f35577895f257ad72eb6e3" id="r_ga8bc0012c36f35577895f257ad72eb6e3"><td class="memItemLeft" align="right" valign="top"><a id="ga8bc0012c36f35577895f257ad72eb6e3" name="ga8bc0012c36f35577895f257ad72eb6e3"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LEFT_JUSTIFIED_STEREO</b>&#160;&#160;&#160;(1UL &lt;&lt; 6)</td></tr>
+<tr class="memitem:ga8bc0012c36f35577895f257ad72eb6e3" id="r_ga8bc0012c36f35577895f257ad72eb6e3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___constants.html#ga8bc0012c36f35577895f257ad72eb6e3">LEFT_JUSTIFIED_STEREO</a>&#160;&#160;&#160;(1UL &lt;&lt; 6)</td></tr>
 <tr class="separator:ga8bc0012c36f35577895f257ad72eb6e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac02fbbebd37fef96a1b1f8e18fbda33b" id="r_gac02fbbebd37fef96a1b1f8e18fbda33b"><td class="memItemLeft" align="right" valign="top"><a id="gac02fbbebd37fef96a1b1f8e18fbda33b" name="gac02fbbebd37fef96a1b1f8e18fbda33b"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>RIGHT_JUSTIFIED_STEREO</b>&#160;&#160;&#160;(2UL &lt;&lt; 6)</td></tr>
+<tr class="memitem:gac02fbbebd37fef96a1b1f8e18fbda33b" id="r_gac02fbbebd37fef96a1b1f8e18fbda33b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___constants.html#gac02fbbebd37fef96a1b1f8e18fbda33b">RIGHT_JUSTIFIED_STEREO</a>&#160;&#160;&#160;(2UL &lt;&lt; 6)</td></tr>
 <tr class="separator:gac02fbbebd37fef96a1b1f8e18fbda33b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0cdfa1032bebdcd924076c3e64550ae0" id="r_ga0cdfa1032bebdcd924076c3e64550ae0"><td class="memItemLeft" align="right" valign="top"><a id="ga0cdfa1032bebdcd924076c3e64550ae0" name="ga0cdfa1032bebdcd924076c3e64550ae0"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>I2S_JUSTIFIED_REPEAT</b>&#160;&#160;&#160;(1UL &lt;&lt; 10)</td></tr>
+<tr class="memitem:ga0cdfa1032bebdcd924076c3e64550ae0" id="r_ga0cdfa1032bebdcd924076c3e64550ae0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___constants.html#ga0cdfa1032bebdcd924076c3e64550ae0">I2S_JUSTIFIED_REPEAT</a>&#160;&#160;&#160;(1UL &lt;&lt; 10)</td></tr>
 <tr class="separator:ga0cdfa1032bebdcd924076c3e64550ae0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0d878e025c96d5e91ff802a651ae52cd" id="r_ga0d878e025c96d5e91ff802a651ae52cd"><td class="memItemLeft" align="right" valign="top"><a id="ga0d878e025c96d5e91ff802a651ae52cd" name="ga0d878e025c96d5e91ff802a651ae52cd"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>I2S_JUSTIFIED_STEREO_EXT</b>&#160;&#160;&#160;(1UL &lt;&lt; 8)</td></tr>
+<tr class="memitem:ga0d878e025c96d5e91ff802a651ae52cd" id="r_ga0d878e025c96d5e91ff802a651ae52cd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___constants.html#ga0d878e025c96d5e91ff802a651ae52cd">I2S_JUSTIFIED_STEREO_EXT</a>&#160;&#160;&#160;(1UL &lt;&lt; 8)</td></tr>
 <tr class="separator:ga0d878e025c96d5e91ff802a651ae52cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaaf34ba67991f57448202a3d59ef9b456" id="r_gaaf34ba67991f57448202a3d59ef9b456"><td class="memItemLeft" align="right" valign="top"><a id="gaaf34ba67991f57448202a3d59ef9b456" name="gaaf34ba67991f57448202a3d59ef9b456"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LEFT_JUSTIFIED_STEREO_EXT</b>&#160;&#160;&#160;((1UL &lt;&lt; 8) | (1UL &lt;&lt; 6))</td></tr>
+<tr class="memitem:gaaf34ba67991f57448202a3d59ef9b456" id="r_gaaf34ba67991f57448202a3d59ef9b456"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___constants.html#gaaf34ba67991f57448202a3d59ef9b456">LEFT_JUSTIFIED_STEREO_EXT</a>&#160;&#160;&#160;((1UL &lt;&lt; 8) | (1UL &lt;&lt; 6))</td></tr>
 <tr class="separator:gaaf34ba67991f57448202a3d59ef9b456"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7919060b359202a06ee8771e109b7376" id="r_ga7919060b359202a06ee8771e109b7376"><td class="memItemLeft" align="right" valign="top"><a id="ga7919060b359202a06ee8771e109b7376" name="ga7919060b359202a06ee8771e109b7376"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>RIGHT_JUSTIFIED_STEREO_EXT</b>&#160;&#160;&#160;((1UL &lt;&lt; 8) | (2UL &lt;&lt; 6))</td></tr>
+<tr class="memitem:ga7919060b359202a06ee8771e109b7376" id="r_ga7919060b359202a06ee8771e109b7376"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___constants.html#ga7919060b359202a06ee8771e109b7376">RIGHT_JUSTIFIED_STEREO_EXT</a>&#160;&#160;&#160;((1UL &lt;&lt; 8) | (2UL &lt;&lt; 6))</td></tr>
 <tr class="separator:ga7919060b359202a06ee8771e109b7376"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga28d417223fa93a2ff2cf676695f9d635" id="r_ga28d417223fa93a2ff2cf676695f9d635"><td class="memItemLeft" align="right" valign="top"><a id="ga28d417223fa93a2ff2cf676695f9d635" name="ga28d417223fa93a2ff2cf676695f9d635"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>I2S_JUSTIFIED_REPEAT_EXT</b>&#160;&#160;&#160;((1UL &lt;&lt; 8) | (1UL &lt;&lt; 10))</td></tr>
+<tr class="memitem:ga28d417223fa93a2ff2cf676695f9d635" id="r_ga28d417223fa93a2ff2cf676695f9d635"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___constants.html#ga28d417223fa93a2ff2cf676695f9d635">I2S_JUSTIFIED_REPEAT_EXT</a>&#160;&#160;&#160;((1UL &lt;&lt; 8) | (1UL &lt;&lt; 10))</td></tr>
 <tr class="separator:ga28d417223fa93a2ff2cf676695f9d635"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga29fa1045e091398a685c30d692759205" id="r_ga29fa1045e091398a685c30d692759205"><td class="memItemLeft" align="right" valign="top"><a id="ga29fa1045e091398a685c30d692759205" name="ga29fa1045e091398a685c30d692759205"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>I2S_JUSTIFIED_MONO</b>&#160;&#160;&#160;(1UL &lt;&lt; 11)</td></tr>
+<tr class="memitem:ga29fa1045e091398a685c30d692759205" id="r_ga29fa1045e091398a685c30d692759205"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___constants.html#ga29fa1045e091398a685c30d692759205">I2S_JUSTIFIED_MONO</a>&#160;&#160;&#160;(1UL &lt;&lt; 11)</td></tr>
 <tr class="separator:ga29fa1045e091398a685c30d692759205"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga24957ff55683f68b6aed05fc6f67348b" id="r_ga24957ff55683f68b6aed05fc6f67348b"><td class="memItemLeft" align="right" valign="top"><a id="ga24957ff55683f68b6aed05fc6f67348b" name="ga24957ff55683f68b6aed05fc6f67348b"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LEFT_JUSTIFIED_MONO</b>&#160;&#160;&#160;((1UL &lt;&lt; 11) | (1UL &lt;&lt; 6))</td></tr>
+<tr class="memitem:ga24957ff55683f68b6aed05fc6f67348b" id="r_ga24957ff55683f68b6aed05fc6f67348b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___constants.html#ga24957ff55683f68b6aed05fc6f67348b">LEFT_JUSTIFIED_MONO</a>&#160;&#160;&#160;((1UL &lt;&lt; 11) | (1UL &lt;&lt; 6))</td></tr>
 <tr class="separator:ga24957ff55683f68b6aed05fc6f67348b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0002c6b4c6eafe203f1eb6e0d4f5aa06" id="r_ga0002c6b4c6eafe203f1eb6e0d4f5aa06"><td class="memItemLeft" align="right" valign="top"><a id="ga0002c6b4c6eafe203f1eb6e0d4f5aa06" name="ga0002c6b4c6eafe203f1eb6e0d4f5aa06"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>RIGHT_JUSTIFIED_MONO</b>&#160;&#160;&#160;((1UL &lt;&lt; 11) | (2UL &lt;&lt; 6))</td></tr>
+<tr class="memitem:ga0002c6b4c6eafe203f1eb6e0d4f5aa06" id="r_ga0002c6b4c6eafe203f1eb6e0d4f5aa06"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___constants.html#ga0002c6b4c6eafe203f1eb6e0d4f5aa06">RIGHT_JUSTIFIED_MONO</a>&#160;&#160;&#160;((1UL &lt;&lt; 11) | (2UL &lt;&lt; 6))</td></tr>
 <tr class="separator:ga0002c6b4c6eafe203f1eb6e0d4f5aa06"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9b6b6fa8847f632db1a08ae9585deb2b" id="r_ga9b6b6fa8847f632db1a08ae9585deb2b"><td class="memItemLeft" align="right" valign="top"><a id="ga9b6b6fa8847f632db1a08ae9585deb2b" name="ga9b6b6fa8847f632db1a08ae9585deb2b"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>I2S_JUSTIFIED_MONO_EXT</b>&#160;&#160;&#160;((1UL &lt;&lt; 8) | (1UL &lt;&lt; 11))</td></tr>
+<tr class="memitem:ga9b6b6fa8847f632db1a08ae9585deb2b" id="r_ga9b6b6fa8847f632db1a08ae9585deb2b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___constants.html#ga9b6b6fa8847f632db1a08ae9585deb2b">I2S_JUSTIFIED_MONO_EXT</a>&#160;&#160;&#160;((1UL &lt;&lt; 8) | (1UL &lt;&lt; 11))</td></tr>
 <tr class="separator:ga9b6b6fa8847f632db1a08ae9585deb2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac390532b157a8d359d94826f7163ad3d" id="r_gac390532b157a8d359d94826f7163ad3d"><td class="memItemLeft" align="right" valign="top"><a id="gac390532b157a8d359d94826f7163ad3d" name="gac390532b157a8d359d94826f7163ad3d"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LEFT_JUSTIFIED_MONO_EXT</b>&#160;&#160;&#160;((1UL &lt;&lt; 8) | (1UL &lt;&lt; 11) | (1UL &lt;&lt; 6))</td></tr>
+<tr class="memitem:gac390532b157a8d359d94826f7163ad3d" id="r_gac390532b157a8d359d94826f7163ad3d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___constants.html#gac390532b157a8d359d94826f7163ad3d">LEFT_JUSTIFIED_MONO_EXT</a>&#160;&#160;&#160;((1UL &lt;&lt; 8) | (1UL &lt;&lt; 11) | (1UL &lt;&lt; 6))</td></tr>
 <tr class="separator:gac390532b157a8d359d94826f7163ad3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1761ff79071e68012d3efd7f5de4771a" id="r_ga1761ff79071e68012d3efd7f5de4771a"><td class="memItemLeft" align="right" valign="top"><a id="ga1761ff79071e68012d3efd7f5de4771a" name="ga1761ff79071e68012d3efd7f5de4771a"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>RIGHT_JUSTIFIED_MONO_EXT</b>&#160;&#160;&#160;((1UL &lt;&lt; 8) | (1UL &lt;&lt; 11) | (2UL &lt;&lt; 6))</td></tr>
+<tr class="memitem:ga1761ff79071e68012d3efd7f5de4771a" id="r_ga1761ff79071e68012d3efd7f5de4771a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___constants.html#ga1761ff79071e68012d3efd7f5de4771a">RIGHT_JUSTIFIED_MONO_EXT</a>&#160;&#160;&#160;((1UL &lt;&lt; 8) | (1UL &lt;&lt; 11) | (2UL &lt;&lt; 6))</td></tr>
 <tr class="separator:ga1761ff79071e68012d3efd7f5de4771a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga27a4a6c423421bfce86bbb4aba8bc08b" id="r_ga27a4a6c423421bfce86bbb4aba8bc08b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___constants.html#ga27a4a6c423421bfce86bbb4aba8bc08b">IS_I2S_FORMAT</a>(FMT)</td></tr>
 <tr class="separator:ga27a4a6c423421bfce86bbb4aba8bc08b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga17cb1a91d5be4e7afad486ead6d2980d" id="r_ga17cb1a91d5be4e7afad486ead6d2980d"><td class="memItemLeft" align="right" valign="top"><a id="ga17cb1a91d5be4e7afad486ead6d2980d" name="ga17cb1a91d5be4e7afad486ead6d2980d"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>I2S_WORDWIDTH_8</b>&#160;&#160;&#160;(0)</td></tr>
+<tr class="memitem:ga17cb1a91d5be4e7afad486ead6d2980d" id="r_ga17cb1a91d5be4e7afad486ead6d2980d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___constants.html#ga17cb1a91d5be4e7afad486ead6d2980d">I2S_WORDWIDTH_8</a>&#160;&#160;&#160;(0)</td></tr>
 <tr class="separator:ga17cb1a91d5be4e7afad486ead6d2980d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4d016baad0fba07da20a6410470c71d3" id="r_ga4d016baad0fba07da20a6410470c71d3"><td class="memItemLeft" align="right" valign="top"><a id="ga4d016baad0fba07da20a6410470c71d3" name="ga4d016baad0fba07da20a6410470c71d3"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>I2S_WORDWIDTH_16</b>&#160;&#160;&#160;(1UL &lt;&lt; 4)</td></tr>
+<tr class="memitem:ga4d016baad0fba07da20a6410470c71d3" id="r_ga4d016baad0fba07da20a6410470c71d3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___constants.html#ga4d016baad0fba07da20a6410470c71d3">I2S_WORDWIDTH_16</a>&#160;&#160;&#160;(1UL &lt;&lt; 4)</td></tr>
 <tr class="separator:ga4d016baad0fba07da20a6410470c71d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa24ebdf5a1edf68fa2d6e56ee55924d7" id="r_gaa24ebdf5a1edf68fa2d6e56ee55924d7"><td class="memItemLeft" align="right" valign="top"><a id="gaa24ebdf5a1edf68fa2d6e56ee55924d7" name="gaa24ebdf5a1edf68fa2d6e56ee55924d7"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>I2S_WORDWIDTH_24</b>&#160;&#160;&#160;(2UL &lt;&lt; 4)</td></tr>
+<tr class="memitem:gaa24ebdf5a1edf68fa2d6e56ee55924d7" id="r_gaa24ebdf5a1edf68fa2d6e56ee55924d7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___constants.html#gaa24ebdf5a1edf68fa2d6e56ee55924d7">I2S_WORDWIDTH_24</a>&#160;&#160;&#160;(2UL &lt;&lt; 4)</td></tr>
 <tr class="separator:gaa24ebdf5a1edf68fa2d6e56ee55924d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga683d81436e91c1631bdd5947ee78489b" id="r_ga683d81436e91c1631bdd5947ee78489b"><td class="memItemLeft" align="right" valign="top"><a id="ga683d81436e91c1631bdd5947ee78489b" name="ga683d81436e91c1631bdd5947ee78489b"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>I2S_WORDWIDTH_32</b>&#160;&#160;&#160;(3UL &lt;&lt; 4)</td></tr>
+<tr class="memitem:ga683d81436e91c1631bdd5947ee78489b" id="r_ga683d81436e91c1631bdd5947ee78489b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___constants.html#ga683d81436e91c1631bdd5947ee78489b">I2S_WORDWIDTH_32</a>&#160;&#160;&#160;(3UL &lt;&lt; 4)</td></tr>
 <tr class="separator:ga683d81436e91c1631bdd5947ee78489b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga6edff8a6ea04a06cc1e4ba5785710367" id="r_ga6edff8a6ea04a06cc1e4ba5785710367"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___constants.html#ga6edff8a6ea04a06cc1e4ba5785710367">IS_I2S_WORD_WIDTH</a>(WIDTH)</td></tr>
 <tr class="separator:ga6edff8a6ea04a06cc1e4ba5785710367"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa4fd9fd77e0bc3608c2be1517cfe91e0" id="r_gaa4fd9fd77e0bc3608c2be1517cfe91e0"><td class="memItemLeft" align="right" valign="top"><a id="gaa4fd9fd77e0bc3608c2be1517cfe91e0" name="gaa4fd9fd77e0bc3608c2be1517cfe91e0"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>IS_I2S_MCLK_DIV</b>(X,  Y)&#160;&#160;&#160;((X &gt; 0) &amp;&amp; (X &lt; 256) &amp;&amp; (Y &gt; 0) &amp;&amp; (Y &lt; 256) &amp;&amp; (X &lt;= Y))</td></tr>
+<tr class="memitem:gaa4fd9fd77e0bc3608c2be1517cfe91e0" id="r_gaa4fd9fd77e0bc3608c2be1517cfe91e0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___constants.html#gaa4fd9fd77e0bc3608c2be1517cfe91e0">IS_I2S_MCLK_DIV</a>(X,  Y)&#160;&#160;&#160;((X &gt; 0) &amp;&amp; (X &lt; 256) &amp;&amp; (Y &gt; 0) &amp;&amp; (Y &lt; 256) &amp;&amp; (X &lt;= Y))</td></tr>
 <tr class="separator:gaa4fd9fd77e0bc3608c2be1517cfe91e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga17aa55ed2dfcda3ec45dc39e845936ef" id="r_ga17aa55ed2dfcda3ec45dc39e845936ef"><td class="memItemLeft" align="right" valign="top"><a id="ga17aa55ed2dfcda3ec45dc39e845936ef" name="ga17aa55ed2dfcda3ec45dc39e845936ef"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>IS_I2S_BCLK_DIV</b>(N)&#160;&#160;&#160;(N &lt; 256)</td></tr>
+<tr class="memitem:ga17aa55ed2dfcda3ec45dc39e845936ef" id="r_ga17aa55ed2dfcda3ec45dc39e845936ef"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___constants.html#ga17aa55ed2dfcda3ec45dc39e845936ef">IS_I2S_BCLK_DIV</a>(N)&#160;&#160;&#160;(N &lt; 256)</td></tr>
 <tr class="separator:ga17aa55ed2dfcda3ec45dc39e845936ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga463a445671402bd6d05f49c2fe83cf7d" id="r_ga463a445671402bd6d05f49c2fe83cf7d"><td class="memItemLeft" align="right" valign="top"><a id="ga463a445671402bd6d05f49c2fe83cf7d" name="ga463a445671402bd6d05f49c2fe83cf7d"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>I2S_TX_FIFO</b>&#160;&#160;&#160;(1UL &lt;&lt; 8)</td></tr>
+<tr class="memitem:ga463a445671402bd6d05f49c2fe83cf7d" id="r_ga463a445671402bd6d05f49c2fe83cf7d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___constants.html#ga463a445671402bd6d05f49c2fe83cf7d">I2S_TX_FIFO</a>&#160;&#160;&#160;(1UL &lt;&lt; 8)</td></tr>
 <tr class="separator:ga463a445671402bd6d05f49c2fe83cf7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga94236bb9b29a41852be49c7d8ab4ab86" id="r_ga94236bb9b29a41852be49c7d8ab4ab86"><td class="memItemLeft" align="right" valign="top"><a id="ga94236bb9b29a41852be49c7d8ab4ab86" name="ga94236bb9b29a41852be49c7d8ab4ab86"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>I2S_RX_FIFO</b>&#160;&#160;&#160;(2UL &lt;&lt; 8)</td></tr>
+<tr class="memitem:ga94236bb9b29a41852be49c7d8ab4ab86" id="r_ga94236bb9b29a41852be49c7d8ab4ab86"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___constants.html#ga94236bb9b29a41852be49c7d8ab4ab86">I2S_RX_FIFO</a>&#160;&#160;&#160;(2UL &lt;&lt; 8)</td></tr>
 <tr class="separator:ga94236bb9b29a41852be49c7d8ab4ab86"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3b304fe88295ded67b08f6fd3d598791" id="r_ga3b304fe88295ded67b08f6fd3d598791"><td class="memItemLeft" align="right" valign="top"><a id="ga3b304fe88295ded67b08f6fd3d598791" name="ga3b304fe88295ded67b08f6fd3d598791"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>IS_I2S_ONE_FIFO</b>(FIFO)&#160;&#160;&#160;((FIFO == I2S_TX_FIFO) || (FIFO == I2S_RX_FIFO))</td></tr>
+<tr class="memitem:ga3b304fe88295ded67b08f6fd3d598791" id="r_ga3b304fe88295ded67b08f6fd3d598791"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___constants.html#ga3b304fe88295ded67b08f6fd3d598791">IS_I2S_ONE_FIFO</a>(FIFO)&#160;&#160;&#160;((FIFO == <a class="el" href="group___i2_s___exported___constants.html#ga463a445671402bd6d05f49c2fe83cf7d">I2S_TX_FIFO</a>) || (FIFO == <a class="el" href="group___i2_s___exported___constants.html#ga94236bb9b29a41852be49c7d8ab4ab86">I2S_RX_FIFO</a>))</td></tr>
 <tr class="separator:ga3b304fe88295ded67b08f6fd3d598791"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga928428455de873017993e23d7e52c655" id="r_ga928428455de873017993e23d7e52c655"><td class="memItemLeft" align="right" valign="top"><a id="ga928428455de873017993e23d7e52c655" name="ga928428455de873017993e23d7e52c655"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>IS_I2S_TWO_FIFO</b>(FIFO)&#160;&#160;&#160;(((FIFO &amp; 0xFFFFFCFF) == 0) &amp;&amp; (FIFO != 0))</td></tr>
+<tr class="memitem:ga928428455de873017993e23d7e52c655" id="r_ga928428455de873017993e23d7e52c655"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___constants.html#ga928428455de873017993e23d7e52c655">IS_I2S_TWO_FIFO</a>(FIFO)&#160;&#160;&#160;(((FIFO &amp; 0xFFFFFCFF) == 0) &amp;&amp; (FIFO != 0))</td></tr>
 <tr class="separator:ga928428455de873017993e23d7e52c655"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1aed82599c8c55ad19680c86535d5081" id="r_ga1aed82599c8c55ad19680c86535d5081"><td class="memItemLeft" align="right" valign="top"><a id="ga1aed82599c8c55ad19680c86535d5081" name="ga1aed82599c8c55ad19680c86535d5081"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>IS_I2S_FIFO_LEVEL</b>(LEVEL)&#160;&#160;&#160;((LEVEL &amp; 0x0000000F) &lt; 9)</td></tr>
+<tr class="memitem:ga1aed82599c8c55ad19680c86535d5081" id="r_ga1aed82599c8c55ad19680c86535d5081"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___constants.html#ga1aed82599c8c55ad19680c86535d5081">IS_I2S_FIFO_LEVEL</a>(LEVEL)&#160;&#160;&#160;((LEVEL &amp; 0x0000000F) &lt; 9)</td></tr>
 <tr class="separator:ga1aed82599c8c55ad19680c86535d5081"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gafb4c1ee0be9aaaf8b3a4c2371f060530" id="r_gafb4c1ee0be9aaaf8b3a4c2371f060530"><td class="memItemLeft" align="right" valign="top"><a id="gafb4c1ee0be9aaaf8b3a4c2371f060530" name="gafb4c1ee0be9aaaf8b3a4c2371f060530"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>I2S_INT_TXFIFO_TRI</b>&#160;&#160;&#160;(1UL)</td></tr>
+<tr class="memitem:gafb4c1ee0be9aaaf8b3a4c2371f060530" id="r_gafb4c1ee0be9aaaf8b3a4c2371f060530"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___constants.html#gafb4c1ee0be9aaaf8b3a4c2371f060530">I2S_INT_TXFIFO_TRI</a>&#160;&#160;&#160;(1UL)</td></tr>
 <tr class="separator:gafb4c1ee0be9aaaf8b3a4c2371f060530"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab4c12a9eaace002430f0c671dcafdafa" id="r_gab4c12a9eaace002430f0c671dcafdafa"><td class="memItemLeft" align="right" valign="top"><a id="gab4c12a9eaace002430f0c671dcafdafa" name="gab4c12a9eaace002430f0c671dcafdafa"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>I2S_INT_TXFIFO_UDF</b>&#160;&#160;&#160;(1UL &lt;&lt; 1)</td></tr>
+<tr class="memitem:gab4c12a9eaace002430f0c671dcafdafa" id="r_gab4c12a9eaace002430f0c671dcafdafa"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___constants.html#gab4c12a9eaace002430f0c671dcafdafa">I2S_INT_TXFIFO_UDF</a>&#160;&#160;&#160;(1UL &lt;&lt; 1)</td></tr>
 <tr class="separator:gab4c12a9eaace002430f0c671dcafdafa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae84ea8310ff2e69f544e24a83890abb2" id="r_gae84ea8310ff2e69f544e24a83890abb2"><td class="memItemLeft" align="right" valign="top"><a id="gae84ea8310ff2e69f544e24a83890abb2" name="gae84ea8310ff2e69f544e24a83890abb2"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>I2S_INT_TXFIFO_OVF</b>&#160;&#160;&#160;(1UL &lt;&lt; 2)</td></tr>
+<tr class="memitem:gae84ea8310ff2e69f544e24a83890abb2" id="r_gae84ea8310ff2e69f544e24a83890abb2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___constants.html#gae84ea8310ff2e69f544e24a83890abb2">I2S_INT_TXFIFO_OVF</a>&#160;&#160;&#160;(1UL &lt;&lt; 2)</td></tr>
 <tr class="separator:gae84ea8310ff2e69f544e24a83890abb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabd32f5fe1573db35dc4adcb95eca37b0" id="r_gabd32f5fe1573db35dc4adcb95eca37b0"><td class="memItemLeft" align="right" valign="top"><a id="gabd32f5fe1573db35dc4adcb95eca37b0" name="gabd32f5fe1573db35dc4adcb95eca37b0"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>I2S_INT_RXFIFO_TRI</b>&#160;&#160;&#160;(1UL &lt;&lt; 4)</td></tr>
+<tr class="memitem:gabd32f5fe1573db35dc4adcb95eca37b0" id="r_gabd32f5fe1573db35dc4adcb95eca37b0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___constants.html#gabd32f5fe1573db35dc4adcb95eca37b0">I2S_INT_RXFIFO_TRI</a>&#160;&#160;&#160;(1UL &lt;&lt; 4)</td></tr>
 <tr class="separator:gabd32f5fe1573db35dc4adcb95eca37b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab527be452e56282b28e86eb9fc4f374b" id="r_gab527be452e56282b28e86eb9fc4f374b"><td class="memItemLeft" align="right" valign="top"><a id="gab527be452e56282b28e86eb9fc4f374b" name="gab527be452e56282b28e86eb9fc4f374b"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>I2S_INT_RXFIFO_UDF</b>&#160;&#160;&#160;(1UL &lt;&lt; 5)</td></tr>
+<tr class="memitem:gab527be452e56282b28e86eb9fc4f374b" id="r_gab527be452e56282b28e86eb9fc4f374b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___constants.html#gab527be452e56282b28e86eb9fc4f374b">I2S_INT_RXFIFO_UDF</a>&#160;&#160;&#160;(1UL &lt;&lt; 5)</td></tr>
 <tr class="separator:gab527be452e56282b28e86eb9fc4f374b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa06522a4bae30706d853244179ab2061" id="r_gaa06522a4bae30706d853244179ab2061"><td class="memItemLeft" align="right" valign="top"><a id="gaa06522a4bae30706d853244179ab2061" name="gaa06522a4bae30706d853244179ab2061"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>I2S_INT_RXFIFO_OVF</b>&#160;&#160;&#160;(1UL &lt;&lt; 6)</td></tr>
+<tr class="memitem:gaa06522a4bae30706d853244179ab2061" id="r_gaa06522a4bae30706d853244179ab2061"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___constants.html#gaa06522a4bae30706d853244179ab2061">I2S_INT_RXFIFO_OVF</a>&#160;&#160;&#160;(1UL &lt;&lt; 6)</td></tr>
 <tr class="separator:gaa06522a4bae30706d853244179ab2061"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf0a0320b19bbf3f4477fd2ff08d8bfca" id="r_gaf0a0320b19bbf3f4477fd2ff08d8bfca"><td class="memItemLeft" align="right" valign="top"><a id="gaf0a0320b19bbf3f4477fd2ff08d8bfca" name="gaf0a0320b19bbf3f4477fd2ff08d8bfca"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>IS_I2S_INT</b>(INT)&#160;&#160;&#160;(((INT &amp; 0xFFFFFF88) == 0) &amp;&amp; (INT != 0))</td></tr>
+<tr class="memitem:gaf0a0320b19bbf3f4477fd2ff08d8bfca" id="r_gaf0a0320b19bbf3f4477fd2ff08d8bfca"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___constants.html#gaf0a0320b19bbf3f4477fd2ff08d8bfca">IS_I2S_INT</a>(INT)&#160;&#160;&#160;(((INT &amp; 0xFFFFFF88) == 0) &amp;&amp; (INT != 0))</td></tr>
 <tr class="separator:gaf0a0320b19bbf3f4477fd2ff08d8bfca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga53eaa759d887f7d4dcb872de27ec061d" id="r_ga53eaa759d887f7d4dcb872de27ec061d"><td class="memItemLeft" align="right" valign="top"><a id="ga53eaa759d887f7d4dcb872de27ec061d" name="ga53eaa759d887f7d4dcb872de27ec061d"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>I2S_FLAG_TXFIFO_TRI</b>&#160;&#160;&#160;(1UL)</td></tr>
+<tr class="memitem:ga53eaa759d887f7d4dcb872de27ec061d" id="r_ga53eaa759d887f7d4dcb872de27ec061d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___constants.html#ga53eaa759d887f7d4dcb872de27ec061d">I2S_FLAG_TXFIFO_TRI</a>&#160;&#160;&#160;(1UL)</td></tr>
 <tr class="separator:ga53eaa759d887f7d4dcb872de27ec061d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa91a99c66f6a73f75320958231d98fff" id="r_gaa91a99c66f6a73f75320958231d98fff"><td class="memItemLeft" align="right" valign="top"><a id="gaa91a99c66f6a73f75320958231d98fff" name="gaa91a99c66f6a73f75320958231d98fff"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>I2S_FLAG_TXFIFO_UDF</b>&#160;&#160;&#160;(1UL &lt;&lt; 1)</td></tr>
+<tr class="memitem:gaa91a99c66f6a73f75320958231d98fff" id="r_gaa91a99c66f6a73f75320958231d98fff"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___constants.html#gaa91a99c66f6a73f75320958231d98fff">I2S_FLAG_TXFIFO_UDF</a>&#160;&#160;&#160;(1UL &lt;&lt; 1)</td></tr>
 <tr class="separator:gaa91a99c66f6a73f75320958231d98fff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa5d36f2964c184ac2e027301ba06e658" id="r_gaa5d36f2964c184ac2e027301ba06e658"><td class="memItemLeft" align="right" valign="top"><a id="gaa5d36f2964c184ac2e027301ba06e658" name="gaa5d36f2964c184ac2e027301ba06e658"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>I2S_FLAG_TXFIFO_OVF</b>&#160;&#160;&#160;(1UL &lt;&lt; 2)</td></tr>
+<tr class="memitem:gaa5d36f2964c184ac2e027301ba06e658" id="r_gaa5d36f2964c184ac2e027301ba06e658"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___constants.html#gaa5d36f2964c184ac2e027301ba06e658">I2S_FLAG_TXFIFO_OVF</a>&#160;&#160;&#160;(1UL &lt;&lt; 2)</td></tr>
 <tr class="separator:gaa5d36f2964c184ac2e027301ba06e658"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac387e829f08fb57c06f0dcbcc60e56ae" id="r_gac387e829f08fb57c06f0dcbcc60e56ae"><td class="memItemLeft" align="right" valign="top"><a id="gac387e829f08fb57c06f0dcbcc60e56ae" name="gac387e829f08fb57c06f0dcbcc60e56ae"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>I2S_FLAG_RXFIFO_TRI</b>&#160;&#160;&#160;(1UL &lt;&lt; 8)</td></tr>
+<tr class="memitem:gac387e829f08fb57c06f0dcbcc60e56ae" id="r_gac387e829f08fb57c06f0dcbcc60e56ae"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___constants.html#gac387e829f08fb57c06f0dcbcc60e56ae">I2S_FLAG_RXFIFO_TRI</a>&#160;&#160;&#160;(1UL &lt;&lt; 8)</td></tr>
 <tr class="separator:gac387e829f08fb57c06f0dcbcc60e56ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0d7acb7e259432772a9ceccf94506c12" id="r_ga0d7acb7e259432772a9ceccf94506c12"><td class="memItemLeft" align="right" valign="top"><a id="ga0d7acb7e259432772a9ceccf94506c12" name="ga0d7acb7e259432772a9ceccf94506c12"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>I2S_FLAG_RXFIFO_UDF</b>&#160;&#160;&#160;(1UL &lt;&lt; 9)</td></tr>
+<tr class="memitem:ga0d7acb7e259432772a9ceccf94506c12" id="r_ga0d7acb7e259432772a9ceccf94506c12"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___constants.html#ga0d7acb7e259432772a9ceccf94506c12">I2S_FLAG_RXFIFO_UDF</a>&#160;&#160;&#160;(1UL &lt;&lt; 9)</td></tr>
 <tr class="separator:ga0d7acb7e259432772a9ceccf94506c12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga23a6d4609e0d2db7b7ae2bc197470fbf" id="r_ga23a6d4609e0d2db7b7ae2bc197470fbf"><td class="memItemLeft" align="right" valign="top"><a id="ga23a6d4609e0d2db7b7ae2bc197470fbf" name="ga23a6d4609e0d2db7b7ae2bc197470fbf"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>I2S_FLAG_RXFIFO_OVF</b>&#160;&#160;&#160;(1UL &lt;&lt; 10)</td></tr>
+<tr class="memitem:ga23a6d4609e0d2db7b7ae2bc197470fbf" id="r_ga23a6d4609e0d2db7b7ae2bc197470fbf"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___constants.html#ga23a6d4609e0d2db7b7ae2bc197470fbf">I2S_FLAG_RXFIFO_OVF</a>&#160;&#160;&#160;(1UL &lt;&lt; 10)</td></tr>
 <tr class="separator:ga23a6d4609e0d2db7b7ae2bc197470fbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaed4510851f60cb3b700cf695913cebe1" id="r_gaed4510851f60cb3b700cf695913cebe1"><td class="memItemLeft" align="right" valign="top"><a id="gaed4510851f60cb3b700cf695913cebe1" name="gaed4510851f60cb3b700cf695913cebe1"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>I2S_FLAG_TXFIFO_EMP</b>&#160;&#160;&#160;(1UL &lt;&lt; 3)</td></tr>
+<tr class="memitem:gaed4510851f60cb3b700cf695913cebe1" id="r_gaed4510851f60cb3b700cf695913cebe1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___constants.html#gaed4510851f60cb3b700cf695913cebe1">I2S_FLAG_TXFIFO_EMP</a>&#160;&#160;&#160;(1UL &lt;&lt; 3)</td></tr>
 <tr class="separator:gaed4510851f60cb3b700cf695913cebe1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga319e913ceeca3a2545167a3c652629c6" id="r_ga319e913ceeca3a2545167a3c652629c6"><td class="memItemLeft" align="right" valign="top"><a id="ga319e913ceeca3a2545167a3c652629c6" name="ga319e913ceeca3a2545167a3c652629c6"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>I2S_FLAG_TXFIFO_FUL</b>&#160;&#160;&#160;(1UL &lt;&lt; 4)</td></tr>
+<tr class="memitem:ga319e913ceeca3a2545167a3c652629c6" id="r_ga319e913ceeca3a2545167a3c652629c6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___constants.html#ga319e913ceeca3a2545167a3c652629c6">I2S_FLAG_TXFIFO_FUL</a>&#160;&#160;&#160;(1UL &lt;&lt; 4)</td></tr>
 <tr class="separator:ga319e913ceeca3a2545167a3c652629c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga49f28771ab28cc51ed5efdc666f47ce8" id="r_ga49f28771ab28cc51ed5efdc666f47ce8"><td class="memItemLeft" align="right" valign="top"><a id="ga49f28771ab28cc51ed5efdc666f47ce8" name="ga49f28771ab28cc51ed5efdc666f47ce8"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>I2S_FLAG_RXFIFO_EMP</b>&#160;&#160;&#160;(1UL &lt;&lt; 11)</td></tr>
+<tr class="memitem:ga49f28771ab28cc51ed5efdc666f47ce8" id="r_ga49f28771ab28cc51ed5efdc666f47ce8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___constants.html#ga49f28771ab28cc51ed5efdc666f47ce8">I2S_FLAG_RXFIFO_EMP</a>&#160;&#160;&#160;(1UL &lt;&lt; 11)</td></tr>
 <tr class="separator:ga49f28771ab28cc51ed5efdc666f47ce8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga42bcd78d0be50e7e86142e6830fac7ad" id="r_ga42bcd78d0be50e7e86142e6830fac7ad"><td class="memItemLeft" align="right" valign="top"><a id="ga42bcd78d0be50e7e86142e6830fac7ad" name="ga42bcd78d0be50e7e86142e6830fac7ad"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>I2S_FLAG_RXFIFO_FUL</b>&#160;&#160;&#160;(1UL &lt;&lt; 12)</td></tr>
+<tr class="memitem:ga42bcd78d0be50e7e86142e6830fac7ad" id="r_ga42bcd78d0be50e7e86142e6830fac7ad"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___constants.html#ga42bcd78d0be50e7e86142e6830fac7ad">I2S_FLAG_RXFIFO_FUL</a>&#160;&#160;&#160;(1UL &lt;&lt; 12)</td></tr>
 <tr class="separator:ga42bcd78d0be50e7e86142e6830fac7ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3dcc4b09241dc4666eee284b66ae356f" id="r_ga3dcc4b09241dc4666eee284b66ae356f"><td class="memItemLeft" align="right" valign="top"><a id="ga3dcc4b09241dc4666eee284b66ae356f" name="ga3dcc4b09241dc4666eee284b66ae356f"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>I2S_FLAG_RIGHT_CH</b>&#160;&#160;&#160;(1UL &lt;&lt; 16)</td></tr>
+<tr class="memitem:ga3dcc4b09241dc4666eee284b66ae356f" id="r_ga3dcc4b09241dc4666eee284b66ae356f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___constants.html#ga3dcc4b09241dc4666eee284b66ae356f">I2S_FLAG_RIGHT_CH</a>&#160;&#160;&#160;(1UL &lt;&lt; 16)</td></tr>
 <tr class="separator:ga3dcc4b09241dc4666eee284b66ae356f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac128ad639b03b5c4e0dfd48a622d2ffb" id="r_gac128ad639b03b5c4e0dfd48a622d2ffb"><td class="memItemLeft" align="right" valign="top"><a id="gac128ad639b03b5c4e0dfd48a622d2ffb" name="gac128ad639b03b5c4e0dfd48a622d2ffb"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>I2S_FLAG_TX_BUSY</b>&#160;&#160;&#160;(1UL &lt;&lt; 17)</td></tr>
+<tr class="memitem:gac128ad639b03b5c4e0dfd48a622d2ffb" id="r_gac128ad639b03b5c4e0dfd48a622d2ffb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___constants.html#gac128ad639b03b5c4e0dfd48a622d2ffb">I2S_FLAG_TX_BUSY</a>&#160;&#160;&#160;(1UL &lt;&lt; 17)</td></tr>
 <tr class="separator:gac128ad639b03b5c4e0dfd48a622d2ffb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga37bc9ac48605e25c3c0930ed93ef9f74" id="r_ga37bc9ac48605e25c3c0930ed93ef9f74"><td class="memItemLeft" align="right" valign="top"><a id="ga37bc9ac48605e25c3c0930ed93ef9f74" name="ga37bc9ac48605e25c3c0930ed93ef9f74"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>I2S_FLAG_CLK_RDY</b>&#160;&#160;&#160;(1UL &lt;&lt; 18)</td></tr>
+<tr class="memitem:ga37bc9ac48605e25c3c0930ed93ef9f74" id="r_ga37bc9ac48605e25c3c0930ed93ef9f74"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___constants.html#ga37bc9ac48605e25c3c0930ed93ef9f74">I2S_FLAG_CLK_RDY</a>&#160;&#160;&#160;(1UL &lt;&lt; 18)</td></tr>
 <tr class="separator:ga37bc9ac48605e25c3c0930ed93ef9f74"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga05d829ecb12c70163b71435d7df62556" id="r_ga05d829ecb12c70163b71435d7df62556"><td class="memItemLeft" align="right" valign="top"><a id="ga05d829ecb12c70163b71435d7df62556" name="ga05d829ecb12c70163b71435d7df62556"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>IS_I2S_FLAG_CLEAR</b>(FLAG)&#160;&#160;&#160;(((FLAG &amp; 0xFFFFF8F8) == 0) &amp;&amp; (FLAG != 0))</td></tr>
+<tr class="memitem:ga05d829ecb12c70163b71435d7df62556" id="r_ga05d829ecb12c70163b71435d7df62556"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___constants.html#ga05d829ecb12c70163b71435d7df62556">IS_I2S_FLAG_CLEAR</a>(FLAG)&#160;&#160;&#160;(((FLAG &amp; 0xFFFFF8F8) == 0) &amp;&amp; (FLAG != 0))</td></tr>
 <tr class="separator:ga05d829ecb12c70163b71435d7df62556"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga78ae2a8fb86cf332cf6250ea9a2bee86" id="r_ga78ae2a8fb86cf332cf6250ea9a2bee86"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___constants.html#ga78ae2a8fb86cf332cf6250ea9a2bee86">IS_I2S_FLAG</a>(FLAG)</td></tr>
 <tr class="separator:ga78ae2a8fb86cf332cf6250ea9a2bee86"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0928294cee59ebc17ee315ffc2427a6d" id="r_ga0928294cee59ebc17ee315ffc2427a6d"><td class="memItemLeft" align="right" valign="top"><a id="ga0928294cee59ebc17ee315ffc2427a6d" name="ga0928294cee59ebc17ee315ffc2427a6d"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>I2S_PDMAREQ_TX</b>&#160;&#160;&#160;(1UL &lt;&lt; 13)</td></tr>
+<tr class="memitem:ga0928294cee59ebc17ee315ffc2427a6d" id="r_ga0928294cee59ebc17ee315ffc2427a6d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___constants.html#ga0928294cee59ebc17ee315ffc2427a6d">I2S_PDMAREQ_TX</a>&#160;&#160;&#160;(1UL &lt;&lt; 13)</td></tr>
 <tr class="separator:ga0928294cee59ebc17ee315ffc2427a6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gadcebaeec38c85ae090a3eafc79c525a5" id="r_gadcebaeec38c85ae090a3eafc79c525a5"><td class="memItemLeft" align="right" valign="top"><a id="gadcebaeec38c85ae090a3eafc79c525a5" name="gadcebaeec38c85ae090a3eafc79c525a5"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>I2S_PDMAREQ_RX</b>&#160;&#160;&#160;(1UL &lt;&lt; 14)</td></tr>
+<tr class="memitem:gadcebaeec38c85ae090a3eafc79c525a5" id="r_gadcebaeec38c85ae090a3eafc79c525a5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___constants.html#gadcebaeec38c85ae090a3eafc79c525a5">I2S_PDMAREQ_RX</a>&#160;&#160;&#160;(1UL &lt;&lt; 14)</td></tr>
 <tr class="separator:gadcebaeec38c85ae090a3eafc79c525a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga67cc515bc8501b11bd8d047239344f4f" id="r_ga67cc515bc8501b11bd8d047239344f4f"><td class="memItemLeft" align="right" valign="top"><a id="ga67cc515bc8501b11bd8d047239344f4f" name="ga67cc515bc8501b11bd8d047239344f4f"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>IS_I2S_PDMA_REQ</b>(REQ)&#160;&#160;&#160;(((REQ &amp; 0xFFFF9FFF) == 0) &amp;&amp; (REQ != 0))</td></tr>
+<tr class="memitem:ga67cc515bc8501b11bd8d047239344f4f" id="r_ga67cc515bc8501b11bd8d047239344f4f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___constants.html#ga67cc515bc8501b11bd8d047239344f4f">IS_I2S_PDMA_REQ</a>(REQ)&#160;&#160;&#160;(((REQ &amp; 0xFFFF9FFF) == 0) &amp;&amp; (REQ != 0))</td></tr>
 <tr class="separator:ga67cc515bc8501b11bd8d047239344f4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="ga37bc9ac48605e25c3c0930ed93ef9f74" name="ga37bc9ac48605e25c3c0930ed93ef9f74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga37bc9ac48605e25c3c0930ed93ef9f74">&#9670;&#160;</a></span>I2S_FLAG_CLK_RDY</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2S_FLAG_CLK_RDY&#160;&#160;&#160;(1UL &lt;&lt; 18)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga3dcc4b09241dc4666eee284b66ae356f" name="ga3dcc4b09241dc4666eee284b66ae356f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3dcc4b09241dc4666eee284b66ae356f">&#9670;&#160;</a></span>I2S_FLAG_RIGHT_CH</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2S_FLAG_RIGHT_CH&#160;&#160;&#160;(1UL &lt;&lt; 16)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga49f28771ab28cc51ed5efdc666f47ce8" name="ga49f28771ab28cc51ed5efdc666f47ce8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga49f28771ab28cc51ed5efdc666f47ce8">&#9670;&#160;</a></span>I2S_FLAG_RXFIFO_EMP</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2S_FLAG_RXFIFO_EMP&#160;&#160;&#160;(1UL &lt;&lt; 11)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga42bcd78d0be50e7e86142e6830fac7ad" name="ga42bcd78d0be50e7e86142e6830fac7ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga42bcd78d0be50e7e86142e6830fac7ad">&#9670;&#160;</a></span>I2S_FLAG_RXFIFO_FUL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2S_FLAG_RXFIFO_FUL&#160;&#160;&#160;(1UL &lt;&lt; 12)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga23a6d4609e0d2db7b7ae2bc197470fbf" name="ga23a6d4609e0d2db7b7ae2bc197470fbf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga23a6d4609e0d2db7b7ae2bc197470fbf">&#9670;&#160;</a></span>I2S_FLAG_RXFIFO_OVF</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2S_FLAG_RXFIFO_OVF&#160;&#160;&#160;(1UL &lt;&lt; 10)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gac387e829f08fb57c06f0dcbcc60e56ae" name="gac387e829f08fb57c06f0dcbcc60e56ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac387e829f08fb57c06f0dcbcc60e56ae">&#9670;&#160;</a></span>I2S_FLAG_RXFIFO_TRI</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2S_FLAG_RXFIFO_TRI&#160;&#160;&#160;(1UL &lt;&lt; 8)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga0d7acb7e259432772a9ceccf94506c12" name="ga0d7acb7e259432772a9ceccf94506c12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0d7acb7e259432772a9ceccf94506c12">&#9670;&#160;</a></span>I2S_FLAG_RXFIFO_UDF</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2S_FLAG_RXFIFO_UDF&#160;&#160;&#160;(1UL &lt;&lt; 9)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gac128ad639b03b5c4e0dfd48a622d2ffb" name="gac128ad639b03b5c4e0dfd48a622d2ffb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac128ad639b03b5c4e0dfd48a622d2ffb">&#9670;&#160;</a></span>I2S_FLAG_TX_BUSY</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2S_FLAG_TX_BUSY&#160;&#160;&#160;(1UL &lt;&lt; 17)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gaed4510851f60cb3b700cf695913cebe1" name="gaed4510851f60cb3b700cf695913cebe1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaed4510851f60cb3b700cf695913cebe1">&#9670;&#160;</a></span>I2S_FLAG_TXFIFO_EMP</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2S_FLAG_TXFIFO_EMP&#160;&#160;&#160;(1UL &lt;&lt; 3)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga319e913ceeca3a2545167a3c652629c6" name="ga319e913ceeca3a2545167a3c652629c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga319e913ceeca3a2545167a3c652629c6">&#9670;&#160;</a></span>I2S_FLAG_TXFIFO_FUL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2S_FLAG_TXFIFO_FUL&#160;&#160;&#160;(1UL &lt;&lt; 4)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gaa5d36f2964c184ac2e027301ba06e658" name="gaa5d36f2964c184ac2e027301ba06e658"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa5d36f2964c184ac2e027301ba06e658">&#9670;&#160;</a></span>I2S_FLAG_TXFIFO_OVF</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2S_FLAG_TXFIFO_OVF&#160;&#160;&#160;(1UL &lt;&lt; 2)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga53eaa759d887f7d4dcb872de27ec061d" name="ga53eaa759d887f7d4dcb872de27ec061d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga53eaa759d887f7d4dcb872de27ec061d">&#9670;&#160;</a></span>I2S_FLAG_TXFIFO_TRI</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2S_FLAG_TXFIFO_TRI&#160;&#160;&#160;(1UL)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gaa91a99c66f6a73f75320958231d98fff" name="gaa91a99c66f6a73f75320958231d98fff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa91a99c66f6a73f75320958231d98fff">&#9670;&#160;</a></span>I2S_FLAG_TXFIFO_UDF</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2S_FLAG_TXFIFO_UDF&#160;&#160;&#160;(1UL &lt;&lt; 1)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gaa06522a4bae30706d853244179ab2061" name="gaa06522a4bae30706d853244179ab2061"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa06522a4bae30706d853244179ab2061">&#9670;&#160;</a></span>I2S_INT_RXFIFO_OVF</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2S_INT_RXFIFO_OVF&#160;&#160;&#160;(1UL &lt;&lt; 6)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gabd32f5fe1573db35dc4adcb95eca37b0" name="gabd32f5fe1573db35dc4adcb95eca37b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabd32f5fe1573db35dc4adcb95eca37b0">&#9670;&#160;</a></span>I2S_INT_RXFIFO_TRI</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2S_INT_RXFIFO_TRI&#160;&#160;&#160;(1UL &lt;&lt; 4)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gab527be452e56282b28e86eb9fc4f374b" name="gab527be452e56282b28e86eb9fc4f374b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab527be452e56282b28e86eb9fc4f374b">&#9670;&#160;</a></span>I2S_INT_RXFIFO_UDF</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2S_INT_RXFIFO_UDF&#160;&#160;&#160;(1UL &lt;&lt; 5)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gae84ea8310ff2e69f544e24a83890abb2" name="gae84ea8310ff2e69f544e24a83890abb2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae84ea8310ff2e69f544e24a83890abb2">&#9670;&#160;</a></span>I2S_INT_TXFIFO_OVF</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2S_INT_TXFIFO_OVF&#160;&#160;&#160;(1UL &lt;&lt; 2)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gafb4c1ee0be9aaaf8b3a4c2371f060530" name="gafb4c1ee0be9aaaf8b3a4c2371f060530"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafb4c1ee0be9aaaf8b3a4c2371f060530">&#9670;&#160;</a></span>I2S_INT_TXFIFO_TRI</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2S_INT_TXFIFO_TRI&#160;&#160;&#160;(1UL)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gab4c12a9eaace002430f0c671dcafdafa" name="gab4c12a9eaace002430f0c671dcafdafa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab4c12a9eaace002430f0c671dcafdafa">&#9670;&#160;</a></span>I2S_INT_TXFIFO_UDF</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2S_INT_TXFIFO_UDF&#160;&#160;&#160;(1UL &lt;&lt; 1)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga29fa1045e091398a685c30d692759205" name="ga29fa1045e091398a685c30d692759205"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga29fa1045e091398a685c30d692759205">&#9670;&#160;</a></span>I2S_JUSTIFIED_MONO</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2S_JUSTIFIED_MONO&#160;&#160;&#160;(1UL &lt;&lt; 11)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga9b6b6fa8847f632db1a08ae9585deb2b" name="ga9b6b6fa8847f632db1a08ae9585deb2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9b6b6fa8847f632db1a08ae9585deb2b">&#9670;&#160;</a></span>I2S_JUSTIFIED_MONO_EXT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2S_JUSTIFIED_MONO_EXT&#160;&#160;&#160;((1UL &lt;&lt; 8) | (1UL &lt;&lt; 11))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga0cdfa1032bebdcd924076c3e64550ae0" name="ga0cdfa1032bebdcd924076c3e64550ae0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0cdfa1032bebdcd924076c3e64550ae0">&#9670;&#160;</a></span>I2S_JUSTIFIED_REPEAT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2S_JUSTIFIED_REPEAT&#160;&#160;&#160;(1UL &lt;&lt; 10)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga28d417223fa93a2ff2cf676695f9d635" name="ga28d417223fa93a2ff2cf676695f9d635"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga28d417223fa93a2ff2cf676695f9d635">&#9670;&#160;</a></span>I2S_JUSTIFIED_REPEAT_EXT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2S_JUSTIFIED_REPEAT_EXT&#160;&#160;&#160;((1UL &lt;&lt; 8) | (1UL &lt;&lt; 10))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga8f8887f639493fbe3e16c98bb3416d7a" name="ga8f8887f639493fbe3e16c98bb3416d7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8f8887f639493fbe3e16c98bb3416d7a">&#9670;&#160;</a></span>I2S_JUSTIFIED_STEREO</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2S_JUSTIFIED_STEREO&#160;&#160;&#160;(0)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga0d878e025c96d5e91ff802a651ae52cd" name="ga0d878e025c96d5e91ff802a651ae52cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0d878e025c96d5e91ff802a651ae52cd">&#9670;&#160;</a></span>I2S_JUSTIFIED_STEREO_EXT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2S_JUSTIFIED_STEREO_EXT&#160;&#160;&#160;(1UL &lt;&lt; 8)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga7abe8ad353ad8ab3816a1e267caf3cb5" name="ga7abe8ad353ad8ab3816a1e267caf3cb5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7abe8ad353ad8ab3816a1e267caf3cb5">&#9670;&#160;</a></span>I2S_MASTER_RX</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2S_MASTER_RX&#160;&#160;&#160;(1UL &lt;&lt; 2)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gaa96a65b6ed9173bf73d45212d2381311" name="gaa96a65b6ed9173bf73d45212d2381311"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa96a65b6ed9173bf73d45212d2381311">&#9670;&#160;</a></span>I2S_MASTER_TX</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2S_MASTER_TX&#160;&#160;&#160;(1UL &lt;&lt; 1)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga5a648f26e28e199a4db856782e865562" name="ga5a648f26e28e199a4db856782e865562"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5a648f26e28e199a4db856782e865562">&#9670;&#160;</a></span>I2S_MASTER_TX_RX</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2S_MASTER_TX_RX&#160;&#160;&#160;((1UL &lt;&lt; 1) | (1UL &lt;&lt; 2))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gadcebaeec38c85ae090a3eafc79c525a5" name="gadcebaeec38c85ae090a3eafc79c525a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gadcebaeec38c85ae090a3eafc79c525a5">&#9670;&#160;</a></span>I2S_PDMAREQ_RX</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2S_PDMAREQ_RX&#160;&#160;&#160;(1UL &lt;&lt; 14)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga0928294cee59ebc17ee315ffc2427a6d" name="ga0928294cee59ebc17ee315ffc2427a6d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0928294cee59ebc17ee315ffc2427a6d">&#9670;&#160;</a></span>I2S_PDMAREQ_TX</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2S_PDMAREQ_TX&#160;&#160;&#160;(1UL &lt;&lt; 13)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga94236bb9b29a41852be49c7d8ab4ab86" name="ga94236bb9b29a41852be49c7d8ab4ab86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga94236bb9b29a41852be49c7d8ab4ab86">&#9670;&#160;</a></span>I2S_RX_FIFO</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2S_RX_FIFO&#160;&#160;&#160;(2UL &lt;&lt; 8)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga6241ba5bd5ce4407933049539683b6d8" name="ga6241ba5bd5ce4407933049539683b6d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6241ba5bd5ce4407933049539683b6d8">&#9670;&#160;</a></span>I2S_SLAVE_RX</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2S_SLAVE_RX&#160;&#160;&#160;((1UL &lt;&lt; 3) | (1UL &lt;&lt; 2))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gab98bc2a0e6eb5c774ba4fd79d3a1d7a0" name="gab98bc2a0e6eb5c774ba4fd79d3a1d7a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab98bc2a0e6eb5c774ba4fd79d3a1d7a0">&#9670;&#160;</a></span>I2S_SLAVE_TX</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2S_SLAVE_TX&#160;&#160;&#160;((1UL &lt;&lt; 3) | (1UL &lt;&lt; 1))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gabc25311939b777242336b76f8a6625ca" name="gabc25311939b777242336b76f8a6625ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabc25311939b777242336b76f8a6625ca">&#9670;&#160;</a></span>I2S_SLAVE_TX_RX</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2S_SLAVE_TX_RX&#160;&#160;&#160;((1UL &lt;&lt; 3) | (1UL &lt;&lt; 1) | (1UL &lt;&lt; 2))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga463a445671402bd6d05f49c2fe83cf7d" name="ga463a445671402bd6d05f49c2fe83cf7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga463a445671402bd6d05f49c2fe83cf7d">&#9670;&#160;</a></span>I2S_TX_FIFO</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2S_TX_FIFO&#160;&#160;&#160;(1UL &lt;&lt; 8)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga4d016baad0fba07da20a6410470c71d3" name="ga4d016baad0fba07da20a6410470c71d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4d016baad0fba07da20a6410470c71d3">&#9670;&#160;</a></span>I2S_WORDWIDTH_16</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2S_WORDWIDTH_16&#160;&#160;&#160;(1UL &lt;&lt; 4)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gaa24ebdf5a1edf68fa2d6e56ee55924d7" name="gaa24ebdf5a1edf68fa2d6e56ee55924d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa24ebdf5a1edf68fa2d6e56ee55924d7">&#9670;&#160;</a></span>I2S_WORDWIDTH_24</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2S_WORDWIDTH_24&#160;&#160;&#160;(2UL &lt;&lt; 4)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga683d81436e91c1631bdd5947ee78489b" name="ga683d81436e91c1631bdd5947ee78489b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga683d81436e91c1631bdd5947ee78489b">&#9670;&#160;</a></span>I2S_WORDWIDTH_32</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2S_WORDWIDTH_32&#160;&#160;&#160;(3UL &lt;&lt; 4)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga17cb1a91d5be4e7afad486ead6d2980d" name="ga17cb1a91d5be4e7afad486ead6d2980d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga17cb1a91d5be4e7afad486ead6d2980d">&#9670;&#160;</a></span>I2S_WORDWIDTH_8</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2S_WORDWIDTH_8&#160;&#160;&#160;(0)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga17aa55ed2dfcda3ec45dc39e845936ef" name="ga17aa55ed2dfcda3ec45dc39e845936ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga17aa55ed2dfcda3ec45dc39e845936ef">&#9670;&#160;</a></span>IS_I2S_BCLK_DIV</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define IS_I2S_BCLK_DIV</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">N</td><td>)</td>
+          <td>&#160;&#160;&#160;(N &lt; 256)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga1aed82599c8c55ad19680c86535d5081" name="ga1aed82599c8c55ad19680c86535d5081"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1aed82599c8c55ad19680c86535d5081">&#9670;&#160;</a></span>IS_I2S_FIFO_LEVEL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define IS_I2S_FIFO_LEVEL</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">LEVEL</td><td>)</td>
+          <td>&#160;&#160;&#160;((LEVEL &amp; 0x0000000F) &lt; 9)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ga78ae2a8fb86cf332cf6250ea9a2bee86" name="ga78ae2a8fb86cf332cf6250ea9a2bee86"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga78ae2a8fb86cf332cf6250ea9a2bee86">&#9670;&#160;</a></span>IS_I2S_FLAG</h2>
 
@@ -269,20 +834,51 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">                                                   ((FLAG == I2S_FLAG_TXFIFO_TRI) || \</div>
-<div class="line">                                                   (FLAG == I2S_FLAG_TXFIFO_UDF) || \</div>
-<div class="line">                                                   (FLAG == I2S_FLAG_TXFIFO_OVF) || \</div>
-<div class="line">                                                   (FLAG == I2S_FLAG_TXFIFO_EMP) || \</div>
-<div class="line">                                                   (FLAG == I2S_FLAG_TXFIFO_FUL) || \</div>
-<div class="line">                                                   (FLAG == I2S_FLAG_RXFIFO_TRI) || \</div>
-<div class="line">                                                   (FLAG == I2S_FLAG_RXFIFO_UDF) || \</div>
-<div class="line">                                                   (FLAG == I2S_FLAG_RXFIFO_OVF) || \</div>
-<div class="line">                                                   (FLAG == I2S_FLAG_RXFIFO_EMP) || \</div>
-<div class="line">                                                   (FLAG == I2S_FLAG_RXFIFO_FUL) || \</div>
-<div class="line">                                                   (FLAG == I2S_FLAG_RIGHT_CH) || \</div>
-<div class="line">                                                   (FLAG == I2S_FLAG_TX_BUSY) || \</div>
-<div class="line">                                                   (FLAG == I2S_FLAG_CLK_RDY))</div>
+<b>Value:</b><div class="fragment"><div class="line">                                                   ((FLAG == <a class="code hl_define" href="group___i2_s___exported___constants.html#ga53eaa759d887f7d4dcb872de27ec061d">I2S_FLAG_TXFIFO_TRI</a>) || \</div>
+<div class="line">                                                   (FLAG == <a class="code hl_define" href="group___i2_s___exported___constants.html#gaa91a99c66f6a73f75320958231d98fff">I2S_FLAG_TXFIFO_UDF</a>) || \</div>
+<div class="line">                                                   (FLAG == <a class="code hl_define" href="group___i2_s___exported___constants.html#gaa5d36f2964c184ac2e027301ba06e658">I2S_FLAG_TXFIFO_OVF</a>) || \</div>
+<div class="line">                                                   (FLAG == <a class="code hl_define" href="group___i2_s___exported___constants.html#gaed4510851f60cb3b700cf695913cebe1">I2S_FLAG_TXFIFO_EMP</a>) || \</div>
+<div class="line">                                                   (FLAG == <a class="code hl_define" href="group___i2_s___exported___constants.html#ga319e913ceeca3a2545167a3c652629c6">I2S_FLAG_TXFIFO_FUL</a>) || \</div>
+<div class="line">                                                   (FLAG == <a class="code hl_define" href="group___i2_s___exported___constants.html#gac387e829f08fb57c06f0dcbcc60e56ae">I2S_FLAG_RXFIFO_TRI</a>) || \</div>
+<div class="line">                                                   (FLAG == <a class="code hl_define" href="group___i2_s___exported___constants.html#ga0d7acb7e259432772a9ceccf94506c12">I2S_FLAG_RXFIFO_UDF</a>) || \</div>
+<div class="line">                                                   (FLAG == <a class="code hl_define" href="group___i2_s___exported___constants.html#ga23a6d4609e0d2db7b7ae2bc197470fbf">I2S_FLAG_RXFIFO_OVF</a>) || \</div>
+<div class="line">                                                   (FLAG == <a class="code hl_define" href="group___i2_s___exported___constants.html#ga49f28771ab28cc51ed5efdc666f47ce8">I2S_FLAG_RXFIFO_EMP</a>) || \</div>
+<div class="line">                                                   (FLAG == <a class="code hl_define" href="group___i2_s___exported___constants.html#ga42bcd78d0be50e7e86142e6830fac7ad">I2S_FLAG_RXFIFO_FUL</a>) || \</div>
+<div class="line">                                                   (FLAG == <a class="code hl_define" href="group___i2_s___exported___constants.html#ga3dcc4b09241dc4666eee284b66ae356f">I2S_FLAG_RIGHT_CH</a>) || \</div>
+<div class="line">                                                   (FLAG == <a class="code hl_define" href="group___i2_s___exported___constants.html#gac128ad639b03b5c4e0dfd48a622d2ffb">I2S_FLAG_TX_BUSY</a>) || \</div>
+<div class="line">                                                   (FLAG == <a class="code hl_define" href="group___i2_s___exported___constants.html#ga37bc9ac48605e25c3c0930ed93ef9f74">I2S_FLAG_CLK_RDY</a>))</div>
+<div class="ttc" id="agroup___i2_s___exported___constants_html_ga0d7acb7e259432772a9ceccf94506c12"><div class="ttname"><a href="group___i2_s___exported___constants.html#ga0d7acb7e259432772a9ceccf94506c12">I2S_FLAG_RXFIFO_UDF</a></div><div class="ttdeci">#define I2S_FLAG_RXFIFO_UDF</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_i2s.h:170</div></div>
+<div class="ttc" id="agroup___i2_s___exported___constants_html_ga23a6d4609e0d2db7b7ae2bc197470fbf"><div class="ttname"><a href="group___i2_s___exported___constants.html#ga23a6d4609e0d2db7b7ae2bc197470fbf">I2S_FLAG_RXFIFO_OVF</a></div><div class="ttdeci">#define I2S_FLAG_RXFIFO_OVF</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_i2s.h:171</div></div>
+<div class="ttc" id="agroup___i2_s___exported___constants_html_ga319e913ceeca3a2545167a3c652629c6"><div class="ttname"><a href="group___i2_s___exported___constants.html#ga319e913ceeca3a2545167a3c652629c6">I2S_FLAG_TXFIFO_FUL</a></div><div class="ttdeci">#define I2S_FLAG_TXFIFO_FUL</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_i2s.h:174</div></div>
+<div class="ttc" id="agroup___i2_s___exported___constants_html_ga37bc9ac48605e25c3c0930ed93ef9f74"><div class="ttname"><a href="group___i2_s___exported___constants.html#ga37bc9ac48605e25c3c0930ed93ef9f74">I2S_FLAG_CLK_RDY</a></div><div class="ttdeci">#define I2S_FLAG_CLK_RDY</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_i2s.h:179</div></div>
+<div class="ttc" id="agroup___i2_s___exported___constants_html_ga3dcc4b09241dc4666eee284b66ae356f"><div class="ttname"><a href="group___i2_s___exported___constants.html#ga3dcc4b09241dc4666eee284b66ae356f">I2S_FLAG_RIGHT_CH</a></div><div class="ttdeci">#define I2S_FLAG_RIGHT_CH</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_i2s.h:177</div></div>
+<div class="ttc" id="agroup___i2_s___exported___constants_html_ga42bcd78d0be50e7e86142e6830fac7ad"><div class="ttname"><a href="group___i2_s___exported___constants.html#ga42bcd78d0be50e7e86142e6830fac7ad">I2S_FLAG_RXFIFO_FUL</a></div><div class="ttdeci">#define I2S_FLAG_RXFIFO_FUL</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_i2s.h:176</div></div>
+<div class="ttc" id="agroup___i2_s___exported___constants_html_ga49f28771ab28cc51ed5efdc666f47ce8"><div class="ttname"><a href="group___i2_s___exported___constants.html#ga49f28771ab28cc51ed5efdc666f47ce8">I2S_FLAG_RXFIFO_EMP</a></div><div class="ttdeci">#define I2S_FLAG_RXFIFO_EMP</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_i2s.h:175</div></div>
+<div class="ttc" id="agroup___i2_s___exported___constants_html_ga53eaa759d887f7d4dcb872de27ec061d"><div class="ttname"><a href="group___i2_s___exported___constants.html#ga53eaa759d887f7d4dcb872de27ec061d">I2S_FLAG_TXFIFO_TRI</a></div><div class="ttdeci">#define I2S_FLAG_TXFIFO_TRI</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_i2s.h:166</div></div>
+<div class="ttc" id="agroup___i2_s___exported___constants_html_gaa5d36f2964c184ac2e027301ba06e658"><div class="ttname"><a href="group___i2_s___exported___constants.html#gaa5d36f2964c184ac2e027301ba06e658">I2S_FLAG_TXFIFO_OVF</a></div><div class="ttdeci">#define I2S_FLAG_TXFIFO_OVF</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_i2s.h:168</div></div>
+<div class="ttc" id="agroup___i2_s___exported___constants_html_gaa91a99c66f6a73f75320958231d98fff"><div class="ttname"><a href="group___i2_s___exported___constants.html#gaa91a99c66f6a73f75320958231d98fff">I2S_FLAG_TXFIFO_UDF</a></div><div class="ttdeci">#define I2S_FLAG_TXFIFO_UDF</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_i2s.h:167</div></div>
+<div class="ttc" id="agroup___i2_s___exported___constants_html_gac128ad639b03b5c4e0dfd48a622d2ffb"><div class="ttname"><a href="group___i2_s___exported___constants.html#gac128ad639b03b5c4e0dfd48a622d2ffb">I2S_FLAG_TX_BUSY</a></div><div class="ttdeci">#define I2S_FLAG_TX_BUSY</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_i2s.h:178</div></div>
+<div class="ttc" id="agroup___i2_s___exported___constants_html_gac387e829f08fb57c06f0dcbcc60e56ae"><div class="ttname"><a href="group___i2_s___exported___constants.html#gac387e829f08fb57c06f0dcbcc60e56ae">I2S_FLAG_RXFIFO_TRI</a></div><div class="ttdeci">#define I2S_FLAG_RXFIFO_TRI</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_i2s.h:169</div></div>
+<div class="ttc" id="agroup___i2_s___exported___constants_html_gaed4510851f60cb3b700cf695913cebe1"><div class="ttname"><a href="group___i2_s___exported___constants.html#gaed4510851f60cb3b700cf695913cebe1">I2S_FLAG_TXFIFO_EMP</a></div><div class="ttdeci">#define I2S_FLAG_TXFIFO_EMP</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_i2s.h:173</div></div>
 </div><!-- fragment -->
+</div>
+</div>
+<a id="ga05d829ecb12c70163b71435d7df62556" name="ga05d829ecb12c70163b71435d7df62556"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga05d829ecb12c70163b71435d7df62556">&#9670;&#160;</a></span>IS_I2S_FLAG_CLEAR</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define IS_I2S_FLAG_CLEAR</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">FLAG</td><td>)</td>
+          <td>&#160;&#160;&#160;(((FLAG &amp; 0xFFFFF8F8) == 0) &amp;&amp; (FLAG != 0))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
 </div>
 </div>
 <a id="ga27a4a6c423421bfce86bbb4aba8bc08b" name="ga27a4a6c423421bfce86bbb4aba8bc08b"></a>
@@ -300,21 +896,81 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">                                                   ((FMT == I2S_JUSTIFIED_STEREO) || \</div>
-<div class="line">                                                   (FMT == LEFT_JUSTIFIED_STEREO) || \</div>
-<div class="line">                                                   (FMT == RIGHT_JUSTIFIED_STEREO) || \</div>
-<div class="line">                                                   (FMT == I2S_JUSTIFIED_REPEAT) || \</div>
-<div class="line">                                                   (FMT == I2S_JUSTIFIED_STEREO_EXT) || \</div>
-<div class="line">                                                   (FMT == LEFT_JUSTIFIED_STEREO_EXT) || \</div>
-<div class="line">                                                   (FMT == RIGHT_JUSTIFIED_STEREO_EXT) || \</div>
-<div class="line">                                                   (FMT == I2S_JUSTIFIED_REPEAT_EXT) || \</div>
-<div class="line">                                                   (FMT == I2S_JUSTIFIED_MONO) || \</div>
-<div class="line">                                                   (FMT == LEFT_JUSTIFIED_MONO) || \</div>
-<div class="line">                                                   (FMT == RIGHT_JUSTIFIED_MONO) || \</div>
-<div class="line">                                                   (FMT == I2S_JUSTIFIED_MONO_EXT) || \</div>
-<div class="line">                                                   (FMT == LEFT_JUSTIFIED_MONO_EXT) || \</div>
-<div class="line">                                                   (FMT == RIGHT_JUSTIFIED_MONO_EXT))</div>
+<b>Value:</b><div class="fragment"><div class="line">                                                   ((FMT == <a class="code hl_define" href="group___i2_s___exported___constants.html#ga8f8887f639493fbe3e16c98bb3416d7a">I2S_JUSTIFIED_STEREO</a>) || \</div>
+<div class="line">                                                   (FMT == <a class="code hl_define" href="group___i2_s___exported___constants.html#ga8bc0012c36f35577895f257ad72eb6e3">LEFT_JUSTIFIED_STEREO</a>) || \</div>
+<div class="line">                                                   (FMT == <a class="code hl_define" href="group___i2_s___exported___constants.html#gac02fbbebd37fef96a1b1f8e18fbda33b">RIGHT_JUSTIFIED_STEREO</a>) || \</div>
+<div class="line">                                                   (FMT == <a class="code hl_define" href="group___i2_s___exported___constants.html#ga0cdfa1032bebdcd924076c3e64550ae0">I2S_JUSTIFIED_REPEAT</a>) || \</div>
+<div class="line">                                                   (FMT == <a class="code hl_define" href="group___i2_s___exported___constants.html#ga0d878e025c96d5e91ff802a651ae52cd">I2S_JUSTIFIED_STEREO_EXT</a>) || \</div>
+<div class="line">                                                   (FMT == <a class="code hl_define" href="group___i2_s___exported___constants.html#gaaf34ba67991f57448202a3d59ef9b456">LEFT_JUSTIFIED_STEREO_EXT</a>) || \</div>
+<div class="line">                                                   (FMT == <a class="code hl_define" href="group___i2_s___exported___constants.html#ga7919060b359202a06ee8771e109b7376">RIGHT_JUSTIFIED_STEREO_EXT</a>) || \</div>
+<div class="line">                                                   (FMT == <a class="code hl_define" href="group___i2_s___exported___constants.html#ga28d417223fa93a2ff2cf676695f9d635">I2S_JUSTIFIED_REPEAT_EXT</a>) || \</div>
+<div class="line">                                                   (FMT == <a class="code hl_define" href="group___i2_s___exported___constants.html#ga29fa1045e091398a685c30d692759205">I2S_JUSTIFIED_MONO</a>) || \</div>
+<div class="line">                                                   (FMT == <a class="code hl_define" href="group___i2_s___exported___constants.html#ga24957ff55683f68b6aed05fc6f67348b">LEFT_JUSTIFIED_MONO</a>) || \</div>
+<div class="line">                                                   (FMT == <a class="code hl_define" href="group___i2_s___exported___constants.html#ga0002c6b4c6eafe203f1eb6e0d4f5aa06">RIGHT_JUSTIFIED_MONO</a>) || \</div>
+<div class="line">                                                   (FMT == <a class="code hl_define" href="group___i2_s___exported___constants.html#ga9b6b6fa8847f632db1a08ae9585deb2b">I2S_JUSTIFIED_MONO_EXT</a>) || \</div>
+<div class="line">                                                   (FMT == <a class="code hl_define" href="group___i2_s___exported___constants.html#gac390532b157a8d359d94826f7163ad3d">LEFT_JUSTIFIED_MONO_EXT</a>) || \</div>
+<div class="line">                                                   (FMT == <a class="code hl_define" href="group___i2_s___exported___constants.html#ga1761ff79071e68012d3efd7f5de4771a">RIGHT_JUSTIFIED_MONO_EXT</a>))</div>
+<div class="ttc" id="agroup___i2_s___exported___constants_html_ga0002c6b4c6eafe203f1eb6e0d4f5aa06"><div class="ttname"><a href="group___i2_s___exported___constants.html#ga0002c6b4c6eafe203f1eb6e0d4f5aa06">RIGHT_JUSTIFIED_MONO</a></div><div class="ttdeci">#define RIGHT_JUSTIFIED_MONO</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_i2s.h:102</div></div>
+<div class="ttc" id="agroup___i2_s___exported___constants_html_ga0cdfa1032bebdcd924076c3e64550ae0"><div class="ttname"><a href="group___i2_s___exported___constants.html#ga0cdfa1032bebdcd924076c3e64550ae0">I2S_JUSTIFIED_REPEAT</a></div><div class="ttdeci">#define I2S_JUSTIFIED_REPEAT</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_i2s.h:93</div></div>
+<div class="ttc" id="agroup___i2_s___exported___constants_html_ga0d878e025c96d5e91ff802a651ae52cd"><div class="ttname"><a href="group___i2_s___exported___constants.html#ga0d878e025c96d5e91ff802a651ae52cd">I2S_JUSTIFIED_STEREO_EXT</a></div><div class="ttdeci">#define I2S_JUSTIFIED_STEREO_EXT</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_i2s.h:95</div></div>
+<div class="ttc" id="agroup___i2_s___exported___constants_html_ga1761ff79071e68012d3efd7f5de4771a"><div class="ttname"><a href="group___i2_s___exported___constants.html#ga1761ff79071e68012d3efd7f5de4771a">RIGHT_JUSTIFIED_MONO_EXT</a></div><div class="ttdeci">#define RIGHT_JUSTIFIED_MONO_EXT</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_i2s.h:106</div></div>
+<div class="ttc" id="agroup___i2_s___exported___constants_html_ga24957ff55683f68b6aed05fc6f67348b"><div class="ttname"><a href="group___i2_s___exported___constants.html#ga24957ff55683f68b6aed05fc6f67348b">LEFT_JUSTIFIED_MONO</a></div><div class="ttdeci">#define LEFT_JUSTIFIED_MONO</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_i2s.h:101</div></div>
+<div class="ttc" id="agroup___i2_s___exported___constants_html_ga28d417223fa93a2ff2cf676695f9d635"><div class="ttname"><a href="group___i2_s___exported___constants.html#ga28d417223fa93a2ff2cf676695f9d635">I2S_JUSTIFIED_REPEAT_EXT</a></div><div class="ttdeci">#define I2S_JUSTIFIED_REPEAT_EXT</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_i2s.h:98</div></div>
+<div class="ttc" id="agroup___i2_s___exported___constants_html_ga29fa1045e091398a685c30d692759205"><div class="ttname"><a href="group___i2_s___exported___constants.html#ga29fa1045e091398a685c30d692759205">I2S_JUSTIFIED_MONO</a></div><div class="ttdeci">#define I2S_JUSTIFIED_MONO</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_i2s.h:100</div></div>
+<div class="ttc" id="agroup___i2_s___exported___constants_html_ga7919060b359202a06ee8771e109b7376"><div class="ttname"><a href="group___i2_s___exported___constants.html#ga7919060b359202a06ee8771e109b7376">RIGHT_JUSTIFIED_STEREO_EXT</a></div><div class="ttdeci">#define RIGHT_JUSTIFIED_STEREO_EXT</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_i2s.h:97</div></div>
+<div class="ttc" id="agroup___i2_s___exported___constants_html_ga8bc0012c36f35577895f257ad72eb6e3"><div class="ttname"><a href="group___i2_s___exported___constants.html#ga8bc0012c36f35577895f257ad72eb6e3">LEFT_JUSTIFIED_STEREO</a></div><div class="ttdeci">#define LEFT_JUSTIFIED_STEREO</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_i2s.h:91</div></div>
+<div class="ttc" id="agroup___i2_s___exported___constants_html_ga8f8887f639493fbe3e16c98bb3416d7a"><div class="ttname"><a href="group___i2_s___exported___constants.html#ga8f8887f639493fbe3e16c98bb3416d7a">I2S_JUSTIFIED_STEREO</a></div><div class="ttdeci">#define I2S_JUSTIFIED_STEREO</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_i2s.h:90</div></div>
+<div class="ttc" id="agroup___i2_s___exported___constants_html_ga9b6b6fa8847f632db1a08ae9585deb2b"><div class="ttname"><a href="group___i2_s___exported___constants.html#ga9b6b6fa8847f632db1a08ae9585deb2b">I2S_JUSTIFIED_MONO_EXT</a></div><div class="ttdeci">#define I2S_JUSTIFIED_MONO_EXT</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_i2s.h:104</div></div>
+<div class="ttc" id="agroup___i2_s___exported___constants_html_gaaf34ba67991f57448202a3d59ef9b456"><div class="ttname"><a href="group___i2_s___exported___constants.html#gaaf34ba67991f57448202a3d59ef9b456">LEFT_JUSTIFIED_STEREO_EXT</a></div><div class="ttdeci">#define LEFT_JUSTIFIED_STEREO_EXT</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_i2s.h:96</div></div>
+<div class="ttc" id="agroup___i2_s___exported___constants_html_gac02fbbebd37fef96a1b1f8e18fbda33b"><div class="ttname"><a href="group___i2_s___exported___constants.html#gac02fbbebd37fef96a1b1f8e18fbda33b">RIGHT_JUSTIFIED_STEREO</a></div><div class="ttdeci">#define RIGHT_JUSTIFIED_STEREO</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_i2s.h:92</div></div>
+<div class="ttc" id="agroup___i2_s___exported___constants_html_gac390532b157a8d359d94826f7163ad3d"><div class="ttname"><a href="group___i2_s___exported___constants.html#gac390532b157a8d359d94826f7163ad3d">LEFT_JUSTIFIED_MONO_EXT</a></div><div class="ttdeci">#define LEFT_JUSTIFIED_MONO_EXT</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_i2s.h:105</div></div>
 </div><!-- fragment -->
+</div>
+</div>
+<a id="gaf0a0320b19bbf3f4477fd2ff08d8bfca" name="gaf0a0320b19bbf3f4477fd2ff08d8bfca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf0a0320b19bbf3f4477fd2ff08d8bfca">&#9670;&#160;</a></span>IS_I2S_INT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define IS_I2S_INT</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">INT</td><td>)</td>
+          <td>&#160;&#160;&#160;(((INT &amp; 0xFFFFFF88) == 0) &amp;&amp; (INT != 0))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gaa4fd9fd77e0bc3608c2be1517cfe91e0" name="gaa4fd9fd77e0bc3608c2be1517cfe91e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa4fd9fd77e0bc3608c2be1517cfe91e0">&#9670;&#160;</a></span>IS_I2S_MCLK_DIV</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define IS_I2S_MCLK_DIV</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">X, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">Y&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;((X &gt; 0) &amp;&amp; (X &lt; 256) &amp;&amp; (Y &gt; 0) &amp;&amp; (Y &lt; 256) &amp;&amp; (X &lt;= Y))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
 </div>
 </div>
 <a id="ga014b210a6f4d253f623eb7d8c6f0dd4a" name="ga014b210a6f4d253f623eb7d8c6f0dd4a"></a>
@@ -332,13 +988,73 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">                                                   ((MOD == I2S_MASTER_TX) || \</div>
-<div class="line">                                                   (MOD == I2S_MASTER_RX) || \</div>
-<div class="line">                                                   (MOD == I2S_MASTER_TX_RX) || \</div>
-<div class="line">                                                   (MOD == I2S_SLAVE_TX) || \</div>
-<div class="line">                                                   (MOD == I2S_SLAVE_RX) || \</div>
-<div class="line">                                                   (MOD == I2S_SLAVE_TX_RX))</div>
+<b>Value:</b><div class="fragment"><div class="line">                                                   ((MOD == <a class="code hl_define" href="group___i2_s___exported___constants.html#gaa96a65b6ed9173bf73d45212d2381311">I2S_MASTER_TX</a>) || \</div>
+<div class="line">                                                   (MOD == <a class="code hl_define" href="group___i2_s___exported___constants.html#ga7abe8ad353ad8ab3816a1e267caf3cb5">I2S_MASTER_RX</a>) || \</div>
+<div class="line">                                                   (MOD == <a class="code hl_define" href="group___i2_s___exported___constants.html#ga5a648f26e28e199a4db856782e865562">I2S_MASTER_TX_RX</a>) || \</div>
+<div class="line">                                                   (MOD == <a class="code hl_define" href="group___i2_s___exported___constants.html#gab98bc2a0e6eb5c774ba4fd79d3a1d7a0">I2S_SLAVE_TX</a>) || \</div>
+<div class="line">                                                   (MOD == <a class="code hl_define" href="group___i2_s___exported___constants.html#ga6241ba5bd5ce4407933049539683b6d8">I2S_SLAVE_RX</a>) || \</div>
+<div class="line">                                                   (MOD == <a class="code hl_define" href="group___i2_s___exported___constants.html#gabc25311939b777242336b76f8a6625ca">I2S_SLAVE_TX_RX</a>))</div>
+<div class="ttc" id="agroup___i2_s___exported___constants_html_ga5a648f26e28e199a4db856782e865562"><div class="ttname"><a href="group___i2_s___exported___constants.html#ga5a648f26e28e199a4db856782e865562">I2S_MASTER_TX_RX</a></div><div class="ttdeci">#define I2S_MASTER_TX_RX</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_i2s.h:75</div></div>
+<div class="ttc" id="agroup___i2_s___exported___constants_html_ga6241ba5bd5ce4407933049539683b6d8"><div class="ttname"><a href="group___i2_s___exported___constants.html#ga6241ba5bd5ce4407933049539683b6d8">I2S_SLAVE_RX</a></div><div class="ttdeci">#define I2S_SLAVE_RX</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_i2s.h:78</div></div>
+<div class="ttc" id="agroup___i2_s___exported___constants_html_ga7abe8ad353ad8ab3816a1e267caf3cb5"><div class="ttname"><a href="group___i2_s___exported___constants.html#ga7abe8ad353ad8ab3816a1e267caf3cb5">I2S_MASTER_RX</a></div><div class="ttdeci">#define I2S_MASTER_RX</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_i2s.h:74</div></div>
+<div class="ttc" id="agroup___i2_s___exported___constants_html_gaa96a65b6ed9173bf73d45212d2381311"><div class="ttname"><a href="group___i2_s___exported___constants.html#gaa96a65b6ed9173bf73d45212d2381311">I2S_MASTER_TX</a></div><div class="ttdeci">#define I2S_MASTER_TX</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_i2s.h:73</div></div>
+<div class="ttc" id="agroup___i2_s___exported___constants_html_gab98bc2a0e6eb5c774ba4fd79d3a1d7a0"><div class="ttname"><a href="group___i2_s___exported___constants.html#gab98bc2a0e6eb5c774ba4fd79d3a1d7a0">I2S_SLAVE_TX</a></div><div class="ttdeci">#define I2S_SLAVE_TX</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_i2s.h:77</div></div>
+<div class="ttc" id="agroup___i2_s___exported___constants_html_gabc25311939b777242336b76f8a6625ca"><div class="ttname"><a href="group___i2_s___exported___constants.html#gabc25311939b777242336b76f8a6625ca">I2S_SLAVE_TX_RX</a></div><div class="ttdeci">#define I2S_SLAVE_TX_RX</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_i2s.h:79</div></div>
 </div><!-- fragment -->
+</div>
+</div>
+<a id="ga3b304fe88295ded67b08f6fd3d598791" name="ga3b304fe88295ded67b08f6fd3d598791"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3b304fe88295ded67b08f6fd3d598791">&#9670;&#160;</a></span>IS_I2S_ONE_FIFO</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define IS_I2S_ONE_FIFO</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">FIFO</td><td>)</td>
+          <td>&#160;&#160;&#160;((FIFO == <a class="el" href="group___i2_s___exported___constants.html#ga463a445671402bd6d05f49c2fe83cf7d">I2S_TX_FIFO</a>) || (FIFO == <a class="el" href="group___i2_s___exported___constants.html#ga94236bb9b29a41852be49c7d8ab4ab86">I2S_RX_FIFO</a>))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga67cc515bc8501b11bd8d047239344f4f" name="ga67cc515bc8501b11bd8d047239344f4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga67cc515bc8501b11bd8d047239344f4f">&#9670;&#160;</a></span>IS_I2S_PDMA_REQ</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define IS_I2S_PDMA_REQ</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">REQ</td><td>)</td>
+          <td>&#160;&#160;&#160;(((REQ &amp; 0xFFFF9FFF) == 0) &amp;&amp; (REQ != 0))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga928428455de873017993e23d7e52c655" name="ga928428455de873017993e23d7e52c655"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga928428455de873017993e23d7e52c655">&#9670;&#160;</a></span>IS_I2S_TWO_FIFO</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define IS_I2S_TWO_FIFO</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">FIFO</td><td>)</td>
+          <td>&#160;&#160;&#160;(((FIFO &amp; 0xFFFFFCFF) == 0) &amp;&amp; (FIFO != 0))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
 </div>
 </div>
 <a id="ga6edff8a6ea04a06cc1e4ba5785710367" name="ga6edff8a6ea04a06cc1e4ba5785710367"></a>
@@ -356,11 +1072,127 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">                                                   ((WIDTH == I2S_WORDWIDTH_8) || \</div>
-<div class="line">                                                   (WIDTH == I2S_WORDWIDTH_16) || \</div>
-<div class="line">                                                   (WIDTH == I2S_WORDWIDTH_24) || \</div>
-<div class="line">                                                   (WIDTH == I2S_WORDWIDTH_32))</div>
+<b>Value:</b><div class="fragment"><div class="line">                                                   ((WIDTH == <a class="code hl_define" href="group___i2_s___exported___constants.html#ga17cb1a91d5be4e7afad486ead6d2980d">I2S_WORDWIDTH_8</a>) || \</div>
+<div class="line">                                                   (WIDTH == <a class="code hl_define" href="group___i2_s___exported___constants.html#ga4d016baad0fba07da20a6410470c71d3">I2S_WORDWIDTH_16</a>) || \</div>
+<div class="line">                                                   (WIDTH == <a class="code hl_define" href="group___i2_s___exported___constants.html#gaa24ebdf5a1edf68fa2d6e56ee55924d7">I2S_WORDWIDTH_24</a>) || \</div>
+<div class="line">                                                   (WIDTH == <a class="code hl_define" href="group___i2_s___exported___constants.html#ga683d81436e91c1631bdd5947ee78489b">I2S_WORDWIDTH_32</a>))</div>
+<div class="ttc" id="agroup___i2_s___exported___constants_html_ga17cb1a91d5be4e7afad486ead6d2980d"><div class="ttname"><a href="group___i2_s___exported___constants.html#ga17cb1a91d5be4e7afad486ead6d2980d">I2S_WORDWIDTH_8</a></div><div class="ttdeci">#define I2S_WORDWIDTH_8</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_i2s.h:125</div></div>
+<div class="ttc" id="agroup___i2_s___exported___constants_html_ga4d016baad0fba07da20a6410470c71d3"><div class="ttname"><a href="group___i2_s___exported___constants.html#ga4d016baad0fba07da20a6410470c71d3">I2S_WORDWIDTH_16</a></div><div class="ttdeci">#define I2S_WORDWIDTH_16</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_i2s.h:126</div></div>
+<div class="ttc" id="agroup___i2_s___exported___constants_html_ga683d81436e91c1631bdd5947ee78489b"><div class="ttname"><a href="group___i2_s___exported___constants.html#ga683d81436e91c1631bdd5947ee78489b">I2S_WORDWIDTH_32</a></div><div class="ttdeci">#define I2S_WORDWIDTH_32</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_i2s.h:128</div></div>
+<div class="ttc" id="agroup___i2_s___exported___constants_html_gaa24ebdf5a1edf68fa2d6e56ee55924d7"><div class="ttname"><a href="group___i2_s___exported___constants.html#gaa24ebdf5a1edf68fa2d6e56ee55924d7">I2S_WORDWIDTH_24</a></div><div class="ttdeci">#define I2S_WORDWIDTH_24</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_i2s.h:127</div></div>
 </div><!-- fragment -->
+</div>
+</div>
+<a id="ga24957ff55683f68b6aed05fc6f67348b" name="ga24957ff55683f68b6aed05fc6f67348b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga24957ff55683f68b6aed05fc6f67348b">&#9670;&#160;</a></span>LEFT_JUSTIFIED_MONO</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LEFT_JUSTIFIED_MONO&#160;&#160;&#160;((1UL &lt;&lt; 11) | (1UL &lt;&lt; 6))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gac390532b157a8d359d94826f7163ad3d" name="gac390532b157a8d359d94826f7163ad3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac390532b157a8d359d94826f7163ad3d">&#9670;&#160;</a></span>LEFT_JUSTIFIED_MONO_EXT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LEFT_JUSTIFIED_MONO_EXT&#160;&#160;&#160;((1UL &lt;&lt; 8) | (1UL &lt;&lt; 11) | (1UL &lt;&lt; 6))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga8bc0012c36f35577895f257ad72eb6e3" name="ga8bc0012c36f35577895f257ad72eb6e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8bc0012c36f35577895f257ad72eb6e3">&#9670;&#160;</a></span>LEFT_JUSTIFIED_STEREO</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LEFT_JUSTIFIED_STEREO&#160;&#160;&#160;(1UL &lt;&lt; 6)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gaaf34ba67991f57448202a3d59ef9b456" name="gaaf34ba67991f57448202a3d59ef9b456"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaaf34ba67991f57448202a3d59ef9b456">&#9670;&#160;</a></span>LEFT_JUSTIFIED_STEREO_EXT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LEFT_JUSTIFIED_STEREO_EXT&#160;&#160;&#160;((1UL &lt;&lt; 8) | (1UL &lt;&lt; 6))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga0002c6b4c6eafe203f1eb6e0d4f5aa06" name="ga0002c6b4c6eafe203f1eb6e0d4f5aa06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0002c6b4c6eafe203f1eb6e0d4f5aa06">&#9670;&#160;</a></span>RIGHT_JUSTIFIED_MONO</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RIGHT_JUSTIFIED_MONO&#160;&#160;&#160;((1UL &lt;&lt; 11) | (2UL &lt;&lt; 6))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga1761ff79071e68012d3efd7f5de4771a" name="ga1761ff79071e68012d3efd7f5de4771a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1761ff79071e68012d3efd7f5de4771a">&#9670;&#160;</a></span>RIGHT_JUSTIFIED_MONO_EXT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RIGHT_JUSTIFIED_MONO_EXT&#160;&#160;&#160;((1UL &lt;&lt; 8) | (1UL &lt;&lt; 11) | (2UL &lt;&lt; 6))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gac02fbbebd37fef96a1b1f8e18fbda33b" name="gac02fbbebd37fef96a1b1f8e18fbda33b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac02fbbebd37fef96a1b1f8e18fbda33b">&#9670;&#160;</a></span>RIGHT_JUSTIFIED_STEREO</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RIGHT_JUSTIFIED_STEREO&#160;&#160;&#160;(2UL &lt;&lt; 6)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga7919060b359202a06ee8771e109b7376" name="ga7919060b359202a06ee8771e109b7376"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7919060b359202a06ee8771e109b7376">&#9670;&#160;</a></span>RIGHT_JUSTIFIED_STEREO_EXT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RIGHT_JUSTIFIED_STEREO_EXT&#160;&#160;&#160;((1UL &lt;&lt; 8) | (2UL &lt;&lt; 6))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
 </div>
 </div>
 </div><!-- contents -->

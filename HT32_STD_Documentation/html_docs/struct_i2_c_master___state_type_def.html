@@ -1,29 +1,62 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>HT32_STD_Documents: I2CMaster_StateTypeDef Struct Reference</title>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>HT32_STD_Code_Documents: I2CMaster_StateTypeDef Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
-   <div id="projectname">HT32_STD_Documents<span id="projectnumber">&#160;1.0.0</span>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">HT32_STD_Code_Documents
+   &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">For HT32F52352</div>
+   <div id="projectbrief">Micro-controller Experiment</div>
   </td>
  </tr>
  </tbody>
@@ -71,73 +104,299 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="struct_i2_c_master___state_type_def-members.html">List of all members</a>  </div>
+<a href="#pub-attribs">Data Fields</a>  </div>
   <div class="headertitle"><div class="title">I2CMaster_StateTypeDef Struct Reference<div class="ingroups"><a class="el" href="group___h_t32_f5xxxx___peripheral___driver.html">HT32F5xxxx Peripheral Driver</a> &#124; <a class="el" href="group___h_t32___series___peripheral___examples.html">HT32 Peripheral Examples</a> &raquo; <a class="el" href="group___i2_c.html">I2C</a> &raquo; <a class="el" href="group___i2_c___master.html">I2C Master</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 
 <p>I2C Master state variables.  
  <a href="struct_i2_c_master___state_type_def.html#details">More...</a></p>
+<div class="dynheader">
+Collaboration diagram for I2CMaster_StateTypeDef:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="struct_i2_c_master___state_type_def__coll__graph.svg" width="176" height="128"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:a9598cbbc78de5aff214691d38bd9b027" id="r_a9598cbbc78de5aff214691d38bd9b027"><td class="memItemLeft" align="right" valign="top"><a id="a9598cbbc78de5aff214691d38bd9b027" name="a9598cbbc78de5aff214691d38bd9b027"></a>
-<a class="el" href="struct_h_t___i2_c___type_def.html">HT_I2C_TypeDef</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>pI2Cx</b></td></tr>
-<tr class="separator:a9598cbbc78de5aff214691d38bd9b027"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad942c432355610cd56bd454d93e14ae3" id="r_ad942c432355610cd56bd454d93e14ae3"><td class="memItemLeft" align="right" valign="top"><a id="ad942c432355610cd56bd454d93e14ae3" name="ad942c432355610cd56bd454d93e14ae3"></a>
-u32&#160;</td><td class="memItemRight" valign="bottom"><b>uTxIndex</b></td></tr>
-<tr class="separator:ad942c432355610cd56bd454d93e14ae3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a01cadb496cde4d8be12c5168d2eea8c2" id="r_a01cadb496cde4d8be12c5168d2eea8c2"><td class="memItemLeft" align="right" valign="top"><a id="a01cadb496cde4d8be12c5168d2eea8c2" name="a01cadb496cde4d8be12c5168d2eea8c2"></a>
-u32&#160;</td><td class="memItemRight" valign="bottom"><b>uTxLength</b></td></tr>
-<tr class="separator:a01cadb496cde4d8be12c5168d2eea8c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ff1282794a48b2cbdbba2823e78aea4" id="r_a7ff1282794a48b2cbdbba2823e78aea4"><td class="memItemLeft" align="right" valign="top"><a id="a7ff1282794a48b2cbdbba2823e78aea4" name="a7ff1282794a48b2cbdbba2823e78aea4"></a>
-u8 *&#160;</td><td class="memItemRight" valign="bottom"><b>puTxBuffer</b></td></tr>
-<tr class="separator:a7ff1282794a48b2cbdbba2823e78aea4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1b6ccb2aae04d8f96ea821cb4b67d1f" id="r_ab1b6ccb2aae04d8f96ea821cb4b67d1f"><td class="memItemLeft" align="right" valign="top"><a id="ab1b6ccb2aae04d8f96ea821cb4b67d1f" name="ab1b6ccb2aae04d8f96ea821cb4b67d1f"></a>
-u32&#160;</td><td class="memItemRight" valign="bottom"><b>uRxIndex</b></td></tr>
-<tr class="separator:ab1b6ccb2aae04d8f96ea821cb4b67d1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa558c993a55caffd2abdd3f662bcc9e9" id="r_aa558c993a55caffd2abdd3f662bcc9e9"><td class="memItemLeft" align="right" valign="top"><a id="aa558c993a55caffd2abdd3f662bcc9e9" name="aa558c993a55caffd2abdd3f662bcc9e9"></a>
-u32&#160;</td><td class="memItemRight" valign="bottom"><b>uRxLength</b></td></tr>
-<tr class="separator:aa558c993a55caffd2abdd3f662bcc9e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1adb59a71f970b2c462c6c8020305292" id="r_a1adb59a71f970b2c462c6c8020305292"><td class="memItemLeft" align="right" valign="top"><a id="a1adb59a71f970b2c462c6c8020305292" name="a1adb59a71f970b2c462c6c8020305292"></a>
-u8 *&#160;</td><td class="memItemRight" valign="bottom"><b>puRxBuffer</b></td></tr>
-<tr class="separator:a1adb59a71f970b2c462c6c8020305292"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43aa14c006f7202634ef57e59a015347" id="r_a43aa14c006f7202634ef57e59a015347"><td class="memItemLeft" align="right" valign="top"><a id="a43aa14c006f7202634ef57e59a015347" name="a43aa14c006f7202634ef57e59a015347"></a>
-u32&#160;</td><td class="memItemRight" valign="bottom"><b>uSlaveAddress</b></td></tr>
-<tr class="separator:a43aa14c006f7202634ef57e59a015347"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a575c37b35aa11cfa1adbc18d505d9688" id="r_a575c37b35aa11cfa1adbc18d505d9688"><td class="memItemLeft" align="right" valign="top"><a id="a575c37b35aa11cfa1adbc18d505d9688" name="a575c37b35aa11cfa1adbc18d505d9688"></a>
-<a class="el" href="group___i2_c___master.html#ga9e07907937b5e78796348460944af770">I2CMaster_CMD_Enum</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Command</b></td></tr>
-<tr class="separator:a575c37b35aa11cfa1adbc18d505d9688"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a302e398c98958114fdedd79c3f3b42a6" id="r_a302e398c98958114fdedd79c3f3b42a6"><td class="memItemLeft" align="right" valign="top"><a id="a302e398c98958114fdedd79c3f3b42a6" name="a302e398c98958114fdedd79c3f3b42a6"></a>
-u32&#160;</td><td class="memItemRight" valign="bottom"><b>uI2CReadWrite</b></td></tr>
-<tr class="separator:a302e398c98958114fdedd79c3f3b42a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a183b46e4e889d0443a7a5ae0f874fa0b" id="r_a183b46e4e889d0443a7a5ae0f874fa0b"><td class="memItemLeft" align="right" valign="top"><a id="a183b46e4e889d0443a7a5ae0f874fa0b" name="a183b46e4e889d0443a7a5ae0f874fa0b"></a>
-vu32&#160;</td><td class="memItemRight" valign="bottom"><b>IsBusy</b></td></tr>
-<tr class="separator:a183b46e4e889d0443a7a5ae0f874fa0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a834bb94be57519696b95d07a670e23c1" id="r_a834bb94be57519696b95d07a670e23c1"><td class="memItemLeft" align="right" valign="top"><a id="a834bb94be57519696b95d07a670e23c1" name="a834bb94be57519696b95d07a670e23c1"></a>
-vu32&#160;</td><td class="memItemRight" valign="bottom"><b>uIsNACK</b></td></tr>
-<tr class="separator:a834bb94be57519696b95d07a670e23c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d258f2de794cb4f47062e1bf71ba51b" id="r_a9d258f2de794cb4f47062e1bf71ba51b"><td class="memItemLeft" align="right" valign="top"><a id="a9d258f2de794cb4f47062e1bf71ba51b" name="a9d258f2de794cb4f47062e1bf71ba51b"></a>
-vu32&#160;</td><td class="memItemRight" valign="bottom"><b>uIsBusError</b></td></tr>
-<tr class="separator:a9d258f2de794cb4f47062e1bf71ba51b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70814adedce86a978ac923b8e694f83c" id="r_a70814adedce86a978ac923b8e694f83c"><td class="memItemLeft" align="right" valign="top"><a id="a70814adedce86a978ac923b8e694f83c" name="a70814adedce86a978ac923b8e694f83c"></a>
-vu32&#160;</td><td class="memItemRight" valign="bottom"><b>uIsHardwareTimeout</b></td></tr>
-<tr class="separator:a70814adedce86a978ac923b8e694f83c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a27efdc88b48c0965b931283859ff83b9" id="r_a27efdc88b48c0965b931283859ff83b9"><td class="memItemLeft" align="right" valign="top"><a id="a27efdc88b48c0965b931283859ff83b9" name="a27efdc88b48c0965b931283859ff83b9"></a>
-vu32&#160;</td><td class="memItemRight" valign="bottom"><b>uStart</b></td></tr>
-<tr class="separator:a27efdc88b48c0965b931283859ff83b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d269294e0a8e817daeafab1fb0cc7aa" id="r_a8d269294e0a8e817daeafab1fb0cc7aa"><td class="memItemLeft" align="right" valign="top"><a id="a8d269294e0a8e817daeafab1fb0cc7aa" name="a8d269294e0a8e817daeafab1fb0cc7aa"></a>
-vs32&#160;</td><td class="memItemRight" valign="bottom"><b>sTimerCount</b></td></tr>
-<tr class="separator:a8d269294e0a8e817daeafab1fb0cc7aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad83d2210d06eb8c05c205faf21d0e433" id="r_ad83d2210d06eb8c05c205faf21d0e433"><td class="memItemLeft" align="right" valign="top"><a id="ad83d2210d06eb8c05c205faf21d0e433" name="ad83d2210d06eb8c05c205faf21d0e433"></a>
-vs32&#160;</td><td class="memItemRight" valign="bottom"><b>sDynamicOnOffI2C</b></td></tr>
-<tr class="separator:ad83d2210d06eb8c05c205faf21d0e433"><td class="memSeparator" colspan="2">&#160;</td></tr>
+Data Fields</h2></td></tr>
+<tr class="memitem:a5d31a6c9a38523eb7935b2d828715057" id="r_a5d31a6c9a38523eb7935b2d828715057"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_h_t___i2_c___type_def.html">HT_I2C_TypeDef</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_i2_c_master___state_type_def.html#a5d31a6c9a38523eb7935b2d828715057">pI2Cx</a></td></tr>
+<tr class="separator:a5d31a6c9a38523eb7935b2d828715057"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03e4b3f2d596bc7be8a6e58ab2f9620e" id="r_a03e4b3f2d596bc7be8a6e58ab2f9620e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_i2_c_master___state_type_def.html#a03e4b3f2d596bc7be8a6e58ab2f9620e">uTxIndex</a></td></tr>
+<tr class="separator:a03e4b3f2d596bc7be8a6e58ab2f9620e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58753277a16f1d42c3adc030ff850791" id="r_a58753277a16f1d42c3adc030ff850791"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_i2_c_master___state_type_def.html#a58753277a16f1d42c3adc030ff850791">uTxLength</a></td></tr>
+<tr class="separator:a58753277a16f1d42c3adc030ff850791"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3568c16db46b0bc9c16e3e3f12f2123d" id="r_a3568c16db46b0bc9c16e3e3f12f2123d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___exported___types.html#gaed742c436da53c1080638ce6ef7d13de">u8</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_i2_c_master___state_type_def.html#a3568c16db46b0bc9c16e3e3f12f2123d">puTxBuffer</a></td></tr>
+<tr class="separator:a3568c16db46b0bc9c16e3e3f12f2123d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acffa3b0066d58f12b02a9aa54cd68b6c" id="r_acffa3b0066d58f12b02a9aa54cd68b6c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_i2_c_master___state_type_def.html#acffa3b0066d58f12b02a9aa54cd68b6c">uRxIndex</a></td></tr>
+<tr class="separator:acffa3b0066d58f12b02a9aa54cd68b6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4360183c7267e5b557bdd7ba258bf373" id="r_a4360183c7267e5b557bdd7ba258bf373"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_i2_c_master___state_type_def.html#a4360183c7267e5b557bdd7ba258bf373">uRxLength</a></td></tr>
+<tr class="separator:a4360183c7267e5b557bdd7ba258bf373"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa115d56375870465c3e8cfc5b2215f32" id="r_aa115d56375870465c3e8cfc5b2215f32"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___exported___types.html#gaed742c436da53c1080638ce6ef7d13de">u8</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_i2_c_master___state_type_def.html#aa115d56375870465c3e8cfc5b2215f32">puRxBuffer</a></td></tr>
+<tr class="separator:aa115d56375870465c3e8cfc5b2215f32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb7c1adadbe859891b5bb191cc931c2b" id="r_acb7c1adadbe859891b5bb191cc931c2b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_i2_c_master___state_type_def.html#acb7c1adadbe859891b5bb191cc931c2b">uSlaveAddress</a></td></tr>
+<tr class="separator:acb7c1adadbe859891b5bb191cc931c2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9282fce1fcbdffd1c61ed059a924a02" id="r_ad9282fce1fcbdffd1c61ed059a924a02"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___i2_c___master.html#ga9e07907937b5e78796348460944af770">I2CMaster_CMD_Enum</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_i2_c_master___state_type_def.html#ad9282fce1fcbdffd1c61ed059a924a02">Command</a></td></tr>
+<tr class="separator:ad9282fce1fcbdffd1c61ed059a924a02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ec46c4e6257c7ccd50b0bdf75a7573c" id="r_a0ec46c4e6257c7ccd50b0bdf75a7573c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_i2_c_master___state_type_def.html#a0ec46c4e6257c7ccd50b0bdf75a7573c">uI2CReadWrite</a></td></tr>
+<tr class="separator:a0ec46c4e6257c7ccd50b0bdf75a7573c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed27a7a607049dc3596619af5665a202" id="r_aed27a7a607049dc3596619af5665a202"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___exported___types.html#ga92852311d9da2bd09b9bacf679e32486">vu32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_i2_c_master___state_type_def.html#aed27a7a607049dc3596619af5665a202">IsBusy</a></td></tr>
+<tr class="separator:aed27a7a607049dc3596619af5665a202"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2d8cb62a051dbb72c6991a934c9d98b" id="r_ae2d8cb62a051dbb72c6991a934c9d98b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___exported___types.html#ga92852311d9da2bd09b9bacf679e32486">vu32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_i2_c_master___state_type_def.html#ae2d8cb62a051dbb72c6991a934c9d98b">uIsNACK</a></td></tr>
+<tr class="separator:ae2d8cb62a051dbb72c6991a934c9d98b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a4293f574931dc7c7a27d4fe6574724" id="r_a8a4293f574931dc7c7a27d4fe6574724"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___exported___types.html#ga92852311d9da2bd09b9bacf679e32486">vu32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_i2_c_master___state_type_def.html#a8a4293f574931dc7c7a27d4fe6574724">uIsBusError</a></td></tr>
+<tr class="separator:a8a4293f574931dc7c7a27d4fe6574724"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af64daf2605f74ee3851403dabbc40272" id="r_af64daf2605f74ee3851403dabbc40272"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___exported___types.html#ga92852311d9da2bd09b9bacf679e32486">vu32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_i2_c_master___state_type_def.html#af64daf2605f74ee3851403dabbc40272">uIsHardwareTimeout</a></td></tr>
+<tr class="separator:af64daf2605f74ee3851403dabbc40272"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d0fbe43e09ad7d3f2d05742f0bb972d" id="r_a7d0fbe43e09ad7d3f2d05742f0bb972d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___exported___types.html#ga92852311d9da2bd09b9bacf679e32486">vu32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_i2_c_master___state_type_def.html#a7d0fbe43e09ad7d3f2d05742f0bb972d">uStart</a></td></tr>
+<tr class="separator:a7d0fbe43e09ad7d3f2d05742f0bb972d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86c57964d340a3d6392a13176d0a44d5" id="r_a86c57964d340a3d6392a13176d0a44d5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___exported___types.html#gaf256d37d210649936102c2821610d7a6">vs32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_i2_c_master___state_type_def.html#a86c57964d340a3d6392a13176d0a44d5">sTimerCount</a></td></tr>
+<tr class="separator:a86c57964d340a3d6392a13176d0a44d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63b722499c77fd162a30666deefc2a66" id="r_a63b722499c77fd162a30666deefc2a66"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___exported___types.html#gaf256d37d210649936102c2821610d7a6">vs32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_i2_c_master___state_type_def.html#a63b722499c77fd162a30666deefc2a66">sDynamicOnOffI2C</a></td></tr>
+<tr class="separator:a63b722499c77fd162a30666deefc2a66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>I2C Master state variables. </p>
-</div><hr/>The documentation for this struct was generated from the following file:<ul>
-<li>HT32_STD_5xxxx_FWLib_V1.5.1_7084b/utilities/middleware/<a class="el" href="i2c__master_8c.html">i2c_master.c</a></li>
+</div><h2 class="groupheader">Field Documentation</h2>
+<a id="ad9282fce1fcbdffd1c61ed059a924a02" name="ad9282fce1fcbdffd1c61ed059a924a02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9282fce1fcbdffd1c61ed059a924a02">&#9670;&#160;</a></span>Command</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___i2_c___master.html#ga9e07907937b5e78796348460944af770">I2CMaster_CMD_Enum</a> Command</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aed27a7a607049dc3596619af5665a202" name="aed27a7a607049dc3596619af5665a202"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed27a7a607049dc3596619af5665a202">&#9670;&#160;</a></span>IsBusy</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___exported___types.html#ga92852311d9da2bd09b9bacf679e32486">vu32</a> IsBusy</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5d31a6c9a38523eb7935b2d828715057" name="a5d31a6c9a38523eb7935b2d828715057"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d31a6c9a38523eb7935b2d828715057">&#9670;&#160;</a></span>pI2Cx</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_h_t___i2_c___type_def.html">HT_I2C_TypeDef</a>* pI2Cx</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa115d56375870465c3e8cfc5b2215f32" name="aa115d56375870465c3e8cfc5b2215f32"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa115d56375870465c3e8cfc5b2215f32">&#9670;&#160;</a></span>puRxBuffer</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___exported___types.html#gaed742c436da53c1080638ce6ef7d13de">u8</a>* puRxBuffer</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3568c16db46b0bc9c16e3e3f12f2123d" name="a3568c16db46b0bc9c16e3e3f12f2123d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3568c16db46b0bc9c16e3e3f12f2123d">&#9670;&#160;</a></span>puTxBuffer</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___exported___types.html#gaed742c436da53c1080638ce6ef7d13de">u8</a>* puTxBuffer</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a63b722499c77fd162a30666deefc2a66" name="a63b722499c77fd162a30666deefc2a66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63b722499c77fd162a30666deefc2a66">&#9670;&#160;</a></span>sDynamicOnOffI2C</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___exported___types.html#gaf256d37d210649936102c2821610d7a6">vs32</a> sDynamicOnOffI2C</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a86c57964d340a3d6392a13176d0a44d5" name="a86c57964d340a3d6392a13176d0a44d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86c57964d340a3d6392a13176d0a44d5">&#9670;&#160;</a></span>sTimerCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___exported___types.html#gaf256d37d210649936102c2821610d7a6">vs32</a> sTimerCount</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0ec46c4e6257c7ccd50b0bdf75a7573c" name="a0ec46c4e6257c7ccd50b0bdf75a7573c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ec46c4e6257c7ccd50b0bdf75a7573c">&#9670;&#160;</a></span>uI2CReadWrite</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> uI2CReadWrite</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8a4293f574931dc7c7a27d4fe6574724" name="a8a4293f574931dc7c7a27d4fe6574724"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a4293f574931dc7c7a27d4fe6574724">&#9670;&#160;</a></span>uIsBusError</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___exported___types.html#ga92852311d9da2bd09b9bacf679e32486">vu32</a> uIsBusError</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af64daf2605f74ee3851403dabbc40272" name="af64daf2605f74ee3851403dabbc40272"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af64daf2605f74ee3851403dabbc40272">&#9670;&#160;</a></span>uIsHardwareTimeout</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___exported___types.html#ga92852311d9da2bd09b9bacf679e32486">vu32</a> uIsHardwareTimeout</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae2d8cb62a051dbb72c6991a934c9d98b" name="ae2d8cb62a051dbb72c6991a934c9d98b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2d8cb62a051dbb72c6991a934c9d98b">&#9670;&#160;</a></span>uIsNACK</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___exported___types.html#ga92852311d9da2bd09b9bacf679e32486">vu32</a> uIsNACK</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acffa3b0066d58f12b02a9aa54cd68b6c" name="acffa3b0066d58f12b02a9aa54cd68b6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acffa3b0066d58f12b02a9aa54cd68b6c">&#9670;&#160;</a></span>uRxIndex</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> uRxIndex</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4360183c7267e5b557bdd7ba258bf373" name="a4360183c7267e5b557bdd7ba258bf373"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4360183c7267e5b557bdd7ba258bf373">&#9670;&#160;</a></span>uRxLength</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> uRxLength</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acb7c1adadbe859891b5bb191cc931c2b" name="acb7c1adadbe859891b5bb191cc931c2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb7c1adadbe859891b5bb191cc931c2b">&#9670;&#160;</a></span>uSlaveAddress</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> uSlaveAddress</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7d0fbe43e09ad7d3f2d05742f0bb972d" name="a7d0fbe43e09ad7d3f2d05742f0bb972d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d0fbe43e09ad7d3f2d05742f0bb972d">&#9670;&#160;</a></span>uStart</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___exported___types.html#ga92852311d9da2bd09b9bacf679e32486">vu32</a> uStart</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a03e4b3f2d596bc7be8a6e58ab2f9620e" name="a03e4b3f2d596bc7be8a6e58ab2f9620e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03e4b3f2d596bc7be8a6e58ab2f9620e">&#9670;&#160;</a></span>uTxIndex</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> uTxIndex</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a58753277a16f1d42c3adc030ff850791" name="a58753277a16f1d42c3adc030ff850791"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58753277a16f1d42c3adc030ff850791">&#9670;&#160;</a></span>uTxLength</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> uTxLength</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this struct was generated from the following file:<ul>
+<li>D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/utilities/middleware/<a class="el" href="i2c__master_8c.html">i2c_master.c</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

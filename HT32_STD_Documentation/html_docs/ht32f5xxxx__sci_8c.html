@@ -1,51 +1,63 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>HT32_STD_Documents: ht32f5xxxx_sci.c File Reference</title>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>HT32_STD_Code_Documents: D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/library/HT32F5xxxx_Driver/src/ht32f5xxxx_sci.c File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<link href="navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="resize.js"></script>
-<script type="text/javascript" src="navtreedata.js"></script>
-<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(document).ready(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
-   <div id="projectname">HT32_STD_Documents<span id="projectnumber">&#160;1.0.0</span>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">HT32_STD_Code_Documents
+   &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">For HT32F52352</div>
+   <div id="projectbrief">Micro-controller Experiment</div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
@@ -57,23 +69,17 @@
 var searchBox = new SearchBox("searchBox", "search/",'.html');
 /* @license-end */
 </script>
-</div><!-- top -->
-<div id="side-nav" class="ui-resizable side-nav-resizable">
-  <div id="nav-tree">
-    <div id="nav-tree-contents">
-      <div id="nav-sync" class="sync"></div>
-    </div>
-  </div>
-  <div id="splitbar" style="-moz-user-select:none;" 
-       class="ui-resizable-handle">
-  </div>
-</div>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('ht32f5xxxx__sci_8c.html',''); initResizable(); });
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
 /* @license-end */
 </script>
-<div id="doc-content">
+<div id="main-nav"></div>
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -95,6 +101,11 @@ $(document).ready(function(){initNavTree('ht32f5xxxx__sci_8c.html',''); initResi
 </div>
 </div>
 
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_275089585c7fc1b5fd5d7d42c69cb1da.html">D:</a></li><li class="navelem"><a class="el" href="dir_273f27263c611837868160ff0f82bfd9.html">Note_Database</a></li><li class="navelem"><a class="el" href="dir_e8282a48381dd1bcf012c1bae1dc741b.html">Subject</a></li><li class="navelem"><a class="el" href="dir_7583b43eec1d2788dd81e658186519d2.html">MCETA Microcontroller Experiment TA</a></li><li class="navelem"><a class="el" href="dir_3ca5c6b4c4a2c10c94024caf0df2e6bb.html">files</a></li><li class="navelem"><a class="el" href="dir_79e3244e27785f7ec158b45668f9e3ec.html">HT32_STD_5xxxx_FWLib_V1.5.1_7084b</a></li><li class="navelem"><a class="el" href="dir_6965e01511015f2942f432da2d4a5bcb.html">library</a></li><li class="navelem"><a class="el" href="dir_a2f81702cb5fc8b133c02bd1d2044bc0.html">HT32F5xxxx_Driver</a></li><li class="navelem"><a class="el" href="dir_78bdda5ef22f8c24d3ef19dd62664412.html">src</a></li>  </ul>
+</div>
+</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#define-members">Macros</a> &#124;
@@ -106,20 +117,21 @@ $(document).ready(function(){initNavTree('ht32f5xxxx__sci_8c.html',''); initResi
 <p>This file provides all the SCI firmware functions.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;<a class="el" href="ht32f5xxxx__sci_8h_source.html">ht32f5xxxx_sci.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for ht32f5xxxx_sci.c:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="ht32f5xxxx__sci_8c__incl.svg" width="436" height="416"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:ga9857bb5f2bca13a51e136b56933fa2ec" id="r_ga9857bb5f2bca13a51e136b56933fa2ec"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>CR_ENSCI_SET</b>&#160;&#160;&#160;((u32)0x00000020)</td></tr>
+<tr class="memitem:ga9857bb5f2bca13a51e136b56933fa2ec" id="r_ga9857bb5f2bca13a51e136b56933fa2ec"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_c_i___private___define.html#ga9857bb5f2bca13a51e136b56933fa2ec">CR_ENSCI_SET</a>&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0x00000020)</td></tr>
 <tr class="separator:ga9857bb5f2bca13a51e136b56933fa2ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4f847075dab9e201e48dc36cc7c5b59d" id="r_ga4f847075dab9e201e48dc36cc7c5b59d"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>CR_ENSCI_RESET</b>&#160;&#160;&#160;((u32)0xFFFFFFDF)</td></tr>
+<tr class="memitem:ga4f847075dab9e201e48dc36cc7c5b59d" id="r_ga4f847075dab9e201e48dc36cc7c5b59d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_c_i___private___define.html#ga4f847075dab9e201e48dc36cc7c5b59d">CR_ENSCI_RESET</a>&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0xFFFFFFDF)</td></tr>
 <tr class="separator:ga4f847075dab9e201e48dc36cc7c5b59d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa3e8fe1f1dbb953e502483938d35066e" id="r_gaa3e8fe1f1dbb953e502483938d35066e"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>CR_WTEN_SET</b>&#160;&#160;&#160;((u32)0x00000004)</td></tr>
+<tr class="memitem:gaa3e8fe1f1dbb953e502483938d35066e" id="r_gaa3e8fe1f1dbb953e502483938d35066e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_c_i___private___define.html#gaa3e8fe1f1dbb953e502483938d35066e">CR_WTEN_SET</a>&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0x00000004)</td></tr>
 <tr class="separator:gaa3e8fe1f1dbb953e502483938d35066e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9617a869991361e57bb207f84b2c8b35" id="r_ga9617a869991361e57bb207f84b2c8b35"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>CR_WTEN_RESET</b>&#160;&#160;&#160;((u32)0xFFFFFFFB)</td></tr>
+<tr class="memitem:ga9617a869991361e57bb207f84b2c8b35" id="r_ga9617a869991361e57bb207f84b2c8b35"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_c_i___private___define.html#ga9617a869991361e57bb207f84b2c8b35">CR_WTEN_RESET</a>&#160;&#160;&#160;((<a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a>)0xFFFFFFFB)</td></tr>
 <tr class="separator:ga9617a869991361e57bb207f84b2c8b35"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
@@ -133,43 +145,43 @@ Functions</h2></td></tr>
 <tr class="memitem:ga2a13ad392186f009600a1987f77921ec" id="r_ga2a13ad392186f009600a1987f77921ec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_c_i___exported___functions.html#ga2a13ad392186f009600a1987f77921ec">SCI_StructInit</a> (<a class="el" href="struct_s_c_i___init_type_def.html">SCI_InitTypeDef</a> *SCI_InitStruct)</td></tr>
 <tr class="memdesc:ga2a13ad392186f009600a1987f77921ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the SCI peripheral according to the specified parameters in the SCI_InitStruct.  <br /></td></tr>
 <tr class="separator:ga2a13ad392186f009600a1987f77921ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1ec6ab1216aa751c8a7bda7b08c04d2b" id="r_ga1ec6ab1216aa751c8a7bda7b08c04d2b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_c_i___exported___functions.html#ga1ec6ab1216aa751c8a7bda7b08c04d2b">SCI_Cmd</a> (<a class="el" href="struct_h_t___s_c_i___type_def.html">HT_SCI_TypeDef</a> *SCIx, ControlStatus NewState)</td></tr>
+<tr class="memitem:ga1ec6ab1216aa751c8a7bda7b08c04d2b" id="r_ga1ec6ab1216aa751c8a7bda7b08c04d2b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_c_i___exported___functions.html#ga1ec6ab1216aa751c8a7bda7b08c04d2b">SCI_Cmd</a> (<a class="el" href="struct_h_t___s_c_i___type_def.html">HT_SCI_TypeDef</a> *SCIx, <a class="el" href="group___exported___types.html#ga7e0a5efd47ffb7f58fcc2e1cb1e38dae">ControlStatus</a> NewState)</td></tr>
 <tr class="memdesc:ga1ec6ab1216aa751c8a7bda7b08c04d2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable or Disable the specified SCI peripheral.  <br /></td></tr>
 <tr class="separator:ga1ec6ab1216aa751c8a7bda7b08c04d2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3b82dafba7b4efbdf5a16b0d767b691a" id="r_ga3b82dafba7b4efbdf5a16b0d767b691a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_c_i___exported___functions.html#ga3b82dafba7b4efbdf5a16b0d767b691a">SCI_ETUConfig</a> (<a class="el" href="struct_h_t___s_c_i___type_def.html">HT_SCI_TypeDef</a> *SCIx, u32 SCI_ETU, u32 SCI_Compensation)</td></tr>
+<tr class="memitem:ga3b82dafba7b4efbdf5a16b0d767b691a" id="r_ga3b82dafba7b4efbdf5a16b0d767b691a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_c_i___exported___functions.html#ga3b82dafba7b4efbdf5a16b0d767b691a">SCI_ETUConfig</a> (<a class="el" href="struct_h_t___s_c_i___type_def.html">HT_SCI_TypeDef</a> *SCIx, <a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> SCI_ETU, <a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> SCI_Compensation)</td></tr>
 <tr class="memdesc:ga3b82dafba7b4efbdf5a16b0d767b691a"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function is used to configure the Elementary Time Unit.  <br /></td></tr>
 <tr class="separator:ga3b82dafba7b4efbdf5a16b0d767b691a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9b1d95ae306da7d9985a398e79854d5f" id="r_ga9b1d95ae306da7d9985a398e79854d5f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_c_i___exported___functions.html#ga9b1d95ae306da7d9985a398e79854d5f">SCI_SetGuardTimeValue</a> (<a class="el" href="struct_h_t___s_c_i___type_def.html">HT_SCI_TypeDef</a> *SCIx, u16 SCI_GuardTime)</td></tr>
+<tr class="memitem:ga9b1d95ae306da7d9985a398e79854d5f" id="r_ga9b1d95ae306da7d9985a398e79854d5f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_c_i___exported___functions.html#ga9b1d95ae306da7d9985a398e79854d5f">SCI_SetGuardTimeValue</a> (<a class="el" href="struct_h_t___s_c_i___type_def.html">HT_SCI_TypeDef</a> *SCIx, <a class="el" href="group___exported___types.html#ga9e6c91d77e24643b888dbd1a1a590054">u16</a> SCI_GuardTime)</td></tr>
 <tr class="memdesc:ga9b1d95ae306da7d9985a398e79854d5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function is used to set the value of SCI GuardTime.  <br /></td></tr>
 <tr class="separator:ga9b1d95ae306da7d9985a398e79854d5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga13051a95812a8e26a65e5fe705b0b4e2" id="r_ga13051a95812a8e26a65e5fe705b0b4e2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_c_i___exported___functions.html#ga13051a95812a8e26a65e5fe705b0b4e2">SCI_SetWaitingTimeValue</a> (<a class="el" href="struct_h_t___s_c_i___type_def.html">HT_SCI_TypeDef</a> *SCIx, u32 SCI_WaitingTime)</td></tr>
+<tr class="memitem:ga13051a95812a8e26a65e5fe705b0b4e2" id="r_ga13051a95812a8e26a65e5fe705b0b4e2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_c_i___exported___functions.html#ga13051a95812a8e26a65e5fe705b0b4e2">SCI_SetWaitingTimeValue</a> (<a class="el" href="struct_h_t___s_c_i___type_def.html">HT_SCI_TypeDef</a> *SCIx, <a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> SCI_WaitingTime)</td></tr>
 <tr class="memdesc:ga13051a95812a8e26a65e5fe705b0b4e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function is used to set the value of SCI Waiting Time.  <br /></td></tr>
 <tr class="separator:ga13051a95812a8e26a65e5fe705b0b4e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaaafbea6644e7f1cbd035005773c8425a" id="r_gaaafbea6644e7f1cbd035005773c8425a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_c_i___exported___functions.html#gaaafbea6644e7f1cbd035005773c8425a">SCI_WaitingTimeCounterCmd</a> (<a class="el" href="struct_h_t___s_c_i___type_def.html">HT_SCI_TypeDef</a> *SCIx, ControlStatus NewState)</td></tr>
+<tr class="memitem:gaaafbea6644e7f1cbd035005773c8425a" id="r_gaaafbea6644e7f1cbd035005773c8425a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_c_i___exported___functions.html#gaaafbea6644e7f1cbd035005773c8425a">SCI_WaitingTimeCounterCmd</a> (<a class="el" href="struct_h_t___s_c_i___type_def.html">HT_SCI_TypeDef</a> *SCIx, <a class="el" href="group___exported___types.html#ga7e0a5efd47ffb7f58fcc2e1cb1e38dae">ControlStatus</a> NewState)</td></tr>
 <tr class="memdesc:gaaafbea6644e7f1cbd035005773c8425a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable or Disable the Waiting Time Counter.  <br /></td></tr>
 <tr class="separator:gaaafbea6644e7f1cbd035005773c8425a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9d2340eb5d272d82b61862726c909292" id="r_ga9d2340eb5d272d82b61862726c909292"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_c_i___exported___functions.html#ga9d2340eb5d272d82b61862726c909292">SCI_SendData</a> (<a class="el" href="struct_h_t___s_c_i___type_def.html">HT_SCI_TypeDef</a> *SCIx, u8 SCI_Data)</td></tr>
+<tr class="memitem:ga9d2340eb5d272d82b61862726c909292" id="r_ga9d2340eb5d272d82b61862726c909292"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_c_i___exported___functions.html#ga9d2340eb5d272d82b61862726c909292">SCI_SendData</a> (<a class="el" href="struct_h_t___s_c_i___type_def.html">HT_SCI_TypeDef</a> *SCIx, <a class="el" href="group___exported___types.html#gaed742c436da53c1080638ce6ef7d13de">u8</a> SCI_Data)</td></tr>
 <tr class="memdesc:ga9d2340eb5d272d82b61862726c909292"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends a data byte through the SCI peripheral.  <br /></td></tr>
 <tr class="separator:ga9d2340eb5d272d82b61862726c909292"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5e5e60075ab23c9524157897416dc5f6" id="r_ga5e5e60075ab23c9524157897416dc5f6"><td class="memItemLeft" align="right" valign="top">u8&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_c_i___exported___functions.html#ga5e5e60075ab23c9524157897416dc5f6">SCI_ReceiveData</a> (<a class="el" href="struct_h_t___s_c_i___type_def.html">HT_SCI_TypeDef</a> *SCIx)</td></tr>
+<tr class="memitem:ga5e5e60075ab23c9524157897416dc5f6" id="r_ga5e5e60075ab23c9524157897416dc5f6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___exported___types.html#gaed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_c_i___exported___functions.html#ga5e5e60075ab23c9524157897416dc5f6">SCI_ReceiveData</a> (<a class="el" href="struct_h_t___s_c_i___type_def.html">HT_SCI_TypeDef</a> *SCIx)</td></tr>
 <tr class="memdesc:ga5e5e60075ab23c9524157897416dc5f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the received data through the SCI peripheral.  <br /></td></tr>
 <tr class="separator:ga5e5e60075ab23c9524157897416dc5f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0c4feca37b4a5353645f63f6d82ea7be" id="r_ga0c4feca37b4a5353645f63f6d82ea7be"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_c_i___exported___functions.html#ga0c4feca37b4a5353645f63f6d82ea7be">SCI_ClockModeConfig</a> (<a class="el" href="struct_h_t___s_c_i___type_def.html">HT_SCI_TypeDef</a> *SCIx, u32 SCI_CLKMode)</td></tr>
+<tr class="memitem:ga0c4feca37b4a5353645f63f6d82ea7be" id="r_ga0c4feca37b4a5353645f63f6d82ea7be"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_c_i___exported___functions.html#ga0c4feca37b4a5353645f63f6d82ea7be">SCI_ClockModeConfig</a> (<a class="el" href="struct_h_t___s_c_i___type_def.html">HT_SCI_TypeDef</a> *SCIx, <a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> SCI_CLKMode)</td></tr>
 <tr class="memdesc:ga0c4feca37b4a5353645f63f6d82ea7be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines the SCI output clock signal is driven by hardware or software.  <br /></td></tr>
 <tr class="separator:ga0c4feca37b4a5353645f63f6d82ea7be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga00047bdb5f37d074569847039171eb23" id="r_ga00047bdb5f37d074569847039171eb23"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_c_i___exported___functions.html#ga00047bdb5f37d074569847039171eb23">SCI_SoftwareClockCmd</a> (<a class="el" href="struct_h_t___s_c_i___type_def.html">HT_SCI_TypeDef</a> *SCIx, u32 SCI_CLK)</td></tr>
+<tr class="memitem:ga00047bdb5f37d074569847039171eb23" id="r_ga00047bdb5f37d074569847039171eb23"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_c_i___exported___functions.html#ga00047bdb5f37d074569847039171eb23">SCI_SoftwareClockCmd</a> (<a class="el" href="struct_h_t___s_c_i___type_def.html">HT_SCI_TypeDef</a> *SCIx, <a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> SCI_CLK)</td></tr>
 <tr class="memdesc:ga00047bdb5f37d074569847039171eb23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output the SCI clock pin low or high by software.  <br /></td></tr>
 <tr class="separator:ga00047bdb5f37d074569847039171eb23"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac4353df3ef985bb19ab18a2ae44668b3" id="r_gac4353df3ef985bb19ab18a2ae44668b3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_c_i___exported___functions.html#gac4353df3ef985bb19ab18a2ae44668b3">SCI_OutputDIO</a> (<a class="el" href="struct_h_t___s_c_i___type_def.html">HT_SCI_TypeDef</a> *SCIx, u32 SCI_DIO)</td></tr>
+<tr class="memitem:gac4353df3ef985bb19ab18a2ae44668b3" id="r_gac4353df3ef985bb19ab18a2ae44668b3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_c_i___exported___functions.html#gac4353df3ef985bb19ab18a2ae44668b3">SCI_OutputDIO</a> (<a class="el" href="struct_h_t___s_c_i___type_def.html">HT_SCI_TypeDef</a> *SCIx, <a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> SCI_DIO)</td></tr>
 <tr class="memdesc:gac4353df3ef985bb19ab18a2ae44668b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output the SCI DIO pin low or high by software.  <br /></td></tr>
 <tr class="separator:gac4353df3ef985bb19ab18a2ae44668b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7d2871f53ac339932271ae1c0efe2054" id="r_ga7d2871f53ac339932271ae1c0efe2054"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_c_i___exported___functions.html#ga7d2871f53ac339932271ae1c0efe2054">SCI_IntConfig</a> (<a class="el" href="struct_h_t___s_c_i___type_def.html">HT_SCI_TypeDef</a> *SCIx, u32 SCI_Int, ControlStatus NewState)</td></tr>
+<tr class="memitem:ga7d2871f53ac339932271ae1c0efe2054" id="r_ga7d2871f53ac339932271ae1c0efe2054"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_c_i___exported___functions.html#ga7d2871f53ac339932271ae1c0efe2054">SCI_IntConfig</a> (<a class="el" href="struct_h_t___s_c_i___type_def.html">HT_SCI_TypeDef</a> *SCIx, <a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> SCI_Int, <a class="el" href="group___exported___types.html#ga7e0a5efd47ffb7f58fcc2e1cb1e38dae">ControlStatus</a> NewState)</td></tr>
 <tr class="memdesc:ga7d2871f53ac339932271ae1c0efe2054"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable or Disable the specified SCI interrupt.  <br /></td></tr>
 <tr class="separator:ga7d2871f53ac339932271ae1c0efe2054"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab52a2d426d4083c66a82154789a09c3c" id="r_gab52a2d426d4083c66a82154789a09c3c"><td class="memItemLeft" align="right" valign="top">FlagStatus&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_c_i___exported___functions.html#gab52a2d426d4083c66a82154789a09c3c">SCI_GetFlagStatus</a> (<a class="el" href="struct_h_t___s_c_i___type_def.html">HT_SCI_TypeDef</a> *SCIx, u32 SCI_Flag)</td></tr>
+<tr class="memitem:gab52a2d426d4083c66a82154789a09c3c" id="r_gab52a2d426d4083c66a82154789a09c3c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___exported___types.html#ga89136caac2e14c55151f527ac02daaff">FlagStatus</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_c_i___exported___functions.html#gab52a2d426d4083c66a82154789a09c3c">SCI_GetFlagStatus</a> (<a class="el" href="struct_h_t___s_c_i___type_def.html">HT_SCI_TypeDef</a> *SCIx, <a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> SCI_Flag)</td></tr>
 <tr class="memdesc:gab52a2d426d4083c66a82154789a09c3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the status of specified SCI flag.  <br /></td></tr>
 <tr class="separator:gab52a2d426d4083c66a82154789a09c3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad37ff1dc1848c52f37adef52720e46a6" id="r_gad37ff1dc1848c52f37adef52720e46a6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_c_i___exported___functions.html#gad37ff1dc1848c52f37adef52720e46a6">SCI_ClearFlag</a> (<a class="el" href="struct_h_t___s_c_i___type_def.html">HT_SCI_TypeDef</a> *SCIx, u32 SCI_Flag)</td></tr>
+<tr class="memitem:gad37ff1dc1848c52f37adef52720e46a6" id="r_gad37ff1dc1848c52f37adef52720e46a6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_c_i___exported___functions.html#gad37ff1dc1848c52f37adef52720e46a6">SCI_ClearFlag</a> (<a class="el" href="struct_h_t___s_c_i___type_def.html">HT_SCI_TypeDef</a> *SCIx, <a class="el" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> SCI_Flag)</td></tr>
 <tr class="memdesc:gad37ff1dc1848c52f37adef52720e46a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears the flag status of specified SCI flag.  <br /></td></tr>
 <tr class="separator:gad37ff1dc1848c52f37adef52720e46a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -186,13 +198,9 @@ Functions</h2></td></tr>
 </ol>
 <h2><center>Copyright (C) Holtek Semiconductor Inc. All rights reserved</center></h2>
 </div></div><!-- contents -->
-</div><!-- doc-content -->
 <!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="navelem"><a class="el" href="dir_275089585c7fc1b5fd5d7d42c69cb1da.html">D:</a></li><li class="navelem"><a class="el" href="dir_273f27263c611837868160ff0f82bfd9.html">Note_Database</a></li><li class="navelem"><a class="el" href="dir_e8282a48381dd1bcf012c1bae1dc741b.html">Subject</a></li><li class="navelem"><a class="el" href="dir_7583b43eec1d2788dd81e658186519d2.html">MCETA Microcontroller Experiment TA</a></li><li class="navelem"><a class="el" href="dir_3ca5c6b4c4a2c10c94024caf0df2e6bb.html">files</a></li><li class="navelem"><a class="el" href="dir_79e3244e27785f7ec158b45668f9e3ec.html">HT32_STD_5xxxx_FWLib_V1.5.1_7084b</a></li><li class="navelem"><a class="el" href="dir_6965e01511015f2942f432da2d4a5bcb.html">library</a></li><li class="navelem"><a class="el" href="dir_a2f81702cb5fc8b133c02bd1d2044bc0.html">HT32F5xxxx_Driver</a></li><li class="navelem"><a class="el" href="dir_78bdda5ef22f8c24d3ef19dd62664412.html">src</a></li><li class="navelem"><a class="el" href="ht32f5xxxx__sci_8c.html">ht32f5xxxx_sci.c</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
-  </ul>
-</div>
+<hr class="footer"/><address class="footer"><small>
+Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+</small></address>
 </body>
 </html>

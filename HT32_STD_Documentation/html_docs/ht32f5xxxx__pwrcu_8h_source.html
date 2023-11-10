@@ -1,51 +1,63 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>HT32_STD_Documents: ht32f5xxxx_pwrcu.h Source File</title>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>HT32_STD_Code_Documents: D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/library/HT32F5xxxx_Driver/inc/ht32f5xxxx_pwrcu.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<link href="navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="resize.js"></script>
-<script type="text/javascript" src="navtreedata.js"></script>
-<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(document).ready(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
-   <div id="projectname">HT32_STD_Documents<span id="projectnumber">&#160;1.0.0</span>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">HT32_STD_Code_Documents
+   &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">For HT32F52352</div>
+   <div id="projectbrief">Micro-controller Experiment</div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
@@ -57,23 +69,22 @@
 var searchBox = new SearchBox("searchBox", "search/",'.html');
 /* @license-end */
 </script>
-</div><!-- top -->
-<div id="side-nav" class="ui-resizable side-nav-resizable">
-  <div id="nav-tree">
-    <div id="nav-tree-contents">
-      <div id="nav-sync" class="sync"></div>
-    </div>
-  </div>
-  <div id="splitbar" style="-moz-user-select:none;" 
-       class="ui-resizable-handle">
-  </div>
-</div>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('ht32f5xxxx__pwrcu_8h_source.html',''); initResizable(); });
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
 /* @license-end */
 </script>
-<div id="doc-content">
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function() { init_codefold(0); });
+/* @license-end */
+</script>
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -95,6 +106,11 @@ $(document).ready(function(){initNavTree('ht32f5xxxx__pwrcu_8h_source.html','');
 </div>
 </div>
 
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_275089585c7fc1b5fd5d7d42c69cb1da.html">D:</a></li><li class="navelem"><a class="el" href="dir_273f27263c611837868160ff0f82bfd9.html">Note_Database</a></li><li class="navelem"><a class="el" href="dir_e8282a48381dd1bcf012c1bae1dc741b.html">Subject</a></li><li class="navelem"><a class="el" href="dir_7583b43eec1d2788dd81e658186519d2.html">MCETA Microcontroller Experiment TA</a></li><li class="navelem"><a class="el" href="dir_3ca5c6b4c4a2c10c94024caf0df2e6bb.html">files</a></li><li class="navelem"><a class="el" href="dir_79e3244e27785f7ec158b45668f9e3ec.html">HT32_STD_5xxxx_FWLib_V1.5.1_7084b</a></li><li class="navelem"><a class="el" href="dir_6965e01511015f2942f432da2d4a5bcb.html">library</a></li><li class="navelem"><a class="el" href="dir_a2f81702cb5fc8b133c02bd1d2044bc0.html">HT32F5xxxx_Driver</a></li><li class="navelem"><a class="el" href="dir_5295d97ccb3d03e3674380e8c26a1d02.html">inc</a></li>  </ul>
+</div>
+</div><!-- top -->
 <div class="header">
   <div class="headertitle"><div class="title">ht32f5xxxx_pwrcu.h</div></div>
 </div><!--header-->
@@ -115,7 +131,7 @@ $(document).ready(function(){initNavTree('ht32f5xxxx__pwrcu_8h_source.html','');
 <div class="foldopen" id="foldopen00060" data-start="{" data-end="};">
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="group___p_w_r_c_u___exported___types.html#gaf7f5f8f2e6bbbc4260d1b2e2ac931e24">   60</a></span><span class="keyword">typedef</span> <span class="keyword">enum</span></div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>{</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>  PWRCU_WAKEUP_PIN_0 = 0,</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="group___p_w_r_c_u___exported___types.html#ggaf7f5f8f2e6bbbc4260d1b2e2ac931e24a9b8ab2e7b567fdc262f6364ad02f0e69">   62</a></span>  <a class="code hl_enumvalue" href="group___p_w_r_c_u___exported___types.html#ggaf7f5f8f2e6bbbc4260d1b2e2ac931e24a9b8ab2e7b567fdc262f6364ad02f0e69">PWRCU_WAKEUP_PIN_0</a> = 0,</div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span><span class="preprocessor">  #if (LIBCFG_PWRCU_WAKEUP1)</span></div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>  PWRCU_WAKEUP_PIN_1</div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><span class="preprocessor">  #endif</span></div>
@@ -178,14 +194,14 @@ $(document).ready(function(){initNavTree('ht32f5xxxx__pwrcu_8h_source.html','');
 <div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span><span class="preprocessor">  #define PWRCU_LVDS_3V15           PWRCU_LVDS_LV7</span></div>
 <div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span><span class="preprocessor">  #define PWRCU_LVDS_3V3            PWRCU_LVDS_LV8</span></div>
 <div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span><span class="preprocessor">  #define PWRCU_LVDS_1V75           PWRCU_LVDS_LV1</span></div>
-<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span><span class="preprocessor">  #define PWRCU_LVDS_1V95           PWRCU_LVDS_LV2</span></div>
-<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span><span class="preprocessor">  #define PWRCU_LVDS_2V15           PWRCU_LVDS_LV3</span></div>
-<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span><span class="preprocessor">  #define PWRCU_LVDS_2V35           PWRCU_LVDS_LV4</span></div>
-<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span><span class="preprocessor">  #define PWRCU_LVDS_2V55           PWRCU_LVDS_LV5</span></div>
-<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span><span class="preprocessor">  #define PWRCU_LVDS_2V75           PWRCU_LVDS_LV6</span></div>
-<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span><span class="preprocessor">  #define PWRCU_LVDS_2V95           PWRCU_LVDS_LV7</span></div>
-<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span><span class="preprocessor">  #define PWRCU_LVDS_3V15           PWRCU_LVDS_LV8</span></div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno"><a class="line" href="group___p_w_r_c_u___exported___types.html#gab1a4273972f2d81047140d8112d61705">  127</a></span><span class="preprocessor">  #define PWRCU_LVDS_1V75           PWRCU_LVDS_LV1</span></div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno"><a class="line" href="group___p_w_r_c_u___exported___types.html#ga88b8400558f7471e6473a11b0bc18850">  128</a></span><span class="preprocessor">  #define PWRCU_LVDS_1V95           PWRCU_LVDS_LV2</span></div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno"><a class="line" href="group___p_w_r_c_u___exported___types.html#gae670d3536e00598e842044dd9828c3b5">  129</a></span><span class="preprocessor">  #define PWRCU_LVDS_2V15           PWRCU_LVDS_LV3</span></div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno"><a class="line" href="group___p_w_r_c_u___exported___types.html#ga1575476764394c0dc0904715f13df00f">  130</a></span><span class="preprocessor">  #define PWRCU_LVDS_2V35           PWRCU_LVDS_LV4</span></div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno"><a class="line" href="group___p_w_r_c_u___exported___types.html#ga362918dec2b0d47b0cbdbc2eae264e6f">  131</a></span><span class="preprocessor">  #define PWRCU_LVDS_2V55           PWRCU_LVDS_LV5</span></div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno"><a class="line" href="group___p_w_r_c_u___exported___types.html#gab9cdff4080b8acdc9d5c1b89f0f1b7bd">  132</a></span><span class="preprocessor">  #define PWRCU_LVDS_2V75           PWRCU_LVDS_LV6</span></div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno"><a class="line" href="group___p_w_r_c_u___exported___types.html#gaa36b7a54085fce73dc76c6ea18741086">  133</a></span><span class="preprocessor">  #define PWRCU_LVDS_2V95           PWRCU_LVDS_LV7</span></div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno"><a class="line" href="group___p_w_r_c_u___exported___types.html#gaaab275d72c01529d0e556e8a15f46d34">  134</a></span><span class="preprocessor">  #define PWRCU_LVDS_3V15           PWRCU_LVDS_LV8</span></div>
 <div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span><span class="preprocessor">#endif</span></div>
 <div class="foldopen" id="foldopen00139" data-start="{" data-end="};">
 <div class="line"><a id="l00139" name="l00139"></a><span class="lineno"><a class="line" href="group___p_w_r_c_u___exported___types.html#ga726eca4a927f63bb38212f2d4c9dc582">  139</a></span><span class="keyword">typedef</span> <span class="keyword">enum</span></div>
@@ -276,45 +292,49 @@ $(document).ready(function(){initNavTree('ht32f5xxxx__pwrcu_8h_source.html','');
 <div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span> </div>
 <div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span><span class="comment">/* check PWRCU_LVDS parameter                                                                               */</span></div>
-<div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span><span class="preprocessor">#define IS_PWRCU_LVDS(x)        ((x == PWRCU_LVDS_LV1) || (x == PWRCU_LVDS_LV2) || \</span></div>
+<div class="foldopen" id="foldopen00249" data-start="" data-end="">
+<div class="line"><a id="l00249" name="l00249"></a><span class="lineno"><a class="line" href="group___p_w_r_c_u___exported___constants.html#ga26c932be529643c30131a64cf8e5c7f5">  249</a></span><span class="preprocessor">#define IS_PWRCU_LVDS(x)        ((x == PWRCU_LVDS_LV1) || (x == PWRCU_LVDS_LV2) || \</span></div>
 <div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span><span class="preprocessor">                                 (x == PWRCU_LVDS_LV3) || (x == PWRCU_LVDS_LV4) || \</span></div>
 <div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span><span class="preprocessor">                                 (x == PWRCU_LVDS_LV5) || (x == PWRCU_LVDS_LV6) || \</span></div>
 <div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span><span class="preprocessor">                                 (x == PWRCU_LVDS_LV7) || (x == PWRCU_LVDS_LV8))</span></div>
+</div>
 <div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span> </div>
 <div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span><span class="comment">/* check PWRCU_BODRIS parameter                                                                             */</span></div>
-<div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span><span class="preprocessor">#define IS_PWRCU_BODRIS(x)      ((x == PWRCU_BODRIS_RESET) || (x == PWRCU_BODRIS_INT))</span></div>
+<div class="line"><a id="l00255" name="l00255"></a><span class="lineno"><a class="line" href="group___p_w_r_c_u___exported___constants.html#gaec945966871051893e4c61050faf5b2a">  255</a></span><span class="preprocessor">#define IS_PWRCU_BODRIS(x)      ((x == PWRCU_BODRIS_RESET) || (x == PWRCU_BODRIS_INT))</span></div>
 <div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span> </div>
 <div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span><span class="comment">/* check PWRCU_HSIRCBL parameter                                                                            */</span></div>
-<div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span><span class="preprocessor">#define IS_PWRCU_HSIRCBL(x)     (x &lt;= 3)</span></div>
+<div class="line"><a id="l00258" name="l00258"></a><span class="lineno"><a class="line" href="group___p_w_r_c_u___exported___constants.html#gac7134e406d1192be9a640005efbace98">  258</a></span><span class="preprocessor">#define IS_PWRCU_HSIRCBL(x)     (x &lt;= 3)</span></div>
 <div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span> </div>
 <div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span><span class="comment">/* check PWRCU_SLEEP_ENTRY parameter                                                                        */</span></div>
-<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span><span class="preprocessor">#define IS_PWRCU_SLEEP_ENTRY(x) ((x == PWRCU_SLEEP_ENTRY_WFI) || (x == PWRCU_SLEEP_ENTRY_WFE))</span></div>
+<div class="line"><a id="l00261" name="l00261"></a><span class="lineno"><a class="line" href="group___p_w_r_c_u___exported___constants.html#ga0fe473a0f923424231d4ad455f0b4d99">  261</a></span><span class="preprocessor">#define IS_PWRCU_SLEEP_ENTRY(x) ((x == PWRCU_SLEEP_ENTRY_WFI) || (x == PWRCU_SLEEP_ENTRY_WFE))</span></div>
 <div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span> </div>
 <div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span><span class="comment">/* check PWRCU_BAKREG parameter                                                                             */</span></div>
-<div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span><span class="preprocessor">#define IS_PWRCU_BAKREG(x)      (x &lt; 10)</span></div>
+<div class="line"><a id="l00264" name="l00264"></a><span class="lineno"><a class="line" href="group___p_w_r_c_u___exported___constants.html#ga345202ef2672b8c4bbff9a16cd4b4410">  264</a></span><span class="preprocessor">#define IS_PWRCU_BAKREG(x)      (x &lt; 10)</span></div>
 <div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span> </div>
 <div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span><span class="comment">/* check PWRCU_V15RDY_SRC parameter                                                                         */</span></div>
-<div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span><span class="preprocessor">#define IS_PWRCU_V15RDYSC(x)    ((x == PWRCU_V15RDYSC_V33ISO) || (x == PWRCU_V15RDYSC_V15POR))</span></div>
+<div class="line"><a id="l00267" name="l00267"></a><span class="lineno"><a class="line" href="group___p_w_r_c_u___exported___constants.html#ga0dd90f081cb70c9a1e09a7d9fdfadd6a">  267</a></span><span class="preprocessor">#define IS_PWRCU_V15RDYSC(x)    ((x == PWRCU_V15RDYSC_V33ISO) || (x == PWRCU_V15RDYSC_V15POR))</span></div>
 <div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span> </div>
 <div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span><span class="comment">/* check PWRCU_LDOMODE parameter                                                                            */</span></div>
-<div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span><span class="preprocessor">#define IS_PWRCU_LDOMODE(x)     ((x == PWRCU_LDO_NORMAL) || (x == PWRCU_LDO_LOWCURRENT))</span></div>
+<div class="line"><a id="l00270" name="l00270"></a><span class="lineno"><a class="line" href="group___p_w_r_c_u___exported___constants.html#ga663871a9b723d89214afe5a5680b0762">  270</a></span><span class="preprocessor">#define IS_PWRCU_LDOMODE(x)     ((x == PWRCU_LDO_NORMAL) || (x == PWRCU_LDO_LOWCURRENT))</span></div>
 <div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span> </div>
 <div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span><span class="comment">/* check PWRCU_WUP parameter                                                                                */</span></div>
-<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span><span class="preprocessor">#define IS_PWRCU_WAKEUPPIN(x)   (IS_PWRCU_WAKE0(x) || IS_PWRCU_WAKE1(x))</span></div>
+<div class="line"><a id="l00273" name="l00273"></a><span class="lineno"><a class="line" href="group___p_w_r_c_u___exported___constants.html#ga62e68f3258a865b6cd224c0d80452fd2">  273</a></span><span class="preprocessor">#define IS_PWRCU_WAKEUPPIN(x)   (IS_PWRCU_WAKE0(x) || IS_PWRCU_WAKE1(x))</span></div>
 <div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span> </div>
-<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span><span class="preprocessor">#define IS_PWRCU_WAKE0(x)       (x == PWRCU_WAKEUP_PIN_0)</span></div>
+<div class="line"><a id="l00275" name="l00275"></a><span class="lineno"><a class="line" href="group___p_w_r_c_u___exported___constants.html#ga5af5cc5851f8e51528484aff751481f4">  275</a></span><span class="preprocessor">#define IS_PWRCU_WAKE0(x)       (x == PWRCU_WAKEUP_PIN_0)</span></div>
 <div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span> </div>
 <div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span><span class="preprocessor">#if (LIBCFG_PWRCU_WAKEUP1)</span></div>
 <div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span><span class="preprocessor">#define IS_PWRCU_WAKE1(x)       (x == PWRCU_WAKEUP_PIN_1)</span></div>
 <div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span><span class="preprocessor">#define IS_PWRCU_WAKE1(x)       (0)</span></div>
+<div class="line"><a id="l00280" name="l00280"></a><span class="lineno"><a class="line" href="group___p_w_r_c_u___exported___constants.html#ga2640666d17376401935ad3a956aee48a">  280</a></span><span class="preprocessor">#define IS_PWRCU_WAKE1(x)       (0)</span></div>
 <div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span> </div>
 <div class="line"><a id="l00283" name="l00283"></a><span class="lineno">  283</span><span class="comment">/* check PWRCU_WUPTYPE parameter                                                                            */</span></div>
-<div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span><span class="preprocessor">#define IS_PWRCU_TRIGGERTYPE(x)  ((x == PWRCU_WUP_POSITIVE_EDGE) || \</span></div>
+<div class="foldopen" id="foldopen00284" data-start="" data-end="">
+<div class="line"><a id="l00284" name="l00284"></a><span class="lineno"><a class="line" href="group___p_w_r_c_u___exported___constants.html#gad3e1a769b467cbe7fc4f1b19f262bd89">  284</a></span><span class="preprocessor">#define IS_PWRCU_TRIGGERTYPE(x)  ((x == PWRCU_WUP_POSITIVE_EDGE) || \</span></div>
 <div class="line"><a id="l00285" name="l00285"></a><span class="lineno">  285</span><span class="preprocessor">                                  (x == PWRCU_WUP_NEGATIVE_EDGE) || \</span></div>
 <div class="line"><a id="l00286" name="l00286"></a><span class="lineno">  286</span><span class="preprocessor">                                  (x == PWRCU_WUP_HIGH_LEVEL)    || \</span></div>
 <div class="line"><a id="l00287" name="l00287"></a><span class="lineno">  287</span><span class="preprocessor">                                  (x == PWRCU_WUP_LOW_LEVEL))</span></div>
+</div>
 <div class="line"><a id="l00288" name="l00288"></a><span class="lineno">  288</span> </div>
 <div class="line"><a id="l00289" name="l00289"></a><span class="lineno">  289</span><span class="preprocessor">#if (LIBCFG_PWRCU_VREG)</span></div>
 <div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span><span class="preprocessor">#define IS_PWRCU_VREG_VOLT(x)   ((IS_PWRCU_VREG_VOLT_L2(x)) || \</span></div>
@@ -340,10 +360,10 @@ $(document).ready(function(){initNavTree('ht32f5xxxx__pwrcu_8h_source.html','');
 <div class="line"><a id="l00317" name="l00317"></a><span class="lineno">  317</span><span class="preprocessor">#if (!LIBCFG_NO_PWRCU_TEST_REG)</span></div>
 <div class="line"><a id="l00318" name="l00318"></a><span class="lineno">  318</span><a class="code hl_enumeration" href="group___p_w_r_c_u___exported___types.html#ga8f27e4710b96d0b4d71cf41c17909690">PWRCU_Status</a> <a class="code hl_function" href="group___p_w_r_c_u___exported___functions.html#ga68bfca0bb60a6dc3dbac264aa222012d">PWRCU_CheckReadyAccessed</a>(<span class="keywordtype">void</span>);</div>
 <div class="line"><a id="l00319" name="l00319"></a><span class="lineno">  319</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00320" name="l00320"></a><span class="lineno">  320</span>u16 <a class="code hl_function" href="group___p_w_r_c_u___exported___functions.html#gaff42446cb96d2e10dc9a0987521f5344">PWRCU_GetFlagStatus</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00320" name="l00320"></a><span class="lineno">  320</span><a class="code hl_typedef" href="group___exported___types.html#ga9e6c91d77e24643b888dbd1a1a590054">u16</a> <a class="code hl_function" href="group___p_w_r_c_u___exported___functions.html#gaff42446cb96d2e10dc9a0987521f5344">PWRCU_GetFlagStatus</a>(<span class="keywordtype">void</span>);</div>
 <div class="line"><a id="l00321" name="l00321"></a><span class="lineno">  321</span><span class="preprocessor">#if (LIBCFG_BAKREG)</span></div>
-<div class="line"><a id="l00322" name="l00322"></a><span class="lineno">  322</span>u32 PWRCU_ReadBackupRegister(PWRCU_BAKREG_Enum BAKREGx);</div>
-<div class="line"><a id="l00323" name="l00323"></a><span class="lineno">  323</span><span class="keywordtype">void</span> PWRCU_WriteBackupRegister(PWRCU_BAKREG_Enum BAKREGx, u32 DATA);</div>
+<div class="line"><a id="l00322" name="l00322"></a><span class="lineno">  322</span><a class="code hl_typedef" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> PWRCU_ReadBackupRegister(PWRCU_BAKREG_Enum BAKREGx);</div>
+<div class="line"><a id="l00323" name="l00323"></a><span class="lineno">  323</span><span class="keywordtype">void</span> PWRCU_WriteBackupRegister(PWRCU_BAKREG_Enum BAKREGx, <a class="code hl_typedef" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> DATA);</div>
 <div class="line"><a id="l00324" name="l00324"></a><span class="lineno">  324</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00325" name="l00325"></a><span class="lineno">  325</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___p_w_r_c_u___exported___functions.html#ga90d2e5d1a489c378bb0528f1bad10026">PWRCU_Sleep</a>(<a class="code hl_enumeration" href="group___p_w_r_c_u___exported___types.html#ga51a7d13853133953523fcd31d9ed6126">PWRCU_SLEEP_ENTRY_Enum</a> SleepEntry);</div>
 <div class="line"><a id="l00326" name="l00326"></a><span class="lineno">  326</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___p_w_r_c_u___exported___functions.html#ga7ef333d5db3b17a9ba48fc9c9adb759a">PWRCU_DeepSleep1</a>(<a class="code hl_enumeration" href="group___p_w_r_c_u___exported___types.html#ga51a7d13853133953523fcd31d9ed6126">PWRCU_SLEEP_ENTRY_Enum</a> SleepEntry);</div>
@@ -356,25 +376,25 @@ $(document).ready(function(){initNavTree('ht32f5xxxx__pwrcu_8h_source.html','');
 <div class="line"><a id="l00333" name="l00333"></a><span class="lineno">  333</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00334" name="l00334"></a><span class="lineno">  334</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___p_w_r_c_u___exported___functions.html#ga63eaade3a6130308464e1ffdb3e4dce1">PWRCU_SetLVDS</a>(<a class="code hl_enumeration" href="group___p_w_r_c_u___exported___types.html#gaac20fc2091f6e783fca52858d0c1b0f3">PWRCU_LVDS_Enum</a> Level);</div>
 <div class="line"><a id="l00335" name="l00335"></a><span class="lineno">  335</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___p_w_r_c_u___exported___functions.html#ga51b0ed6580dcf221e65e7c3af8ccb04b">PWRCU_LDOConfig</a>(<a class="code hl_enumeration" href="group___p_w_r_c_u___exported___types.html#ga57d6bf74d27d14b2bb5ab07ff18e2d91">PWRCU_LDOMODE_Enum</a> Sel);</div>
-<div class="line"><a id="l00336" name="l00336"></a><span class="lineno">  336</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___p_w_r_c_u___exported___functions.html#ga6e7000e9d17118faa4590ed53658e5c8">PWRCU_LVDCmd</a>(ControlStatus NewState);</div>
-<div class="line"><a id="l00337" name="l00337"></a><span class="lineno">  337</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___p_w_r_c_u___exported___functions.html#ga9bf59ec5ee5818eabc5bce32a5b9bab8">PWRCU_BODCmd</a>(ControlStatus NewState);</div>
+<div class="line"><a id="l00336" name="l00336"></a><span class="lineno">  336</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___p_w_r_c_u___exported___functions.html#ga6e7000e9d17118faa4590ed53658e5c8">PWRCU_LVDCmd</a>(<a class="code hl_typedef" href="group___exported___types.html#ga7e0a5efd47ffb7f58fcc2e1cb1e38dae">ControlStatus</a> NewState);</div>
+<div class="line"><a id="l00337" name="l00337"></a><span class="lineno">  337</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___p_w_r_c_u___exported___functions.html#ga9bf59ec5ee5818eabc5bce32a5b9bab8">PWRCU_BODCmd</a>(<a class="code hl_typedef" href="group___exported___types.html#ga7e0a5efd47ffb7f58fcc2e1cb1e38dae">ControlStatus</a> NewState);</div>
 <div class="line"><a id="l00338" name="l00338"></a><span class="lineno">  338</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___p_w_r_c_u___exported___functions.html#ga78755644de2a0cc109f98763b400f90f">PWRCU_BODRISConfig</a>(<a class="code hl_enumeration" href="group___p_w_r_c_u___exported___types.html#ga726eca4a927f63bb38212f2d4c9dc582">PWRCU_BODRIS_Enum</a> Selection);</div>
-<div class="line"><a id="l00339" name="l00339"></a><span class="lineno">  339</span>FlagStatus <a class="code hl_function" href="group___p_w_r_c_u___exported___functions.html#ga1258de0357caeceba3f5e417c8bc8e60">PWRCU_GetLVDFlagStatus</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00340" name="l00340"></a><span class="lineno">  340</span>FlagStatus <a class="code hl_function" href="group___p_w_r_c_u___exported___functions.html#gae4512f08b15f66cc3b59738f82e92dcb">PWRCU_GetBODFlagStatus</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00339" name="l00339"></a><span class="lineno">  339</span><a class="code hl_enumeration" href="group___exported___types.html#ga89136caac2e14c55151f527ac02daaff">FlagStatus</a> <a class="code hl_function" href="group___p_w_r_c_u___exported___functions.html#ga1258de0357caeceba3f5e417c8bc8e60">PWRCU_GetLVDFlagStatus</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00340" name="l00340"></a><span class="lineno">  340</span><a class="code hl_enumeration" href="group___exported___types.html#ga89136caac2e14c55151f527ac02daaff">FlagStatus</a> <a class="code hl_function" href="group___p_w_r_c_u___exported___functions.html#gae4512f08b15f66cc3b59738f82e92dcb">PWRCU_GetBODFlagStatus</a>(<span class="keywordtype">void</span>);</div>
 <div class="line"><a id="l00341" name="l00341"></a><span class="lineno">  341</span><a class="code hl_enumeration" href="group___p_w_r_c_u___exported___types.html#ga793ca69e637d0aa03e10af1bc38a1d6f">PWRCU_DMOSStatus</a> <a class="code hl_function" href="group___p_w_r_c_u___exported___functions.html#ga359ad0f83899fdc7405732c26698dca9">PWRCU_GetDMOSStatus</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00342" name="l00342"></a><span class="lineno">  342</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___p_w_r_c_u___exported___functions.html#ga140ae3e70a161f28adde10423f697a99">PWRCU_DMOSCmd</a>(ControlStatus NewState);</div>
+<div class="line"><a id="l00342" name="l00342"></a><span class="lineno">  342</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___p_w_r_c_u___exported___functions.html#ga140ae3e70a161f28adde10423f697a99">PWRCU_DMOSCmd</a>(<a class="code hl_typedef" href="group___exported___types.html#ga7e0a5efd47ffb7f58fcc2e1cb1e38dae">ControlStatus</a> NewState);</div>
 <div class="line"><a id="l00343" name="l00343"></a><span class="lineno">  343</span><span class="preprocessor">#if (LIBCFG_PWRCU_V15_READY_SOURCE)</span></div>
 <div class="line"><a id="l00344" name="l00344"></a><span class="lineno">  344</span><span class="keywordtype">void</span> PWRCU_V15RDYSourceConfig(<a class="code hl_enumeration" href="group___p_w_r_c_u___exported___types.html#ga40187cefad8e2c7d670fa22f4505bbb8">PWRCU_V15RDYSC_Enum</a> Sel);</div>
 <div class="line"><a id="l00345" name="l00345"></a><span class="lineno">  345</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00346" name="l00346"></a><span class="lineno">  346</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___p_w_r_c_u___exported___functions.html#gab68547801a35dffe2055be8050be70f9">PWRCU_LVDIntWakeupConfig</a>(ControlStatus NewState);</div>
-<div class="line"><a id="l00347" name="l00347"></a><span class="lineno">  347</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___p_w_r_c_u___exported___functions.html#ga4e7333fb541edb5143f15bc3926f0708">PWRCU_LVDEventWakeupConfig</a>(ControlStatus NewState);</div>
+<div class="line"><a id="l00346" name="l00346"></a><span class="lineno">  346</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___p_w_r_c_u___exported___functions.html#gab68547801a35dffe2055be8050be70f9">PWRCU_LVDIntWakeupConfig</a>(<a class="code hl_typedef" href="group___exported___types.html#ga7e0a5efd47ffb7f58fcc2e1cb1e38dae">ControlStatus</a> NewState);</div>
+<div class="line"><a id="l00347" name="l00347"></a><span class="lineno">  347</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___p_w_r_c_u___exported___functions.html#ga4e7333fb541edb5143f15bc3926f0708">PWRCU_LVDEventWakeupConfig</a>(<a class="code hl_typedef" href="group___exported___types.html#ga7e0a5efd47ffb7f58fcc2e1cb1e38dae">ControlStatus</a> NewState);</div>
 <div class="line"><a id="l00348" name="l00348"></a><span class="lineno">  348</span><span class="preprocessor">#if (LIBCFG_PWRCU_VREG)</span></div>
 <div class="line"><a id="l00349" name="l00349"></a><span class="lineno">  349</span><span class="keywordtype">void</span> PWRCU_SetVREG(PWRCU_VREG_VOLT_Enum Volt);</div>
 <div class="line"><a id="l00350" name="l00350"></a><span class="lineno">  350</span><span class="keywordtype">void</span> PWRCU_VREGConfig(PWRCU_VREG_MODE_Enum Mode);</div>
 <div class="line"><a id="l00351" name="l00351"></a><span class="lineno">  351</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00352" name="l00352"></a><span class="lineno">  352</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___p_w_r_c_u___exported___functions.html#ga7979062f367667292da97a8bb5c739e4">PWRCU_WakeupPinCmd</a>(ControlStatus NewState);</div>
+<div class="line"><a id="l00352" name="l00352"></a><span class="lineno">  352</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___p_w_r_c_u___exported___functions.html#ga7979062f367667292da97a8bb5c739e4">PWRCU_WakeupPinCmd</a>(<a class="code hl_typedef" href="group___exported___types.html#ga7e0a5efd47ffb7f58fcc2e1cb1e38dae">ControlStatus</a> NewState);</div>
 <div class="line"><a id="l00353" name="l00353"></a><span class="lineno">  353</span><span class="preprocessor">#if (LIBCFG_PWRCU_WAKEUP_V01)</span></div>
-<div class="line"><a id="l00354" name="l00354"></a><span class="lineno">  354</span><span class="keywordtype">void</span> PWRCU_WakeupMultiPinCmd(<a class="code hl_enumeration" href="group___p_w_r_c_u___exported___types.html#gaf7f5f8f2e6bbbc4260d1b2e2ac931e24">PWRCU_WUP_Enum</a> Pin, PWRCU_WUPTYPE_Enum Type, ControlStatus NewState);</div>
+<div class="line"><a id="l00354" name="l00354"></a><span class="lineno">  354</span><span class="keywordtype">void</span> PWRCU_WakeupMultiPinCmd(<a class="code hl_enumeration" href="group___p_w_r_c_u___exported___types.html#gaf7f5f8f2e6bbbc4260d1b2e2ac931e24">PWRCU_WUP_Enum</a> Pin, PWRCU_WUPTYPE_Enum Type, <a class="code hl_typedef" href="group___exported___types.html#ga7e0a5efd47ffb7f58fcc2e1cb1e38dae">ControlStatus</a> NewState);</div>
 <div class="line"><a id="l00355" name="l00355"></a><span class="lineno">  355</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00356" name="l00356"></a><span class="lineno">  356</span><span class="preprocessor">#if defined(USE_HT32F52342_52) || defined(USE_HT32F5826)</span></div>
 <div class="line"><a id="l00357" name="l00357"></a><span class="lineno">  357</span><span class="keywordtype">void</span> PWRCU_HSIReadyCounterBitLengthConfig(PWRCU_HSIRCBL_Enum BitLength);</div>
@@ -384,6 +404,10 @@ $(document).ready(function(){initNavTree('ht32f5xxxx__pwrcu_8h_source.html','');
 <div class="line"><a id="l00374" name="l00374"></a><span class="lineno">  374</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00375" name="l00375"></a><span class="lineno">  375</span> </div>
 <div class="line"><a id="l00376" name="l00376"></a><span class="lineno">  376</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="agroup___exported___types_html_ga10e94b422ef0c20dcdec20d31a1f5049"><div class="ttname"><a href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a></div><div class="ttdeci">unsigned int u32</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_01.h:493</div></div>
+<div class="ttc" id="agroup___exported___types_html_ga7e0a5efd47ffb7f58fcc2e1cb1e38dae"><div class="ttname"><a href="group___exported___types.html#ga7e0a5efd47ffb7f58fcc2e1cb1e38dae">ControlStatus</a></div><div class="ttdeci">enum EventStatus ControlStatus</div></div>
+<div class="ttc" id="agroup___exported___types_html_ga89136caac2e14c55151f527ac02daaff"><div class="ttname"><a href="group___exported___types.html#ga89136caac2e14c55151f527ac02daaff">FlagStatus</a></div><div class="ttdeci">FlagStatus</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_01.h:524</div></div>
+<div class="ttc" id="agroup___exported___types_html_ga9e6c91d77e24643b888dbd1a1a590054"><div class="ttname"><a href="group___exported___types.html#ga9e6c91d77e24643b888dbd1a1a590054">u16</a></div><div class="ttdeci">unsigned short u16</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_01.h:494</div></div>
 <div class="ttc" id="agroup___p_w_r_c_u___exported___functions_html_ga08ede1bff33c314bc20bb8541205de85"><div class="ttname"><a href="group___p_w_r_c_u___exported___functions.html#ga08ede1bff33c314bc20bb8541205de85">PWRCU_PowerDown</a></div><div class="ttdeci">void PWRCU_PowerDown(void)</div><div class="ttdoc">Enter POWER-DOWN Mode.</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_pwrcu.c:394</div></div>
 <div class="ttc" id="agroup___p_w_r_c_u___exported___functions_html_ga1258de0357caeceba3f5e417c8bc8e60"><div class="ttname"><a href="group___p_w_r_c_u___exported___functions.html#ga1258de0357caeceba3f5e417c8bc8e60">PWRCU_GetLVDFlagStatus</a></div><div class="ttdeci">FlagStatus PWRCU_GetLVDFlagStatus(void)</div><div class="ttdoc">Return the flag status of LVD.</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_pwrcu.c:550</div></div>
 <div class="ttc" id="agroup___p_w_r_c_u___exported___functions_html_ga140ae3e70a161f28adde10423f697a99"><div class="ttname"><a href="group___p_w_r_c_u___exported___functions.html#ga140ae3e70a161f28adde10423f697a99">PWRCU_DMOSCmd</a></div><div class="ttdeci">void PWRCU_DMOSCmd(ControlStatus NewState)</div><div class="ttdoc">Enable or Disable DMOS function.</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_pwrcu.c:594</div></div>
@@ -434,15 +458,12 @@ $(document).ready(function(){initNavTree('ht32f5xxxx__pwrcu_8h_source.html','');
 <div class="ttc" id="agroup___p_w_r_c_u___exported___types_html_ggaac20fc2091f6e783fca52858d0c1b0f3a9aec8fc98bbead5198be1206b821836c"><div class="ttname"><a href="group___p_w_r_c_u___exported___types.html#ggaac20fc2091f6e783fca52858d0c1b0f3a9aec8fc98bbead5198be1206b821836c">PWRCU_LVDS_LV2</a></div><div class="ttdeci">@ PWRCU_LVDS_LV2</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_pwrcu.h:100</div></div>
 <div class="ttc" id="agroup___p_w_r_c_u___exported___types_html_ggaac20fc2091f6e783fca52858d0c1b0f3ac87212325200873cbc6f50e21f10b140"><div class="ttname"><a href="group___p_w_r_c_u___exported___types.html#ggaac20fc2091f6e783fca52858d0c1b0f3ac87212325200873cbc6f50e21f10b140">PWRCU_LVDS_LV3</a></div><div class="ttdeci">@ PWRCU_LVDS_LV3</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_pwrcu.h:101</div></div>
 <div class="ttc" id="agroup___p_w_r_c_u___exported___types_html_ggaac20fc2091f6e783fca52858d0c1b0f3ae8297529bb4ad25ef1d0bc339cd69725"><div class="ttname"><a href="group___p_w_r_c_u___exported___types.html#ggaac20fc2091f6e783fca52858d0c1b0f3ae8297529bb4ad25ef1d0bc339cd69725">PWRCU_LVDS_LV4</a></div><div class="ttdeci">@ PWRCU_LVDS_LV4</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_pwrcu.h:102</div></div>
+<div class="ttc" id="agroup___p_w_r_c_u___exported___types_html_ggaf7f5f8f2e6bbbc4260d1b2e2ac931e24a9b8ab2e7b567fdc262f6364ad02f0e69"><div class="ttname"><a href="group___p_w_r_c_u___exported___types.html#ggaf7f5f8f2e6bbbc4260d1b2e2ac931e24a9b8ab2e7b567fdc262f6364ad02f0e69">PWRCU_WAKEUP_PIN_0</a></div><div class="ttdeci">@ PWRCU_WAKEUP_PIN_0</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_pwrcu.h:62</div></div>
 <div class="ttc" id="aht32_8h_html"><div class="ttname"><a href="ht32_8h.html">ht32.h</a></div><div class="ttdoc">The API between application and HT32FXXXX Firmware Library.</div></div>
 </div><!-- fragment --></div><!-- contents -->
-</div><!-- doc-content -->
 <!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="navelem"><a class="el" href="dir_275089585c7fc1b5fd5d7d42c69cb1da.html">D:</a></li><li class="navelem"><a class="el" href="dir_273f27263c611837868160ff0f82bfd9.html">Note_Database</a></li><li class="navelem"><a class="el" href="dir_e8282a48381dd1bcf012c1bae1dc741b.html">Subject</a></li><li class="navelem"><a class="el" href="dir_7583b43eec1d2788dd81e658186519d2.html">MCETA Microcontroller Experiment TA</a></li><li class="navelem"><a class="el" href="dir_3ca5c6b4c4a2c10c94024caf0df2e6bb.html">files</a></li><li class="navelem"><a class="el" href="dir_79e3244e27785f7ec158b45668f9e3ec.html">HT32_STD_5xxxx_FWLib_V1.5.1_7084b</a></li><li class="navelem"><a class="el" href="dir_6965e01511015f2942f432da2d4a5bcb.html">library</a></li><li class="navelem"><a class="el" href="dir_a2f81702cb5fc8b133c02bd1d2044bc0.html">HT32F5xxxx_Driver</a></li><li class="navelem"><a class="el" href="dir_5295d97ccb3d03e3674380e8c26a1d02.html">inc</a></li><li class="navelem"><a class="el" href="ht32f5xxxx__pwrcu_8h.html">ht32f5xxxx_pwrcu.h</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
-  </ul>
-</div>
+<hr class="footer"/><address class="footer"><small>
+Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+</small></address>
 </body>
 </html>

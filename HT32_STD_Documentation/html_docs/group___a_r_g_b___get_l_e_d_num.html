@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>HT32_STD_Documents: ARGB_GetLEDNum</title>
+<title>HT32_STD_Code_Documents: ARGB_GetLEDNum</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,9 +21,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">HT32_STD_Documents<span id="projectnumber">&#160;1.0.0</span>
+   <div id="projectname">HT32_STD_Code_Documents<span id="projectnumber">&#160;1.0.0</span>
    </div>
-   <div id="projectbrief">For HT32F52352</div>
+   <div id="projectbrief">Micro-controller Experiment</div>
   </td>
  </tr>
  </tbody>
@@ -77,29 +77,27 @@ $(function() {
   <div class="headertitle"><div class="title">ARGB_GetLEDNum<div class="ingroups"><a class="el" href="group___h_t32___series___peripheral___examples.html">HT32 Peripheral Examples</a> &raquo; <a class="el" href="group___s_l_e_d___examples.html">SLED</a></div></div></div>
 </div><!--header-->
 <div class="contents">
+<div class="dynheader">
+Collaboration diagram for ARGB_GetLEDNum:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="group___a_r_g_b___get_l_e_d_num.svg" width="252" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:gaca2e6f61d31980bf6b3f226e8eebe4ca" id="r_gaca2e6f61d31980bf6b3f226e8eebe4ca"><td class="memItemLeft" align="right" valign="top"><a id="gaca2e6f61d31980bf6b3f226e8eebe4ca" name="gaca2e6f61d31980bf6b3f226e8eebe4ca"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>BFTM_MODE</b>&#160;&#160;&#160;(1)   /* 0: Timer by GPTM, 1: Timer by BFTM                          */</td></tr>
+<tr class="memitem:gaca2e6f61d31980bf6b3f226e8eebe4ca" id="r_gaca2e6f61d31980bf6b3f226e8eebe4ca"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_r_g_b___get_l_e_d_num.html#gaca2e6f61d31980bf6b3f226e8eebe4ca">BFTM_MODE</a>&#160;&#160;&#160;(1)   /* 0: Timer by GPTM, 1: Timer by BFTM                          */</td></tr>
 <tr class="separator:gaca2e6f61d31980bf6b3f226e8eebe4ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0ef369cc741b830cebaa9f89cac1bae2" id="r_ga0ef369cc741b830cebaa9f89cac1bae2"><td class="memItemLeft" align="right" valign="top"><a id="ga0ef369cc741b830cebaa9f89cac1bae2" name="ga0ef369cc741b830cebaa9f89cac1bae2"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LED_GRB_DATA_LEN</b>&#160;&#160;&#160;(3)     /* 3 bytes                                                   */</td></tr>
+<tr class="memitem:ga0ef369cc741b830cebaa9f89cac1bae2" id="r_ga0ef369cc741b830cebaa9f89cac1bae2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_r_g_b___get_l_e_d_num.html#ga0ef369cc741b830cebaa9f89cac1bae2">LED_GRB_DATA_LEN</a>&#160;&#160;&#160;(3)     /* 3 bytes                                                   */</td></tr>
 <tr class="separator:ga0ef369cc741b830cebaa9f89cac1bae2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa1dc865c300e65c459d9adce953ff014" id="r_gaa1dc865c300e65c459d9adce953ff014"><td class="memItemLeft" align="right" valign="top"><a id="gaa1dc865c300e65c459d9adce953ff014" name="gaa1dc865c300e65c459d9adce953ff014"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LED_NUMBER_OF_COLOR_TYPES</b>&#160;&#160;&#160;(3)     /* 3 color type                                              */</td></tr>
+<tr class="memitem:gaa1dc865c300e65c459d9adce953ff014" id="r_gaa1dc865c300e65c459d9adce953ff014"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_r_g_b___get_l_e_d_num.html#gaa1dc865c300e65c459d9adce953ff014">LED_NUMBER_OF_COLOR_TYPES</a>&#160;&#160;&#160;(3)     /* 3 color type                                              */</td></tr>
 <tr class="separator:gaa1dc865c300e65c459d9adce953ff014"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab12bd8b12f753ee3cf9d3b996109c0c3" id="r_gab12bd8b12f753ee3cf9d3b996109c0c3"><td class="memItemLeft" align="right" valign="top"><a id="gab12bd8b12f753ee3cf9d3b996109c0c3" name="gab12bd8b12f753ee3cf9d3b996109c0c3"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>DELAY_5US</b>&#160;&#160;&#160;(300)   /* DELAY_5US / <a class="el" href="group___h_t32_f0006___system___exported__types.html#ga8a7a0b616f7ce693bebfd6ba909ed4fe">SystemCoreClock</a> = 5us                         */</td></tr>
+<tr class="memitem:gab12bd8b12f753ee3cf9d3b996109c0c3" id="r_gab12bd8b12f753ee3cf9d3b996109c0c3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_r_g_b___get_l_e_d_num.html#gab12bd8b12f753ee3cf9d3b996109c0c3">DELAY_5US</a>&#160;&#160;&#160;(300)   /* DELAY_5US / <a class="el" href="group___h_t32_f5xxxx___system___private___variables.html#ga8a7a0b616f7ce693bebfd6ba909ed4fe">SystemCoreClock</a> = 5us                         */</td></tr>
 <tr class="separator:gab12bd8b12f753ee3cf9d3b996109c0c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7ef552a60444f8e30ab012976fe61cc4" id="r_ga7ef552a60444f8e30ab012976fe61cc4"><td class="memItemLeft" align="right" valign="top"><a id="ga7ef552a60444f8e30ab012976fe61cc4" name="ga7ef552a60444f8e30ab012976fe61cc4"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>DELAY_10US</b>&#160;&#160;&#160;(600)   /* DELAY_10US / <a class="el" href="group___h_t32_f0006___system___exported__types.html#ga8a7a0b616f7ce693bebfd6ba909ed4fe">SystemCoreClock</a> = 10us                       */</td></tr>
+<tr class="memitem:ga7ef552a60444f8e30ab012976fe61cc4" id="r_ga7ef552a60444f8e30ab012976fe61cc4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_r_g_b___get_l_e_d_num.html#ga7ef552a60444f8e30ab012976fe61cc4">DELAY_10US</a>&#160;&#160;&#160;(600)   /* DELAY_10US / <a class="el" href="group___h_t32_f5xxxx___system___private___variables.html#ga8a7a0b616f7ce693bebfd6ba909ed4fe">SystemCoreClock</a> = 10us                       */</td></tr>
 <tr class="separator:ga7ef552a60444f8e30ab012976fe61cc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad3d3754cbb9124ebe2ff08aeceb85800" id="r_gad3d3754cbb9124ebe2ff08aeceb85800"><td class="memItemLeft" align="right" valign="top"><a id="gad3d3754cbb9124ebe2ff08aeceb85800" name="gad3d3754cbb9124ebe2ff08aeceb85800"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>DELAY_20US</b>&#160;&#160;&#160;(1200)  /* DELAY_20US / <a class="el" href="group___h_t32_f0006___system___exported__types.html#ga8a7a0b616f7ce693bebfd6ba909ed4fe">SystemCoreClock</a> = 20us                       */</td></tr>
+<tr class="memitem:gad3d3754cbb9124ebe2ff08aeceb85800" id="r_gad3d3754cbb9124ebe2ff08aeceb85800"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_r_g_b___get_l_e_d_num.html#gad3d3754cbb9124ebe2ff08aeceb85800">DELAY_20US</a>&#160;&#160;&#160;(1200)  /* DELAY_20US / <a class="el" href="group___h_t32_f5xxxx___system___private___variables.html#ga8a7a0b616f7ce693bebfd6ba909ed4fe">SystemCoreClock</a> = 20us                       */</td></tr>
 <tr class="separator:gad3d3754cbb9124ebe2ff08aeceb85800"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa756a361d6db648c4c9dee0bc5cc7835" id="r_gaa756a361d6db648c4c9dee0bc5cc7835"><td class="memItemLeft" align="right" valign="top"><a id="gaa756a361d6db648c4c9dee0bc5cc7835" name="gaa756a361d6db648c4c9dee0bc5cc7835"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>DELAY_50US</b>&#160;&#160;&#160;(3000)  /* DELAY_50US / <a class="el" href="group___h_t32_f0006___system___exported__types.html#ga8a7a0b616f7ce693bebfd6ba909ed4fe">SystemCoreClock</a> = 50us                       */</td></tr>
+<tr class="memitem:gaa756a361d6db648c4c9dee0bc5cc7835" id="r_gaa756a361d6db648c4c9dee0bc5cc7835"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_r_g_b___get_l_e_d_num.html#gaa756a361d6db648c4c9dee0bc5cc7835">DELAY_50US</a>&#160;&#160;&#160;(3000)  /* DELAY_50US / <a class="el" href="group___h_t32_f5xxxx___system___private___variables.html#ga8a7a0b616f7ce693bebfd6ba909ed4fe">SystemCoreClock</a> = 50us                       */</td></tr>
 <tr class="separator:gaa756a361d6db648c4c9dee0bc5cc7835"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
@@ -140,22 +138,117 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ga88a8edbd325750af593343d8faf644f8" id="r_ga88a8edbd325750af593343d8faf644f8"><td class="memItemLeft" align="right" valign="top">u8 __ALIGN4&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_r_g_b___get_l_e_d_num.html#ga88a8edbd325750af593343d8faf644f8">gGRBTable</a> [LED_NUMBER_OF_COLOR_TYPES][LED_GRB_DATA_LEN]</td></tr>
+<tr class="memitem:ga88a8edbd325750af593343d8faf644f8" id="r_ga88a8edbd325750af593343d8faf644f8"><td class="memItemLeft" align="right" valign="top">u8 __ALIGN4&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_r_g_b___get_l_e_d_num.html#ga88a8edbd325750af593343d8faf644f8">gGRBTable</a> [<a class="el" href="group___a_r_g_b___get_l_e_d_num.html#gaa1dc865c300e65c459d9adce953ff014">LED_NUMBER_OF_COLOR_TYPES</a>][<a class="el" href="group___a_r_g_b___get_l_e_d_num.html#ga0ef369cc741b830cebaa9f89cac1bae2">LED_GRB_DATA_LEN</a>]</td></tr>
 <tr class="separator:ga88a8edbd325750af593343d8faf644f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5c615f9a32f907aa9ed26dbbbff59cfb" id="r_ga5c615f9a32f907aa9ed26dbbbff59cfb"><td class="memItemLeft" align="right" valign="top"><a id="ga5c615f9a32f907aa9ed26dbbbff59cfb" name="ga5c615f9a32f907aa9ed26dbbbff59cfb"></a>
-u32&#160;</td><td class="memItemRight" valign="bottom"><b>i</b></td></tr>
+<tr class="memitem:ga5c615f9a32f907aa9ed26dbbbff59cfb" id="r_ga5c615f9a32f907aa9ed26dbbbff59cfb"><td class="memItemLeft" align="right" valign="top">u32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_r_g_b___get_l_e_d_num.html#ga5c615f9a32f907aa9ed26dbbbff59cfb">i</a></td></tr>
 <tr class="separator:ga5c615f9a32f907aa9ed26dbbbff59cfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gacefd7d6675052a0532918ce77ef61bbe" id="r_gacefd7d6675052a0532918ce77ef61bbe"><td class="memItemLeft" align="right" valign="top"><a id="gacefd7d6675052a0532918ce77ef61bbe" name="gacefd7d6675052a0532918ce77ef61bbe"></a>
-u32&#160;</td><td class="memItemRight" valign="bottom"><b>j</b></td></tr>
+<tr class="memitem:gacefd7d6675052a0532918ce77ef61bbe" id="r_gacefd7d6675052a0532918ce77ef61bbe"><td class="memItemLeft" align="right" valign="top">u32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_r_g_b___get_l_e_d_num.html#gacefd7d6675052a0532918ce77ef61bbe">j</a></td></tr>
 <tr class="separator:gacefd7d6675052a0532918ce77ef61bbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4c58f38ab53c8cb7ab5a10bb6d60fe0f" id="r_ga4c58f38ab53c8cb7ab5a10bb6d60fe0f"><td class="memItemLeft" align="right" valign="top"><a id="ga4c58f38ab53c8cb7ab5a10bb6d60fe0f" name="ga4c58f38ab53c8cb7ab5a10bb6d60fe0f"></a>
-u32&#160;</td><td class="memItemRight" valign="bottom"><b>k</b></td></tr>
+<tr class="memitem:ga4c58f38ab53c8cb7ab5a10bb6d60fe0f" id="r_ga4c58f38ab53c8cb7ab5a10bb6d60fe0f"><td class="memItemLeft" align="right" valign="top">u32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_r_g_b___get_l_e_d_num.html#ga4c58f38ab53c8cb7ab5a10bb6d60fe0f">k</a></td></tr>
 <tr class="separator:ga4c58f38ab53c8cb7ab5a10bb6d60fe0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gafb80b9e4aded8c6506b39471603351c7" id="r_gafb80b9e4aded8c6506b39471603351c7"><td class="memItemLeft" align="right" valign="top"><a id="gafb80b9e4aded8c6506b39471603351c7" name="gafb80b9e4aded8c6506b39471603351c7"></a>
-u32&#160;</td><td class="memItemRight" valign="bottom"><b>gLampBead</b></td></tr>
+<tr class="memitem:gafb80b9e4aded8c6506b39471603351c7" id="r_gafb80b9e4aded8c6506b39471603351c7"><td class="memItemLeft" align="right" valign="top">u32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_r_g_b___get_l_e_d_num.html#gafb80b9e4aded8c6506b39471603351c7">gLampBead</a></td></tr>
 <tr class="separator:gafb80b9e4aded8c6506b39471603351c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="gaca2e6f61d31980bf6b3f226e8eebe4ca" name="gaca2e6f61d31980bf6b3f226e8eebe4ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaca2e6f61d31980bf6b3f226e8eebe4ca">&#9670;&#160;</a></span>BFTM_MODE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define BFTM_MODE&#160;&#160;&#160;(1)   /* 0: Timer by GPTM, 1: Timer by BFTM                          */</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga7ef552a60444f8e30ab012976fe61cc4" name="ga7ef552a60444f8e30ab012976fe61cc4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7ef552a60444f8e30ab012976fe61cc4">&#9670;&#160;</a></span>DELAY_10US</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DELAY_10US&#160;&#160;&#160;(600)   /* DELAY_10US / <a class="el" href="group___h_t32_f5xxxx___system___private___variables.html#ga8a7a0b616f7ce693bebfd6ba909ed4fe">SystemCoreClock</a> = 10us                       */</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gad3d3754cbb9124ebe2ff08aeceb85800" name="gad3d3754cbb9124ebe2ff08aeceb85800"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad3d3754cbb9124ebe2ff08aeceb85800">&#9670;&#160;</a></span>DELAY_20US</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DELAY_20US&#160;&#160;&#160;(1200)  /* DELAY_20US / <a class="el" href="group___h_t32_f5xxxx___system___private___variables.html#ga8a7a0b616f7ce693bebfd6ba909ed4fe">SystemCoreClock</a> = 20us                       */</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gaa756a361d6db648c4c9dee0bc5cc7835" name="gaa756a361d6db648c4c9dee0bc5cc7835"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa756a361d6db648c4c9dee0bc5cc7835">&#9670;&#160;</a></span>DELAY_50US</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DELAY_50US&#160;&#160;&#160;(3000)  /* DELAY_50US / <a class="el" href="group___h_t32_f5xxxx___system___private___variables.html#ga8a7a0b616f7ce693bebfd6ba909ed4fe">SystemCoreClock</a> = 50us                       */</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gab12bd8b12f753ee3cf9d3b996109c0c3" name="gab12bd8b12f753ee3cf9d3b996109c0c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab12bd8b12f753ee3cf9d3b996109c0c3">&#9670;&#160;</a></span>DELAY_5US</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DELAY_5US&#160;&#160;&#160;(300)   /* DELAY_5US / <a class="el" href="group___h_t32_f5xxxx___system___private___variables.html#ga8a7a0b616f7ce693bebfd6ba909ed4fe">SystemCoreClock</a> = 5us                         */</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga0ef369cc741b830cebaa9f89cac1bae2" name="ga0ef369cc741b830cebaa9f89cac1bae2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0ef369cc741b830cebaa9f89cac1bae2">&#9670;&#160;</a></span>LED_GRB_DATA_LEN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LED_GRB_DATA_LEN&#160;&#160;&#160;(3)     /* 3 bytes                                                   */</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gaa1dc865c300e65c459d9adce953ff014" name="gaa1dc865c300e65c459d9adce953ff014"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa1dc865c300e65c459d9adce953ff014">&#9670;&#160;</a></span>LED_NUMBER_OF_COLOR_TYPES</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LED_NUMBER_OF_COLOR_TYPES&#160;&#160;&#160;(3)     /* 3 color type                                              */</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="gad00d8da69f110c5e0f73e2f10ddc99dc" name="gad00d8da69f110c5e0f73e2f10ddc99dc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gad00d8da69f110c5e0f73e2f10ddc99dc">&#9670;&#160;</a></span>ARGB_Feedback()</h2>
@@ -451,7 +544,7 @@ u32&#160;</td><td class="memItemRight" valign="bottom"><b>gLampBead</b></td></tr
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">u8 __ALIGN4 gGRBTable[LED_NUMBER_OF_COLOR_TYPES][LED_GRB_DATA_LEN]</td>
+          <td class="memname">u8 __ALIGN4 gGRBTable[<a class="el" href="group___a_r_g_b___get_l_e_d_num.html#gaa1dc865c300e65c459d9adce953ff014">LED_NUMBER_OF_COLOR_TYPES</a>][<a class="el" href="group___a_r_g_b___get_l_e_d_num.html#ga0ef369cc741b830cebaa9f89cac1bae2">LED_GRB_DATA_LEN</a>]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -461,6 +554,62 @@ u32&#160;</td><td class="memItemRight" valign="bottom"><b>gLampBead</b></td></tr
 <div class="line">  { 0x00, 0x00, 0xFF },     </div>
 <div class="line">}</div>
 </div><!-- fragment -->
+</div>
+</div>
+<a id="gafb80b9e4aded8c6506b39471603351c7" name="gafb80b9e4aded8c6506b39471603351c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafb80b9e4aded8c6506b39471603351c7">&#9670;&#160;</a></span>gLampBead</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">u32 gLampBead</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga5c615f9a32f907aa9ed26dbbbff59cfb" name="ga5c615f9a32f907aa9ed26dbbbff59cfb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5c615f9a32f907aa9ed26dbbbff59cfb">&#9670;&#160;</a></span>i</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">u32 i</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gacefd7d6675052a0532918ce77ef61bbe" name="gacefd7d6675052a0532918ce77ef61bbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gacefd7d6675052a0532918ce77ef61bbe">&#9670;&#160;</a></span>j</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">u32 j</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga4c58f38ab53c8cb7ab5a10bb6d60fe0f" name="ga4c58f38ab53c8cb7ab5a10bb6d60fe0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4c58f38ab53c8cb7ab5a10bb6d60fe0f">&#9670;&#160;</a></span>k</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">u32 k</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
 </div>
 </div>
 </div><!-- contents -->

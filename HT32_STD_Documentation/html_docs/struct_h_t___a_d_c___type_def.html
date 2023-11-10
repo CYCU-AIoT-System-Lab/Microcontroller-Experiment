@@ -1,29 +1,62 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>HT32_STD_Documents: HT_ADC_TypeDef Struct Reference</title>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>HT32_STD_Code_Documents: HT_ADC_TypeDef Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
-   <div id="projectname">HT32_STD_Documents<span id="projectnumber">&#160;1.0.0</span>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">HT32_STD_Code_Documents
+   &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">For HT32F52352</div>
+   <div id="projectbrief">Micro-controller Experiment</div>
   </td>
  </tr>
  </tbody>
@@ -71,8 +104,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="struct_h_t___a_d_c___type_def-members.html">List of all members</a>  </div>
+<a href="#pub-attribs">Data Fields</a>  </div>
   <div class="headertitle"><div class="title">HT_ADC_TypeDef Struct Reference<div class="ingroups"><a class="el" href="group___c_m_s_i_s.html">CMSIS</a> &raquo; <a class="el" href="group___h_t32_f5xxxx.html">HT32F5xxxx</a> &raquo; <a class="el" href="group___peripheral___registers___structures.html">Peripheral_Registers_Structures</a></div></div></div>
 </div><!--header-->
 <div class="contents">
@@ -83,51 +115,51 @@ $(function() {
 <p><code>#include &lt;<a class="el" href="ht32f5xxxx__01_8h_source.html">ht32f5xxxx_01.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:a3ffe856f30e794f7a6a937b7505bedee" id="r_a3ffe856f30e794f7a6a937b7505bedee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_h_t___a_d_c___type_def.html#a3ffe856f30e794f7a6a937b7505bedee">CR</a></td></tr>
-<tr class="separator:a3ffe856f30e794f7a6a937b7505bedee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a95d5f3a3b518f9897d02f07a77e9af13" id="r_a95d5f3a3b518f9897d02f07a77e9af13"><td class="memItemLeft" align="right" valign="top"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_h_t___a_d_c___type_def.html#a95d5f3a3b518f9897d02f07a77e9af13">LST</a> [2]</td></tr>
-<tr class="separator:a95d5f3a3b518f9897d02f07a77e9af13"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a912d9ea98ee3d8ed290207e213845f27" id="r_a912d9ea98ee3d8ed290207e213845f27"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_h_t___a_d_c___type_def.html#a912d9ea98ee3d8ed290207e213845f27">RESERVE0</a> [5]</td></tr>
-<tr class="separator:a912d9ea98ee3d8ed290207e213845f27"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2165f9eab69d0434d2c56fd0b438c64b" id="r_a2165f9eab69d0434d2c56fd0b438c64b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_h_t___a_d_c___type_def.html#a2165f9eab69d0434d2c56fd0b438c64b">STR</a></td></tr>
-<tr class="separator:a2165f9eab69d0434d2c56fd0b438c64b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ec7f87509d67944d39fbb8145c3a88e" id="r_a6ec7f87509d67944d39fbb8145c3a88e"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_h_t___a_d_c___type_def.html#a6ec7f87509d67944d39fbb8145c3a88e">RESERVE1</a> [3]</td></tr>
-<tr class="separator:a6ec7f87509d67944d39fbb8145c3a88e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a139df7689cb561a5a23fd973956b3e21" id="r_a139df7689cb561a5a23fd973956b3e21"><td class="memItemLeft" align="right" valign="top"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_h_t___a_d_c___type_def.html#a139df7689cb561a5a23fd973956b3e21">DR</a> [8]</td></tr>
-<tr class="separator:a139df7689cb561a5a23fd973956b3e21"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab8465b60defa92f783f2a891da023063" id="r_ab8465b60defa92f783f2a891da023063"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_h_t___a_d_c___type_def.html#ab8465b60defa92f783f2a891da023063">RESERVE2</a> [8]</td></tr>
-<tr class="separator:ab8465b60defa92f783f2a891da023063"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae09678bdf8f57dfd125fbef849cb3ed6" id="r_ae09678bdf8f57dfd125fbef849cb3ed6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_h_t___a_d_c___type_def.html#ae09678bdf8f57dfd125fbef849cb3ed6">TCR</a></td></tr>
-<tr class="separator:ae09678bdf8f57dfd125fbef849cb3ed6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe104a02b50d9de29e7d8d11e76f57c7" id="r_afe104a02b50d9de29e7d8d11e76f57c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_h_t___a_d_c___type_def.html#afe104a02b50d9de29e7d8d11e76f57c7">TSR</a></td></tr>
-<tr class="separator:afe104a02b50d9de29e7d8d11e76f57c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a618ee5468994295fd6ae4ac1d6dc632d" id="r_a618ee5468994295fd6ae4ac1d6dc632d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_h_t___a_d_c___type_def.html#a618ee5468994295fd6ae4ac1d6dc632d">WCR</a></td></tr>
-<tr class="separator:a618ee5468994295fd6ae4ac1d6dc632d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2380a4010eb40def10fe48fe731237ef" id="r_a2380a4010eb40def10fe48fe731237ef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_h_t___a_d_c___type_def.html#a2380a4010eb40def10fe48fe731237ef">WTR</a></td></tr>
-<tr class="separator:a2380a4010eb40def10fe48fe731237ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6c8264eef261bc881916e8603db7593" id="r_af6c8264eef261bc881916e8603db7593"><td class="memItemLeft" align="right" valign="top"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_h_t___a_d_c___type_def.html#af6c8264eef261bc881916e8603db7593">IER</a></td></tr>
-<tr class="separator:af6c8264eef261bc881916e8603db7593"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a482e313a4c4ab2048edc58a746282222" id="r_a482e313a4c4ab2048edc58a746282222"><td class="memItemLeft" align="right" valign="top"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_h_t___a_d_c___type_def.html#a482e313a4c4ab2048edc58a746282222">IRAW</a></td></tr>
-<tr class="separator:a482e313a4c4ab2048edc58a746282222"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a97ffc6b592144ea79eaca3c385daecdd" id="r_a97ffc6b592144ea79eaca3c385daecdd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_h_t___a_d_c___type_def.html#a97ffc6b592144ea79eaca3c385daecdd">ISR</a></td></tr>
-<tr class="separator:a97ffc6b592144ea79eaca3c385daecdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1117fef34e9d490a303a40bf56c9910f" id="r_a1117fef34e9d490a303a40bf56c9910f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_h_t___a_d_c___type_def.html#a1117fef34e9d490a303a40bf56c9910f">ICLR</a></td></tr>
-<tr class="separator:a1117fef34e9d490a303a40bf56c9910f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a55d53e7f72fa85110accdafddda5b811" id="r_a55d53e7f72fa85110accdafddda5b811"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_h_t___a_d_c___type_def.html#a55d53e7f72fa85110accdafddda5b811">RESERVE4</a></td></tr>
-<tr class="separator:a55d53e7f72fa85110accdafddda5b811"><td class="memSeparator" colspan="2">&#160;</td></tr>
+Data Fields</h2></td></tr>
+<tr class="memitem:ab40c89c59391aaa9d9a8ec011dd0907a" id="r_ab40c89c59391aaa9d9a8ec011dd0907a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_h_t___a_d_c___type_def.html#ab40c89c59391aaa9d9a8ec011dd0907a">CR</a></td></tr>
+<tr class="separator:ab40c89c59391aaa9d9a8ec011dd0907a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2e504beffde3baa4defd8dd248da634" id="r_ac2e504beffde3baa4defd8dd248da634"><td class="memItemLeft" align="right" valign="top"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_h_t___a_d_c___type_def.html#ac2e504beffde3baa4defd8dd248da634">LST</a> [2]</td></tr>
+<tr class="separator:ac2e504beffde3baa4defd8dd248da634"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a066978985f551364f9b8cc6c976db607" id="r_a066978985f551364f9b8cc6c976db607"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_h_t___a_d_c___type_def.html#a066978985f551364f9b8cc6c976db607">RESERVE0</a> [5]</td></tr>
+<tr class="separator:a066978985f551364f9b8cc6c976db607"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7060ac1ed928ee931d7664650f2dcf75" id="r_a7060ac1ed928ee931d7664650f2dcf75"><td class="memItemLeft" align="right" valign="top"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_h_t___a_d_c___type_def.html#a7060ac1ed928ee931d7664650f2dcf75">STR</a></td></tr>
+<tr class="separator:a7060ac1ed928ee931d7664650f2dcf75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66e9fcb7fb1db4e81c1a057065f63053" id="r_a66e9fcb7fb1db4e81c1a057065f63053"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_h_t___a_d_c___type_def.html#a66e9fcb7fb1db4e81c1a057065f63053">RESERVE1</a> [3]</td></tr>
+<tr class="separator:a66e9fcb7fb1db4e81c1a057065f63053"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a076e4c6607d394ca348962cdbcf9b920" id="r_a076e4c6607d394ca348962cdbcf9b920"><td class="memItemLeft" align="right" valign="top"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_h_t___a_d_c___type_def.html#a076e4c6607d394ca348962cdbcf9b920">DR</a> [8]</td></tr>
+<tr class="separator:a076e4c6607d394ca348962cdbcf9b920"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11cf524ffb7cd6a1cc921e4137b5042d" id="r_a11cf524ffb7cd6a1cc921e4137b5042d"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_h_t___a_d_c___type_def.html#a11cf524ffb7cd6a1cc921e4137b5042d">RESERVE2</a> [8]</td></tr>
+<tr class="separator:a11cf524ffb7cd6a1cc921e4137b5042d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9dd9282fab299d0cd6e119564688e53" id="r_ae9dd9282fab299d0cd6e119564688e53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_h_t___a_d_c___type_def.html#ae9dd9282fab299d0cd6e119564688e53">TCR</a></td></tr>
+<tr class="separator:ae9dd9282fab299d0cd6e119564688e53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87e3001757a0cd493785f1f3337dd0e8" id="r_a87e3001757a0cd493785f1f3337dd0e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_h_t___a_d_c___type_def.html#a87e3001757a0cd493785f1f3337dd0e8">TSR</a></td></tr>
+<tr class="separator:a87e3001757a0cd493785f1f3337dd0e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ca8d4e372398db0e5045993ffa56b05" id="r_a4ca8d4e372398db0e5045993ffa56b05"><td class="memItemLeft" align="right" valign="top"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_h_t___a_d_c___type_def.html#a4ca8d4e372398db0e5045993ffa56b05">WCR</a></td></tr>
+<tr class="separator:a4ca8d4e372398db0e5045993ffa56b05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a988719d9de739a4e90710ac17e294b5b" id="r_a988719d9de739a4e90710ac17e294b5b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_h_t___a_d_c___type_def.html#a988719d9de739a4e90710ac17e294b5b">WTR</a></td></tr>
+<tr class="separator:a988719d9de739a4e90710ac17e294b5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6566f8cfbd1d8aa7e8db046aa35e77db" id="r_a6566f8cfbd1d8aa7e8db046aa35e77db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_h_t___a_d_c___type_def.html#a6566f8cfbd1d8aa7e8db046aa35e77db">IER</a></td></tr>
+<tr class="separator:a6566f8cfbd1d8aa7e8db046aa35e77db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a126d4196da09e35f36e7542b45df7433" id="r_a126d4196da09e35f36e7542b45df7433"><td class="memItemLeft" align="right" valign="top"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_h_t___a_d_c___type_def.html#a126d4196da09e35f36e7542b45df7433">IRAW</a></td></tr>
+<tr class="separator:a126d4196da09e35f36e7542b45df7433"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3c49a96815fcbee63d95e1e74f20e75" id="r_ab3c49a96815fcbee63d95e1e74f20e75"><td class="memItemLeft" align="right" valign="top"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_h_t___a_d_c___type_def.html#ab3c49a96815fcbee63d95e1e74f20e75">ISR</a></td></tr>
+<tr class="separator:ab3c49a96815fcbee63d95e1e74f20e75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a320ce8c752d94eb4f53c0db7a58433ae" id="r_a320ce8c752d94eb4f53c0db7a58433ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_h_t___a_d_c___type_def.html#a320ce8c752d94eb4f53c0db7a58433ae">ICLR</a></td></tr>
+<tr class="separator:a320ce8c752d94eb4f53c0db7a58433ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d4c1aa10164d8f7a454576a70a9afa8" id="r_a6d4c1aa10164d8f7a454576a70a9afa8"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_h_t___a_d_c___type_def.html#a6d4c1aa10164d8f7a454576a70a9afa8">RESERVE4</a></td></tr>
+<tr class="separator:a6d4c1aa10164d8f7a454576a70a9afa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Analog to Digital Converter. </p>
-</div><h2 class="groupheader">Member Data Documentation</h2>
-<a id="a3ffe856f30e794f7a6a937b7505bedee" name="a3ffe856f30e794f7a6a937b7505bedee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3ffe856f30e794f7a6a937b7505bedee">&#9670;&#160;</a></span>CR</h2>
+</div><h2 class="groupheader">Field Documentation</h2>
+<a id="ab40c89c59391aaa9d9a8ec011dd0907a" name="ab40c89c59391aaa9d9a8ec011dd0907a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab40c89c59391aaa9d9a8ec011dd0907a">&#9670;&#160;</a></span>CR</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t HT_ADC_TypeDef::CR</td>
+          <td class="memname"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t CR</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -136,14 +168,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a139df7689cb561a5a23fd973956b3e21" name="a139df7689cb561a5a23fd973956b3e21"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a139df7689cb561a5a23fd973956b3e21">&#9670;&#160;</a></span>DR</h2>
+<a id="a076e4c6607d394ca348962cdbcf9b920" name="a076e4c6607d394ca348962cdbcf9b920"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a076e4c6607d394ca348962cdbcf9b920">&#9670;&#160;</a></span>DR</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t HT_ADC_TypeDef::DR[8]</td>
+          <td class="memname"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t DR[8]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -152,14 +184,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a1117fef34e9d490a303a40bf56c9910f" name="a1117fef34e9d490a303a40bf56c9910f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1117fef34e9d490a303a40bf56c9910f">&#9670;&#160;</a></span>ICLR</h2>
+<a id="a320ce8c752d94eb4f53c0db7a58433ae" name="a320ce8c752d94eb4f53c0db7a58433ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a320ce8c752d94eb4f53c0db7a58433ae">&#9670;&#160;</a></span>ICLR</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t HT_ADC_TypeDef::ICLR</td>
+          <td class="memname"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t ICLR</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -168,14 +200,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="af6c8264eef261bc881916e8603db7593" name="af6c8264eef261bc881916e8603db7593"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af6c8264eef261bc881916e8603db7593">&#9670;&#160;</a></span>IER</h2>
+<a id="a6566f8cfbd1d8aa7e8db046aa35e77db" name="a6566f8cfbd1d8aa7e8db046aa35e77db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6566f8cfbd1d8aa7e8db046aa35e77db">&#9670;&#160;</a></span>IER</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t HT_ADC_TypeDef::IER</td>
+          <td class="memname"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t IER</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -184,14 +216,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a482e313a4c4ab2048edc58a746282222" name="a482e313a4c4ab2048edc58a746282222"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a482e313a4c4ab2048edc58a746282222">&#9670;&#160;</a></span>IRAW</h2>
+<a id="a126d4196da09e35f36e7542b45df7433" name="a126d4196da09e35f36e7542b45df7433"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a126d4196da09e35f36e7542b45df7433">&#9670;&#160;</a></span>IRAW</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t HT_ADC_TypeDef::IRAW</td>
+          <td class="memname"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t IRAW</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -200,14 +232,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a97ffc6b592144ea79eaca3c385daecdd" name="a97ffc6b592144ea79eaca3c385daecdd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a97ffc6b592144ea79eaca3c385daecdd">&#9670;&#160;</a></span>ISR</h2>
+<a id="ab3c49a96815fcbee63d95e1e74f20e75" name="ab3c49a96815fcbee63d95e1e74f20e75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3c49a96815fcbee63d95e1e74f20e75">&#9670;&#160;</a></span>ISR</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t HT_ADC_TypeDef::ISR</td>
+          <td class="memname"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t ISR</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -216,14 +248,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a95d5f3a3b518f9897d02f07a77e9af13" name="a95d5f3a3b518f9897d02f07a77e9af13"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a95d5f3a3b518f9897d02f07a77e9af13">&#9670;&#160;</a></span>LST</h2>
+<a id="ac2e504beffde3baa4defd8dd248da634" name="ac2e504beffde3baa4defd8dd248da634"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2e504beffde3baa4defd8dd248da634">&#9670;&#160;</a></span>LST</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t HT_ADC_TypeDef::LST[2]</td>
+          <td class="memname"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t LST[2]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -232,14 +264,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a912d9ea98ee3d8ed290207e213845f27" name="a912d9ea98ee3d8ed290207e213845f27"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a912d9ea98ee3d8ed290207e213845f27">&#9670;&#160;</a></span>RESERVE0</h2>
+<a id="a066978985f551364f9b8cc6c976db607" name="a066978985f551364f9b8cc6c976db607"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a066978985f551364f9b8cc6c976db607">&#9670;&#160;</a></span>RESERVE0</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint32_t HT_ADC_TypeDef::RESERVE0[5]</td>
+          <td class="memname">uint32_t RESERVE0[5]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -248,14 +280,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a6ec7f87509d67944d39fbb8145c3a88e" name="a6ec7f87509d67944d39fbb8145c3a88e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6ec7f87509d67944d39fbb8145c3a88e">&#9670;&#160;</a></span>RESERVE1</h2>
+<a id="a66e9fcb7fb1db4e81c1a057065f63053" name="a66e9fcb7fb1db4e81c1a057065f63053"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66e9fcb7fb1db4e81c1a057065f63053">&#9670;&#160;</a></span>RESERVE1</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint32_t HT_ADC_TypeDef::RESERVE1[3]</td>
+          <td class="memname">uint32_t RESERVE1[3]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -264,14 +296,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ab8465b60defa92f783f2a891da023063" name="ab8465b60defa92f783f2a891da023063"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab8465b60defa92f783f2a891da023063">&#9670;&#160;</a></span>RESERVE2</h2>
+<a id="a11cf524ffb7cd6a1cc921e4137b5042d" name="a11cf524ffb7cd6a1cc921e4137b5042d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11cf524ffb7cd6a1cc921e4137b5042d">&#9670;&#160;</a></span>RESERVE2</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint32_t HT_ADC_TypeDef::RESERVE2[8]</td>
+          <td class="memname">uint32_t RESERVE2[8]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -280,14 +312,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a55d53e7f72fa85110accdafddda5b811" name="a55d53e7f72fa85110accdafddda5b811"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a55d53e7f72fa85110accdafddda5b811">&#9670;&#160;</a></span>RESERVE4</h2>
+<a id="a6d4c1aa10164d8f7a454576a70a9afa8" name="a6d4c1aa10164d8f7a454576a70a9afa8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d4c1aa10164d8f7a454576a70a9afa8">&#9670;&#160;</a></span>RESERVE4</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint32_t HT_ADC_TypeDef::RESERVE4</td>
+          <td class="memname">uint32_t RESERVE4</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -296,14 +328,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a2165f9eab69d0434d2c56fd0b438c64b" name="a2165f9eab69d0434d2c56fd0b438c64b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2165f9eab69d0434d2c56fd0b438c64b">&#9670;&#160;</a></span>STR</h2>
+<a id="a7060ac1ed928ee931d7664650f2dcf75" name="a7060ac1ed928ee931d7664650f2dcf75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7060ac1ed928ee931d7664650f2dcf75">&#9670;&#160;</a></span>STR</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t HT_ADC_TypeDef::STR</td>
+          <td class="memname"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t STR</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -312,14 +344,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ae09678bdf8f57dfd125fbef849cb3ed6" name="ae09678bdf8f57dfd125fbef849cb3ed6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae09678bdf8f57dfd125fbef849cb3ed6">&#9670;&#160;</a></span>TCR</h2>
+<a id="ae9dd9282fab299d0cd6e119564688e53" name="ae9dd9282fab299d0cd6e119564688e53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9dd9282fab299d0cd6e119564688e53">&#9670;&#160;</a></span>TCR</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t HT_ADC_TypeDef::TCR</td>
+          <td class="memname"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t TCR</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -328,14 +360,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="afe104a02b50d9de29e7d8d11e76f57c7" name="afe104a02b50d9de29e7d8d11e76f57c7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afe104a02b50d9de29e7d8d11e76f57c7">&#9670;&#160;</a></span>TSR</h2>
+<a id="a87e3001757a0cd493785f1f3337dd0e8" name="a87e3001757a0cd493785f1f3337dd0e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87e3001757a0cd493785f1f3337dd0e8">&#9670;&#160;</a></span>TSR</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t HT_ADC_TypeDef::TSR</td>
+          <td class="memname"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t TSR</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -344,14 +376,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a618ee5468994295fd6ae4ac1d6dc632d" name="a618ee5468994295fd6ae4ac1d6dc632d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a618ee5468994295fd6ae4ac1d6dc632d">&#9670;&#160;</a></span>WCR</h2>
+<a id="a4ca8d4e372398db0e5045993ffa56b05" name="a4ca8d4e372398db0e5045993ffa56b05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ca8d4e372398db0e5045993ffa56b05">&#9670;&#160;</a></span>WCR</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t HT_ADC_TypeDef::WCR</td>
+          <td class="memname"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t WCR</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -360,14 +392,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a2380a4010eb40def10fe48fe731237ef" name="a2380a4010eb40def10fe48fe731237ef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2380a4010eb40def10fe48fe731237ef">&#9670;&#160;</a></span>WTR</h2>
+<a id="a988719d9de739a4e90710ac17e294b5b" name="a988719d9de739a4e90710ac17e294b5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a988719d9de739a4e90710ac17e294b5b">&#9670;&#160;</a></span>WTR</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t HT_ADC_TypeDef::WTR</td>
+          <td class="memname"><a class="el" href="core__armv81mml_8h.html#aec43007d9998a0a0e01faede4133d6be">__IO</a> uint32_t WTR</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -377,7 +409,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>HT32_STD_5xxxx_FWLib_V1.5.1_7084b/library/Device/Holtek/HT32F5xxxx/Include/<a class="el" href="ht32f5xxxx__01_8h_source.html">ht32f5xxxx_01.h</a></li>
+<li>D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/library/Device/Holtek/HT32F5xxxx/Include/<a class="el" href="ht32f5xxxx__01_8h_source.html">ht32f5xxxx_01.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

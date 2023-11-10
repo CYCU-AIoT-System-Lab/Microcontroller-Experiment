@@ -1,0 +1,23 @@
+<map id="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/utilities" name="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/utilities">
+<area shape="rect" id="node1" href="dir_59078eea5ff994e62a291bc736e60abc.html" title="example" alt="" coords="348,155,418,181"/>
+<area shape="rect" id="node2" href="dir_6965e01511015f2942f432da2d4a5bcb.html" title="library" alt="" coords="156,229,212,256"/>
+<area shape="poly" id="edge1" href="dir_000204_000115.html" alt="" coords="328,100,369,115,411,135,427,148,437,162,439,177,431,194,417,205,397,214,344,228,283,237,228,242,228,236,282,231,342,223,395,209,415,200,427,190,434,176,432,164,423,151,408,140,367,120,326,105"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000204_000115.html" title="51" alt="" coords="224,239,238,255"/>
+<area shape="rect" id="node4" href="dir_667d4d4d9b41ed5e1cc443d6dfc260c1.html" title="common" alt="" coords="74,155,145,181"/>
+<area shape="poly" id="edge2" href="dir_000025_000115.html" alt="" coords="124,180,162,217,159,221,120,184"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000025_000115.html" title="4" alt="" coords="160,202,167,218"/>
+<area shape="rect" id="node5" href="dir_c473afb54036349cb7e0df9c9307bfbb.html" title="HT32_Board" alt="" coords="38,80,130,107"/>
+<area shape="poly" id="edge4" href="dir_000086_000115.html" alt="" coords="107,105,134,125,160,153,174,184,183,214,177,215,169,185,155,156,131,129,104,109"/>
+<area shape="rect" id="edge4-headlabel" href="dir_000086_000115.html" title="37" alt="" coords="181,202,195,218"/>
+<area shape="poly" id="edge3" href="dir_000086_000025.html" alt="" coords="91,106,102,139,97,141,86,108"/>
+<area shape="rect" id="edge3-headlabel" href="dir_000086_000025.html" title="123" alt="" coords="96,126,117,142"/>
+<area shape="rect" id="node6" href="dir_eb50129e5d44029bf1d174d2f66af8ee.html" title="middleware" alt="" coords="154,80,241,107"/>
+<area shape="poly" id="edge5" href="dir_000122_000058.html" alt="" coords="231,105,337,146,335,151,229,110"/>
+<area shape="rect" id="edge5-headlabel" href="dir_000122_000058.html" title="1" alt="" coords="333,132,340,148"/>
+<area shape="poly" id="edge7" href="dir_000122_000115.html" alt="" coords="199,107,189,214,184,214,194,107"/>
+<area shape="rect" id="edge7-headlabel" href="dir_000122_000115.html" title="8" alt="" coords="192,204,199,220"/>
+<area shape="poly" id="edge6" href="dir_000122_000025.html" alt="" coords="184,109,138,147,134,143,180,105"/>
+<area shape="rect" id="edge6-headlabel" href="dir_000122_000025.html" title="1" alt="" coords="140,141,147,157"/>
+<area shape="rect" id="clust2" href="dir_c21434e3804d506b854d59a8196e12f9.html" alt="" coords="27,69,337,192"/>
+<area shape="rect" id="clust1" href="dir_79e3244e27785f7ec158b45668f9e3ec.html" title="HT32_STD_5xxxx_FWLib\l_V1.5.1_7084b" alt="" coords="16,16,455,267"/>
+</map>

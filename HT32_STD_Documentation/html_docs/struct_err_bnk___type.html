@@ -1,29 +1,62 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>HT32_STD_Documents: ErrBnk_Type Struct Reference</title>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>HT32_STD_Code_Documents: ErrBnk_Type Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
-   <div id="projectname">HT32_STD_Documents<span id="projectnumber">&#160;1.0.0</span>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">HT32_STD_Code_Documents
+   &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">For HT32F52352</div>
+   <div id="projectbrief">Micro-controller Experiment</div>
   </td>
  </tr>
  </tbody>
@@ -71,8 +104,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="struct_err_bnk___type-members.html">List of all members</a>  </div>
+<a href="#pub-attribs">Data Fields</a>  </div>
   <div class="headertitle"><div class="title">ErrBnk_Type Struct Reference<div class="ingroups"><a class="el" href="group___c_m_s_i_s__core__register.html">Defines and Type Definitions</a> &raquo; <a class="el" href="group___c_m_s_i_s___c_o_r_e.html">Status and Control Registers</a> &raquo; <a class="el" href="group___c_m_s_i_s___n_v_i_c.html">Nested Vectored Interrupt Controller (NVIC)</a> &raquo; <a class="el" href="group___c_m_s_i_s___s_c_b.html">System Control Block (SCB)</a> &raquo; <a class="el" href="group___c_m_s_i_s___s_cn_s_c_b.html">System Controls not in SCB (SCnSCB)</a> &#124; <a class="el" href="group___c_m_s_i_s__core__register.html">Defines and Type Definitions</a> &raquo; <a class="el" href="group___c_m_s_i_s___c_o_r_e.html">Status and Control Registers</a> &raquo; <a class="el" href="group___c_m_s_i_s___n_v_i_c.html">Nested Vectored Interrupt Controller (NVIC)</a> &raquo; <a class="el" href="group___c_m_s_i_s___s_c_b.html">System Control Block (SCB)</a> &raquo; <a class="el" href="group___c_m_s_i_s___i_c_b.html">Implementation Control Block register (ICB)</a> &raquo; <a class="el" href="group___c_m_s_i_s___sys_tick.html">System Tick Timer (SysTick)</a> &raquo; <a class="el" href="group___c_m_s_i_s___i_t_m.html">Instrumentation Trace Macrocell (ITM)</a> &raquo; <a class="el" href="group___c_m_s_i_s___d_w_t.html">Data Watchpoint and Trace (DWT)</a> &raquo; <a class="el" href="group___mem_sys_ctl___type.html">Memory System Control Registers (IMPLEMENTATION DEFINED)</a> &raquo; <a class="el" href="group___pwr_mod_ctl___type.html">Power Mode Control Registers</a> &raquo; <a class="el" href="group___e_w_i_c___type.html">External Wakeup Interrupt Controller Registers</a> &raquo; <a class="el" href="group___err_bnk___type.html">Error Banking Registers (IMPLEMENTATION DEFINED)</a></div></div></div>
 </div><!--header-->
 <div class="contents">
@@ -83,34 +115,31 @@ $(function() {
 <p><code>#include &lt;<a class="el" href="core__cm55_8h_source.html">core_cm55.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:ga1a741ac24e3416f2db36f3fadabfc8a7" id="r_ga1a741ac24e3416f2db36f3fadabfc8a7"><td class="memItemLeft" align="right" valign="top">__IOM uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_m_s_i_s__core___debug_functions.html#ga1a741ac24e3416f2db36f3fadabfc8a7">IEBR0</a></td></tr>
-<tr class="separator:ga1a741ac24e3416f2db36f3fadabfc8a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga28d31c794f6387dfd3730bff974a44e2" id="r_ga28d31c794f6387dfd3730bff974a44e2"><td class="memItemLeft" align="right" valign="top">__IOM uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_m_s_i_s__core___debug_functions.html#ga28d31c794f6387dfd3730bff974a44e2">IEBR1</a></td></tr>
-<tr class="separator:ga28d31c794f6387dfd3730bff974a44e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1985c237116a2743391f29f6225d2fda" id="r_ga1985c237116a2743391f29f6225d2fda"><td class="memItemLeft" align="right" valign="top">
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>RESERVED0</b> [2U]</td></tr>
-<tr class="separator:ga1985c237116a2743391f29f6225d2fda"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf14c1ed80295a2d62f6905358d49903a" id="r_gaf14c1ed80295a2d62f6905358d49903a"><td class="memItemLeft" align="right" valign="top">__IOM uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_m_s_i_s__core___debug_functions.html#gaf14c1ed80295a2d62f6905358d49903a">DEBR0</a></td></tr>
-<tr class="separator:gaf14c1ed80295a2d62f6905358d49903a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabe46bb11d6b85a053170454a6415070d" id="r_gabe46bb11d6b85a053170454a6415070d"><td class="memItemLeft" align="right" valign="top">__IOM uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_m_s_i_s__core___debug_functions.html#gabe46bb11d6b85a053170454a6415070d">DEBR1</a></td></tr>
-<tr class="separator:gabe46bb11d6b85a053170454a6415070d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4eeb7ada16910c342a679cc227a168d1" id="r_ga4eeb7ada16910c342a679cc227a168d1"><td class="memItemLeft" align="right" valign="top">
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>RESERVED1</b> [2U]</td></tr>
-<tr class="separator:ga4eeb7ada16910c342a679cc227a168d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga63cdb3bef9d4b24819011a52cc8e2bd9" id="r_ga63cdb3bef9d4b24819011a52cc8e2bd9"><td class="memItemLeft" align="right" valign="top">__IOM uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_m_s_i_s__core___debug_functions.html#ga63cdb3bef9d4b24819011a52cc8e2bd9">TEBR0</a></td></tr>
-<tr class="separator:ga63cdb3bef9d4b24819011a52cc8e2bd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6d87b70e124fa0476ed7f651499cfdd9" id="r_ga6d87b70e124fa0476ed7f651499cfdd9"><td class="memItemLeft" align="right" valign="top">
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>RESERVED2</b> [1U]</td></tr>
-<tr class="separator:ga6d87b70e124fa0476ed7f651499cfdd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4de19de6f410bcebaa9c5dd3a1d54135" id="r_ga4de19de6f410bcebaa9c5dd3a1d54135"><td class="memItemLeft" align="right" valign="top">__IOM uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_m_s_i_s__core___debug_functions.html#ga4de19de6f410bcebaa9c5dd3a1d54135">TEBR1</a></td></tr>
-<tr class="separator:ga4de19de6f410bcebaa9c5dd3a1d54135"><td class="memSeparator" colspan="2">&#160;</td></tr>
+Data Fields</h2></td></tr>
+<tr class="memitem:gabdd196c0876979401b5928990efef875" id="r_gabdd196c0876979401b5928990efef875"><td class="memItemLeft" align="right" valign="top"><a class="el" href="core__cm85_8h.html#ab6caba5853a60a17e8e04499b52bf691">__IOM</a> uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_m_s_i_s__core___debug_functions.html#gabdd196c0876979401b5928990efef875">IEBR0</a></td></tr>
+<tr class="separator:gabdd196c0876979401b5928990efef875"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0dd7999cde584b8c3656505d2000c4ec" id="r_ga0dd7999cde584b8c3656505d2000c4ec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="core__cm85_8h.html#ab6caba5853a60a17e8e04499b52bf691">__IOM</a> uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_m_s_i_s__core___debug_functions.html#ga0dd7999cde584b8c3656505d2000c4ec">IEBR1</a></td></tr>
+<tr class="separator:ga0dd7999cde584b8c3656505d2000c4ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa57754b8f88bb376d184aaf6fe74f391" id="r_gaa57754b8f88bb376d184aaf6fe74f391"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_m_s_i_s__core___debug_functions.html#gaa57754b8f88bb376d184aaf6fe74f391">RESERVED0</a> [2U]</td></tr>
+<tr class="separator:gaa57754b8f88bb376d184aaf6fe74f391"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga23e6f75cfc2dc7af3d75eb3d480232d3" id="r_ga23e6f75cfc2dc7af3d75eb3d480232d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="core__cm85_8h.html#ab6caba5853a60a17e8e04499b52bf691">__IOM</a> uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_m_s_i_s__core___debug_functions.html#ga23e6f75cfc2dc7af3d75eb3d480232d3">DEBR0</a></td></tr>
+<tr class="separator:ga23e6f75cfc2dc7af3d75eb3d480232d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga81ed6524b42207cf903eff7e38b08c6c" id="r_ga81ed6524b42207cf903eff7e38b08c6c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="core__cm85_8h.html#ab6caba5853a60a17e8e04499b52bf691">__IOM</a> uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_m_s_i_s__core___debug_functions.html#ga81ed6524b42207cf903eff7e38b08c6c">DEBR1</a></td></tr>
+<tr class="separator:ga81ed6524b42207cf903eff7e38b08c6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaeab57fe9b109127c3a1e1ecc508247c7" id="r_gaeab57fe9b109127c3a1e1ecc508247c7"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_m_s_i_s__core___debug_functions.html#gaeab57fe9b109127c3a1e1ecc508247c7">RESERVED1</a> [2U]</td></tr>
+<tr class="separator:gaeab57fe9b109127c3a1e1ecc508247c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaee87890959972bb2ff1f5a8354dc6c85" id="r_gaee87890959972bb2ff1f5a8354dc6c85"><td class="memItemLeft" align="right" valign="top"><a class="el" href="core__cm85_8h.html#ab6caba5853a60a17e8e04499b52bf691">__IOM</a> uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_m_s_i_s__core___debug_functions.html#gaee87890959972bb2ff1f5a8354dc6c85">TEBR0</a></td></tr>
+<tr class="separator:gaee87890959972bb2ff1f5a8354dc6c85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga093dc351b7db0476c625f462acb9fd7f" id="r_ga093dc351b7db0476c625f462acb9fd7f"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_m_s_i_s__core___debug_functions.html#ga093dc351b7db0476c625f462acb9fd7f">RESERVED2</a> [1U]</td></tr>
+<tr class="separator:ga093dc351b7db0476c625f462acb9fd7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga44ba96ff3c8b86f8542f5f10eb72031e" id="r_ga44ba96ff3c8b86f8542f5f10eb72031e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="core__cm85_8h.html#ab6caba5853a60a17e8e04499b52bf691">__IOM</a> uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_m_s_i_s__core___debug_functions.html#ga44ba96ff3c8b86f8542f5f10eb72031e">TEBR1</a></td></tr>
+<tr class="separator:ga44ba96ff3c8b86f8542f5f10eb72031e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Structure type to access the Error Banking Registers (ERRBNK). </p>
 </div><hr/>The documentation for this struct was generated from the following files:<ul>
-<li>HT32_STD_5xxxx_FWLib_V1.5.1_7084b/library/CMSIS/Core/Include/<a class="el" href="core__cm55_8h_source.html">core_cm55.h</a></li>
-<li>HT32_STD_5xxxx_FWLib_V1.5.1_7084b/library/CMSIS/Core/Include/<a class="el" href="core__cm85_8h_source.html">core_cm85.h</a></li>
+<li>D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/library/CMSIS/Core/Include/<a class="el" href="core__cm55_8h_source.html">core_cm55.h</a></li>
+<li>D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/library/CMSIS/Core/Include/<a class="el" href="core__cm85_8h_source.html">core_cm85.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

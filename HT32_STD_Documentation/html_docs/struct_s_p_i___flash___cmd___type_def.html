@@ -1,29 +1,62 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>HT32_STD_Documents: SPI_Flash_Cmd_TypeDef Struct Reference</title>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>HT32_STD_Code_Documents: SPI_Flash_Cmd_TypeDef Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
-   <div id="projectname">HT32_STD_Documents<span id="projectnumber">&#160;1.0.0</span>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">HT32_STD_Code_Documents
+   &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">For HT32F52352</div>
+   <div id="projectbrief">Micro-controller Experiment</div>
   </td>
  </tr>
  </tbody>
@@ -71,44 +104,163 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="struct_s_p_i___flash___cmd___type_def-members.html">List of all members</a>  </div>
+<a href="#pub-attribs">Data Fields</a>  </div>
   <div class="headertitle"><div class="title">SPI_Flash_Cmd_TypeDef Struct Reference<div class="ingroups"><a class="el" href="group___utilities.html">Utilities</a> &raquo; <a class="el" href="group___common.html">Common</a> &raquo; <a class="el" href="group___s_p_i___f_l_a_s_h___a_u_t_o.html">SPI_FLASH_AUTO</a> &raquo; <a class="el" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___types.html">SPI_FLASH_AUTO exported types</a></div></div></div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="spi__flash__auto_8h_source.html">spi_flash_auto.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:ad4286a79c5926badc058ee0cadfb640b" id="r_ad4286a79c5926badc058ee0cadfb640b"><td class="memItemLeft" align="right" valign="top"><a id="ad4286a79c5926badc058ee0cadfb640b" name="ad4286a79c5926badc058ee0cadfb640b"></a>
-<a class="el" href="group___exported___types.html#ga421cd0841ee90f7bcae38d46aba21180">uc8</a>&#160;</td><td class="memItemRight" valign="bottom"><b>ChipErase</b></td></tr>
-<tr class="separator:ad4286a79c5926badc058ee0cadfb640b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00347f419939259473a1a0b0dd6a9d22" id="r_a00347f419939259473a1a0b0dd6a9d22"><td class="memItemLeft" align="right" valign="top"><a id="a00347f419939259473a1a0b0dd6a9d22" name="a00347f419939259473a1a0b0dd6a9d22"></a>
-<a class="el" href="group___exported___types.html#ga421cd0841ee90f7bcae38d46aba21180">uc8</a>&#160;</td><td class="memItemRight" valign="bottom"><b>SectorErase</b></td></tr>
-<tr class="separator:a00347f419939259473a1a0b0dd6a9d22"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2649b82a318d4f6195519ed590bd957" id="r_af2649b82a318d4f6195519ed590bd957"><td class="memItemLeft" align="right" valign="top"><a id="af2649b82a318d4f6195519ed590bd957" name="af2649b82a318d4f6195519ed590bd957"></a>
-<a class="el" href="group___exported___types.html#ga421cd0841ee90f7bcae38d46aba21180">uc8</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Write</b></td></tr>
-<tr class="separator:af2649b82a318d4f6195519ed590bd957"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e6428d4882ae62855c3cd64c9c72bd0" id="r_a4e6428d4882ae62855c3cd64c9c72bd0"><td class="memItemLeft" align="right" valign="top"><a id="a4e6428d4882ae62855c3cd64c9c72bd0" name="a4e6428d4882ae62855c3cd64c9c72bd0"></a>
-<a class="el" href="group___exported___types.html#ga421cd0841ee90f7bcae38d46aba21180">uc8</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Read</b></td></tr>
-<tr class="separator:a4e6428d4882ae62855c3cd64c9c72bd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac607d1624865361538f0ab546770515b" id="r_ac607d1624865361538f0ab546770515b"><td class="memItemLeft" align="right" valign="top"><a id="ac607d1624865361538f0ab546770515b" name="ac607d1624865361538f0ab546770515b"></a>
-<a class="el" href="group___exported___types.html#ga421cd0841ee90f7bcae38d46aba21180">uc8</a>&#160;</td><td class="memItemRight" valign="bottom"><b>DualRead</b></td></tr>
-<tr class="separator:ac607d1624865361538f0ab546770515b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66240bedcdb6d0a151442f7de2931346" id="r_a66240bedcdb6d0a151442f7de2931346"><td class="memItemLeft" align="right" valign="top"><a id="a66240bedcdb6d0a151442f7de2931346" name="a66240bedcdb6d0a151442f7de2931346"></a>
-<a class="el" href="group___exported___types.html#ga421cd0841ee90f7bcae38d46aba21180">uc8</a>&#160;</td><td class="memItemRight" valign="bottom"><b>WriteStatus</b></td></tr>
-<tr class="separator:a66240bedcdb6d0a151442f7de2931346"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0dfe9873732f4296b637d11bb81a2e95" id="r_a0dfe9873732f4296b637d11bb81a2e95"><td class="memItemLeft" align="right" valign="top"><a id="a0dfe9873732f4296b637d11bb81a2e95" name="a0dfe9873732f4296b637d11bb81a2e95"></a>
-<a class="el" href="group___exported___types.html#ga421cd0841ee90f7bcae38d46aba21180">uc8</a>&#160;</td><td class="memItemRight" valign="bottom"><b>ReadStatus</b></td></tr>
-<tr class="separator:a0dfe9873732f4296b637d11bb81a2e95"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab89520c14bae201ca92e3d63572e3aa8" id="r_ab89520c14bae201ca92e3d63572e3aa8"><td class="memItemLeft" align="right" valign="top"><a id="ab89520c14bae201ca92e3d63572e3aa8" name="ab89520c14bae201ca92e3d63572e3aa8"></a>
-<a class="el" href="group___exported___types.html#ga421cd0841ee90f7bcae38d46aba21180">uc8</a>&#160;</td><td class="memItemRight" valign="bottom"><b>WriteEnable</b></td></tr>
-<tr class="separator:ab89520c14bae201ca92e3d63572e3aa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4cca5be2c59acec09f06595ff6f96e4d" id="r_a4cca5be2c59acec09f06595ff6f96e4d"><td class="memItemLeft" align="right" valign="top"><a id="a4cca5be2c59acec09f06595ff6f96e4d" name="a4cca5be2c59acec09f06595ff6f96e4d"></a>
-<a class="el" href="group___exported___types.html#ga421cd0841ee90f7bcae38d46aba21180">uc8</a>&#160;</td><td class="memItemRight" valign="bottom"><b>WriteDisable</b></td></tr>
-<tr class="separator:a4cca5be2c59acec09f06595ff6f96e4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+Data Fields</h2></td></tr>
+<tr class="memitem:a360dac134ee3e4b649a22c95126818d5" id="r_a360dac134ee3e4b649a22c95126818d5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___exported___types.html#ga421cd0841ee90f7bcae38d46aba21180">uc8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_s_p_i___flash___cmd___type_def.html#a360dac134ee3e4b649a22c95126818d5">ChipErase</a></td></tr>
+<tr class="separator:a360dac134ee3e4b649a22c95126818d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15d5a2bf9ae13885e5963c8ffa4a4f34" id="r_a15d5a2bf9ae13885e5963c8ffa4a4f34"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___exported___types.html#ga421cd0841ee90f7bcae38d46aba21180">uc8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_s_p_i___flash___cmd___type_def.html#a15d5a2bf9ae13885e5963c8ffa4a4f34">SectorErase</a></td></tr>
+<tr class="separator:a15d5a2bf9ae13885e5963c8ffa4a4f34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afab68aaa765f4f75dc95bdb5cd2d816c" id="r_afab68aaa765f4f75dc95bdb5cd2d816c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___exported___types.html#ga421cd0841ee90f7bcae38d46aba21180">uc8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_s_p_i___flash___cmd___type_def.html#afab68aaa765f4f75dc95bdb5cd2d816c">Write</a></td></tr>
+<tr class="separator:afab68aaa765f4f75dc95bdb5cd2d816c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acaab7421c4635144de800610fa51d859" id="r_acaab7421c4635144de800610fa51d859"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___exported___types.html#ga421cd0841ee90f7bcae38d46aba21180">uc8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_s_p_i___flash___cmd___type_def.html#acaab7421c4635144de800610fa51d859">Read</a></td></tr>
+<tr class="separator:acaab7421c4635144de800610fa51d859"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07be9ba2cf4e66302edef3dc883d59fc" id="r_a07be9ba2cf4e66302edef3dc883d59fc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___exported___types.html#ga421cd0841ee90f7bcae38d46aba21180">uc8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_s_p_i___flash___cmd___type_def.html#a07be9ba2cf4e66302edef3dc883d59fc">DualRead</a></td></tr>
+<tr class="separator:a07be9ba2cf4e66302edef3dc883d59fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a760bdbd57bb1e9b23de4bf328b976b75" id="r_a760bdbd57bb1e9b23de4bf328b976b75"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___exported___types.html#ga421cd0841ee90f7bcae38d46aba21180">uc8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_s_p_i___flash___cmd___type_def.html#a760bdbd57bb1e9b23de4bf328b976b75">WriteStatus</a></td></tr>
+<tr class="separator:a760bdbd57bb1e9b23de4bf328b976b75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab646937dcf0d75a67124fbe1428ddde0" id="r_ab646937dcf0d75a67124fbe1428ddde0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___exported___types.html#ga421cd0841ee90f7bcae38d46aba21180">uc8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_s_p_i___flash___cmd___type_def.html#ab646937dcf0d75a67124fbe1428ddde0">ReadStatus</a></td></tr>
+<tr class="separator:ab646937dcf0d75a67124fbe1428ddde0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68af0fcca32bdba0d3c02a03d320098e" id="r_a68af0fcca32bdba0d3c02a03d320098e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___exported___types.html#ga421cd0841ee90f7bcae38d46aba21180">uc8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_s_p_i___flash___cmd___type_def.html#a68af0fcca32bdba0d3c02a03d320098e">WriteEnable</a></td></tr>
+<tr class="separator:a68af0fcca32bdba0d3c02a03d320098e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2592e73b8be3423672854bed650d407f" id="r_a2592e73b8be3423672854bed650d407f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___exported___types.html#ga421cd0841ee90f7bcae38d46aba21180">uc8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_s_p_i___flash___cmd___type_def.html#a2592e73b8be3423672854bed650d407f">WriteDisable</a></td></tr>
+<tr class="separator:a2592e73b8be3423672854bed650d407f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Field Documentation</h2>
+<a id="a360dac134ee3e4b649a22c95126818d5" name="a360dac134ee3e4b649a22c95126818d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a360dac134ee3e4b649a22c95126818d5">&#9670;&#160;</a></span>ChipErase</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___exported___types.html#ga421cd0841ee90f7bcae38d46aba21180">uc8</a> ChipErase</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a07be9ba2cf4e66302edef3dc883d59fc" name="a07be9ba2cf4e66302edef3dc883d59fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07be9ba2cf4e66302edef3dc883d59fc">&#9670;&#160;</a></span>DualRead</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___exported___types.html#ga421cd0841ee90f7bcae38d46aba21180">uc8</a> DualRead</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acaab7421c4635144de800610fa51d859" name="acaab7421c4635144de800610fa51d859"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acaab7421c4635144de800610fa51d859">&#9670;&#160;</a></span>Read</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___exported___types.html#ga421cd0841ee90f7bcae38d46aba21180">uc8</a> Read</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab646937dcf0d75a67124fbe1428ddde0" name="ab646937dcf0d75a67124fbe1428ddde0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab646937dcf0d75a67124fbe1428ddde0">&#9670;&#160;</a></span>ReadStatus</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___exported___types.html#ga421cd0841ee90f7bcae38d46aba21180">uc8</a> ReadStatus</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a15d5a2bf9ae13885e5963c8ffa4a4f34" name="a15d5a2bf9ae13885e5963c8ffa4a4f34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15d5a2bf9ae13885e5963c8ffa4a4f34">&#9670;&#160;</a></span>SectorErase</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___exported___types.html#ga421cd0841ee90f7bcae38d46aba21180">uc8</a> SectorErase</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afab68aaa765f4f75dc95bdb5cd2d816c" name="afab68aaa765f4f75dc95bdb5cd2d816c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afab68aaa765f4f75dc95bdb5cd2d816c">&#9670;&#160;</a></span>Write</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___exported___types.html#ga421cd0841ee90f7bcae38d46aba21180">uc8</a> Write</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2592e73b8be3423672854bed650d407f" name="a2592e73b8be3423672854bed650d407f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2592e73b8be3423672854bed650d407f">&#9670;&#160;</a></span>WriteDisable</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___exported___types.html#ga421cd0841ee90f7bcae38d46aba21180">uc8</a> WriteDisable</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a68af0fcca32bdba0d3c02a03d320098e" name="a68af0fcca32bdba0d3c02a03d320098e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68af0fcca32bdba0d3c02a03d320098e">&#9670;&#160;</a></span>WriteEnable</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___exported___types.html#ga421cd0841ee90f7bcae38d46aba21180">uc8</a> WriteEnable</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a760bdbd57bb1e9b23de4bf328b976b75" name="a760bdbd57bb1e9b23de4bf328b976b75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a760bdbd57bb1e9b23de4bf328b976b75">&#9670;&#160;</a></span>WriteStatus</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___exported___types.html#ga421cd0841ee90f7bcae38d46aba21180">uc8</a> WriteStatus</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>HT32_STD_5xxxx_FWLib_V1.5.1_7084b/utilities/common/<a class="el" href="spi__flash__auto_8h_source.html">spi_flash_auto.h</a></li>
+<li>D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/utilities/common/<a class="el" href="spi__flash__auto_8h_source.html">spi_flash_auto.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

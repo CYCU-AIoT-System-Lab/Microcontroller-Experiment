@@ -1,0 +1,22 @@
+<map id="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/utilities/common/ebi_lcd.c" name="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/utilities/common/ebi_lcd.c">
+<area shape="rect" id="Node000001" title="This file provides a set of functions needed to manage the communication between EBI peripheral and L..." alt="" coords="207,5,434,96"/>
+<area shape="rect" id="Node000002" href="$ht32_8h.html" title="The API between application and HT32FXXXX Firmware Library." alt="" coords="195,144,252,171"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="281,98,247,134,243,131,277,94"/>
+<area shape="rect" id="Node000007" href="$ebi__lcd_8h.html" title="The header file of ebi_lcd.c module." alt="" coords="284,144,357,171"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="323,96,323,128,318,128,318,96"/>
+<area shape="rect" id="Node000010" href="$font_8h.html" title="This file contains the font information." alt="" coords="382,144,435,171"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="360,94,390,130,386,134,356,98"/>
+<area shape="rect" id="Node000003" href="$ht32f5xxxx__01_8h.html" title="CMSIS Cortex&#45;M0+ Device Peripheral Access Layer Header File." alt="" coords="156,219,272,245"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="224,172,220,204,215,203,219,171"/>
+<area shape="rect" id="Node000004" href="$ht32__config_8h.html" title="Configuration file of HT32." alt="" coords="357,293,455,320"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="248,243,359,285,357,290,247,248"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,293,119,320"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="189,248,104,289,101,284,186,243"/>
+<area shape="rect" id="Node000006" href="$system__ht32f5xxxx__01_8h.html" title="CMSIS Cortex&#45;M0+ Device Peripheral Access Layer System Header File for the Holtek HT32F5xxxx Device S..." alt="" coords="143,293,309,320"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="219,245,224,278,219,279,213,246"/>
+<area shape="rect" id="Node000008" href="$ht32__board_8h.html" title="HT32 target board definition file." alt="" coords="370,219,466,245"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="339,169,391,207,388,212,336,173"/>
+<area shape="rect" id="Node000009" href="$lcd_8h.html" title="The header file of lcd module." alt="" coords="296,219,345,245"/>
+<area shape="poly" id="edge9_Node000007_Node000009" title=" " alt="" coords="323,171,323,203,318,203,318,171"/>
+<area shape="poly" id="edge8_Node000008_Node000004" title=" " alt="" coords="419,246,413,279,408,278,413,245"/>
+</map>

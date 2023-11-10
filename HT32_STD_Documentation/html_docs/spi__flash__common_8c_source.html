@@ -1,51 +1,63 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>HT32_STD_Documents: spi_flash_common.c Source File</title>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>HT32_STD_Code_Documents: D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/utilities/common/spi_flash_common.c Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<link href="navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="resize.js"></script>
-<script type="text/javascript" src="navtreedata.js"></script>
-<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(document).ready(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
-   <div id="projectname">HT32_STD_Documents<span id="projectnumber">&#160;1.0.0</span>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">HT32_STD_Code_Documents
+   &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">For HT32F52352</div>
+   <div id="projectbrief">Micro-controller Experiment</div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
@@ -57,23 +69,22 @@
 var searchBox = new SearchBox("searchBox", "search/",'.html');
 /* @license-end */
 </script>
-</div><!-- top -->
-<div id="side-nav" class="ui-resizable side-nav-resizable">
-  <div id="nav-tree">
-    <div id="nav-tree-contents">
-      <div id="nav-sync" class="sync"></div>
-    </div>
-  </div>
-  <div id="splitbar" style="-moz-user-select:none;" 
-       class="ui-resizable-handle">
-  </div>
-</div>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('spi__flash__common_8c_source.html',''); initResizable(); });
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
 /* @license-end */
 </script>
-<div id="doc-content">
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function() { init_codefold(0); });
+/* @license-end */
+</script>
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -95,6 +106,11 @@ $(document).ready(function(){initNavTree('spi__flash__common_8c_source.html','')
 </div>
 </div>
 
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_275089585c7fc1b5fd5d7d42c69cb1da.html">D:</a></li><li class="navelem"><a class="el" href="dir_273f27263c611837868160ff0f82bfd9.html">Note_Database</a></li><li class="navelem"><a class="el" href="dir_e8282a48381dd1bcf012c1bae1dc741b.html">Subject</a></li><li class="navelem"><a class="el" href="dir_7583b43eec1d2788dd81e658186519d2.html">MCETA Microcontroller Experiment TA</a></li><li class="navelem"><a class="el" href="dir_3ca5c6b4c4a2c10c94024caf0df2e6bb.html">files</a></li><li class="navelem"><a class="el" href="dir_79e3244e27785f7ec158b45668f9e3ec.html">HT32_STD_5xxxx_FWLib_V1.5.1_7084b</a></li><li class="navelem"><a class="el" href="dir_c21434e3804d506b854d59a8196e12f9.html">utilities</a></li><li class="navelem"><a class="el" href="dir_667d4d4d9b41ed5e1cc443d6dfc260c1.html">common</a></li>  </ul>
+</div>
+</div><!-- top -->
 <div class="header">
   <div class="headertitle"><div class="title">spi_flash_common.c</div></div>
 </div><!--header-->
@@ -113,19 +129,20 @@ $(document).ready(function(){initNavTree('spi__flash__common_8c_source.html','')
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="preprocessor">#include &quot;<a class="code" href="spi__flash___s_s_t25_v_f016_b_8c.html">spi_flash_SST25VF016B.c</a>&quot;</span></div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="comment">/* Private macro -------------------------------------------------------------------------------------------*/</span></div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="preprocessor">#define CMD_CHIP_ERASE        (SPIFlash[sSPI_FLASH_Index].Cmd.ChipErase)</span></div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="preprocessor">#define CMD_SECTOR_ERASE      (SPIFlash[sSPI_FLASH_Index].Cmd.SectorErase)</span></div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="preprocessor">#define CMD_WRITE             (SPIFlash[sSPI_FLASH_Index].Cmd.Write)</span></div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span><span class="preprocessor">#define CMD_READ              (SPIFlash[sSPI_FLASH_Index].Cmd.Read)</span></div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span><span class="preprocessor">#define CMD_DUALREAD          (SPIFlash[sSPI_FLASH_Index].Cmd.DualRead)</span></div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span><span class="preprocessor">#define CMD_WRITE_STATUS      (SPIFlash[sSPI_FLASH_Index].Cmd.WriteStatus)</span></div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><span class="preprocessor">#define CMD_REAFD_STATUS      (SPIFlash[sSPI_FLASH_Index].Cmd.ReadStatus)</span></div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span><span class="preprocessor">#define CMD_WRITE_ENABLE      (SPIFlash[sSPI_FLASH_Index].Cmd.WriteEnable)</span></div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span><span class="preprocessor">#define CMD_WRITE_DISABLE     (SPIFlash[sSPI_FLASH_Index].Cmd.WriteDisable)</span></div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="group___s_p_i___f_l_a_s_h___a_u_t_o___private___macro.html#ga3652596b959bac52501e1336712bac3c">   59</a></span><span class="preprocessor">#define CMD_CHIP_ERASE        (SPIFlash[sSPI_FLASH_Index].Cmd.ChipErase)</span></div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="group___s_p_i___f_l_a_s_h___a_u_t_o___private___macro.html#ga37153d871f9e079923d99fb7ca18371b">   60</a></span><span class="preprocessor">#define CMD_SECTOR_ERASE      (SPIFlash[sSPI_FLASH_Index].Cmd.SectorErase)</span></div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="group___s_p_i___f_l_a_s_h___a_u_t_o___private___macro.html#ga7391deb9c3a262ded3e186e94eb884e2">   61</a></span><span class="preprocessor">#define CMD_WRITE             (SPIFlash[sSPI_FLASH_Index].Cmd.Write)</span></div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="group___s_p_i___f_l_a_s_h___a_u_t_o___private___macro.html#ga9c953a6c538020e644127ee080608021">   62</a></span><span class="preprocessor">#define CMD_READ              (SPIFlash[sSPI_FLASH_Index].Cmd.Read)</span></div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno"><a class="line" href="group___s_p_i___f_l_a_s_h___a_u_t_o___private___macro.html#ga1be718b07634176fc154384e3ed617a7">   63</a></span><span class="preprocessor">#define CMD_DUALREAD          (SPIFlash[sSPI_FLASH_Index].Cmd.DualRead)</span></div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno"><a class="line" href="group___s_p_i___f_l_a_s_h___a_u_t_o___private___macro.html#ga08b5ac17c28155cb38f91f3d1b6ca54f">   64</a></span><span class="preprocessor">#define CMD_WRITE_STATUS      (SPIFlash[sSPI_FLASH_Index].Cmd.WriteStatus)</span></div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="group___s_p_i___f_l_a_s_h___a_u_t_o___private___macro.html#gace26892ab799ea6b965d78785c341229">   65</a></span><span class="preprocessor">#define CMD_REAFD_STATUS      (SPIFlash[sSPI_FLASH_Index].Cmd.ReadStatus)</span></div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno"><a class="line" href="group___s_p_i___f_l_a_s_h___a_u_t_o___private___macro.html#ga8f070c1bf485352b2392f685b3ae0ed5">   66</a></span><span class="preprocessor">#define CMD_WRITE_ENABLE      (SPIFlash[sSPI_FLASH_Index].Cmd.WriteEnable)</span></div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno"><a class="line" href="group___s_p_i___f_l_a_s_h___a_u_t_o___private___macro.html#ga97e9748a0452b32312adbc63707161d8">   67</a></span><span class="preprocessor">#define CMD_WRITE_DISABLE     (SPIFlash[sSPI_FLASH_Index].Cmd.WriteDisable)</span></div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span><span class="comment">/* Global variables ----------------------------------------------------------------------------------------*/</span></div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>s32 sSPI_FLASH_Index = -1;</div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>s32 sSPI_FLASH_Size = -1;</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span><span class="keyword">const</span> <a class="code hl_struct" href="struct_s_p_i___flash___type_def.html">SPI_Flash_TypeDef</a> SPIFlash[SPI_FALSH_NUM] =</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno"><a class="line" href="group___s_p_i___f_l_a_s_h___a_u_t_o___global___variable.html#gaf422a5b70756d31c7e756977f0c33529">   76</a></span><a class="code hl_typedef" href="group___exported___types.html#ga0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> <a class="code hl_variable" href="group___s_p_i___f_l_a_s_h___a_u_t_o___global___variable.html#gaf422a5b70756d31c7e756977f0c33529">sSPI_FLASH_Index</a> = -1;</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno"><a class="line" href="group___s_p_i___f_l_a_s_h___a_u_t_o___global___variable.html#ga960e93c44e10a3301e797d89249c75d5">   77</a></span><a class="code hl_typedef" href="group___exported___types.html#ga0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> <a class="code hl_variable" href="group___s_p_i___f_l_a_s_h___a_u_t_o___global___variable.html#ga960e93c44e10a3301e797d89249c75d5">sSPI_FLASH_Size</a> = -1;</div>
+<div class="foldopen" id="foldopen00078" data-start="{" data-end="};">
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno"><a class="line" href="group___s_p_i___f_l_a_s_h___a_u_t_o___global___variable.html#gab8d48d99df9f83faac6147101b9284b5">   78</a></span><span class="keyword">const</span> <a class="code hl_struct" href="struct_s_p_i___flash___type_def.html">SPI_Flash_TypeDef</a> <a class="code hl_variable" href="group___s_p_i___f_l_a_s_h___a_u_t_o___global___variable.html#gab8d48d99df9f83faac6147101b9284b5">SPIFlash</a>[<a class="code hl_define" href="group___s_p_i___f_l_a_s_h___a_u_t_o___settings.html#gae7213ce08929f43a0af84a431ab47013">SPI_FALSH_NUM</a>] =</div>
 <div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>{</div>
 <div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>  {</div>
 <div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#gad1f6a279260ed73ac6b05c1064ce73a2">SPI_FLASH_ReadJEDECID_0</a>,</div>
@@ -145,12 +162,12 @@ $(document).ready(function(){initNavTree('spi__flash__common_8c_source.html','')
 <div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>    <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#gabce610340534e67da2f8da41a640cc9f">SPI_FLASH_WaitForWriteEnd_0</a>,</div>
 <div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>    {</div>
 <div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    <a class="code hl_define" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants.html#gab7f038df1aa6ad0ed1d089a9a255b936">MX25L1606E_CMD_CE</a>,    <a class="code hl_define" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants.html#ga4296d66f72a7facae8f03495febff569">MX25L1606E_CMD_SE</a>,</div>
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>    SPI_FLASH_CMD_NULL,</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>    <a class="code hl_define" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants.html#gad02004ba3ca1cb5884f80dc495580d33">SPI_FLASH_CMD_NULL</a>,</div>
 <div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>    <a class="code hl_define" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants.html#gaba5055f02f4192a9f6e4b8a5bd695e3b">MX25L1606E_CMD_READ</a>,  <a class="code hl_define" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants.html#ga76681d5acb0d567758d97ffd1fbd60ec">MX25L1606E_CMD_DREAD</a>,</div>
 <div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>    <a class="code hl_define" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants.html#ga229c28788f6d4c94978d66e0f97719b9">MX25L1606E_CMD_WRSR</a>,  <a class="code hl_define" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants.html#gaf8eaecb9ecb79a6cf4c4df57a623e414">MX25L1606E_CMD_RDSR</a>,</div>
 <div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>    <a class="code hl_define" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants.html#gaab2430b5976460bceb8a5d0beb0fef4e">MX25L1606E_CMD_WREN</a>,  <a class="code hl_define" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants.html#gaad2421f2b60aa93d344cfbdc32c94dd3">MX25L1606E_CMD_WRDI</a></div>
 <div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>    },</div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>    MX25L1606E_JEDEC_ID,  MX25L1606E_JEDEC_IDMASK,</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>    <a class="code hl_define" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants.html#ga77b7cb53c1075fc7d31765472af166ee">MX25L1606E_JEDEC_ID</a>,  <a class="code hl_define" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants.html#ga02c09be9d2762e0475c473847f84b5de">MX25L1606E_JEDEC_IDMASK</a>,</div>
 <div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>    1024 * 1024 * 2</div>
 <div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>  },</div>
 <div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>  {</div>
@@ -167,39 +184,40 @@ $(document).ready(function(){initNavTree('spi__flash__common_8c_source.html','')
 <div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>    <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#gabce610340534e67da2f8da41a640cc9f">SPI_FLASH_WaitForWriteEnd_0</a>,</div>
 <div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>    {</div>
 <div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>    <a class="code hl_define" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants.html#gad5aea170d47b143054b8f0782d4d88c3">SST25V016B_CMD_CE</a>,    <a class="code hl_define" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants.html#ga433d5106b49358dc22433d1ebafb9481">SST25V016B_CMD_SE</a>,</div>
-<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>    SPI_FLASH_CMD_NULL,</div>
-<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>    <a class="code hl_define" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants.html#ga907e77567ca716412b06c10fda9d20b8">SST25V016B_CMD_READ</a>,  SPI_FLASH_CMD_NULL,</div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>    <a class="code hl_define" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants.html#gad02004ba3ca1cb5884f80dc495580d33">SPI_FLASH_CMD_NULL</a>,</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>    <a class="code hl_define" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants.html#ga907e77567ca716412b06c10fda9d20b8">SST25V016B_CMD_READ</a>,  <a class="code hl_define" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants.html#gad02004ba3ca1cb5884f80dc495580d33">SPI_FLASH_CMD_NULL</a>,</div>
 <div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>    <a class="code hl_define" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants.html#ga709d8920e62869299e31f998c70d1162">SST25V016B_CMD_WRSR</a>,  <a class="code hl_define" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants.html#ga61207be07001e226677575d5a0c7b7db">SST25V016B_CMD_RDSR</a>,</div>
 <div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>    <a class="code hl_define" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants.html#ga40562ec83101ef04a5755d31bdd51dac">SST25V016B_CMD_WREN</a>,  <a class="code hl_define" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants.html#ga13b857121750284ab9beb59a5689557d">SST25V016B_CMD_WRDI</a></div>
 <div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>    },</div>
-<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>    SST25V016B_JEDEC_ID,  SST25V016B_JEDEC_IDMASK,</div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>    <a class="code hl_define" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants.html#ga96774901ba2ea2e25f132f99b91a9ac9">SST25V016B_JEDEC_ID</a>,  <a class="code hl_define" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants.html#ga2f86444afe4f423b91838b0ee8dbf143">SST25V016B_JEDEC_IDMASK</a>,</div>
 <div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>    1024 * 1024 * 2</div>
 <div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>  },</div>
 <div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>};</div>
+</div>
 <div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span><span class="comment">/* Global functions ----------------------------------------------------------------------------------------*/</span></div>
 <div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span><span class="comment">/*********************************************************************************************************/</span></div>
 <div class="foldopen" id="foldopen00141" data-start="{" data-end="}">
-<div class="line"><a id="l00141" name="l00141"></a><span class="lineno"><a class="line" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#gad1f6a279260ed73ac6b05c1064ce73a2">  141</a></span>u32 <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#gad1f6a279260ed73ac6b05c1064ce73a2">SPI_FLASH_ReadJEDECID_0</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno"><a class="line" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#gad1f6a279260ed73ac6b05c1064ce73a2">  141</a></span><a class="code hl_typedef" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#gad1f6a279260ed73ac6b05c1064ce73a2">SPI_FLASH_ReadJEDECID_0</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span>{</div>
-<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span>  u32 Temp = 0, Temp0 = 0, Temp1 = 0, Temp2 = 0;</div>
+<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span>  <a class="code hl_typedef" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> Temp = 0, Temp0 = 0, Temp1 = 0, Temp2 = 0;</div>
 <div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span> </div>
 <div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span>  <span class="comment">/* Select the SPI FLASH                                                                                   */</span></div>
-<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>  SPI_FLASH_SEL_ACTIVE();</div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>  <a class="code hl_define" href="group___s_p_i___f_l_a_s_h___exported___macros.html#gaf3e8d95f93b43e21cc4d750ab8630f02">SPI_FLASH_SEL_ACTIVE</a>();</div>
 <div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span> </div>
 <div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span>  <span class="comment">/* Send &quot;JEDEC Read-ID&quot; instruction                                                                       */</span></div>
 <div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>  <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga65f0660311f9bb51c1501b5f7a8f0cad">SPI_FLASH_SendByte_0</a>(<a class="code hl_define" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants.html#ga83705576175516b467c4acef5a249123">SPI_FLASH_CMD_JEDECID_0</a>);</div>
 <div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span> </div>
 <div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span>  <span class="comment">/* Read a byte from the FLASH                                                                             */</span></div>
-<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>  Temp0 = <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga65f0660311f9bb51c1501b5f7a8f0cad">SPI_FLASH_SendByte_0</a>(SPI_FLASH_DUMMY_BYTE);</div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>  Temp0 = <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga65f0660311f9bb51c1501b5f7a8f0cad">SPI_FLASH_SendByte_0</a>(<a class="code hl_define" href="group___s_p_i___f_l_a_s_h___exported___constants.html#gadea171cfb013fd65c1f5ecbd53a3d3c2">SPI_FLASH_DUMMY_BYTE</a>);</div>
 <div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span> </div>
 <div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span>  <span class="comment">/* Read a byte from the FLASH                                                                             */</span></div>
-<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span>  Temp1 = <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga65f0660311f9bb51c1501b5f7a8f0cad">SPI_FLASH_SendByte_0</a>(SPI_FLASH_DUMMY_BYTE);</div>
+<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span>  Temp1 = <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga65f0660311f9bb51c1501b5f7a8f0cad">SPI_FLASH_SendByte_0</a>(<a class="code hl_define" href="group___s_p_i___f_l_a_s_h___exported___constants.html#gadea171cfb013fd65c1f5ecbd53a3d3c2">SPI_FLASH_DUMMY_BYTE</a>);</div>
 <div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span> </div>
 <div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>  <span class="comment">/* Read a byte from the FLASH                                                                             */</span></div>
-<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span>  Temp2 = <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga65f0660311f9bb51c1501b5f7a8f0cad">SPI_FLASH_SendByte_0</a>(SPI_FLASH_DUMMY_BYTE);</div>
+<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span>  Temp2 = <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga65f0660311f9bb51c1501b5f7a8f0cad">SPI_FLASH_SendByte_0</a>(<a class="code hl_define" href="group___s_p_i___f_l_a_s_h___exported___constants.html#gadea171cfb013fd65c1f5ecbd53a3d3c2">SPI_FLASH_DUMMY_BYTE</a>);</div>
 <div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span> </div>
 <div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span>  <span class="comment">/* Deselect the SPI FLASH                                                                                 */</span></div>
-<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span>  SPI_FLASH_SEL_INACTIVE();</div>
+<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span>  <a class="code hl_define" href="group___s_p_i___f_l_a_s_h___exported___macros.html#ga527ceba792c49bddfec35ab8d1fb5e21">SPI_FLASH_SEL_INACTIVE</a>();</div>
 <div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span> </div>
 <div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span>  Temp = (Temp0 &lt;&lt; 16) | (Temp1 &lt;&lt; 8) | Temp2;</div>
 <div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span> </div>
@@ -215,11 +233,11 @@ $(document).ready(function(){initNavTree('spi__flash__common_8c_source.html','')
 <div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span>  <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga4d732ceb4a0b8e3ca800e06bc4b0ce85">SPI_FLASH_WriteEnable_0</a>();</div>
 <div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span> </div>
 <div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span>  <span class="comment">/* Select the SPI FLASH                                                                                   */</span></div>
-<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span>  SPI_FLASH_SEL_ACTIVE();</div>
+<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span>  <a class="code hl_define" href="group___s_p_i___f_l_a_s_h___exported___macros.html#gaf3e8d95f93b43e21cc4d750ab8630f02">SPI_FLASH_SEL_ACTIVE</a>();</div>
 <div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span>  <span class="comment">/* Send &quot;Chip Erase&quot; instruction                                                                          */</span></div>
-<div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span>  <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga65f0660311f9bb51c1501b5f7a8f0cad">SPI_FLASH_SendByte_0</a>(CMD_CHIP_ERASE);</div>
+<div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span>  <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga65f0660311f9bb51c1501b5f7a8f0cad">SPI_FLASH_SendByte_0</a>(<a class="code hl_define" href="group___s_p_i___f_l_a_s_h___a_u_t_o___private___macro.html#ga3652596b959bac52501e1336712bac3c">CMD_CHIP_ERASE</a>);</div>
 <div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span>  <span class="comment">/* Deselect the SPI FLASH                                                                                 */</span></div>
-<div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span>  SPI_FLASH_SEL_INACTIVE();</div>
+<div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span>  <a class="code hl_define" href="group___s_p_i___f_l_a_s_h___exported___macros.html#ga527ceba792c49bddfec35ab8d1fb5e21">SPI_FLASH_SEL_INACTIVE</a>();</div>
 <div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span> </div>
 <div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span>  <span class="comment">/* Wait the write operation has completed                                                                 */</span></div>
 <div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span>  <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#gabce610340534e67da2f8da41a640cc9f">SPI_FLASH_WaitForWriteEnd_0</a>();</div>
@@ -228,15 +246,15 @@ $(document).ready(function(){initNavTree('spi__flash__common_8c_source.html','')
 <div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span> </div>
 <div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span><span class="comment">/*********************************************************************************************************/</span></div>
 <div class="foldopen" id="foldopen00193" data-start="{" data-end="}">
-<div class="line"><a id="l00193" name="l00193"></a><span class="lineno"><a class="line" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga41c74829d80aa43862b79eef1eb64260">  193</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga41c74829d80aa43862b79eef1eb64260">SPI_FLASH_SectorErase_0</a>(u32 SectorAddr)</div>
+<div class="line"><a id="l00193" name="l00193"></a><span class="lineno"><a class="line" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga41c74829d80aa43862b79eef1eb64260">  193</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga41c74829d80aa43862b79eef1eb64260">SPI_FLASH_SectorErase_0</a>(<a class="code hl_typedef" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> SectorAddr)</div>
 <div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span>{</div>
 <div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span>  <span class="comment">/* Send write enable instruction                                                                          */</span></div>
 <div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span>  <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga4d732ceb4a0b8e3ca800e06bc4b0ce85">SPI_FLASH_WriteEnable_0</a>();</div>
 <div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span> </div>
 <div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span>  <span class="comment">/* Select the SPI FLASH                                                                                   */</span></div>
-<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span>  SPI_FLASH_SEL_ACTIVE();</div>
+<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span>  <a class="code hl_define" href="group___s_p_i___f_l_a_s_h___exported___macros.html#gaf3e8d95f93b43e21cc4d750ab8630f02">SPI_FLASH_SEL_ACTIVE</a>();</div>
 <div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span>  <span class="comment">/* Send &quot;Sector Erase&quot; instruction                                                                        */</span></div>
-<div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span>  <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga65f0660311f9bb51c1501b5f7a8f0cad">SPI_FLASH_SendByte_0</a>(CMD_SECTOR_ERASE);</div>
+<div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span>  <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga65f0660311f9bb51c1501b5f7a8f0cad">SPI_FLASH_SendByte_0</a>(<a class="code hl_define" href="group___s_p_i___f_l_a_s_h___a_u_t_o___private___macro.html#ga37153d871f9e079923d99fb7ca18371b">CMD_SECTOR_ERASE</a>);</div>
 <div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span>  <span class="comment">/* Send high byte address of SectorAddr                                                                   */</span></div>
 <div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span>  <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga65f0660311f9bb51c1501b5f7a8f0cad">SPI_FLASH_SendByte_0</a>((SectorAddr &amp; 0xFF0000) &gt;&gt; 16);</div>
 <div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span>  <span class="comment">/* Send medium byte address of SectorAddr                                                                 */</span></div>
@@ -244,7 +262,7 @@ $(document).ready(function(){initNavTree('spi__flash__common_8c_source.html','')
 <div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span>  <span class="comment">/* Send low byte address of SectorAddr                                                                    */</span></div>
 <div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span>  <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga65f0660311f9bb51c1501b5f7a8f0cad">SPI_FLASH_SendByte_0</a>(SectorAddr &amp; 0xFF);</div>
 <div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span>  <span class="comment">/* Deselect the SPI FLASH                                                                                 */</span></div>
-<div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span>  SPI_FLASH_SEL_INACTIVE();</div>
+<div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span>  <a class="code hl_define" href="group___s_p_i___f_l_a_s_h___exported___macros.html#ga527ceba792c49bddfec35ab8d1fb5e21">SPI_FLASH_SEL_INACTIVE</a>();</div>
 <div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span> </div>
 <div class="line"><a id="l00211" name="l00211"></a><span class="lineno">  211</span>  <span class="comment">/* Wait the write operation has completed                                                                 */</span></div>
 <div class="line"><a id="l00212" name="l00212"></a><span class="lineno">  212</span>  <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#gabce610340534e67da2f8da41a640cc9f">SPI_FLASH_WaitForWriteEnd_0</a>();</div>
@@ -253,13 +271,13 @@ $(document).ready(function(){initNavTree('spi__flash__common_8c_source.html','')
 <div class="line"><a id="l00214" name="l00214"></a><span class="lineno">  214</span> </div>
 <div class="line"><a id="l00215" name="l00215"></a><span class="lineno">  215</span><span class="comment">/*********************************************************************************************************/</span></div>
 <div class="foldopen" id="foldopen00222" data-start="{" data-end="}">
-<div class="line"><a id="l00222" name="l00222"></a><span class="lineno"><a class="line" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga9181238a80534fcd5de551c0e239d365">  222</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga9181238a80534fcd5de551c0e239d365">SPI_FLASH_BufferRead_0</a>(u8* ReadBuffer, u32 ReadAddr, u32 NumOfReadByte)</div>
+<div class="line"><a id="l00222" name="l00222"></a><span class="lineno"><a class="line" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga9181238a80534fcd5de551c0e239d365">  222</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga9181238a80534fcd5de551c0e239d365">SPI_FLASH_BufferRead_0</a>(<a class="code hl_typedef" href="group___exported___types.html#gaed742c436da53c1080638ce6ef7d13de">u8</a>* <a class="code hl_variable" href="group___e_e_p_r_o_m___simulate.html#gac8a61801c7ac6dcd3454613e30682a6c">ReadBuffer</a>, <a class="code hl_typedef" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> ReadAddr, <a class="code hl_typedef" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> NumOfReadByte)</div>
 <div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span>{</div>
 <div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span>  <span class="comment">/* Select the SPI FLASH                                                                                   */</span></div>
-<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span>  SPI_FLASH_SEL_ACTIVE();</div>
+<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span>  <a class="code hl_define" href="group___s_p_i___f_l_a_s_h___exported___macros.html#gaf3e8d95f93b43e21cc4d750ab8630f02">SPI_FLASH_SEL_ACTIVE</a>();</div>
 <div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span> </div>
 <div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span>  <span class="comment">/* Send &quot;Read from Memory &quot; instruction                                                                   */</span></div>
-<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span>  <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga65f0660311f9bb51c1501b5f7a8f0cad">SPI_FLASH_SendByte_0</a>(CMD_READ);</div>
+<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span>  <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga65f0660311f9bb51c1501b5f7a8f0cad">SPI_FLASH_SendByte_0</a>(<a class="code hl_define" href="group___s_p_i___f_l_a_s_h___a_u_t_o___private___macro.html#ga9c953a6c538020e644127ee080608021">CMD_READ</a>);</div>
 <div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span> </div>
 <div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span>  <span class="comment">/* Send high byte address of ReadAddr                                                                     */</span></div>
 <div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span>  <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga65f0660311f9bb51c1501b5f7a8f0cad">SPI_FLASH_SendByte_0</a>((ReadAddr &amp; 0xFF0000) &gt;&gt; 16);</div>
@@ -268,31 +286,31 @@ $(document).ready(function(){initNavTree('spi__flash__common_8c_source.html','')
 <div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span>  <span class="comment">/* Send low byte address of ReadAddr                                                                      */</span></div>
 <div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span>  <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga65f0660311f9bb51c1501b5f7a8f0cad">SPI_FLASH_SendByte_0</a>(ReadAddr &amp; 0xFF);</div>
 <div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span> </div>
-<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span>  <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga65f0660311f9bb51c1501b5f7a8f0cad">SPI_FLASH_SendByte_0</a>(SPI_FLASH_DUMMY_BYTE);</div>
+<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span>  <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga65f0660311f9bb51c1501b5f7a8f0cad">SPI_FLASH_SendByte_0</a>(<a class="code hl_define" href="group___s_p_i___f_l_a_s_h___exported___constants.html#gadea171cfb013fd65c1f5ecbd53a3d3c2">SPI_FLASH_DUMMY_BYTE</a>);</div>
 <div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span> </div>
 <div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span>  <span class="keywordflow">while</span> (NumOfReadByte--)</div>
 <div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span>  {</div>
 <div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span>    <span class="comment">/* Read a byte from the FLASH                                                                           */</span></div>
-<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span>    *ReadBuffer = <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga65f0660311f9bb51c1501b5f7a8f0cad">SPI_FLASH_SendByte_0</a>(SPI_FLASH_DUMMY_BYTE);</div>
+<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span>    *<a class="code hl_variable" href="group___e_e_p_r_o_m___simulate.html#gac8a61801c7ac6dcd3454613e30682a6c">ReadBuffer</a> = <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga65f0660311f9bb51c1501b5f7a8f0cad">SPI_FLASH_SendByte_0</a>(<a class="code hl_define" href="group___s_p_i___f_l_a_s_h___exported___constants.html#gadea171cfb013fd65c1f5ecbd53a3d3c2">SPI_FLASH_DUMMY_BYTE</a>);</div>
 <div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span>    <span class="comment">/* Point to the next location where the byte read will be saved                                         */</span></div>
-<div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span>    ReadBuffer++;</div>
+<div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span>    <a class="code hl_variable" href="group___e_e_p_r_o_m___simulate.html#gac8a61801c7ac6dcd3454613e30682a6c">ReadBuffer</a>++;</div>
 <div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span>  }</div>
 <div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span> </div>
 <div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span>  <span class="comment">/* Deselect the SPI FLASH                                                                                 */</span></div>
-<div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span>  SPI_FLASH_SEL_INACTIVE();</div>
+<div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span>  <a class="code hl_define" href="group___s_p_i___f_l_a_s_h___exported___macros.html#ga527ceba792c49bddfec35ab8d1fb5e21">SPI_FLASH_SEL_INACTIVE</a>();</div>
 <div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span>}</div>
 </div>
 <div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span> </div>
 <div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span><span class="preprocessor">#if (DUAL_READ_ENABLE == 1)</span></div>
 <div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span><span class="comment">/*********************************************************************************************************/</span></div>
 <div class="foldopen" id="foldopen00259" data-start="{" data-end="}">
-<div class="line"><a id="l00259" name="l00259"></a><span class="lineno"><a class="line" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga799d5f34e909086230b0b23947474445">  259</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga799d5f34e909086230b0b23947474445">SPI_FLASH_BufferDualRead_0</a>(u16* ReadBuffer, u32 ReadAddr, u32 NumOfReadByte)</div>
+<div class="line"><a id="l00259" name="l00259"></a><span class="lineno"><a class="line" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga799d5f34e909086230b0b23947474445">  259</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga799d5f34e909086230b0b23947474445">SPI_FLASH_BufferDualRead_0</a>(<a class="code hl_typedef" href="group___exported___types.html#ga9e6c91d77e24643b888dbd1a1a590054">u16</a>* <a class="code hl_variable" href="group___e_e_p_r_o_m___simulate.html#gac8a61801c7ac6dcd3454613e30682a6c">ReadBuffer</a>, <a class="code hl_typedef" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> ReadAddr, <a class="code hl_typedef" href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a> NumOfReadByte)</div>
 <div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span>{</div>
 <div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span>  <span class="comment">/* Select the SPI FLASH                                                                                   */</span></div>
-<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span>  SPI_FLASH_SEL_ACTIVE();</div>
+<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span>  <a class="code hl_define" href="group___s_p_i___f_l_a_s_h___exported___macros.html#gaf3e8d95f93b43e21cc4d750ab8630f02">SPI_FLASH_SEL_ACTIVE</a>();</div>
 <div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span> </div>
 <div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span>  <span class="comment">/* Send &quot;Read from Memory &quot; instruction                                                                   */</span></div>
-<div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span>  <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga65f0660311f9bb51c1501b5f7a8f0cad">SPI_FLASH_SendByte_0</a>(CMD_DUALREAD);</div>
+<div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span>  <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga65f0660311f9bb51c1501b5f7a8f0cad">SPI_FLASH_SendByte_0</a>(<a class="code hl_define" href="group___s_p_i___f_l_a_s_h___a_u_t_o___private___macro.html#ga1be718b07634176fc154384e3ed617a7">CMD_DUALREAD</a>);</div>
 <div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span>  <span class="comment">/* Send high byte address of ReadAddr                                                                     */</span></div>
 <div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span>  <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga65f0660311f9bb51c1501b5f7a8f0cad">SPI_FLASH_SendByte_0</a>((ReadAddr &amp; 0xFF0000) &gt;&gt; 16);</div>
 <div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span>  <span class="comment">/* Send medium byte address of ReadAddr                                                                   */</span></div>
@@ -301,44 +319,44 @@ $(document).ready(function(){initNavTree('spi__flash__common_8c_source.html','')
 <div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span>  <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga65f0660311f9bb51c1501b5f7a8f0cad">SPI_FLASH_SendByte_0</a>(ReadAddr &amp; 0xFF);</div>
 <div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span> </div>
 <div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span>  <span class="comment">/* Enable Dual Port                                                                                       */</span></div>
-<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span>  <a class="code hl_function" href="group___s_p_i___exported___functions.html#ga3ccfcb59338d0f9df5e01aae04033823">SPI_DUALCmd</a>(FLASH_SPI, ENABLE);</div>
+<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span>  <a class="code hl_function" href="group___s_p_i___exported___functions.html#ga3ccfcb59338d0f9df5e01aae04033823">SPI_DUALCmd</a>(<a class="code hl_define" href="group___b_m53_a367_a___d_v_b___s_p_i___f_l_a_s_h.html#ga232a35d7a3adf71edf21eff160c639cf">FLASH_SPI</a>, <a class="code hl_enumvalue" href="group___exported___types.html#ggac03f53915dd13820e0dfd3b3c93bed17a7d46875fa3ebd2c34d2756950eda83bf">ENABLE</a>);</div>
 <div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span> </div>
 <div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span>  <span class="comment">/* Send dummy byte                                                                                        */</span></div>
-<div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span>  <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga65f0660311f9bb51c1501b5f7a8f0cad">SPI_FLASH_SendByte_0</a>(SPI_FLASH_DUMMY_BYTE);</div>
+<div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span>  <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga65f0660311f9bb51c1501b5f7a8f0cad">SPI_FLASH_SendByte_0</a>(<a class="code hl_define" href="group___s_p_i___f_l_a_s_h___exported___constants.html#gadea171cfb013fd65c1f5ecbd53a3d3c2">SPI_FLASH_DUMMY_BYTE</a>);</div>
 <div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span> </div>
 <div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span>  <span class="keywordflow">while</span> (NumOfReadByte--)</div>
 <div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span>  {</div>
 <div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span>    <span class="comment">/* Read a byte from the FLASH                                                                           */</span></div>
-<div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span>    *ReadBuffer = <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga65f0660311f9bb51c1501b5f7a8f0cad">SPI_FLASH_SendByte_0</a>(SPI_FLASH_DUMMY_BYTE);</div>
+<div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span>    *<a class="code hl_variable" href="group___e_e_p_r_o_m___simulate.html#gac8a61801c7ac6dcd3454613e30682a6c">ReadBuffer</a> = <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga65f0660311f9bb51c1501b5f7a8f0cad">SPI_FLASH_SendByte_0</a>(<a class="code hl_define" href="group___s_p_i___f_l_a_s_h___exported___constants.html#gadea171cfb013fd65c1f5ecbd53a3d3c2">SPI_FLASH_DUMMY_BYTE</a>);</div>
 <div class="line"><a id="l00283" name="l00283"></a><span class="lineno">  283</span>    <span class="comment">/* Point to the next location where the byte read will be saved                                         */</span></div>
-<div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span>    ReadBuffer++;</div>
+<div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span>    <a class="code hl_variable" href="group___e_e_p_r_o_m___simulate.html#gac8a61801c7ac6dcd3454613e30682a6c">ReadBuffer</a>++;</div>
 <div class="line"><a id="l00285" name="l00285"></a><span class="lineno">  285</span>  }</div>
 <div class="line"><a id="l00286" name="l00286"></a><span class="lineno">  286</span> </div>
 <div class="line"><a id="l00287" name="l00287"></a><span class="lineno">  287</span>  <span class="comment">/* Deselect the SPI FLASH                                                                                 */</span></div>
-<div class="line"><a id="l00288" name="l00288"></a><span class="lineno">  288</span>  SPI_FLASH_SEL_INACTIVE();</div>
+<div class="line"><a id="l00288" name="l00288"></a><span class="lineno">  288</span>  <a class="code hl_define" href="group___s_p_i___f_l_a_s_h___exported___macros.html#ga527ceba792c49bddfec35ab8d1fb5e21">SPI_FLASH_SEL_INACTIVE</a>();</div>
 <div class="line"><a id="l00289" name="l00289"></a><span class="lineno">  289</span> </div>
 <div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span>  <span class="comment">/* Disable Dual Port                                                                                      */</span></div>
-<div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span>  <a class="code hl_function" href="group___s_p_i___exported___functions.html#ga3ccfcb59338d0f9df5e01aae04033823">SPI_DUALCmd</a>(FLASH_SPI, DISABLE);</div>
+<div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span>  <a class="code hl_function" href="group___s_p_i___exported___functions.html#ga3ccfcb59338d0f9df5e01aae04033823">SPI_DUALCmd</a>(<a class="code hl_define" href="group___b_m53_a367_a___d_v_b___s_p_i___f_l_a_s_h.html#ga232a35d7a3adf71edf21eff160c639cf">FLASH_SPI</a>, <a class="code hl_enumvalue" href="group___exported___types.html#ggac03f53915dd13820e0dfd3b3c93bed17ad3a9df141be0ccf10389b640f492b26d">DISABLE</a>);</div>
 <div class="line"><a id="l00292" name="l00292"></a><span class="lineno">  292</span>}</div>
 </div>
 <div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span> </div>
 <div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span><span class="comment">/*********************************************************************************************************/</span></div>
 <div class="foldopen" id="foldopen00300" data-start="{" data-end="}">
-<div class="line"><a id="l00300" name="l00300"></a><span class="lineno"><a class="line" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga8441c8412e7d7ab27ad0e989c5bb2f48">  300</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga8441c8412e7d7ab27ad0e989c5bb2f48">SPI_FLASH_WriteStatus_0</a>(u8 Value)</div>
+<div class="line"><a id="l00300" name="l00300"></a><span class="lineno"><a class="line" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga8441c8412e7d7ab27ad0e989c5bb2f48">  300</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga8441c8412e7d7ab27ad0e989c5bb2f48">SPI_FLASH_WriteStatus_0</a>(<a class="code hl_typedef" href="group___exported___types.html#gaed742c436da53c1080638ce6ef7d13de">u8</a> Value)</div>
 <div class="line"><a id="l00301" name="l00301"></a><span class="lineno">  301</span>{</div>
 <div class="line"><a id="l00302" name="l00302"></a><span class="lineno">  302</span>  <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga4d732ceb4a0b8e3ca800e06bc4b0ce85">SPI_FLASH_WriteEnable_0</a>();</div>
 <div class="line"><a id="l00303" name="l00303"></a><span class="lineno">  303</span> </div>
 <div class="line"><a id="l00304" name="l00304"></a><span class="lineno">  304</span>  <span class="comment">/* Select the SPI FLASH                                                                                   */</span></div>
-<div class="line"><a id="l00305" name="l00305"></a><span class="lineno">  305</span>  SPI_FLASH_SEL_ACTIVE();</div>
+<div class="line"><a id="l00305" name="l00305"></a><span class="lineno">  305</span>  <a class="code hl_define" href="group___s_p_i___f_l_a_s_h___exported___macros.html#gaf3e8d95f93b43e21cc4d750ab8630f02">SPI_FLASH_SEL_ACTIVE</a>();</div>
 <div class="line"><a id="l00306" name="l00306"></a><span class="lineno">  306</span> </div>
 <div class="line"><a id="l00307" name="l00307"></a><span class="lineno">  307</span>  <span class="comment">/* Send &quot;Write Status Register&quot; instruction                                                               */</span></div>
-<div class="line"><a id="l00308" name="l00308"></a><span class="lineno">  308</span>  <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga65f0660311f9bb51c1501b5f7a8f0cad">SPI_FLASH_SendByte_0</a>(CMD_WRITE_STATUS);</div>
+<div class="line"><a id="l00308" name="l00308"></a><span class="lineno">  308</span>  <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga65f0660311f9bb51c1501b5f7a8f0cad">SPI_FLASH_SendByte_0</a>(<a class="code hl_define" href="group___s_p_i___f_l_a_s_h___a_u_t_o___private___macro.html#ga08b5ac17c28155cb38f91f3d1b6ca54f">CMD_WRITE_STATUS</a>);</div>
 <div class="line"><a id="l00309" name="l00309"></a><span class="lineno">  309</span>  <span class="comment">/* Writes to the Status Register                                                                          */</span></div>
 <div class="line"><a id="l00310" name="l00310"></a><span class="lineno">  310</span>  <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga65f0660311f9bb51c1501b5f7a8f0cad">SPI_FLASH_SendByte_0</a>(Value);</div>
 <div class="line"><a id="l00311" name="l00311"></a><span class="lineno">  311</span> </div>
 <div class="line"><a id="l00312" name="l00312"></a><span class="lineno">  312</span>  <span class="comment">/* Deselect the SPI FLASH                                                                                 */</span></div>
-<div class="line"><a id="l00313" name="l00313"></a><span class="lineno">  313</span>  SPI_FLASH_SEL_INACTIVE();</div>
+<div class="line"><a id="l00313" name="l00313"></a><span class="lineno">  313</span>  <a class="code hl_define" href="group___s_p_i___f_l_a_s_h___exported___macros.html#ga527ceba792c49bddfec35ab8d1fb5e21">SPI_FLASH_SEL_INACTIVE</a>();</div>
 <div class="line"><a id="l00314" name="l00314"></a><span class="lineno">  314</span> </div>
 <div class="line"><a id="l00315" name="l00315"></a><span class="lineno">  315</span>  <span class="comment">/* Wait the write operation has completed                                                                 */</span></div>
 <div class="line"><a id="l00316" name="l00316"></a><span class="lineno">  316</span>  <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#gabce610340534e67da2f8da41a640cc9f">SPI_FLASH_WaitForWriteEnd_0</a>();</div>
@@ -350,13 +368,13 @@ $(document).ready(function(){initNavTree('spi__flash__common_8c_source.html','')
 <div class="line"><a id="l00323" name="l00323"></a><span class="lineno"><a class="line" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga4d732ceb4a0b8e3ca800e06bc4b0ce85">  323</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga4d732ceb4a0b8e3ca800e06bc4b0ce85">SPI_FLASH_WriteEnable_0</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a id="l00324" name="l00324"></a><span class="lineno">  324</span>{</div>
 <div class="line"><a id="l00325" name="l00325"></a><span class="lineno">  325</span>  <span class="comment">/* Select the SPI FLASH                                                                                   */</span></div>
-<div class="line"><a id="l00326" name="l00326"></a><span class="lineno">  326</span>  SPI_FLASH_SEL_ACTIVE();</div>
+<div class="line"><a id="l00326" name="l00326"></a><span class="lineno">  326</span>  <a class="code hl_define" href="group___s_p_i___f_l_a_s_h___exported___macros.html#gaf3e8d95f93b43e21cc4d750ab8630f02">SPI_FLASH_SEL_ACTIVE</a>();</div>
 <div class="line"><a id="l00327" name="l00327"></a><span class="lineno">  327</span> </div>
 <div class="line"><a id="l00328" name="l00328"></a><span class="lineno">  328</span>  <span class="comment">/* Send &quot;Write Enable&quot; instruction                                                                        */</span></div>
-<div class="line"><a id="l00329" name="l00329"></a><span class="lineno">  329</span>  <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga65f0660311f9bb51c1501b5f7a8f0cad">SPI_FLASH_SendByte_0</a>(CMD_WRITE_ENABLE);</div>
+<div class="line"><a id="l00329" name="l00329"></a><span class="lineno">  329</span>  <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga65f0660311f9bb51c1501b5f7a8f0cad">SPI_FLASH_SendByte_0</a>(<a class="code hl_define" href="group___s_p_i___f_l_a_s_h___a_u_t_o___private___macro.html#ga8f070c1bf485352b2392f685b3ae0ed5">CMD_WRITE_ENABLE</a>);</div>
 <div class="line"><a id="l00330" name="l00330"></a><span class="lineno">  330</span> </div>
 <div class="line"><a id="l00331" name="l00331"></a><span class="lineno">  331</span>  <span class="comment">/* Deselect the SPI FLASH                                                                                 */</span></div>
-<div class="line"><a id="l00332" name="l00332"></a><span class="lineno">  332</span>  SPI_FLASH_SEL_INACTIVE();</div>
+<div class="line"><a id="l00332" name="l00332"></a><span class="lineno">  332</span>  <a class="code hl_define" href="group___s_p_i___f_l_a_s_h___exported___macros.html#ga527ceba792c49bddfec35ab8d1fb5e21">SPI_FLASH_SEL_INACTIVE</a>();</div>
 <div class="line"><a id="l00333" name="l00333"></a><span class="lineno">  333</span>}</div>
 </div>
 <div class="line"><a id="l00334" name="l00334"></a><span class="lineno">  334</span> </div>
@@ -365,13 +383,13 @@ $(document).ready(function(){initNavTree('spi__flash__common_8c_source.html','')
 <div class="line"><a id="l00339" name="l00339"></a><span class="lineno"><a class="line" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga30a1738d5bde82e0ebee786635996726">  339</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga30a1738d5bde82e0ebee786635996726">SPI_FLASH_WriteDisable_0</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a id="l00340" name="l00340"></a><span class="lineno">  340</span>{</div>
 <div class="line"><a id="l00341" name="l00341"></a><span class="lineno">  341</span>  <span class="comment">/* Select the SPI FLASH                                                                                   */</span></div>
-<div class="line"><a id="l00342" name="l00342"></a><span class="lineno">  342</span>  SPI_FLASH_SEL_ACTIVE();</div>
+<div class="line"><a id="l00342" name="l00342"></a><span class="lineno">  342</span>  <a class="code hl_define" href="group___s_p_i___f_l_a_s_h___exported___macros.html#gaf3e8d95f93b43e21cc4d750ab8630f02">SPI_FLASH_SEL_ACTIVE</a>();</div>
 <div class="line"><a id="l00343" name="l00343"></a><span class="lineno">  343</span> </div>
 <div class="line"><a id="l00344" name="l00344"></a><span class="lineno">  344</span>  <span class="comment">/* Send &quot;Write Disable&quot; instruction                                                                       */</span></div>
-<div class="line"><a id="l00345" name="l00345"></a><span class="lineno">  345</span>  <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga65f0660311f9bb51c1501b5f7a8f0cad">SPI_FLASH_SendByte_0</a>(CMD_WRITE_DISABLE);</div>
+<div class="line"><a id="l00345" name="l00345"></a><span class="lineno">  345</span>  <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga65f0660311f9bb51c1501b5f7a8f0cad">SPI_FLASH_SendByte_0</a>(<a class="code hl_define" href="group___s_p_i___f_l_a_s_h___a_u_t_o___private___macro.html#ga97e9748a0452b32312adbc63707161d8">CMD_WRITE_DISABLE</a>);</div>
 <div class="line"><a id="l00346" name="l00346"></a><span class="lineno">  346</span> </div>
 <div class="line"><a id="l00347" name="l00347"></a><span class="lineno">  347</span>  <span class="comment">/* Deselect the SPI FLASH                                                                                 */</span></div>
-<div class="line"><a id="l00348" name="l00348"></a><span class="lineno">  348</span>  SPI_FLASH_SEL_INACTIVE();</div>
+<div class="line"><a id="l00348" name="l00348"></a><span class="lineno">  348</span>  <a class="code hl_define" href="group___s_p_i___f_l_a_s_h___exported___macros.html#ga527ceba792c49bddfec35ab8d1fb5e21">SPI_FLASH_SEL_INACTIVE</a>();</div>
 <div class="line"><a id="l00349" name="l00349"></a><span class="lineno">  349</span>}</div>
 </div>
 <div class="line"><a id="l00350" name="l00350"></a><span class="lineno">  350</span> </div>
@@ -379,66 +397,82 @@ $(document).ready(function(){initNavTree('spi__flash__common_8c_source.html','')
 <div class="foldopen" id="foldopen00356" data-start="{" data-end="}">
 <div class="line"><a id="l00356" name="l00356"></a><span class="lineno"><a class="line" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#gabce610340534e67da2f8da41a640cc9f">  356</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#gabce610340534e67da2f8da41a640cc9f">SPI_FLASH_WaitForWriteEnd_0</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a id="l00357" name="l00357"></a><span class="lineno">  357</span>{</div>
-<div class="line"><a id="l00358" name="l00358"></a><span class="lineno">  358</span>  u8 FLASH_Status = 0;</div>
+<div class="line"><a id="l00358" name="l00358"></a><span class="lineno">  358</span>  <a class="code hl_typedef" href="group___exported___types.html#gaed742c436da53c1080638ce6ef7d13de">u8</a> FLASH_Status = 0;</div>
 <div class="line"><a id="l00359" name="l00359"></a><span class="lineno">  359</span> </div>
 <div class="line"><a id="l00360" name="l00360"></a><span class="lineno">  360</span>  <span class="comment">/* Select the SPI FLASH                                                                                   */</span></div>
-<div class="line"><a id="l00361" name="l00361"></a><span class="lineno">  361</span>  SPI_FLASH_SEL_ACTIVE();</div>
+<div class="line"><a id="l00361" name="l00361"></a><span class="lineno">  361</span>  <a class="code hl_define" href="group___s_p_i___f_l_a_s_h___exported___macros.html#gaf3e8d95f93b43e21cc4d750ab8630f02">SPI_FLASH_SEL_ACTIVE</a>();</div>
 <div class="line"><a id="l00362" name="l00362"></a><span class="lineno">  362</span> </div>
 <div class="line"><a id="l00363" name="l00363"></a><span class="lineno">  363</span>  <span class="comment">/* Send &quot;Read Status Register&quot; instruction                                                                */</span></div>
-<div class="line"><a id="l00364" name="l00364"></a><span class="lineno">  364</span>  <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga65f0660311f9bb51c1501b5f7a8f0cad">SPI_FLASH_SendByte_0</a>(CMD_REAFD_STATUS);</div>
+<div class="line"><a id="l00364" name="l00364"></a><span class="lineno">  364</span>  <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga65f0660311f9bb51c1501b5f7a8f0cad">SPI_FLASH_SendByte_0</a>(<a class="code hl_define" href="group___s_p_i___f_l_a_s_h___a_u_t_o___private___macro.html#gace26892ab799ea6b965d78785c341229">CMD_REAFD_STATUS</a>);</div>
 <div class="line"><a id="l00365" name="l00365"></a><span class="lineno">  365</span> </div>
 <div class="line"><a id="l00366" name="l00366"></a><span class="lineno">  366</span>  <span class="comment">/* Loop as long as the busy flag is set                                                                   */</span></div>
 <div class="line"><a id="l00367" name="l00367"></a><span class="lineno">  367</span>  <span class="keywordflow">do</span></div>
 <div class="line"><a id="l00368" name="l00368"></a><span class="lineno">  368</span>  {</div>
 <div class="line"><a id="l00369" name="l00369"></a><span class="lineno">  369</span>    <span class="comment">/* Send a dummy byte to generate the clock to read the value of the status register                     */</span></div>
-<div class="line"><a id="l00370" name="l00370"></a><span class="lineno">  370</span>    FLASH_Status = <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga65f0660311f9bb51c1501b5f7a8f0cad">SPI_FLASH_SendByte_0</a>(SPI_FLASH_DUMMY_BYTE);</div>
+<div class="line"><a id="l00370" name="l00370"></a><span class="lineno">  370</span>    FLASH_Status = <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga65f0660311f9bb51c1501b5f7a8f0cad">SPI_FLASH_SendByte_0</a>(<a class="code hl_define" href="group___s_p_i___f_l_a_s_h___exported___constants.html#gadea171cfb013fd65c1f5ecbd53a3d3c2">SPI_FLASH_DUMMY_BYTE</a>);</div>
 <div class="line"><a id="l00371" name="l00371"></a><span class="lineno">  371</span> </div>
-<div class="line"><a id="l00372" name="l00372"></a><span class="lineno">  372</span>  } <span class="keywordflow">while</span> ((FLASH_Status &amp; <a class="code hl_define" href="group___s_p_i___f_l_a_s_h___exported___constants.html#ga7cede4c6a020179d49f46981d520d5d4">SPI_FLASH_BUSY_FLAG</a>) == SET);</div>
+<div class="line"><a id="l00372" name="l00372"></a><span class="lineno">  372</span>  } <span class="keywordflow">while</span> ((FLASH_Status &amp; <a class="code hl_define" href="group___s_p_i___f_l_a_s_h___exported___constants.html#ga7cede4c6a020179d49f46981d520d5d4">SPI_FLASH_BUSY_FLAG</a>) == <a class="code hl_enumvalue" href="group___exported___types.html#gga89136caac2e14c55151f527ac02daaffab44c8101cc294c074709ec1b14211792">SET</a>);</div>
 <div class="line"><a id="l00373" name="l00373"></a><span class="lineno">  373</span> </div>
 <div class="line"><a id="l00374" name="l00374"></a><span class="lineno">  374</span>  <span class="comment">/* Deselect the SPI FLASH                                                                                 */</span></div>
-<div class="line"><a id="l00375" name="l00375"></a><span class="lineno">  375</span>  SPI_FLASH_SEL_INACTIVE();</div>
+<div class="line"><a id="l00375" name="l00375"></a><span class="lineno">  375</span>  <a class="code hl_define" href="group___s_p_i___f_l_a_s_h___exported___macros.html#ga527ceba792c49bddfec35ab8d1fb5e21">SPI_FLASH_SEL_INACTIVE</a>();</div>
 <div class="line"><a id="l00376" name="l00376"></a><span class="lineno">  376</span>}</div>
 </div>
 <div class="line"><a id="l00377" name="l00377"></a><span class="lineno">  377</span> </div>
 <div class="line"><a id="l00378" name="l00378"></a><span class="lineno">  378</span><span class="comment">/*********************************************************************************************************/</span></div>
 <div class="foldopen" id="foldopen00383" data-start="{" data-end="}">
-<div class="line"><a id="l00383" name="l00383"></a><span class="lineno"><a class="line" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga65f0660311f9bb51c1501b5f7a8f0cad">  383</a></span>u16 <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga65f0660311f9bb51c1501b5f7a8f0cad">SPI_FLASH_SendByte_0</a>(u8 <span class="keywordtype">byte</span>)</div>
+<div class="line"><a id="l00383" name="l00383"></a><span class="lineno"><a class="line" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga65f0660311f9bb51c1501b5f7a8f0cad">  383</a></span><a class="code hl_typedef" href="group___exported___types.html#ga9e6c91d77e24643b888dbd1a1a590054">u16</a> <a class="code hl_function" href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga65f0660311f9bb51c1501b5f7a8f0cad">SPI_FLASH_SendByte_0</a>(<a class="code hl_typedef" href="group___exported___types.html#gaed742c436da53c1080638ce6ef7d13de">u8</a> <span class="keywordtype">byte</span>)</div>
 <div class="line"><a id="l00384" name="l00384"></a><span class="lineno">  384</span>{</div>
 <div class="line"><a id="l00385" name="l00385"></a><span class="lineno">  385</span>  <span class="comment">/* Loop while Tx buffer register is empty                                                                 */</span></div>
-<div class="line"><a id="l00386" name="l00386"></a><span class="lineno">  386</span>  <span class="keywordflow">while</span> (!<a class="code hl_function" href="group___s_p_i___exported___functions.html#gaede36fe763cb6cf7d25819e08f0040ae">SPI_GetFlagStatus</a>(FLASH_SPI, SPI_FLAG_TXBE));</div>
+<div class="line"><a id="l00386" name="l00386"></a><span class="lineno">  386</span>  <span class="keywordflow">while</span> (!<a class="code hl_function" href="group___s_p_i___exported___functions.html#gaede36fe763cb6cf7d25819e08f0040ae">SPI_GetFlagStatus</a>(<a class="code hl_define" href="group___b_m53_a367_a___d_v_b___s_p_i___f_l_a_s_h.html#ga232a35d7a3adf71edf21eff160c639cf">FLASH_SPI</a>, <a class="code hl_define" href="group___s_p_i___exported___constants.html#gab3aa1d3f2501fd5d967e1eccf9f7c405">SPI_FLAG_TXBE</a>));</div>
 <div class="line"><a id="l00387" name="l00387"></a><span class="lineno">  387</span>  <span class="comment">//while ((FLASH_SPI-&gt;SR &amp; SPI_FLAG_TXBE) == 0);</span></div>
 <div class="line"><a id="l00388" name="l00388"></a><span class="lineno">  388</span> </div>
 <div class="line"><a id="l00389" name="l00389"></a><span class="lineno">  389</span>  <span class="comment">/* Send byte through the SPIx peripheral                                                                  */</span></div>
-<div class="line"><a id="l00390" name="l00390"></a><span class="lineno">  390</span>  <a class="code hl_function" href="group___s_p_i___exported___functions.html#gad1fb0b99362bd6cd516470c53a05c4b6">SPI_SendData</a>(FLASH_SPI, <span class="keywordtype">byte</span>);</div>
+<div class="line"><a id="l00390" name="l00390"></a><span class="lineno">  390</span>  <a class="code hl_function" href="group___s_p_i___exported___functions.html#gad1fb0b99362bd6cd516470c53a05c4b6">SPI_SendData</a>(<a class="code hl_define" href="group___b_m53_a367_a___d_v_b___s_p_i___f_l_a_s_h.html#ga232a35d7a3adf71edf21eff160c639cf">FLASH_SPI</a>, <span class="keywordtype">byte</span>);</div>
 <div class="line"><a id="l00391" name="l00391"></a><span class="lineno">  391</span>  <span class="comment">//FLASH_SPI-&gt;DR = byte;</span></div>
 <div class="line"><a id="l00392" name="l00392"></a><span class="lineno">  392</span> </div>
 <div class="line"><a id="l00393" name="l00393"></a><span class="lineno">  393</span>  <span class="comment">/* Loop while Rx is not empty                                                                             */</span></div>
-<div class="line"><a id="l00394" name="l00394"></a><span class="lineno">  394</span>  <span class="keywordflow">while</span> (!<a class="code hl_function" href="group___s_p_i___exported___functions.html#gaede36fe763cb6cf7d25819e08f0040ae">SPI_GetFlagStatus</a>(FLASH_SPI, SPI_FLAG_RXBNE));</div>
+<div class="line"><a id="l00394" name="l00394"></a><span class="lineno">  394</span>  <span class="keywordflow">while</span> (!<a class="code hl_function" href="group___s_p_i___exported___functions.html#gaede36fe763cb6cf7d25819e08f0040ae">SPI_GetFlagStatus</a>(<a class="code hl_define" href="group___b_m53_a367_a___d_v_b___s_p_i___f_l_a_s_h.html#ga232a35d7a3adf71edf21eff160c639cf">FLASH_SPI</a>, <a class="code hl_define" href="group___s_p_i___exported___constants.html#ga8e1006897777894d3e02628ae1965deb">SPI_FLAG_RXBNE</a>));</div>
 <div class="line"><a id="l00395" name="l00395"></a><span class="lineno">  395</span>  <span class="comment">//while ((FLASH_SPI-&gt;SR &amp; SPI_FLAG_RXBNE) == 0);</span></div>
 <div class="line"><a id="l00396" name="l00396"></a><span class="lineno">  396</span> </div>
 <div class="line"><a id="l00397" name="l00397"></a><span class="lineno">  397</span>  <span class="comment">/* Return the byte read from the SPI                                                                      */</span></div>
-<div class="line"><a id="l00398" name="l00398"></a><span class="lineno">  398</span>  <span class="keywordflow">return</span> <a class="code hl_function" href="group___s_p_i___exported___functions.html#ga9db5cff37e6f1bc165333f756cf4753f">SPI_ReceiveData</a>(FLASH_SPI);</div>
+<div class="line"><a id="l00398" name="l00398"></a><span class="lineno">  398</span>  <span class="keywordflow">return</span> <a class="code hl_function" href="group___s_p_i___exported___functions.html#ga9db5cff37e6f1bc165333f756cf4753f">SPI_ReceiveData</a>(<a class="code hl_define" href="group___b_m53_a367_a___d_v_b___s_p_i___f_l_a_s_h.html#ga232a35d7a3adf71edf21eff160c639cf">FLASH_SPI</a>);</div>
 <div class="line"><a id="l00399" name="l00399"></a><span class="lineno">  399</span>  <span class="comment">//return (u16)(FLASH_SPI-&gt;DR);</span></div>
 <div class="line"><a id="l00400" name="l00400"></a><span class="lineno">  400</span>}</div>
 </div>
+<div class="ttc" id="agroup___b_m53_a367_a___d_v_b___s_p_i___f_l_a_s_h_html_ga232a35d7a3adf71edf21eff160c639cf"><div class="ttname"><a href="group___b_m53_a367_a___d_v_b___s_p_i___f_l_a_s_h.html#ga232a35d7a3adf71edf21eff160c639cf">FLASH_SPI</a></div><div class="ttdeci">#define FLASH_SPI</div><div class="ttdef"><b>Definition</b> bm53a367a_dvb.h:168</div></div>
+<div class="ttc" id="agroup___e_e_p_r_o_m___simulate_html_gac8a61801c7ac6dcd3454613e30682a6c"><div class="ttname"><a href="group___e_e_p_r_o_m___simulate.html#gac8a61801c7ac6dcd3454613e30682a6c">ReadBuffer</a></div><div class="ttdeci">u8 ReadBuffer[16]</div><div class="ttdef"><b>Definition</b> main.c:59</div></div>
+<div class="ttc" id="agroup___exported___types_html_ga0ce6887c26c1c49ad3be5710dd42bfd6"><div class="ttname"><a href="group___exported___types.html#ga0ce6887c26c1c49ad3be5710dd42bfd6">s32</a></div><div class="ttdeci">signed int s32</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_01.h:473</div></div>
+<div class="ttc" id="agroup___exported___types_html_ga10e94b422ef0c20dcdec20d31a1f5049"><div class="ttname"><a href="group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049">u32</a></div><div class="ttdeci">unsigned int u32</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_01.h:493</div></div>
+<div class="ttc" id="agroup___exported___types_html_ga9e6c91d77e24643b888dbd1a1a590054"><div class="ttname"><a href="group___exported___types.html#ga9e6c91d77e24643b888dbd1a1a590054">u16</a></div><div class="ttdeci">unsigned short u16</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_01.h:494</div></div>
+<div class="ttc" id="agroup___exported___types_html_gaed742c436da53c1080638ce6ef7d13de"><div class="ttname"><a href="group___exported___types.html#gaed742c436da53c1080638ce6ef7d13de">u8</a></div><div class="ttdeci">unsigned char u8</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_01.h:495</div></div>
+<div class="ttc" id="agroup___exported___types_html_gga89136caac2e14c55151f527ac02daaffab44c8101cc294c074709ec1b14211792"><div class="ttname"><a href="group___exported___types.html#gga89136caac2e14c55151f527ac02daaffab44c8101cc294c074709ec1b14211792">SET</a></div><div class="ttdeci">@ SET</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_01.h:524</div></div>
+<div class="ttc" id="agroup___exported___types_html_ggac03f53915dd13820e0dfd3b3c93bed17a7d46875fa3ebd2c34d2756950eda83bf"><div class="ttname"><a href="group___exported___types.html#ggac03f53915dd13820e0dfd3b3c93bed17a7d46875fa3ebd2c34d2756950eda83bf">ENABLE</a></div><div class="ttdeci">@ ENABLE</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_01.h:513</div></div>
+<div class="ttc" id="agroup___exported___types_html_ggac03f53915dd13820e0dfd3b3c93bed17ad3a9df141be0ccf10389b640f492b26d"><div class="ttname"><a href="group___exported___types.html#ggac03f53915dd13820e0dfd3b3c93bed17ad3a9df141be0ccf10389b640f492b26d">DISABLE</a></div><div class="ttdeci">@ DISABLE</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_01.h:513</div></div>
+<div class="ttc" id="agroup___s_p_i___exported___constants_html_ga8e1006897777894d3e02628ae1965deb"><div class="ttname"><a href="group___s_p_i___exported___constants.html#ga8e1006897777894d3e02628ae1965deb">SPI_FLAG_RXBNE</a></div><div class="ttdeci">#define SPI_FLAG_RXBNE</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_spi.h:185</div></div>
+<div class="ttc" id="agroup___s_p_i___exported___constants_html_gab3aa1d3f2501fd5d967e1eccf9f7c405"><div class="ttname"><a href="group___s_p_i___exported___constants.html#gab3aa1d3f2501fd5d967e1eccf9f7c405">SPI_FLAG_TXBE</a></div><div class="ttdeci">#define SPI_FLAG_TXBE</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_spi.h:183</div></div>
 <div class="ttc" id="agroup___s_p_i___exported___functions_html_ga3ccfcb59338d0f9df5e01aae04033823"><div class="ttname"><a href="group___s_p_i___exported___functions.html#ga3ccfcb59338d0f9df5e01aae04033823">SPI_DUALCmd</a></div><div class="ttdeci">void SPI_DUALCmd(HT_SPI_TypeDef *SPIx, ControlStatus NewState)</div><div class="ttdoc">Enable or Disable the SPIx dual port read interface.</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_spi.c:599</div></div>
 <div class="ttc" id="agroup___s_p_i___exported___functions_html_ga9db5cff37e6f1bc165333f756cf4753f"><div class="ttname"><a href="group___s_p_i___exported___functions.html#ga9db5cff37e6f1bc165333f756cf4753f">SPI_ReceiveData</a></div><div class="ttdeci">SPI_DataTypeDef SPI_ReceiveData(HT_SPI_TypeDef *SPIx)</div><div class="ttdoc">Return the received data through the SPIx peripheral.</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_spi.c:391</div></div>
 <div class="ttc" id="agroup___s_p_i___exported___functions_html_gad1fb0b99362bd6cd516470c53a05c4b6"><div class="ttname"><a href="group___s_p_i___exported___functions.html#gad1fb0b99362bd6cd516470c53a05c4b6">SPI_SendData</a></div><div class="ttdeci">void SPI_SendData(HT_SPI_TypeDef *SPIx, SPI_DataTypeDef SPI_Data)</div><div class="ttdoc">Send a data through the SPIx peripheral.</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_spi.c:377</div></div>
 <div class="ttc" id="agroup___s_p_i___exported___functions_html_gaede36fe763cb6cf7d25819e08f0040ae"><div class="ttname"><a href="group___s_p_i___exported___functions.html#gaede36fe763cb6cf7d25819e08f0040ae">SPI_GetFlagStatus</a></div><div class="ttdeci">FlagStatus SPI_GetFlagStatus(HT_SPI_TypeDef *SPIx, u32 SPI_Flag)</div><div class="ttdoc">Check whether the specified SPI flag has been set or not.</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_spi.c:463</div></div>
+<div class="ttc" id="agroup___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants_html_ga02c09be9d2762e0475c473847f84b5de"><div class="ttname"><a href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants.html#ga02c09be9d2762e0475c473847f84b5de">MX25L1606E_JEDEC_IDMASK</a></div><div class="ttdeci">#define MX25L1606E_JEDEC_IDMASK</div><div class="ttdef"><b>Definition</b> spi_flash_MX25L1606E.h:68</div></div>
 <div class="ttc" id="agroup___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants_html_ga13b857121750284ab9beb59a5689557d"><div class="ttname"><a href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants.html#ga13b857121750284ab9beb59a5689557d">SST25V016B_CMD_WRDI</a></div><div class="ttdeci">#define SST25V016B_CMD_WRDI</div><div class="ttdef"><b>Definition</b> spi_flash_SST25VF016B.h:61</div></div>
 <div class="ttc" id="agroup___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants_html_ga229c28788f6d4c94978d66e0f97719b9"><div class="ttname"><a href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants.html#ga229c28788f6d4c94978d66e0f97719b9">MX25L1606E_CMD_WRSR</a></div><div class="ttdeci">#define MX25L1606E_CMD_WRSR</div><div class="ttdef"><b>Definition</b> spi_flash_MX25L1606E.h:60</div></div>
+<div class="ttc" id="agroup___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants_html_ga2f86444afe4f423b91838b0ee8dbf143"><div class="ttname"><a href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants.html#ga2f86444afe4f423b91838b0ee8dbf143">SST25V016B_JEDEC_IDMASK</a></div><div class="ttdeci">#define SST25V016B_JEDEC_IDMASK</div><div class="ttdef"><b>Definition</b> spi_flash_SST25VF016B.h:68</div></div>
 <div class="ttc" id="agroup___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants_html_ga40562ec83101ef04a5755d31bdd51dac"><div class="ttname"><a href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants.html#ga40562ec83101ef04a5755d31bdd51dac">SST25V016B_CMD_WREN</a></div><div class="ttdeci">#define SST25V016B_CMD_WREN</div><div class="ttdef"><b>Definition</b> spi_flash_SST25VF016B.h:60</div></div>
 <div class="ttc" id="agroup___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants_html_ga4296d66f72a7facae8f03495febff569"><div class="ttname"><a href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants.html#ga4296d66f72a7facae8f03495febff569">MX25L1606E_CMD_SE</a></div><div class="ttdeci">#define MX25L1606E_CMD_SE</div><div class="ttdef"><b>Definition</b> spi_flash_MX25L1606E.h:57</div></div>
 <div class="ttc" id="agroup___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants_html_ga433d5106b49358dc22433d1ebafb9481"><div class="ttname"><a href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants.html#ga433d5106b49358dc22433d1ebafb9481">SST25V016B_CMD_SE</a></div><div class="ttdeci">#define SST25V016B_CMD_SE</div><div class="ttdef"><b>Definition</b> spi_flash_SST25VF016B.h:57</div></div>
 <div class="ttc" id="agroup___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants_html_ga61207be07001e226677575d5a0c7b7db"><div class="ttname"><a href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants.html#ga61207be07001e226677575d5a0c7b7db">SST25V016B_CMD_RDSR</a></div><div class="ttdeci">#define SST25V016B_CMD_RDSR</div><div class="ttdef"><b>Definition</b> spi_flash_SST25VF016B.h:62</div></div>
 <div class="ttc" id="agroup___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants_html_ga709d8920e62869299e31f998c70d1162"><div class="ttname"><a href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants.html#ga709d8920e62869299e31f998c70d1162">SST25V016B_CMD_WRSR</a></div><div class="ttdeci">#define SST25V016B_CMD_WRSR</div><div class="ttdef"><b>Definition</b> spi_flash_SST25VF016B.h:59</div></div>
 <div class="ttc" id="agroup___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants_html_ga76681d5acb0d567758d97ffd1fbd60ec"><div class="ttname"><a href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants.html#ga76681d5acb0d567758d97ffd1fbd60ec">MX25L1606E_CMD_DREAD</a></div><div class="ttdeci">#define MX25L1606E_CMD_DREAD</div><div class="ttdef"><b>Definition</b> spi_flash_MX25L1606E.h:59</div></div>
+<div class="ttc" id="agroup___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants_html_ga77b7cb53c1075fc7d31765472af166ee"><div class="ttname"><a href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants.html#ga77b7cb53c1075fc7d31765472af166ee">MX25L1606E_JEDEC_ID</a></div><div class="ttdeci">#define MX25L1606E_JEDEC_ID</div><div class="ttdef"><b>Definition</b> spi_flash_MX25L1606E.h:67</div></div>
 <div class="ttc" id="agroup___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants_html_ga83705576175516b467c4acef5a249123"><div class="ttname"><a href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants.html#ga83705576175516b467c4acef5a249123">SPI_FLASH_CMD_JEDECID_0</a></div><div class="ttdeci">#define SPI_FLASH_CMD_JEDECID_0</div><div class="ttdef"><b>Definition</b> spi_flash_auto.h:118</div></div>
 <div class="ttc" id="agroup___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants_html_ga907e77567ca716412b06c10fda9d20b8"><div class="ttname"><a href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants.html#ga907e77567ca716412b06c10fda9d20b8">SST25V016B_CMD_READ</a></div><div class="ttdeci">#define SST25V016B_CMD_READ</div><div class="ttdef"><b>Definition</b> spi_flash_SST25VF016B.h:58</div></div>
+<div class="ttc" id="agroup___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants_html_ga96774901ba2ea2e25f132f99b91a9ac9"><div class="ttname"><a href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants.html#ga96774901ba2ea2e25f132f99b91a9ac9">SST25V016B_JEDEC_ID</a></div><div class="ttdeci">#define SST25V016B_JEDEC_ID</div><div class="ttdef"><b>Definition</b> spi_flash_SST25VF016B.h:67</div></div>
 <div class="ttc" id="agroup___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants_html_gaab2430b5976460bceb8a5d0beb0fef4e"><div class="ttname"><a href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants.html#gaab2430b5976460bceb8a5d0beb0fef4e">MX25L1606E_CMD_WREN</a></div><div class="ttdeci">#define MX25L1606E_CMD_WREN</div><div class="ttdef"><b>Definition</b> spi_flash_MX25L1606E.h:61</div></div>
 <div class="ttc" id="agroup___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants_html_gaad2421f2b60aa93d344cfbdc32c94dd3"><div class="ttname"><a href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants.html#gaad2421f2b60aa93d344cfbdc32c94dd3">MX25L1606E_CMD_WRDI</a></div><div class="ttdeci">#define MX25L1606E_CMD_WRDI</div><div class="ttdef"><b>Definition</b> spi_flash_MX25L1606E.h:62</div></div>
 <div class="ttc" id="agroup___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants_html_gab7f038df1aa6ad0ed1d089a9a255b936"><div class="ttname"><a href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants.html#gab7f038df1aa6ad0ed1d089a9a255b936">MX25L1606E_CMD_CE</a></div><div class="ttdeci">#define MX25L1606E_CMD_CE</div><div class="ttdef"><b>Definition</b> spi_flash_MX25L1606E.h:56</div></div>
 <div class="ttc" id="agroup___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants_html_gaba5055f02f4192a9f6e4b8a5bd695e3b"><div class="ttname"><a href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants.html#gaba5055f02f4192a9f6e4b8a5bd695e3b">MX25L1606E_CMD_READ</a></div><div class="ttdeci">#define MX25L1606E_CMD_READ</div><div class="ttdef"><b>Definition</b> spi_flash_MX25L1606E.h:58</div></div>
+<div class="ttc" id="agroup___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants_html_gad02004ba3ca1cb5884f80dc495580d33"><div class="ttname"><a href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants.html#gad02004ba3ca1cb5884f80dc495580d33">SPI_FLASH_CMD_NULL</a></div><div class="ttdeci">#define SPI_FLASH_CMD_NULL</div><div class="ttdef"><b>Definition</b> spi_flash_auto.h:121</div></div>
 <div class="ttc" id="agroup___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants_html_gad5aea170d47b143054b8f0782d4d88c3"><div class="ttname"><a href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants.html#gad5aea170d47b143054b8f0782d4d88c3">SST25V016B_CMD_CE</a></div><div class="ttdeci">#define SST25V016B_CMD_CE</div><div class="ttdef"><b>Definition</b> spi_flash_SST25VF016B.h:56</div></div>
 <div class="ttc" id="agroup___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants_html_gaf8eaecb9ecb79a6cf4c4df57a623e414"><div class="ttname"><a href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___constants.html#gaf8eaecb9ecb79a6cf4c4df57a623e414">MX25L1606E_CMD_RDSR</a></div><div class="ttdeci">#define MX25L1606E_CMD_RDSR</div><div class="ttdef"><b>Definition</b> spi_flash_MX25L1606E.h:63</div></div>
 <div class="ttc" id="agroup___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions_html_ga0a53e9eab963b0521bfa15861ab70b90"><div class="ttname"><a href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#ga0a53e9eab963b0521bfa15861ab70b90">SPI_FLASH_ChipErase_0</a></div><div class="ttdeci">void SPI_FLASH_ChipErase_0(void)</div><div class="ttdoc">Erases the entire FLASH.</div><div class="ttdef"><b>Definition</b> spi_flash_common.c:172</div></div>
@@ -453,7 +487,22 @@ $(document).ready(function(){initNavTree('spi__flash__common_8c_source.html','')
 <div class="ttc" id="agroup___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions_html_gab6b249e0ff776482e93b772168b5ec02"><div class="ttname"><a href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#gab6b249e0ff776482e93b772168b5ec02">SST25VF016B_BufferWrite</a></div><div class="ttdeci">void SST25VF016B_BufferWrite(u8 *WriteBuffer, u32 WriteAddr, u32 NumOfWriteByte)</div><div class="ttdoc">Writes block of data to the FLASH.</div><div class="ttdef"><b>Definition</b> spi_flash_SST25VF016B.c:157</div></div>
 <div class="ttc" id="agroup___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions_html_gabce610340534e67da2f8da41a640cc9f"><div class="ttname"><a href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#gabce610340534e67da2f8da41a640cc9f">SPI_FLASH_WaitForWriteEnd_0</a></div><div class="ttdeci">void SPI_FLASH_WaitForWriteEnd_0(void)</div><div class="ttdoc">Polls the status of the BUSY flag in the FLASH's status register and waits for the end of Flash writi...</div><div class="ttdef"><b>Definition</b> spi_flash_common.c:356</div></div>
 <div class="ttc" id="agroup___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions_html_gad1f6a279260ed73ac6b05c1064ce73a2"><div class="ttname"><a href="group___s_p_i___f_l_a_s_h___a_u_t_o___exported___functions.html#gad1f6a279260ed73ac6b05c1064ce73a2">SPI_FLASH_ReadJEDECID_0</a></div><div class="ttdeci">u32 SPI_FLASH_ReadJEDECID_0(void)</div><div class="ttdoc">Reads JEDEC ID.</div><div class="ttdef"><b>Definition</b> spi_flash_common.c:141</div></div>
+<div class="ttc" id="agroup___s_p_i___f_l_a_s_h___a_u_t_o___global___variable_html_ga960e93c44e10a3301e797d89249c75d5"><div class="ttname"><a href="group___s_p_i___f_l_a_s_h___a_u_t_o___global___variable.html#ga960e93c44e10a3301e797d89249c75d5">sSPI_FLASH_Size</a></div><div class="ttdeci">s32 sSPI_FLASH_Size</div><div class="ttdef"><b>Definition</b> spi_flash_common.c:77</div></div>
+<div class="ttc" id="agroup___s_p_i___f_l_a_s_h___a_u_t_o___global___variable_html_gab8d48d99df9f83faac6147101b9284b5"><div class="ttname"><a href="group___s_p_i___f_l_a_s_h___a_u_t_o___global___variable.html#gab8d48d99df9f83faac6147101b9284b5">SPIFlash</a></div><div class="ttdeci">const SPI_Flash_TypeDef SPIFlash[SPI_FALSH_NUM]</div><div class="ttdef"><b>Definition</b> spi_flash_common.c:78</div></div>
+<div class="ttc" id="agroup___s_p_i___f_l_a_s_h___a_u_t_o___global___variable_html_gaf422a5b70756d31c7e756977f0c33529"><div class="ttname"><a href="group___s_p_i___f_l_a_s_h___a_u_t_o___global___variable.html#gaf422a5b70756d31c7e756977f0c33529">sSPI_FLASH_Index</a></div><div class="ttdeci">s32 sSPI_FLASH_Index</div><div class="ttdef"><b>Definition</b> spi_flash_common.c:76</div></div>
+<div class="ttc" id="agroup___s_p_i___f_l_a_s_h___a_u_t_o___private___macro_html_ga08b5ac17c28155cb38f91f3d1b6ca54f"><div class="ttname"><a href="group___s_p_i___f_l_a_s_h___a_u_t_o___private___macro.html#ga08b5ac17c28155cb38f91f3d1b6ca54f">CMD_WRITE_STATUS</a></div><div class="ttdeci">#define CMD_WRITE_STATUS</div><div class="ttdef"><b>Definition</b> spi_flash_common.c:64</div></div>
+<div class="ttc" id="agroup___s_p_i___f_l_a_s_h___a_u_t_o___private___macro_html_ga1be718b07634176fc154384e3ed617a7"><div class="ttname"><a href="group___s_p_i___f_l_a_s_h___a_u_t_o___private___macro.html#ga1be718b07634176fc154384e3ed617a7">CMD_DUALREAD</a></div><div class="ttdeci">#define CMD_DUALREAD</div><div class="ttdef"><b>Definition</b> spi_flash_common.c:63</div></div>
+<div class="ttc" id="agroup___s_p_i___f_l_a_s_h___a_u_t_o___private___macro_html_ga3652596b959bac52501e1336712bac3c"><div class="ttname"><a href="group___s_p_i___f_l_a_s_h___a_u_t_o___private___macro.html#ga3652596b959bac52501e1336712bac3c">CMD_CHIP_ERASE</a></div><div class="ttdeci">#define CMD_CHIP_ERASE</div><div class="ttdef"><b>Definition</b> spi_flash_common.c:59</div></div>
+<div class="ttc" id="agroup___s_p_i___f_l_a_s_h___a_u_t_o___private___macro_html_ga37153d871f9e079923d99fb7ca18371b"><div class="ttname"><a href="group___s_p_i___f_l_a_s_h___a_u_t_o___private___macro.html#ga37153d871f9e079923d99fb7ca18371b">CMD_SECTOR_ERASE</a></div><div class="ttdeci">#define CMD_SECTOR_ERASE</div><div class="ttdef"><b>Definition</b> spi_flash_common.c:60</div></div>
+<div class="ttc" id="agroup___s_p_i___f_l_a_s_h___a_u_t_o___private___macro_html_ga8f070c1bf485352b2392f685b3ae0ed5"><div class="ttname"><a href="group___s_p_i___f_l_a_s_h___a_u_t_o___private___macro.html#ga8f070c1bf485352b2392f685b3ae0ed5">CMD_WRITE_ENABLE</a></div><div class="ttdeci">#define CMD_WRITE_ENABLE</div><div class="ttdef"><b>Definition</b> spi_flash_common.c:66</div></div>
+<div class="ttc" id="agroup___s_p_i___f_l_a_s_h___a_u_t_o___private___macro_html_ga97e9748a0452b32312adbc63707161d8"><div class="ttname"><a href="group___s_p_i___f_l_a_s_h___a_u_t_o___private___macro.html#ga97e9748a0452b32312adbc63707161d8">CMD_WRITE_DISABLE</a></div><div class="ttdeci">#define CMD_WRITE_DISABLE</div><div class="ttdef"><b>Definition</b> spi_flash_common.c:67</div></div>
+<div class="ttc" id="agroup___s_p_i___f_l_a_s_h___a_u_t_o___private___macro_html_ga9c953a6c538020e644127ee080608021"><div class="ttname"><a href="group___s_p_i___f_l_a_s_h___a_u_t_o___private___macro.html#ga9c953a6c538020e644127ee080608021">CMD_READ</a></div><div class="ttdeci">#define CMD_READ</div><div class="ttdef"><b>Definition</b> spi_flash_common.c:62</div></div>
+<div class="ttc" id="agroup___s_p_i___f_l_a_s_h___a_u_t_o___private___macro_html_gace26892ab799ea6b965d78785c341229"><div class="ttname"><a href="group___s_p_i___f_l_a_s_h___a_u_t_o___private___macro.html#gace26892ab799ea6b965d78785c341229">CMD_REAFD_STATUS</a></div><div class="ttdeci">#define CMD_REAFD_STATUS</div><div class="ttdef"><b>Definition</b> spi_flash_common.c:65</div></div>
+<div class="ttc" id="agroup___s_p_i___f_l_a_s_h___a_u_t_o___settings_html_gae7213ce08929f43a0af84a431ab47013"><div class="ttname"><a href="group___s_p_i___f_l_a_s_h___a_u_t_o___settings.html#gae7213ce08929f43a0af84a431ab47013">SPI_FALSH_NUM</a></div><div class="ttdeci">#define SPI_FALSH_NUM</div><div class="ttdef"><b>Definition</b> spi_flash_auto.h:56</div></div>
 <div class="ttc" id="agroup___s_p_i___f_l_a_s_h___exported___constants_html_ga7cede4c6a020179d49f46981d520d5d4"><div class="ttname"><a href="group___s_p_i___f_l_a_s_h___exported___constants.html#ga7cede4c6a020179d49f46981d520d5d4">SPI_FLASH_BUSY_FLAG</a></div><div class="ttdeci">#define SPI_FLASH_BUSY_FLAG</div><div class="ttdef"><b>Definition</b> spi_flash.h:82</div></div>
+<div class="ttc" id="agroup___s_p_i___f_l_a_s_h___exported___constants_html_gadea171cfb013fd65c1f5ecbd53a3d3c2"><div class="ttname"><a href="group___s_p_i___f_l_a_s_h___exported___constants.html#gadea171cfb013fd65c1f5ecbd53a3d3c2">SPI_FLASH_DUMMY_BYTE</a></div><div class="ttdeci">#define SPI_FLASH_DUMMY_BYTE</div><div class="ttdef"><b>Definition</b> spi_flash.h:84</div></div>
+<div class="ttc" id="agroup___s_p_i___f_l_a_s_h___exported___macros_html_ga527ceba792c49bddfec35ab8d1fb5e21"><div class="ttname"><a href="group___s_p_i___f_l_a_s_h___exported___macros.html#ga527ceba792c49bddfec35ab8d1fb5e21">SPI_FLASH_SEL_INACTIVE</a></div><div class="ttdeci">#define SPI_FLASH_SEL_INACTIVE()</div><div class="ttdef"><b>Definition</b> spi_flash.h:96</div></div>
+<div class="ttc" id="agroup___s_p_i___f_l_a_s_h___exported___macros_html_gaf3e8d95f93b43e21cc4d750ab8630f02"><div class="ttname"><a href="group___s_p_i___f_l_a_s_h___exported___macros.html#gaf3e8d95f93b43e21cc4d750ab8630f02">SPI_FLASH_SEL_ACTIVE</a></div><div class="ttdeci">#define SPI_FLASH_SEL_ACTIVE()</div><div class="ttdef"><b>Definition</b> spi_flash.h:95</div></div>
 <div class="ttc" id="aht32_8h_html"><div class="ttname"><a href="ht32_8h.html">ht32.h</a></div><div class="ttdoc">The API between application and HT32FXXXX Firmware Library.</div></div>
 <div class="ttc" id="aht32__board_8h_html"><div class="ttname"><a href="ht32__board_8h.html">ht32_board.h</a></div><div class="ttdoc">HT32 target board definition file.</div></div>
 <div class="ttc" id="aspi__flash___m_x25_l1606_e_8c_html"><div class="ttname"><a href="spi__flash___m_x25_l1606_e_8c.html">spi_flash_MX25L1606E.c</a></div><div class="ttdoc">This file provides a set of functions needed to manage the communication between SPI peripheral and S...</div></div>
@@ -464,13 +513,9 @@ $(document).ready(function(){initNavTree('spi__flash__common_8c_source.html','')
 <div class="ttc" id="aspi__flash__common_8h_html"><div class="ttname"><a href="spi__flash__common_8h.html">spi_flash_common.h</a></div><div class="ttdoc">The header file of common function for SPI Flash.</div></div>
 <div class="ttc" id="astruct_s_p_i___flash___type_def_html"><div class="ttname"><a href="struct_s_p_i___flash___type_def.html">SPI_Flash_TypeDef</a></div><div class="ttdef"><b>Definition</b> spi_flash_auto.h:93</div></div>
 </div><!-- fragment --></div><!-- contents -->
-</div><!-- doc-content -->
 <!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="navelem"><a class="el" href="dir_275089585c7fc1b5fd5d7d42c69cb1da.html">D:</a></li><li class="navelem"><a class="el" href="dir_273f27263c611837868160ff0f82bfd9.html">Note_Database</a></li><li class="navelem"><a class="el" href="dir_e8282a48381dd1bcf012c1bae1dc741b.html">Subject</a></li><li class="navelem"><a class="el" href="dir_7583b43eec1d2788dd81e658186519d2.html">MCETA Microcontroller Experiment TA</a></li><li class="navelem"><a class="el" href="dir_3ca5c6b4c4a2c10c94024caf0df2e6bb.html">files</a></li><li class="navelem"><a class="el" href="dir_79e3244e27785f7ec158b45668f9e3ec.html">HT32_STD_5xxxx_FWLib_V1.5.1_7084b</a></li><li class="navelem"><a class="el" href="dir_c21434e3804d506b854d59a8196e12f9.html">utilities</a></li><li class="navelem"><a class="el" href="dir_667d4d4d9b41ed5e1cc443d6dfc260c1.html">common</a></li><li class="navelem"><a class="el" href="spi__flash__common_8c.html">spi_flash_common.c</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
-  </ul>
-</div>
+<hr class="footer"/><address class="footer"><small>
+Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+</small></address>
 </body>
 </html>

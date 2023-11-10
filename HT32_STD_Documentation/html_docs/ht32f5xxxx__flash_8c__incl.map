@@ -1,0 +1,15 @@
+<map id="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/library/HT32F5xxxx_Driver/src/ht32f5xxxx_flash.c" name="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/library/HT32F5xxxx_Driver/src/ht32f5xxxx_flash.c">
+<area shape="rect" id="Node000001" title="This file provides all the FLASH firmware functions." alt="" coords="70,5,298,112"/>
+<area shape="rect" id="Node000002" href="$ht32f5xxxx__flash_8h.html" title="The header file of the FLASH library." alt="" coords="119,160,249,187"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="187,112,187,144,181,144,181,112"/>
+<area shape="rect" id="Node000003" href="$ht32_8h.html" title="The API between application and HT32FXXXX Firmware Library." alt="" coords="155,235,213,261"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="187,187,187,219,181,219,181,187"/>
+<area shape="rect" id="Node000004" href="$ht32f5xxxx__01_8h.html" title="CMSIS Cortex&#45;M0+ Device Peripheral Access Layer Header File." alt="" coords="126,309,242,336"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="187,262,187,294,181,294,181,262"/>
+<area shape="rect" id="Node000005" href="$ht32__config_8h.html" title="Configuration file of HT32." alt="" coords="5,384,104,411"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="163,339,92,378,89,374,160,334"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="127,384,241,411"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="187,337,187,368,181,368,181,337"/>
+<area shape="rect" id="Node000007" href="$system__ht32f5xxxx__01_8h.html" title="CMSIS Cortex&#45;M0+ Device Peripheral Access Layer System Header File for the Holtek HT32F5xxxx Device S..." alt="" coords="265,384,431,411"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="213,334,306,375,304,380,211,339"/>
+</map>

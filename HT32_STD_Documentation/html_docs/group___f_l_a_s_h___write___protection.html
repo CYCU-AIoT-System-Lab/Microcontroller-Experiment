@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>HT32_STD_Documents: FLASH_Write_Protection</title>
+<title>HT32_STD_Code_Documents: FLASH_Write_Protection</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,9 +21,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">HT32_STD_Documents<span id="projectnumber">&#160;1.0.0</span>
+   <div id="projectname">HT32_STD_Code_Documents<span id="projectnumber">&#160;1.0.0</span>
    </div>
-   <div id="projectbrief">For HT32F52352</div>
+   <div id="projectbrief">Micro-controller Experiment</div>
   </td>
  </tr>
  </tbody>
@@ -77,20 +77,21 @@ $(function() {
   <div class="headertitle"><div class="title">FLASH_Write_Protection<div class="ingroups"><a class="el" href="group___h_t32___series___peripheral___examples.html">HT32 Peripheral Examples</a> &raquo; <a class="el" href="group___f_m_c___examples.html">FMC</a></div></div></div>
 </div><!--header-->
 <div class="contents">
+<div class="dynheader">
+Collaboration diagram for FLASH_Write_Protection:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="group___f_l_a_s_h___write___protection.svg" width="276" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:ga4de232f89b7f3420a5388c905b5b759b" id="r_ga4de232f89b7f3420a5388c905b5b759b"><td class="memItemLeft" align="right" valign="top"><a id="ga4de232f89b7f3420a5388c905b5b759b" name="ga4de232f89b7f3420a5388c905b5b759b"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>StartAddress</b>&#160;&#160;&#160;(1024 * 6)</td></tr>
+<tr class="memitem:ga4de232f89b7f3420a5388c905b5b759b" id="r_ga4de232f89b7f3420a5388c905b5b759b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_l_a_s_h___write___protection.html#ga4de232f89b7f3420a5388c905b5b759b">StartAddress</a>&#160;&#160;&#160;(1024 * 6)</td></tr>
 <tr class="separator:ga4de232f89b7f3420a5388c905b5b759b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad4efcc8ee3e17d945a69412a6f968150" id="r_gad4efcc8ee3e17d945a69412a6f968150"><td class="memItemLeft" align="right" valign="top"><a id="gad4efcc8ee3e17d945a69412a6f968150" name="gad4efcc8ee3e17d945a69412a6f968150"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>EndAddress</b>&#160;&#160;&#160;(StartAddress + (LIBCFG_FLASH_PAGESIZE * 4))</td></tr>
+<tr class="memitem:gad4efcc8ee3e17d945a69412a6f968150" id="r_gad4efcc8ee3e17d945a69412a6f968150"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_l_a_s_h___write___protection.html#gad4efcc8ee3e17d945a69412a6f968150">EndAddress</a>&#160;&#160;&#160;(<a class="el" href="group___f_l_a_s_h___program.html#ga4de232f89b7f3420a5388c905b5b759b">StartAddress</a> + (LIBCFG_FLASH_PAGESIZE * 4))</td></tr>
 <tr class="separator:gad4efcc8ee3e17d945a69412a6f968150"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad1329f933d64207189bedbba9c3d80ba" id="r_gad1329f933d64207189bedbba9c3d80ba"><td class="memItemLeft" align="right" valign="top"><a id="gad1329f933d64207189bedbba9c3d80ba" name="gad1329f933d64207189bedbba9c3d80ba"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>StartPage</b>&#160;&#160;&#160;(StartAddress / LIBCFG_FLASH_PAGESIZE)</td></tr>
+<tr class="memitem:gad1329f933d64207189bedbba9c3d80ba" id="r_gad1329f933d64207189bedbba9c3d80ba"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_l_a_s_h___write___protection.html#gad1329f933d64207189bedbba9c3d80ba">StartPage</a>&#160;&#160;&#160;(<a class="el" href="group___f_l_a_s_h___program.html#ga4de232f89b7f3420a5388c905b5b759b">StartAddress</a> / LIBCFG_FLASH_PAGESIZE)</td></tr>
 <tr class="separator:gad1329f933d64207189bedbba9c3d80ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga34ad45f7de2797f5e1956af3857fd17e" id="r_ga34ad45f7de2797f5e1956af3857fd17e"><td class="memItemLeft" align="right" valign="top"><a id="ga34ad45f7de2797f5e1956af3857fd17e" name="ga34ad45f7de2797f5e1956af3857fd17e"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>WRITE_PROTECT_ENABLE</b>&#160;&#160;&#160;/* Enable Flash write protection                                             */</td></tr>
+<tr class="memitem:ga34ad45f7de2797f5e1956af3857fd17e" id="r_ga34ad45f7de2797f5e1956af3857fd17e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_l_a_s_h___write___protection.html#ga34ad45f7de2797f5e1956af3857fd17e">WRITE_PROTECT_ENABLE</a>&#160;&#160;&#160;/* Enable Flash write protection                                             */</td></tr>
 <tr class="separator:ga34ad45f7de2797f5e1956af3857fd17e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
@@ -125,11 +126,67 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ga8958fff24f728d622e5abd10914fe690" id="r_ga8958fff24f728d622e5abd10914fe690"><td class="memItemLeft" align="right" valign="top"><a id="ga8958fff24f728d622e5abd10914fe690" name="ga8958fff24f728d622e5abd10914fe690"></a>
-u32&#160;</td><td class="memItemRight" valign="bottom"><b>err</b></td></tr>
+<tr class="memitem:ga8958fff24f728d622e5abd10914fe690" id="r_ga8958fff24f728d622e5abd10914fe690"><td class="memItemLeft" align="right" valign="top">u32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_l_a_s_h___write___protection.html#ga8958fff24f728d622e5abd10914fe690">err</a></td></tr>
 <tr class="separator:ga8958fff24f728d622e5abd10914fe690"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="gad4efcc8ee3e17d945a69412a6f968150" name="gad4efcc8ee3e17d945a69412a6f968150"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad4efcc8ee3e17d945a69412a6f968150">&#9670;&#160;</a></span>EndAddress</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define EndAddress&#160;&#160;&#160;(<a class="el" href="group___f_l_a_s_h___program.html#ga4de232f89b7f3420a5388c905b5b759b">StartAddress</a> + (LIBCFG_FLASH_PAGESIZE * 4))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga4de232f89b7f3420a5388c905b5b759b" name="ga4de232f89b7f3420a5388c905b5b759b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4de232f89b7f3420a5388c905b5b759b">&#9670;&#160;</a></span>StartAddress</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define StartAddress&#160;&#160;&#160;(1024 * 6)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gad1329f933d64207189bedbba9c3d80ba" name="gad1329f933d64207189bedbba9c3d80ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad1329f933d64207189bedbba9c3d80ba">&#9670;&#160;</a></span>StartPage</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define StartPage&#160;&#160;&#160;(<a class="el" href="group___f_l_a_s_h___program.html#ga4de232f89b7f3420a5388c905b5b759b">StartAddress</a> / LIBCFG_FLASH_PAGESIZE)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga34ad45f7de2797f5e1956af3857fd17e" name="ga34ad45f7de2797f5e1956af3857fd17e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga34ad45f7de2797f5e1956af3857fd17e">&#9670;&#160;</a></span>WRITE_PROTECT_ENABLE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define WRITE_PROTECT_ENABLE&#160;&#160;&#160;/* Enable Flash write protection                                             */</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="gabe1ebe18b9582a7078ffcaa138df3cbe" name="gabe1ebe18b9582a7078ffcaa138df3cbe"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gabe1ebe18b9582a7078ffcaa138df3cbe">&#9670;&#160;</a></span>DisableWriteProtect()</h2>
@@ -362,6 +419,21 @@ u32&#160;</td><td class="memItemRight" valign="bottom"><b>err</b></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="ga8958fff24f728d622e5abd10914fe690" name="ga8958fff24f728d622e5abd10914fe690"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8958fff24f728d622e5abd10914fe690">&#9670;&#160;</a></span>err</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">u32 err</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

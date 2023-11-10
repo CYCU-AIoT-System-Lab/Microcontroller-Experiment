@@ -1,0 +1,7 @@
+<map id="USBD_EPTInit_TypeDef" name="USBD_EPTInit_TypeDef">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,187,166,213"/>
+<area shape="rect" id="Node000002" href="$union___e_p_t_c_f_g_r___t_y_p_e_d_e_f.html" title=" " alt="" coords="7,96,164,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="88,138,88,186,83,186,83,138"/>
+<area shape="rect" id="Node000003" href="$struct___e_p_t_c_f_g_r___b_i_t.html" title=" " alt="" coords="28,5,143,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="88,48,88,95,83,95,83,48"/>
+</map>

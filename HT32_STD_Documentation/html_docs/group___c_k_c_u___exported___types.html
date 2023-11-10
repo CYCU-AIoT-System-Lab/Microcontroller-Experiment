@@ -1,29 +1,62 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>HT32_STD_Documents: CKCU exported types</title>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>HT32_STD_Code_Documents: CKCU exported types</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
-   <div id="projectname">HT32_STD_Documents<span id="projectnumber">&#160;1.0.0</span>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">HT32_STD_Code_Documents
+   &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">For HT32F52352</div>
+   <div id="projectbrief">Micro-controller Experiment</div>
   </td>
  </tr>
  </tbody>
@@ -71,15 +104,20 @@ $(function() {
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
+<a href="#nested-classes">Data Structures</a> &#124;
 <a href="#define-members">Macros</a> &#124;
 <a href="#enum-members">Enumerations</a>  </div>
   <div class="headertitle"><div class="title">CKCU exported types<div class="ingroups"><a class="el" href="group___h_t32_f5xxxx___peripheral___driver.html">HT32F5xxxx Peripheral Driver</a> &raquo; <a class="el" href="group___c_k_c_u.html">CKCU</a></div></div></div>
 </div><!--header-->
 <div class="contents">
+<div class="dynheader">
+Collaboration diagram for CKCU exported types:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="group___c_k_c_u___exported___types.svg" width="264" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
+Data Structures</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_k_c_u___c_k_o_u_t_init_type_def.html">CKCU_CKOUTInitTypeDef</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Definition of CKOUT Init Structure.  <a href="struct_c_k_c_u___c_k_o_u_t_init_type_def.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -97,170 +135,235 @@ Classes</h2></td></tr>
 Macros</h2></td></tr>
 <tr class="memitem:gae24f23ebc4e42841a1672252b4f2093b" id="r_gae24f23ebc4e42841a1672252b4f2093b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_k_c_u___exported___types.html#gae24f23ebc4e42841a1672252b4f2093b">IS_PLL_CLKSRC</a>(SRC)</td></tr>
 <tr class="separator:gae24f23ebc4e42841a1672252b4f2093b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac1c212dcabe83664de9c55d76df7f932" id="r_gac1c212dcabe83664de9c55d76df7f932"><td class="memItemLeft" align="right" valign="top"><a id="gac1c212dcabe83664de9c55d76df7f932" name="gac1c212dcabe83664de9c55d76df7f932"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>CKCU_APBPCSR_OFFSET</b>&#160;&#160;&#160;(5)</td></tr>
+<tr class="memitem:gac1c212dcabe83664de9c55d76df7f932" id="r_gac1c212dcabe83664de9c55d76df7f932"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_k_c_u___exported___types.html#gac1c212dcabe83664de9c55d76df7f932">CKCU_APBPCSR_OFFSET</a>&#160;&#160;&#160;(5)</td></tr>
 <tr class="separator:gac1c212dcabe83664de9c55d76df7f932"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9605a4387c1f04de337c333c8dd3212c" id="r_ga9605a4387c1f04de337c333c8dd3212c"><td class="memItemLeft" align="right" valign="top"><a id="ga9605a4387c1f04de337c333c8dd3212c" name="ga9605a4387c1f04de337c333c8dd3212c"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>CKCU_APBPCSR0</b>&#160;&#160;&#160;(0 &lt;&lt; CKCU_APBPCSR_OFFSET)</td></tr>
+<tr class="memitem:ga9605a4387c1f04de337c333c8dd3212c" id="r_ga9605a4387c1f04de337c333c8dd3212c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_k_c_u___exported___types.html#ga9605a4387c1f04de337c333c8dd3212c">CKCU_APBPCSR0</a>&#160;&#160;&#160;(0 &lt;&lt; <a class="el" href="group___c_k_c_u___exported___types.html#gac1c212dcabe83664de9c55d76df7f932">CKCU_APBPCSR_OFFSET</a>)</td></tr>
 <tr class="separator:ga9605a4387c1f04de337c333c8dd3212c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2c79e87b5a4bf17b881d2ef50459a774" id="r_ga2c79e87b5a4bf17b881d2ef50459a774"><td class="memItemLeft" align="right" valign="top"><a id="ga2c79e87b5a4bf17b881d2ef50459a774" name="ga2c79e87b5a4bf17b881d2ef50459a774"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>CKCU_APBPCSR1</b>&#160;&#160;&#160;(1 &lt;&lt; CKCU_APBPCSR_OFFSET)</td></tr>
+<tr class="memitem:ga2c79e87b5a4bf17b881d2ef50459a774" id="r_ga2c79e87b5a4bf17b881d2ef50459a774"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_k_c_u___exported___types.html#ga2c79e87b5a4bf17b881d2ef50459a774">CKCU_APBPCSR1</a>&#160;&#160;&#160;(1 &lt;&lt; <a class="el" href="group___c_k_c_u___exported___types.html#gac1c212dcabe83664de9c55d76df7f932">CKCU_APBPCSR_OFFSET</a>)</td></tr>
 <tr class="separator:ga2c79e87b5a4bf17b881d2ef50459a774"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8f64cc2127bc6bf664f3cf2632d3140f" id="r_ga8f64cc2127bc6bf664f3cf2632d3140f"><td class="memItemLeft" align="right" valign="top"><a id="ga8f64cc2127bc6bf664f3cf2632d3140f" name="ga8f64cc2127bc6bf664f3cf2632d3140f"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>CKCU_APBPCSR2</b>&#160;&#160;&#160;(4 &lt;&lt; CKCU_APBPCSR_OFFSET)</td></tr>
+<tr class="memitem:ga8f64cc2127bc6bf664f3cf2632d3140f" id="r_ga8f64cc2127bc6bf664f3cf2632d3140f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_k_c_u___exported___types.html#ga8f64cc2127bc6bf664f3cf2632d3140f">CKCU_APBPCSR2</a>&#160;&#160;&#160;(4 &lt;&lt; <a class="el" href="group___c_k_c_u___exported___types.html#gac1c212dcabe83664de9c55d76df7f932">CKCU_APBPCSR_OFFSET</a>)</td></tr>
 <tr class="separator:ga8f64cc2127bc6bf664f3cf2632d3140f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab42cc10350240bc0843e85529ee59122" id="r_gab42cc10350240bc0843e85529ee59122"><td class="memItemLeft" align="right" valign="top"><a id="gab42cc10350240bc0843e85529ee59122" name="gab42cc10350240bc0843e85529ee59122"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>CKCU_PCLK_ADC</b>&#160;&#160;&#160;CKCU_PCLK_ADC0</td></tr>
+<tr class="memitem:gab42cc10350240bc0843e85529ee59122" id="r_gab42cc10350240bc0843e85529ee59122"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_k_c_u___exported___types.html#gab42cc10350240bc0843e85529ee59122">CKCU_PCLK_ADC</a>&#160;&#160;&#160;<a class="el" href="group___c_k_c_u___exported___types.html#gga91d61162cbf1c175fa291520cd806734afcecff959c96f709c49037c203bd3139">CKCU_PCLK_ADC0</a></td></tr>
 <tr class="separator:gab42cc10350240bc0843e85529ee59122"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:ga54d740646ef7c9332dbccf50c2f4792f" id="r_ga54d740646ef7c9332dbccf50c2f4792f"><td class="memItemLeft" align="right" valign="top"><a id="ga54d740646ef7c9332dbccf50c2f4792f" name="ga54d740646ef7c9332dbccf50c2f4792f"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_k_c_u___exported___types.html#ga54d740646ef7c9332dbccf50c2f4792f">CKCU_APBCLKPRE_TypeDef</a> { <br />
-&#160;&#160;<b>CKCU_APBCLKPRE_DIV1</b> = 0
-, <b>CKCU_APBCLKPRE_DIV2</b>
-, <b>CKCU_APBCLKPRE_DIV4</b>
-, <b>CKCU_APBCLKPRE_DIV8</b>
+<tr class="memitem:ga54d740646ef7c9332dbccf50c2f4792f" id="r_ga54d740646ef7c9332dbccf50c2f4792f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_k_c_u___exported___types.html#ga54d740646ef7c9332dbccf50c2f4792f">CKCU_APBCLKPRE_TypeDef</a> { <br />
+&#160;&#160;<a class="el" href="group___c_k_c_u___exported___types.html#gga54d740646ef7c9332dbccf50c2f4792fa81791f1033f3b5ef1c61e7f265784e60">CKCU_APBCLKPRE_DIV1</a> = 0
+, <a class="el" href="group___c_k_c_u___exported___types.html#gga54d740646ef7c9332dbccf50c2f4792fa7ef1c920ff72c93b5a78f0a15c83c4e8">CKCU_APBCLKPRE_DIV2</a>
+, <a class="el" href="group___c_k_c_u___exported___types.html#gga54d740646ef7c9332dbccf50c2f4792fa7b24bb8ee4a41063e20c79c719b852b5">CKCU_APBCLKPRE_DIV4</a>
+, <a class="el" href="group___c_k_c_u___exported___types.html#gga54d740646ef7c9332dbccf50c2f4792fa549726961fcfdf84efa1cd1db54a289b">CKCU_APBCLKPRE_DIV8</a>
 , <br />
-&#160;&#160;<b>CKCU_APBCLKPRE_DIV16</b>
-, <b>CKCU_APBCLKPRE_DIV32</b>
+&#160;&#160;<a class="el" href="group___c_k_c_u___exported___types.html#gga54d740646ef7c9332dbccf50c2f4792fa75a1e117646989f7d88a178438870b2b">CKCU_APBCLKPRE_DIV16</a>
+, <a class="el" href="group___c_k_c_u___exported___types.html#gga54d740646ef7c9332dbccf50c2f4792fa38f7c6a9d96a895bd989c06626777435">CKCU_APBCLKPRE_DIV32</a>
 <br />
  }</td></tr>
-<tr class="memdesc:ga54d740646ef7c9332dbccf50c2f4792f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumeration of APB peripheral prescaler. <br /></td></tr>
+<tr class="memdesc:ga54d740646ef7c9332dbccf50c2f4792f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumeration of APB peripheral prescaler.  <a href="group___c_k_c_u___exported___types.html#ga54d740646ef7c9332dbccf50c2f4792f">More...</a><br /></td></tr>
 <tr class="separator:ga54d740646ef7c9332dbccf50c2f4792f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga50675af07b470e703daf72bb620377ac" id="r_ga50675af07b470e703daf72bb620377ac"><td class="memItemLeft" align="right" valign="top"><a id="ga50675af07b470e703daf72bb620377ac" name="ga50675af07b470e703daf72bb620377ac"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_k_c_u___exported___types.html#ga50675af07b470e703daf72bb620377ac">CKCU_CKREFPRE_TypeDef</a> { <br />
-&#160;&#160;<b>CKCU_CKREFPRE_DIV2</b> = 0
-, <b>CKCU_CKREFPRE_DIV4</b>
-, <b>CKCU_CKREFPRE_DIV6</b>
-, <b>CKCU_CKREFPRE_DIV8</b>
+<tr class="memitem:ga50675af07b470e703daf72bb620377ac" id="r_ga50675af07b470e703daf72bb620377ac"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_k_c_u___exported___types.html#ga50675af07b470e703daf72bb620377ac">CKCU_CKREFPRE_TypeDef</a> { <br />
+&#160;&#160;<a class="el" href="group___c_k_c_u___exported___types.html#gga50675af07b470e703daf72bb620377aca313f5f7572c5cac0c9dc9fca95419a4c">CKCU_CKREFPRE_DIV2</a> = 0
+, <a class="el" href="group___c_k_c_u___exported___types.html#gga50675af07b470e703daf72bb620377aca0a6fbc9d5b41e4bc1e535cad49fc5822">CKCU_CKREFPRE_DIV4</a>
+, <a class="el" href="group___c_k_c_u___exported___types.html#gga50675af07b470e703daf72bb620377aca03ce325282874cb22957dbbfa619cdcb">CKCU_CKREFPRE_DIV6</a>
+, <a class="el" href="group___c_k_c_u___exported___types.html#gga50675af07b470e703daf72bb620377aca872d894490b11a76fcb608e614e86b84">CKCU_CKREFPRE_DIV8</a>
 , <br />
-&#160;&#160;<b>CKCU_CKREFPRE_DIV10</b>
-, <b>CKCU_CKREFPRE_DIV12</b>
-, <b>CKCU_CKREFPRE_DIV14</b>
-, <b>CKCU_CKREFPRE_DIV16</b>
+&#160;&#160;<a class="el" href="group___c_k_c_u___exported___types.html#gga50675af07b470e703daf72bb620377aca8203d8e2c792fdc51942e4628e29feca">CKCU_CKREFPRE_DIV10</a>
+, <a class="el" href="group___c_k_c_u___exported___types.html#gga50675af07b470e703daf72bb620377acabe52ffaa79147a7af81e028079fd8540">CKCU_CKREFPRE_DIV12</a>
+, <a class="el" href="group___c_k_c_u___exported___types.html#gga50675af07b470e703daf72bb620377aca35b83224041341d618c67cd2ad3904d4">CKCU_CKREFPRE_DIV14</a>
+, <a class="el" href="group___c_k_c_u___exported___types.html#gga50675af07b470e703daf72bb620377acaf96f55d51d4aa0781d0b53d8bc8d2c95">CKCU_CKREFPRE_DIV16</a>
 , <br />
-&#160;&#160;<b>CKCU_CKREFPRE_DIV18</b>
-, <b>CKCU_CKREFPRE_DIV20</b>
-, <b>CKCU_CKREFPRE_DIV22</b>
-, <b>CKCU_CKREFPRE_DIV24</b>
+&#160;&#160;<a class="el" href="group___c_k_c_u___exported___types.html#gga50675af07b470e703daf72bb620377aca0e3e77dc3c148c19e6b3725bc5685152">CKCU_CKREFPRE_DIV18</a>
+, <a class="el" href="group___c_k_c_u___exported___types.html#gga50675af07b470e703daf72bb620377aca5d3bb84ecf89eea518305fa549deb18a">CKCU_CKREFPRE_DIV20</a>
+, <a class="el" href="group___c_k_c_u___exported___types.html#gga50675af07b470e703daf72bb620377aca5a85a2ff25a32b5692f5a75054922e9f">CKCU_CKREFPRE_DIV22</a>
+, <a class="el" href="group___c_k_c_u___exported___types.html#gga50675af07b470e703daf72bb620377aca0ea82f4a62085160403ceb1ef54cd8b9">CKCU_CKREFPRE_DIV24</a>
 , <br />
-&#160;&#160;<b>CKCU_CKREFPRE_DIV26</b>
-, <b>CKCU_CKREFPRE_DIV28</b>
-, <b>CKCU_CKREFPRE_DIV30</b>
-, <b>CKCU_CKREFPRE_DIV32</b>
+&#160;&#160;<a class="el" href="group___c_k_c_u___exported___types.html#gga50675af07b470e703daf72bb620377acaa60701eabd97c1bcbcb7af638751f3ed">CKCU_CKREFPRE_DIV26</a>
+, <a class="el" href="group___c_k_c_u___exported___types.html#gga50675af07b470e703daf72bb620377aca749eb10ae6f161c980f646dd61047ec8">CKCU_CKREFPRE_DIV28</a>
+, <a class="el" href="group___c_k_c_u___exported___types.html#gga50675af07b470e703daf72bb620377acaf5b78da06c09113e1eebb9f0dd5c933e">CKCU_CKREFPRE_DIV30</a>
+, <a class="el" href="group___c_k_c_u___exported___types.html#gga50675af07b470e703daf72bb620377aca104bb28d92096f0475bb0ec91c5f0f30">CKCU_CKREFPRE_DIV32</a>
 , <br />
-&#160;&#160;<b>CKCU_CKREFPRE_DIV34</b>
-, <b>CKCU_CKREFPRE_DIV36</b>
-, <b>CKCU_CKREFPRE_DIV38</b>
-, <b>CKCU_CKREFPRE_DIV40</b>
+&#160;&#160;<a class="el" href="group___c_k_c_u___exported___types.html#gga50675af07b470e703daf72bb620377aca1809b283e72673f7d8aade9c7b15292c">CKCU_CKREFPRE_DIV34</a>
+, <a class="el" href="group___c_k_c_u___exported___types.html#gga50675af07b470e703daf72bb620377aca111d233ee8b166ff0ff23f8afd668499">CKCU_CKREFPRE_DIV36</a>
+, <a class="el" href="group___c_k_c_u___exported___types.html#gga50675af07b470e703daf72bb620377aca4076de2827ddfa64dd619d6cf3bba5a4">CKCU_CKREFPRE_DIV38</a>
+, <a class="el" href="group___c_k_c_u___exported___types.html#gga50675af07b470e703daf72bb620377aca48f27ebb4c325050e6d4c4984db1ee22">CKCU_CKREFPRE_DIV40</a>
 , <br />
-&#160;&#160;<b>CKCU_CKREFPRE_DIV42</b>
-, <b>CKCU_CKREFPRE_DIV44</b>
-, <b>CKCU_CKREFPRE_DIV46</b>
-, <b>CKCU_CKREFPRE_DIV48</b>
+&#160;&#160;<a class="el" href="group___c_k_c_u___exported___types.html#gga50675af07b470e703daf72bb620377aca992a8b58ef29c58eeed538af19ef270f">CKCU_CKREFPRE_DIV42</a>
+, <a class="el" href="group___c_k_c_u___exported___types.html#gga50675af07b470e703daf72bb620377aca222380bf559931ebfccdfa7db09c5d81">CKCU_CKREFPRE_DIV44</a>
+, <a class="el" href="group___c_k_c_u___exported___types.html#gga50675af07b470e703daf72bb620377acaa9f697ad8abb94df781557704d4dfee2">CKCU_CKREFPRE_DIV46</a>
+, <a class="el" href="group___c_k_c_u___exported___types.html#gga50675af07b470e703daf72bb620377acab143bb6a0adb0f8aa665a5943ace693d">CKCU_CKREFPRE_DIV48</a>
 , <br />
-&#160;&#160;<b>CKCU_CKREFPRE_DIV50</b>
-, <b>CKCU_CKREFPRE_DIV52</b>
-, <b>CKCU_CKREFPRE_DIV54</b>
-, <b>CKCU_CKREFPRE_DIV56</b>
+&#160;&#160;<a class="el" href="group___c_k_c_u___exported___types.html#gga50675af07b470e703daf72bb620377aca2b0994e74a8b970ef31d4425cb16b398">CKCU_CKREFPRE_DIV50</a>
+, <a class="el" href="group___c_k_c_u___exported___types.html#gga50675af07b470e703daf72bb620377acae78562fc1e2370f7f854bf09709fd513">CKCU_CKREFPRE_DIV52</a>
+, <a class="el" href="group___c_k_c_u___exported___types.html#gga50675af07b470e703daf72bb620377aca4aa7bb38079e0447068ae25a6af76943">CKCU_CKREFPRE_DIV54</a>
+, <a class="el" href="group___c_k_c_u___exported___types.html#gga50675af07b470e703daf72bb620377aca1b55067d36c967b6fbe277f42f5f413b">CKCU_CKREFPRE_DIV56</a>
 , <br />
-&#160;&#160;<b>CKCU_CKREFPRE_DIV58</b>
-, <b>CKCU_CKREFPRE_DIV60</b>
-, <b>CKCU_CKREFPRE_DIV62</b>
-, <b>CKCU_CKREFPRE_DIV64</b>
+&#160;&#160;<a class="el" href="group___c_k_c_u___exported___types.html#gga50675af07b470e703daf72bb620377acae7a5451d143927bb1ef7b4437508da7a">CKCU_CKREFPRE_DIV58</a>
+, <a class="el" href="group___c_k_c_u___exported___types.html#gga50675af07b470e703daf72bb620377acad0e986b45b4773b5ff499054a9ea3444">CKCU_CKREFPRE_DIV60</a>
+, <a class="el" href="group___c_k_c_u___exported___types.html#gga50675af07b470e703daf72bb620377acabd3c39a8cd37037fb34d56a1aa4d97ec">CKCU_CKREFPRE_DIV62</a>
+, <a class="el" href="group___c_k_c_u___exported___types.html#gga50675af07b470e703daf72bb620377acaefcd8d2f7fd2dc02e5868972146d7e5e">CKCU_CKREFPRE_DIV64</a>
 <br />
  }</td></tr>
-<tr class="memdesc:ga50675af07b470e703daf72bb620377ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumeration of CK_REF prescaler. <br /></td></tr>
+<tr class="memdesc:ga50675af07b470e703daf72bb620377ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumeration of CK_REF prescaler.  <a href="group___c_k_c_u___exported___types.html#ga50675af07b470e703daf72bb620377ac">More...</a><br /></td></tr>
 <tr class="separator:ga50675af07b470e703daf72bb620377ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga304bd400b4a61c796a57bf21e89d509c" id="r_ga304bd400b4a61c796a57bf21e89d509c"><td class="memItemLeft" align="right" valign="top"><a id="ga304bd400b4a61c796a57bf21e89d509c" name="ga304bd400b4a61c796a57bf21e89d509c"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_k_c_u___exported___types.html#ga304bd400b4a61c796a57bf21e89d509c">CKCU_PLLSRC_TypeDef</a> { <b>CKCU_PLLSRC_HSE</b> = 0
-, <b>CKCU_PLLSRC_HSI</b>
+<tr class="memitem:ga304bd400b4a61c796a57bf21e89d509c" id="r_ga304bd400b4a61c796a57bf21e89d509c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_k_c_u___exported___types.html#ga304bd400b4a61c796a57bf21e89d509c">CKCU_PLLSRC_TypeDef</a> { <a class="el" href="group___c_k_c_u___exported___types.html#gga304bd400b4a61c796a57bf21e89d509caa1bb6cd3858e2f65958e5baea01cb8fe">CKCU_PLLSRC_HSE</a> = 0
+, <a class="el" href="group___c_k_c_u___exported___types.html#gga304bd400b4a61c796a57bf21e89d509ca870ebeda06cba976a35b2cc6df003551">CKCU_PLLSRC_HSI</a>
  }</td></tr>
-<tr class="memdesc:ga304bd400b4a61c796a57bf21e89d509c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumeration of PLL clock source. <br /></td></tr>
+<tr class="memdesc:ga304bd400b4a61c796a57bf21e89d509c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumeration of PLL clock source.  <a href="group___c_k_c_u___exported___types.html#ga304bd400b4a61c796a57bf21e89d509c">More...</a><br /></td></tr>
 <tr class="separator:ga304bd400b4a61c796a57bf21e89d509c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga140a813d568c51f14dfd79deb726f47e" id="r_ga140a813d568c51f14dfd79deb726f47e"><td class="memItemLeft" align="right" valign="top"><a id="ga140a813d568c51f14dfd79deb726f47e" name="ga140a813d568c51f14dfd79deb726f47e"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_k_c_u___exported___types.html#ga140a813d568c51f14dfd79deb726f47e">CKCU_SYSCLKDIV_TypeDef</a> { <br />
-&#160;&#160;<b>CKCU_SYSCLK_DIV1</b> = 0
-, <b>CKCU_SYSCLK_DIV2</b>
-, <b>CKCU_SYSCLK_DIV4</b>
-, <b>CKCU_SYSCLK_DIV8</b>
+<tr class="memitem:ga140a813d568c51f14dfd79deb726f47e" id="r_ga140a813d568c51f14dfd79deb726f47e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_k_c_u___exported___types.html#ga140a813d568c51f14dfd79deb726f47e">CKCU_SYSCLKDIV_TypeDef</a> { <br />
+&#160;&#160;<a class="el" href="group___c_k_c_u___exported___types.html#gga140a813d568c51f14dfd79deb726f47ea9f2c1053d8eaf9bfb6efca6ec9e509bd">CKCU_SYSCLK_DIV1</a> = 0
+, <a class="el" href="group___c_k_c_u___exported___types.html#gga140a813d568c51f14dfd79deb726f47ea3bf715297064a45739230cef44dfd1dc">CKCU_SYSCLK_DIV2</a>
+, <a class="el" href="group___c_k_c_u___exported___types.html#gga140a813d568c51f14dfd79deb726f47ea4fc472c1258ae58e3349b12b42b00260">CKCU_SYSCLK_DIV4</a>
+, <a class="el" href="group___c_k_c_u___exported___types.html#gga140a813d568c51f14dfd79deb726f47ea3c60b68c9bb70e05efe3fcf5edc3fe53">CKCU_SYSCLK_DIV8</a>
 , <br />
-&#160;&#160;<b>CKCU_SYSCLK_DIV16</b>
-, <b>CKCU_SYSCLK_DIV32</b>
+&#160;&#160;<a class="el" href="group___c_k_c_u___exported___types.html#gga140a813d568c51f14dfd79deb726f47ea65753ebe7b2f44cb454a100c1d60f94a">CKCU_SYSCLK_DIV16</a>
+, <a class="el" href="group___c_k_c_u___exported___types.html#gga140a813d568c51f14dfd79deb726f47eaef41f235394dd422aa630b8e3410346a">CKCU_SYSCLK_DIV32</a>
 <br />
  }</td></tr>
-<tr class="memdesc:ga140a813d568c51f14dfd79deb726f47e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumeration of CK_AHB prescaler. <br /></td></tr>
+<tr class="memdesc:ga140a813d568c51f14dfd79deb726f47e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumeration of CK_AHB prescaler.  <a href="group___c_k_c_u___exported___types.html#ga140a813d568c51f14dfd79deb726f47e">More...</a><br /></td></tr>
 <tr class="separator:ga140a813d568c51f14dfd79deb726f47e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae36be110c6b6271c2bb257e2848236d7" id="r_gae36be110c6b6271c2bb257e2848236d7"><td class="memItemLeft" align="right" valign="top"><a id="gae36be110c6b6271c2bb257e2848236d7" name="gae36be110c6b6271c2bb257e2848236d7"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_k_c_u___exported___types.html#gae36be110c6b6271c2bb257e2848236d7">CKCU_ADCPRE_TypeDef</a> { <br />
-&#160;&#160;<b>CKCU_ADCPRE_DIV1</b> = 0
-, <b>CKCU_ADCPRE_DIV2</b> = 1
-, <b>CKCU_ADCPRE_DIV4</b>
-, <b>CKCU_ADCPRE_DIV8</b>
+<tr class="memitem:gae36be110c6b6271c2bb257e2848236d7" id="r_gae36be110c6b6271c2bb257e2848236d7"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_k_c_u___exported___types.html#gae36be110c6b6271c2bb257e2848236d7">CKCU_ADCPRE_TypeDef</a> { <br />
+&#160;&#160;<a class="el" href="group___c_k_c_u___exported___types.html#ggae36be110c6b6271c2bb257e2848236d7a29619bebbe1ad546f799d6397633e611">CKCU_ADCPRE_DIV1</a> = 0
+, <a class="el" href="group___c_k_c_u___exported___types.html#ggae36be110c6b6271c2bb257e2848236d7a6d3542f1f68997dc206b7ddbf0ed7ebe">CKCU_ADCPRE_DIV2</a> = 1
+, <a class="el" href="group___c_k_c_u___exported___types.html#ggae36be110c6b6271c2bb257e2848236d7a3139e978ec09204d10bef55bc5503292">CKCU_ADCPRE_DIV4</a>
+, <a class="el" href="group___c_k_c_u___exported___types.html#ggae36be110c6b6271c2bb257e2848236d7a9567d25296a6ed0e954611fc13c5d8fd">CKCU_ADCPRE_DIV8</a>
 , <br />
-&#160;&#160;<b>CKCU_ADCPRE_DIV16</b>
-, <b>CKCU_ADCPRE_DIV32</b>
-, <b>CKCU_ADCPRE_DIV64</b>
-, <b>CKCU_ADCPRE_DIV3</b>
+&#160;&#160;<a class="el" href="group___c_k_c_u___exported___types.html#ggae36be110c6b6271c2bb257e2848236d7a98906a1447ecdc1823db86d88aec338e">CKCU_ADCPRE_DIV16</a>
+, <a class="el" href="group___c_k_c_u___exported___types.html#ggae36be110c6b6271c2bb257e2848236d7ae2041a035bd5c5c4914ab32145554392">CKCU_ADCPRE_DIV32</a>
+, <a class="el" href="group___c_k_c_u___exported___types.html#ggae36be110c6b6271c2bb257e2848236d7a8a1da9dc2b1c3f422418a4e6885a57f2">CKCU_ADCPRE_DIV64</a>
+, <a class="el" href="group___c_k_c_u___exported___types.html#ggae36be110c6b6271c2bb257e2848236d7af9a470f3f537aea462251fa1931d553b">CKCU_ADCPRE_DIV3</a>
 <br />
  }</td></tr>
-<tr class="memdesc:gae36be110c6b6271c2bb257e2848236d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumeration of CK_ADC prescaler. <br /></td></tr>
+<tr class="memdesc:gae36be110c6b6271c2bb257e2848236d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumeration of CK_ADC prescaler.  <a href="group___c_k_c_u___exported___types.html#gae36be110c6b6271c2bb257e2848236d7">More...</a><br /></td></tr>
 <tr class="separator:gae36be110c6b6271c2bb257e2848236d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gadeb94eee2ce25fcdf2d0a2bc50df0ecf" id="r_gadeb94eee2ce25fcdf2d0a2bc50df0ecf"><td class="memItemLeft" align="right" valign="top"><a id="gadeb94eee2ce25fcdf2d0a2bc50df0ecf" name="gadeb94eee2ce25fcdf2d0a2bc50df0ecf"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_k_c_u___exported___types.html#gadeb94eee2ce25fcdf2d0a2bc50df0ecf">CKCU_ADCPRE_ADCn_TypeDef</a> { <b>CKCU_ADCPRE_ADC0</b> = 16
+<tr class="memitem:gadeb94eee2ce25fcdf2d0a2bc50df0ecf" id="r_gadeb94eee2ce25fcdf2d0a2bc50df0ecf"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_k_c_u___exported___types.html#gadeb94eee2ce25fcdf2d0a2bc50df0ecf">CKCU_ADCPRE_ADCn_TypeDef</a> { <a class="el" href="group___c_k_c_u___exported___types.html#ggadeb94eee2ce25fcdf2d0a2bc50df0ecfa0d03ca27f8608f6bc9748303f4c390ab">CKCU_ADCPRE_ADC0</a> = 16
  }</td></tr>
-<tr class="memdesc:gadeb94eee2ce25fcdf2d0a2bc50df0ecf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumeration of CK_ADCn. <br /></td></tr>
+<tr class="memdesc:gadeb94eee2ce25fcdf2d0a2bc50df0ecf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumeration of CK_ADCn.  <a href="group___c_k_c_u___exported___types.html#gadeb94eee2ce25fcdf2d0a2bc50df0ecf">More...</a><br /></td></tr>
 <tr class="separator:gadeb94eee2ce25fcdf2d0a2bc50df0ecf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5ce21c345a85be415ca2e66483a80ecb" id="r_ga5ce21c345a85be415ca2e66483a80ecb"><td class="memItemLeft" align="right" valign="top"><a id="ga5ce21c345a85be415ca2e66483a80ecb" name="ga5ce21c345a85be415ca2e66483a80ecb"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_k_c_u___exported___types.html#ga5ce21c345a85be415ca2e66483a80ecb">CKCU_SW_TypeDef</a> { <b>CKCU_SW_PLL</b> = 1
-, <b>CKCU_SW_HSE</b> = 2
-, <b>CKCU_SW_HSI</b> = 3
-, <b>CKCU_SW_LSI</b> = 7
+<tr class="memitem:ga5ce21c345a85be415ca2e66483a80ecb" id="r_ga5ce21c345a85be415ca2e66483a80ecb"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_k_c_u___exported___types.html#ga5ce21c345a85be415ca2e66483a80ecb">CKCU_SW_TypeDef</a> { <a class="el" href="group___c_k_c_u___exported___types.html#gga5ce21c345a85be415ca2e66483a80ecba1fb92d9821110545b1188d73800f036e">CKCU_SW_PLL</a> = 1
+, <a class="el" href="group___c_k_c_u___exported___types.html#gga5ce21c345a85be415ca2e66483a80ecba1a45f7b9b7c9dbb05337767c72b57322">CKCU_SW_HSE</a> = 2
+, <a class="el" href="group___c_k_c_u___exported___types.html#gga5ce21c345a85be415ca2e66483a80ecba746b7a2545e83f25bf1c74973d3ea08d">CKCU_SW_HSI</a> = 3
+, <a class="el" href="group___c_k_c_u___exported___types.html#gga5ce21c345a85be415ca2e66483a80ecba56b1c4699a73241bdc581ba6cee24c7e">CKCU_SW_LSI</a> = 7
  }</td></tr>
-<tr class="memdesc:ga5ce21c345a85be415ca2e66483a80ecb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumeration of System clock source. <br /></td></tr>
+<tr class="memdesc:ga5ce21c345a85be415ca2e66483a80ecb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumeration of System clock source.  <a href="group___c_k_c_u___exported___types.html#ga5ce21c345a85be415ca2e66483a80ecb">More...</a><br /></td></tr>
 <tr class="separator:ga5ce21c345a85be415ca2e66483a80ecb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2954555a87533e22aea4674e51267ac7" id="r_ga2954555a87533e22aea4674e51267ac7"><td class="memItemLeft" align="right" valign="top"><a id="ga2954555a87533e22aea4674e51267ac7" name="ga2954555a87533e22aea4674e51267ac7"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_k_c_u___exported___types.html#ga2954555a87533e22aea4674e51267ac7">CKCU_CKOUTSRC_TypeDef</a> { <br />
-&#160;&#160;<b>CKCU_CKOUTSRC_REFCK</b> = 0
-, <b>CKCU_CKOUTSRC_HCLK_DIV16</b> = 1
-, <b>CKCU_CKOUTSRC_SYSCK_DIV16</b> = 2
-, <b>CKCU_CKOUTSRC_HSECK_DIV16</b> = 3
+<tr class="memitem:ga2954555a87533e22aea4674e51267ac7" id="r_ga2954555a87533e22aea4674e51267ac7"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_k_c_u___exported___types.html#ga2954555a87533e22aea4674e51267ac7">CKCU_CKOUTSRC_TypeDef</a> { <br />
+&#160;&#160;<a class="el" href="group___c_k_c_u___exported___types.html#gga2954555a87533e22aea4674e51267ac7a2820faa8ded1d33a0ad0eac847c3adce">CKCU_CKOUTSRC_REFCK</a> = 0
+, <a class="el" href="group___c_k_c_u___exported___types.html#gga2954555a87533e22aea4674e51267ac7a6217fac5c36ff469e234254d6e550fad">CKCU_CKOUTSRC_HCLK_DIV16</a> = 1
+, <a class="el" href="group___c_k_c_u___exported___types.html#gga2954555a87533e22aea4674e51267ac7ab335b4815eefb9647a5bd6618dd308ca">CKCU_CKOUTSRC_SYSCK_DIV16</a> = 2
+, <a class="el" href="group___c_k_c_u___exported___types.html#gga2954555a87533e22aea4674e51267ac7a076efe85b5a364a405d2f877123452a2">CKCU_CKOUTSRC_HSECK_DIV16</a> = 3
 , <br />
-&#160;&#160;<b>CKCU_CKOUTSRC_HSICK_DIV16</b> = 4
-, <b>CKCU_CKOUTSRC_LSICK</b> = 6
+&#160;&#160;<a class="el" href="group___c_k_c_u___exported___types.html#gga2954555a87533e22aea4674e51267ac7a8073558ae54fc54e4999f820e8e9a3ca">CKCU_CKOUTSRC_HSICK_DIV16</a> = 4
+, <a class="el" href="group___c_k_c_u___exported___types.html#gga2954555a87533e22aea4674e51267ac7af7ba57f6e002457a8ef55c7090208c43">CKCU_CKOUTSRC_LSICK</a> = 6
 <br />
  }</td></tr>
-<tr class="memdesc:ga2954555a87533e22aea4674e51267ac7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumeration of CKOUT clock source. <br /></td></tr>
+<tr class="memdesc:ga2954555a87533e22aea4674e51267ac7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumeration of CKOUT clock source.  <a href="group___c_k_c_u___exported___types.html#ga2954555a87533e22aea4674e51267ac7">More...</a><br /></td></tr>
 <tr class="separator:ga2954555a87533e22aea4674e51267ac7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga40759efdb664bcea530d1ae60e492060" id="r_ga40759efdb664bcea530d1ae60e492060"><td class="memItemLeft" align="right" valign="top"><a id="ga40759efdb664bcea530d1ae60e492060" name="ga40759efdb664bcea530d1ae60e492060"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_k_c_u___exported___types.html#ga40759efdb664bcea530d1ae60e492060">CKCU_PLLST_TypeDef</a> { <b>CKCU_PLLST_SYSCK</b> = 1
-, <b>CKCU_PLLST_REFCK</b> = 8
+<tr class="memitem:ga40759efdb664bcea530d1ae60e492060" id="r_ga40759efdb664bcea530d1ae60e492060"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_k_c_u___exported___types.html#ga40759efdb664bcea530d1ae60e492060">CKCU_PLLST_TypeDef</a> { <a class="el" href="group___c_k_c_u___exported___types.html#gga40759efdb664bcea530d1ae60e492060ad1f8c16776db3a5e2c22dd9c234187e3">CKCU_PLLST_SYSCK</a> = 1
+, <a class="el" href="group___c_k_c_u___exported___types.html#gga40759efdb664bcea530d1ae60e492060a882d96afd9ecd45d73454b15d643b126">CKCU_PLLST_REFCK</a> = 8
  }</td></tr>
-<tr class="memdesc:ga40759efdb664bcea530d1ae60e492060"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumeration of PLL clock source status. <br /></td></tr>
+<tr class="memdesc:ga40759efdb664bcea530d1ae60e492060"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumeration of PLL clock source status.  <a href="group___c_k_c_u___exported___types.html#ga40759efdb664bcea530d1ae60e492060">More...</a><br /></td></tr>
 <tr class="separator:ga40759efdb664bcea530d1ae60e492060"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga686f7fedf6398f75d6476d03d22da879" id="r_ga686f7fedf6398f75d6476d03d22da879"><td class="memItemLeft" align="right" valign="top"><a id="ga686f7fedf6398f75d6476d03d22da879" name="ga686f7fedf6398f75d6476d03d22da879"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_k_c_u___exported___types.html#ga686f7fedf6398f75d6476d03d22da879">CKCU_HSIST_TypeDef</a> { <b>CKCU_HSIST_SYSCK</b> = 1
-, <b>CKCU_HSIST_PLL</b> = 2
-, <b>CKCU_HSIST_CKM</b> = 4
+<tr class="memitem:ga686f7fedf6398f75d6476d03d22da879" id="r_ga686f7fedf6398f75d6476d03d22da879"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_k_c_u___exported___types.html#ga686f7fedf6398f75d6476d03d22da879">CKCU_HSIST_TypeDef</a> { <a class="el" href="group___c_k_c_u___exported___types.html#gga686f7fedf6398f75d6476d03d22da879ac8642eaf4eeb187ca6af743a5edb2a2c">CKCU_HSIST_SYSCK</a> = 1
+, <a class="el" href="group___c_k_c_u___exported___types.html#gga686f7fedf6398f75d6476d03d22da879ae41fdae20d0215ba33471d30997d79e5">CKCU_HSIST_PLL</a> = 2
+, <a class="el" href="group___c_k_c_u___exported___types.html#gga686f7fedf6398f75d6476d03d22da879a8b224d49d18cd0a21c466c67d8d1f77b">CKCU_HSIST_CKM</a> = 4
  }</td></tr>
-<tr class="memdesc:ga686f7fedf6398f75d6476d03d22da879"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumeration of HSI clock source status. <br /></td></tr>
+<tr class="memdesc:ga686f7fedf6398f75d6476d03d22da879"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumeration of HSI clock source status.  <a href="group___c_k_c_u___exported___types.html#ga686f7fedf6398f75d6476d03d22da879">More...</a><br /></td></tr>
 <tr class="separator:ga686f7fedf6398f75d6476d03d22da879"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa5b54d6015ce416f0c71ace7385ab2e5" id="r_gaa5b54d6015ce416f0c71ace7385ab2e5"><td class="memItemLeft" align="right" valign="top"><a id="gaa5b54d6015ce416f0c71ace7385ab2e5" name="gaa5b54d6015ce416f0c71ace7385ab2e5"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_k_c_u___exported___types.html#gaa5b54d6015ce416f0c71ace7385ab2e5">CKCU_HSEST_TypeDef</a> { <b>CKCU_HSEST_SYSCK</b> = 1
-, <b>CKCU_HSEST_PLL</b>
+<tr class="memitem:gaa5b54d6015ce416f0c71ace7385ab2e5" id="r_gaa5b54d6015ce416f0c71ace7385ab2e5"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_k_c_u___exported___types.html#gaa5b54d6015ce416f0c71ace7385ab2e5">CKCU_HSEST_TypeDef</a> { <a class="el" href="group___c_k_c_u___exported___types.html#ggaa5b54d6015ce416f0c71ace7385ab2e5abbb019d822533f9d7070a05c68f4ddbd">CKCU_HSEST_SYSCK</a> = 1
+, <a class="el" href="group___c_k_c_u___exported___types.html#ggaa5b54d6015ce416f0c71ace7385ab2e5a9ae06ffb88ff25ad9440664ae4538100">CKCU_HSEST_PLL</a>
  }</td></tr>
-<tr class="memdesc:gaa5b54d6015ce416f0c71ace7385ab2e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumeration of HSE clock source status. <br /></td></tr>
+<tr class="memdesc:gaa5b54d6015ce416f0c71ace7385ab2e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumeration of HSE clock source status.  <a href="group___c_k_c_u___exported___types.html#gaa5b54d6015ce416f0c71ace7385ab2e5">More...</a><br /></td></tr>
 <tr class="separator:gaa5b54d6015ce416f0c71ace7385ab2e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga91d61162cbf1c175fa291520cd806734" id="r_ga91d61162cbf1c175fa291520cd806734"><td class="memItemLeft" align="right" valign="top"><a id="ga91d61162cbf1c175fa291520cd806734" name="ga91d61162cbf1c175fa291520cd806734"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>CKCU_PeripPrescaler_TypeDef</b> { <br />
-&#160;&#160;<b>CKCU_PCLK_I2C0</b> = (CKCU_APBPCSR0 | 0)
-, <b>CKCU_PCLK_SPI0</b> = (CKCU_APBPCSR0 | 4)
-, <b>CKCU_PCLK_BFTM0</b> = (CKCU_APBPCSR0 | 12)
-, <b>CKCU_PCLK_GPTM0</b> = (CKCU_APBPCSR0 | 20)
+<tr class="memitem:ga91d61162cbf1c175fa291520cd806734" id="r_ga91d61162cbf1c175fa291520cd806734"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_k_c_u___exported___types.html#ga91d61162cbf1c175fa291520cd806734">CKCU_PeripPrescaler_TypeDef</a> { <br />
+&#160;&#160;<a class="el" href="group___c_k_c_u___exported___types.html#gga91d61162cbf1c175fa291520cd806734a677c18b32081270fcd0f1ae0c9b88fd1">CKCU_PCLK_I2C0</a> = (CKCU_APBPCSR0 | 0)
+, <a class="el" href="group___c_k_c_u___exported___types.html#gga91d61162cbf1c175fa291520cd806734a26bd67ae5ca3c52c595010175cd1ce8b">CKCU_PCLK_SPI0</a> = (CKCU_APBPCSR0 | 4)
+, <a class="el" href="group___c_k_c_u___exported___types.html#gga91d61162cbf1c175fa291520cd806734ab7656d3cd5eaac124bfd82aee7ac045c">CKCU_PCLK_BFTM0</a> = (CKCU_APBPCSR0 | 12)
+, <a class="el" href="group___c_k_c_u___exported___types.html#gga91d61162cbf1c175fa291520cd806734a03f08f28a3f4708183ea8cb0b8d87b3f">CKCU_PCLK_GPTM0</a> = (CKCU_APBPCSR0 | 20)
 , <br />
-&#160;&#160;<b>CKCU_PCLK_USART0</b> = (CKCU_APBPCSR0 | 24)
-, <b>CKCU_PCLK_UART0</b> = (CKCU_APBPCSR0 | 28)
-, <b>CKCU_PCLK_AFIO</b> = (CKCU_APBPCSR1 | 0)
-, <b>CKCU_PCLK_EXTI</b> = (CKCU_APBPCSR1 | 2)
+&#160;&#160;<a class="el" href="group___c_k_c_u___exported___types.html#gga91d61162cbf1c175fa291520cd806734aff5c1ad62f89a1f9216475fc5cbdc74c">CKCU_PCLK_USART0</a> = (CKCU_APBPCSR0 | 24)
+, <a class="el" href="group___c_k_c_u___exported___types.html#gga91d61162cbf1c175fa291520cd806734a2de48553a4d7ae39866106a7dfddfce3">CKCU_PCLK_UART0</a> = (CKCU_APBPCSR0 | 28)
+, <a class="el" href="group___c_k_c_u___exported___types.html#gga91d61162cbf1c175fa291520cd806734a66c577c1524d8ad2b554490ffe323925">CKCU_PCLK_AFIO</a> = (CKCU_APBPCSR1 | 0)
+, <a class="el" href="group___c_k_c_u___exported___types.html#gga91d61162cbf1c175fa291520cd806734aebdc01864927b87c20ef303f8d8c3f31">CKCU_PCLK_EXTI</a> = (CKCU_APBPCSR1 | 2)
 , <br />
-&#160;&#160;<b>CKCU_PCLK_ADC0</b> = (CKCU_APBPCSR1 | 4)
-, <b>CKCU_PCLK_WDTR</b> = (CKCU_APBPCSR1 | 12)
-, <b>CKCU_PCLK_BKPR</b> = (CKCU_APBPCSR1 | 14)
+&#160;&#160;<a class="el" href="group___c_k_c_u___exported___types.html#gga91d61162cbf1c175fa291520cd806734afcecff959c96f709c49037c203bd3139">CKCU_PCLK_ADC0</a> = (CKCU_APBPCSR1 | 4)
+, <a class="el" href="group___c_k_c_u___exported___types.html#gga91d61162cbf1c175fa291520cd806734ac0307291800a8365e151fb1c0818e8b8">CKCU_PCLK_WDTR</a> = (CKCU_APBPCSR1 | 12)
+, <a class="el" href="group___c_k_c_u___exported___types.html#gga91d61162cbf1c175fa291520cd806734acbd0341baa497ecabd89f96b2f46b68b">CKCU_PCLK_BKPR</a> = (CKCU_APBPCSR1 | 14)
 <br />
  }</td></tr>
 <tr class="separator:ga91d61162cbf1c175fa291520cd806734"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="ga9605a4387c1f04de337c333c8dd3212c" name="ga9605a4387c1f04de337c333c8dd3212c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9605a4387c1f04de337c333c8dd3212c">&#9670;&#160;</a></span>CKCU_APBPCSR0</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CKCU_APBPCSR0&#160;&#160;&#160;(0 &lt;&lt; <a class="el" href="group___c_k_c_u___exported___types.html#gac1c212dcabe83664de9c55d76df7f932">CKCU_APBPCSR_OFFSET</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga2c79e87b5a4bf17b881d2ef50459a774" name="ga2c79e87b5a4bf17b881d2ef50459a774"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2c79e87b5a4bf17b881d2ef50459a774">&#9670;&#160;</a></span>CKCU_APBPCSR1</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CKCU_APBPCSR1&#160;&#160;&#160;(1 &lt;&lt; <a class="el" href="group___c_k_c_u___exported___types.html#gac1c212dcabe83664de9c55d76df7f932">CKCU_APBPCSR_OFFSET</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga8f64cc2127bc6bf664f3cf2632d3140f" name="ga8f64cc2127bc6bf664f3cf2632d3140f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8f64cc2127bc6bf664f3cf2632d3140f">&#9670;&#160;</a></span>CKCU_APBPCSR2</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CKCU_APBPCSR2&#160;&#160;&#160;(4 &lt;&lt; <a class="el" href="group___c_k_c_u___exported___types.html#gac1c212dcabe83664de9c55d76df7f932">CKCU_APBPCSR_OFFSET</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gac1c212dcabe83664de9c55d76df7f932" name="gac1c212dcabe83664de9c55d76df7f932"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac1c212dcabe83664de9c55d76df7f932">&#9670;&#160;</a></span>CKCU_APBPCSR_OFFSET</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CKCU_APBPCSR_OFFSET&#160;&#160;&#160;(5)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gab42cc10350240bc0843e85529ee59122" name="gab42cc10350240bc0843e85529ee59122"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab42cc10350240bc0843e85529ee59122">&#9670;&#160;</a></span>CKCU_PCLK_ADC</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CKCU_PCLK_ADC&#160;&#160;&#160;<a class="el" href="group___c_k_c_u___exported___types.html#gga91d61162cbf1c175fa291520cd806734afcecff959c96f709c49037c203bd3139">CKCU_PCLK_ADC0</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="gae24f23ebc4e42841a1672252b4f2093b" name="gae24f23ebc4e42841a1672252b4f2093b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gae24f23ebc4e42841a1672252b4f2093b">&#9670;&#160;</a></span>IS_PLL_CLKSRC</h2>
 
@@ -276,9 +379,309 @@ Enumerations</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">                                 ((SRC == CKCU_PLLSRC_HSE) || \</div>
-<div class="line">                                 (SRC == CKCU_PLLSRC_HSI))</div>
+<b>Value:</b><div class="fragment"><div class="line">                                 ((SRC == <a class="code hl_enumvalue" href="group___c_k_c_u___exported___types.html#gga304bd400b4a61c796a57bf21e89d509caa1bb6cd3858e2f65958e5baea01cb8fe">CKCU_PLLSRC_HSE</a>) || \</div>
+<div class="line">                                 (SRC == <a class="code hl_enumvalue" href="group___c_k_c_u___exported___types.html#gga304bd400b4a61c796a57bf21e89d509ca870ebeda06cba976a35b2cc6df003551">CKCU_PLLSRC_HSI</a>))</div>
+<div class="ttc" id="agroup___c_k_c_u___exported___types_html_gga304bd400b4a61c796a57bf21e89d509ca870ebeda06cba976a35b2cc6df003551"><div class="ttname"><a href="group___c_k_c_u___exported___types.html#gga304bd400b4a61c796a57bf21e89d509ca870ebeda06cba976a35b2cc6df003551">CKCU_PLLSRC_HSI</a></div><div class="ttdeci">@ CKCU_PLLSRC_HSI</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_ckcu.h:114</div></div>
+<div class="ttc" id="agroup___c_k_c_u___exported___types_html_gga304bd400b4a61c796a57bf21e89d509caa1bb6cd3858e2f65958e5baea01cb8fe"><div class="ttname"><a href="group___c_k_c_u___exported___types.html#gga304bd400b4a61c796a57bf21e89d509caa1bb6cd3858e2f65958e5baea01cb8fe">CKCU_PLLSRC_HSE</a></div><div class="ttdeci">@ CKCU_PLLSRC_HSE</div><div class="ttdef"><b>Definition</b> ht32f5xxxx_ckcu.h:113</div></div>
 </div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="gadeb94eee2ce25fcdf2d0a2bc50df0ecf" name="gadeb94eee2ce25fcdf2d0a2bc50df0ecf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gadeb94eee2ce25fcdf2d0a2bc50df0ecf">&#9670;&#160;</a></span>CKCU_ADCPRE_ADCn_TypeDef</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group___c_k_c_u___exported___types.html#gadeb94eee2ce25fcdf2d0a2bc50df0ecf">CKCU_ADCPRE_ADCn_TypeDef</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enumeration of CK_ADCn. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ggadeb94eee2ce25fcdf2d0a2bc50df0ecfa0d03ca27f8608f6bc9748303f4c390ab" name="ggadeb94eee2ce25fcdf2d0a2bc50df0ecfa0d03ca27f8608f6bc9748303f4c390ab"></a>CKCU_ADCPRE_ADC0&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="gae36be110c6b6271c2bb257e2848236d7" name="gae36be110c6b6271c2bb257e2848236d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae36be110c6b6271c2bb257e2848236d7">&#9670;&#160;</a></span>CKCU_ADCPRE_TypeDef</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group___c_k_c_u___exported___types.html#gae36be110c6b6271c2bb257e2848236d7">CKCU_ADCPRE_TypeDef</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enumeration of CK_ADC prescaler. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ggae36be110c6b6271c2bb257e2848236d7a29619bebbe1ad546f799d6397633e611" name="ggae36be110c6b6271c2bb257e2848236d7a29619bebbe1ad546f799d6397633e611"></a>CKCU_ADCPRE_DIV1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ggae36be110c6b6271c2bb257e2848236d7a6d3542f1f68997dc206b7ddbf0ed7ebe" name="ggae36be110c6b6271c2bb257e2848236d7a6d3542f1f68997dc206b7ddbf0ed7ebe"></a>CKCU_ADCPRE_DIV2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ggae36be110c6b6271c2bb257e2848236d7a3139e978ec09204d10bef55bc5503292" name="ggae36be110c6b6271c2bb257e2848236d7a3139e978ec09204d10bef55bc5503292"></a>CKCU_ADCPRE_DIV4&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ggae36be110c6b6271c2bb257e2848236d7a9567d25296a6ed0e954611fc13c5d8fd" name="ggae36be110c6b6271c2bb257e2848236d7a9567d25296a6ed0e954611fc13c5d8fd"></a>CKCU_ADCPRE_DIV8&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ggae36be110c6b6271c2bb257e2848236d7a98906a1447ecdc1823db86d88aec338e" name="ggae36be110c6b6271c2bb257e2848236d7a98906a1447ecdc1823db86d88aec338e"></a>CKCU_ADCPRE_DIV16&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ggae36be110c6b6271c2bb257e2848236d7ae2041a035bd5c5c4914ab32145554392" name="ggae36be110c6b6271c2bb257e2848236d7ae2041a035bd5c5c4914ab32145554392"></a>CKCU_ADCPRE_DIV32&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ggae36be110c6b6271c2bb257e2848236d7a8a1da9dc2b1c3f422418a4e6885a57f2" name="ggae36be110c6b6271c2bb257e2848236d7a8a1da9dc2b1c3f422418a4e6885a57f2"></a>CKCU_ADCPRE_DIV64&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ggae36be110c6b6271c2bb257e2848236d7af9a470f3f537aea462251fa1931d553b" name="ggae36be110c6b6271c2bb257e2848236d7af9a470f3f537aea462251fa1931d553b"></a>CKCU_ADCPRE_DIV3&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="ga54d740646ef7c9332dbccf50c2f4792f" name="ga54d740646ef7c9332dbccf50c2f4792f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga54d740646ef7c9332dbccf50c2f4792f">&#9670;&#160;</a></span>CKCU_APBCLKPRE_TypeDef</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group___c_k_c_u___exported___types.html#ga54d740646ef7c9332dbccf50c2f4792f">CKCU_APBCLKPRE_TypeDef</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enumeration of APB peripheral prescaler. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga54d740646ef7c9332dbccf50c2f4792fa81791f1033f3b5ef1c61e7f265784e60" name="gga54d740646ef7c9332dbccf50c2f4792fa81791f1033f3b5ef1c61e7f265784e60"></a>CKCU_APBCLKPRE_DIV1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga54d740646ef7c9332dbccf50c2f4792fa7ef1c920ff72c93b5a78f0a15c83c4e8" name="gga54d740646ef7c9332dbccf50c2f4792fa7ef1c920ff72c93b5a78f0a15c83c4e8"></a>CKCU_APBCLKPRE_DIV2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga54d740646ef7c9332dbccf50c2f4792fa7b24bb8ee4a41063e20c79c719b852b5" name="gga54d740646ef7c9332dbccf50c2f4792fa7b24bb8ee4a41063e20c79c719b852b5"></a>CKCU_APBCLKPRE_DIV4&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga54d740646ef7c9332dbccf50c2f4792fa549726961fcfdf84efa1cd1db54a289b" name="gga54d740646ef7c9332dbccf50c2f4792fa549726961fcfdf84efa1cd1db54a289b"></a>CKCU_APBCLKPRE_DIV8&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga54d740646ef7c9332dbccf50c2f4792fa75a1e117646989f7d88a178438870b2b" name="gga54d740646ef7c9332dbccf50c2f4792fa75a1e117646989f7d88a178438870b2b"></a>CKCU_APBCLKPRE_DIV16&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga54d740646ef7c9332dbccf50c2f4792fa38f7c6a9d96a895bd989c06626777435" name="gga54d740646ef7c9332dbccf50c2f4792fa38f7c6a9d96a895bd989c06626777435"></a>CKCU_APBCLKPRE_DIV32&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="ga2954555a87533e22aea4674e51267ac7" name="ga2954555a87533e22aea4674e51267ac7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2954555a87533e22aea4674e51267ac7">&#9670;&#160;</a></span>CKCU_CKOUTSRC_TypeDef</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group___c_k_c_u___exported___types.html#ga2954555a87533e22aea4674e51267ac7">CKCU_CKOUTSRC_TypeDef</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enumeration of CKOUT clock source. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga2954555a87533e22aea4674e51267ac7a2820faa8ded1d33a0ad0eac847c3adce" name="gga2954555a87533e22aea4674e51267ac7a2820faa8ded1d33a0ad0eac847c3adce"></a>CKCU_CKOUTSRC_REFCK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga2954555a87533e22aea4674e51267ac7a6217fac5c36ff469e234254d6e550fad" name="gga2954555a87533e22aea4674e51267ac7a6217fac5c36ff469e234254d6e550fad"></a>CKCU_CKOUTSRC_HCLK_DIV16&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga2954555a87533e22aea4674e51267ac7ab335b4815eefb9647a5bd6618dd308ca" name="gga2954555a87533e22aea4674e51267ac7ab335b4815eefb9647a5bd6618dd308ca"></a>CKCU_CKOUTSRC_SYSCK_DIV16&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga2954555a87533e22aea4674e51267ac7a076efe85b5a364a405d2f877123452a2" name="gga2954555a87533e22aea4674e51267ac7a076efe85b5a364a405d2f877123452a2"></a>CKCU_CKOUTSRC_HSECK_DIV16&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga2954555a87533e22aea4674e51267ac7a8073558ae54fc54e4999f820e8e9a3ca" name="gga2954555a87533e22aea4674e51267ac7a8073558ae54fc54e4999f820e8e9a3ca"></a>CKCU_CKOUTSRC_HSICK_DIV16&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga2954555a87533e22aea4674e51267ac7af7ba57f6e002457a8ef55c7090208c43" name="gga2954555a87533e22aea4674e51267ac7af7ba57f6e002457a8ef55c7090208c43"></a>CKCU_CKOUTSRC_LSICK&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="ga50675af07b470e703daf72bb620377ac" name="ga50675af07b470e703daf72bb620377ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga50675af07b470e703daf72bb620377ac">&#9670;&#160;</a></span>CKCU_CKREFPRE_TypeDef</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group___c_k_c_u___exported___types.html#ga50675af07b470e703daf72bb620377ac">CKCU_CKREFPRE_TypeDef</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enumeration of CK_REF prescaler. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga50675af07b470e703daf72bb620377aca313f5f7572c5cac0c9dc9fca95419a4c" name="gga50675af07b470e703daf72bb620377aca313f5f7572c5cac0c9dc9fca95419a4c"></a>CKCU_CKREFPRE_DIV2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga50675af07b470e703daf72bb620377aca0a6fbc9d5b41e4bc1e535cad49fc5822" name="gga50675af07b470e703daf72bb620377aca0a6fbc9d5b41e4bc1e535cad49fc5822"></a>CKCU_CKREFPRE_DIV4&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga50675af07b470e703daf72bb620377aca03ce325282874cb22957dbbfa619cdcb" name="gga50675af07b470e703daf72bb620377aca03ce325282874cb22957dbbfa619cdcb"></a>CKCU_CKREFPRE_DIV6&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga50675af07b470e703daf72bb620377aca872d894490b11a76fcb608e614e86b84" name="gga50675af07b470e703daf72bb620377aca872d894490b11a76fcb608e614e86b84"></a>CKCU_CKREFPRE_DIV8&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga50675af07b470e703daf72bb620377aca8203d8e2c792fdc51942e4628e29feca" name="gga50675af07b470e703daf72bb620377aca8203d8e2c792fdc51942e4628e29feca"></a>CKCU_CKREFPRE_DIV10&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga50675af07b470e703daf72bb620377acabe52ffaa79147a7af81e028079fd8540" name="gga50675af07b470e703daf72bb620377acabe52ffaa79147a7af81e028079fd8540"></a>CKCU_CKREFPRE_DIV12&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga50675af07b470e703daf72bb620377aca35b83224041341d618c67cd2ad3904d4" name="gga50675af07b470e703daf72bb620377aca35b83224041341d618c67cd2ad3904d4"></a>CKCU_CKREFPRE_DIV14&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga50675af07b470e703daf72bb620377acaf96f55d51d4aa0781d0b53d8bc8d2c95" name="gga50675af07b470e703daf72bb620377acaf96f55d51d4aa0781d0b53d8bc8d2c95"></a>CKCU_CKREFPRE_DIV16&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga50675af07b470e703daf72bb620377aca0e3e77dc3c148c19e6b3725bc5685152" name="gga50675af07b470e703daf72bb620377aca0e3e77dc3c148c19e6b3725bc5685152"></a>CKCU_CKREFPRE_DIV18&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga50675af07b470e703daf72bb620377aca5d3bb84ecf89eea518305fa549deb18a" name="gga50675af07b470e703daf72bb620377aca5d3bb84ecf89eea518305fa549deb18a"></a>CKCU_CKREFPRE_DIV20&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga50675af07b470e703daf72bb620377aca5a85a2ff25a32b5692f5a75054922e9f" name="gga50675af07b470e703daf72bb620377aca5a85a2ff25a32b5692f5a75054922e9f"></a>CKCU_CKREFPRE_DIV22&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga50675af07b470e703daf72bb620377aca0ea82f4a62085160403ceb1ef54cd8b9" name="gga50675af07b470e703daf72bb620377aca0ea82f4a62085160403ceb1ef54cd8b9"></a>CKCU_CKREFPRE_DIV24&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga50675af07b470e703daf72bb620377acaa60701eabd97c1bcbcb7af638751f3ed" name="gga50675af07b470e703daf72bb620377acaa60701eabd97c1bcbcb7af638751f3ed"></a>CKCU_CKREFPRE_DIV26&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga50675af07b470e703daf72bb620377aca749eb10ae6f161c980f646dd61047ec8" name="gga50675af07b470e703daf72bb620377aca749eb10ae6f161c980f646dd61047ec8"></a>CKCU_CKREFPRE_DIV28&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga50675af07b470e703daf72bb620377acaf5b78da06c09113e1eebb9f0dd5c933e" name="gga50675af07b470e703daf72bb620377acaf5b78da06c09113e1eebb9f0dd5c933e"></a>CKCU_CKREFPRE_DIV30&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga50675af07b470e703daf72bb620377aca104bb28d92096f0475bb0ec91c5f0f30" name="gga50675af07b470e703daf72bb620377aca104bb28d92096f0475bb0ec91c5f0f30"></a>CKCU_CKREFPRE_DIV32&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga50675af07b470e703daf72bb620377aca1809b283e72673f7d8aade9c7b15292c" name="gga50675af07b470e703daf72bb620377aca1809b283e72673f7d8aade9c7b15292c"></a>CKCU_CKREFPRE_DIV34&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga50675af07b470e703daf72bb620377aca111d233ee8b166ff0ff23f8afd668499" name="gga50675af07b470e703daf72bb620377aca111d233ee8b166ff0ff23f8afd668499"></a>CKCU_CKREFPRE_DIV36&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga50675af07b470e703daf72bb620377aca4076de2827ddfa64dd619d6cf3bba5a4" name="gga50675af07b470e703daf72bb620377aca4076de2827ddfa64dd619d6cf3bba5a4"></a>CKCU_CKREFPRE_DIV38&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga50675af07b470e703daf72bb620377aca48f27ebb4c325050e6d4c4984db1ee22" name="gga50675af07b470e703daf72bb620377aca48f27ebb4c325050e6d4c4984db1ee22"></a>CKCU_CKREFPRE_DIV40&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga50675af07b470e703daf72bb620377aca992a8b58ef29c58eeed538af19ef270f" name="gga50675af07b470e703daf72bb620377aca992a8b58ef29c58eeed538af19ef270f"></a>CKCU_CKREFPRE_DIV42&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga50675af07b470e703daf72bb620377aca222380bf559931ebfccdfa7db09c5d81" name="gga50675af07b470e703daf72bb620377aca222380bf559931ebfccdfa7db09c5d81"></a>CKCU_CKREFPRE_DIV44&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga50675af07b470e703daf72bb620377acaa9f697ad8abb94df781557704d4dfee2" name="gga50675af07b470e703daf72bb620377acaa9f697ad8abb94df781557704d4dfee2"></a>CKCU_CKREFPRE_DIV46&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga50675af07b470e703daf72bb620377acab143bb6a0adb0f8aa665a5943ace693d" name="gga50675af07b470e703daf72bb620377acab143bb6a0adb0f8aa665a5943ace693d"></a>CKCU_CKREFPRE_DIV48&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga50675af07b470e703daf72bb620377aca2b0994e74a8b970ef31d4425cb16b398" name="gga50675af07b470e703daf72bb620377aca2b0994e74a8b970ef31d4425cb16b398"></a>CKCU_CKREFPRE_DIV50&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga50675af07b470e703daf72bb620377acae78562fc1e2370f7f854bf09709fd513" name="gga50675af07b470e703daf72bb620377acae78562fc1e2370f7f854bf09709fd513"></a>CKCU_CKREFPRE_DIV52&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga50675af07b470e703daf72bb620377aca4aa7bb38079e0447068ae25a6af76943" name="gga50675af07b470e703daf72bb620377aca4aa7bb38079e0447068ae25a6af76943"></a>CKCU_CKREFPRE_DIV54&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga50675af07b470e703daf72bb620377aca1b55067d36c967b6fbe277f42f5f413b" name="gga50675af07b470e703daf72bb620377aca1b55067d36c967b6fbe277f42f5f413b"></a>CKCU_CKREFPRE_DIV56&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga50675af07b470e703daf72bb620377acae7a5451d143927bb1ef7b4437508da7a" name="gga50675af07b470e703daf72bb620377acae7a5451d143927bb1ef7b4437508da7a"></a>CKCU_CKREFPRE_DIV58&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga50675af07b470e703daf72bb620377acad0e986b45b4773b5ff499054a9ea3444" name="gga50675af07b470e703daf72bb620377acad0e986b45b4773b5ff499054a9ea3444"></a>CKCU_CKREFPRE_DIV60&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga50675af07b470e703daf72bb620377acabd3c39a8cd37037fb34d56a1aa4d97ec" name="gga50675af07b470e703daf72bb620377acabd3c39a8cd37037fb34d56a1aa4d97ec"></a>CKCU_CKREFPRE_DIV62&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga50675af07b470e703daf72bb620377acaefcd8d2f7fd2dc02e5868972146d7e5e" name="gga50675af07b470e703daf72bb620377acaefcd8d2f7fd2dc02e5868972146d7e5e"></a>CKCU_CKREFPRE_DIV64&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="gaa5b54d6015ce416f0c71ace7385ab2e5" name="gaa5b54d6015ce416f0c71ace7385ab2e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa5b54d6015ce416f0c71ace7385ab2e5">&#9670;&#160;</a></span>CKCU_HSEST_TypeDef</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group___c_k_c_u___exported___types.html#gaa5b54d6015ce416f0c71ace7385ab2e5">CKCU_HSEST_TypeDef</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enumeration of HSE clock source status. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ggaa5b54d6015ce416f0c71ace7385ab2e5abbb019d822533f9d7070a05c68f4ddbd" name="ggaa5b54d6015ce416f0c71ace7385ab2e5abbb019d822533f9d7070a05c68f4ddbd"></a>CKCU_HSEST_SYSCK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ggaa5b54d6015ce416f0c71ace7385ab2e5a9ae06ffb88ff25ad9440664ae4538100" name="ggaa5b54d6015ce416f0c71ace7385ab2e5a9ae06ffb88ff25ad9440664ae4538100"></a>CKCU_HSEST_PLL&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="ga686f7fedf6398f75d6476d03d22da879" name="ga686f7fedf6398f75d6476d03d22da879"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga686f7fedf6398f75d6476d03d22da879">&#9670;&#160;</a></span>CKCU_HSIST_TypeDef</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group___c_k_c_u___exported___types.html#ga686f7fedf6398f75d6476d03d22da879">CKCU_HSIST_TypeDef</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enumeration of HSI clock source status. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga686f7fedf6398f75d6476d03d22da879ac8642eaf4eeb187ca6af743a5edb2a2c" name="gga686f7fedf6398f75d6476d03d22da879ac8642eaf4eeb187ca6af743a5edb2a2c"></a>CKCU_HSIST_SYSCK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga686f7fedf6398f75d6476d03d22da879ae41fdae20d0215ba33471d30997d79e5" name="gga686f7fedf6398f75d6476d03d22da879ae41fdae20d0215ba33471d30997d79e5"></a>CKCU_HSIST_PLL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga686f7fedf6398f75d6476d03d22da879a8b224d49d18cd0a21c466c67d8d1f77b" name="gga686f7fedf6398f75d6476d03d22da879a8b224d49d18cd0a21c466c67d8d1f77b"></a>CKCU_HSIST_CKM&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="ga91d61162cbf1c175fa291520cd806734" name="ga91d61162cbf1c175fa291520cd806734"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga91d61162cbf1c175fa291520cd806734">&#9670;&#160;</a></span>CKCU_PeripPrescaler_TypeDef</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group___c_k_c_u___exported___types.html#ga91d61162cbf1c175fa291520cd806734">CKCU_PeripPrescaler_TypeDef</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga91d61162cbf1c175fa291520cd806734a677c18b32081270fcd0f1ae0c9b88fd1" name="gga91d61162cbf1c175fa291520cd806734a677c18b32081270fcd0f1ae0c9b88fd1"></a>CKCU_PCLK_I2C0&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga91d61162cbf1c175fa291520cd806734a26bd67ae5ca3c52c595010175cd1ce8b" name="gga91d61162cbf1c175fa291520cd806734a26bd67ae5ca3c52c595010175cd1ce8b"></a>CKCU_PCLK_SPI0&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga91d61162cbf1c175fa291520cd806734ab7656d3cd5eaac124bfd82aee7ac045c" name="gga91d61162cbf1c175fa291520cd806734ab7656d3cd5eaac124bfd82aee7ac045c"></a>CKCU_PCLK_BFTM0&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga91d61162cbf1c175fa291520cd806734a03f08f28a3f4708183ea8cb0b8d87b3f" name="gga91d61162cbf1c175fa291520cd806734a03f08f28a3f4708183ea8cb0b8d87b3f"></a>CKCU_PCLK_GPTM0&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga91d61162cbf1c175fa291520cd806734aff5c1ad62f89a1f9216475fc5cbdc74c" name="gga91d61162cbf1c175fa291520cd806734aff5c1ad62f89a1f9216475fc5cbdc74c"></a>CKCU_PCLK_USART0&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga91d61162cbf1c175fa291520cd806734a2de48553a4d7ae39866106a7dfddfce3" name="gga91d61162cbf1c175fa291520cd806734a2de48553a4d7ae39866106a7dfddfce3"></a>CKCU_PCLK_UART0&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga91d61162cbf1c175fa291520cd806734a66c577c1524d8ad2b554490ffe323925" name="gga91d61162cbf1c175fa291520cd806734a66c577c1524d8ad2b554490ffe323925"></a>CKCU_PCLK_AFIO&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga91d61162cbf1c175fa291520cd806734aebdc01864927b87c20ef303f8d8c3f31" name="gga91d61162cbf1c175fa291520cd806734aebdc01864927b87c20ef303f8d8c3f31"></a>CKCU_PCLK_EXTI&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga91d61162cbf1c175fa291520cd806734afcecff959c96f709c49037c203bd3139" name="gga91d61162cbf1c175fa291520cd806734afcecff959c96f709c49037c203bd3139"></a>CKCU_PCLK_ADC0&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga91d61162cbf1c175fa291520cd806734ac0307291800a8365e151fb1c0818e8b8" name="gga91d61162cbf1c175fa291520cd806734ac0307291800a8365e151fb1c0818e8b8"></a>CKCU_PCLK_WDTR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga91d61162cbf1c175fa291520cd806734acbd0341baa497ecabd89f96b2f46b68b" name="gga91d61162cbf1c175fa291520cd806734acbd0341baa497ecabd89f96b2f46b68b"></a>CKCU_PCLK_BKPR&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="ga304bd400b4a61c796a57bf21e89d509c" name="ga304bd400b4a61c796a57bf21e89d509c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga304bd400b4a61c796a57bf21e89d509c">&#9670;&#160;</a></span>CKCU_PLLSRC_TypeDef</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group___c_k_c_u___exported___types.html#ga304bd400b4a61c796a57bf21e89d509c">CKCU_PLLSRC_TypeDef</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enumeration of PLL clock source. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga304bd400b4a61c796a57bf21e89d509caa1bb6cd3858e2f65958e5baea01cb8fe" name="gga304bd400b4a61c796a57bf21e89d509caa1bb6cd3858e2f65958e5baea01cb8fe"></a>CKCU_PLLSRC_HSE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga304bd400b4a61c796a57bf21e89d509ca870ebeda06cba976a35b2cc6df003551" name="gga304bd400b4a61c796a57bf21e89d509ca870ebeda06cba976a35b2cc6df003551"></a>CKCU_PLLSRC_HSI&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="ga40759efdb664bcea530d1ae60e492060" name="ga40759efdb664bcea530d1ae60e492060"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga40759efdb664bcea530d1ae60e492060">&#9670;&#160;</a></span>CKCU_PLLST_TypeDef</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group___c_k_c_u___exported___types.html#ga40759efdb664bcea530d1ae60e492060">CKCU_PLLST_TypeDef</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enumeration of PLL clock source status. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga40759efdb664bcea530d1ae60e492060ad1f8c16776db3a5e2c22dd9c234187e3" name="gga40759efdb664bcea530d1ae60e492060ad1f8c16776db3a5e2c22dd9c234187e3"></a>CKCU_PLLST_SYSCK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga40759efdb664bcea530d1ae60e492060a882d96afd9ecd45d73454b15d643b126" name="gga40759efdb664bcea530d1ae60e492060a882d96afd9ecd45d73454b15d643b126"></a>CKCU_PLLST_REFCK&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="ga5ce21c345a85be415ca2e66483a80ecb" name="ga5ce21c345a85be415ca2e66483a80ecb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5ce21c345a85be415ca2e66483a80ecb">&#9670;&#160;</a></span>CKCU_SW_TypeDef</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group___c_k_c_u___exported___types.html#ga5ce21c345a85be415ca2e66483a80ecb">CKCU_SW_TypeDef</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enumeration of System clock source. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga5ce21c345a85be415ca2e66483a80ecba1fb92d9821110545b1188d73800f036e" name="gga5ce21c345a85be415ca2e66483a80ecba1fb92d9821110545b1188d73800f036e"></a>CKCU_SW_PLL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga5ce21c345a85be415ca2e66483a80ecba1a45f7b9b7c9dbb05337767c72b57322" name="gga5ce21c345a85be415ca2e66483a80ecba1a45f7b9b7c9dbb05337767c72b57322"></a>CKCU_SW_HSE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga5ce21c345a85be415ca2e66483a80ecba746b7a2545e83f25bf1c74973d3ea08d" name="gga5ce21c345a85be415ca2e66483a80ecba746b7a2545e83f25bf1c74973d3ea08d"></a>CKCU_SW_HSI&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga5ce21c345a85be415ca2e66483a80ecba56b1c4699a73241bdc581ba6cee24c7e" name="gga5ce21c345a85be415ca2e66483a80ecba56b1c4699a73241bdc581ba6cee24c7e"></a>CKCU_SW_LSI&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="ga140a813d568c51f14dfd79deb726f47e" name="ga140a813d568c51f14dfd79deb726f47e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga140a813d568c51f14dfd79deb726f47e">&#9670;&#160;</a></span>CKCU_SYSCLKDIV_TypeDef</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group___c_k_c_u___exported___types.html#ga140a813d568c51f14dfd79deb726f47e">CKCU_SYSCLKDIV_TypeDef</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enumeration of CK_AHB prescaler. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga140a813d568c51f14dfd79deb726f47ea9f2c1053d8eaf9bfb6efca6ec9e509bd" name="gga140a813d568c51f14dfd79deb726f47ea9f2c1053d8eaf9bfb6efca6ec9e509bd"></a>CKCU_SYSCLK_DIV1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga140a813d568c51f14dfd79deb726f47ea3bf715297064a45739230cef44dfd1dc" name="gga140a813d568c51f14dfd79deb726f47ea3bf715297064a45739230cef44dfd1dc"></a>CKCU_SYSCLK_DIV2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga140a813d568c51f14dfd79deb726f47ea4fc472c1258ae58e3349b12b42b00260" name="gga140a813d568c51f14dfd79deb726f47ea4fc472c1258ae58e3349b12b42b00260"></a>CKCU_SYSCLK_DIV4&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga140a813d568c51f14dfd79deb726f47ea3c60b68c9bb70e05efe3fcf5edc3fe53" name="gga140a813d568c51f14dfd79deb726f47ea3c60b68c9bb70e05efe3fcf5edc3fe53"></a>CKCU_SYSCLK_DIV8&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga140a813d568c51f14dfd79deb726f47ea65753ebe7b2f44cb454a100c1d60f94a" name="gga140a813d568c51f14dfd79deb726f47ea65753ebe7b2f44cb454a100c1d60f94a"></a>CKCU_SYSCLK_DIV16&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga140a813d568c51f14dfd79deb726f47eaef41f235394dd422aa630b8e3410346a" name="gga140a813d568c51f14dfd79deb726f47eaef41f235394dd422aa630b8e3410346a"></a>CKCU_SYSCLK_DIV32&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
 </div>
 </div>
 </div><!-- contents -->

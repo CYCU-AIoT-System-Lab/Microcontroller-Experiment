@@ -1,0 +1,5 @@
+<map id="FPU Functions" name="FPU Functions">
+<area shape="rect" id="Node000001" title="Function that provides FPU type." alt="" coords="166,5,274,32"/>
+<area shape="rect" id="Node000003" href="$group___c_m_s_i_s___core___mve_functions.html" title="Function that provides MVE type." alt="" coords="322,5,433,32"/>
+<area shape="rect" id="Node000002" href="$group___c_m_s_i_s___core___n_v_i_c_functions.html" title="Functions that manage interrupts and exceptions via the NVIC." alt="" coords="5,5,118,32"/>
+</map>

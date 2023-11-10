@@ -1,0 +1,16 @@
+<map id="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/RTC/Calendar_BackupDomain/main.c" name="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/RTC/Calendar_BackupDomain/main.c">
+<area shape="rect" id="Node000001" title="Main program." alt="" coords="5,5,302,96"/>
+<area shape="rect" id="Node000002" href="$ht32_8h.html" title="The API between application and HT32FXXXX Firmware Library." alt="" coords="174,144,232,171"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="177,95,193,129,188,131,172,97"/>
+<area shape="rect" id="Node000007" href="$ht32__board_8h.html" title="HT32 target board definition file." alt="" coords="40,219,136,245"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="140,98,100,205,95,203,135,96"/>
+<area shape="rect" id="Node000003" href="$ht32f5xxxx__01_8h.html" title="CMSIS Cortex&#45;M0+ Device Peripheral Access Layer Header File." alt="" coords="161,219,277,245"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="208,171,215,203,210,204,203,172"/>
+<area shape="rect" id="Node000004" href="$ht32__config_8h.html" title="Configuration file of HT32." alt="" coords="39,293,137,320"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="197,248,126,288,123,283,195,244"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="161,293,274,320"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="221,246,221,278,215,278,216,246"/>
+<area shape="rect" id="Node000006" href="$system__ht32f5xxxx__01_8h.html" title="CMSIS Cortex&#45;M0+ Device Peripheral Access Layer System Header File for the Holtek HT32F5xxxx Device S..." alt="" coords="298,293,465,320"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="248,243,340,284,338,289,246,248"/>
+<area shape="poly" id="edge7_Node000007_Node000004" title=" " alt="" coords="91,246,91,278,86,278,86,246"/>
+</map>

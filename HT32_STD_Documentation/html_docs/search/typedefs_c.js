@@ -1,0 +1,23 @@
+var searchData=
+[
+  ['u16_0',['u16',['../group___exported___types.html#ga9e6c91d77e24643b888dbd1a1a590054',1,'ht32f5xxxx_01.h']]],
+  ['u32_1',['u32',['../group___exported___types.html#ga10e94b422ef0c20dcdec20d31a1f5049',1,'ht32f5xxxx_01.h']]],
+  ['u64_2',['u64',['../group___exported___types.html#gad758b7a5c3f18ed79d2fcd23d9f16357',1,'ht32f5xxxx_01.h']]],
+  ['u8_3',['u8',['../group___exported___types.html#gaed742c436da53c1080638ce6ef7d13de',1,'ht32f5xxxx_01.h']]],
+  ['uc16_4',['uc16',['../group___exported___types.html#ga6ba83af6adbd7e90c790e7b66f070cf3',1,'ht32f5xxxx_01.h']]],
+  ['uc32_5',['uc32',['../group___exported___types.html#ga90bb277aebd2294ab3f871242e871144',1,'ht32f5xxxx_01.h']]],
+  ['uc64_6',['uc64',['../group___exported___types.html#ga7db4b5001912852aaf8053889cd5f01f',1,'ht32f5xxxx_01.h']]],
+  ['uc8_7',['uc8',['../group___exported___types.html#ga421cd0841ee90f7bcae38d46aba21180',1,'ht32f5xxxx_01.h']]],
+  ['usbd_5feptcfgr_5fbit_8',['USBD_EPTCFGR_Bit',['../group___u_s_b_device___exported___types.html#gae3557455e1e911c9af4d4c32f4f27838',1,'ht32f5xxxx_usbd.h']]],
+  ['usbd_5feptcfgr_5ftypedef_9',['USBD_EPTCFGR_TypeDef',['../group___u_s_b_device___exported___types.html#ga99514f7a3894423609bbc101f5452cf8',1,'ht32f5xxxx_usbd.h']]],
+  ['usbdclass_5fuvc_5fcontrol_10',['USBDClass_UVC_Control',['../group___u_s_b___video.html#ga9117ec5c307a59b3baf858afb2fc83ae',1,'ht32_usbd_class.h']]],
+  ['usbdclass_5fvcp_5fline_5fcoding_11',['usbdclass_vcp_line_coding',['../group___h_i_d___keyboard___virtual___c_o_m.html#ga8c8b759830d64248f4211d43d6f2f1e0',1,'USBDClass_VCP_LINE_CODING:&#160;ht32_usbd_class.h'],['../group___virtual___c_o_m.html#ga8c8b759830d64248f4211d43d6f2f1e0',1,'USBDClass_VCP_LINE_CODING:&#160;ht32_usbd_class.h']]],
+  ['usbdcore_5fcallbackclass_5ftypedef_12',['USBDCore_CallBackClass_Typedef',['../group___u_s_b_d_core___exported___type.html#ga69d7bde6b1ffe85178740f1b339c0cdd',1,'ht32_usbd_core.h']]],
+  ['usbdcore_5fcallbackeptn_5ftypedef_13',['USBDCore_CallBackEPTn_Typedef',['../group___u_s_b_d_core___exported___type.html#ga347c62991ac3aadb238f0923f6965336',1,'ht32_usbd_core.h']]],
+  ['usbdcore_5fcallbackvendor_5ftypedef_14',['USBDCore_CallBackVendor_Typedef',['../group___u_s_b_d_core___exported___type.html#ga8d5a7d9a747338bdda42b1670cb2a439',1,'ht32_usbd_core.h']]],
+  ['usbdcore_5ffeature_5ftypebit_15',['USBDCore_Feature_TypeBit',['../group___u_s_b_d_core___exported___type.html#ga7c7d3f527eac1a4cb2f213b9bed26bc7',1,'ht32_usbd_core.h']]],
+  ['usbdcore_5ffeature_5ftypedef_16',['USBDCore_Feature_TypeDef',['../group___u_s_b_d_core___exported___type.html#ga0979874bb6bd0098ecff3d4cd236f41f',1,'ht32_usbd_core.h']]],
+  ['usbdcore_5frequest_5ftypedef_17',['USBDCore_Request_TypeDef',['../group___u_s_b_d_core___exported___type.html#ga23f190bce6d861ed8a67fa83f0519551',1,'ht32_usbd_core.h']]],
+  ['uvc_5frequest_18',['UVC_Request',['../group___u_s_b___video.html#ga93d936d2ee02b3c5be9732cf52b0d1c4',1,'ht32_usbd_class.h']]],
+  ['uvc_5fvideo_5fprobe_5fand_5fcommit_5fcontrol_19',['UVC_VIDEO_PROBE_AND_COMMIT_CONTROL',['../group___u_s_b___video.html#ga0442973f576590353438dd964177044a',1,'ht32_usbd_class.h']]]
+];

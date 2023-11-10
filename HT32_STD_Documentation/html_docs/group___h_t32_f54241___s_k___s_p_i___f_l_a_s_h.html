@@ -1,29 +1,62 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>HT32_STD_Documents: HT32F54241_SK_SPI_FLASH</title>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>HT32_STD_Code_Documents: HT32F54241_SK_SPI_FLASH</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
-   <div id="projectname">HT32_STD_Documents<span id="projectnumber">&#160;1.0.0</span>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">HT32_STD_Code_Documents
+   &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">For HT32F52352</div>
+   <div id="projectbrief">Micro-controller Experiment</div>
   </td>
  </tr>
  </tbody>
@@ -75,56 +108,265 @@ $(function() {
   <div class="headertitle"><div class="title">HT32F54241_SK_SPI_FLASH<div class="ingroups"><a class="el" href="group___utilities.html">Utilities</a> &raquo; <a class="el" href="group___h_t32___board.html">HT32_Board</a> &raquo; <a class="el" href="group___h_t32_f54241___s_k.html">HT32F54241_SK</a> &raquo; <a class="el" href="group___h_t32_f54241___s_k___exported___constants.html">HT32F54241 Starter kit exported constants</a></div></div></div>
 </div><!--header-->
 <div class="contents">
+<div class="dynheader">
+Collaboration diagram for HT32F54241_SK_SPI_FLASH:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="group___h_t32_f54241___s_k___s_p_i___f_l_a_s_h.svg" width="410" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:gaa6ea6e99f62692ed82ac50ffc1b9ecc1" id="r_gaa6ea6e99f62692ed82ac50ffc1b9ecc1"><td class="memItemLeft" align="right" valign="top"><a id="gaa6ea6e99f62692ed82ac50ffc1b9ecc1" name="gaa6ea6e99f62692ed82ac50ffc1b9ecc1"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>FLASH_SPI_CLK</b>(CK)&#160;&#160;&#160;(CK.Bit.SPI0)</td></tr>
+<tr class="memitem:gaa6ea6e99f62692ed82ac50ffc1b9ecc1" id="r_gaa6ea6e99f62692ed82ac50ffc1b9ecc1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_t32_f54241___s_k___s_p_i___f_l_a_s_h.html#gaa6ea6e99f62692ed82ac50ffc1b9ecc1">FLASH_SPI_CLK</a>(CK)&#160;&#160;&#160;(CK.Bit.SPI0)</td></tr>
 <tr class="separator:gaa6ea6e99f62692ed82ac50ffc1b9ecc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga232a35d7a3adf71edf21eff160c639cf" id="r_ga232a35d7a3adf71edf21eff160c639cf"><td class="memItemLeft" align="right" valign="top"><a id="ga232a35d7a3adf71edf21eff160c639cf" name="ga232a35d7a3adf71edf21eff160c639cf"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>FLASH_SPI</b>&#160;&#160;&#160;(HT_SPI0)</td></tr>
+<tr class="memitem:ga232a35d7a3adf71edf21eff160c639cf" id="r_ga232a35d7a3adf71edf21eff160c639cf"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_t32_f54241___s_k___s_p_i___f_l_a_s_h.html#ga232a35d7a3adf71edf21eff160c639cf">FLASH_SPI</a>&#160;&#160;&#160;(<a class="el" href="group___c_m_s_i_s.html#ga3f9b6e51983edaf1bffb0245f9b4ba42">HT_SPI0</a>)</td></tr>
 <tr class="separator:ga232a35d7a3adf71edf21eff160c639cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga07f8eb676e1b7da8bb84d33b2d5101da" id="r_ga07f8eb676e1b7da8bb84d33b2d5101da"><td class="memItemLeft" align="right" valign="top"><a id="ga07f8eb676e1b7da8bb84d33b2d5101da" name="ga07f8eb676e1b7da8bb84d33b2d5101da"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>FLASH_SPI_SCK_GPIO_ID</b>&#160;&#160;&#160;(GPIO_PC)</td></tr>
+<tr class="memitem:ga07f8eb676e1b7da8bb84d33b2d5101da" id="r_ga07f8eb676e1b7da8bb84d33b2d5101da"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_t32_f54241___s_k___s_p_i___f_l_a_s_h.html#ga07f8eb676e1b7da8bb84d33b2d5101da">FLASH_SPI_SCK_GPIO_ID</a>&#160;&#160;&#160;(GPIO_PC)</td></tr>
 <tr class="separator:ga07f8eb676e1b7da8bb84d33b2d5101da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8843235dc53ab3da71cd3cbfb1b4e46f" id="r_ga8843235dc53ab3da71cd3cbfb1b4e46f"><td class="memItemLeft" align="right" valign="top"><a id="ga8843235dc53ab3da71cd3cbfb1b4e46f" name="ga8843235dc53ab3da71cd3cbfb1b4e46f"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>FLASH_SPI_SCK_AFIO_PIN</b>&#160;&#160;&#160;(<a class="el" href="group___g_p_i_o___exported___constants.html#ga4ac3f5c4b401d780e74be9d017d910b0">AFIO_PIN_0</a>)</td></tr>
+<tr class="memitem:ga8843235dc53ab3da71cd3cbfb1b4e46f" id="r_ga8843235dc53ab3da71cd3cbfb1b4e46f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_t32_f54241___s_k___s_p_i___f_l_a_s_h.html#ga8843235dc53ab3da71cd3cbfb1b4e46f">FLASH_SPI_SCK_AFIO_PIN</a>&#160;&#160;&#160;(<a class="el" href="group___g_p_i_o___exported___constants.html#ga4ac3f5c4b401d780e74be9d017d910b0">AFIO_PIN_0</a>)</td></tr>
 <tr class="separator:ga8843235dc53ab3da71cd3cbfb1b4e46f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1d7863a415e52922b2d50b5aef4a783b" id="r_ga1d7863a415e52922b2d50b5aef4a783b"><td class="memItemLeft" align="right" valign="top"><a id="ga1d7863a415e52922b2d50b5aef4a783b" name="ga1d7863a415e52922b2d50b5aef4a783b"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>FLASH_SPI_SCK_AFIO_MODE</b>&#160;&#160;&#160;(<a class="el" href="group___g_p_i_o___exported___constants.html#ga2b05b21545d92d402a7efc62e3adf1d0">AFIO_FUN_SPI</a>)</td></tr>
+<tr class="memitem:ga1d7863a415e52922b2d50b5aef4a783b" id="r_ga1d7863a415e52922b2d50b5aef4a783b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_t32_f54241___s_k___s_p_i___f_l_a_s_h.html#ga1d7863a415e52922b2d50b5aef4a783b">FLASH_SPI_SCK_AFIO_MODE</a>&#160;&#160;&#160;(<a class="el" href="group___g_p_i_o___exported___constants.html#ga2b05b21545d92d402a7efc62e3adf1d0">AFIO_FUN_SPI</a>)</td></tr>
 <tr class="separator:ga1d7863a415e52922b2d50b5aef4a783b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaac517aeae2332047ce6d18ac07dd3bfe" id="r_gaac517aeae2332047ce6d18ac07dd3bfe"><td class="memItemLeft" align="right" valign="top"><a id="gaac517aeae2332047ce6d18ac07dd3bfe" name="gaac517aeae2332047ce6d18ac07dd3bfe"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>FLASH_SPI_MOSI_GPIO_ID</b>&#160;&#160;&#160;(GPIO_PA)</td></tr>
+<tr class="memitem:gaac517aeae2332047ce6d18ac07dd3bfe" id="r_gaac517aeae2332047ce6d18ac07dd3bfe"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_t32_f54241___s_k___s_p_i___f_l_a_s_h.html#gaac517aeae2332047ce6d18ac07dd3bfe">FLASH_SPI_MOSI_GPIO_ID</a>&#160;&#160;&#160;(<a class="el" href="group___g_p_i_o___exported___constants.html#ga155e249f4deb96438f3827f66a90a31d">GPIO_PA</a>)</td></tr>
 <tr class="separator:gaac517aeae2332047ce6d18ac07dd3bfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac5ffa611bac2f796d7a4dec1e2f14a3e" id="r_gac5ffa611bac2f796d7a4dec1e2f14a3e"><td class="memItemLeft" align="right" valign="top"><a id="gac5ffa611bac2f796d7a4dec1e2f14a3e" name="gac5ffa611bac2f796d7a4dec1e2f14a3e"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>FLASH_SPI_MOSI_AFIO_PIN</b>&#160;&#160;&#160;(<a class="el" href="group___g_p_i_o___exported___constants.html#gac00088060eeccbe4f5f51ee25939bce4">AFIO_PIN_10</a>)</td></tr>
+<tr class="memitem:gac5ffa611bac2f796d7a4dec1e2f14a3e" id="r_gac5ffa611bac2f796d7a4dec1e2f14a3e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_t32_f54241___s_k___s_p_i___f_l_a_s_h.html#gac5ffa611bac2f796d7a4dec1e2f14a3e">FLASH_SPI_MOSI_AFIO_PIN</a>&#160;&#160;&#160;(<a class="el" href="group___g_p_i_o___exported___constants.html#gac00088060eeccbe4f5f51ee25939bce4">AFIO_PIN_10</a>)</td></tr>
 <tr class="separator:gac5ffa611bac2f796d7a4dec1e2f14a3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab042c3364e643a51ea05d8869e3d4516" id="r_gab042c3364e643a51ea05d8869e3d4516"><td class="memItemLeft" align="right" valign="top"><a id="gab042c3364e643a51ea05d8869e3d4516" name="gab042c3364e643a51ea05d8869e3d4516"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>FLASH_SPI_MOSI_AFIO_MODE</b>&#160;&#160;&#160;(<a class="el" href="group___g_p_i_o___exported___constants.html#ga2b05b21545d92d402a7efc62e3adf1d0">AFIO_FUN_SPI</a>)</td></tr>
+<tr class="memitem:gab042c3364e643a51ea05d8869e3d4516" id="r_gab042c3364e643a51ea05d8869e3d4516"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_t32_f54241___s_k___s_p_i___f_l_a_s_h.html#gab042c3364e643a51ea05d8869e3d4516">FLASH_SPI_MOSI_AFIO_MODE</a>&#160;&#160;&#160;(<a class="el" href="group___g_p_i_o___exported___constants.html#ga2b05b21545d92d402a7efc62e3adf1d0">AFIO_FUN_SPI</a>)</td></tr>
 <tr class="separator:gab042c3364e643a51ea05d8869e3d4516"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6f1375ebdc9294628decc4862e397892" id="r_ga6f1375ebdc9294628decc4862e397892"><td class="memItemLeft" align="right" valign="top"><a id="ga6f1375ebdc9294628decc4862e397892" name="ga6f1375ebdc9294628decc4862e397892"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>FLASH_SPI_MISO_GPIO_ID</b>&#160;&#160;&#160;(GPIO_PA)</td></tr>
+<tr class="memitem:ga6f1375ebdc9294628decc4862e397892" id="r_ga6f1375ebdc9294628decc4862e397892"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_t32_f54241___s_k___s_p_i___f_l_a_s_h.html#ga6f1375ebdc9294628decc4862e397892">FLASH_SPI_MISO_GPIO_ID</a>&#160;&#160;&#160;(<a class="el" href="group___g_p_i_o___exported___constants.html#ga155e249f4deb96438f3827f66a90a31d">GPIO_PA</a>)</td></tr>
 <tr class="separator:ga6f1375ebdc9294628decc4862e397892"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga29cca3e5daf6488a84382f0163d24fbb" id="r_ga29cca3e5daf6488a84382f0163d24fbb"><td class="memItemLeft" align="right" valign="top"><a id="ga29cca3e5daf6488a84382f0163d24fbb" name="ga29cca3e5daf6488a84382f0163d24fbb"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>FLASH_SPI_MISO_AFIO_PIN</b>&#160;&#160;&#160;(<a class="el" href="group___g_p_i_o___exported___constants.html#ga15ac849764fb0b91e21164a7cc4d4734">AFIO_PIN_11</a>)</td></tr>
+<tr class="memitem:ga29cca3e5daf6488a84382f0163d24fbb" id="r_ga29cca3e5daf6488a84382f0163d24fbb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_t32_f54241___s_k___s_p_i___f_l_a_s_h.html#ga29cca3e5daf6488a84382f0163d24fbb">FLASH_SPI_MISO_AFIO_PIN</a>&#160;&#160;&#160;(<a class="el" href="group___g_p_i_o___exported___constants.html#ga15ac849764fb0b91e21164a7cc4d4734">AFIO_PIN_11</a>)</td></tr>
 <tr class="separator:ga29cca3e5daf6488a84382f0163d24fbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8461c5209054202093dc0130282a4966" id="r_ga8461c5209054202093dc0130282a4966"><td class="memItemLeft" align="right" valign="top"><a id="ga8461c5209054202093dc0130282a4966" name="ga8461c5209054202093dc0130282a4966"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>FLASH_SPI_MISO_AFIO_MODE</b>&#160;&#160;&#160;(<a class="el" href="group___g_p_i_o___exported___constants.html#ga2b05b21545d92d402a7efc62e3adf1d0">AFIO_FUN_SPI</a>)</td></tr>
+<tr class="memitem:ga8461c5209054202093dc0130282a4966" id="r_ga8461c5209054202093dc0130282a4966"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_t32_f54241___s_k___s_p_i___f_l_a_s_h.html#ga8461c5209054202093dc0130282a4966">FLASH_SPI_MISO_AFIO_MODE</a>&#160;&#160;&#160;(<a class="el" href="group___g_p_i_o___exported___constants.html#ga2b05b21545d92d402a7efc62e3adf1d0">AFIO_FUN_SPI</a>)</td></tr>
 <tr class="separator:ga8461c5209054202093dc0130282a4966"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4ecef0d8c7762b55aec048ca147fac8e" id="r_ga4ecef0d8c7762b55aec048ca147fac8e"><td class="memItemLeft" align="right" valign="top"><a id="ga4ecef0d8c7762b55aec048ca147fac8e" name="ga4ecef0d8c7762b55aec048ca147fac8e"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>FLASH_SPI_SEL_GPIO_ID</b>&#160;&#160;&#160;(GPIO_PA)</td></tr>
+<tr class="memitem:ga4ecef0d8c7762b55aec048ca147fac8e" id="r_ga4ecef0d8c7762b55aec048ca147fac8e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_t32_f54241___s_k___s_p_i___f_l_a_s_h.html#ga4ecef0d8c7762b55aec048ca147fac8e">FLASH_SPI_SEL_GPIO_ID</a>&#160;&#160;&#160;(<a class="el" href="group___g_p_i_o___exported___constants.html#ga155e249f4deb96438f3827f66a90a31d">GPIO_PA</a>)</td></tr>
 <tr class="separator:ga4ecef0d8c7762b55aec048ca147fac8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5b242b3de12e0e688427852c267b19a9" id="r_ga5b242b3de12e0e688427852c267b19a9"><td class="memItemLeft" align="right" valign="top"><a id="ga5b242b3de12e0e688427852c267b19a9" name="ga5b242b3de12e0e688427852c267b19a9"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>FLASH_SPI_SEL_GPIO_PIN</b>&#160;&#160;&#160;(<a class="el" href="group___g_p_i_o___exported___constants.html#gaf5eb6a42a4428e236bd4fd08ade71e7a">GPIO_PIN_8</a>)</td></tr>
+<tr class="memitem:ga5b242b3de12e0e688427852c267b19a9" id="r_ga5b242b3de12e0e688427852c267b19a9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_t32_f54241___s_k___s_p_i___f_l_a_s_h.html#ga5b242b3de12e0e688427852c267b19a9">FLASH_SPI_SEL_GPIO_PIN</a>&#160;&#160;&#160;(<a class="el" href="group___g_p_i_o___exported___constants.html#gaf5eb6a42a4428e236bd4fd08ade71e7a">GPIO_PIN_8</a>)</td></tr>
 <tr class="separator:ga5b242b3de12e0e688427852c267b19a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7e40fcd513d4413a82133cbddbbd4081" id="r_ga7e40fcd513d4413a82133cbddbbd4081"><td class="memItemLeft" align="right" valign="top"><a id="ga7e40fcd513d4413a82133cbddbbd4081" name="ga7e40fcd513d4413a82133cbddbbd4081"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>FLASH_SPI_SEL_AFIO_MODE</b>&#160;&#160;&#160;(<a class="el" href="group___g_p_i_o___exported___constants.html#ga5867ea02b28451cfa604efc72c794127">AFIO_FUN_GPIO</a>)</td></tr>
+<tr class="memitem:ga7e40fcd513d4413a82133cbddbbd4081" id="r_ga7e40fcd513d4413a82133cbddbbd4081"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_t32_f54241___s_k___s_p_i___f_l_a_s_h.html#ga7e40fcd513d4413a82133cbddbbd4081">FLASH_SPI_SEL_AFIO_MODE</a>&#160;&#160;&#160;(<a class="el" href="group___g_p_i_o___exported___constants.html#ga5867ea02b28451cfa604efc72c794127">AFIO_FUN_GPIO</a>)</td></tr>
 <tr class="separator:ga7e40fcd513d4413a82133cbddbbd4081"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga121e5a93246424d4e37a94d1fad133de" id="r_ga121e5a93246424d4e37a94d1fad133de"><td class="memItemLeft" align="right" valign="top"><a id="ga121e5a93246424d4e37a94d1fad133de" name="ga121e5a93246424d4e37a94d1fad133de"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>FLASH_SPI_SEL_CLK</b>(CK)&#160;&#160;&#160;(CK.Bit.PA)</td></tr>
+<tr class="memitem:ga121e5a93246424d4e37a94d1fad133de" id="r_ga121e5a93246424d4e37a94d1fad133de"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_t32_f54241___s_k___s_p_i___f_l_a_s_h.html#ga121e5a93246424d4e37a94d1fad133de">FLASH_SPI_SEL_CLK</a>(CK)&#160;&#160;&#160;(CK.Bit.PA)</td></tr>
 <tr class="separator:ga121e5a93246424d4e37a94d1fad133de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="ga232a35d7a3adf71edf21eff160c639cf" name="ga232a35d7a3adf71edf21eff160c639cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga232a35d7a3adf71edf21eff160c639cf">&#9670;&#160;</a></span>FLASH_SPI</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FLASH_SPI&#160;&#160;&#160;(<a class="el" href="group___c_m_s_i_s.html#ga3f9b6e51983edaf1bffb0245f9b4ba42">HT_SPI0</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gaa6ea6e99f62692ed82ac50ffc1b9ecc1" name="gaa6ea6e99f62692ed82ac50ffc1b9ecc1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa6ea6e99f62692ed82ac50ffc1b9ecc1">&#9670;&#160;</a></span>FLASH_SPI_CLK</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FLASH_SPI_CLK</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">CK</td><td>)</td>
+          <td>&#160;&#160;&#160;(CK.Bit.SPI0)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga8461c5209054202093dc0130282a4966" name="ga8461c5209054202093dc0130282a4966"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8461c5209054202093dc0130282a4966">&#9670;&#160;</a></span>FLASH_SPI_MISO_AFIO_MODE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FLASH_SPI_MISO_AFIO_MODE&#160;&#160;&#160;(<a class="el" href="group___g_p_i_o___exported___constants.html#ga2b05b21545d92d402a7efc62e3adf1d0">AFIO_FUN_SPI</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga29cca3e5daf6488a84382f0163d24fbb" name="ga29cca3e5daf6488a84382f0163d24fbb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga29cca3e5daf6488a84382f0163d24fbb">&#9670;&#160;</a></span>FLASH_SPI_MISO_AFIO_PIN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FLASH_SPI_MISO_AFIO_PIN&#160;&#160;&#160;(<a class="el" href="group___g_p_i_o___exported___constants.html#ga15ac849764fb0b91e21164a7cc4d4734">AFIO_PIN_11</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga6f1375ebdc9294628decc4862e397892" name="ga6f1375ebdc9294628decc4862e397892"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6f1375ebdc9294628decc4862e397892">&#9670;&#160;</a></span>FLASH_SPI_MISO_GPIO_ID</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FLASH_SPI_MISO_GPIO_ID&#160;&#160;&#160;(<a class="el" href="group___g_p_i_o___exported___constants.html#ga155e249f4deb96438f3827f66a90a31d">GPIO_PA</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gab042c3364e643a51ea05d8869e3d4516" name="gab042c3364e643a51ea05d8869e3d4516"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab042c3364e643a51ea05d8869e3d4516">&#9670;&#160;</a></span>FLASH_SPI_MOSI_AFIO_MODE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FLASH_SPI_MOSI_AFIO_MODE&#160;&#160;&#160;(<a class="el" href="group___g_p_i_o___exported___constants.html#ga2b05b21545d92d402a7efc62e3adf1d0">AFIO_FUN_SPI</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gac5ffa611bac2f796d7a4dec1e2f14a3e" name="gac5ffa611bac2f796d7a4dec1e2f14a3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac5ffa611bac2f796d7a4dec1e2f14a3e">&#9670;&#160;</a></span>FLASH_SPI_MOSI_AFIO_PIN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FLASH_SPI_MOSI_AFIO_PIN&#160;&#160;&#160;(<a class="el" href="group___g_p_i_o___exported___constants.html#gac00088060eeccbe4f5f51ee25939bce4">AFIO_PIN_10</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gaac517aeae2332047ce6d18ac07dd3bfe" name="gaac517aeae2332047ce6d18ac07dd3bfe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaac517aeae2332047ce6d18ac07dd3bfe">&#9670;&#160;</a></span>FLASH_SPI_MOSI_GPIO_ID</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FLASH_SPI_MOSI_GPIO_ID&#160;&#160;&#160;(<a class="el" href="group___g_p_i_o___exported___constants.html#ga155e249f4deb96438f3827f66a90a31d">GPIO_PA</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga1d7863a415e52922b2d50b5aef4a783b" name="ga1d7863a415e52922b2d50b5aef4a783b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1d7863a415e52922b2d50b5aef4a783b">&#9670;&#160;</a></span>FLASH_SPI_SCK_AFIO_MODE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FLASH_SPI_SCK_AFIO_MODE&#160;&#160;&#160;(<a class="el" href="group___g_p_i_o___exported___constants.html#ga2b05b21545d92d402a7efc62e3adf1d0">AFIO_FUN_SPI</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga8843235dc53ab3da71cd3cbfb1b4e46f" name="ga8843235dc53ab3da71cd3cbfb1b4e46f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8843235dc53ab3da71cd3cbfb1b4e46f">&#9670;&#160;</a></span>FLASH_SPI_SCK_AFIO_PIN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FLASH_SPI_SCK_AFIO_PIN&#160;&#160;&#160;(<a class="el" href="group___g_p_i_o___exported___constants.html#ga4ac3f5c4b401d780e74be9d017d910b0">AFIO_PIN_0</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga07f8eb676e1b7da8bb84d33b2d5101da" name="ga07f8eb676e1b7da8bb84d33b2d5101da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga07f8eb676e1b7da8bb84d33b2d5101da">&#9670;&#160;</a></span>FLASH_SPI_SCK_GPIO_ID</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FLASH_SPI_SCK_GPIO_ID&#160;&#160;&#160;(GPIO_PC)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga7e40fcd513d4413a82133cbddbbd4081" name="ga7e40fcd513d4413a82133cbddbbd4081"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7e40fcd513d4413a82133cbddbbd4081">&#9670;&#160;</a></span>FLASH_SPI_SEL_AFIO_MODE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FLASH_SPI_SEL_AFIO_MODE&#160;&#160;&#160;(<a class="el" href="group___g_p_i_o___exported___constants.html#ga5867ea02b28451cfa604efc72c794127">AFIO_FUN_GPIO</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga121e5a93246424d4e37a94d1fad133de" name="ga121e5a93246424d4e37a94d1fad133de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga121e5a93246424d4e37a94d1fad133de">&#9670;&#160;</a></span>FLASH_SPI_SEL_CLK</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FLASH_SPI_SEL_CLK</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">CK</td><td>)</td>
+          <td>&#160;&#160;&#160;(CK.Bit.PA)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga4ecef0d8c7762b55aec048ca147fac8e" name="ga4ecef0d8c7762b55aec048ca147fac8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4ecef0d8c7762b55aec048ca147fac8e">&#9670;&#160;</a></span>FLASH_SPI_SEL_GPIO_ID</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FLASH_SPI_SEL_GPIO_ID&#160;&#160;&#160;(<a class="el" href="group___g_p_i_o___exported___constants.html#ga155e249f4deb96438f3827f66a90a31d">GPIO_PA</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga5b242b3de12e0e688427852c267b19a9" name="ga5b242b3de12e0e688427852c267b19a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5b242b3de12e0e688427852c267b19a9">&#9670;&#160;</a></span>FLASH_SPI_SEL_GPIO_PIN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FLASH_SPI_SEL_GPIO_PIN&#160;&#160;&#160;(<a class="el" href="group___g_p_i_o___exported___constants.html#gaf5eb6a42a4428e236bd4fd08ade71e7a">GPIO_PIN_8</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

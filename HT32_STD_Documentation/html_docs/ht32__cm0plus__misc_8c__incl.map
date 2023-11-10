@@ -1,0 +1,23 @@
+<map id="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/library/HT32F5xxxx_Driver/src/ht32_cm0plus_misc.c" name="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/library/HT32F5xxxx_Driver/src/ht32_cm0plus_misc.c">
+<area shape="rect" id="Node000001" title="This file provides all the miscellaneous firmware functions." alt="" coords="103,5,331,112"/>
+<area shape="rect" id="Node000002" href="$ht32__cm0plus__misc_8h.html" title="All the function prototypes for the miscellaneous firmware library." alt="" coords="5,160,154,187"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="154,114,108,152,105,148,151,110"/>
+<area shape="rect" id="Node000008" href="$ht32__div_8c.html" title="The division assembly." alt="" coords="177,160,257,187"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="220,112,220,144,214,144,214,112"/>
+<area shape="rect" id="Node000009" href="$ht32__rand_8c.html" title="The rundom number function." alt="" coords="280,160,370,187"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="269,110,304,147,300,150,265,114"/>
+<area shape="rect" id="Node000003" href="$ht32_8h.html" title="The API between application and HT32FXXXX Firmware Library." alt="" coords="188,235,246,261"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="105,185,181,225,178,229,102,190"/>
+<area shape="rect" id="Node000004" href="$ht32f5xxxx__01_8h.html" title="CMSIS Cortex&#45;M0+ Device Peripheral Access Layer Header File." alt="" coords="159,309,275,336"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="220,262,220,294,214,294,214,262"/>
+<area shape="rect" id="Node000005" href="$ht32__config_8h.html" title="Configuration file of HT32." alt="" coords="38,384,137,411"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="196,339,125,378,122,374,193,334"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="160,384,274,411"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="220,337,220,368,214,368,214,337"/>
+<area shape="rect" id="Node000007" href="$system__ht32f5xxxx__01_8h.html" title="CMSIS Cortex&#45;M0+ Device Peripheral Access Layer System Header File for the Holtek HT32F5xxxx Device S..." alt="" coords="298,384,464,411"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="246,334,339,375,337,380,244,339"/>
+<area shape="poly" id="edge8_Node000008_Node000003" title=" " alt="" coords="220,187,220,219,214,219,214,187"/>
+<area shape="poly" id="edge10_Node000009_Node000003" title=" " alt="" coords="308,189,250,228,247,223,305,185"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="293,235,357,261"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="328,187,328,219,322,219,322,187"/>
+</map>
