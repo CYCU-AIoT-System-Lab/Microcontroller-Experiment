@@ -1,5 +1,0 @@
-<map id="Debug Identification Block" name="Debug Identification Block">
-<area shape="rect" id="Node000002" href="$group___c_m_s_i_s___d_c_b.html" title="Type definitions for the Debug Control Block Registers." alt="" coords="5,13,146,40"/>
-<area shape="rect" id="Node000001" title="Type definitions for the Debug Identification Block Registers." alt="" coords="194,5,328,48"/>
-<area shape="rect" id="Node000003" href="$group___c_m_s_i_s__core__bitfield.html" title="Macros for use with bit field definitions (xxx_Pos, xxx_Msk)." alt="" coords="376,5,516,48"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="Core Definitions" name="Core Definitions">
-<area shape="rect" id="Node000001" title="Definitions for base addresses, unions, and structures." alt="" coords="194,13,306,40"/>
-<area shape="rect" id="Node000003" href="$group___c_m_s_i_s__register__aliases.html" title="Register alias definitions for backwards compatibility." alt="" coords="354,5,518,48"/>
-<area shape="rect" id="Node000002" href="$group___c_m_s_i_s__core__bitfield.html" title="Macros for use with bit field definitions (xxx_Pos, xxx_Msk)." alt="" coords="5,5,146,48"/>
-</map>

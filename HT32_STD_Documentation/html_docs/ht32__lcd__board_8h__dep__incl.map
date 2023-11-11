@@ -1,9 +1,0 @@
-<map id="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/Mono_LCD/LCD_module/ht32_lcd_board.h" name="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/Mono_LCD/LCD_module/ht32_lcd_board.h">
-<area shape="rect" id="Node000001" title="HT32 target board definition file." alt="" coords="23,5,251,112"/>
-<area shape="rect" id="Node000002" href="$lcd___e_s_k32___a3_a31_8c.html" title="The file provides firmware functions to LCD." alt="" coords="23,160,251,267"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="140,127,140,160,134,160,134,127"/>
-<area shape="rect" id="Node000003" href="$_mono___l_c_d_2_l_c_d__module_2__ht32__project__source_8h.html" title="The project source code setting." alt="" coords="23,315,251,421"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="140,282,140,314,134,314,134,282"/>
-<area shape="rect" id="Node000004" href="$_mono___l_c_d_2_l_c_d__module_2main_8c.html" title="Main program." alt="" coords="5,469,269,560"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="140,437,140,469,134,469,134,437"/>
-</map>

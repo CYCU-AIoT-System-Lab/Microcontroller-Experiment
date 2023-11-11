@@ -1,6 +1,0 @@
-<map id="Data Watchpoint and Trace (DWT)" name="Data Watchpoint and Trace (DWT)">
-<area shape="rect" id="Node000001" title="Type definitions for the Data Watchpoint and Trace (DWT)" alt="" coords="200,43,343,85"/>
-<area shape="rect" id="Node000003" href="$group___c_m_s_i_s___t_p_i.html" title="Type definitions for the Trace Port Interface (TPI)" alt="" coords="425,5,559,48"/>
-<area shape="rect" id="Node000004" href="$group___mem_sys_ctl___type.html" title="Type definitions for the Memory System Control Registers (MEMSYSCTL)" alt="" coords="391,72,592,131"/>
-<area shape="rect" id="Node000002" href="$group___c_m_s_i_s___i_t_m.html" title="Type definitions for the Instrumentation Trace Macrocell (ITM)" alt="" coords="5,43,152,85"/>
-</map>

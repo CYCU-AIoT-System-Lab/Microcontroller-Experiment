@@ -1,7 +1,0 @@
-<map id="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/SPI/Interrupt/ht32f5xxxx_01_it.c" name="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/SPI/Interrupt/ht32f5xxxx_01_it.c">
-<area shape="rect" id="Node000001" title="This file provides all interrupt service routine." alt="" coords="5,5,269,96"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="48,144,106,171"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="114,97,94,132,89,129,109,95"/>
-<area shape="rect" id="Node000003" href="$_s_p_i_2_interrupt_2ht32__board__config_8h.html" title="The header file of board configuration." alt="" coords="130,144,267,171"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="165,95,186,129,181,132,161,97"/>
-</map>

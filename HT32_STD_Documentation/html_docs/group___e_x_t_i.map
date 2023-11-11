@@ -1,9 +1,0 @@
-<map id="EXTI" name="EXTI">
-<area shape="rect" id="Node000001" title="EXTI driver modules." alt="" coords="210,107,257,133"/>
-<area shape="rect" id="Node000005" href="$group___e_x_t_i___exported___constants.html" title=" " alt="" coords="305,5,467,32"/>
-<area shape="rect" id="Node000006" href="$group___e_x_t_i___exported___functions.html" title=" " alt="" coords="308,56,465,83"/>
-<area shape="rect" id="Node000003" href="$group___e_x_t_i___exported___macro.html" title=" " alt="" coords="312,107,460,133"/>
-<area shape="rect" id="Node000004" href="$group___e_x_t_i___exported___types.html" title=" " alt="" coords="318,157,455,184"/>
-<area shape="rect" id="Node000007" href="$group___e_x_t_i___private___define.html" title=" " alt="" coords="311,208,461,235"/>
-<area shape="rect" id="Node000002" href="$group___h_t32_f5xxxx___peripheral___driver.html" title=" " alt="" coords="5,99,162,141"/>
-</map>

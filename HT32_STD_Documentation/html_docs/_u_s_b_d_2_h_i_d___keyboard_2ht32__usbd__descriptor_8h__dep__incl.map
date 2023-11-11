@@ -1,7 +1,0 @@
-<map id="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/USBD/HID_Keyboard/ht32_usbd_descriptor.h" name="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/USBD/HID_Keyboard/ht32_usbd_descriptor.h">
-<area shape="rect" id="Node000001" title="The USB descriptor." alt="" coords="136,5,366,112"/>
-<area shape="rect" id="Node000002" href="$_u_s_b_d_2_h_i_d___keyboard_2ht32__usbd__descriptor_8c.html" title="The USB Descriptor." alt="" coords="5,160,236,267"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="198,125,168,161,164,158,194,122"/>
-<area shape="rect" id="Node000003" href="$_u_s_b_d_2_h_i_d___keyboard_2main_8c.html" title="The main program of USB Device HID Keyboard example." alt="" coords="260,168,504,259"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="308,122,346,166,342,169,304,126"/>
-</map>

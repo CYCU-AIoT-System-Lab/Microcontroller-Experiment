@@ -1,7 +1,0 @@
-<map id="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/ADC_24bit/Convert_Interrupt/ht32_board_config.h" name="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/ADC_24bit/Convert_Interrupt/ht32_board_config.h">
-<area shape="rect" id="Node000001" title="The header file of board configuration." alt="" coords="148,5,389,112"/>
-<area shape="rect" id="Node000002" href="$_a_d_c__24bit_2_convert___interrupt_2ht32f5xxxx__01__it_8c.html" title="This file provides all interrupt service routine." alt="" coords="5,160,247,267"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="211,125,177,161,173,158,207,121"/>
-<area shape="rect" id="Node000003" href="$_a_d_c__24bit_2_convert___interrupt_2main_8c.html" title="Main program." alt="" coords="271,168,555,259"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="330,121,373,166,369,170,326,125"/>
-</map>

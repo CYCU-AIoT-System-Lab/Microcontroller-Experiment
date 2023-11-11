@@ -1,7 +1,0 @@
-<map id="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/USBD/Mass_Storage/sd_disk.c" name="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/USBD/Mass_Storage/sd_disk.c">
-<area shape="rect" id="Node000001" title="The SD Disk related function." alt="" coords="5,5,268,96"/>
-<area shape="rect" id="Node000002" href="$_u_s_b_d_2_mass___storage_2__ht32__project__source_8h.html" title="The project source code setting." alt="" coords="17,144,256,251"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="139,112,139,143,134,143,134,112"/>
-<area shape="rect" id="Node000003" href="$_u_s_b_d_2_mass___storage_2main_8c.html" title="The main program of USB Device Mass Storage example." alt="" coords="14,299,259,389"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="139,266,139,298,134,298,134,266"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="Power Mode Control Registers" name="Power Mode Control Registers">
-<area shape="rect" id="Node000003" href="$group___e_w_i_c___type.html" title="Type definitions for the External Wakeup Interrupt Controller Registers (EWIC)" alt="" coords="441,13,613,56"/>
-<area shape="rect" id="Node000002" href="$group___mem_sys_ctl___type.html" title="Type definitions for the Memory System Control Registers (MEMSYSCTL)" alt="" coords="5,5,207,64"/>
-<area shape="rect" id="Node000001" title="Type definitions for the Power Mode Control Registers (PWRMODCTL)" alt="" coords="255,13,393,56"/>
-</map>

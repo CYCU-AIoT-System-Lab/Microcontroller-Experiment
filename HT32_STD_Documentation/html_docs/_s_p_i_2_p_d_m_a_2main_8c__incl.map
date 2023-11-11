@@ -1,9 +1,0 @@
-<map id="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/SPI/PDMA/main.c" name="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/SPI/PDMA/main.c">
-<area shape="rect" id="Node000001" title="Main program." alt="" coords="22,5,249,96"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,144,63,171"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,98,58,135,55,131,90,94"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="87,144,184,171"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="138,96,138,128,133,128,133,96"/>
-<area shape="rect" id="Node000004" href="$_s_p_i_2_p_d_m_a_2ht32__board__config_8h.html" title="The header file of board configuration." alt="" coords="208,144,345,171"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="197,94,249,133,246,137,194,99"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/USBD/Mass_Storage/ht32_usbd_class.h" name="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/USBD/Mass_Storage/ht32_usbd_class.h">
-<area shape="rect" id="Node000001" title="The header file of USB Device Class." alt="" coords="261,5,493,112"/>
-<area shape="rect" id="Node000002" href="$example_2_u_s_b_d_2_mass___storage_2ht32__usbd__class_8c.html" title="The USB Device Class." alt="" coords="5,160,237,267"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="277,122,211,162,208,157,274,118"/>
-<area shape="rect" id="Node000003" href="$example_2_u_s_b_d_2_mass___storage_2ht32__usbd__descriptor_8c.html" title="The USB Descriptor." alt="" coords="261,160,493,267"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="380,127,380,160,374,160,374,127"/>
-<area shape="rect" id="Node000004" href="$example_2_u_s_b_d_2_mass___storage_2main_8c.html" title="The main program of USB Device Mass Storage example." alt="" coords="517,168,762,259"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="482,118,564,165,562,170,480,122"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="USBDCore_Device_TypeDef" name="USBDCore_Device_TypeDef">
-<area shape="rect" id="Node000001" title="USB Device." alt="" coords="33,187,217,213"/>
-<area shape="rect" id="Node000002" href="$struct_u_s_b_d_core___desc___type_def.html" title="USB Descriptor." alt="" coords="5,96,181,123"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,136,123,185,118,187,100,138"/>
-<area shape="rect" id="Node000003" href="$struct_u_s_b_d_core___transfer___type_def.html" title="Parameter for control IN/OUT Transfer." alt="" coords="205,96,397,123"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="263,132,151,188,149,184,261,128"/>
-<area shape="rect" id="Node000004" href="$struct_u_s_b_d_core___call_back___type_def.html" title="Call back function." alt="" coords="202,5,400,32"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="304,48,304,95,298,95,298,48"/>
-</map>

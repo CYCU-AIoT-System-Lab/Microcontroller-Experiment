@@ -1,7 +1,0 @@
-<map id="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/I2C/EEPROM_Simulate/ht32_board_config.h" name="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/I2C/EEPROM_Simulate/ht32_board_config.h">
-<area shape="rect" id="Node000001" title="The header file of board configuration." alt="" coords="139,5,366,112"/>
-<area shape="rect" id="Node000002" href="$_i2_c_2_e_e_p_r_o_m___simulate_2ht32f5xxxx__01__it_8c.html" title="This file provides all interrupt service routine." alt="" coords="5,160,233,267"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="199,125,167,161,163,158,195,122"/>
-<area shape="rect" id="Node000003" href="$_i2_c_2_e_e_p_r_o_m___simulate_2main_8c.html" title="Main program." alt="" coords="257,168,517,259"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="311,122,350,166,346,169,307,125"/>
-</map>

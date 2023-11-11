@@ -1,7 +1,0 @@
-<map id="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/USBD/HID_Keyboard_Mass_Storage/Src_MassStorage/usb_scsi_block_command.c" name="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/USBD/HID_Keyboard_Mass_Storage/Src_MassStorage/usb_scsi_block_command.c">
-<area shape="rect" id="Node000001" title="The SCSI Block Command (SBC&#45;3 &amp; SPC&#45;4)." alt="" coords="5,5,246,128"/>
-<area shape="rect" id="Node000002" href="$_u_s_b_d_2_h_i_d___keyboard___mass___storage_2__ht32__project__source_8h.html" title="The project source code setting." alt="" coords="5,176,246,283"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="128,144,128,176,123,176,123,144"/>
-<area shape="rect" id="Node000003" href="$_u_s_b_d_2_h_i_d___keyboard___mass___storage_2main_8c.html" title="The main program of USB Device HID Keyboard + Mass Storage example." alt="" coords="5,331,246,437"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="128,298,128,330,123,330,123,298"/>
-</map>

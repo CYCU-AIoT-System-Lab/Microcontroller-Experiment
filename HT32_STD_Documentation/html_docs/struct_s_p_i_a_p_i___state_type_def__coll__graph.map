@@ -1,7 +1,0 @@
-<map id="SPIAPI_StateTypeDef" name="SPIAPI_StateTypeDef">
-<area shape="rect" id="Node000001" title=" " alt="" coords="66,96,214,123"/>
-<area shape="rect" id="Node000002" href="$struct_h_t___s_p_i___type_def.html" title="SPI." alt="" coords="5,5,125,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="88,42,131,94,127,97,83,46"/>
-<area shape="rect" id="Node000003" href="$struct_h_t___g_p_i_o___type_def.html" title="General Purpose I/O." alt="" coords="149,5,280,32"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="196,46,152,97,148,94,192,42"/>
-</map>

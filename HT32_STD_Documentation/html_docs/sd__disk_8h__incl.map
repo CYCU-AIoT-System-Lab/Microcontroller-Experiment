@@ -1,9 +1,0 @@
-<map id="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/USBD/Mass_Storage/sd_disk.h" name="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/USBD/Mass_Storage/sd_disk.h">
-<area shape="rect" id="Node000001" title="The header file of SD Disk." alt="" coords="5,5,268,96"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="39,144,96,171"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,98,86,132,82,129,105,95"/>
-<area shape="rect" id="Node000003" href="$_mass___storage_2usb__bulk__only__transport_8h.html" title="The header file of Bulk Only Transport." alt="" coords="121,144,294,171"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="169,95,193,130,188,133,164,98"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="159,219,255,245"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="210,171,210,203,205,203,205,171"/>
-</map>

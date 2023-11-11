@@ -1,5 +1,0 @@
-<map id="SysTick Functions" name="SysTick Functions">
-<area shape="rect" id="Node000002" href="$group___c_m_s_i_s___core___d_i_b_functions.html" title="Functions that access the Debug Identification Block." alt="" coords="5,5,140,48"/>
-<area shape="rect" id="Node000001" title="Functions that configure the System." alt="" coords="188,13,317,40"/>
-<area shape="rect" id="Node000003" href="$group___c_m_s_i_s__core___debug_functions.html" title="Functions that access the ITM debug interface." alt="" coords="365,13,468,40"/>
-</map>

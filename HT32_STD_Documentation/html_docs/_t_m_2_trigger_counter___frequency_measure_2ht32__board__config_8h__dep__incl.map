@@ -1,7 +1,0 @@
-<map id="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/TM/TriggerCounter_FrequencyMeasure/ht32_board_config.h" name="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/TM/TriggerCounter_FrequencyMeasure/ht32_board_config.h">
-<area shape="rect" id="Node000001" title="The header file of board configuration." alt="" coords="179,5,481,112"/>
-<area shape="rect" id="Node000002" href="$_t_m_2_trigger_counter___frequency_measure_2ht32f5xxxx__01__it_8c.html" title="This file provides all interrupt service routine." alt="" coords="5,160,308,267"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="261,124,218,162,215,158,257,120"/>
-<area shape="rect" id="Node000003" href="$_t_m_2_trigger_counter___frequency_measure_2main_8c.html" title="Main program." alt="" coords="332,168,677,259"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="403,120,455,166,452,170,400,124"/>
-</map>

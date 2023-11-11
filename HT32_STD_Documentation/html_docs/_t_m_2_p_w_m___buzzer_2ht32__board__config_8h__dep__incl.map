@@ -1,9 +1,0 @@
-<map id="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/TM/PWM_Buzzer/ht32_board_config.h" name="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/example/TM/PWM_Buzzer/ht32_board_config.h">
-<area shape="rect" id="Node000001" title="The header file of board configuration." alt="" coords="295,5,596,96"/>
-<area shape="rect" id="Node000002" href="$buzzer__pwm_8c.html" title="The buzzer function." alt="" coords="5,144,275,235"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="333,105,241,146,239,141,331,100"/>
-<area shape="rect" id="Node000003" href="$_t_m_2_p_w_m___buzzer_2ht32f5xxxx__01__it_8c.html" title="This file provides all interrupt service routine." alt="" coords="298,144,593,235"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="448,112,448,143,443,143,443,112"/>
-<area shape="rect" id="Node000004" href="$_t_m_2_p_w_m___buzzer_2main_8c.html" title="Main program." alt="" coords="617,144,844,235"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="553,101,638,141,636,146,551,105"/>
-</map>

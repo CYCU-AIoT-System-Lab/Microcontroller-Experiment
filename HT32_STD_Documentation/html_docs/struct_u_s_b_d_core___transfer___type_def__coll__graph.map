@@ -1,5 +1,0 @@
-<map id="USBDCore_Transfer_TypeDef" name="USBDCore_Transfer_TypeDef">
-<area shape="rect" id="Node000001" title="Parameter for control IN/OUT Transfer." alt="" coords="8,96,200,123"/>
-<area shape="rect" id="Node000002" href="$struct_u_s_b_d_core___call_back___type_def.html" title="Call back function." alt="" coords="5,5,203,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,48,107,95,101,95,101,48"/>
-</map>

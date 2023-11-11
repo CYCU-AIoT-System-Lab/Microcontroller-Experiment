@@ -1,8 +1,0 @@
-<map id="NVIC" name="NVIC">
-<area shape="rect" id="Node000003" href="$group___disable___interrupt.html" title=" " alt="" coords="338,5,456,32"/>
-<area shape="rect" id="Node000004" href="$group___external___interrupt.html" title=" " alt="" coords="336,56,459,83"/>
-<area shape="rect" id="Node000002" href="$group___h_t32___series___peripheral___examples.html" title=" " alt="" coords="5,81,181,108"/>
-<area shape="rect" id="Node000001" title=" " alt="" coords="229,81,280,108"/>
-<area shape="rect" id="Node000005" href="$group___system___exception.html" title=" " alt="" coords="332,107,463,133"/>
-<area shape="rect" id="Node000006" href="$group___vector___table___offset.html" title=" " alt="" coords="328,157,466,184"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/utilities/middleware/i2c_master.h" name="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/utilities/middleware/i2c_master.h">
-<area shape="rect" id="Node000001" title="The header file of I2C Master (interrupt mode with buffer)." alt="" coords="142,5,369,96"/>
-<area shape="rect" id="Node000002" href="$delta__sigma__adc_8c.html" title="The delta sigma ADC driver." alt="" coords="5,144,247,251"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="207,109,175,145,171,142,204,106"/>
-<area shape="rect" id="Node000003" href="$i2c__master_8c.html" title="The I2C Master (interrupt mode with buffer)." alt="" coords="271,152,498,243"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="307,106,347,150,343,153,303,110"/>
-</map>

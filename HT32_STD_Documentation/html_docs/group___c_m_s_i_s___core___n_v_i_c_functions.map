@@ -1,6 +1,0 @@
-<map id="NVIC Functions" name="NVIC Functions">
-<area shape="rect" id="Node000004" href="$group___c_m_s_i_s___core___fpu_functions.html" title="Function that provides FPU type." alt="" coords="388,47,496,73"/>
-<area shape="rect" id="Node000003" href="$group___c_m_s_i_s___core___function_interface.html" title=" " alt="" coords="5,5,180,48"/>
-<area shape="rect" id="Node000001" title="Functions that manage interrupts and exceptions via the NVIC." alt="" coords="228,47,340,73"/>
-<area shape="rect" id="Node000002" href="$group___c_m_s_i_s__register__aliases.html" title="Register alias definitions for backwards compatibility." alt="" coords="10,72,175,115"/>
-</map>

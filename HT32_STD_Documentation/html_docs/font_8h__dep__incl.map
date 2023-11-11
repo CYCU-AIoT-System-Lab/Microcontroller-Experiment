@@ -1,7 +1,0 @@
-<map id="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/utilities/common/font.h" name="D:/Note_Database/Subject/MCETA Microcontroller Experiment TA/files/HT32_STD_5xxxx_FWLib_V1.5.1_7084b/utilities/common/font.h">
-<area shape="rect" id="Node000001" title="This file contains the font information." alt="" coords="131,5,358,96"/>
-<area shape="rect" id="Node000002" href="$ebi__lcd_8c.html" title="This file provides a set of functions needed to manage the communication between EBI peripheral and L..." alt="" coords="5,144,233,235"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="195,110,162,145,158,142,191,106"/>
-<area shape="rect" id="Node000003" href="$spi__lcd_8c.html" title="This file provides a set of functions needed to manage the communication between SPI peripheral and L..." alt="" coords="257,144,485,235"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="298,106,331,142,327,145,294,110"/>
-</map>

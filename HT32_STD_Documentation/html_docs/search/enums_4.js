@@ -1,4 +1,0 @@
-var searchData=
-[
-  ['testresult_0',['testresult',['../group___i2_c__10__bit__mode.html#gaae529400284a6182b4bdb3a5596bd093',1,'TestResult:&#160;main.c'],['../group___i2_c__7__bit__mode.html#gaae529400284a6182b4bdb3a5596bd093',1,'TestResult:&#160;main.c'],['../group___i2_c__7__bit__mode__master.html#gaae529400284a6182b4bdb3a5596bd093',1,'TestResult:&#160;main.c'],['../group___i2_c__7__bit__mode__slave.html#gaae529400284a6182b4bdb3a5596bd093',1,'TestResult:&#160;main.c'],['../group___i2_c___p_d_m_a.html#gaae529400284a6182b4bdb3a5596bd093',1,'TestResult:&#160;main.c'],['../group___f_i_f_o___s_e_l___hardware.html#gaae529400284a6182b4bdb3a5596bd093',1,'TestResult:&#160;main.c'],['../group___s_p_i___interrupt.html#gaae529400284a6182b4bdb3a5596bd093',1,'TestResult:&#160;main.c'],['../group___s_e_l___software.html#gaae529400284a6182b4bdb3a5596bd093',1,'TestResult:&#160;main.c']]]
-];
