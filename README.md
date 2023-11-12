@@ -19,3 +19,4 @@
 |    6     | SPI                |
 |    7     | PWM                |
 |    8     | PWM + ADC          |
+|    9     | EXTI               |
