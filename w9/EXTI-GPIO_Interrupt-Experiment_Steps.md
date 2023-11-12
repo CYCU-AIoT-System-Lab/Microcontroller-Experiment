@@ -27,7 +27,7 @@ Hint:
 
 </details>
 
-Result: <>
+Result: <https://youtu.be/IBAPzCThSmw>
 
 ## Homework 9-2
 
@@ -67,42 +67,16 @@ Hint:
 
 </details>
 
-Result: <>
+Result: <https://youtu.be/J5rq6M999nU>
 
-## Homework 7-3
+## Homework 9-3 Bonus
 
-Objective: Use laptop keyboard (Tera Term) input Duty Cycle to control SG90.
-
-Hint:
-
-1. Connect ```CH0```(甲班)/```CH2```(乙班) to oscilloscope.
-2. Connect ```CH1```(甲班)/```CH3```(乙班) to servo motor SG90, and use user input to rotate it to 0, 45, 90, 135, and 180 degrees angle.
-3. Edit code.
-
-<details><summary>Experiment Steps: (Click to see more)</summary>
-
-1. Modify code.
-   1. Add code on PPT to your main.c.
-2. Connect wires.
-   1. ```CH0```(甲班)/```CH2```(乙班) :arrow_right: oscilloscope.
-   2. ```CH1```(甲班)/```CH3```(乙班) :arrow_right: servo motor SG90 orange wire.
-   3. 5V :arrow_right: servo motor SG90 red wire.
-   4. GND :arrow_right: servo motor SG90 brown wire.
-3. After powered on and loaded with modified code, you should be able to use input from Tera Term to control the rotation of SG90.
-
-</details>
-
-Result: <https://youtu.be/97nUNzzfz-c>
-
-## Homework 7-4 Bonus
-
-Objective: Use three buttons to control SG90 to rotate to 0, 90, and 180 degrees.
+Objective: Use EXTI to control SG90 based on HW7-4.
 
 Hint:
 
-1. Connect ```CH0```(甲班)/```CH2```(乙班) to oscilloscope.
-2. Connect ```CH1```(甲班)/```CH3```(乙班) to servo motor SG90.
-3. Use pin "A1, A2, A3"(甲班)/"B1, B2, B3"(乙班) to take GPIO input.
-4. Refer to week 2 example ```GPIO/InputOutput```.
+1. Keep all of the wire connection in HW9-2 and add new ones to control SG90.
+2. Implement button interrupt to rotate the servo motor to 0, 90, and 180 degrees angle.
+3. PWM_CH0(甲班)/PWM_CH1(乙班).
 
-Result: <https://youtu.be/7Mu6fSOrbyc>
+Result: <https://youtu.be/H4Aaaw6TtZY>
