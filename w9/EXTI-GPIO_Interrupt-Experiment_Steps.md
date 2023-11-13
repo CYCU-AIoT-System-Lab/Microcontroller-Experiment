@@ -21,8 +21,8 @@ Hint:
 2. Connect ESK32-30501 dev-board to ESK300 eval-board. (without power)
    1. VDD to 3V3.
    2. GND to GND.
-   3. GND to JP24-4.
-   4. B12 to JP24-0.
+   3. GND to JP24-0.
+   4. B12 to JP24-4.
 3. After powered on and loaded with modified code, your program should only be triggered once the button JP24-0-4 is pressed.
 
 </details>
@@ -53,8 +53,8 @@ Hint:
 2. Connect ESK32-30501 dev-board to ESK300 eval-board. (without power)
    1. VDD to 3V3.
    2. GND to GND.
-   3. GND to JP24-4.
-   4. B12 to JP24-0.
+   3. GND to JP24-0.
+   4. B12 to JP24-4.
    5. A11(甲班)/C11(乙班) to JP24-5.
    6. A10(甲班)/C10(乙班) to JP24-6.
    7. C14 to JP13-7.
