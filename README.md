@@ -23,9 +23,10 @@
 
 ## Dependencies
 
-1. Compiler: Keil v5 ARMCLANG V6.19
-2. Firmware Pack: HT32_STD_5xxxx_FWLib_V1.5.1_7084
-3. Firmware Pack Subversion: MDK_ARMv537
-4. Core: HT32F52352
-5. Dev Board: ESK32-30501
-6. Eval Board: ESK300
+1. Toolchain: MDK-Lite Version 5.38.0.0
+2. Compiler: Keil v5 ARMCLANG V6.19
+3. Firmware Pack: HT32_STD_5xxxx_FWLib_V1.5.1_7084
+4. Firmware Pack Subversion: MDK_ARMv537
+5. Core: HT32F52352
+6. Dev Board: ESK32-30501
+7. Eval Board: ESK300
