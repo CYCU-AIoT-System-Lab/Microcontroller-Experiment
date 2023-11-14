@@ -20,3 +20,12 @@
 |    7     | PWM                |
 |    8     | PWM + ADC          |
 |    9     | EXTI               |
+
+## Dependencies
+
+1. Compiler: Keil v5 ARMCLANG V6.19
+2. Firmware Pack: HT32_STD_5xxxx_FWLib_V1.5.1_7084
+3. Firmware Pack Subversion: MDK_ARMv537
+4. Core: HT32F52352
+5. Dev Board: ESK32-30501
+6. Eval Board: ESK300
