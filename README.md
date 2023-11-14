@@ -1,5 +1,9 @@
 # Microprocessor-Experiment
  
+Note: All of this is made possible by Prof. Yu-Ping Liao and senior students who made the initial version, modify and improve year by year.
+
+## Related Links
+
 - Setup keil MDK development environment in vscode: <https://www.youtube.com/watch?v=Kqx5ySmTHuw>
 - Why do header files even exist? <https://www.youtube.com/watch?v=tOQZlD-0Scc&t=281s>
 - How to create a library and split a program across multiple files | C programming tutorial <https://www.youtube.com/watch?v=x8gsHFBW7zY>
