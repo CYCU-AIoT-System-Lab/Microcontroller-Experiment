@@ -77,6 +77,6 @@ Hint:
 
 1. Keep all of the wire connection in HW9-2 and add new ones to control SG90.
 2. Implement button interrupt to rotate the servo motor to 0, 90, and 180 degrees angle.
-3. PWM_CH0(甲班)/PWM_CH1(乙班).
+3. PWM_CH0(甲班)/PWM_CH2(乙班).
 
 Result: <https://youtu.be/H4Aaaw6TtZY>
