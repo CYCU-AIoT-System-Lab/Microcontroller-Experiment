@@ -36,6 +36,7 @@ Special thanks to [Holtek Semiconductor Inc.](https://www.holtek.com.tw/page/ind
 |    7     | PWM                |
 |    8     | PWM + ADC          |
 |    9     | EXTI               |
+|    10    | USART              |
 
 ## Related Links
 
