@@ -17,6 +17,7 @@ Hint: Modify code in while loop, main function.
 1. Modify code.
    1. Retrieve Y axis acceleration data from register.
    2. Print out Y axis value.
+   3. Change cursor move up string.
 2. Connect circuit.
    1. VDD to VCC.
    2. GND to GND.
