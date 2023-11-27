@@ -21,6 +21,11 @@ If you have any question, send me an email containing following things:
 2. Project directory. (ex: ```example/I2C/<your_project>```)
 3. Screenshot of your compiling error message.
 
+Contact Email:
+
+1. 陳大荃 ```dachuan516@gmail.com```
+2. 陳恩妮 ```anna7125867@gmail.com```
+
 ## 3. Q & A
 
 Frequently asked questions refer to [```./Q&A.md```](./Q&A.md).
