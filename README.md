@@ -25,18 +25,19 @@ Special thanks to [Holtek Semiconductor Inc.](https://www.holtek.com.tw/page/ind
 
 ## Weekly Content
 
-| Week No. | Content            |
-| :------: | ------------------ |
-|    1     | Environment setup. |
-|    2     | CKCU + GPIO        |
-|    3     | ADC                |
-|    4     | TM                 |
-|    5     | I2C                |
-|    6     | SPI                |
-|    7     | PWM                |
-|    8     | PWM + ADC          |
-|    9     | EXTI               |
-|    10    | USART              |
+| Week No. | Content                   |
+| :------: | ------------------------- |
+|    1     | Environment setup.        |
+|    2     | CKCU + GPIO               |
+|    3     | ADC                       |
+|    4     | TM                        |
+|    5     | I2C                       |
+|    6     | SPI                       |
+|    7     | PWM                       |
+|    8     | PWM + ADC                 |
+|    9     | EXTI                      |
+|    10    | USART                     |
+|    11    | MPU6500 + Debugging + Q&A |
 
 ## Related Links
 
