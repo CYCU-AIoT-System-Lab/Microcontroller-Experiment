@@ -20,6 +20,11 @@ A: Find it's communication protocol (UART, SPI, I2C...) with their datasheet. Yo
 Q: How can I use a Bluetooth module (USART/UART protocol) at the same time with displaying debugging info on Tera Term?  
 A: Refer to settings in ```./example/USART/Interrupt```, and use USART0 instead of USART1 for Bluetooth module communication. (With specified PIN in datasheet)
 
+## 5. How can I add additional C and H file into project?
+
+Q: I want to include additional libraries downloaded from the Internet, how?
+A: In Keil uVision 5, go to "Options for target"/"C/C++(AC6)"/"Include Paths"/"...", and type in the directory your files located.
+
 ## Additional Sources
 
 1. Phase array (sonar scanner). <https://www.youtube.com/watch?v=z4uxC7ISd-c>
