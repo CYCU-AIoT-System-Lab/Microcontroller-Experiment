@@ -1,6 +1,6 @@
 # Microprocessor-Experiment
  
-All of this is made possible by Prof. Yu-Ping Liao and senior students who made the initial version, modify and improve year by year.
+All of this is made possible by Prof. Yu-Ping Liao and senior students who made the initial version, modified and improved year by year.
 
 Special thanks to [Holtek Semiconductor Inc.](https://www.holtek.com.tw/page/index) for providing ESK32-30501 and ESK300 boards.
 
