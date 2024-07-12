@@ -10,7 +10,7 @@ Special thanks to [Holtek Semiconductor Inc.](https://www.holtek.com.tw/page/ind
 2. Compiler: Keil v5 ARMCLANG V6.19
 3. Firmware Pack: HT32_STD_5xxxx_FWLib_V1.5.1_7084
 4. Firmware Pack Subversion: MDK_ARMv537
-5. Core: HT32F52352
+5. Core: HT32F52352 (ARM Cortex M0+)
 6. Dev Board: ESK32-30501
 7. Eval Board: ESK300
 
